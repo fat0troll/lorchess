@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/karebqsx"]
+[Date "2013-02-03"]
+[White "txgames"]
+[Black "fat0troll"]
+[Result "1-0"]
+[WhiteElo "964"]
+[BlackElo "1120"]
+[PlyCount "61"]
+[Variant "standard"]
+[Annotator "lichess.org"]
+
+1. e4 e6 2. d4 d5 3. e5 f5 $2 { Mistake. Best was c7c5. } 4. f4 $6 { Inaccuracy. Best was g1f3. } 4... Be7 5. h3 $6 { Inaccuracy. Best was g1f3. } 5... g5 $2 { Mistake. Best was c7c5. } 6. b3 $2 { Mistake. Best was d1h5. } 6... h5 7. g3 $6 { Inaccuracy. Best was g1f3. } 7... Nh6 $6 { Inaccuracy. Best was c7c5. } 8. c4 $6 { Inaccuracy. Best was f4g5. } 8... Nf7 9. c5 g4 10. h4 $6 { Inaccuracy. Best was b1c3. } 10... a6 $6 { Inaccuracy. Best was b7b6. } 11. b4 b5 $2 { Mistake. Best was b7b6. } 12. cxb6 $2 { Mistake. Best was a2a4. } 12... cxb6 13. a4 $2 { Mistake. Best was e1f2. } 13... a5 $2 { Mistake. Best was e7b4. } 14. bxa5 bxa5 15. Bd2 $6 { Inaccuracy. Best was f1b5. } 15... Qb6 16. Na3 $2 { Mistake. Best was f1b5. } 16... Bd7 $2 { Mistake. Best was b6d4. } 17. Rb1 $4 { Blunder. Best was g1e2. } 17... Qxd4 18. Nb5 Bxb5 $4 { Blunder. Best was d4e4. } 19. Bxb5+ Nd7 20. Ne2 Qd3 $4 { Blunder. Best was d4a7. } 21. Bxd3 O-O $2 { Mistake. Best was d7c5. } 22. Nd4 $6 { Inaccuracy. Best was d3f5. } 22... Nc5 23. Nxe6 $2 { Mistake. Best was d3f5. } 23... Nxe6 24. Bxf5 Nd4 25. Bc3 $4 { Blunder. Best was f5g6. } 25... Nxf5 26. e6 $4 { Blunder. Best was d1d3. } 26... Nf7d6 27. Qxd5 Nxg3 28. Rg1 Rf5 $4 { Blunder. Best was g3f5. } 29. Qxa8+ Kh7 $4 { Checkmate is now unavoidable. Best was f5f8. } 30. Qh8+ Kg6 31. Qg7# 1-0
