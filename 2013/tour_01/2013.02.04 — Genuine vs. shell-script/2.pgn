@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/60olw7ai"]
+[Date "2013-02-04"]
+[White "cppmm"]
+[Black "Genuine"]
+[Result "0-1"]
+[WhiteElo "837"]
+[BlackElo "1305"]
+[PlyCount "54"]
+[Variant "standard"]
+[Annotator "lichess.org"]
+
+1. g3 d5 2. Bg2 e5 3. Nh3 $6 { Inaccuracy. Best was g1f3. } 3... Nf6 4. O-O h6 5. d3 $6 { Inaccuracy. Best was d2d4. } 5... Bc5 6. e4 $2 { Mistake. Best was c2c3. } 6... dxe4 $6 { Inaccuracy. Best was c8g4. } 7. dxe4 Qxd1 8. Rxd1 Nc6 9. a3 $6 { Inaccuracy. Best was c1e3. } 9... Bxh3 $2 { Mistake. Best was c8g4. } 10. Bxh3 Nxe4 11. Bd7+ $2 { Mistake. Best was c1e3. } 11... Ke7 12. b4 $2 { Mistake. Best was d7c6. } 12... Bxf2+ 13. Kg2 Nd4 14. Bf5 $4 { Blunder. Best was d7h3. } 14... Nxf5 15. Bb2 $4 { Blunder. Best was g2f3. } 15... Ne3+ 16. Kh1 $2 { Mistake. Best was g2f3. } 16... Nxd1 17. Bxe5 f6 18. Bf4 c6 $6 { Inaccuracy. Best was g7g5. } 19. Nd2 Nxd2 $2 { Mistake. Best was f2d4. } 20. Bxd2 $6 { Inaccuracy. Best was a1d1. } 20... Ne3 $2 { Mistake. Best was d1b2. } 21. c3 $4 { Blunder. Best was d2e3. } 21... Rhd8 22. Bxe3 Bxe3 23. Re1 Rd3 24. Kg2 Kf7 25. h4 $6 { Inaccuracy. Best was c3c4. } 25... Rxc3 26. a4 $4 { Blunder. Best was e1d1. } 26... Bd4 $4 { Blunder. Best was a8d8. } 27. Kh3 $4 { Blunder. Best was g3g4. } 27... Be5 0-1
