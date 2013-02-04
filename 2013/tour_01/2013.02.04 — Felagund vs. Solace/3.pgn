@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/foxljytj"]
+[Date "2013-02-04"]
+[White "AvImd"]
+[Black "lanti_oedipe"]
+[Result "1-0"]
+[WhiteElo "1335"]
+[BlackElo "1139"]
+[PlyCount "86"]
+[Variant "standard"]
+[Annotator "lichess.org"]
+
+1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. a4 d6 5. Nf3 c5 6. d4 Bf5 $6 { Inaccuracy. Best was c5d4. } 7. dxc5 dxc5 8. Qxd8+ Kxd8 9. Be3 e6 10. Nc3 Nc6 11. O-O-O+ Kc7 12. h3 $6 { Inaccuracy. Best was c3b5. } 12... Rd8 13. g4 $2 { Mistake. Best was c3b5. } 13... Rxd1+ 14. Kxd1 Bg6 15. h4 $6 { Inaccuracy. Best was d1c1. } 15... f6 $2 { Mistake. Best was h7h5. } 16. exf6 gxf6 17. Bf4+ $6 { Inaccuracy. Best was h4h5. } 17... Bd6 $4 { Blunder. Best was e6e5. } 18. Bxd6+ $2 { Mistake. Best was c3b5. } 18... Kxd6 19. h5 Bf7 $6 { Inaccuracy. Best was g6e8. } 20. b3 $6 { Inaccuracy. Best was c3e4. } 20... f5 $6 { Inaccuracy. Best was d6e7. } 21. g5 $6 { Inaccuracy. Best was g4f5. } 21... Nd4 $6 { Inaccuracy. Best was a7a6. } 22. Nxd4 cxd4 23. Nb5+ Kc5 24. Nxa7 Rg8 $6 { Inaccuracy. Best was e6e5. } 25. f4 Kb4 26. Kc2 Nd7 $6 { Inaccuracy. Best was e6e5. } 27. Nb5 $6 { Inaccuracy. Best was g5g6. } 27... e5 28. fxe5 Nxe5 29. Nxd4 Rxg5 30. Be2 f4 31. Rh4 f3 $2 { Mistake. Best was g5g2. } 32. Nxf3 Nxf3 $2 { Mistake. Best was g5h5. } 33. Bxf3 Rf5 34. Rh3 b6 35. Kb2 Be6 36. h6 $6 { Inaccuracy. Best was h3g3. } 36... Rf4 37. Rg3 Rh4 38. Rg7 Rxh6 39. Be4 $6 { Inaccuracy. Best was g7g2. } 39... Rh2+ 40. Bc2 $4 { Blunder. Best was b2c1. } 40... h6 $4 { Blunder. Best was e6f5. } 41. Rb7 Kc5 42. Kc3 Rh3+ 43. Bd3 $2 { Mistake. Best was c3b2. } 43... Bc8 1-0
