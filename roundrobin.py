@@ -20,7 +20,7 @@ def roundRobin(units, sets=None):
 
 players = [
     "[user]alfix[/user]", 
-    "[user]cinyflo[/user]", 
+    "[user]aptyp[/user]", 
     "[user]dk-[/user]", 
     "[user]DNA_Seq[/user]",
     "[user]DoctorSinus[/user]",
