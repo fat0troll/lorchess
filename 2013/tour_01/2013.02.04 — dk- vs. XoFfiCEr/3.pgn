@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/vmjrzis6"]
+[Date "2013-02-04"]
+[White "dk-"]
+[Black "XRat"]
+[Result "0-1"]
+[WhiteElo "1067"]
+[BlackElo "863"]
+[PlyCount "54"]
+[Variant "standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. d4 f6 $2 { Mistake. Best was e5d4. } 3. dxe5 fxe5 $4 { Blunder. Best was b8c6. } 4. Bd3 $4 { Blunder. Best was d1h5. } 4... Nf6 5. Be3 $6 { Inaccuracy. Best was g1f3. } 5... h6 $2 { Mistake. Best was d7d5. } 6. Qf3 $6 { Inaccuracy. Best was g1f3. } 6... Nc6 7. Nd2 $6 { Inaccuracy. Best was b1c3. } 7... d6 8. Ne2 Bg4 9. Qg3 Qd7 10. f3 Be6 11. h4 $6 { Inaccuracy. Best was e2c3. } 11... O-O-O 12. f4 $6 { Inaccuracy. Best was e2c3. } 12... Qf7 $2 { Mistake. Best was c6b4. } 13. fxe5 $6 { Inaccuracy. Best was f4f5. } 13... dxe5 14. O-O Bd6 15. Nc4 $4 { Blunder. Best was d3b5. } 15... Bxc4 16. Bxc4 $2 { Mistake. Best was e2c3. } 16... Qxc4 17. Qxg7 $4 { Blunder. Best was e2c3. } 17... Nxe4 $4 { Blunder. Best was c4e2. } 18. Rfe1 $4 { Blunder. Best was g7g4. } 18... Qxc2 $4 { Blunder. Best was d8g8. } 19. Bxa7 $4 { Blunder. Best was a1c1. } 19... Nxa7 20. Qg4+ Kb8 21. Rac1 Qxb2 $4 { Blunder. Best was c2d3. } 22. Qg7 $4 { Blunder. Best was g4e4. } 22... Qb6+ 23. Kh2 Nc5 $4 { Blunder. Best was h8g8. } 24. g4 $4 { Blunder. Best was c1b1. } 24... Rdg8 $4 { Blunder. Best was c5d3. } 25. Qf7 $2 { Mistake. Best was c1b1. } 25... Qc6 $4 { Blunder. Best was e5e4. } 26. g5 $4 { Blunder. Best was f7f2. } 26... hxg5 27. Rf1 $2 { Mistake. Best was e2g3. } 27... Rxh4+ 0-1

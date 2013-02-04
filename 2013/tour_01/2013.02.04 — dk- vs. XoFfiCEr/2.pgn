@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/mmpc1qzx"]
+[Date "2013-02-03"]
+[White "XRat"]
+[Black "dk-"]
+[Result "0-1"]
+[WhiteElo "872"]
+[BlackElo "1044"]
+[PlyCount "36"]
+[Variant "standard"]
+[Annotator "lichess.org"]
+
+1. e4 d5 $6 { Inaccuracy. Best was e7e6. } 2. e5 $6 { Inaccuracy. Best was e4d5. } 2... f6 3. exf6 Nxf6 4. f3 $2 { Mistake. Best was g1f3. } 4... Bf5 $6 { Inaccuracy. Best was e7e5. } 5. Nc3 Na6 $2 { Mistake. Best was e7e5. } 6. Bxa6 bxa6 7. g4 Bg6 8. d3 $6 { Inaccuracy. Best was d2d4. } 8... Qd6 9. Nge2 h5 10. Bf4 $2 { Mistake. Best was g4g5. } 10... Qc6 $2 { Mistake. Best was e7e5. } 11. Nd4 $2 { Mistake. Best was g4g5. } 11... Qb6 12. b3 $4 { Blunder. Best was d4b3. } 12... e6 $4 { Blunder. Best was b6d4. } 13. g5 $6 { Inaccuracy. Best was d4e2. } 13... Nd7 $6 { Inaccuracy. Best was b6d4. } 14. h4 $4 { Blunder. Best was d4e2. } 14... Bc5 $4 { Blunder. Best was b6d4. } 15. Be3 $4 { Blunder. Best was d4e2. } 15... Bxd4 16. Bxd4 Qxd4 17. Qd2 $2 { Mistake. Best was c3e2. } 17... Ne5 18. f4 $4 { Blunder. Best was e1c1. } 18... Nf3+ 0-1

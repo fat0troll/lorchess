@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/k4dkuarp"]
+[Date "2013-02-03"]
+[White "dk-"]
+[Black "XRat"]
+[Result "1/2-1/2"]
+[WhiteElo "1067"]
+[BlackElo "864"]
+[PlyCount "80"]
+[Variant "standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. d3 Nc6 3. Be3 Nd4 $6 { Inaccuracy. Best was g8f6. } 4. f4 $6 { Inaccuracy. Best was g1f3. } 4... f6 $6 { Inaccuracy. Best was f8c5. } 5. fxe5 fxe5 $2 { Mistake. Best was d4c6. } 6. Nf3 $2 { Mistake. Best was d1h5. } 6... Nxf3+ 7. gxf3 $6 { Inaccuracy. Best was d1f3. } 7... d6 $6 { Inaccuracy. Best was f8e7. } 8. d4 Qe7 9. dxe5 Qxe5 10. Qd4 $6 { Inaccuracy. Best was b1c3. } 10... Qxd4 11. Bxd4 c5 12. Bc3 Nf6 13. Bc4 a6 14. e5 $2 { Mistake. Best was c3f6. } 14... Nd7 $2 { Mistake. Best was d6e5. } 15. exd6 b5 16. Bd5 Ra7 17. O-O Bb7 $4 { Blunder. Best was b5b4. } 18. Bxb7 $4 { Blunder. Best was f1e1. } 18... Rxb7 19. Re1+ Kd8 $2 { Mistake. Best was e8f7. } 20. b4 $4 { Blunder. Best was c3a5. } 20... c4 $2 { Mistake. Best was f8d6. } 21. Bd4 $6 { Inaccuracy. Best was b1d2. } 21... Rg8 $2 { Mistake. Best was f8d6. } 22. Nc3 $2 { Mistake. Best was e1e6. } 22... Bxd6 23. a3 Nb6 $6 { Inaccuracy. Best was d7f6. } 24. Ne4 Nd5 $4 { Blunder. Best was b6c8. } 25. Nxd6 Rd7 26. Nf7+ $4 { Blunder. Best was d4e5. } 26... Rxf7 27. Rad1 Rxf3 $4 { Blunder. Best was d8c8. } 28. Bb6+ $2 { Mistake. Best was d4e5. } 28... Kc8 $2 { Mistake. Best was d8d7. } 29. Rxd5 Rf7 30. Rf1 $6 { Inaccuracy. Best was e1e6. } 30... Rxf1+ 31. Kxf1 Rf8+ 32. Ke2 Re8+ 33. Be3 Rd8 $6 { Inaccuracy. Best was c8c7. } 34. Rxd8+ Kxd8 35. Bd4 g6 36. Kf3 Kd7 37. Kg4 Ke6 $2 { Mistake. Best was d7c6. } 38. Kg5 Kd5 $2 { Mistake. Best was e6d7. } 39. Bf6 $2 { Mistake. Best was c2c3. } 39... Ke6 $2 { Mistake. Best was d5d6. } 40. h4 Kf7 1/2-1/2
