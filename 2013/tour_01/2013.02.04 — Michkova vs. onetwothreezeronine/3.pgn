@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/tpfe75np"]
+[Date "2013-02-04"]
+[White "Michkova"]
+[Black "rogvold"]
+[Result "1-0"]
+[WhiteElo "1285"]
+[BlackElo "1115"]
+[PlyCount "43"]
+[Variant "standard"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 Nc6 3. Nc3 Nf6 $6 { Inaccuracy. Best was e7e6. } 4. Bg5 $6 { Inaccuracy. Best was c4d5. } 4... Ng4 $2 { Mistake. Best was d5c4. } 5. h3 $6 { Inaccuracy. Best was c4d5. } 5... Nxf2 $2 { Mistake. Best was g4f6. } 6. Kxf2 dxc4 7. e3 f5 $2 { Mistake. Best was h7h6. } 8. Bxc4 Na5 9. Qa4+ $2 { Mistake. Best was c4e2. } 9... c6 10. Nf3 $2 { Mistake. Best was c4e2. } 10... b5 11. Bxb5 Bb7 $4 { Blunder. Best was c6b5. } 12. Ne5 $2 { Mistake. Best was b5d3. } 12... h5 $4 { Blunder. Best was h7h6. } 13. Nxc6 $2 { Mistake. Best was b5e2. } 13... Qd7 $4 { Blunder. Best was b7c6. } 14. Ne5 Nc6 $6 { Inaccuracy. Best was b7c6. } 15. Nxd7 Kxd7 $2 { Mistake. Best was h8h6. } 16. d5 a6 $4 { Blunder. Best was d7e8. } 17. dxc6+ Bxc6 18. Bxc6+ Kd8 19. Rhd1+ Kc8 20. Bxa8 Kb8 21. Qc6 Ka7 22. Qb7# 1-0

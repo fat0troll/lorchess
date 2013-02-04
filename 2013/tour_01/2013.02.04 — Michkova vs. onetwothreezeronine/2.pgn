@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/c9njay4u"]
+[Date "2013-02-04"]
+[White "rogvold"]
+[Black "Michkova"]
+[Result "0-1"]
+[WhiteElo "1150"]
+[BlackElo "1250"]
+[PlyCount "26"]
+[Variant "standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. h4 $6 { Inaccuracy. Best was g1f3. } 2... Nf6 3. Nf3 Nc6 4. d4 exd4 5. b4 $4 { Blunder. Best was f3d4. } 5... Bxb4+ 6. c3 $2 { Mistake. Best was c1d2. } 6... dxc3 7. Ng5 $4 { Blunder. Best was d1c2. } 7... c2+ 8. Ke2 $4 { Blunder. Best was d1d2. } 8... cxd1=Q+ 9. Kxd1 d5 $4 { Blunder. Best was f6g4. } 10. Bd3 $4 { Blunder. Best was f1b5. } 10... dxe4 11. f4 $4 { Checkmate is now unavoidable. Best was c1d2. } 11... Qxd3+ 12. Nd2 Nd4 13. h5 Qe2# 0-1
