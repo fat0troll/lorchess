@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/y4mquqm7"]
+[Date "2013-02-08"]
+[White "linchess2"]
+[Black "HunOL"]
+[Result "1-0"]
+[WhiteElo "1261"]
+[BlackElo "1259"]
+[PlyCount "63"]
+[Variant "standard"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. Nc3 Nf6 3. Nf3 Bg4 $6 { Inaccuracy. Best was e7e6. } 4. e3 $6 { Inaccuracy. Best was f3e5. } 4... e6 5. h3 Bh5 6. Be2 Bb4 7. Bd2 O-O 8. Ng5 Bxe2 9. Qxe2 h6 10. Nf3 Nc6 11. g4 a6 12. g5 hxg5 13. Nxg5 Bxc3 $6 { Inaccuracy. Best was e6e5. } 14. Bxc3 Ne4 $2 { Mistake. Best was d8d6. } 15. Qg4 $4 { Blunder. Best was g5e4. } 15... Nxg5 $4 { Blunder. Best was d8g5. } 16. f4 $4 { Blunder. Best was h1g1. } 16... f5 $4 { Blunder. Best was g5e4. } 17. Qg2 $4 { Blunder. Best was g4g5. } 17... Ne4 18. Rg1 Qh4+ 19. Kd1 Rf7 20. Be1 Qh5+ 21. Kc1 b6 $6 { Inaccuracy. Best was g7g5. } 22. c4 $2 { Mistake. Best was b2b3. } 22... dxc4 23. Bc3 Rd8 24. Kc2 a5 25. Raf1 Qh4 $6 { Inaccuracy. Best was c6b4. } 26. d5 $6 { Inaccuracy. Best was c2b1. } 26... exd5 $2 { Mistake. Best was e4c3. } 27. Bxg7 Nb4+ $4 { Blunder. Best was h4h7. } 28. Kb1 Nd2+ $6 { Inaccuracy. Best was e4g3. } 29. Kc1 Kh7 $4 { Checkmate is now unavoidable. Best was h4h7. } 30. Qg6+ Kg8 31. Bf6+ Kf8 32. Qg8# 1-0
