@@ -32,7 +32,7 @@ players = [
     "[user]LongLiveUbuntu[/user]",
     "[user]Michkova[/user]",
     "[user]onetwothreezeronine[/user]",
-    "[user]q9[/user]",
+    "[user]snoopcat[/user]",
     "[user]redgremlin[/user]",
     "[user]pylin[/user]",
     "[user]Rosko[/user]",
