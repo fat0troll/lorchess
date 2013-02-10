@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/nk8e3oen"]
+[Date "2013-02-09"]
+[White "alfix2"]
+[Black "zodd"]
+[Result "1-0"]
+[WhiteElo "1277"]
+[BlackElo "1354"]
+[PlyCount "133"]
+[Variant "standard"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. Bb5 a6 3. Ba4 $2 { Mistake. Best was b5e2. } 3... b5 4. Bb3 c4 5. Qf3 $2 { Mistake. Best was g1f3. } 5... cxb3 6. e5 $2 { Mistake. Best was a2b3. } 6... Ra7 $2 { Mistake. Best was b8c6. } 7. Qxb3 Nc6 8. d4 $6 { Inaccuracy. Best was g1f3. } 8... Nxd4 9. Qe3 $4 { Blunder. Best was b3d3. } 9... Nc6 $4 { Blunder. Best was d4c2. } 10. Nf3 g6 $6 { Inaccuracy. Best was f7f6. } 11. O-O Bg7 12. Nbd2 $6 { Inaccuracy. Best was a2a4. } 12... e6 $2 { Mistake. Best was d8c7. } 13. c4 $2 { Mistake. Best was d2e4. } 13... Nge7 14. cxb5 $6 { Inaccuracy. Best was d2e4. } 14... axb5 15. b3 $2 { Mistake. Best was d2e4. } 15... O-O $6 { Inaccuracy. Best was d7d6. } 16. Ba3 $4 { Blunder. Best was d2e4. } 16... Rxa3 17. Qc5 Qc7 $4 { Blunder. Best was d8a5. } 18. Qxa3 Nd5 19. Rac1 Qb8 20. Qd6 Qxd6 21. exd6 Ba6 $6 { Inaccuracy. Best was d5c3. } 22. Ra1 $2 { Mistake. Best was d2e4. } 22... b4 23. Rfc1 Bxa1 24. Rxa1 Na5 $2 { Mistake. Best was a6e2. } 25. a3 Nb7 26. axb4 Nxb4 $4 { Blunder. Best was a6b5. } 27. Ra4 Nxd6 28. Rxb4 Nf5 29. Ne5 d5 30. Rb6 Be2 31. Nd7 $2 { Mistake. Best was f2f3. } 31... Rc8 32. Rb8 Rxb8 33. Nxb8 e5 $2 { Mistake. Best was f5d4. } 34. Nd7 e4 $6 { Inaccuracy. Best was g8g7. } 35. Nf6+ Kg7 36. Nxd5 e3 $2 { Mistake. Best was e2d3. } 37. Nxe3 $6 { Inaccuracy. Best was f2e3. } 37... Nxe3 $6 { Inaccuracy. Best was f5d4. } 38. fxe3 f5 39. e4 fxe4 40. Nxe4 h5 $6 { Inaccuracy. Best was e2d3. } 41. b4 $6 { Inaccuracy. Best was g1f2. } 41... Bd3 42. Nc3 Kf6 43. b5 $6 { Inaccuracy. Best was g1f2. } 43... Ke6 44. Kf2 Kd6 45. Ke3 Bf1 46. Kd4 $2 { Mistake. Best was g2g3. } 46... Bxg2 47. b6 $6 { Inaccuracy. Best was h2h4. } 47... Kc6 48. Ne2 Kxb6 49. Nf4 Bf3 50. Nxg6 Kc6 $4 { Blunder. Best was f3g4. } 51. Ne5+ Kd6 52. Nxf3 Ke6 53. Ke4 Kf6 $4 { Checkmate is now unavoidable. } 54. Kf4 Kg6 55. Nh4+ Kf6 56. h3 Kg7 57. Kg5 Kh7 58. Kxh5 Kg7 59. Kg5 Kh7 60. Nf5 Kg8 61. h4 Kh7 62. h5 Kg8 63. h6 Kh7 64. Nd6 Kh8 65. Kg6 Kg8 66. h7+ Kh8 67. Nf7# 1-0
