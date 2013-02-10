@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/u53bmzsc"]
+[Date "2013-02-10"]
+[White "William_V"]
+[Black "alfix2"]
+[Result "0-1"]
+[WhiteElo "1325"]
+[BlackElo "1201"]
+[PlyCount "128"]
+[Variant "standard"]
+[Annotator "lichess.org"]
+
+1. e4 d6 2. d4 f5 3. exf5 Bxf5 4. Nf3 e5 5. dxe5 Qe7 6. Bd3 Bxd3 7. Qxd3 dxe5 8. Qe4 $2 { Mistake. Best was d3b5. } 8... Nc6 9. O-O O-O-O 10. Bg5 Nf6 11. Qa4 $6 { Inaccuracy. Best was g5f6. } 11... h6 12. Be3 Qb4 13. Qxb4 Nxb4 14. Na3 e4 $6 { Inaccuracy. Best was b4d5. } 15. Ne5 Re8 $2 { Mistake. Best was h8g8. } 16. Nec4 $2 { Mistake. Best was e5g6. } 16... Nbd5 17. Bxa7 $2 { Mistake. Best was e3d4. } 17... b6 18. Ne3 $2 { Mistake. Best was a3b5. } 18... Nxe3 19. fxe3 Kb7 $2 { Mistake. Best was f8a3. } 20. Nb5 Re5 21. a4 c6 $6 { Inaccuracy. Best was f8c5. } 22. Bxb6 Kxb6 23. Nd4 Bc5 24. Nf5 $2 { Mistake. Best was c2c3. } 24... g6 $2 { Mistake. Best was f6d5. } 25. Nd4 Bxd4 26. exd4 Rd5 $4 { Blunder. Best was e5e6. } 27. Rxf6 Rxd4 28. Rxg6 Rd2 29. a5+ Kb5 30. c4+ Kc5 31. a6 Rxb2 32. a7 Ra8 33. Rxh6 Rb7 $6 { Inaccuracy. Best was e4e3. } 34. Re6 Kxc4 $6 { Inaccuracy. Best was e4e3. } 35. Rxe4+ Kd5 36. Rea4 c5 37. Rd1+ $2 { Mistake. Best was g2g4. } 37... Ke5 38. Rc4 Rc7 39. Ra1 Kd5 40. Rcc1 $6 { Inaccuracy. Best was a1c1. } 40... c4 $2 { Mistake. Best was c7a7. } 41. Rcb1 $2 { Mistake. Best was a1a4. } 41... c3 42. Rb8 $6 { Inaccuracy. Best was b1b3. } 42... Raxa7 43. Rxa7 Rxa7 44. Rc8 Kd4 45. g4 $2 { Mistake. Best was g1f2. } 45... Ra1+ $2 { Mistake. Best was a7a2. } 46. Kg2 $2 { Mistake. Best was g1f2. } 46... Kd3 47. g5 c2 48. g6 c1=Q 49. Rxc1 Rxc1 50. h4 Ke4 51. h5 Rc5 52. Kg3 Rxh5 $6 { Detected checkmate in 16 moves, but player moved for mate in 18. Best was c5g5. } 53. Kg4 Rh8 $6 { Detected checkmate in 15 moves, but player moved for mate in 20. Best was h5h2. } 54. Kg5 Ke5 55. g7 Rg8 56. Kg6 Ke6 57. Kh7 Kf7 58. Kh6 Rxg7 59. Kh5 Kf6 60. Kh4 Rg8 $6 { Detected checkmate in 5 moves, but player moved for mate in 7. Best was f6f5. } 61. Kh3 Kf5 62. Kh2 Kf4 63. Kh3 Rg7 64. Kh4 Rh7# 0-1

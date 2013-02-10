@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/98c9g8vz"]
+[Date "2013-02-10"]
+[White "alfix2"]
+[Black "William_V"]
+[Result "0-1"]
+[WhiteElo "1225"]
+[BlackElo "1304"]
+[PlyCount "58"]
+[Variant "standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. d3 d5 3. exd5 Qxd5 4. Nc3 Qd8 5. f4 exf4 6. Bxf4 Nf6 7. Qe2+ $6 { Inaccuracy. Best was d3d4. } 7... Be7 8. O-O-O O-O 9. Re1 Bd6 10. Bg5 Bb4 $6 { Inaccuracy. Best was h7h6. } 11. Qf3 Bxc3 12. bxc3 Re8 $2 { Mistake. Best was b8d7. } 13. Rxe8+ Qxe8 14. Be2 $2 { Mistake. Best was g5f6. } 14... Ng4 15. Qf4 Ne5 16. Nh3 $2 { Mistake. Best was f4e4. } 16... Ng6 $2 { Mistake. Best was c8h3. } 17. Qf3 $6 { Inaccuracy. Best was f4e3. } 17... Nc6 18. Re1 Be6 19. Qg3 Bxa2 $6 { Inaccuracy. Best was e8f8. } 20. c4 $2 { Mistake. Best was g3c7. } 20... a6 $2 { Mistake. Best was e8f8. } 21. Kb2 Nb4 22. c3 Qa4 $2 { Mistake. Best was a6a5. } 23. cxb4 $4 { Checkmate is now unavoidable. Best was e2d1. } 23... Bb3 $2 { Lost forced checkmate sequence. Best was a4b3. } 24. Ra1 Qxb4 25. Qe3 $4 { Checkmate is now unavoidable. Best was g3e1. } 25... Bxc4+ $2 { Lost forced checkmate sequence. Best was b3a4. } 26. Kc2 $4 { Checkmate is now unavoidable. Best was b2c1. } 26... Bb3+ 27. Kb2 Ba4+ 28. Kc1 Qc3+ 29. Kb1 Qc2# 0-1
