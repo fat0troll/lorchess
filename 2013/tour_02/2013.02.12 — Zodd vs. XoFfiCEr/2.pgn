@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/6qm1td06"]
+[Date "2013-02-10"]
+[White "XRat"]
+[Black "zodd"]
+[Result "0-1"]
+[WhiteElo "887"]
+[BlackElo "1323"]
+[PlyCount "60"]
+[Variant "standard"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. c4 Nc6 3. Ne2 $6 { Inaccuracy. Best was b1c3. } 3... d6 4. Nbc3 Nf6 5. f3 $6 { Inaccuracy. Best was d2d4. } 5... g6 $6 { Inaccuracy. Best was e7e5. } 6. Qc2 $6 { Inaccuracy. Best was d2d4. } 6... Ne5 $6 { Inaccuracy. Best was f8g7. } 7. Nd5 $6 { Inaccuracy. Best was d2d4. } 7... Bg7 8. Nec3 O-O 9. b3 $2 { Mistake. Best was f1e2. } 9... Nxd5 $2 { Mistake. Best was f6h5. } 10. Nxd5 $2 { Mistake. Best was c4d5. } 10... Nd3+ $2 { Mistake. Best was e5f3. } 11. Bxd3 Bxa1 12. Bb2 Bxb2 13. Qxb2 e6 $2 { Mistake. Best was f7f5. } 14. Nf6+ Kg7 $4 { Checkmate is now unavoidable. Best was g8h8. } 15. Nh5+ $2 { Lost forced checkmate sequence. Best was f6e8. } 15... Kh6 16. Qg7+ Kxh5 17. Qxh7+ $2 { Lost forced checkmate sequence. Best was h2h4. } 17... Kg5 18. h4+ $4 { Blunder. Best was h7g7. } 18... Kf6 19. g4 Rh8 $6 { Inaccuracy. Best was e6e5. } 20. g5+ Ke7 21. Qg7 Qf8 $6 { Inaccuracy. Best was h8g8. } 22. Qf6+ Kd7 23. e5 Rh7 $4 { Blunder. Best was d6e5. } 24. exd6 $4 { Blunder. Best was d3g6. } 24... Qxd6 25. Be4 Rb8 $2 { Mistake. Best was e6e5. } 26. d3 $2 { Mistake. Best was h4h5. } 26... b6 $2 { Mistake. Best was e6e5. } 27. O-O $4 { Checkmate is now unavoidable. Best was h4h5. } 27... Bb7 $2 { Lost forced checkmate sequence. Best was d6g3. } 28. Qc3 $4 { Checkmate is now unavoidable. Best was g1g2. } 28... Bxe4 $2 { Lost forced checkmate sequence. Best was d6g3. } 29. fxe4 $4 { Checkmate is now unavoidable. Best was g1f2. } 29... Qd4+ $2 { Lost forced checkmate sequence. Best was d6g3. } 30. Rf2 $4 { Blunder. Best was c3d4. } 30... Qxc3 0-1
