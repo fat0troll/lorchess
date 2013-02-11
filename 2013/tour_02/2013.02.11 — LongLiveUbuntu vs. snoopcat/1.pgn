@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/y0ol2r3w"]
+[Date "2013-02-11"]
+[White "LLU"]
+[Black "snoopcatt"]
+[Result "0-1"]
+[WhiteElo "1162"]
+[BlackElo "1300"]
+[PlyCount "52"]
+[Variant "standard"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. Nc3 Nc6 3. Nf3 g6 $6 { Inaccuracy. Best was e7e5. } 4. Bc4 Nf6 5. d3 Bg7 6. Bf4 O-O 7. O-O d6 8. d4 $2 { Mistake. Best was a2a3. } 8... cxd4 9. Nxd4 $2 { Mistake. Best was c3d5. } 9... Nxd4 10. Qxd4 e5 11. Bxf7+ $2 { Mistake. Best was f4e5. } 11... Kxf7 12. Qc4+ $2 { Mistake. Best was f4e5. } 12... Be6 13. Qb4 exf4 14. Qxb7+ Qd7 15. Qxd7+ $6 { Inaccuracy. Best was b7a6. } 15... Nxd7 16. e5 $2 { Mistake. Best was a1d1. } 16... Bxe5 17. Ne4 h6 $6 { Inaccuracy. Best was a8b8. } 18. g3 $2 { Mistake. Best was a1d1. } 18... Bc4 $2 { Mistake. Best was a8b8. } 19. Rfe1 f3 20. b3 $2 { Mistake. Best was e1e3. } 20... Bd5 $2 { Mistake. Best was c4e2. } 21. Re3 $4 { Blunder. Best was a1d1. } 21... Bxe4 22. Rxe4 $2 { Mistake. Best was a1d1. } 22... Bxa1 23. Rf4+ $2 { Mistake. Best was e4e3. } 23... Kg8 $2 { Mistake. Best was f7g7. } 24. Rc4 $2 { Mistake. Best was f4a4. } 24... Rac8 25. Re4 $4 { Blunder. Best was h2h4. } 25... Rxc2 $4 { Blunder. Best was f8e8. } 26. Re6 $4 { Checkmate is now unavoidable. Best was e4e1. } 26... Rc1+ 0-1

@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/zv0auz4d"]
+[Date "2013-02-11"]
+[White "LLU"]
+[Black "snoopcatt"]
+[Result "0-1"]
+[WhiteElo "1162"]
+[BlackElo "1300"]
+[PlyCount "106"]
+[Variant "standard"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. c3 Nc6 3. Nf3 e5 4. d4 $6 { Inaccuracy. Best was f1c4. } 4... exd4 5. cxd4 cxd4 6. Nxd4 Nf6 7. Nxc6 bxc6 8. e5 $2 { Mistake. Best was b1c3. } 8... Qa5+ 9. Bd2 Qxe5+ 10. Qe2 Bd6 11. Bc3 Qxe2+ 12. Bxe2 Be7 13. O-O O-O 14. Nd2 d5 15. Rac1 Rd8 $6 { Inaccuracy. Best was f8e8. } 16. Ba5 Rd6 17. Bc7 $2 { Mistake. Best was d2b3. } 17... Re6 18. Bf3 Bd6 $6 { Inaccuracy. Best was c8a6. } 19. Bd8 $2 { Mistake. Best was c7d6. } 19... Bf4 20. Rfd1 Bxd2 $2 { Mistake. Best was c8a6. } 21. Rxd2 Bb7 22. Ba5 Rae8 23. h3 Re1+ 24. Rxe1 Rxe1+ 25. Kh2 Ne4 $6 { Inaccuracy. Best was e1e6. } 26. Rd4 c5 27. Bxe1 $6 { Inaccuracy. Best was d4d5. } 27... cxd4 28. Bxe4 $6 { Inaccuracy. Best was f3e2. } 28... dxe4 29. g4 g6 30. h4 f5 31. gxf5 gxf5 32. Kg3 h5 33. Bd2 d3 $6 { Inaccuracy. Best was g8f7. } 34. Kf4 Bc8 35. f3 Kh7 36. b4 $6 { Inaccuracy. Best was f3e4. } 36... Kg6 $6 { Inaccuracy. Best was e4f3. } 37. a4 $6 { Inaccuracy. Best was f3e4. } 37... Bb7 38. a5 $2 { Mistake. Best was f3e4. } 38... a6 $6 { Inaccuracy. Best was e4f3. } 39. Be1 $2 { Mistake. Best was f3e4. } 39... Bd5 $2 { Mistake. Best was e4f3. } 40. fxe4 Bxe4 $2 { Mistake. Best was f5e4. } 41. Ke3 Kf6 42. Bc3+ Ke6 43. b5 $6 { Inaccuracy. Best was e3d4. } 43... axb5 44. a6 Kd5 45. a7 Kc4 46. Ba5 $4 { Blunder. Best was c3e5. } 46... b4 47. Kd2 f4 48. Bb6 $2 { Mistake. Best was a5c7. } 48... b3 49. Kc1 b2+ $4 { Blunder. Best was f4f3. } 50. Kxb2 d2 51. Ka2 $4 { Checkmate is now unavoidable. Best was a7a8q. } 51... d1=Q 52. Kb2 Qb3+ 53. Ka1 Qb1# 0-1
