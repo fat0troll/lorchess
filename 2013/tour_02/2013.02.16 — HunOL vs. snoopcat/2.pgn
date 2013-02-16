@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/hko01m0d"]
+[Date "2013-02-15"]
+[White "snoopcatt"]
+[Black "HunOL"]
+[Result "1-0"]
+[WhiteElo "1328"]
+[BlackElo "1280"]
+[PlyCount "15"]
+[Variant "standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. d4 Bd7 5. Bxc6 Bxc6 6. d5 Bb5 7. Nc3 Be7 $4 { Blunder. Best was b5d7. } 8. Nxb5 1-0
