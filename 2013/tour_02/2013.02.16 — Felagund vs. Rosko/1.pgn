@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/mn2u2sdl"]
+[Date "2013-02-14"]
+[White "AvImd"]
+[Black "azimov"]
+[Result "0-1"]
+[WhiteElo "1338"]
+[BlackElo "1496"]
+[PlyCount "26"]
+[Variant "standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 Nc6 4. f4 $2 { Mistake. Best was g1f3. } 4... exf4 $6 { Inaccuracy. Best was f8c5. } 5. Bxf4 Bc5 6. Nc3 d6 7. Bg5 $6 { Inaccuracy. Best was g1f3. } 7... O-O 8. Nd5 Ne5 9. Nxf6+ $6 { Inaccuracy. Best was c4b3. } 9... gxf6 10. Bh6 $2 { Mistake. Best was g5h4. } 10... Re8 11. d4 Nxc4 $2 { Mistake. Best was f6f5. } 12. dxc5 $2 { Mistake. Best was d1f3. } 12... Rxe4+ 13. Ne2 $2 { Mistake. Best was e1f1. } 13... Bg4 0-1
