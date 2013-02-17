@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/er4m2ryb"]
+[Date "2013-02-17"]
+[White "fat0troll"]
+[Black "cppmm"]
+[Result "0-1"]
+[WhiteElo "1077"]
+[BlackElo "876"]
+[PlyCount "56"]
+[Variant "standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. d3 $6 { Inaccuracy. Best was g1f3. } 2... d6 3. Be2 Nf6 4. Nf3 Be7 5. O-O O-O 6. Bg5 h6 7. Bxf6 Bxf6 8. Nbd2 c5 9. Nc4 b5 10. Ne3 Nc6 11. Nd5 Be6 12. Nxf6+ gxf6 $2 { Mistake. Best was d8f6. } 13. b3 $6 { Inaccuracy. Best was d1d2. } 13... Nd4 $6 { Inaccuracy. Best was f6f5. } 14. Nxd4 exd4 15. Rc1 $6 { Inaccuracy. Best was d1d2. } 15... a5 16. c4 $6 { Inaccuracy. Best was d1d2. } 16... b4 17. Qd2 Re8 $2 { Mistake. Best was g8h7. } 18. Qxh6 f5 $2 { Mistake. Best was d8e7. } 19. exf5 $4 { Blunder. Best was f2f4. } 19... Bxf5 20. Rce1 $6 { Inaccuracy. Best was e2f3. } 20... Re6 $6 { Inaccuracy. Best was e8e2. } 21. Qh4 $4 { Blunder. Best was h6d2. } 21... Qxh4 22. g3 $4 { Blunder. Best was e2d1. } 22... Qh3 23. g4 $4 { Checkmate is now unavoidable. Best was e2h5. } 23... Rxe2 $6 { Detected checkmate in 2 moves, but player moved for mate in 6. Best was e6h6. } 24. Rxe2 Bxg4 $2 { Lost forced checkmate sequence. Best was h3g4. } 25. Rfe1 $4 { Checkmate is now unavoidable. Best was f2f3. } 25... Bf3 26. Re8+ Rxe8 $6 { Detected checkmate in 3 moves, but player moved for mate in 4. Best was g8h7. } 27. Rxe8+ Kg7 28. Re7 Qg2# 0-1
