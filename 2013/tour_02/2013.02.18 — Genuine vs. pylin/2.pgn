@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/analyse/sspmschw"]
+[Date "2013-02-18"]
+[White "linchess2"]
+[Black "Genuine"]
+[Result "0-1"]
+[WhiteElo "1255"]
+[BlackElo "1306"]
+[PlyCount "42"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. Nc3 Nc6 3. Nf3 Nf6 4. Bf4 a6 5. e3 Bf5 6. Bd3 Bxd3 7. Qxd3 e6 8. O-O-O Bb4 9. a3 Bxc3 10. Qxc3 Ne4 11. Qe1 b5 12. Ne5 Nxe5 13. Bxe5 f6 14. Bg3 a5 15. f3 Nd6 16. Bxd6 Qxd6 17. g4 b4 18. a4 Qc6 19. h4 $6 { Inaccuracy. Best was b2b3. } 19... b3 $2 { Mistake. Best was c6a4. } 20. Rd2 $2 { Mistake. Best was e1c3. } 20... Qxa4 21. g5 $4 { Checkmate is now unavoidable. Best was c2b3. } 21... Qa1# 0-1

@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/analyse/bysfm098"]
+[Date "2013-02-18"]
+[White "Genuine"]
+[Black "linchess2"]
+[Result "1-0"]
+[WhiteElo "1306"]
+[BlackElo "1255"]
+[PlyCount "119"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 4. Nc3 a6 5. Ba4 d6 6. h3 Bd7 7. Bb3 Na5 8. Bd5 Bc6 $2 { Mistake. Best was c7c6. } 9. Bxc6+ $6 { Inaccuracy. Best was e1g1. } 9... Naxc6 10. d3 d5 11. exd5 Nxd5 12. Nxd5 Qxd5 13. O-O O-O-O 14. Re1 Bd6 $6 { Inaccuracy. Best was e5e4. } 15. Be3 h6 16. d4 exd4 17. Nxd4 Nxd4 18. Qxd4 Qxd4 19. Bxd4 Bh2+ 20. Kxh2 Rxd4 21. Re7 Rf8 22. Rae1 Kd8 23. Re1e2 Rd1 24. Re7e3 Kd7 25. Kg3 Rb1 26. b3 Ra1 27. a4 b5 $6 { Inaccuracy. Best was a1d1. } 28. axb5 axb5 29. f4 $2 { Mistake. Best was e3d3. } 29... Ra6 30. Kf3 b4 31. Re4 c5 32. g4 Raa8 33. g5 h5 $2 { Mistake. Best was h6g5. } 34. Kg3 $2 { Mistake. Best was e4e7. } 34... g6 $2 { Mistake. Best was a8d8. } 35. Re5 $6 { Inaccuracy. Best was f4f5. } 35... Rae8 36. Kf3 Re6 $2 { Mistake. Best was e8e5. } 37. f5 $2 { Mistake. Best was e5c5. } 37... Rxe5 38. Rxe5 Kd6 39. Kf4 f6 $4 { Blunder. Best was f8a8. } 40. Re6+ Kd7 $6 { Inaccuracy. Best was d6d5. } 41. Rxf6 Rxf6 $4 { Blunder. Best was f8g8. } 42. gxf6 gxf5 43. Kxf5 Ke8 44. Kg6 h4 45. Kg7 Kd7 46. f7 Kd6 47. f8=Q+ Kd5 48. Qf7+ $6 { Detected checkmate in 11 moves, but player moved for mate in 15. Best was f8f4. } 48... Kd4 49. Qc4+ Ke3 50. Qxc5+ Kf3 51. Qxb4 Kg3 52. Qg4+ Kh2 53. Qxh4 $6 { Detected checkmate in 7 moves, but player moved for mate in 9. Best was b3b4. } 53... Kg1 54. Qd4+ $6 { Detected checkmate in 7 moves, but player moved for mate in 8. Best was h4f4. } 54... Kh1 55. Qd2 Kg1 56. Kg6 Kh1 57. Kg5 Kg1 58. Kg4 Kh1 59. Kg3 Kg1 60. Qg2# 1-0
