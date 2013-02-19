@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/analyse/6cx94n3c"]
+[Date "2013-02-19"]
+[White "txgames"]
+[Black "dk-"]
+[Result "1-0"]
+[WhiteElo "1003"]
+[BlackElo "934"]
+[PlyCount "79"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 Nf6 2. e5 Nd5 3. c3 $6 { Inaccuracy. Best was g1f3. } 3... d6 4. d4 dxe5 5. dxe5 Be6 $6 { Inaccuracy. Best was c8f5. } 6. Qd2 f6 7. c4 $6 { Inaccuracy. Best was g1f3. } 7... Nb4 $4 { Blunder. Best was d5b6. } 8. Qxb4 Nc6 $6 { Inaccuracy. Best was b7b6. } 9. Qd2 $2 { Mistake. Best was b4b7. } 9... Qxd2+ 10. Bxd2 Nxe5 11. h3 $2 { Mistake. Best was b1a3. } 11... Nxc4 12. Bxc4 Bxc4 13. b3 Bd3 14. Nc3 e5 15. Nd5 Bc5 $4 { Blunder. Best was e8c8. } 16. Nxc7+ Kd7 17. Nxa8 Rxa8 18. b4 $2 { Mistake. Best was a1c1. } 18... Bd4 19. Rc1 Rc8 $2 { Mistake. Best was d4b2. } 20. Rxc8 Kxc8 21. Nf3 $2 { Mistake. Best was g1e2. } 21... Bb6 $2 { Mistake. Best was d4b2. } 22. a4 $2 { Mistake. Best was d2e3. } 22... a5 $6 { Inaccuracy. Best was e5e4. } 23. bxa5 Bc5 24. Bc3 e4 25. Nd2 e3 $2 { Mistake. Best was c5a7. } 26. fxe3 Bxe3 27. Nb3 $2 { Mistake. Best was d2f3. } 27... Bc2 28. Ke2 Bh6 $2 { Mistake. Best was e3a7. } 29. Nc5 g5 $4 { Blunder. Best was h6f4. } 30. Bxf6 Kc7 31. a6 $2 { Mistake. Best was h1c1. } 31... bxa6 32. Nxa6+ Kb7 $2 { Mistake. Best was c7b6. } 33. Nc5+ Kc6 34. Bd4 $2 { Mistake. Best was h1c1. } 34... Bf8 $2 { Mistake. Best was c2g6. } 35. Ne6 $2 { Mistake. Best was h1c1. } 35... Kd5 36. Nxf8 Kxd4 $6 { Inaccuracy. Best was c2a4. } 37. Rc1 $2 { Mistake. Best was a4a5. } 37... Bd3+ $4 { Blunder. Best was c2a4. } 38. Kd2 h5 $4 { Blunder. Best was d3f5. } 39. Ne6+ Ke4 $4 { Blunder. Best was d4e5. } 40. Nxg5+ 1-0

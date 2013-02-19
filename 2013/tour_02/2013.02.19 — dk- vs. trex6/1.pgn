@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/analyse/fncwxfve"]
+[Date "2013-02-19"]
+[White "dk-"]
+[Black "txgames"]
+[Result "0-1"]
+[WhiteElo "934"]
+[BlackElo "1003"]
+[PlyCount "80"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. Be3 $6 { Inaccuracy. Best was g1f3. } 2... Nc6 3. Qd3 Nf6 4. Nd2 a5 5. Ngf3 Nb4 6. Qb5+ $4 { Blunder. Best was d3b3. } 6... c6 $4 { Blunder. Best was c8d7. } 7. Qc5 $4 { Blunder. Best was b5a4. } 7... Nd7 $4 { Blunder. Best was c8f5. } 8. Qc3 e6 $2 { Mistake. Best was d7b6. } 9. a3 Na6 10. b4 $2 { Mistake. Best was e3f4. } 10... b6 $2 { Mistake. Best was a5b4. } 11. bxa5 bxa5 $6 { Inaccuracy. Best was c6c5. } 12. g3 $6 { Inaccuracy. Best was c3c6. } 12... g5 $2 { Mistake. Best was c6c5. } 13. h4 $6 { Inaccuracy. Best was c3c6. } 13... g4 14. Ng5 $2 { Mistake. Best was c3c6. } 14... h6 $2 { Mistake. Best was d7f6. } 15. Nb3 $2 { Mistake. Best was c3c6. } 15... Nab8 16. f3 $6 { Inaccuracy. Best was g5e6. } 16... hxg5 17. Bxg5 f6 18. Be3 $6 { Inaccuracy. Best was g5f4. } 18... f5 $2 { Mistake. Best was a5a4. } 19. fxg4 fxg4 20. O-O-O $2 { Mistake. Best was f1g2. } 20... Bxa3+ 21. Kb1 a4 22. Na1 $2 { Mistake. Best was b3c5. } 22... c5 $4 { Blunder. Best was d8b6. } 23. dxc5 Qf6 $6 { Inaccuracy. Best was e8g8. } 24. Qxa3 e5 $4 { Blunder. Best was d7e5. } 25. Bg5 $6 { Inaccuracy. Best was f1g2. } 25... Qf5 $2 { Mistake. Best was f6c6. } 26. Rxd5 $4 { Blunder. Best was f1g2. } 26... Bb7 $4 { Blunder. Best was f5e4. } 27. c6 Bxc6 $4 { Checkmate is now unavoidable. Best was b8c6. } 28. Rd6 $2 { Lost forced checkmate sequence. Best was a3e7. } 28... Bxh1 29. Rd1 Nc6 30. e4 $2 { Mistake. Best was b1c1. } 30... Qxe4 $4 { Blunder. Best was a8b8. } 31. Bd3 Qf3 $4 { Blunder. Best was e4b4. } 32. Bg6+ Qf7 33. Qd6 $2 { Lost forced checkmate sequence. Best was g6f7. } 33... Rb8+ $4 { Checkmate is now unavoidable. Best was d7c5. } 34. Qxb8+ $2 { Lost forced checkmate sequence. Best was b1c1. } 34... Ndxb8 35. Bxf7+ Kxf7 36. Rxh1 Na6 $2 { Mistake. Best was c6d4. } 37. Rf1+ Ke6 38. Rf6+ Kd5 $2 { Mistake. Best was e6d7. } 39. c3 $2 { Mistake. Best was c2c4. } 39... Rb8+ 40. Kc2 $6 { Inaccuracy. Best was b1a2. } 40... Nc5 0-1
