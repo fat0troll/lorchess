@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/analyse/fxgxy0rz"]
+[Date "2013-02-20"]
+[White "alfix2"]
+[Black "XRat"]
+[Result "1-0"]
+[WhiteElo "1213"]
+[BlackElo "887"]
+[PlyCount "37"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Bb5 $6 { Inaccuracy. Best was g1f3. } 2... c6 3. Ba4 b5 $6 { Inaccuracy. Best was g8f6. } 4. Bb3 Bb7 $2 { Mistake. Best was g8f6. } 5. Nf3 f6 $2 { Mistake. Best was d7d5. } 6. O-O $6 { Inaccuracy. Best was f3e5. } 6... Ne7 $6 { Inaccuracy. Best was d8e7. } 7. d3 $2 { Mistake. Best was d2d4. } 7... d5 8. exd5 cxd5 9. a4 a6 $6 { Inaccuracy. Best was b5b4. } 10. axb5 axb5 11. Rxa8 Bxa8 12. c4 $6 { Inaccuracy. Best was b1c3. } 12... Bc6 $2 { Mistake. Best was b5c4. } 13. Nc3 $2 { Mistake. Best was c4d5. } 13... Qa5 $4 { Blunder. Best was b5c4. } 14. cxd5 Nxd5 $2 { Mistake. Best was c6b7. } 15. Bxd5 Bxd5 16. Nxd5 Bc5 $2 { Mistake. Best was a5a2. } 17. d4 Bxd4 $2 { Mistake. Best was c5d6. } 18. Nxd4 exd4 $4 { Blunder. Best was e8f7. } 19. Qe2+ 1-0
