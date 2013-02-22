@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/analyse/xlh61f7h"]
+[Date "2013-02-20"]
+[White "doomgl"]
+[Black "UVV"]
+[Result "0-1"]
+[WhiteElo "1200"]
+[BlackElo "1200"]
+[PlyCount "48"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nc3 d6 $6 { Inaccuracy. Best was g8f6. } 3. Nf3 Nf6 4. g3 $6 { Inaccuracy. Best was d2d4. } 4... Bg4 5. Be2 c6 $6 { Inaccuracy. Best was b8c6. } 6. d3 $6 { Inaccuracy. Best was d2d4. } 6... Nbd7 7. Nh4 $6 { Inaccuracy. Best was h2h3. } 7... Bxe2 $6 { Inaccuracy. Best was g4h3. } 8. Qxe2 d5 9. exd5 Nxd5 10. Bd2 Bd6 $6 { Inaccuracy. Best was f8b4. } 11. Nf5 Qf6 $4 { Blunder. Best was d6f8. } 12. Nxd6+ $4 { Blunder. Best was c3e4. } 12... Qxd6 13. Ne4 Qg6 14. c4 Nd5f6 $2 { Mistake. Best was d5c7. } 15. Nd6+ Ke7 16. Nxb7 c5 17. O-O $2 { Mistake. Best was b2b4. } 17... Rab8 $2 { Mistake. Best was h8b8. } 18. Qf3 $2 { Mistake. Best was b7a5. } 18... e4 19. Rfe1 Rxb7 20. dxe4 $6 { Inaccuracy. Best was d2c3. } 20... Ne5 21. Qa3 Nxe4 $4 { Blunder. Best was f6d7. } 22. b4 $4 { Blunder. Best was f2f3. } 22... Nxc4 $6 { Inaccuracy. Best was h8d8. } 23. Qd3 Nxd2 24. Rxe4+ $4 { Blunder. Best was d3d2. } 24... Nxe4 0-1

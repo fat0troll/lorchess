@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/analyse/pdu5mabs"]
+[Date "2013-02-21"]
+[White "UVV"]
+[Black "doomgl"]
+[Result "1-0"]
+[WhiteElo "1200"]
+[BlackElo "1200"]
+[PlyCount "63"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. d3 $6 { Inaccuracy. Best was g1f3. } 2... Nf6 3. Bg5 h6 4. Bxf6 gxf6 5. Nf3 b6 $6 { Inaccuracy. Best was d7d5. } 6. Nc3 Bb7 7. d4 Rg8 8. dxe5 fxe5 9. Nxe5 Qe7 10. Qh5 $2 { Mistake. Best was e5c4. } 10... Rg5 11. Qxf7+ Qxf7 12. Nxf7 Kxf7 13. Bc4+ $6 { Inaccuracy. Best was e1c1. } 13... Kg7 14. g3 $6 { Inaccuracy. Best was e1g1. } 14... a6 $2 { Mistake. Best was f8b4. } 15. O-O b5 16. Bd3 Nc6 17. h4 Re5 18. Rae1 $6 { Inaccuracy. Best was a2a4. } 18... Nd4 $6 { Inaccuracy. Best was f8b4. } 19. Re3 $6 { Inaccuracy. Best was f2f4. } 19... b4 $6 { Inaccuracy. Best was f8c5. } 20. f4 $2 { Mistake. Best was c3d5. } 20... Re6 $6 { Inaccuracy. Best was e5a5. } 21. f5 Re5 22. f6+ Kf7 23. Bc4+ $2 { Mistake. Best was c3d1. } 23... Ne6 24. Rd3 Bc5+ 25. Kh2 bxc3 26. Rxd7+ Kg6 $4 { Blunder. Best was f7e8. } 27. bxc3 $4 { Blunder. Best was c4e6. } 27... Rxe4 28. Bxe6 $4 { Blunder. Best was c4d3. } 28... Rxh4+ $4 { Blunder. Best was e4e2. } 29. gxh4 Re8 $4 { Checkmate is now unavoidable. Best was h6h5. } 30. Rg7+ Kh5 31. Bf7+ Kxh4 32. Rf4# 1-0
