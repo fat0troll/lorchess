@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/analyse/po1b1cod"]
+[Date "2013-02-22"]
+[White "gremlin_the_red"]
+[Black "Google-ch"]
+[Result "1-0"]
+[WhiteElo "1562"]
+[BlackElo "1093"]
+[PlyCount "85"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. Bg5 f6 3. Bh4 g5 4. Bg3 Bf5 5. e4 $6 { Inaccuracy. Best was e2e3. } 5... Bxe4 6. Nc3 Bf5 7. Qh5+ $6 { Inaccuracy. Best was f1d3. } 7... Bg6 8. Qf3 Qd6 $4 { Blunder. Best was e7e6. } 9. Bb5+ $2 { Mistake. Best was g3d6. } 9... c6 10. Bxd6 exd6 11. Qxd5 $2 { Mistake. Best was c3d5. } 11... Ne7 $2 { Mistake. Best was e8d8. } 12. Bxc6+ $2 { Mistake. Best was d5e6. } 12... Nexc6 $4 { Blunder. Best was b8c6. } 13. Qe6+ Ne7 $2 { Mistake. Best was f8e7. } 14. O-O-O $4 { Blunder. Best was c3b5. } 14... Nc6 $4 { Blunder. Best was b8d7. } 15. Nf3 $4 { Blunder. Best was c3d5. } 15... Bf7 $2 { Mistake. Best was g6f5. } 16. Qxd6 $2 { Mistake. Best was e6f6. } 16... Rd8 $2 { Mistake. Best was f8g7. } 17. Qc7 $4 { Blunder. Best was d6f6. } 17... Rd7 18. Qg3 Bc4 $2 { Mistake. Best was h7h5. } 19. b3 $2 { Mistake. Best was f3d2. } 19... Be2 $4 { Blunder. Best was c4d5. } 20. Nxe2 Nf5 $6 { Inaccuracy. Best was h7h5. } 21. Qh3 h6 $4 { Blunder. Best was f8a3. } 22. Qxf5 Nb8 $2 { Mistake. Best was f8a3. } 23. c3 $6 { Inaccuracy. Best was f5f6. } 23... b6 $2 { Mistake. Best was d7e7. } 24. Rhe1 $6 { Inaccuracy. Best was f5g6. } 24... Kd8 $4 { Blunder. Best was f8a3. } 25. Kb2 $4 { Blunder. Best was f5f6. } 25... h5 $4 { Blunder. Best was d8c8. } 26. Qxf6+ Be7 $2 { Mistake. Best was d8c7. } 27. Qxh8+ Kc7 28. Qxh5 $2 { Mistake. Best was f3e5. } 28... a6 $4 { Blunder. Best was c7b7. } 29. Ne5 Bd6 30. Nxd7 Kxd7 $4 { Checkmate is now unavoidable. Best was b8d7. } 31. g3 $2 { Lost forced checkmate sequence. Best was h5f7. } 31... Be7 $4 { Blunder. Best was b8c6. } 32. h4 $4 { Blunder. Best was d4d5. } 32... gxh4 $4 { Blunder. Best was b8c6. } 33. gxh4 Bxh4 $4 { Blunder. Best was d7c8. } 34. Qxh4 Nc6 35. Nf4 Ne5 36. Qh7+ Kd6 37. Rxe5 Kc6 38. Nd3 $6 { Detected checkmate in 2 moves, but player moved for mate in 3. Best was e5e6. } 38... b5 39. f4 $6 { Detected checkmate in 2 moves, but player moved for mate in 3. Best was e5e6. } 39... Kb6 40. Re6+ Ka5 41. Kc2 $6 { Detected checkmate in 1 moves, but player moved for mate in 2. Best was h7c7. } 41... b4 42. cxb4+ $6 { Detected checkmate in 1 moves, but player moved for mate in 2. Best was h7f5. } 42... Kb5 43. Qh5# 1-0
