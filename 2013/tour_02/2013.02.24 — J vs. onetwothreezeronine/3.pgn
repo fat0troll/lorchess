@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/analyse/j8nqxju1"]
+[Date "2013-02-24"]
+[White "LOR_J"]
+[Black "rogvold"]
+[Result "1-0"]
+[WhiteElo "1152"]
+[BlackElo "1089"]
+[PlyCount "13"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 bxc6 $6 { Inaccuracy. Best was d7c6. } 5. Nxe5 $6 { Inaccuracy. Best was e1g1. } 5... c5 $4 { Blunder. Best was d8g5. } 6. Qf3 $4 { Blunder. Best was e5f7. } 6... Ne7 $4 { Checkmate is now unavoidable. Best was d8e7. } 7. Qxf7# 1-0

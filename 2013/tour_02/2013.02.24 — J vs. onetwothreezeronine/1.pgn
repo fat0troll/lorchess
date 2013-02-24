@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/analyse/e1k2atyg"]
+[Date "2013-02-24"]
+[White "LOR_J"]
+[Black "rogvold"]
+[Result "1-0"]
+[WhiteElo "1176"]
+[BlackElo "1023"]
+[PlyCount "33"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. f4 $6 { Inaccuracy. Best was g1f3. } 2... exf4 3. Nf3 Bb4 4. c3 Ba5 $6 { Inaccuracy. Best was b4e7. } 5. d4 g6 $2 { Mistake. Best was g8f6. } 6. Bxf4 d6 7. Be2 Bg4 $6 { Inaccuracy. Best was a5b6. } 8. O-O Nf6 $6 { Inaccuracy. Best was b8d7. } 9. e5 Ne4 10. h3 $6 { Inaccuracy. Best was d1b3. } 10... Bf5 11. Bd3 Ng3 $4 { Blunder. Best was d6d5. } 12. Bxg3 Bxd3 13. Qxd3 g5 $4 { Blunder. Best was e8g8. } 14. exd6 O-O 15. dxc7 Qe7 $4 { Blunder. Best was a5c7. } 16. cxb8=Q Raxb8 $2 { Mistake. Best was f8b8. } 17. Qf5 1-0
