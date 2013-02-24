@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/analyse/940bs1ye"]
+[Date "2013-02-18"]
+[White "HunOL"]
+[Black "Michkova"]
+[Result "1-0"]
+[WhiteElo "1266"]
+[BlackElo "1288"]
+[PlyCount "89"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 dxc4 3. Nc3 $6 { Inaccuracy. Best was e2e3. } 3... e6 $6 { Inaccuracy. Best was e7e5. } 4. Nf3 Bb4 5. Bd2 $6 { Inaccuracy. Best was e2e3. } 5... Nf6 6. e3 Nc6 $6 { Inaccuracy. Best was b4c3. } 7. Bxc4 a6 8. a3 Bd6 9. O-O b5 $2 { Mistake. Best was e8g8. } 10. Bb3 $2 { Mistake. Best was c4d3. } 10... Bb7 11. Qc2 O-O 12. d5 $2 { Mistake. Best was f1d1. } 12... exd5 13. Nxd5 Ne5 $2 { Mistake. Best was f6d5. } 14. Nxf6+ $6 { Inaccuracy. Best was f3e5. } 14... Qxf6 15. Nxe5 Bxe5 $6 { Inaccuracy. Best was f6e5. } 16. Rad1 $6 { Inaccuracy. Best was f2f4. } 16... Qh4 $6 { Inaccuracy. Best was c7c5. } 17. g3 $6 { Inaccuracy. Best was f2f4. } 17... Qh3 18. f3 $6 { Inaccuracy. Best was e3e4. } 18... Bxg3 19. Bb4 Rfe8 $4 { Blunder. Best was g3d6. } 20. hxg3 Qxg3+ 21. Qg2 Qh4 $4 { Blunder. Best was g3g2. } 22. Bxf7+ Kh8 $2 { Mistake. Best was g8f7. } 23. Bxe8 Rxe8 24. Rd7 Qh6 25. Bc3 $2 { Mistake. Best was d7c7. } 25... Qxe3+ 26. Kh1 Qh6+ 27. Qh2 Bxf3+ $4 { Blunder. Best was h6h2. } 28. Rxf3 Qc1+ 29. Qg1 Qh6+ 30. Qh2 $4 { Blunder. Best was h1g2. } 30... Qc1+ 31. Kg2 Re2+ 32. Rf2 Rxf2+ $4 { Blunder. Best was c1g5. } 33. Kxf2 Qc2+ $4 { Checkmate is now unavoidable. } 34. Rd2 $2 { Lost forced checkmate sequence. Best was f2e3. } 34... Qf5+ 35. Ke1 $6 { Inaccuracy. Best was f2e3. } 35... Qb1+ 36. Rd1 Qe4+ 37. Kd2 Qd5+ $4 { Blunder. Best was b5b4. } 38. Kc2 $2 { Mistake. Best was d2c1. } 38... Qe4+ $4 { Checkmate is now unavoidable. Best was d5f5. } 39. Kc1 Qe3+ 40. Qd2 $2 { Lost forced checkmate sequence. Best was c1b1. } 40... Qxd2+ 41. Rxd2 h6 $4 { Blunder. Best was h8g8. } 42. Rd7 Kg8 $4 { Blunder. Best was c7c5. } 43. Rxg7+ Kf8 44. Rxc7 h5 45. Rh7 1-0
