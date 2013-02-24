@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/analyse/5k0qkckx"]
+[Date "2013-02-23"]
+[White "azimov"]
+[Black "vaddim"]
+[Result "1-0"]
+[WhiteElo "1506"]
+[BlackElo "1200"]
+[PlyCount "60"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nh6 $6 { Inaccuracy. Best was f8d6. } 4. d4 exd4 5. Nxd4 $6 { Inaccuracy. Best was e1g1. } 5... Nxd4 $6 { Inaccuracy. Best was f8c5. } 6. Qxd4 b6 $4 { Blunder. Best was h6g4. } 7. Bxh6 Qf6 8. Qxf6 gxf6 9. Bxf8 Kxf8 10. Nc3 c6 11. O-O-O b5 12. Bxb5 $2 { Mistake. Best was c4e2. } 12... cxb5 13. Nxb5 Bb7 14. Rxd7 Bc6 15. Rxa7 Rxa7 16. Nxa7 Bxe4 17. f3 Bd5 $2 { Mistake. Best was e4b7. } 18. Rd1 Bb7 $2 { Mistake. Best was d5c4. } 19. Rd8+ Kg7 20. Rxh8 Kxh8 21. c4 $2 { Mistake. Best was b2b4. } 21... Kg7 22. c5 Ba6 $4 { Blunder. Best was b7d5. } 23. c6 $2 { Mistake. Best was b2b4. } 23... f5 $4 { Blunder. Best was g7f8. } 24. c7 $4 { Blunder. Best was b2b4. } 24... Kf6 25. c8=Q Bxc8 26. Nxc8 Ke5 $2 { Mistake. Best was f6e6. } 27. a4 Kd5 $4 { Blunder. Best was e5e6. } 28. a5 Kc6 29. a6 Kc7 $4 { Blunder. Best was f5f4. } 30. a7 Kxc8 1-0

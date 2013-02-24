@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/analyse/68fyn6b2"]
+[Date "2013-02-23"]
+[White "vaddim"]
+[Black "azimov"]
+[Result "0-1"]
+[WhiteElo "1200"]
+[BlackElo "1506"]
+[PlyCount "28"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qe3 Nf6 5. e5 $2 { Mistake. Best was f1d3. } 5... Ng4 6. Qf4 $6 { Inaccuracy. Best was e3e2. } 6... Ngxe5 7. Bb5 Bd6 8. Qe4 O-O 9. Bf4 $2 { Mistake. Best was b1c3. } 9... Re8 10. Nf3 $4 { Blunder. Best was f4e3. } 10... Nxf3+ 11. gxf3 Rxe4+ $6 { Inaccuracy. Best was d6f4. } 12. fxe4 Bxf4 13. O-O $4 { Checkmate is now unavoidable. Best was b1c3. } 13... Qh4 $2 { Lost forced checkmate sequence. Best was d8g5. } 14. Be2 $4 { Checkmate is now unavoidable. Best was f1d1. } 14... Qxh2# 0-1
