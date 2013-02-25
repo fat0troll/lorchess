@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/analyse/45jac019"]
+[Date "2013-02-24"]
+[White "William_V"]
+[Black "UVV"]
+[Result "1-0"]
+[WhiteElo "1441"]
+[BlackElo "1161"]
+[PlyCount "83"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. c3 $6 { Inaccuracy. Best was g1f3. } 2... Nf6 3. Bc4 $6 { Inaccuracy. Best was d1a4. } 3... d5 $2 { Mistake. Best was f6e4. } 4. exd5 Nxd5 5. Qf3 $2 { Mistake. Best was g1f3. } 5... c6 6. Ne2 b5 $6 { Inaccuracy. Best was f8d6. } 7. Bb3 Be6 8. O-O c5 $2 { Mistake. Best was b8d7. } 9. d4 $6 { Inaccuracy. Best was c3c4. } 9... Nc6 $6 { Inaccuracy. Best was c5c4. } 10. Ng3 $2 { Mistake. Best was a2a4. } 10... c4 11. Bc2 exd4 12. a4 $2 { Mistake. Best was c2f5. } 12... a6 $2 { Mistake. Best was d4d3. } 13. axb5 axb5 14. Rxa8 Qxa8 15. Na3 $2 { Mistake. Best was f1e1. } 15... dxc3 $2 { Mistake. Best was f8a3. } 16. bxc3 $4 { Blunder. Best was a3b5. } 16... b4 $4 { Blunder. Best was f8a3. } 17. cxb4 $2 { Mistake. Best was a3c4. } 17... Ncxb4 $6 { Inaccuracy. Best was c6d4. } 18. Nb5 $4 { Blunder. Best was c2e4. } 18... Qc6 $4 { Blunder. Best was b4c2. } 19. Ba4 Bd7 $4 { Blunder. Best was e8d8. } 20. Re1+ $2 { Mistake. Best was f1d1. } 20... Be7 $2 { Mistake. Best was e8d8. } 21. Nf5 O-O 22. Nxe7+ $2 { Mistake. Best was b5c3. } 22... Nxe7 23. Rxe7 Nd5 $2 { Mistake. Best was b4d3. } 24. Re5 $2 { Mistake. Best was b5c3. } 24... Be6 $2 { Mistake. Best was d5b6. } 25. Nc3 Qc7 $6 { Inaccuracy. Best was c6a8. } 26. Rxd5 Bxd5 27. Nxd5 $2 { Mistake. Best was f3d5. } 27... Qe5 28. Ne3 Qc3 $6 { Inaccuracy. Best was e5a5. } 29. Qd1 Qb4 30. h3 $6 { Inaccuracy. Best was c1d2. } 30... c3 $2 { Mistake. Best was f8a8. } 31. Nd5 Qd6 32. Nxc3 $6 { Inaccuracy. Best was c1f4. } 32... Qc5 $6 { Inaccuracy. Best was d6d1. } 33. Qb3 $2 { Mistake. Best was c3d5. } 33... g6 $4 { Blunder. Best was f8c8. } 34. Ba3 $4 { Blunder. Best was c1b2. } 34... Qc8 $4 { Blunder. Best was c5e5. } 35. Bxf8 $2 { Mistake. Best was c3d5. } 35... Qxf8 36. Nd5 $2 { Mistake. Best was c3e4. } 36... Qd8 $6 { Inaccuracy. Best was f8d6. } 37. Qc4 h5 $4 { Blunder. Best was g8g7. } 38. Bb3 $4 { Blunder. Best was c4d4. } 38... Kh7 39. Nf4 Qd1+ $4 { Checkmate is now unavoidable. Best was d8e8. } 40. Kh2 $2 { Lost forced checkmate sequence. Best was b3d1. } 40... Qd2 $4 { Checkmate is now unavoidable. Best was d1d7. } 41. Qxf7+ Kh6 42. Qxg6# 1-0

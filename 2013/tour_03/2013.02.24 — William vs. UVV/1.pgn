@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/analyse/6k1qr19u"]
+[Date "2013-02-24"]
+[White "William_V"]
+[Black "UVV"]
+[Result "1-0"]
+[WhiteElo "1428"]
+[BlackElo "1200"]
+[PlyCount "111"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 d5 $6 { Inaccuracy. Best was c7c6. } 4. exd5 Nxd5 5. Qf3 $6 { Inaccuracy. Best was g1f3. } 5... Be6 6. Ne2 c6 7. O-O Be7 8. Nbc3 Bc5 $6 { Inaccuracy. Best was e8g8. } 9. Ne4 Nd7 10. Nxc5 Nxc5 11. Ng3 $6 { Inaccuracy. Best was c4d5. } 11... O-O 12. Nh5 $6 { Inaccuracy. Best was f1e1. } 12... g6 $6 { Inaccuracy. Best was d8h4. } 13. Ng3 b5 14. Bxd5 cxd5 15. Re1 e4 $2 { Mistake. Best was c5d7. } 16. dxe4 dxe4 17. Nxe4 Nxe4 18. Qxe4 Bd5 $6 { Inaccuracy. Best was f8e8. } 19. Qd4 Re8 $4 { Blunder. Best was d5e6. } 20. Bh6 $4 { Blunder. Best was e1e8. } 20... Rxe1+ 21. Rxe1 f6 22. Rd1 Bc6 $2 { Mistake. Best was g8f7. } 23. Qxd8+ Rxd8 24. Rxd8+ Kf7 25. Rc8 Bd7 26. Rc7 Ke6 27. Rxa7 g5 28. b3 $6 { Inaccuracy. Best was f2f3. } 28... Bc8 $6 { Inaccuracy. Best was g5g4. } 29. Rxh7 f5 $4 { Blunder. Best was e6d5. } 30. Rc7 Bd7 31. c4 $4 { Blunder. Best was h6g5. } 31... Kd6 $4 { Blunder. Best was b5c4. } 32. Ra7 $4 { Blunder. Best was c7d7. } 32... bxc4 $4 { Blunder. Best was d7c6. } 33. bxc4 $4 { Blunder. Best was a7d7. } 33... Be6 $4 { Blunder. Best was d7e8. } 34. Bxg5 $4 { Blunder. Best was a7a6. } 34... Kc5 $4 { Blunder. Best was e6c4. } 35. Rc7+ Kb4 $2 { Mistake. Best was c5d4. } 36. c5 $4 { Blunder. Best was h2h4. } 36... Kc4 $4 { Blunder. Best was f5f4. } 37. Be3 $4 { Blunder. Best was h2h4. } 37... Kd5 $4 { Blunder. Best was c4b5. } 38. a4 Ke4 $4 { Blunder. Best was f5f4. } 39. a5 $4 { Blunder. Best was c7e7. } 39... Bc4 40. c6 $4 { Blunder. Best was h2h4. } 40... Kd5 41. Rc8 $4 { Blunder. Best was h2h4. } 41... Ke6 $4 { Blunder. Best was c4a2. } 42. Bb6 $4 { Blunder. Best was c8d8. } 42... f4 $4 { Blunder. Best was c4a6. } 43. Rd8 $2 { Mistake. Best was c6c7. } 43... Bd5 $4 { Blunder. Best was c4a6. } 44. c7 Bb7 45. h4 $2 { Lost forced checkmate sequence. Best was c7c8q. } 45... Ke7 $2 { Mistake. Best was b7a6. } 46. h5 Kf7 47. h6 $4 { Blunder. Best was c7c8q. } 47... Kg6 $4 { Checkmate is now unavoidable. } 48. Rd6+ $2 { Lost forced checkmate sequence. Best was c7c8q. } 48... Kh7 $4 { Checkmate is now unavoidable. } 49. Bd4 Bc8 50. a6 Kg8 51. Rd8+ Kf7 52. Rxc8 $6 { Detected checkmate in 5 moves, but player moved for mate in 6. Best was h6h7. } 52... Kg6 53. a7 $6 { Detected checkmate in 4 moves, but player moved for mate in 5. Best was c8e8. } 53... Kxh6 54. a8=Q Kg5 55. Rg8+ Kf5 56. Qd5# 1-0
