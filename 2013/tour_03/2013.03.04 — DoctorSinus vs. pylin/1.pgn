@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/analyse/an5on2l5"]
+[Date "2013-03-04"]
+[White "fat0troll"]
+[Black "linchess2"]
+[Result "0-1"]
+[WhiteElo "1024"]
+[BlackElo "1255"]
+[PlyCount "68"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. d3 Nc6 3. Be2 Nf6 4. Nf3 Bc5 5. O-O d6 6. Be3 Bxe3 7. fxe3 Bg4 8. h3 Bxf3 9. Bxf3 Qe7 10. Nc3 O-O-O 11. Nd5 Nxd5 12. exd5 Nb4 $6 { Inaccuracy. Best was c6b8. } 13. c3 Na6 14. d4 exd4 15. cxd4 $2 { Mistake. Best was f3g4. } 15... Qxe3+ 16. Rf2 Nb4 17. Qd2 Qxd2 18. Rxd2 Rd7 $2 { Mistake. Best was g7g6. } 19. Re1 $2 { Mistake. Best was a2a3. } 19... Kd8 20. Bg4 $2 { Mistake. Best was e1e3. } 20... Re7 21. Rde2 $6 { Inaccuracy. Best was e1e7. } 21... Rhe8 22. a3 Nd3 $6 { Inaccuracy. Best was b4d5. } 23. Rxe7 Rxe7 24. Rxe7 Kxe7 25. Kf1 $2 { Mistake. Best was b2b4. } 25... Nxb2 26. Kf2 $6 { Inaccuracy. Best was g4c8. } 26... Nd3+ $6 { Inaccuracy. Best was b2c4. } 27. Ke3 $6 { Inaccuracy. Best was f2g3. } 27... Ne1 28. Kf4 $2 { Mistake. Best was g2g3. } 28... Nxg2+ 29. Kf5 Ne3+ $6 { Inaccuracy. Best was g7g6. } 30. Kg5 $6 { Inaccuracy. Best was f5e4. } 30... Nxd5 31. Kf5 $6 { Inaccuracy. Best was g4f5. } 31... Ne3+ 32. Kf4 Nxg4 33. Kxg4 Ke6 34. Kf4 Kd5 0-1
