@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/analyse/zodkky7e"]
+[Date "2013-03-04"]
+[White "fat0troll"]
+[Black "snoopcatt"]
+[Result "1-0"]
+[WhiteElo "997"]
+[BlackElo "1278"]
+[PlyCount "130"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. d3 Nc6 3. Be2 Nf6 4. Nf3 e6 5. O-O d5 6. exd5 Nxd5 $6 { Inaccuracy. Best was e6d5. } 7. g3 $6 { Inaccuracy. Best was d3d4. } 7... h5 8. c4 Nd4 $4 { Blunder. Best was d5f6. } 9. Qa4+ $4 { Blunder. Best was c4d5. } 9... Bd7 10. Qd1 Nxf3+ $6 { Inaccuracy. Best was d7c8. } 11. Bxf3 h4 $4 { Blunder. Best was d5f6. } 12. Bxd5 $4 { Blunder. Best was c4d5. } 12... hxg3 $6 { Inaccuracy. Best was e6d5. } 13. fxg3 Qc7 $4 { Blunder. Best was e6d5. } 14. Qe2 O-O-O 15. Bxe6 $4 { Blunder. Best was d5g2. } 15... Bxe6 16. Bf4 $6 { Inaccuracy. Best was c1g5. } 16... Bd6 $2 { Mistake. Best was c7d7. } 17. Nc3 g5 $2 { Mistake. Best was c7d7. } 18. Nb5 Qb6 $2 { Mistake. Best was g5f4. } 19. Nxd6+ Rxd6 20. Bxd6 Qxd6 21. Rae1 Qd4+ 22. Rf2 Bd7 23. Qe3 Qxe3 $6 { Inaccuracy. Best was h8e8. } 24. Rxe3 Be6 $2 { Mistake. Best was f7f5. } 25. Re5 Re8 $2 { Mistake. Best was b7b6. } 26. Rxc5+ Kb8 27. Rcf5 $4 { Blunder. Best was c5g5. } 27... Bxf5 28. Rxf5 Re2 29. Rxf7 $6 { Inaccuracy. Best was h2h4. } 29... Rxb2 30. d4 $6 { Inaccuracy. Best was f7f2. } 30... Rxa2 31. d5 Rd2 32. Rf5 g4 33. Kf1 $6 { Inaccuracy. Best was c4c5. } 33... Kc7 34. Ke1 Rxh2 35. c5 Rh6 $2 { Mistake. Best was h2c2. } 36. Rf7+ $6 { Inaccuracy. Best was e1d2. } 36... Kd8 37. d6 $6 { Inaccuracy. Best was f7b7. } 37... Re6+ 38. Kf2 Re8 $4 { Blunder. Best was b7b6. } 39. Rxb7 a5 $4 { Checkmate is now unavoidable. Best was e8e6. } 40. c6 Rf8+ 41. Ke3 Rf3+ 42. Kd4 Rf1 43. c7+ $2 { Lost forced checkmate sequence. Best was b7b8. } 43... Kc8 $4 { Checkmate is now unavoidable. Best was d8d7. } 44. d7+ $2 { Lost forced checkmate sequence. Best was b7b8. } 44... Kxb7 $4 { Checkmate is now unavoidable. Best was c8d7. } 45. d8=Q $2 { Lost forced checkmate sequence. Best was c7c8q. } 45... Rd1+ 46. Kc3 $4 { Blunder. Best was d4e3. } 46... Rc1+ 47. Kb2 $2 { Mistake. Best was c3b3. } 47... Rxc7 48. Qd5+ Rc6 $6 { Inaccuracy. Best was b7b6. } 49. Qxa5 Rb6+ $6 { Inaccuracy. Best was b7c8. } 50. Ka3 $6 { Inaccuracy. Best was b2c3. } 50... Ra6 51. Qxa6+ Kxa6 52. Kb4 Kb6 53. Kc4 Kc6 54. Kd4 Kd6 55. Ke4 Ke6 56. Kf4 Kf6 57. Kxg4 Kg6 58. Kh4 Kh6 59. g4 Kg6 60. g5 Kf5 $4 { Checkmate is now unavoidable. Best was g6f7. } 61. Kh5 Ke6 62. g6 Kf6 63. Kh6 Ke7 64. g7 Kf7 65. Kh7 Ke8 1-0
