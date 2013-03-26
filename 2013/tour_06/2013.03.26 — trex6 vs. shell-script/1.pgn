@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/analyse/wluxlbgx"]
+[Date "2013-03-26"]
+[White "txgames"]
+[Black "cppmm"]
+[Result "0-1"]
+[WhiteElo "974"]
+[BlackElo "935"]
+[PlyCount "56"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 d6 4. d4 c5 $2 { Mistake. Best was e5d4. } 5. d5 $2 { Mistake. Best was d4e5. } 5... Bd7 6. Bc4 b5 7. Bxb5 $6 { Inaccuracy. Best was c3b5. } 7... Bxb5 8. Nxb5 Qa5+ 9. Nc3 Na6 $2 { Mistake. Best was f6e4. } 10. a3 $2 { Mistake. Best was f3d2. } 10... Be7 $2 { Mistake. Best was f6e4. } 11. h3 $2 { Mistake. Best was e1g1. } 11... O-O $2 { Mistake. Best was f6e4. } 12. O-O Rab8 13. Bd2 $2 { Mistake. Best was f3d2. } 13... Rxb2 14. Qe2 Rxc2 15. Nb5 $2 { Mistake. Best was e2d3. } 15... Rxd2 $2 { Mistake. Best was a5a4. } 16. Qxd2 $4 { Blunder. Best was f3d2. } 16... Qxb5 17. a4 $6 { Inaccuracy. Best was d2c2. } 17... Qb7 $6 { Inaccuracy. Best was b5c4. } 18. Rab1 $6 { Inaccuracy. Best was d2e2. } 18... Qc7 $6 { Inaccuracy. Best was a6b4. } 19. g4 Nxe4 $2 { Mistake. Best was a6b4. } 20. Qd3 Ng5 $2 { Mistake. Best was e4f2. } 21. Nxg5 Bxg5 22. Qxa6 h5 23. Rb7 Qc8 24. Qxa7 $2 { Mistake. Best was b7a7. } 24... hxg4 25. hxg4 $4 { Checkmate is now unavoidable. Best was h3h4. } 25... Qxg4+ 26. Kh1 Qh4+ $2 { Lost forced checkmate sequence. Best was g4h3. } 27. Kg1 Bf4 28. Rb8 $4 { Checkmate is now unavoidable. Best was f1b1. } 28... Qh2# 0-1
