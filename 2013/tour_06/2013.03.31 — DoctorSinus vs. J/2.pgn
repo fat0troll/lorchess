@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/analyse/wpkc4c3p"]
+[Date "2013-03-31"]
+[White "LOR_J"]
+[Black "fat0troll"]
+[Result "1-0"]
+[WhiteElo "1171"]
+[BlackElo "1006"]
+[PlyCount "99"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. d4 d6 $2 { Mistake. Best was c5d4. } 3. d5 $6 { Inaccuracy. Best was d4c5. } 3... e5 4. h3 b6 $6 { Inaccuracy. Best was g8f6. } 5. c4 Ba6 6. b3 Qd7 7. Nc3 Be7 8. Nf3 Nf6 9. Bd3 O-O 10. O-O Qe8 11. Ba3 Nbd7 12. b4 $6 { Inaccuracy. Best was d3c2. } 12... Rb8 $6 { Inaccuracy. Best was c5b4. } 13. b5 Bb7 14. Bc1 a5 $6 { Inaccuracy. Best was f6h5. } 15. bxa6 Bxa6 16. a4 Ra8 17. a5 $6 { Inaccuracy. Best was f3h4. } 17... bxa5 18. Rxa5 Bb7 19. Qa4 $6 { Inaccuracy. Best was a5a8. } 19... Nb6 $6 { Inaccuracy. Best was a8a5. } 20. Rxa8 Qxa8 21. Qb5 Qa6 22. Bg5 h6 23. Bxf6 Bxf6 24. Qb2 Rb8 $2 { Mistake. Best was b7c8. } 25. Ra1 Qxa1+ $4 { Blunder. Best was b6c4. } 26. Qxa1 Ra8 27. Qb2 Bg5 $4 { Blunder. Best was f6d8. } 28. Nb5 $4 { Blunder. Best was b2b6. } 28... Ba6 $2 { Mistake. Best was b6c8. } 29. Nxd6 $2 { Mistake. Best was b5c7. } 29... Nxc4 $4 { Blunder. Best was b6d7. } 30. Bxc4 Bxc4 31. Nxe5 $4 { Blunder. Best was d6c4. } 31... Ra2 $4 { Blunder. Best was c4a6. } 32. Qb8+ Kh7 $4 { Checkmate is now unavoidable. } 33. Nexf7 $2 { Lost forced checkmate sequence. Best was d6f7. } 33... Ra1+ $2 { Mistake. Best was g5f4. } 34. Kh2 Bf4+ 35. g3 Bxd6 36. Nxd6 $4 { Blunder. Best was b8h8. } 36... Rf1 $4 { Blunder. Best was c4d3. } 37. Kg2 $4 { Blunder. Best was d6c4. } 37... Bd3 $2 { Mistake. Best was c4b3. } 38. e5 $4 { Blunder. Best was b8b3. } 38... c4 39. Nxc4 $4 { Blunder. Best was b8c7. } 39... Bxc4 40. d6 $4 { Blunder. Best was b8b2. } 40... Rd1 41. Qe8 Bd5+ 42. Kh2 $4 { Checkmate is now unavoidable. Best was f2f3. } 42... Rf1 $2 { Lost forced checkmate sequence. Best was d1h1. } 43. h4 $4 { Checkmate is now unavoidable. Best was g3g4. } 43... Rxf2+ $2 { Lost forced checkmate sequence. Best was f1h1. } 44. Kh3 $4 { Blunder. Best was h2g1. } 44... Rf1 $4 { Blunder. Best was d5g2. } 45. d7 Rh1+ 46. Kg4 Rf1 47. d8=Q Rf3 $4 { Checkmate is now unavoidable. Best was d5f3. } 48. Qxd5 $6 { Detected checkmate in 3 moves, but player moved for mate in 4. Best was e8h8. } 48... Rxg3+ 49. Kxg3 g5 50. Qdd7# 1-0
