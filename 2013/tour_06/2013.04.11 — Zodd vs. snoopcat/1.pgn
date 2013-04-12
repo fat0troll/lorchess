@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/analyse/qvuqvr8g"]
+[Date "2013-04-10"]
+[White "zodd"]
+[Black "snoopcatt"]
+[Result "1-0"]
+[WhiteElo "1372"]
+[BlackElo "1261"]
+[PlyCount "51"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 g6 4. d4 cxd4 5. Nxd4 Bg7 6. Be3 e6 $2 { Mistake. Best was g8f6. } 7. Bb5 $2 { Mistake. Best was d4b5. } 7... Nge7 8. Qd2 a6 9. Ba4 b5 10. Bb3 O-O 11. O-O b4 $6 { Inaccuracy. Best was c8b7. } 12. Nce2 $6 { Inaccuracy. Best was c3a4. } 12... a5 13. a3 Bb7 14. axb4 axb4 15. Nxc6 Nxc6 16. Nd4 Bxd4 $6 { Inaccuracy. Best was d8f6. } 17. Bxd4 Qh4 $2 { Mistake. Best was c6d4. } 18. f3 $2 { Mistake. Best was d4c5. } 18... Ra6 $2 { Mistake. Best was c6d4. } 19. Bc5 Rfa8 20. Rxa6 Bxa6 21. Rd1 Qh5 22. Bxb4 Rd8 $2 { Mistake. Best was c6b4. } 23. Bc3 Qc5+ 24. Kh1 d6 $4 { Blunder. Best was c5e7. } 25. Bf6 Rd7 $4 { Checkmate is now unavoidable. Best was d6d5. } 26. Qh6 1-0

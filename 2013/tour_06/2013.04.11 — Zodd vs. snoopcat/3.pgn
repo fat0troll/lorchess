@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/analyse/16bzfhra"]
+[Date "2013-04-10"]
+[White "zodd"]
+[Black "snoopcatt"]
+[Result "1-0"]
+[WhiteElo "1377"]
+[BlackElo "1256"]
+[PlyCount "73"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 $6 { Inaccuracy. Best was f1b5. } 3... cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 e6 $2 { Mistake. Best was g8f6. } 7. Bb5 $2 { Mistake. Best was d4b5. } 7... Nge7 8. Qd2 a6 9. Ba4 b5 10. Bb3 a5 $2 { Mistake. Best was e8g8. } 11. a3 $2 { Mistake. Best was d4b5. } 11... a4 12. Ba2 b4 $6 { Inaccuracy. Best was d8a5. } 13. axb4 a3 $6 { Inaccuracy. Best was c6b4. } 14. Bb3 $6 { Inaccuracy. Best was b2a3. } 14... Qb6 $4 { Blunder. Best was c6b4. } 15. Nxc6 $4 { Blunder. Best was d4e6. } 15... Qxc6 16. Bd4 axb2 17. Rxa8 Qxa8 $2 { Mistake. Best was b2b1q. } 18. O-O $4 { Blunder. Best was d4g7. } 18... O-O $6 { Inaccuracy. Best was g7d4. } 19. Bxg7 Kxg7 20. Rb1 Qa1 $4 { Blunder. Best was a8b8. } 21. Ba2 Bb7 $2 { Mistake. Best was e7c6. } 22. f3 $4 { Blunder. Best was d2e1. } 22... Rc8 $4 { Blunder. Best was f8a8. } 23. Qe1 Rxc3 $4 { Blunder. Best was e7c6. } 24. Qxc3+ Kg8 $2 { Mistake. Best was f7f6. } 25. Qxb2 $4 { Blunder. Best was b1a1. } 25... Qxb2 26. Rxb2 d5 27. exd5 exd5 28. c3 Kf8 29. Rd2 h5 $2 { Mistake. Best was f8e8. } 30. c4 dxc4 $2 { Mistake. Best was f8e8. } 31. Bxc4 $2 { Mistake. Best was d2d8. } 31... Nc6 $6 { Inaccuracy. Best was f8e8. } 32. b5 Na5 33. Bd5 $2 { Mistake. Best was c4a2. } 33... Bc8 $4 { Blunder. Best was b7d5. } 34. b6 Ke7 $4 { Blunder. Best was c8b7. } 35. Ra2 Bb7 $4 { Blunder. Best was a5c6. } 36. Rxa5 Bxd5 $4 { Checkmate is now unavoidable. Best was b7c8. } 37. Rxd5 1-0
