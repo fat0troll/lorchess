@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/analyse/jdcyzko3"]
+[Date "2013-04-21"]
+[White "azimov"]
+[Black "William_V"]
+[Result "1-0"]
+[WhiteElo "1502"]
+[BlackElo "1416"]
+[PlyCount "17"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. Nc3 Bg4 5. h3 Bh5 $2 { Mistake. Best was g4f3. } 6. O-O $2 { Mistake. Best was f3e5. } 6... Nd4 $2 { Mistake. Best was g8f6. } 7. Nxe5 Bxd1 $4 { Checkmate is now unavoidable. Best was d8h4. } 8. Bxf7+ Ke7 9. Nd5# 1-0

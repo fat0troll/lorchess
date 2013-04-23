@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/analyse/hv4qg3qv"]
+[Date "2013-04-21"]
+[White "William_V"]
+[Black "azimov"]
+[Result "0-1"]
+[WhiteElo "1404"]
+[BlackElo "1514"]
+[PlyCount "54"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. e5 $6 { Inaccuracy. Best was g1f3. } 2... Nc6 3. Nf3 d6 $6 { Inaccuracy. Best was d8c7. } 4. exd6 Qxd6 5. Nc3 Bg4 6. Be2 O-O-O 7. O-O Nf6 $6 { Inaccuracy. Best was e7e5. } 8. a3 $6 { Inaccuracy. Best was f3g5. } 8... h5 9. b4 cxb4 10. axb4 Kb8 11. d3 $6 { Inaccuracy. Best was c3b5. } 11... h4 $4 { Blunder. Best was d6b4. } 12. g3 $4 { Blunder. Best was c3b5. } 12... hxg3 13. fxg3 $2 { Mistake. Best was h2g3. } 13... Bxf3 14. Bxf3 Qd4+ 15. Kg2 Qxc3 16. Bd2 Qd4 17. Bxc6 bxc6 18. Re1 $2 { Mistake. Best was d1f3. } 18... Ng4 19. Bf4+ e5 20. Qxg4 exf4 21. Ra6 $4 { Blunder. Best was g4f4. } 21... Rxh2+ 22. Kxh2 Qf2+ 23. Kh3 Qxe1 24. Qxf4+ $4 { Blunder. Best was h3g2. } 24... Bd6 25. Qf3 $4 { Checkmate is now unavoidable. Best was a6b6. } 25... Rh8+ 26. Kg4 f5+ 27. Qxf5 Qxg3# 0-1
