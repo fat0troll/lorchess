@@ -18,7 +18,7 @@ def roundRobin(units, sets=None):
 
 # LOR sheduler
 
-players = ["1", "2", "3", "4", "5", "6", "7", "8"]
+players = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
 tour_count = 0
 
 # Generate LORCODE for pairings.
