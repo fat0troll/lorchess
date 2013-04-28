@@ -18,32 +18,7 @@ def roundRobin(units, sets=None):
 
 # LOR sheduler
 
-players = [
-    "[user]alfix[/user]", 
-    "[user]aptyp[/user]", 
-    "[user]dk-[/user]", 
-    "[user]DNA_Seq[/user]",
-    "[user]DoctorSinus[/user]",
-    "[user]Felagund[/user]",
-    "[user]Genuine[/user]",
-    "[user]Google-ch[/user]",
-    "[user]HunOL[/user]",
-    "[user]J[/user]",
-    "[user]LongLiveUbuntu[/user]",
-    "[user]Michkova[/user]",
-    "[user]onetwothreezeronine[/user]",
-    "[user]snoopcat[/user]",
-    "[user]redgremlin[/user]",
-    "[user]pylin[/user]",
-    "[user]Rosko[/user]",
-    "[user]shell-script[/user]",
-    "[user]Solace[/user]",
-    "[user]trex6[/user]",
-    "[user]UVV[/user]",
-    "[user]XoFfiCEr[/user]",
-    "[user]William[/user]",
-    "[user]Zodd[/user]"
-]
+players = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
 tour_count = 0
 
 # Generate LORCODE for pairings.
@@ -55,9 +30,4 @@ for pairings in roundRobin(players):
     print "[list]"
     for pair in pairings:
         print "[*]" + pair[0] + " играет против " + pair[1]
-    print "[/list]"
-    print "[b]Тур №" + str(tours - tour_count + 1) + "[/b]"
-    print "[list]"
-    for pair in pairings:
-        print "[*]" + pair[1] + " играет против " + pair[0]
     print "[/list]"
