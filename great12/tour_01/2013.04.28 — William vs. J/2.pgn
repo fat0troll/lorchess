@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/analyse/izl3s735"]
+[Date "2013-04-29"]
+[White "William_V"]
+[Black "LOR_J"]
+[Result "1-0"]
+[WhiteElo "1355"]
+[BlackElo "1184"]
+[PlyCount "31"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. c3 O-O $6 { Inaccuracy. Best was f6e4. } 6. d4 exd4 7. cxd4 Bb4 $2 { Mistake. Best was c5b6. } 8. Bg5 $2 { Mistake. Best was a2a3. } 8... h6 9. Bh4 g5 10. Nxg5 hxg5 11. Bxg5 Be7 12. Bd3 $2 { Mistake. Best was e4e5. } 12... d6 13. Qf3 $2 { Mistake. Best was g5e3. } 13... Nxd4 14. Qg3 $2 { Mistake. Best was f3e3. } 14... Nh7 $4 { Checkmate is now unavoidable. Best was f6e4. } 15. Bf6+ Ng5 16. Qxg5+ 1-0
