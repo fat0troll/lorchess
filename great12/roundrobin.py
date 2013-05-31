@@ -29,7 +29,7 @@ players = [
     "shell-script", 
     "Zodd", 
     "raven_cler", 
-    "pylin", 
+    "aptyp", 
     "Debasher"
 ]
 tour_count = 0
