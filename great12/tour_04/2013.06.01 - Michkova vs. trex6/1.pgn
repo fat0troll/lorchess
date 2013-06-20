@@ -1,0 +1,12 @@
+[Event "Rated game"]
+[Site "http://lichess.org/jfj07xf6"]
+[Date "2013-06-01"]
+[White "txgames"]
+[Black "Michkova"]
+[Result "0-1"]
+[WhiteElo "905"]
+[BlackElo "1194"]
+[PlyCount "58"]
+[Variant "Standard"]
+
+1. e4 e5 2. Nf3 Nc6 3. c3 d6 4. d4 exd4 5. Nxd4 Bd7 6. b4 Nf6 7. Bd3 Ne5 8. h3 c5 9. Nf5 Bxf5 10. exf5 Nxd3+ 11. Qxd3 Be7 12. O-O O-O 13. Nd2 Rc8 14. b5 d5 15. c4 dxc4 16. Qxc4 Qd7 17. Ne4 Qxf5 18. Re1 Rfe8 19. Ng5 Nd7 20. Rd1 Ne5 21. Qd5 Bxg5 22. Bxg5 Qxg5 23. Qxb7 Rb8 24. Qa6 Rb6 25. Qxa7 Rxb5 26. Rd5 Nf3+ 27. Kf1 Qxd5 28. gxf3 Qxf3 29. Re1 Qh1# 0-1
