@@ -1,0 +1,12 @@
+[Event "Rated game"]
+[Site "http://lichess.org/6bob9urf"]
+[Date "2013-07-01"]
+[White "aptypr"]
+[Black "debasher"]
+[Result "0-1"]
+[WhiteElo "1142"]
+[BlackElo "1139"]
+[PlyCount "90"]
+[Variant "Standard"]
+
+1. e4 e5 2. Nf3 d6 3. Bc4 Nf6 4. Ng5 Nxe4 5. Nxf7 Qh4 6. g3 Nxg3 7. fxg3 Qxc4 8. Nxh8 Qe4+ 9. Kf2 Qf5+ 10. Kg1 d5 11. d4 g6 12. Nc3 c6 13. dxe5 Qxe5 14. Nf7 Kxf7 15. Kg2 Nd7 16. Rf1+ Kg8 17. Bf4 Qg7 18. Qe2 Nc5 19. Qe8 Bh3+ 20. Kxh3 Rxe8 21. Rf3 Ne4 22. Nxe4 dxe4 23. Re3 Qxb2 24. Rae1 Qxc2 25. Re1e2 Qc4 26. Rb2 b5 27. Rbb3 b4 28. Kg2 a5 29. h4 Qc2+ 30. Kh3 Qxa2 31. Rbd3 Qe6+ 32. Kg2 exd3 33. Rxe6 Rxe6 34. Kf3 b3 35. Bc1 Re1 36. Bd2 Bb4 37. Kg2 b2 38. h5 gxh5 39. Bxe1 Bxe1 40. g4 b1=Q 41. g5 d2 42. g6 d1=Q 43. gxh7+ Kxh7 44. Kf1 Qb2 45. Kg1 Bb4# 0-1
