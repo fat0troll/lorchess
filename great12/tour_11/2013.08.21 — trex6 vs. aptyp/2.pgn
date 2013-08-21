@@ -1,0 +1,12 @@
+[Event "Rated game"]
+[Site "http://lichess.org/vqnlr3bv"]
+[Date "2013-08-21"]
+[White "aptypr"]
+[Black "txgames"]
+[Result "1-0"]
+[WhiteElo "1149"]
+[BlackElo "985"]
+[PlyCount "23"]
+[Variant "Standard"]
+
+1. e4 c5 2. Nf3 a6 3. d4 e6 4. dxc5 Bxc5 5. Bd3 h6 6. O-O d5 7. exd5 Qxd5 8. Nc3 Qc6 9. Ne5 Bxf2+ 10. Rxf2 Qc5 11. Nxf7 Rh7 12. Bxh7 1-0
