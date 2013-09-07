@@ -29,4 +29,4 @@ def check_file(username, table_size):
 
 
 nickname = raw_input("Введите имя игрока: ")
-check_file(nickname, 19)
+check_file(nickname, 21)
