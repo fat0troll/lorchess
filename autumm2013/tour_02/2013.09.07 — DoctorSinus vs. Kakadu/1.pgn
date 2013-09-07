@@ -1,0 +1,12 @@
+[Event "Rated game"]
+[Site "http://lichess.org/xh2d8xvl"]
+[Date "2013-09-07"]
+[White "fat0troll"]
+[Black "kesarev"]
+[Result "0-1"]
+[WhiteElo "989"]
+[BlackElo "1455"]
+[PlyCount "16"]
+[Variant "Standard"]
+
+1. e4 e5 2. Be2 Bc5 3. f3 Nf6 4. Nc3 Nh5 5. d3 Qh4+ 6. g3 Nxg3 7. Nd5 Nxe4+ 8. Kf1 Qf2# 0-1
