@@ -1,0 +1,17 @@
+title: LOR Chess
+
+markdown: redcarpet
+permalink: pretty
+exclude: ['.gitignore', 'vendor']
+
+# Custom variables
+
+nav-links:
+  - url:   /
+    title: Главная
+
+  - url:   /about/
+    title: О сайте
+
+  - url:   /contact/
+    title: Контакты
