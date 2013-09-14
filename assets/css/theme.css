@@ -1,8 +1,12 @@
 /* Bootstrap */
 
 body {
-  padding-top: 60px;
+  padding-top: 50px;
   padding-bottom: 30px;
+}
+
+#content-wrapper {
+  padding-top: 20px;
 }
 
 .theme-dropdown .dropdown-menu {
@@ -24,13 +28,10 @@ body {
 }
 
 #GameWrapper {
-  margin-top: -10px;
-  height: 370px;
   padding: 0;
 }
 #GameWrapper #getFixed {
-  height: 370px;
-  padding-top: 10px;
+  padding: 20px;
   background-color: white;
   z-index: 10;
 }
