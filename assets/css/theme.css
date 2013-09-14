@@ -1,7 +1,7 @@
 /* Bootstrap */
 
 body {
-  padding-top: 70px;
+  padding-top: 60px;
   padding-bottom: 30px;
 }
 
@@ -18,13 +18,13 @@ body {
 /* pgn4web game */
 
 #GameWrapper {
-  margin-top: -20px;
-  height: 390px;
+  margin-top: -10px;
+  height: 370px;
   padding: 0;
 }
 #GameWrapper #getFixed {
-  height: 390px;
-  padding-top: 20px;
+  height: 370px;
+  padding-top: 10px;
   background-color: white;
   z-index: 10;
 }
