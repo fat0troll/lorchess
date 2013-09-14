@@ -18,13 +18,13 @@
 <div class="clearfix"></div>
 
 <!-- pgn4web JavaScript -->
-<script src="/assets/js/pgn4web.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/assets/js/pgn4web.js" type="text/javascript"></script>
 <!-- Show chess informant style symbols when the corresponding PGN NAGs are found -->
-<script src="/assets/js/chess-informant-NAG-symbols.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/assets/js/chess-informant-NAG-symbols.js" type="text/javascript"></script>
 <script type="text/javascript">
  "use strict";
 
- SetImagePath("/assets/images/pgn4web/alpha/36");
+ SetImagePath("{{ site.baseurl }}/assets/images/pgn4web/alpha/36");
  SetImageType("png");
  SetCommentsOnSeparateLines(true);
  SetAutoplayDelay(1500); // milliseconds

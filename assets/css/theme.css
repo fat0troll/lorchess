@@ -1,3 +1,5 @@
+---
+---
 /* Bootstrap */
 
 body {
@@ -24,14 +26,14 @@ body {
 
 @font-face {
   font-family: 'pgn4web ChessSansPiratf';
-  src: url('/assets/fonts/pgn4web/ChessSansPiratf.eot');
-  src: url('/assets/fonts/pgn4web/ChessSansPiratf.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/pgn4web/ChessSansPiratf.woff') format('woff'), url('/assets/fonts/pgn4web/ChessSansPiratf.ttf') format('truetype'), url('/assets/fonts/pgn4web/ChessSansPiratf.svg#ChessSansPiratf') format('svg');
+  src: url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessSansPiratf.eot');
+  src: url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessSansPiratf.eot?#iefix') format('embedded-opentype'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessSansPiratf.woff') format('woff'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessSansPiratf.ttf') format('truetype'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessSansPiratf.svg#ChessSansPiratf') format('svg');
 }
 
 @font-face {
   font-family: 'pgn4web ChessInformantReader';
-  src: url('/assets/fonts/pgn4web/ChessInformantReader.eot');
-  src: url('/assets/fonts/pgn4web/ChessInformantReader.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/pgn4web/ChessInformantReader.woff') format('woff'), url('/assets/fonts/pgn4web/ChessInformantReader.ttf') format('truetype'), url('/assets/fonts/pgn4web/ChessInformantReader.svg#CReaderTRegular') format('svg');
+  src: url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.eot');
+  src: url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.eot?#iefix') format('embedded-opentype'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.woff') format('woff'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.ttf') format('truetype'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.svg#CReaderTRegular') format('svg');
 }
 
 .move, .variation, .commentMove {

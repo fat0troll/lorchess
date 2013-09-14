@@ -5,22 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/ico/favicon.ico">
 
     <title>{{ site.title }}</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/bootstrap.css" rel="stylesheet">
     <!-- Bootstrap theme -->
-    <link href="/assets/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/bootstrap-theme.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/assets/css/theme.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="/assets/js/html5shiv.js"></script>
-      <script src="/assets/js/respond.min.js"></script>
+      <script src="{{ site.baseurl }}/assets/js/html5shiv.js"></script>
+      <script src="{{ site.baseurl }}/assets/js/respond.min.js"></script>
     <![endif]-->
   </head>
 
@@ -34,7 +34,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/">{{ site.title }}</a>
+        <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -46,7 +46,7 @@
             {% else %}
               <li>
             {% endif %}
-                <a href="{{ link.url }}">{{ link.title }}</a>
+                <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
               </li>
           {% endfor %}
         </ul>
@@ -60,10 +60,10 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/assets/js/jquery.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/jquery.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
 
     <!-- Custom JavaScript based on jQuery -->
-    <script src="/assets/js/jq-post-load.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/jq-post-load.js"></script>
   </body>
 </html>
