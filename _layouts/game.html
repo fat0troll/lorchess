@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+  <h2>{{ page.title }}</h2>
+  <p>Автор:
+    <a href="http://www.linux.org.ru/people/{{ page.author }}/profile">{{ page.author }}</a>
+  </p>
+
+  {{ content }}
+
+</div>
+
+{% include pgn4web.html %}
