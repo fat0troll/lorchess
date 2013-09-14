@@ -5,7 +5,9 @@
 body {
   padding-top: 50px;
   padding-bottom: 30px;
+  text-align: justify;
 }
+h1, h2, h3, h4, h5, h6 { text-align: left; }
 
 #content-wrapper {
   padding-top: 20px;
@@ -19,10 +21,6 @@ body {
 
 .theme-showcase > p > .btn {
   margin: 5px 0;
-}
-
-body p {
-  text-align: justify;
 }
 
 /* pgn4web */
