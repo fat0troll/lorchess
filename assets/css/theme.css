@@ -41,6 +41,10 @@ h1, h2, h3, h4, h5, h6 { text-align: left; }
   font-family: 'pgn4web ChessSansPiratf', sans-serif;
 }
 
+.moveOn, .variationOn {
+  background: #AAFFAA;
+}
+
 #GameWrapper center {
   padding: 20px 0;
   background-color: white;
