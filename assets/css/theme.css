@@ -37,12 +37,18 @@ h1, h2, h3, h4, h5, h6 { text-align: left; }
   src: url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.eot?#iefix') format('embedded-opentype'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.woff') format('woff'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.ttf') format('truetype'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.svg#CReaderTRegular') format('svg');
 }
 
+.whiteSquare, .highlightWhiteSquare {
+  background: #dee3e6;
+}
+.blackSquare, .highlightBlackSquare {
+  background: #8ca2ad;
+}
+
 .move, .variation, .commentMove {
   font-family: 'pgn4web ChessSansPiratf', sans-serif;
 }
-
 .moveOn, .variationOn {
-  background: #AAFFAA;
+  background: #aaffaa;
 }
 
 #GameWrapper center {
