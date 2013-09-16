@@ -26,9 +26,9 @@ h1, h2, h3, h4, h5, h6 { text-align: left; }
 /* pgn4web */
 
 @font-face {
-  font-family: 'pgn4web ChessSansPiratf';
-  src: url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessSansPiratf.eot');
-  src: url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessSansPiratf.eot?#iefix') format('embedded-opentype'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessSansPiratf.woff') format('woff'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessSansPiratf.ttf') format('truetype'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessSansPiratf.svg#ChessSansPiratf') format('svg');
+  font-family: 'pgn4web ChessSansMerida';
+  src: url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessSansMerida.eot');
+  src: url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessSansMerida.eot?#iefix') format('embedded-opentype'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessSansMerida.woff') format('woff'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessSansMerida.ttf') format('truetype'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessSansMerida.svg#ChessSansMerida') format('svg');
 }
 
 @font-face {
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 { text-align: left; }
 }
 
 .move, .variation, .commentMove {
-  font-family: 'pgn4web ChessSansPiratf', sans-serif;
+  font-family: 'pgn4web ChessSansMerida', sans-serif;
 }
 .moveOn, .variationOn {
   background: #aaffaa;
