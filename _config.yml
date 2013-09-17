@@ -3,7 +3,7 @@ title: LOR Chess
 
 markdown: redcarpet
 permalink: pretty
-exclude: ['.gitignore', 'vendor']
+exclude: ['.gitignore', 'Gemfile*', 'vendor']
 
 # Custom variables
 
