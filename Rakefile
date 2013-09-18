@@ -63,9 +63,9 @@ namespace :pgn do
       puts "PGN directory exists"
     else
       puts "Directory \"#{dir.shellescape}\" doesn't exist"
-      print "Create the directory? "
+      print "Create the directory? > "
       answer = $stdin.gets.chomp
-      if ['Yes', 'yes', 'y'].include? answer
+      if ['Yes', 'yes', 'Y', 'y'].include? answer
         FileUtils.mkdir_p dir
       else
         abort "PGN directory wasn't created"
