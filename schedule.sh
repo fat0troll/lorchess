@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-myname=iVS
 repo=fat0troll/lorchess
 tournament=autumn2013
 
@@ -20,13 +19,11 @@ args=$(getopt --options p: --longoptions player: -- "$@")
 # Note the quotes around `$ARGS': they are essential!
 eval set -- "$args"
 
-if [[ $1 == -p ]] || [[ $1 == --player ]]; then
+if [[ $1 == -p || $1 == --player ]];then
     name=$2
-    shift 3
-else
-    name=$myname
-    shift
+    shift 2
 fi
+shift
 
 for tour in $@; do
     # Change tour numbers: `1' -> `01', `2' -> `02', and so on
@@ -36,10 +33,14 @@ for tour in $@; do
     url=https://raw.github.com/$repo/master/$tournament/tour_$tour/tour_info
 
     echo ">>>"
-    curl -q --silent $url | egrep "Тур|Время|$name" | while read line;do
-        # Colorize output
-        line=$(echo $line | sed "s/${score}/${green}\0${restore}/g")
-        line=$(echo $line | sed "s/${name}/${red}\0${restore}/g")
-        echo -e $line
+    curl -q --silent $url | while read line;do
+        if [[ -z $line ]];then
+            echo
+        elif [[ -z $name || `echo "$line" | egrep "Тур|=|Время|$name"` ]];then
+            # Colorize output
+            line=$(echo "$line" | sed "s/${score}/${green}\0${restore}/g")
+            [[ -n $name ]] && line=$(echo "$line" | sed "s/${name}/${red}\0${restore}/g")
+            echo -e $line
+        fi
     done
 done
