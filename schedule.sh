@@ -12,7 +12,7 @@ restore='\\033[00m'
 # Note that we use `"$@"' to let each command-line parameter expand to a
 # separate word. The quotes around `$@' are essential!
 # We need ARGS as the `eval set --' would nuke the return value of getopt.
-args=`getopt --options p: --longoptions player: -- "$@"`
+args=$(getopt --options p: --longoptions player: -- "$@")
 
 # Note the quotes around `$ARGS': they are essential!
 eval set -- "$args"
