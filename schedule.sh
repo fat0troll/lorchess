@@ -4,6 +4,9 @@ myname=iVS
 repo=fat0troll/lorchess
 tournament=autumn2013
 
+# Variables
+score='\(0\|1\|0\.5\):\(0\|1\|0\.5\)'
+
 # Colors
 green='\\033[01;32m'
 red='\\033[01;31m'
@@ -34,8 +37,9 @@ for tour in $@; do
 
     echo ">>>"
     curl -q --silent $url | egrep "Тур|Время|$name" | while read line;do
-        # Colorize the player name
-        output=$(echo $line | sed "s/${name}/${red}${name}${restore}/g")
-        echo -e $output
+        # Colorize output
+        line=$(echo $line | sed "s/${score}/${green}\0${restore}/g")
+        line=$(echo $line | sed "s/${name}/${red}\0${restore}/g")
+        echo -e $line
     done
 done
