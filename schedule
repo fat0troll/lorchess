@@ -4,10 +4,10 @@ repo=fat0troll/lorchess
 tournament=autumn2013
 
 # Variables
-score='\(0\|1\|0\.5\):\(0\|1\|0\.5\)'
+digit='[[:digit:]]'
 
 # Colors
-green='\\033[01;32m'
+cyan='\\033[01;36m'
 red='\\033[01;31m'
 restore='\\033[00m'
 
@@ -38,7 +38,7 @@ for tour in $@; do
             echo
         elif [[ -z $name || `echo "$line" | egrep "Тур|=|Время|$name"` ]];then
             # Colorize output
-            line=$(echo "$line" | sed "s/${score}/${green}\0${restore}/g")
+            line=$(echo "$line" | sed "s/${digit}/${cyan}\0${restore}/g")
             [[ -n $name ]] && line=$(echo "$line" | sed "s/${name}/${red}\0${restore}/g")
             echo -e $line
         fi
