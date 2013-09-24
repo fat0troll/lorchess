@@ -1,0 +1,12 @@
+[Event "Rated game"]
+[Site "http://lichess.org/c7muhgee"]
+[Date "2013.09.23"]
+[White "cppmm"]
+[Black "gremlin_the_red"]
+[Result "0-1"]
+[WhiteElo "957"]
+[BlackElo "1258"]
+[PlyCount "48"]
+[Variant "Standard"]
+
+1. e4 c5 2. d3 Nc6 3. Be3 d6 4. Nf3 g6 5. Be2 Bg7 6. O-O Bxb2 7. Nbd2 Bxa1 8. Qxa1 Nf6 9. c3 O-O 10. d4 cxd4 11. cxd4 Ng4 12. d5 Nxe3 13. fxe3 Nb4 14. Ng5 e5 15. Nc4 Qxg5 16. Nxd6 Bh3 17. Rf2 Nc2 18. Qc1 Nxe3 19. Bf3 Rac8 20. Qd2 Rc2 21. Qe1 Nxg2 22. Bxg2 Rc1 23. Nxf7 Rxe1+ 24. Rf1 Qxg2# 0-1
