@@ -4,7 +4,7 @@ repo=fat0troll/lorchess
 tournament=autumn2013
 
 # Variables
-digit='[[:digit:]]'
+digit='[[:digit:]]\+'
 
 # Colors
 cyan='\\033[01;36m'
@@ -19,7 +19,7 @@ args=$(getopt --options p: --longoptions player: -- "$@")
 # Note the quotes around `$ARGS': they are essential!
 eval set -- "$args"
 
-if [[ $1 == -p || $1 == --player ]];then
+if [[ $1 == -p || $1 == --player ]]; then
     name=$2
     shift 2
 fi
@@ -33,14 +33,16 @@ for tour in $@; do
     url=https://raw.github.com/$repo/master/$tournament/tour_$tour/tour_info
 
     echo ">>>"
-    curl -q --silent $url | while read line;do
-        if [[ -z $line ]];then
+    curl -q --silent $url | while read line; do
+        if [[ -z $line ]]; then
             echo
-        elif [[ -z $name || `echo "$line" | egrep "Тур|=|Время|$name"` ]];then
+        elif [[ -z $name || $(egrep "Тур|=|Время|$name" <<< "$line") ]]; then
             # Colorize output
-            line=$(echo "$line" | sed "s/${digit}/${cyan}\0${restore}/g")
-            [[ -n $name ]] && line=$(echo "$line" | sed "s/${name}/${red}\0${restore}/g")
+            line=$(sed "s/${digit}/${cyan}\0${restore}/g" <<< "$line")
+            [[ -n $name ]] && line=$(sed "s/${name}/${red}\0${restore}/g" <<< "$line")
             echo -e $line
         fi
     done
 done
+
+exit 0
