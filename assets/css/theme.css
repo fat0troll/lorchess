@@ -38,8 +38,8 @@ h1, h2, h3, h4, h5, h6 { text-align: left; }
 }
 
 .pieceImage {
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
 }
 .whiteSquare, .highlightWhiteSquare {
   background: #dee3e6;
