@@ -47,6 +47,10 @@ h1, h2, h3, h4, h5, h6 { text-align: left; }
 .blackSquare, .highlightBlackSquare {
   background: #8ca2ad;
 }
+.highlightWhiteSquare, .highlightBlackSquare {
+  background-image: url('{{ site.baseurl }}/assets/img/over5.png');
+  background-size: cover;
+}
 
 .move, .variation, .commentMove {
   font-family: 'pgn4web ChessSansMerida', sans-serif;
