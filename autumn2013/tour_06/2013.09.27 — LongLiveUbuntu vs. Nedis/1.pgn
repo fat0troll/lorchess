@@ -1,0 +1,12 @@
+[Event "Rated game"]
+[Site "http://lichess.org/q0pskrwt"]
+[Date "2013.09.27"]
+[White "LLU"]
+[Black "Nedis"]
+[Result "0-1"]
+[WhiteElo "1014"]
+[BlackElo "1265"]
+[PlyCount "23"]
+[Variant "Standard"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Bb4 4. a3 Bxc3 5. bxc3 O-O 6. Bd3 d5 7. exd5 e4 8. Bc4 exf3 9. Qxf3 Re8+ 10. Be2 Bg4 11. Qf4 Rxe2+ 12. Kf1 0-1
