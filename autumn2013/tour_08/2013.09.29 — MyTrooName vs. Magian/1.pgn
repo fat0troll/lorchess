@@ -1,0 +1,12 @@
+[Event "Rated game"]
+[Site "http://lichess.org/fhx3f696"]
+[Date "2013.09.29"]
+[White "sshilovsky"]
+[Black "Magian"]
+[Result "1-0"]
+[WhiteElo "1230"]
+[BlackElo "1452"]
+[PlyCount "57"]
+[Variant "Standard"]
+
+1. e4 e5 2. Bc4 Bc5 3. Nf3 d6 4. d3 Bg4 5. Bxf7+ Kf8 6. Bxg8 Kxg8 7. h3 Bh5 8. g4 Bg6 9. Nc3 c6 10. Bg5 Qe8 11. d4 exd4 12. Nxd4 Bxe4 13. Nxe4 Qxe4+ 14. Qe2 Qxh1+ 15. Kd2 Nd7 16. Qe6+ Kf8 17. Be7+ Ke8 18. Bxd6+ Kd8 19. Rxh1 Re8 20. Qc4 Bxd6 21. Ne6+ Kc8 22. Re1 Ne5 23. Qb3 b5 24. f4 Nc4+ 25. Kd1 g6 26. f5 Bg3 27. Qxg3 Nxb2+ 28. Kc1 Nc4 29. Qc7# 1-0
