@@ -1,0 +1,12 @@
+[Event "Rated game"]
+[Site "http://lichess.org/k9x5qmgi"]
+[Date "2013.09.28"]
+[White "txgames"]
+[Black "sshilovsky"]
+[Result "0-1"]
+[WhiteElo "1066"]
+[BlackElo "1207"]
+[PlyCount "44"]
+[Variant "Standard"]
+
+1. e4 e5 2. Nf3 Bc5 3. d4 exd4 4. Nxd4 Qh4 5. Nc3 d5 6. Nxd5 Qxe4+ 7. Be3 Qxd5 8. Bb5+ Nd7 9. O-O Bxd4 10. Bxd4 Nf6 11. Re1+ Kd8 12. Bxf6+ Nxf6 13. Qxd5+ Nxd5 14. Rad1 c6 15. Bc4 Be6 16. a3 Kc7 17. g3 Rhe8 18. Bxd5 Bxd5 19. Rxe8 Rxe8 20. h4 Bf3 21. Rd2 Re1+ 22. Kh2 Rh1# 0-1
