@@ -33,7 +33,7 @@ for tour in $@; do
     url=https://raw.github.com/$repo/master/$tournament/tour_$tour/tour_info
 
     echo ">>>"
-    curl -q --silent $url | while read line; do
+    curl -q --silent -w '\n' $url | while read line; do
         if [[ -z $line ]]; then
             echo
         elif [[ -z $name || $(egrep "Тур|=|Время|$name" <<< "$line") ]]; then
