@@ -1,0 +1,12 @@
+[Event "Rated game"]
+[Site "http://lichess.org/ibgg1gjr"]
+[Date "2013.09.30"]
+[White "Uroboros"]
+[Black "darkshvein"]
+[Result "1-0"]
+[WhiteElo "1479"]
+[BlackElo "1176"]
+[PlyCount "41"]
+[Variant "Standard"]
+
+1. d4 Nf6 2. c4 Nc6 3. Nc3 b6 4. Nf3 Bb7 5. d5 Nb8 6. e4 c6 7. e5 Ng8 8. Be2 cxd5 9. cxd5 Ba6 10. O-O Bxe2 11. Qxe2 Qc7 12. Bf4 d6 13. Nb5 Qd7 14. exd6 a6 15. dxe7 Bxe7 16. Nd6+ Kf8 17. Rfe1 Bxd6 18. Bxd6+ Ne7 19. Bxe7+ Qxe7 20. Qxe7+ Kg8 21. Qe8# 1-0
