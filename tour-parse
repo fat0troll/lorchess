@@ -35,15 +35,15 @@ for dir in "${tour_dirs[@]}"; do
     while read line; do
         # Parsed data of game: date a[1], white player a[2], black
         # player a[6], and the result a[3]
-        data=( $(echo "$line" | gawk \
+        data=( $(echo "$line" | gawk --re-interval \
             'match($0, /'${date}' — '${white}' '${result}' '${black}'/, a) \
-            {print (a[1], a[2], a[6], a[3])}') )
+            { print a[1], a[2], a[6], a[3] }') )
 
         if [[ ${#data[@]} != 0 ]]; then
             echo "  - date:   ${data[0]}"
             echo "    white:  ${data[1]}"
             echo "    black:  ${data[2]}"
-            echo "    result: \"${data[3]}\""
+            echo "    result: '${data[3]}'"
             echo
         fi
     done <<< "$tour_info"
