@@ -8,6 +8,8 @@ white='(.+)'
 black='(.+)'
 result='((1|0|0\.5):(1|0|0\.5))'
 
+script_path=`dirname $0`
+
 # Directories to search `tour_info' in
 if [[ $# != 0 ]]; then
     tour_dirs=()
@@ -16,10 +18,10 @@ if [[ $# != 0 ]]; then
         number=0"$number"
         number=${number:(-2)}
 
-        tour_dirs+=($tournament/tour_$number)
+        tour_dirs+=($script_path/$tournament/tour_$number)
     done
 else
-    tour_dirs=($tournament/tour_*)
+    tour_dirs=($script_path/$tournament/tour_*)
 fi
 
 for dir in "${tour_dirs[@]}"; do
