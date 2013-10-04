@@ -11,6 +11,9 @@ nav-links:
   - url:   /
     title: Главная
 
+  - url:   /table/
+    title: Таблица
+
   - url:   /about/
     title: О сайте
 
