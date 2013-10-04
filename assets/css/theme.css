@@ -101,3 +101,13 @@ span.board_mark.horz {
   left: 0;
   width: inherit;
 }
+
+/* Miscellaneous CSS rules */
+
+.table-cell, .table-cell-diag {
+  min-width: 31px;
+  text-align: center;
+}
+.table-cell-diag {
+  background-color: black;
+}
