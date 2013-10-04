@@ -7,7 +7,7 @@
 
   - date:   15.09.2013
     white:  trex6
-    black:  uroborus
+    black:  uroboros
     result: '0:1'
 
   - date:   09.09.2013
@@ -83,7 +83,7 @@
     result: '0:1'
 
   - date:   08.09.2013
-    white:  uroborus
+    white:  uroboros
     black:  aptyp
     result: '1:0'
 
@@ -130,7 +130,7 @@
     result: '1:0'
 
   - date:   26.09.2013
-    white:  darkshvein
+    white:  darkenshvein
     black:  Genuine
     result: '0:1'
 
@@ -212,6 +212,11 @@
     white:  J
     black:  DoctorSinus
     result: '0:1'
+
+  - date:   01.10.2013
+    white:  Michkova
+    black:  farzeet
+    result: '1:0'
 
   - date:   28.09.2013
     white:  HunOL
@@ -297,6 +302,11 @@
 
 - number: 7
   games:
+  - date:   02.10.2013
+    white:  J
+    black:  trex6
+    result: '1:0'
+
   - date:   28.09.2013
     white:  Michkova
     black:  Kakadu
@@ -316,6 +326,11 @@
     white:  Nedis
     black:  raven_cler
     result: '1:0'
+
+  - date:   04.10.2013
+    white:  shell-script
+    black:  Genuine
+    result: '0:1'
 
   - date:   29.09.2013
     white:  redgremlin
@@ -344,6 +359,11 @@
     black:  iVS
     result: '0:1'
 
+  - date:   04.10.2013
+    white:  Kakadu
+    black:  HunOL
+    result: '1:0'
+
   - date:   28.09.2013
     white:  aptyp
     black:  J
@@ -352,5 +372,19 @@
   - date:   29.09.2013
     white:  MyTrooName
     black:  Magian
+    result: '1:0'
+
+- number: 9
+  games:
+  - date:   02.09.2013
+    white:  darkenshvein
+    black:  Kakadu
+    result: '0:1'
+
+- number: 10
+  games:
+  - date:   04.10.2013
+    white:  uroboros
+    black:  shell-script
     result: '1:0'
 
