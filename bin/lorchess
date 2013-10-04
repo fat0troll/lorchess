@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require File.expand_path('../lib/lorchess.rb', File.dirname(__FILE__))
+
+table = LORChess::TournamentTable.new
+puts table.to_html
