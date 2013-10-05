@@ -33,6 +33,7 @@ module LORChess
 
       fill
       calculate
+      stylize_table
 
       # Clean the vacancy place
       index = @player_pos['Kasparov']
@@ -63,9 +64,31 @@ module LORChess
       @results.each do |row|
         sum = 0.0
         row.each { |score| sum += score.to_f }
-        sum = sum.to_i if sum == sum.to_i # remove the fractional part if possible
         @player_score << sum.to_s
       end
+    end
+
+    def stylize_table
+      for row in 0..(@dim-1)
+        for cell in 0..(@dim-1)
+          @results[row][cell] = stylize_score @results[row][cell]
+        end
+
+        @player_score[row] = stylize_score @player_score[row]
+      end
+    end
+
+    # Replace the fractional part `0.5' by ½
+    def stylize_score score
+      frac = score.split '.'
+      return '' if frac[0].nil?
+      unless frac[0] == '0'
+        score = frac[0]
+        score += '½' if frac[1] == '5'
+      else
+        score = (frac[1] == '5') ? '½' : '0'
+      end
+      score
     end
 
     def to_html
