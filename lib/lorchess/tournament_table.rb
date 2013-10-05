@@ -24,7 +24,7 @@ module LORChess
 
       @@db_players.each do |player|
         @players << player['lor']
-        @elo_list << player['elo']
+        @elo_list << player['elo'].to_s
       end
 
       # Correlate the player with his position
@@ -36,12 +36,14 @@ module LORChess
 
       # Clean the vacancy place
       index = @player_pos['Kasparov']
-      @players[index] = 'отсутствует'
-      @elo_list[index] = 1200
-      for cell in 0..(@dim-1)
-        @results[index][cell] = ''
+      if index
+        @players[index] = '<em>отсутствует</em>'
+        @elo_list[index] = ''
+        for cell in 0..(@dim-1)
+          @results[index][cell] = ''
+        end
+        @player_score[index] = ''
       end
-
     end
 
     def fill
@@ -65,19 +67,20 @@ module LORChess
       @results.each do |row|
         sum = 0.0
         row.each { |score| sum += score.to_f }
-        @player_score << sum
+        sum = sum.to_i if sum == sum.to_i # remove the fractional part if possible
+        @player_score << sum.to_s
       end
     end
 
     def to_html
 
-      @buffer << "<table class=\"table table-bordered table-condensed\">\n"
-      @buffer << "  <caption>LOR Chess : Осень-2013<caption>\n"
+      @buffer << "<table class=\"table table-bordered tournament\">\n"
+      @buffer << "  <caption><strong>LOR Chess : Осень-2013</strong><caption>\n"
       @buffer << "  <thead>\n"
       @buffer << "    <tr>\n"
       @buffer << "      <th></th>\n"
       @buffer << "      <th>Участник</th>\n"
-      @buffer << "      <th>elo</th>\n"
+      @buffer << "      <th>elo*</th>\n"
 
       for cell in 0..(@dim-1)
         @buffer << "      <th>" << (cell+1).to_s << "</th>\n"
@@ -93,8 +96,8 @@ module LORChess
 
         @buffer << "    <tr>\n"
         @buffer << "      <td>" << (row+1).to_s << "</td>\n"
-        @buffer << "      <td>" << @players[row] << "</td>\n"
-        @buffer << "      <td>" << @elo_list[row].to_s << "</td>\n"
+        @buffer << "      <td><strong>" << @players[row] << "</strong></td>\n"
+        @buffer << "      <td>" << @elo_list[row] << "</td>\n"
 
         for cell in 0..(@dim-1)
           unless cell == row
@@ -104,13 +107,14 @@ module LORChess
           end
         end
 
-        @buffer << "      <td>" << @player_score[row].to_s << "</td>\n"
+        @buffer << "      <td>" << @player_score[row] << "</td>\n"
         @buffer << "      <td></td>\n"
         @buffer << "    </tr>\n"
       end
 
       @buffer << "  </tbody>\n"
       @buffer << "</table>\n"
+      @buffer << "* Средний elo на 13.09.2013 3.00 МСК"
       @buffer
     end
 
