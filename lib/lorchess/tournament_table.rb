@@ -38,7 +38,7 @@ module LORChess
       index = @player_pos['Kasparov']
       if index
         @players[index] = '<em style="font-weight:normal">отсутствует</em>'
-        @elo_list[index] = '&mdash;'
+        @elo_list[index] = '1200'
       end
     end
 
