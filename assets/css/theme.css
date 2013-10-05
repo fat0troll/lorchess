@@ -115,6 +115,7 @@ table.tournament tfoot > tr > td {
 table.tournament tbody > tr > .table-cell,
 table.tournament tbody > tr > .table-cell-diag {
   min-width: 25px;
+  text-align: center;
 }
 table.tournament tbody > tr > .table-cell-diag {
   background-color: black;
