@@ -255,6 +255,11 @@
 
 - number: 6
   games:
+  - date:   05.10.2013
+    white:  Magian
+    black:  shell-script
+    result: '1:0'
+
   - date:   29.09.2013
     white:  Genuine
     black:  Kasparov
