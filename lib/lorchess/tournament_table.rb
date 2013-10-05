@@ -97,7 +97,7 @@ module LORChess
       @buffer << "  <caption><strong>LOR Chess : Осень-2013</strong><caption>\n"
       @buffer << "  <thead>\n"
       @buffer << "    <tr>\n"
-      @buffer << "      <th></th>\n"
+      @buffer << "      <th>№</th>\n"
       @buffer << "      <th>Участник</th>\n"
       @buffer << "      <th>elo*</th>\n"
 
