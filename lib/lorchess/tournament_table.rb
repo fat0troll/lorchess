@@ -68,13 +68,13 @@ module LORChess
         sum = 0.0
         row.each { |score| sum += score.to_f }
         @player_score << sum.to_s
-        score_data << [i, sum]
+        score_data << {:position => i, :total => sum}
       end
 
-      # Sort players in correspondence with the decrease of place
-      score_data.sort! { |x,y| y[1] <=> x[1] }
+      # Sort players in the reverse order to total score
+      score_data.sort! { |x,y| y[:total] <=> x[:total] }
 
-      score_data.each_with_index { |data,i| @player_place[data[0]] = (i+1).to_s }
+      score_data.each_with_index { |data,i| @player_place[data[:position]] = (i+1).to_s }
     end
 
     def stylize_table
