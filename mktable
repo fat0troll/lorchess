@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+tournament=autumn2013
+results=$tournament/results.yml
+table=_includes/$tournament/tournament_table.html
+
+# Update game results
+git checkout master
+./tour-parse > $results
+git add $results
+git commit -m "Update game results."
+
+# Update the tournament table
+bin/lorchess > temp_table.html
+git checkout gh-pages
+mv temp_table.html $table
+git add $table
+git commit -m "Update the tournament table."
+git checkout master
+
+# Push changes
+git push --all origin
