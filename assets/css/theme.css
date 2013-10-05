@@ -102,12 +102,20 @@ span.board_mark.horz {
   width: inherit;
 }
 
-/* Miscellaneous CSS rules */
+/* Tournament table */
 
-.table-cell, .table-cell-diag {
-  min-width: 31px;
-  text-align: center;
+table.tournament thead > tr > th,
+table.tournament tbody > tr > th,
+table.tournament tfoot > tr > th,
+table.tournament thead > tr > td,
+table.tournament tbody > tr > td,
+table.tournament tfoot > tr > td {
+  padding: 2px;
 }
-.table-cell-diag {
+table.tournament tbody > tr > .table-cell,
+table.tournament tbody > tr > .table-cell-diag {
+  min-width: 25px;
+}
+table.tournament tbody > tr > .table-cell-diag {
   background-color: black;
 }
