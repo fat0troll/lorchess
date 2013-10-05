@@ -112,11 +112,11 @@ table.tournament tbody > tr > td,
 table.tournament tfoot > tr > td {
   padding: 2px;
 }
-table.tournament tbody > tr > .table-cell,
-table.tournament tbody > tr > .table-cell-diag {
+table.tournament tbody > tr > .score,
+table.tournament tbody > tr > .diagonal {
   min-width: 25px;
   text-align: center;
 }
-table.tournament tbody > tr > .table-cell-diag {
+table.tournament tbody > tr > .diagonal {
   background-color: black;
 }
