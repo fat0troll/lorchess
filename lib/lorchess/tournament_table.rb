@@ -38,11 +38,7 @@ module LORChess
       index = @player_pos['Kasparov']
       if index
         @players[index] = '<em style="font-weight:normal">отсутствует</em>'
-        @elo_list[index] = ''
-        for cell in 0..(@dim-1)
-          @results[index][cell] = ''
-        end
-        @player_score[index] = ''
+        @elo_list[index] = '&mdash;'
       end
     end
 
