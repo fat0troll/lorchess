@@ -327,6 +327,11 @@
     black:  raven_cler
     result: '1:0'
 
+  - date:   05.10.2013
+    white:  Kasparov
+    black:  LongLiveUbuntu
+    result: '0:1'
+
   - date:   04.10.2013
     white:  shell-script
     black:  Genuine
@@ -348,6 +353,11 @@
     white:  Genuine
     black:  redgremlin
     result: '0:1'
+
+  - date:   05.10.2013
+    white:  raven_cler
+    black:  Kasparov
+    result: '1:0'
 
   - date:   29.09.2013
     white:  uroboros
@@ -381,10 +391,20 @@
     black:  Kakadu
     result: '0:1'
 
+  - date:   05.10.2013
+    white:  Kasparov
+    black:  uroboros
+    result: '0:1'
+
 - number: 10
   games:
   - date:   04.10.2013
     white:  uroboros
     black:  shell-script
+    result: '1:0'
+
+  - date:   05.10.2013
+    white:  farzeet
+    black:  Kasparov
     result: '1:0'
 
