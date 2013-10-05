@@ -118,5 +118,36 @@ table.tournament tbody > tr > .diagonal {
   text-align: center;
 }
 table.tournament tbody > tr > .diagonal {
-  background-color: black;
+  background: black;
+}
+
+table.tournament tbody > .place-1 {
+  background: #f7977a;
+}
+table.tournament tbody > .place-2 {
+  background: #f9ad81;
+}
+table.tournament tbody > .place-3 {
+  background: #fdc68a;
+}
+table.tournament tbody > .place-4 {
+  background: #fff79a;
+}
+table.tournament tbody > .place-5 {
+  background: #c4df9b;
+}
+table.tournament tbody > .place-6 {
+  background: #a2d39c;
+}
+table.tournament tbody > .place-7 {
+  background: #82ca9d;
+}
+table.tournament tbody > .place-8 {
+  background: #7bcdc8;
+}
+table.tournament tbody > .place-9 {
+  background: #6ecff6;
+}
+table.tournament tbody > .place-10 {
+  background: #7ea7d8;
 }
