@@ -122,10 +122,10 @@ module LORChess
 
       for row in 0..(@dim-1)
 
-        @buffer << "    <tr>\n"
-        @buffer << "      <td>" << (row+1).to_s << "</td>\n"
-        @buffer << "      <td><strong>" << @players[row] << "</strong></td>\n"
-        @buffer << "      <td>" << @elo_list[row] << "</td>\n"
+        @buffer << "    <tr class=\"place-" << @player_place[row] << "\">\n"
+        @buffer << "      <td class=\"number\">" << (row+1).to_s << "</td>\n"
+        @buffer << "      <td class=\"player\"><strong>" << @players[row] << "</strong></td>\n"
+        @buffer << "      <td class=\"elo\">" << @elo_list[row] << "</td>\n"
 
         for cell in 0..(@dim-1)
           unless cell == row
@@ -135,8 +135,8 @@ module LORChess
           end
         end
 
-        @buffer << "      <td>" << @player_score[row] << "</td>\n"
-        @buffer << "      <td class=\"place-" << @player_place[row] << "\">" << @player_place[row] << "</td>\n"
+        @buffer << "      <td class=\"total\">" << @player_score[row] << "</td>\n"
+        @buffer << "      <td class=\"place\">" << @player_place[row] << "</td>\n"
         @buffer << "    </tr>\n"
       end
 
