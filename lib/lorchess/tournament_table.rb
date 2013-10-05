@@ -20,6 +20,7 @@ module LORChess
       @dim = @@db_players.length
       @results = Array.new(@dim) { Array.new(@dim, '') }
       @player_score = []
+      @player_place = []
       @buffer = ''
 
       @@db_players.each do |player|
@@ -61,11 +62,19 @@ module LORChess
     end
 
     def calculate
-      @results.each do |row|
+      score_data = []
+
+      @results.each_with_index do |row, i|
         sum = 0.0
         row.each { |score| sum += score.to_f }
         @player_score << sum.to_s
+        score_data << [i, sum]
       end
+
+      # Sort players in correspondence with the decrease of place
+      score_data.sort! { |x,y| y[1] <=> x[1] }
+
+      score_data.each_with_index { |data,i| @player_place[data[0]] = (i+1).to_s }
     end
 
     def stylize_table
@@ -120,14 +129,14 @@ module LORChess
 
         for cell in 0..(@dim-1)
           unless cell == row
-            @buffer << "      <td class=\"table-cell\">" << @results[row][cell] << "</td>\n"
+            @buffer << "      <td class=\"score\">" << @results[row][cell] << "</td>\n"
           else
-            @buffer << "      <td class=\"table-cell-diag\"></td>\n"
+            @buffer << "      <td class=\"diagonal\"></td>\n"
           end
         end
 
         @buffer << "      <td>" << @player_score[row] << "</td>\n"
-        @buffer << "      <td></td>\n"
+        @buffer << "      <td class=\"place-" << @player_place[row] << "\">" << @player_place[row] << "</td>\n"
         @buffer << "    </tr>\n"
       end
 
