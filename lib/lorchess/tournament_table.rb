@@ -37,7 +37,7 @@ module LORChess
       # Clean the vacancy place
       index = @player_pos['Kasparov']
       if index
-        @players[index] = '<em>отсутствует</em>'
+        @players[index] = '<em style="font-weight:normal">отсутствует</em>'
         @elo_list[index] = ''
         for cell in 0..(@dim-1)
           @results[index][cell] = ''
