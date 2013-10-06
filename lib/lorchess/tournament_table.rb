@@ -20,6 +20,7 @@ module LORChess
       @dim = @@db_players.length
       @results = Array.new(@dim) { Array.new(@dim, '') }
       @player_score = []
+      @player_place = []
       @buffer = ''
 
       @@db_players.each do |player|
@@ -33,16 +34,13 @@ module LORChess
 
       fill
       calculate
+      stylize_table
 
       # Clean the vacancy place
       index = @player_pos['Kasparov']
       if index
         @players[index] = '<em style="font-weight:normal">отсутствует</em>'
-        @elo_list[index] = ''
-        for cell in 0..(@dim-1)
-          @results[index][cell] = ''
-        end
-        @player_score[index] = ''
+        @elo_list[index] = '1200'
       end
     end
 
@@ -64,12 +62,42 @@ module LORChess
     end
 
     def calculate
-      @results.each do |row|
+      score_data = []
+
+      @results.each_with_index do |row, i|
         sum = 0.0
         row.each { |score| sum += score.to_f }
-        sum = sum.to_i if sum == sum.to_i # remove the fractional part if possible
         @player_score << sum.to_s
+        score_data << {:position => i, :total => sum}
       end
+
+      # Sort players in the reverse order to total score
+      score_data.sort! { |x,y| y[:total] <=> x[:total] }
+
+      score_data.each_with_index { |data,i| @player_place[data[:position]] = (i+1).to_s }
+    end
+
+    def stylize_table
+      for row in 0..(@dim-1)
+        for cell in 0..(@dim-1)
+          @results[row][cell] = stylize_score @results[row][cell]
+        end
+
+        @player_score[row] = stylize_score @player_score[row]
+      end
+    end
+
+    # Replace the fractional part `0.5' by ½
+    def stylize_score score
+      frac = score.split '.'
+      return '' if frac[0].nil?
+      unless frac[0] == '0'
+        score = frac[0]
+        score += '½' if frac[1] == '5'
+      else
+        score = (frac[1] == '5') ? '½' : '0'
+      end
+      score
     end
 
     def to_html
@@ -78,7 +106,7 @@ module LORChess
       @buffer << "  <caption><strong>LOR Chess : Осень-2013</strong><caption>\n"
       @buffer << "  <thead>\n"
       @buffer << "    <tr>\n"
-      @buffer << "      <th></th>\n"
+      @buffer << "      <th>№</th>\n"
       @buffer << "      <th>Участник</th>\n"
       @buffer << "      <th>elo*</th>\n"
 
@@ -94,21 +122,21 @@ module LORChess
 
       for row in 0..(@dim-1)
 
-        @buffer << "    <tr>\n"
-        @buffer << "      <td>" << (row+1).to_s << "</td>\n"
-        @buffer << "      <td><strong>" << @players[row] << "</strong></td>\n"
-        @buffer << "      <td>" << @elo_list[row] << "</td>\n"
+        @buffer << "    <tr class=\"place-" << @player_place[row] << "\">\n"
+        @buffer << "      <td class=\"number\">" << (row+1).to_s << "</td>\n"
+        @buffer << "      <td class=\"player\"><strong>" << @players[row] << "</strong></td>\n"
+        @buffer << "      <td class=\"elo\">" << @elo_list[row] << "</td>\n"
 
         for cell in 0..(@dim-1)
           unless cell == row
-            @buffer << "      <td class=\"table-cell\">" << @results[row][cell] << "</td>\n"
+            @buffer << "      <td class=\"score\">" << @results[row][cell] << "</td>\n"
           else
-            @buffer << "      <td class=\"table-cell-diag\"></td>\n"
+            @buffer << "      <td class=\"diagonal\"></td>\n"
           end
         end
 
-        @buffer << "      <td>" << @player_score[row] << "</td>\n"
-        @buffer << "      <td></td>\n"
+        @buffer << "      <td class=\"total\">" << @player_score[row] << "</td>\n"
+        @buffer << "      <td class=\"place\">" << @player_place[row] << "</td>\n"
         @buffer << "    </tr>\n"
       end
 
