@@ -379,6 +379,11 @@
     black:  HunOL
     result: '1:0'
 
+  - date:   06.10.2013
+    white:  trex6
+    black:  Michkova
+    result: '0:1'
+
   - date:   28.09.2013
     white:  aptyp
     black:  J
@@ -402,6 +407,11 @@
     result: '0:1'
 
   - date:   06.10.2013
+    white:  Magian
+    black:  Genuine
+    result: '1:0'
+
+  - date:   06.10.2013
     white:  J
     black:  MyTrooName
     result: '1:0'
@@ -421,6 +431,11 @@
   - date:   05.10.2013
     white:  Kakadu
     black:  iVS
+    result: '1:0'
+
+  - date:   06.10.2013
+    white:  aptyp
+    black:  HunOL
     result: '1:0'
 
   - date:   06.10.2013
