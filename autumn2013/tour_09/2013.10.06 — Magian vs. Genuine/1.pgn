@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/tkylzu2d"]
+[Date "2013.10.06"]
+[White "Magian"]
+[Black "Genuine"]
+[Result "1-0"]
+[WhiteElo "1487"]
+[BlackElo "1385"]
+[PlyCount "131"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. e5 $2 { Mistake. Best was b1c3. } 5... Nd5 $2 { Mistake. Best was d8a5. } 6. Bc4 Nb6 7. Bb3 $6 { Inaccuracy. Best was c4e2. } 7... d6 8. Nf3 Nc6 9. exd6 Bxd6 10. Nc3 a6 $6 { Inaccuracy. Best was e8g8. } 11. Ne4 $6 { Inaccuracy. Best was c1e3. } 11... Be7 12. Qxd8+ Bxd8 13. O-O O-O 14. Bf4 Be7 15. Rad1 Nb4 $6 { Inaccuracy. Best was b6d5. } 16. c3 Nb4d5 17. Bg3 $6 { Inaccuracy. Best was f4e5. } 17... Bd7 $6 { Inaccuracy. Best was f7f5. } 18. Ne5 Bc6 19. Rfe1 Rfd8 $2 { Mistake. Best was c6a4. } 20. a3 $2 { Mistake. Best was c3c4. } 20... Nf6 $2 { Mistake. Best was c6a4. } 21. Rxd8+ Rxd8 22. Nxf6+ $6 { Inaccuracy. Best was e5c6. } 22... Bxf6 23. Nxc6 bxc6 24. Bc7 $6 { Inaccuracy. Best was g1f1. } 24... Rd2 25. Rb1 Nd5 26. Bg3 h6 $6 { Inaccuracy. Best was g7g6. } 27. Kf1 Bg5 $6 { Inaccuracy. Best was d5b6. } 28. h4 Bf4 29. Bxd5 $2 { Mistake. Best was f1e1. } 29... Bxg3 30. Bxc6 Rxf2+ 31. Kg1 Bxh4 32. b3 Rd2 33. c4 Be7 34. b4 e5 $6 { Inaccuracy. Best was f7f5. } 35. a4 $6 { Inaccuracy. Best was c6b7. } 35... f5 36. b5 Bc5+ 37. Kh2 axb5 38. cxb5 Bb6 39. Ra1 $2 { Mistake. Best was a4a5. } 39... Ba5 40. Kg1 $6 { Inaccuracy. Best was a1b1. } 40... e4 41. Kf1 e3 42. Bf3 f4 $2 { Mistake. Best was d2f2. } 43. Rb1 Bb6 $6 { Inaccuracy. Best was d2d6. } 44. Rc1 $4 { Blunder. Best was a4a5. } 44... Rd4 $4 { Blunder. Best was d2f2. } 45. Rc6 Ba5 46. Ra6 $6 { Inaccuracy. Best was b5b6. } 46... Bc7 $2 { Mistake. Best was d4a4. } 47. a5 Ra4 $2 { Mistake. Best was d4b4. } 48. Ra8+ Kh7 49. a6 $4 { Blunder. Best was b5b6. } 49... Ra5 $4 { Blunder. Best was h7g6. } 50. Ra7 $4 { Blunder. Best was f3e4. } 50... Bb6 51. Rb7 Bd4 $2 { Mistake. Best was b6c5. } 52. Be4+ Kg8 53. Bd3 $4 { Blunder. Best was e4g6. } 53... Ra1+ $2 { Mistake. Best was g8f8. } 54. Ke2 Ra2+ 55. Kf3 Rf2+ $6 { Inaccuracy. Best was g8f8. } 56. Ke4 Bc5 57. a7 Bxa7 58. Rxa7 e2 59. Bxe2 $4 { Blunder. Best was a7a1. } 59... Rxe2+ 60. Kf3 Rb2 61. Rb7 Rb4 62. b6 h5 63. Rb8+ Kf7 64. b7 Ke7 $4 { Blunder. Best was f7g6. } 65. Rg8 Rb3+ 66. Kxf4 1-0
