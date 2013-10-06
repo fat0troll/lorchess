@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/wddvgd6x"]
+[Date "2013.10.06"]
+[White "txgames"]
+[Black "Michkova"]
+[Result "0-1"]
+[WhiteElo "1036"]
+[BlackElo "1367"]
+[PlyCount "92"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nxd4 5. Qxd4 d6 6. Bf4 Nf6 7. e5 $6 { Inaccuracy. Best was b1c3. } 7... c5 $6 { Inaccuracy. Best was d6e5. } 8. Qa4+ $6 { Inaccuracy. Best was d4d1. } 8... Bd7 9. Bb5 dxe5 10. Bxd7+ $2 { Mistake. Best was f4e5. } 10... Nxd7 $6 { Inaccuracy. Best was d8d7. } 11. Bg3 $6 { Inaccuracy. Best was f4e3. } 11... Bd6 $6 { Inaccuracy. Best was d8b6. } 12. O-O O-O 13. Rfd1 Nb6 14. Qh4 Qxh4 15. Bxh4 Bc7 16. b3 $6 { Inaccuracy. Best was b1c3. } 16... f5 $6 { Inaccuracy. Best was e5e4. } 17. c4 $2 { Mistake. Best was h4e7. } 17... h6 $2 { Mistake. Best was e5e4. } 18. Nc3 $2 { Mistake. Best was h4e7. } 18... g5 19. Nd5 $2 { Mistake. Best was h4g3. } 19... Nxd5 20. cxd5 Bd6 21. Bxg5 $6 { Inaccuracy. Best was h4g3. } 21... hxg5 22. f3 Rae8 $6 { Inaccuracy. Best was e5e4. } 23. Rab1 $6 { Inaccuracy. Best was d1f1. } 23... e4 24. Rde1 $6 { Inaccuracy. Best was f3e4. } 24... e3 $2 { Mistake. Best was e4f3. } 25. h3 $6 { Inaccuracy. Best was g1f1. } 25... f4 26. Kh2 $2 { Mistake. Best was g1f1. } 26... Rf5 27. a3 $2 { Mistake. Best was b1d1. } 27... Ree5 $6 { Inaccuracy. Best was f5d5. } 28. b4 $6 { Inaccuracy. Best was h2g1. } 28... c4 $6 { Inaccuracy. Best was c5b4. } 29. b5 $2 { Mistake. Best was h2g1. } 29... Rexd5 30. a4 Rd3 $6 { Inaccuracy. Best was c4c3. } 31. Rbc1 $2 { Mistake. Best was b5b6. } 31... c3 32. h4 $6 { Inaccuracy. Best was b5b6. } 32... gxh4 33. Kh3 $2 { Mistake. Best was b5b6. } 33... Rg5 34. Rc2 $4 { Blunder. Best was a4a5. } 34... Rd2 35. Rxc3 $4 { Checkmate is now unavoidable. Best was b5b6. } 35... Rdxg2 36. Rh1 Rg2g3+ $6 { Detected checkmate in 5 moves, but player moved for mate in 12. Best was d6e7. } 37. Kh2 Rxf3 $2 { Lost forced checkmate sequence. Best was e3e2. } 38. Rg1 $4 { Blunder. Best was c3c2. } 38... Rf2+ 39. Kh1 Rxg1+ 40. Kxg1 h3 41. Rc8+ Kf7 42. Rh8 Rf3 $6 { Detected checkmate in 6 moves, but player moved for mate in 10. Best was f2g2. } 43. Kh1 e2 44. Kh2 e1=Q 45. Rxh3 Qf2+ $6 { Detected checkmate in 1 moves, but player moved for mate in 2. Best was f3f2. } 46. Kh1 Rxh3# 0-1
