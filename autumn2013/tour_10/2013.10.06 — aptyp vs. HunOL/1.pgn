@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/04g02yjy"]
+[Date "2013.10.06"]
+[White "aptypr"]
+[Black "HunOL"]
+[Result "1-0"]
+[WhiteElo "1209"]
+[BlackElo "1334"]
+[PlyCount "95"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. d4 Bd7 5. Nc3 Nxd4 6. Nxd4 exd4 7. Qxd4 Bxb5 8. Nxb5 c5 $4 { Blunder. Best was a7a6. } 9. Qa4 Ke7 $4 { Blunder. Best was d8d7. } 10. O-O $4 { Blunder. Best was c1f4. } 10... g6 $2 { Mistake. Best was a7a6. } 11. Bf4 $6 { Inaccuracy. Best was a4b3. } 11... f6 $4 { Blunder. Best was e7f6. } 12. Bxd6+ $2 { Mistake. Best was a4c4. } 12... Kf7 13. Qc4+ Kg7 14. Bxf8+ $4 { Blunder. Best was f1d1. } 14... Qxf8 $2 { Mistake. Best was g7f8. } 15. Nc7 Qc8 $4 { Blunder. Best was b7b5. } 16. Nxa8 $4 { Blunder. Best was c7e6. } 16... Qxa8 $2 { Mistake. Best was g8h6. } 17. Qxc5 Nh6 18. Qe7+ $2 { Mistake. Best was e4e5. } 18... Nf7 19. Rad1 Re8 20. Qb4 b6 21. f3 Qc8 22. Rd2 Ng5 $6 { Inaccuracy. Best was e8d8. } 23. Rfd1 Kh6 $2 { Mistake. Best was g5f7. } 24. Qd6 $2 { Mistake. Best was e4e5. } 24... Re6 $2 { Mistake. Best was g5e6. } 25. Qd7 Qc5+ 26. Qd4 Qc8 $6 { Inaccuracy. Best was e6c6. } 27. h4 $2 { Mistake. Best was d4e3. } 27... Nf7 28. Qd7 Qc5+ 29. Kh1 Re7 30. Qd4 Qh5 $2 { Mistake. Best was c5c6. } 31. Qxf6 Qe5 32. Qxe5 Rxe5 $4 { Blunder. Best was f7e5. } 33. Re1 $4 { Blunder. Best was d2d7. } 33... g5 $2 { Mistake. Best was e5e7. } 34. hxg5+ Kxg5 $2 { Mistake. Best was e5g5. } 35. g3 $2 { Mistake. Best was f3f4. } 35... Kf6 36. f4 Rb5 $2 { Mistake. Best was e5e7. } 37. e5+ Ke6 38. b3 $2 { Mistake. Best was c2c4. } 38... h5 $6 { Inaccuracy. Best was a7a5. } 39. Kg2 Rb4 $4 { Blunder. Best was b5c5. } 40. Kh3 $4 { Blunder. Best was f4f5. } 40... a5 $2 { Mistake. Best was b4b5. } 41. Kh4 a4 $2 { Mistake. Best was e6e7. } 42. Kxh5 $2 { Mistake. Best was c2c3. } 42... axb3 $2 { Mistake. Best was b4b5. } 43. axb3 Rb5 44. g4 Rb4 $4 { Blunder. Best was b5c5. } 45. f5+ Ke7 $4 { Checkmate is now unavoidable. } 46. e6 Nh8 47. Rd7+ Kf6 48. e7 1-0
