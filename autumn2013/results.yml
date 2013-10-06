@@ -391,7 +391,7 @@
 
 - number: 9
   games:
-  - date:   02.09.2013
+  - date:   02.10.2013
     white:  darkenshvein
     black:  Kakadu
     result: '0:1'
@@ -413,10 +413,20 @@
     black:  Kasparov
     result: '1:0'
 
-  - date:   06.10.2013
+  - date:   05.10.2013
     white:  Kakadu
     black:  iVS
     result: '1:0'
 
 - number: 12
   games:
+  - date:   05.10.2013
+    white:  uroboros
+    black:  Magian
+    result: '1:0'
+
+  - date:   06.10.2013
+    white:  Kakadu
+    black:  Kasparov
+    result: '1:0'
+
