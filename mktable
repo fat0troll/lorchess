@@ -17,6 +17,3 @@ mv temp_table.html $table
 git add $table
 git commit -m "Update the tournament table."
 git checkout master
-
-# Push changes
-git push --all origin
