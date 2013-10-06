@@ -401,6 +401,11 @@
     black:  uroboros
     result: '0:1'
 
+  - date:   06.10.2013
+    white:  J
+    black:  MyTrooName
+    result: '1:0'
+
 - number: 10
   games:
   - date:   04.10.2013
@@ -417,6 +422,11 @@
     white:  Kakadu
     black:  iVS
     result: '1:0'
+
+  - date:   06.10.2013
+    white:  MyTrooName
+    black:  Genuine
+    result: '0:1'
 
 - number: 12
   games:
