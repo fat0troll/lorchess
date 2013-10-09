@@ -11,41 +11,43 @@ module LORChess
     results_yaml = File.expand_path('../../autumn2013/results.yml', dir)
     @@db_results = YAML.load_file results_yaml
 
+    @@dim = @@db_players.length
+
     # Sort players in numerical order
     @@db_players.sort! { |x,y| x['number'] <=> y['number'] }
 
     def initialize
       @players = []
-      @elo_list = []
-      @dim = @@db_players.length
-      @results = Array.new(@dim) { Array.new(@dim, '') }
+      @elo_points = []
+      @game_scores = Array.new(@@dim) { Array.new(@@dim) }
       @player_games = []
-      @player_score = []
-      @player_place = []
+      @total_scores = []
+      @player_places = []
+      @berger_coefs = []
       @buffer = ''
 
       @@db_players.each do |player|
         @players << player['lor']
-        @elo_list << player['elo'].to_s
+        @elo_points << player['elo'].to_s
       end
 
-      # Correlate the player with his position
-      @player_pos = {}
-      @players.each_with_index { |player, pos| @player_pos[player] = pos }
+      # Correlate the player with his number
+      @player_numbers = {}
+      @players.each_with_index { |player, num| @player_numbers[player] = num }
 
-      fill
+      fill_results
       calculate
       stylize_table
 
       # Clean the vacancy place
-      index = @player_pos['Kasparov']
-      if index
-        @players[index] = '<em style="font-weight:normal">отсутствует</em>'
-        @elo_list[index] = '1200'
+      num = @player_numbers['Kasparov']
+      if num
+        @players[num] = '<em style="font-weight:normal">отсутствует</em>'
+        @elo_points[num] = '1200'
       end
     end
 
-    def fill
+    def fill_results
       @@db_results.each do |tour|
         tour['games'].each do |game|
           import game
@@ -54,56 +56,60 @@ module LORChess
     end
 
     def import game
-      pos_white = @player_pos[game['white']]
-      pos_black = @player_pos[game['black']]
+      num_white = @player_numbers[game['white']]
+      num_black = @player_numbers[game['black']]
       score = game['result'].split ':'
 
-      @results[pos_white][pos_black] = score[0]
-      @results[pos_black][pos_white] = score[1]
+      @game_scores[num_white][num_black] = score[0].to_f
+      @game_scores[num_black][num_white] = score[1].to_f
     end
 
     def calculate
-      score_data = []
+      player_scores = []
 
-      @results.each_with_index do |row, i|
+      @game_scores.each_with_index do |row, num|
         games = 0
         sum = 0.0
         row.each do |score|
-          games += 1 unless score == ''
-          sum += score.to_f
+          unless score.nil?
+            games += 1
+            sum += score
+          end
         end
         @player_games << games.to_s
-        @player_score << sum.to_s
-        score_data << {:position => i, :total => sum}
+        @total_scores << sum
+        player_scores << { :number => num, :total => sum }
       end
 
       # Sort players in the reverse order to total score
-      score_data.sort! { |x,y| y[:total] <=> x[:total] }
+      player_scores.sort! { |x,y| y[:total] <=> x[:total] }
 
-      score_data.each_with_index { |data,i| @player_place[data[:position]] = (i+1).to_s }
+      player_scores.each_with_index do |data, num|
+        @player_places[data[:number]] = (num + 1).to_s
+      end
     end
 
     def stylize_table
-      for row in 0..(@dim-1)
-        for cell in 0..(@dim-1)
-          @results[row][cell] = stylize_score @results[row][cell]
+      for row in 0..(@@dim - 1)
+        for cell in 0..(@@dim - 1)
+          @game_scores[row][cell] = stylize_score @game_scores[row][cell]
         end
 
-        @player_score[row] = stylize_score @player_score[row]
+        @total_scores[row] = stylize_score @total_scores[row]
       end
     end
 
     # Replace the fractional part `0.5' by ½
     def stylize_score score
-      frac = score.split '.'
+      frac = score.to_s.split '.'
       return '' if frac[0].nil?
       unless frac[0] == '0'
-        score = frac[0]
-        score += '½' if frac[1] == '5'
+        str = frac[0]
+        str += '½' if frac[1] == '5'
       else
-        score = (frac[1] == '5') ? '½' : '0'
+        str = (frac[1] == '5') ? '½' : '0'
       end
-      score
+      str
     end
 
     def to_html
@@ -116,8 +122,8 @@ module LORChess
       @buffer << "      <th>Участник</th>\n"
       @buffer << "      <th>elo*</th>\n"
 
-      for cell in 0..(@dim-1)
-        @buffer << "      <th>" << (cell+1).to_s << "</th>\n"
+      for cell in 0..(@@dim - 1)
+        @buffer << "      <th>" << (cell + 1).to_s << "</th>\n"
       end
 
       @buffer << "      <th>Игры</th>\n"
@@ -127,24 +133,24 @@ module LORChess
       @buffer << "  </thead>\n"
       @buffer << "  <tbody>\n"
 
-      for row in 0..(@dim-1)
+      for row in 0..(@@dim - 1)
 
-        @buffer << "    <tr class=\"place-" << @player_place[row] << "\">\n"
-        @buffer << "      <td class=\"number\">" << (row+1).to_s << "</td>\n"
+        @buffer << "    <tr class=\"place-" << @player_places[row] << "\">\n"
+        @buffer << "      <td class=\"number\">" << (row + 1).to_s << "</td>\n"
         @buffer << "      <td class=\"player\"><strong>" << @players[row] << "</strong></td>\n"
-        @buffer << "      <td class=\"elo\">" << @elo_list[row] << "</td>\n"
+        @buffer << "      <td class=\"elo\">" << @elo_points[row] << "</td>\n"
 
-        for cell in 0..(@dim-1)
+        for cell in 0..(@@dim - 1)
           unless cell == row
-            @buffer << "      <td class=\"score\">" << @results[row][cell] << "</td>\n"
+            @buffer << "      <td class=\"score\">" << @game_scores[row][cell] << "</td>\n"
           else
             @buffer << "      <td class=\"diagonal\"></td>\n"
           end
         end
 
         @buffer << "      <td class=\"games\">" << @player_games[row] << "</td>\n"
-        @buffer << "      <td class=\"total\">" << @player_score[row] << "</td>\n"
-        @buffer << "      <td class=\"place\">" << @player_place[row] << "</td>\n"
+        @buffer << "      <td class=\"total\">" << @total_scores[row] << "</td>\n"
+        @buffer << "      <td class=\"place\">" << @player_places[row] << "</td>\n"
         @buffer << "    </tr>\n"
       end
 
