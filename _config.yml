@@ -19,3 +19,12 @@ nav-links:
 
   - url:   /contact/
     title: Контакты
+
+tourneys:
+  - name: Великолепная дюжина
+    url:  http://www.linux.org.ru/forum/talks/9088834
+    dir:  great12
+
+  - name: Осень 2013
+    url:  http://www.linux.org.ru/forum/talks/9539078
+    dir:  autumn2013
