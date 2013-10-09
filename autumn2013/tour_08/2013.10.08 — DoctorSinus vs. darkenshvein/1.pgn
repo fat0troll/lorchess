@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/hq7w93wh"]
+[Date "2013.10.08"]
+[White "fat0troll"]
+[Black "Anonymous"]
+[Result "1-0"]
+[WhiteElo "973"]
+[BlackElo "?"]
+[PlyCount "23"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 Nf6 $6 { Inaccuracy. Best was e7e6. } 2. d3 $6 { Inaccuracy. Best was e4e5. } 2... d5 3. Bg5 $6 { Inaccuracy. Best was e4d5. } 3... dxe4 4. Bxf6 $6 { Inaccuracy. Best was b1c3. } 4... gxf6 5. Nc3 exd3 6. Qxd3 Qxd3 7. Bxd3 Bg7 $6 { Inaccuracy. Best was c7c6. } 8. O-O-O Bd7 9. Bb5 Bxb5 10. Nxb5 c6 $4 { Checkmate is now unavoidable. Best was b8a6. } 11. Nc7+ Kf8 12. Rd8# 1-0
