@@ -17,3 +17,6 @@ mv temp_table.html $table
 git add $table
 git commit -m "Update the tournament table."
 git checkout master
+
+# Check the difference between game results
+git diff HEAD^ HEAD -- $results
