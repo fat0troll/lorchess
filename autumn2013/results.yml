@@ -374,6 +374,11 @@
     black:  iVS
     result: '0:1'
 
+  - date:   08.10.2013
+    white:  DoctorSinus
+    black:  darkenshvein
+    result: '1:0'
+
   - date:   04.10.2013
     white:  Kakadu
     black:  HunOL
@@ -401,6 +406,11 @@
     black:  Kakadu
     result: '0:1'
 
+  - date:   08.10.2013
+    white:  iVS
+    black:  DoctorSinus
+    result: '1:0'
+
   - date:   05.10.2013
     white:  Kasparov
     black:  uroboros
@@ -418,6 +428,11 @@
 
 - number: 10
   games:
+  - date:   08.10.2013
+    white:  LongLiveUbuntu
+    black:  Magian
+    result: '0:1'
+
   - date:   04.10.2013
     white:  uroboros
     black:  shell-script
