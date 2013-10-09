@@ -37,7 +37,7 @@ module LORChess
 
       fill_results
       calculate
-      stylize_table
+      results_to_s
 
       # Clean the vacancy place
       num = @player_numbers['Kasparov']
@@ -81,6 +81,8 @@ module LORChess
         player_scores << { :number => num, :total => sum }
       end
 
+      calculate_berger
+
       # Sort players in the reverse order to total score
       player_scores.sort! { |x,y| y[:total] <=> x[:total] }
 
@@ -89,13 +91,24 @@ module LORChess
       end
     end
 
-    def stylize_table
+    def calculate_berger
+      @game_scores.each do |row|
+        berger = 0.0
+        row.each_with_index do |score, cell|
+          berger += score * @total_scores[cell] unless score.nil?
+        end
+        @berger_coefs << berger
+      end
+    end
+
+    def results_to_s
       for row in 0..(@@dim - 1)
         for cell in 0..(@@dim - 1)
           @game_scores[row][cell] = stylize_score @game_scores[row][cell]
         end
 
         @total_scores[row] = stylize_score @total_scores[row]
+        @berger_coefs[row] = @berger_coefs[row].to_s
       end
     end
 
@@ -129,6 +142,7 @@ module LORChess
       @buffer << "      <th>Игры</th>\n"
       @buffer << "      <th>Очки</th>\n"
       @buffer << "      <th>Место</th>\n"
+      @buffer << "      <th>Бергер</th>\n"
       @buffer << "    </tr>\n"
       @buffer << "  </thead>\n"
       @buffer << "  <tbody>\n"
@@ -151,6 +165,7 @@ module LORChess
         @buffer << "      <td class=\"games\">" << @player_games[row] << "</td>\n"
         @buffer << "      <td class=\"total\">" << @total_scores[row] << "</td>\n"
         @buffer << "      <td class=\"place\">" << @player_places[row] << "</td>\n"
+        @buffer << "      <td class=\"berger\">" << @berger_coefs[row] << "</td>\n"
         @buffer << "    </tr>\n"
       end
 
