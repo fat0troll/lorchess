@@ -14,6 +14,9 @@ ret_code=$?
 
 if [[ $ret_code == 0 ]]; then
 
+    # Check the difference between game results
+    git diff HEAD^ HEAD -- $results
+
     # Update the tournament table
     bin/lorchess > temp_table.html
     git checkout gh-pages
@@ -21,7 +24,4 @@ if [[ $ret_code == 0 ]]; then
     git add $table
     git commit -m "Update the tournament table."
     git checkout master
-
-    # Check the difference between game results
-    git diff HEAD^ HEAD -- $results
 fi
