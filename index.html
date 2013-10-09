@@ -14,7 +14,7 @@ layout: page
 
     {% capture basename %}{{ post.pgn | split: '/' | last }}{% endcapture %}
     {% capture gamedate %}{{ basename | truncate: 11, '' }}{% endcapture %}
-    {% capture players %}{{ basename | remove: gamedate | remove: '.pgn' }}{% endcapture %}
+    {% capture players %}{{ basename | remove: gamedate | remove: '-with-comments.pgn' }}{% endcapture %}
 
     {% capture white %}{{ players | split: '-vs-' | first }}{% endcapture %}
     {% capture whitelink %}
