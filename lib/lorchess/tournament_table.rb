@@ -19,6 +19,7 @@ module LORChess
       @elo_list = []
       @dim = @@db_players.length
       @results = Array.new(@dim) { Array.new(@dim, '') }
+      @player_games = []
       @player_score = []
       @player_place = []
       @buffer = ''
@@ -65,8 +66,13 @@ module LORChess
       score_data = []
 
       @results.each_with_index do |row, i|
+        games = 0
         sum = 0.0
-        row.each { |score| sum += score.to_f }
+        row.each do |score|
+          games += 1 unless score == ''
+          sum += score.to_f
+        end
+        @player_games << games.to_s
         @player_score << sum.to_s
         score_data << {:position => i, :total => sum}
       end
@@ -114,6 +120,7 @@ module LORChess
         @buffer << "      <th>" << (cell+1).to_s << "</th>\n"
       end
 
+      @buffer << "      <th>Игры</th>\n"
       @buffer << "      <th>Очки</th>\n"
       @buffer << "      <th>Место</th>\n"
       @buffer << "    </tr>\n"
@@ -135,6 +142,7 @@ module LORChess
           end
         end
 
+        @buffer << "      <td class=\"games\">" << @player_games[row] << "</td>\n"
         @buffer << "      <td class=\"total\">" << @player_score[row] << "</td>\n"
         @buffer << "      <td class=\"place\">" << @player_place[row] << "</td>\n"
         @buffer << "    </tr>\n"
