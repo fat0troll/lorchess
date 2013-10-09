@@ -10,6 +10,6 @@ pgn:    autumn2013/2013-09-10-redgremlin-vs-iVS-with-comments.pgn
 source with SetPgnUrl() -->
 <form style="display:none;">
   <textarea id="pgnText" style="display:none;">
-    {% include pgns/autumn2013/redgremlin-iVS.pgn %}
+    {% include pgns/autumn2013/2013-09-10-redgremlin-vs-iVS-with-comments.pgn %}
   </textarea>
 </form>

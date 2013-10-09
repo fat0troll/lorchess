@@ -10,6 +10,6 @@ pgn:    great12/2013-08-15-Michkova-vs-HunOL-with-comments.pgn
 source with SetPgnUrl() -->
 <form style="display:none;">
   <textarea id="pgnText" style="display:none;">
-    {% include pgns/great12/Michkova-HunOL.pgn %}
+    {% include pgns/great12/2013-08-15-Michkova-vs-HunOL-with-comments.pgn %}
   </textarea>
 </form>
