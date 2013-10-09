@@ -65,8 +65,6 @@ module LORChess
     end
 
     def calculate
-      player_scores = []
-
       @game_scores.each_with_index do |row, num|
         games = 0
         sum = 0.0
@@ -78,15 +76,34 @@ module LORChess
         end
         @player_games << games.to_s
         @total_scores << sum
-        player_scores << { :number => num, :total => sum }
       end
 
       calculate_berger
 
-      # Sort players in the reverse order to total score
-      player_scores.sort! { |x,y| y[:total] <=> x[:total] }
+      player_data = []
+      for num in 0..(@@dim - 1)
+        player_data << { :number => num,
+                         :total => @total_scores[num],
+                         :berger => @berger_coefs[num] }
+      end
 
-      player_scores.each_with_index do |data, num|
+      # Sort players in the reverse order to Berger coefficient
+      player_data.sort! { |x,y| y[:berger] <=> x[:berger] }
+
+      # Sort players in the reverse order to total score by the bubble
+      # sorting, keeping the order of Berger coefficients for equal
+      # total scores
+      0.upto(@@dim - 2) do |i|
+        (@@dim - 2).downto(i) do |j|
+          if player_data[j][:total] < player_data[j+1][:total]
+            data = player_data[j]
+            player_data[j] = player_data[j+1]
+            player_data[j+1] = data
+          end
+        end
+      end
+
+      player_data.each_with_index do |data, num|
         @player_places[data[:number]] = (num + 1).to_s
       end
     end
