@@ -17,8 +17,8 @@ module LORChess
     @@db_players.sort! { |x,y| x['number'] <=> y['number'] }
 
     def initialize
-      @players = []
-      @elo_points = []
+      @players = @@db_players.map { |player| player['lor'] }
+      @elo_points = @@db_players.map { |player| player['elo'].to_s }
       @game_scores = Array.new(@@dim) { Array.new(@@dim) }
       @player_games = []
       @total_scores = []
@@ -26,14 +26,9 @@ module LORChess
       @berger_coefs = []
       @buffer = ''
 
-      @@db_players.each do |player|
-        @players << player['lor']
-        @elo_points << player['elo'].to_s
-      end
-
       # Correlate the player with his number
       @player_numbers = {}
-      @players.each_with_index { |player, num| @player_numbers[player] = num }
+      @players.each_with_index { |player, i| @player_numbers[player] = i }
 
       fill_results
       calculate
@@ -65,7 +60,7 @@ module LORChess
     end
 
     def calculate
-      @game_scores.each_with_index do |row, num|
+      @game_scores.each do |row|
         games = 0
         sum = 0.0
         row.each do |score|
@@ -81,10 +76,10 @@ module LORChess
       calculate_berger
 
       player_data = []
-      for num in 0..(@@dim - 1)
-        player_data << { :number => num,
-                         :total => @total_scores[num],
-                         :berger => @berger_coefs[num] }
+      @@dim.times do |i|
+        player_data << { :number => i,
+                         :total => @total_scores[i],
+                         :berger => @berger_coefs[i] }
       end
 
       # Sort players in the reverse order to Berger coefficient
@@ -93,7 +88,7 @@ module LORChess
       # Sort players in the reverse order to total score by the bubble
       # sorting, keeping the order of Berger coefficients for equal
       # total scores
-      0.upto(@@dim - 2) do |i|
+      (@@dim - 1).times do |i|
         (@@dim - 2).downto(i) do |j|
           if player_data[j][:total] < player_data[j+1][:total]
             data = player_data[j]
@@ -103,36 +98,31 @@ module LORChess
         end
       end
 
-      player_data.each_with_index do |data, num|
-        @player_places[data[:number]] = (num + 1).to_s
+      player_data.each_with_index do |data, i|
+        @player_places[data[:number]] = (i + 1).to_s
       end
     end
 
     def calculate_berger
-      @game_scores.each do |row|
+      @berger_coefs = @game_scores.map do |row|
         berger = 0.0
-        row.each_with_index do |score, cell|
-          berger += score * @total_scores[cell] unless score.nil?
+        row.each_with_index do |score, i|
+          berger += score * @total_scores[i] unless score.nil?
         end
-        @berger_coefs << berger
+        berger
       end
     end
 
     def results_to_s
-      for row in 0..(@@dim - 1)
-        for cell in 0..(@@dim - 1)
-          @game_scores[row][cell] = stylize_score @game_scores[row][cell]
-        end
-
-        @total_scores[row] = stylize_score @total_scores[row]
-        @berger_coefs[row] = @berger_coefs[row].to_s
-      end
+      @game_scores.map! { |row| row.map { |cell| stylize_score cell } }
+      @total_scores.map! { |score| stylize_score score }
+      @berger_coefs.map! { |coef| coef.to_s }
     end
 
     # Replace the fractional part `0.5' by ½
     def stylize_score score
+      return '' if score.nil?
       frac = score.to_s.split '.'
-      return '' if frac[0].nil?
       unless frac[0] == '0'
         str = frac[0]
         str += '½' if frac[1] == '5'
@@ -152,8 +142,8 @@ module LORChess
       @buffer << "      <th>Участник</th>\n"
       @buffer << "      <th>elo*</th>\n"
 
-      for cell in 0..(@@dim - 1)
-        @buffer << "      <th>" << (cell + 1).to_s << "</th>\n"
+      @@dim.times do |i|
+        @buffer << "      <th>" << (i + 1).to_s << "</th>\n"
       end
 
       @buffer << "      <th>Игры</th>\n"
@@ -164,25 +154,25 @@ module LORChess
       @buffer << "  </thead>\n"
       @buffer << "  <tbody>\n"
 
-      for row in 0..(@@dim - 1)
+      @@dim.times do |i|
 
-        @buffer << "    <tr class=\"place-" << @player_places[row] << "\">\n"
-        @buffer << "      <td class=\"number\">" << (row + 1).to_s << "</td>\n"
-        @buffer << "      <td class=\"player\"><strong>" << @players[row] << "</strong></td>\n"
-        @buffer << "      <td class=\"elo\">" << @elo_points[row] << "</td>\n"
+        @buffer << "    <tr class=\"place-" << @player_places[i] << "\">\n"
+        @buffer << "      <td class=\"number\">" << (i + 1).to_s << "</td>\n"
+        @buffer << "      <td class=\"player\"><strong>" << @players[i] << "</strong></td>\n"
+        @buffer << "      <td class=\"elo\">" << @elo_points[i] << "</td>\n"
 
-        for cell in 0..(@@dim - 1)
-          unless cell == row
-            @buffer << "      <td class=\"score\">" << @game_scores[row][cell] << "</td>\n"
+        @@dim.times do |j|
+          unless j == i
+            @buffer << "      <td class=\"score\">" << @game_scores[i][j] << "</td>\n"
           else
             @buffer << "      <td class=\"diagonal\"></td>\n"
           end
         end
 
-        @buffer << "      <td class=\"games\">" << @player_games[row] << "</td>\n"
-        @buffer << "      <td class=\"total\">" << @total_scores[row] << "</td>\n"
-        @buffer << "      <td class=\"place\">" << @player_places[row] << "</td>\n"
-        @buffer << "      <td class=\"berger\">" << @berger_coefs[row] << "</td>\n"
+        @buffer << "      <td class=\"games\">" << @player_games[i] << "</td>\n"
+        @buffer << "      <td class=\"total\">" << @total_scores[i] << "</td>\n"
+        @buffer << "      <td class=\"place\">" << @player_places[i] << "</td>\n"
+        @buffer << "      <td class=\"berger\">" << @berger_coefs[i] << "</td>\n"
         @buffer << "    </tr>\n"
       end
 
