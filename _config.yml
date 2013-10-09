@@ -1,3 +1,4 @@
+url: http://fat0troll.github.io
 baseurl: /lorchess # to generate Project Pages on GH
 title: LOR Chess
 
@@ -19,6 +20,9 @@ nav-links:
 
   - url:   /contact/
     title: Контакты
+
+  - url: /atom.xml
+    title: Подписка
 
 tourneys:
   - name: Великолепная дюжина
