@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/4chof0y6"]
+[Date "2013.10.12"]
+[White "iVS"]
+[Black "txgames"]
+[Result "1-0"]
+[WhiteElo "1494"]
+[BlackElo "994"]
+[PlyCount "73"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. d4 e6 2. c4 c5 3. d5 exd5 4. cxd5 Nf6 5. Nc3 Bd6 6. e4 O-O 7. Bg5?! { Inaccuracy. Best was f2f4. } 7... h6 8. Bh4 Be7? { Mistake. Best was f8e8. } 9. Bg3? { Mistake. Best was d5d6. } 9... a6? { Mistake. Best was d8b6. } 10. a4? { Mistake. Best was d5d6. } 10... Rfe8? { Mistake. Best was d7d6. } 11. Be2? { Mistake. Best was e4e5. } 11... d6 12. h3?! { Inaccuracy. Best was d1c2. } 12... Bf8 13. Bf3?! { Inaccuracy. Best was f2f3. } 13... Bf5 14. Qe2 Qe7?? { Blunder. Best was b8d7. } 15. exf5 Qxe2+? { Mistake. Best was e7d7. } 16. Ngxe2 Nbd7 17. O-O Ne5 18. Bxe5 dxe5? { Mistake. Best was e8e5. } 19. Be4?! { Inaccuracy. Best was e2g3. } 19... Nxe4? { Mistake. Best was c5c4. } 20. Nxe4 c4 21. d6 Red8 22. Rfd1 Rd7? { Mistake. Best was a8c8. } 23. Ne2c3 Rad8 24. Nc5? { Mistake. Best was c3d5. } 24... Rd7xd6 25. Nxb7 Rd6xd1+ 26. Rxd1 Rxd1+ 27. Nxd1 Bb4 28. Kf1 Kf8 29. Nd8 Ke7?? { Blunder. Best was f8e8. } 30. Nc6+ Kf6?! { Inaccuracy. Best was e7d6. } 31. Nxb4 Kxf5 32. Nxa6 e4?? { Blunder. Best was f5e6. } 33. Ne3+?? { Blunder. Best was a6c5. } 33... Ke5 34. Nc7? { Mistake. Best was e3c4. } 34... f5? { Mistake. Best was e5d6. } 35. Nxc4+ Kd4 36. a5 Kxc4 37. a6 1-0
