@@ -401,6 +401,11 @@
 
 - number: 9
   games:
+  - date:   12.10.2013
+    white:  HunOL
+    black:  trex6
+    result: '1:0'
+
   - date:   02.10.2013
     white:  darkenshvein
     black:  Kakadu
@@ -456,6 +461,18 @@
   - date:   06.10.2013
     white:  MyTrooName
     black:  Genuine
+    result: '0:1'
+
+- number: 11
+  games:
+  - date:   12.10.2013
+    white:  iVS
+    black:  trex6
+    result: '1:0'
+
+  - date:   12.10.2013
+    white:  Kasparov
+    black:  DoctorSinus
     result: '0:1'
 
 - number: 12
