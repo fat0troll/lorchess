@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/1hz8rqb3"]
+[Date "2013.10.14"]
+[White "Anonymous"]
+[Black "aptypr"]
+[Result "0-1"]
+[WhiteElo "?"]
+[BlackElo "1310"]
+[PlyCount "32"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. Nc3 e5 2. e4 Nf6 3. f3?! { Inaccuracy. Best was g1f3. } 3... Nc6 4. Nge2 d5 5. exd5 Nxd5 6. g3?! { Inaccuracy. Best was c3d5. } 6... Be7 7. Bg2 O-O 8. O-O Bc5+ 9. Kh1 Bf5 10. f4 Nxc3 11. fxe5?? { Blunder. Best was e2c3. } 11... Nxd1 12. Rfxd1? { Mistake. Best was f1f5. } 12... Bxc2 13. Rdf1? { Mistake. Best was d1e1. } 13... Bd3 14. Rfe1 Nb4? { Mistake. Best was c6e5. } 15. Bxb7?? { Blunder. Best was e2f4. } 15... Nc2 16. Bxa8 Qxa8# 0-1
