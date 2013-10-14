@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/se90r7vu"]
+[Date "2013.10.14"]
+[White "LOR_J"]
+[Black "Anonymous"]
+[Result "1-0"]
+[WhiteElo "1109"]
+[BlackElo "?"]
+[PlyCount "59"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 Nf6 2. e5 Ng8 3. d4 Nc6 4. c3?! { Inaccuracy. Best was g1f3. } 4... Nb8?! { Inaccuracy. Best was d7d6. } 5. Nf3 f6 6. exf6 exf6?! { Inaccuracy. Best was g8f6. } 7. Bd3 Qe7+ 8. Be3 Nc6 9. O-O b6? { Mistake. Best was d7d5. } 10. Rfe1 Bb7?? { Blunder. Best was e7f7. } 11. Bf4 O-O-O 12. Rxe7 Bxe7?! { Inaccuracy. Best was g8e7. } 13. Nbd2 g5 14. Bg3 g4? { Mistake. Best was h7h5. } 15. Nh4 h5?! { Inaccuracy. Best was g8h6. } 16. Ng6 Rh6 17. Nxe7+? { Mistake. Best was g3f4. } 17... Ncxe7 18. Be4 f5 19. Bxb7+ Kxb7 20. Nc4 h4 21. Bf4 Ng6?? { Blunder. Best was h6h5. } 22. Bxh6 Nxh6 23. Qd3?! { Inaccuracy. Best was c4e5. } 23... Rf8? { Mistake. Best was h4h3. } 24. Re1? { Mistake. Best was c4a5. } 24... Nf4?? { Blunder. Best was h6g8. } 25. Qe3 b5?? { Blunder. Best was f4g2. } 26. Qxf4?? { Blunder. Best was c4a5. } 26... bxc4 27. Qxh6 Rc8?! { Inaccuracy. Best was f8b8. } 28. Qxh4 Rf8?? { Blunder. Best was d7d6. } 29. Qe7 Rc8 30. Qxd7 1-0
