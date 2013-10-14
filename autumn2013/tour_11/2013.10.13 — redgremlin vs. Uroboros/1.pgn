@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/ebloopas"]
+[Date "2013.10.13"]
+[White "gremlin_the_red"]
+[Black "Uroboros"]
+[Result "1-0"]
+[WhiteElo "1275"]
+[BlackElo "1544"]
+[PlyCount "47"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Bg5 Ne4 6. Bh4 Nxc3 7. bxc3 c5 8. e3 Nc6 9. Bd3 O-O 10. O-O cxd4 11. cxd4 Qa5?! { Inaccuracy. Best was d5c4. } 12. Qe2?! { Inaccuracy. Best was a1b1. } 12... Bg4?! { Inaccuracy. Best was d5c4. } 13. h3?! { Inaccuracy. Best was a1b1. } 13... Bxf3 14. Qxf3 e6 15. cxd5?! { Inaccuracy. Best was a1b1. } 15... exd5? { Mistake. Best was c6b4. } 16. a3 Rac8 17. Rfc1 b6 18. Qe2 Nb8? { Mistake. Best was f8e8. } 19. Be7 Rfe8?? { Blunder. Best was a7a6. } 20. Bb4 Qa4? { Mistake. Best was g7d4. } 21. Bb5 Qb3 22. Bxe8 Rxe8 23. Qb5 Rxe3 24. Rc8+ 1-0
