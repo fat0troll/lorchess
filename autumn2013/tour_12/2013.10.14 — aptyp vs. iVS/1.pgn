@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/ml10ebej"]
+[Date "2013.10.14"]
+[White "aptypr"]
+[Black "iVS"]
+[Result "0-1"]
+[WhiteElo "1318"]
+[BlackElo "1503"]
+[PlyCount "104"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bg5 Bd7 7. Qd2 Qa5?! { Inaccuracy. Best was c6d4. } 8. Nb3 Qb4?! { Inaccuracy. Best was a5d8. } 9. a3?! { Inaccuracy. Best was g5f6. } 9... Qb6 10. O-O-O O-O-O?? { Blunder. Best was e7e6. } 11. Be3?? { Blunder. Best was g5f6. } 11... Qc7 12. Be2?! { Inaccuracy. Best was c3b5. } 12... Kb8 13. Kb1 e6? { Mistake. Best was c6e5. } 14. Nd4? { Mistake. Best was c3b5. } 14... Nxd4 15. Qxd4 Qa5 16. f4 Be7?! { Inaccuracy. Best was d8c8. } 17. Rhf1?! { Inaccuracy. Best was b2b4. } 17... Bc6 18. b4 Qxa3?? { Blunder. Best was e6e5. } 19. Rd3?? { Blunder. Best was e3c1. } 19... Qa6? { Mistake. Best was d6d5. } 20. Rfd1?? { Blunder. Best was b4b5. } 20... b6 21. g4 Qb7 22. Bf3 d5?! { Inaccuracy. Best was h7h6. } 23. exd5 Nxd5 24. Nxd5 Bxd5 25. Bxd5 Rxd5 26. Qxg7 Rhd8 27. Qxf7 Rd5xd3 28. Rxd3 Rxd3?! { Inaccuracy. Best was b7e4. } 29. cxd3 Qh1+ 30. Bc1 Bxb4 31. f5? { Mistake. Best was f7g8. } 31... Bd2 32. Qe8+ Kb7 33. Qe7+ Ka6 34. Qa3+ Kb7 35. fxe6 Qe1 36. e7 Bb4?? { Blunder. Best was d2c1. } 37. Qa4?? { Blunder. Best was e7e8. } 37... Qxe7 38. Qb3 Bc5 39. Qd5+ Ka6 40. d4 Bb4 41. Qc6 Qd6 42. Qxd6 Bxd6 43. h4 Kb5 44. Kc2? { Mistake. Best was g4g5. } 44... Kc4?! { Inaccuracy. Best was b5c6. } 45. g5 Kxd4?! { Inaccuracy. Best was c4d5. } 46. Bb2+? { Mistake. Best was h4h5. } 46... Ke4 47. h5 Be5?? { Blunder. Best was d6f4. } 48. h6?? { Blunder. Best was g5g6. } 48... Bxb2?? { Blunder. Best was e4f5. } 49. Kxb2?? { Blunder. Best was g5g6. } 49... Kf5 50. Kb3?? { Checkmate is now unavoidable. Best was b2c3. } 50... Kxg5 51. Kb4 Kxh6 52. Kb5 Kg5 0-1
