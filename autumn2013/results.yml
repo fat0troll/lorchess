@@ -463,6 +463,11 @@
     black:  HunOL
     result: '1:0'
 
+  - date:   16.10.2013
+    white:  J
+    black:  Michkova
+    result: '0:1'
+
   - date:   06.10.2013
     white:  MyTrooName
     black:  Genuine
@@ -470,6 +475,11 @@
 
 - number: 11
   games:
+  - date:   14.10.2013
+    white:  darkenshvein
+    black:  aptyp
+    result: '0:1'
+
   - date:   12.10.2013
     white:  iVS
     black:  trex6
@@ -496,4 +506,19 @@
     white:  Kakadu
     black:  Kasparov
     result: '1:0'
+
+  - date:   14.10.2013
+    white:  aptyp
+    black:  iVS
+    result: '0:1'
+
+  - date:   14.10.2013
+    white:  J
+    black:  darkenshvein
+    result: '1:0'
+
+  - date:   16.10.2013
+    white:  Michkova
+    black:  HunOL
+    result: '0.5:0.5'
 

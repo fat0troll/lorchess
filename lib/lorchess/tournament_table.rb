@@ -40,6 +40,10 @@ module LORChess
         @players[num] = '<em style="font-weight:normal">отсутствует</em>'
         @elo_points[num] = '1200'
       end
+
+      # Remove Uroboros from the tournament (seppuku)
+      num = @player_numbers['uroboros']
+      @players[num] = '<del>uroboros</del>'
     end
 
     def fill_results
