@@ -475,6 +475,11 @@
 
 - number: 11
   games:
+  - date:   17.10.2013
+    white:  HunOL
+    black:  J
+    result: '0:1'
+
   - date:   14.10.2013
     white:  darkenshvein
     black:  aptyp
@@ -490,9 +495,19 @@
     black:  DoctorSinus
     result: '0:1'
 
+  - date:   17.10.2013
+    white:  shell-script
+    black:  farzeet
+    result: '1:0'
+
   - date:   13.10.2013
     white:  redgremlin
     black:  uroboros
+    result: '1:0'
+
+  - date:   17.10.2013
+    white:  Michkova
+    black:  MyTrooName
     result: '1:0'
 
 - number: 12
@@ -500,6 +515,11 @@
   - date:   05.10.2013
     white:  uroboros
     black:  Magian
+    result: '1:0'
+
+  - date:   17.10.2013
+    white:  DoctorSinus
+    black:  shell-script
     result: '1:0'
 
   - date:   06.10.2013
