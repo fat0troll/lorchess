@@ -34,13 +34,6 @@ module LORChess
       calculate
       results_to_s
 
-      # Clean the vacancy place
-      num = @player_numbers['Kasparov']
-      if num
-        @players[num] = '<em style="font-weight:normal">отсутствует</em>'
-        @elo_points[num] = '1200'
-      end
-
       # Remove Uroboros from the tournament (seppuku)
       num = @player_numbers['uroboros']
       @players[num] = '<del>uroboros</del>'

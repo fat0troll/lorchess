@@ -49,9 +49,9 @@
   elo:     1199
 
 - number:  11
-  lor:     Kasparov
-  lichess: Kasparov
-  elo:     2827
+  lor:     Nokman
+  lichess: Nokman
+  elo:     1200
 
 - number:  12
   lor:     shell-script
