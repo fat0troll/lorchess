@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/knrjpiue"]
+[Date "2013.10.18"]
+[White "txgames"]
+[Black "Nedis"]
+[Result "0-1"]
+[WhiteElo "960"]
+[BlackElo "1325"]
+[PlyCount "59"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 g6?! { (0.08 → 0.94) Inaccuracy. The best move was Nf6. } (4... Nf6 5. Nxc6 bxc6 6. Bd3 d5 7. Nc3 Bc5 8. exd5 cxd5 9. Qe2+) 5. Nxc6 bxc6 6. Qd4?! { (0.94 → 0.42) Inaccuracy. The best move was Nc3. } (6. Nc3 Bg7 7. Bc4 Ne7 8. O-O O-O 9. Bg5 d6 10. Bb3 Be6) 6... Qf6 7. e5 Qe6 8. Nd2 f6 9. Nf3 Bg7 10. Bc4?! { (-0.24 → -0.84) Inaccuracy. The best move was Qa4. } (10. Qa4 Ne7 11. Be2 fxe5 12. Ng5 Qg8 13. c4 h6 14. Ne4 d6) 10... d5 11. O-O? { (-0.92 → -2.20) Mistake. The best move was Bb3. } (11. Bb3 fxe5 12. Qa4 Ne7 13. O-O O-O 14. Ng5 Qg4 15. Qxg4 Bxg4) 11... fxe5 12. Rfe1?? { (-2.20 → -6.92) Blunder. The best move was Qc5. } (12. Qc5 dxc4 13. Nxe5 Qd5 14. Qxc6+ Qxc6 15. Nxc6 Kd7 16. Na5 Ba6) 12... exd4 13. Rxe6+ Bxe6 14. Ba6 Ne7 15. Bg5 Kd7 16. Bxe7? { (-7.37 → -8.68) Mistake. The best move was Re1. } (16. Re1 h6 17. Bf4 Rhb8 18. b3 Rb6 19. Bd3 c5 20. a4 a5) 16... Kxe7 17. Bb7? { (-8.68 → -10.40) Mistake. The best move was Re1. } (17. Re1 Kd7 18. Ng5 Bf5 19. Bd3 Rae8 20. Kf1 Rxe1+ 21. Kxe1 Bf6) 17... Rab8 18. Bxc6 Rxb2 19. Re1 Kd6 20. Ba4 Rf8 21. Ng5 Bg8 22. a3 d3 23. Rc1 Rf4 24. Bb3 dxc2 25. Bxc2 Rc4 26. Ne4+ dxe4 27. Rd1+ Rd4 28. Rxd4+ Bxd4 29. h3?! { (-96.48 → Mate in 8) Checkmate is now unavoidable. The best move was Bxe4. } (29. Bxe4 Rxf2 30. h4 Rf4+ 31. Kh2 Rxh4+ 32. Kg3 Rxe4 33. Kh3 Re3+) 29... Rxc2 30. Kh2 0-1
