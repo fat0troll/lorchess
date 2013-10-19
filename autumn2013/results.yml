@@ -490,6 +490,11 @@
     black:  trex6
     result: '1:0'
 
+  - date:   18.10.2013
+    white:  Nedis
+    black:  Kakadu
+    result: '0:1'
+
   - date:   12.10.2013
     white:  Kasparov
     black:  DoctorSinus
@@ -505,6 +510,11 @@
     black:  uroboros
     result: '1:0'
 
+  - date:   18.10.2013
+    white:  Magian
+    black:  raven_cler
+    result: '1:0'
+
   - date:   17.10.2013
     white:  Michkova
     black:  MyTrooName
@@ -512,6 +522,11 @@
 
 - number: 12
   games:
+  - date:   18.10.2013
+    white:  raven_cler
+    black:  Genuine
+    result: '1:0'
+
   - date:   05.10.2013
     white:  uroboros
     black:  Magian
@@ -526,6 +541,11 @@
     white:  Kakadu
     black:  Kasparov
     result: '1:0'
+
+  - date:   18.10.2013
+    white:  trex6
+    black:  Nedis
+    result: '0:1'
 
   - date:   14.10.2013
     white:  aptyp
