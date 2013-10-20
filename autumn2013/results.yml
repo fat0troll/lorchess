@@ -218,6 +218,11 @@
     black:  Genuine
     result: '0:1'
 
+  - date:   19.10.2013
+    white:  Nokman
+    black:  Magian
+    result: '0:1'
+
   - date:   23.09.2013
     white:  shell-script
     black:  redgremlin
@@ -233,6 +238,11 @@
   - date:   05.10.2013
     white:  Magian
     black:  shell-script
+    result: '1:0'
+
+  - date:   19.10.2013
+    white:  Genuine
+    black:  Nokman
     result: '1:0'
 
   - date:   27.09.2013
@@ -381,6 +391,11 @@
     black:  DoctorSinus
     result: '1:0'
 
+  - date:   19.10.2013
+    white:  Nedis
+    black:  farzeet
+    result: '1:0'
+
   - date:   05.10.2013
     white:  Nokman
     black:  uroboros
@@ -401,6 +416,11 @@
   - date:   08.10.2013
     white:  LongLiveUbuntu
     black:  Magian
+    result: '0:1'
+
+  - date:   12.10.2013
+    white:  raven_cler
+    black:  redgremlin
     result: '0:1'
 
   - date:   04.10.2013
@@ -520,4 +540,9 @@
     white:  uroboros
     black:  LongLiveUbuntu
     result: '0:1'
+
+  - date:   19.10.2013
+    white:  aptyp
+    black:  Nokman
+    result: '1:0'
 
