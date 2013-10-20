@@ -49,16 +49,20 @@ shift
 
 # Generate the sequence of tours to search in
 if [[ -z "$@" ]]; then
-    tours=$(seq -f "%02g" 1 99)
+    seq=$(seq -f "%02g" 1 99)
 else
     # Change tour numbers: '1' -> '01', '2' -> '02', and so on
-    tours=$(for tour in "$@"; do printf "%02g " $tour; done)
+    seq=$(for i in "$@"; do printf "%02g " "$i"; done)
 fi
 
-for tour in $tours; do
+for i in $seq; do
 
-    # Store 'tour_info' in an array of lines
-    url=https://raw.github.com/$REPO/master/$TOURNEY/tour_$tour/tour_info
+    url="https://raw.github.com/${REPO}/master/${TOURNEY}/tour_${i}/tour_info"
+
+    # Store 'tour_info' in an array of lines.
+    # *NOTE* The incorporation of newline at the end of 'tour_info'
+    # (--write-out '\n') is important and allows one to read the last
+    # line without trailing '\n'
     lines=()
     while read line; do
         lines+=("$line")
@@ -69,8 +73,8 @@ for tour in $tours; do
 
         # Decide to skip the tour or not
         unskip=""; player=""
-        for ((i=5; i<${#lines[@]}; ++i)); do
-            line="${lines[$i]}"
+        for ((j=5; j<${#lines[@]}; ++j)); do
+            line="${lines[$j]}"
 
             # Don't skip if an unfinished game exists
             if [[ -z $(grep "$result" <<< "$line") ]]; then
@@ -79,7 +83,7 @@ for tour in $tours; do
 
                 # In addition, if the player was passed as an
                 # argument, check if this is his game or not
-                elif [[ -n $(grep -o "[^ ]*${name}[^ ]*" <<< "$line") ]]; then
+                elif [[ -n $(grep -o "$name" <<< "$line") ]]; then
                     unskip="yes"
                     # Complete player's name
                     player=$(grep -o "[^ ]*${name}[^ ]*" <<< "$line")
@@ -91,15 +95,15 @@ for tour in $tours; do
 
             # The separator between tours
             echo -en "$yellow"
-            for i in {1..41}; do echo -n "-"; done
+            for j in {1..41}; do echo -n "-"; done
             echo -e "$restore"
 
             # Output the tour heading as is
-            for ((i=0; i<5; ++i)); do highlight "${lines[$i]}"; done
+            for ((j=0; j<5; ++j)); do highlight "${lines[$j]}"; done
 
             # Lines with game info
-            for ((i=5; i<${#lines[@]}; ++i)); do
-                line="${lines[$i]}"
+            for ((j=5; j<${#lines[@]}; ++j)); do
+                line="${lines[$j]}"
 
                 # Output only unfinished games
                 if [[ -z $(grep "$result" <<< "$line") ]]; then
