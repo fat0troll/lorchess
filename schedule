@@ -49,16 +49,16 @@ shift
 
 # Generate the sequence of tours to search in
 if [[ -z "$@" ]]; then
-    tours=$(seq -f "%02g" 1 99)
+    seq=$(seq -f "%02g" 1 99)
 else
     # Change tour numbers: '1' -> '01', '2' -> '02', and so on
-    tours=$(for tour in "$@"; do printf "%02g " $tour; done)
+    seq=$(for num in "$@"; do printf "%02g " "$num"; done)
 fi
 
-for tour in $tours; do
+for num in $seq; do
 
     # Store 'tour_info' in an array of lines
-    url=https://raw.github.com/$REPO/master/$TOURNEY/tour_$tour/tour_info
+    url="https://raw.github.com/${REPO}/master/${TOURNEY}/tour_${num}/tour_info"
     lines=()
     while read line; do
         lines+=("$line")
@@ -79,7 +79,7 @@ for tour in $tours; do
 
                 # In addition, if the player was passed as an
                 # argument, check if this is his game or not
-                elif [[ -n $(grep -o "[^ ]*${name}[^ ]*" <<< "$line") ]]; then
+                elif [[ -n $(grep -o "$name" <<< "$line") ]]; then
                     unskip="yes"
                     # Complete player's name
                     player=$(grep -o "[^ ]*${name}[^ ]*" <<< "$line")
