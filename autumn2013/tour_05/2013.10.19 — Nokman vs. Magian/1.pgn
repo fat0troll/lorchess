@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/8zzmyo0u"]
+[Date "2013.10.19"]
+[White "Nokman"]
+[Black "Magian"]
+[Result "0-1"]
+[WhiteElo "1112"]
+[BlackElo "1572"]
+[PlyCount "36"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bd3?! { (0.22 → -0.38) Inaccuracy. The best move was Nf3. } (3. Nf3 Bb4 4. Nxe5 O-O 5. Bc4 Qe7 6. Nf3 Bxc3 7. dxc3 Qxe4+) 3... Bc5 4. Nf3 d6 5. h3 Nc6 6. Na4 Bb6 7. Bb5?! { (-0.42 → -1.35) Inaccuracy. The best move was O-O. } (7. O-O Be6 8. Rfe1 Nb4 9. b3 Nxd3 10. cxd3 c5 11. Nxb6 axb6) 7... O-O? { (-1.35 → -0.26) Mistake. The best move was Nxe4. } (7... Nxe4 8. Bxc6+ bxc6 9. O-O O-O 10. d3 Nc5 11. Nxc5 Bxc5 12. c3) 8. Bxc6 bxc6 9. O-O? { (-0.32 → -1.39) Mistake. The best move was d3. } (9. d3 c5 10. O-O Bd7 11. Nxb6 axb6 12. Bd2 c4 13. b3 b5) 9... Nxe4 10. d3 Nf6 11. Nc3 h6 12. Qe2 Nd5 13. Nxd5 cxd5 14. b3 Qf6 15. Bb2 Qg6 16. Nd2? { (-2.02 → -3.69) Mistake. The best move was Kh1. } (16. Kh1 Rfe8 17. Rad1 Bd7 18. Nh4 Qf6 19. Qh5 Rab8 20. Nf3 d4) 16... Bxh3 17. Qf3 Be6 18. Qg3?? { (-3.59 → -18.72) Blunder. The best move was Rfe1. } (18. Rfe1 c6 19. Nf1 Rab8 20. Qg3 Qxg3 21. Nxg3 f5 22. Nf1 Ba5) 18... Qxg3 0-1
