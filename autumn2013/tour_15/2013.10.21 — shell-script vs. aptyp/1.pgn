@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/yq3xbt1i"]
+[Date "2013.10.21"]
+[White "cppmm"]
+[Black "aptypr"]
+[Result "0-1"]
+[WhiteElo "962"]
+[BlackElo "1216"]
+[PlyCount "38"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. g3 e5 2. Bg2 d5 3. Nf3 Bd6?! { (-0.74 → -0.16) Inaccuracy. The best move was e4. } (3... e4 4. Nd4 c5 5. Nb5 a6 6. Nb5a3 Nf6 7. O-O Nc6 8. c4) 4. b3? { (-0.16 → -1.39) Mistake. The best move was O-O. } (4. O-O Nf6 5. d4 e4 6. Ne5 Nbd7 7. Bf4 Qe7 8. Nxd7 Bxd7) 4... Nc6?! { (-1.39 → -0.70) Inaccuracy. The best move was e4. } (4... e4 5. Nd4 Nf6 6. O-O a6 7. c3 c5 8. Nc2 O-O 9. d4) 5. c4 e4 6. Ng5?? { (-0.96 → -4.14) Blunder. The best move was Nh4. } (6. Nh4 g5 7. cxd5 Nb4 8. Nc3 Nf6 9. Bb2 gxh4 10. a3 h3) 6... Qxg5 7. cxd5 Qxd5 8. d3?? { (-3.83 → -8.50) Blunder. The best move was Nc3. } (8. Nc3 Qe5 9. Bxe4 Nf6 10. Bxc6+ bxc6 11. O-O Bh3 12. Rfe1 O-O) 8... Qd4 9. O-O? { (-8.20 → -10.50) Mistake. The best move was Nc3. } (9. Nc3 Qxc3+ 10. Bd2 Qe5 11. dxe4 Qh5 12. Rac1 Nge7 13. O-O O-O) 9... Qxa1 10. Be3 exd3 11. exd3 Qxa2 12. Nc3 Qxb3?? { (-11.33 → 1.55) Blunder. The best move was Qa5. } (12... Qa5 13. Bxc6+ bxc6 14. Ne4 Qd5 15. Qf3 Be7 16. Re1 Be6 17. Qf4) 13. Nd5?? { (1.55 → -13.51) Blunder. The best move was Qxb3. } (13. Qxb3 Nf6 14. Nb5 O-O 15. Nxd6 cxd6 16. Bf4 Rfd8 17. Bg5 Rde8) 13... Qxd1 14. Rxd1 Nge7 15. Re1 O-O 16. Bf4 Nxd5 17. Bxd5 Bxf4 18. gxf4 a5 19. Re7 Nxe7 0-1
