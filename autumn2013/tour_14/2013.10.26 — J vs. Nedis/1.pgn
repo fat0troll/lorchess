@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/zdgces5w"]
+[Date "2013.10.26"]
+[White "LOR_J"]
+[Black "Nedis"]
+[Result "0-1"]
+[WhiteElo "1146"]
+[BlackElo "1360"]
+[PlyCount "54"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. Nc3 d6 7. Bc4 e6 8. Bg5 Be7 9. Qe2 O-O 10. O-O-O Nxe4 11. Bxe7 Nxc3 12. Qd3?! { (-0.96 → -1.47) Inaccuracy. The best move was Bxd8. } (12. Bxd8 Nxe2+ 13. Bxe2 Rfxd8 14. Rhe1 Bb7 15. Bf3 d5 16. Rd3 g6) 12... Ne2+ 13. Qxe2 Qxe7 14. f4 d5 15. Bb3?! { (-1.31 → -1.87) Inaccuracy. The best move was Bd3. } (15. Bd3 Bb7 16. Rhe1 c5 17. c3 Bc6 18. f5 Rae8 19. Qh5 g6) 15... a5 16. a3 a4 17. Ba2 Ba6 18. Qe3 Rab8 19. g4? { (-2.14 → -3.97) Mistake. The best move was Rd4. } (19. Rd4 c5 20. Rxa4 Qb7 21. b3 d4 22. Qd2 Bb5 23. Ra5 c4) 19... Qb7 20. Qc3? { (-3.61 → -4.80) Mistake. The best move was Qe5. } (20. Qe5 c5 21. c4 d4 22. Qe2 d3 23. Qd2 Rfd8 24. Kb1 Rd4) 20... c5 21. b3 d4 22. Qg3 axb3 23. Bxb3?? { (-6.36 → -11.35) Blunder. The best move was cxb3. } (23. cxb3 Be2 24. f5 Bxd1 25. Rxd1 c4 26. b4 Qd5 27. Kb1 Rba8) 23... c4 24. Ba4 Qb1+ 25. Kd2 c3+ 26. Ke1?! { (-32.74 → Mate in 3) Checkmate is now unavoidable. The best move was Qxc3. } (26. Qxc3 dxc3+ 27. Ke3 Qb6+ 28. Rd4 Rfd8 29. Rhd1 g5 30. Bb3 gxf4+) 26... Qxd1+ 27. Kxd1 Rb1# 0-1
