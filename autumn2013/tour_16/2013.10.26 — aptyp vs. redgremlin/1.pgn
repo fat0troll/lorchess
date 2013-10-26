@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/6op5ekdd"]
+[Date "2013.10.26"]
+[White "aptypr"]
+[Black "gremlin_the_red"]
+[Result "0-1"]
+[WhiteElo "1229"]
+[BlackElo "1301"]
+[PlyCount "50"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8. Na3 b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c3 Bg5 12. Nc2 O-O 13. a4 bxa4 14. Rxa4 Bb7 15. Bc4 Ne7 16. O-O Nxd5 17. Bxd5 Bxd5?! { (0.46 → 1.27) Inaccuracy. The best move was Qd7. } (17... Qd7 18. Ra5 Rfb8 19. Qd3 Bxd5 20. Qxd5 Bd8 21. Ra2 Bb6 22. Raa1) 18. Qxd5 Qb6 19. Rb4?! { (1.35 → 0.84) Inaccuracy. The best move was Nb4. } (19. Nb4 Rfc8 20. Rfa1 Bd8 21. Ra4a5 Qb8 22. Ra5a2 a5 23. Nc6 Qb7) 19... Qc7 20. Rb7 Qc5 21. Qxc5 dxc5 22. Rc7? { (1.43 → 0.22) Mistake. The best move was Na3. } (22. Na3 f5 23. exf5 Rxf5 24. Nc4 e4 25. g3 Rf7 26. Rbxf7 Kxf7) 22... Rab8 23. Rb1 Rfd8 24. Rxc5?? { (1.07 → -4.86) Blunder. The best move was g3. } (24. g3 Rbc8 25. Rxc8 Rxc8 26. h4 Bh6 27. Ra1 Rc6 28. Na3 c4) 24... Rd2?? { (-4.86 → 1.25) Blunder. The best move was Rxb2. } (24... Rxb2 25. Ra1 Rxc2 26. g3 f6 27. Rd5 Rdc8 28. Rd7 Rc2c1+ 29. Rxc1) 25. Rxe5?? { (1.25 → -3.55) Blunder. The best move was Nb4. } (25. Nb4 Rbd8 26. g3 Be7 27. Rxe5 Bxb4 28. cxb4 g6 29. Kg2 Kg7) 25... Bf6 0-1
