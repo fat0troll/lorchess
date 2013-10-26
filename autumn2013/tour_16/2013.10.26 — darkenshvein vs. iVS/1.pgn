@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/3ewtjvey"]
+[Date "2013.10.26"]
+[White "darkshvein"]
+[Black "iVS"]
+[Result "0-1"]
+[WhiteElo "1139"]
+[BlackElo "1475"]
+[PlyCount "38"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. Nc3 d5 2. Nf3 d4 3. Nb1 c5 4. g3?! { (0.16 → -0.52) Inaccuracy. The best move was e3. } (4. e3 a6 5. Bd3 Nf6 6. O-O Nc6 7. exd4 cxd4 8. Na3 Nb4) 4... Nc6 5. Bg2 e5 6. O-O e4 7. Ne1 Nf6 8. a4?! { (-0.40 → -0.98) Inaccuracy. The best move was d3. } (8. d3 exd3 9. cxd3 Bd7 10. Qb3 Qb6 11. Nd2 Qxb3 12. Nxb3 Bd6) 8... h5 9. b3? { (-0.58 → -2.56) Mistake. The best move was d3. } (9. d3 exd3 10. Bxc6+ bxc6 11. exd3 h4 12. Nf3 hxg3 13. fxg3 Be7) 9... h4 10. gxh4?? { (-2.58 → -8.72) Blunder. The best move was d3. } (10. d3 e3 11. gxh4 exf2+ 12. Rxf2 Ng4 13. Bxc6+ bxc6 14. Rg2 Qxh4) 10... Rxh4?? { (-8.72 → -3.19) Blunder. The best move was Nd5. } (10... Nd5 11. h5 Qh4 12. Bxe4 Rxh5 13. Nf3 Qxe4 14. d3 Qg4+ 15. Kh1) 11. h3?? { (-3.19 → -6.48) Blunder. The best move was f4. } (11. f4 Qd6 12. d3 e3 13. Na3 Rxf4 14. Nf3 Nd5 15. Nc4 Qh6) 11... Bxh3 12. d3 Rg4?? { (-7.35 → -3.45) Blunder. The best move was Qb8. } (12... Qb8 13. f4 exf3 14. Rxf3 Bxg2 15. Bf4 Rxf4 16. Nxg2 Rxf3 17. exf3) 13. f3?! { (-3.45 → -4.26) Inaccuracy. The best move was dxe4. } (13. dxe4 Qd7 14. f3 Rg6 15. Bf4 Bd6 16. Bxd6 Qxd6 17. f4 Bxg2) 13... Rxg2+ 14. Nxg2 Bxg2?? { (-4.28 → -0.76) Blunder. The best move was e3. } (14... e3 15. f4 Nh5 16. Qe1 Bd6 17. Rf3 Bxg2 18. Kxg2 Bxf4 19. Qh1) 15. Kxg2 e3 16. Kg1?? { (-0.52 → -8.92) Blunder. The best move was Rfh1. } (16. Rfh1 g5 17. Na3 g4 18. Qf1 Qd5 19. Kg1 gxf3 20. Qxf3 Qxf3) 16... Qd6?? { (-8.92 → -5.85) Blunder. The best move was Nh5. } (16... Nh5 17. f4 Nxf4 18. Rxf4 Qg5+ 19. Kh1 Qxf4 20. Qg1 Bd6 21. Qg2) 17. a5?! { (-5.85 → Mate in 5) Checkmate is now unavoidable. The best move was Qe1. } (17. Qe1 Qf4 18. Na3 Bd6 19. Rf2 Qg3+ 20. Kf1 exf2 21. Qxf2 Qh3+) 17... Qg3+ 18. Kh1 Bd6 19. Rfg1 Qh2# 0-1
