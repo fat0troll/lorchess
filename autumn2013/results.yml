@@ -141,6 +141,11 @@
 
 - number: 4
   games:
+  - date:   26.10.2013
+    white:  redgremlin
+    black:  Nokman
+    result: '1:0'
+
   - date:   22.09.2013
     white:  Magian
     black:  Nedis
@@ -561,6 +566,11 @@
     black:  Nokman
     result: '1:0'
 
+  - date:   26.10.2013
+    white:  J
+    black:  Nedis
+    result: '0:1'
+
   - date:   21.10.2013
     white:  Michkova
     black:  iVS
@@ -582,6 +592,33 @@
     white:  shell-script
     black:  aptyp
     result: '0:1'
+
+  - date:   26.10.2013
+    white:  raven_cler
+    black:  uroboros
+    result: '1:0'
+
+- number: 16
+  games:
+  - date:   26.10.2013
+    white:  Kakadu
+    black:  Genuine
+    result: '1:0'
+
+  - date:   26.10.2013
+    white:  aptyp
+    black:  redgremlin
+    result: '0:1'
+
+  - date:   26.10.2013
+    white:  darkenshvein
+    black:  iVS
+    result: '0:1'
+
+  - date:   26.10.2013
+    white:  MyTrooName
+    black:  uroboros
+    result: '1:0'
 
 - number: 19
   games:
