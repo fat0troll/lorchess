@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/c95wqs2k"]
+[Date "2013.10.27"]
+[White "Magian"]
+[Black "kesarev"]
+[Result "0-1"]
+[WhiteElo "1600"]
+[BlackElo "1676"]
+[PlyCount "58"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. d4 Nc6?! { (0.08 → 0.60) Inaccuracy. The best move was Nf6. } (1... Nf6 2. Nc3 d5 3. Nf3 e6 4. e3 Be7 5. Be2 O-O 6. O-O) 2. c4?! { (0.60 → 0.04) Inaccuracy. The best move was e4. } (2. e4 e6 3. Nf3 d5 4. e5 f6 5. Nc3 fxe5 6. Nxe5 Nxe5) 2... e5 3. d5 Nce7 4. e4 Ng6 5. Nf3 Nf6 6. Bd3 Bc5 7. h3 O-O 8. Nc3 d6 9. a3 a5 10. Be3 Qe7?! { (-0.38 → 0.36) Inaccuracy. The best move was Bxe3. } (10... Bxe3 11. fxe3 Bd7 12. O-O Qb8 13. b3 Qa7 14. Qe1 Qb6 15. Bc2) 11. Bxc5 dxc5 12. O-O Bd7 13. b3 Ne8 14. Qd2 Nd6 15. Qe3 b6 16. a4 Rae8 17. Nb5 Bxb5 18. axb5 h6 19. Nh2 Nf4 20. Bc2?! { (-0.20 → -0.94) Inaccuracy. The best move was Rfe1. } (20. Rfe1 Qg5 21. Qf3 f6 22. Ng4 h5 23. Nh2 Nxd3 24. Qxd3 f5) 20... Qg5 21. Qf3 h5?! { (-0.76 → -0.20) Inaccuracy. The best move was f5. } (21... f5 22. Rfe1 fxe4 23. Bxe4 Nxe4 24. Rxe4 Nxd5 25. Qg4 Qxg4 26. Nxg4) 22. Rfe1 g6 23. Nf1 Kg7? { (-0.38 → 0.74) Mistake. The best move was h4. } (23... h4 24. Ra2 f5 25. Kh1 fxe4 26. Bxe4 Nxe4 27. Qxe4 Qf5 28. Qxf5) 24. Kh2?! { (0.74 → -0.12) Inaccuracy. The best move was Qg3. } (24. Qg3 Qh6 25. h4 f6 26. Qh2 g5 27. g3 Ng6 28. hxg5 fxg5) 24... Rfh8? { (-0.12 → 2.60) Mistake. The best move was h4. } (24... h4 25. Ne3 Nh5 26. Ng4 Rfh8 27. Qe2 Nf6 28. Nxf6 Kxf6 29. Kh1) 25. g3 Qg4 26. Qxf4? { (0.80 → -0.22) Mistake. The best move was Qxg4. } (26. Qxg4 hxg4 27. gxf4 Rxh3+ 28. Kg1 exf4 29. e5 Nf5 30. Bxf5 gxf5) 26... exf4 27. hxg4 hxg4+ 28. Kg2? { (0.00 → Mate in 6) Checkmate is now unavoidable. The best move was Kg1. } (28. Kg1 f3 29. Nd2 Rh6 30. Bd1 Reh8 31. Bxf3 gxf3 32. Nxf3 Nxe4) 28... f3+ 29. Kg1 Re5 0-1
