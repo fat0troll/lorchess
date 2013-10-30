@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/qzp9nyxq"]
+[Date "2013.10.29"]
+[White "fat0troll"]
+[Black "Magian"]
+[Result "0-1"]
+[WhiteElo "988"]
+[BlackElo "1587"]
+[PlyCount "66"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Bb4 4. Bb5 d6?! { (0.14 → 0.82) Inaccuracy. The best move was Nf6. } (4... Nf6 5. O-O O-O 6. d3 d6 7. Bg5 Bxc3 8. bxc3 Bd7 9. c4) 5. O-O Nf6 6. d4?! { (0.62 → 0.02) Inaccuracy. The best move was Nd5. } (6. Nd5 Ba5 7. d4 Nxe4 8. Qe2 f5 9. dxe5 dxe5 10. Ne3 Qf6) 6... O-O 7. dxe5 Nxe5 8. Nxe5 dxe5 9. Qxd8 Rfxd8 10. Rfd1?! { (-0.38 → -1.35) Inaccuracy. The best move was Bg5. } (10. Bg5 Be6 11. a3 Bc5 12. Na4 Be7 13. Rfd1 c6 14. Be2 b5) 10... Be6?! { (-1.35 → -0.52) Inaccuracy. The best move was Rxd1+. } (10... Rxd1+ 11. Nxd1 Nxe4 12. Bd3 Nd6 13. a3 Ba5 14. b4 Bb6 15. Bb2) 11. Bg5? { (-0.52 → -1.71) Mistake. The best move was Bd2. } (11. Bd2 Bc5 12. Bg5 Bd4 13. a3 h6 14. Bxf6 gxf6 15. Bd3 Bg4) 11... Bxc3? { (-1.71 → -0.66) Mistake. The best move was Rxd1+. } (11... Rxd1+ 12. Nxd1 Nxe4 13. Be3 Nd6 14. a3 Nxb5 15. axb4 Nd4 16. Bxd4) 12. bxc3? { (-0.66 → -2.54) Mistake. The best move was Rxd8+. } (12. Rxd8+ Rxd8 13. bxc3 h6 14. Bxf6 gxf6 15. Bd3 c5 16. Rd1 Bxa2) 12... Rxd1+ 13. Rxd1 Nxe4 14. Rd8+ Rxd8 15. Bxd8 c6 16. Bd3 Nxc3 17. a3 e4 18. Bf1?! { (-2.36 → -2.90) Inaccuracy. The best move was Ba5. } (18. Ba5 exd3 19. Bxc3 dxc2 20. Bb2 f6 21. Kf1 Kf7 22. Ke2 Bb3) 18... f6 19. Ba5 Nb1 20. a4 b6 21. Bb4 a5 22. Be1 Na3 23. c3? { (-3.47 → -4.88) Mistake. The best move was f3. } (23. f3 exf3 24. Bd3 fxg2 25. Bd2 c5 26. Kxg2 f5 27. c4 g6) 23... Bb3?! { (-4.88 → -3.93) Inaccuracy. The best move was b5. } (23... b5 24. axb5 cxb5 25. f3 a4 26. fxe4 Nc2 27. Bd2 a3 28. Bc1) 24. Ba6? { (-3.93 → -5.17) Mistake. The best move was f3. } (24. f3 e3 25. Bg3 Nb1 26. Be1 Bxa4 27. Bc4+ Kh8 28. Ba2 Na3) 24... Bxa4 25. Bb7?! { (-5.09 → -5.89) Inaccuracy. The best move was c4. } (25. c4 c5 26. Bb7 Bc2 27. Bd5+ Kf8 28. Bd2 Ke7 29. f3 exf3) 25... Bb5 26. f3? { (-5.69 → -7.69) Mistake. The best move was Bc8. } (26. Bc8 Bc4 27. Bf5 Bd5 28. f3 e3 29. Bd3 Bc4 30. Be4 a4) 26... e3 27. f4? { (-7.69 → -8.84) Mistake. The best move was Bc8. } (27. Bc8 Kf7 28. Bf5 g6 29. Be4 a4 30. Bg3 f5 31. Bxc6 Bxc6) 27... Nc2 28. Bg3 a4 29. Bc8 Bc4 30. Bf5 a3 31. Bxc2 a2 32. Ba4?! { (-21.13 → Mate in 3) Checkmate is now unavoidable. The best move was h4. } (32. h4 a1=Q+ 33. Kh2 e2 34. Bf5 e1=Q 35. Bxe1 Qxe1 36. h5 Qh4+) 32... a1=Q+ 33. Be1 Qxe1# 0-1
