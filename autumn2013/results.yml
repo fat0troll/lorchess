@@ -722,8 +722,23 @@
     black:  Kakadu
     result: '0:1'
 
+  - date:   31.10.2013
+    white:  uroboros
+    black:  farzeet
+    result: '0:1'
+
 - number: 18
   games:
+  - date:   31.10.2013
+    white:  DoctorSinus
+    black:  uroboros
+    result: '1:0'
+
+  - date:   31.10.2013
+    white:  trex6
+    black:  LongLiveUbuntu
+    result: '1:0'
+
   - date:   30.10.2013
     white:  J
     black:  Magian
@@ -735,4 +750,14 @@
     white:  shell-script
     black:  darkenshvein
     result: '1:0'
+
+  - date:   31.10.2013
+    white:  LongLiveUbuntu
+    black:  aptyp
+    result: '0:1'
+
+  - date:   31.10.2013
+    white:  uroboros
+    black:  Kakadu
+    result: '0:1'
 
