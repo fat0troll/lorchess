@@ -26,6 +26,9 @@ module LORChess
       @berger_coefs = []
       @buffer = ''
 
+      # Players who abandoned tournament
+      @players_retired = ['uroboros', 'LongLiveUbuntu']
+
       # Correlate the player with his number
       @player_numbers = {}
       @players.each_with_index { |player, i| @player_numbers[player] = i }
@@ -34,9 +37,11 @@ module LORChess
       calculate
       results_to_s
 
-      # Remove Uroboros from the tournament (seppuku)
-      num = @player_numbers['uroboros']
-      @players[num] = '<del>uroboros</del>'
+      # Remove retired players from the tournament (seppuku)
+      @players_retired.each do |player|
+        num = @player_numbers[player]
+        @players[num] = "<del>#{player}</del>"
+      end
     end
 
     def fill_results
