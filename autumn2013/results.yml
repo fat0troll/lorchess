@@ -584,6 +584,11 @@
     black:  aptyp
     result: '1:0'
 
+  - date:   31.10.2013
+    white:  shell-script
+    black:  Kakadu
+    result: '0:1'
+
   - date:   30.10.2013
     white:  redgremlin
     black:  DoctorSinus
@@ -726,6 +731,11 @@
     white:  uroboros
     black:  farzeet
     result: '0:1'
+
+  - date:   31.10.2013
+    white:  iVS
+    black:  MyTrooName
+    result: '1:0'
 
 - number: 18
   games:
