@@ -26,8 +26,10 @@ module LORChess
       @berger_coefs = []
       @buffer = ''
 
-      # Players who abandoned tournament
-      @players_retired = ['uroboros', 'LongLiveUbuntu']
+      # Players withdrew from tournament
+      @players_withdrew = @@db_players
+        .select { |player| player['status'] == 'withdrew' }
+        .map { |player| player['lor'] }
 
       # Correlate the player with his number
       @player_numbers = {}
@@ -37,8 +39,8 @@ module LORChess
       calculate
       results_to_s
 
-      # Remove retired players from the tournament (seppuku)
-      @players_retired.each do |player|
+      # Withdraw players from tournament (seppuku)
+      @players_withdrew.each do |player|
         num = @player_numbers[player]
         @players[num] = "<del>#{player}</del>"
       end
