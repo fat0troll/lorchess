@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/kh7rf8xy"]
+[Date "2013.11.03"]
+[White "Genuine"]
+[Black "txgames"]
+[Result "1-0"]
+[WhiteElo "1388"]
+[BlackElo "909"]
+[PlyCount "43"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. Nf3 e6 3. Nc3 a6 4. d3?! { (0.70 → 0.12) Inaccuracy. The best move was d4. } (4. d4 cxd4 5. Nxd4 d5 6. exd5 exd5 7. Bd3 Nc6 8. Be3 Nf6) 4... b5?! { (0.12 → 0.84) Inaccuracy. The best move was d5. } (4... d5 5. Be2 Nc6 6. O-O d4 7. Nb1 Nf6 8. Bf4 Be7 9. Nbd2) 5. a3 d5 6. exd5 exd5 7. Bf4 Bd6?! { (0.18 → 1.15) Inaccuracy. The best move was Nf6. } (7... Nf6 8. d4 Nc6 9. Be2 Be7 10. Be3 c4 11. Ne5 Qc7 12. Bf3) 8. Qe2+ Ne7 9. Nxd5 Bxf4 10. Nxf4 O-O 11. Qd2 Nd5 12. Nxd5 Qxd5 13. Be2 Bg4 14. h3 Bxf3? { (0.84 → 2.16) Mistake. The best move was Bf5. } (14... Bf5 15. O-O Nc6 16. Rfe1 Rae8 17. a4 Bd7 18. axb5 axb5 19. Qg5) 15. Bxf3 Qe5+ 16. Qe3 Qxb2?! { (2.12 → 2.62) Inaccuracy. The best move was Qxe3+. } (16... Qxe3+ 17. fxe3 Ra7 18. a4 b4 19. Rhf1 Re7 20. Kd2 Rd8 21. c4) 17. O-O Nc6? { (2.36 → 4.74) Mistake. The best move was Ra7. } (17... Ra7 18. Qxc5 Rd7 19. a4 bxa4 20. Rfb1 Qd4 21. Qa5 Rd6 22. Rxa4) 18. Bxc6 Rac8 19. Be4?! { (4.80 → 4.24) Inaccuracy. The best move was Bb7. } (19. Bb7 Rcb8 20. Bd5 Qc3 21. Rfe1 g6 22. Rab1 Rbd8 23. Bb3 Rdc8) 19... Rce8? { (4.24 → 6.12) Mistake. The best move was Qxc2. } (19... Qxc2 20. Rac1 Qb2 21. Bf5 Rcd8 22. Qxc5 g6 23. Rc2 Qd4 24. Be4) 20. Qxc5 Re5? { (6.04 → 8.84) Mistake. The best move was Rec8. } (20... Rec8 21. Qd6 Qxc2 22. Qxa6 Qa4 23. Qxa4 bxa4 24. Rfc1 g6 25. Rc4) 21. Qd6? { (8.84 → 6.52) Mistake. The best move was Bxh7+. } (21. Bxh7+ Kxh7 22. Qxf8 Qxc2 23. Qxf7 Qxd3 24. Rfd1 Qc4 25. Qb7 Re6) 21... Ra8?? { (6.52 → 14.72) Blunder. The best move was Rfe8. } (21... Rfe8 22. Rab1 Qxc2 23. Qxa6 Qa4 24. Qxa4 bxa4 25. Bc6 Rd8 26. d4) 22. Bxa8 1-0
