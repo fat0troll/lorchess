@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/04d2xlrn"]
+[Date "2013.11.03"]
+[White "Nedis"]
+[Black "Michkova"]
+[Result "1/2-1/2"]
+[WhiteElo "1368"]
+[BlackElo "1371"]
+[PlyCount "80"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 Be7 6. Nf3 Bg4 7. Ne5 Bf5 8. Qb3 Nc6 9. Qxb7 Nxd4 10. O-O-O Ne6?? { (0.04 → 5.71) Blunder. The best move was Rab8. } (10... Rab8 11. Qxa7 c5 12. e3 Rba8 13. Qb7 Rab8 14. Qa6 Rba8 15. Bb5+) 11. Nc6? { (5.71 → 3.09) Mistake. The best move was Nxd5. } (11. Nxd5 O-O 12. Nc6 Nxd5 13. Nxe7+ Qxe7 14. Bxe7 Nxe7 15. Qb4 c5) 11... Qc8 12. Qxc8+ Raxc8 13. Nxe7 Kxe7 14. Nxd5+ Kf8 15. Bxf6 gxf6 16. Nxf6 Kg7 17. e4?! { (3.23 → 2.40) Inaccuracy. The best move was Nh5+. } (17. Nh5+ Kg6 18. Ng3 Kf6 19. Nxf5 Kxf5 20. Rd5+ Kf6 21. Ra5 Rcd8) 17... Kxf6 18. exf5 Kxf5 19. Rd7 Kf6 20. Bc4 Rhf8 21. Re1 Nc5 22. Rd5 Ne6 23. Ra5 Rca8 24. Bd5 c6 25. Be4 Nd4 26. Rd1 Ne2+?! { (2.82 → 3.81) Inaccuracy. The best move was Rad8. } (26... Rad8 27. Rxa7 Rfe8 28. Bd3 c5 29. Ra5 Rd5 30. g3 Red8 31. Bc4) 27. Kb1?! { (3.81 → 2.98) Inaccuracy. The best move was Kd2. } (27. Kd2 Nd4 28. Ke3 Ne6 29. Rd6 Rfd8 30. Rxd8 Nxd8 31. Bxh7 Nb7) 27... Rfc8? { (2.98 → 5.25) Mistake. The best move was Rfd8. } (27... Rfd8 28. Bd3 Nd4 29. Bxh7 Ne6 30. Rxd8 Rxd8 31. Be4 Rd2 32. Rf5+) 28. Rd2 Nf4? { (5.37 → 7.83) Mistake. The best move was Ng1. } (28... Ng1 29. Rd7 Rce8 30. Rf5+ Ke6 31. Rfxf7 Rad8 32. Rdxa7 Ne2 33. Rfxh7) 29. Rf5+ Kg7 30. Rxf4 Rab8? { (7.97 → 9.11) Mistake. The best move was Rcd8. } (30... Rcd8 31. Rxd8 Rxd8 32. Bxc6 Rd2 33. Kc1 Rd6 34. Bf3 Rh6 35. Bd5) 31. Rd7 Rcf8 32. Rxa7 Rbe8 33. Bxc6 Re1+ 34. Kc2 Re2+ 35. Kc3 Rc8 36. Raxf7+ Kg8 37. Rf7f6 Re1 38. Kd2 Re7 39. Rg4+ Kh8 40. a4 Ra7 1/2-1/2
