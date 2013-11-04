@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/6ivrj9n0"]
+[Date "2013.11.04"]
+[White "Michkova"]
+[Black "Nokman"]
+[Result "1/2-1/2"]
+[WhiteElo "1371"]
+[BlackElo "1202"]
+[PlyCount "94"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 c6 6. Nf3 Nbd7 7. c5 b6 8. b4 h6 9. Bh4 a5 10. a3 O-O 11. Bd3 axb4 12. axb4 Rxa1 13. Qxa1 bxc5 14. bxc5 e5 15. Nxe5? { (0.38 → -0.80) Mistake. The best move was dxe5. } (15. dxe5 Ng4 16. Bg3 Nxc5 17. Bc2 f6 18. exf6 Bxf6 19. O-O Ba6) 15... Nxe5 16. dxe5 Nd7 17. Bxe7 Qxe7 18. Na4 Nxe5 19. Be2 Bf5 20. O-O Bc2 21. Rc1 Be4 22. Nc3 Nd3 23. Bxd3 Bxd3 24. Na4 Qg5 25. Nc3 Qf6 26. Qa4 Rb8 27. h3? { (-0.84 → -2.34) Mistake. The best move was Qa3. } (27. Qa3 Bc4 28. Rb1 Qd8 29. h3 Ra8 30. Qb4 Qe7 31. Qb7 Qxb7) 27... Rb2 28. Nd1 Re2 29. Qg4? { (-2.52 → -4.26) Mistake. The best move was Qb4. } (29. Qb4 Qg5 30. Nc3 Rxe3 31. Qg4 Qxg4 32. hxg4 Re7 33. Rd1 Bc4) 29... Re1+ 30. Kh2 Be2? { (-4.28 → -2.18) Mistake. The best move was Qe5+. } (30... Qe5+ 31. f4 Qf6 32. Qg3 Rf1 33. Nf2 Rxc1 34. Nxd3 Rc3 35. Ne5) 31. Qa4? { (-2.18 → -5.03) Mistake. The best move was Qb4. } (31. Qb4 Rf1 32. Qb8+ Kh7 33. Qb1+ g6 34. Qc2 Bxd1 35. Rxd1 Rxf2) 31... Bf3 32. Kg3? { (-4.96 → -7.47) Mistake. The best move was Qa8+. } (32. Qa8+ Kh7 33. Qb8 Qg6 34. Qg3 Rxd1 35. Rxd1 Bxd1 36. Qf4 Be2) 32... Bxd1 33. Rxd1 Qe5+ 34. Kg4 Qg5+ 35. Kf3 Qh5+ 36. g4?! { (-9.27 → -14.18) Inaccuracy. The best move was Kg3. } (36. Kg3 Rxd1 37. Qxc6 Qe5+ 38. Kf3 Qf5+ 39. Kg3 Rd2 40. Kh2 Qe5+) 36... Qxh3+ 37. Kf4 Qh2+ 38. Kf3 Qh1+ 39. Kf4 Rxd1 40. Qxc6?! { (-21.39 → Mate in 3) Checkmate is now unavoidable. The best move was Ke5. } (40. Ke5 Qh4 41. Qa8+ Kh7 42. g5 d4 43. e4 Qxg5+ 44. Kd6 Qf6+) 40... Qh2+? { (Mate in 3 → -8.88) Lost forced checkmate sequence. The best move was Qe4+. } (40... Qe4+ 41. Kg3 Rg1+ 42. Kh2 Qh1#) 41. Kf3 Qh3+ 42. Kf4?! { (-9.13 → -10.16) Inaccuracy. The best move was Ke2. } (42. Ke2 Qf1+ 43. Kf3 Kh7 44. Qd7 Qd3 45. Qxf7 Qe4+ 46. Ke2 Rc1) 42... g6?! { (-10.16 → -9.29) Inaccuracy. The best move was g5+. } (42... g5+ 43. Kf5 Qf3+ 44. Ke5 Qxf2 45. Qe8+ Kg7 46. Kd6 Qf6+ 47. Kc7) 43. Qe8+ Kg7 44. Qe5+ Kg8?? { (-10.68 → 0.00) Blunder. The best move was Kh7. } (44... Kh7 45. Qe8 Qh2+ 46. Kf3 Kg7 47. Ke2 Rc1 48. Qa4 Qh1 49. c6) 45. Qe8+ Kg7 46. Qe5+ Kg8?? { (-12.70 → 0.00) Blunder. The best move was Kh7. } (46... Kh7 47. Qf6 Qh2+ 48. Kf3 Qh1+ 49. Ke2 Kg8 50. Qb2 Re1+ 51. Kd3) 47. Qe8+ Kg7 1/2-1/2
