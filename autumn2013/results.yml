@@ -453,6 +453,11 @@
     black:  shell-script
     result: '1:0'
 
+  - date:   04.11.2013
+    white:  DoctorSinus
+    black:  Nedis
+    result: '0:1'
+
   - date:   05.10.2013
     white:  Kakadu
     black:  iVS
@@ -715,6 +720,11 @@
     black:  redgremlin
     result: '0:1'
 
+  - date:   04.11.2013
+    white:  Michkova
+    black:  Nokman
+    result: '0.5:0.5'
+
   - date:   26.10.2013
     white:  darkenshvein
     black:  iVS
@@ -727,6 +737,11 @@
 
 - number: 17
   games:
+  - date:   04.11.2013
+    white:  Nedis
+    black:  darkenshvein
+    result: '1:0'
+
   - date:   02.11.2013
     white:  Magian
     black:  aptyp
