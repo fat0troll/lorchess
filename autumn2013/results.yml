@@ -500,6 +500,11 @@
     black:  Kakadu
     result: '0:1'
 
+  - date:   04.11.2013
+    white:  Nokman
+    black:  DoctorSinus
+    result: '1:0'
+
   - date:   17.10.2013
     white:  shell-script
     black:  farzeet
