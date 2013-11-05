@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/yw99sbko"]
+[Date "2013.11.05"]
+[White "HunOL"]
+[Black "Nedis"]
+[Result "1-0"]
+[WhiteElo "1357"]
+[BlackElo "1326"]
+[PlyCount "35"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 Nf6 3. Nc3 e6 4. Bg5 Bb4 5. e3 Bxc3+ 6. bxc3 h6 7. Bh4 g5 8. Bg3 Ne4 9. Qc2 Nxg3 10. hxg3 Nc6 11. Nf3 g4 12. Nd2 e5?! { (1.19 → 1.73) Inaccuracy. The best move was h5. } (12... h5 13. cxd5 exd5 14. e4 dxe4 15. Qxe4+ Qe7 16. Rab1 Qxe4+ 17. Nxe4) 13. cxd5 Qxd5 14. e4 Qd6 15. Nc4 Qf6 16. d5 Ne7 17. Be2 Qg6? { (1.69 → 2.86) Mistake. The best move was h5. } (17... h5 18. Qb2 b6 19. Rad1 Kf8 20. Qa3 Bb7 21. d6 cxd6 22. Nxd6) 18. Nxe5 1-0
