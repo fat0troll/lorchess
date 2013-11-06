@@ -463,6 +463,11 @@
     black:  iVS
     result: '1:0'
 
+  - date:   06.11.2013
+    white:  trex6
+    black:  darkenshvein
+    result: '1:0'
+
   - date:   06.10.2013
     white:  aptyp
     black:  HunOL
@@ -604,6 +609,11 @@
     black:  DoctorSinus
     result: '1:0'
 
+  - date:   06.11.2013
+    white:  Magian
+    black:  farzeet
+    result: '1:0'
+
   - date:   19.10.2013
     white:  Genuine
     black:  uroboros
@@ -635,6 +645,11 @@
     white:  Kakadu
     black:  redgremlin
     result: '1:0'
+
+  - date:   06.11.2013
+    white:  trex6
+    black:  shell-script
+    result: '0:1'
 
   - date:   19.10.2013
     white:  aptyp
@@ -729,6 +744,11 @@
     white:  Michkova
     black:  Nokman
     result: '0.5:0.5'
+
+  - date:   05.11.2013
+    white:  HunOL
+    black:  Nedis
+    result: '1:0'
 
   - date:   26.10.2013
     white:  darkenshvein
