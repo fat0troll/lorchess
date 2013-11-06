@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/2y357sjz"]
+[Date "2013.11.06"]
+[White "txgames"]
+[Black "darkshvein"]
+[Result "1-0"]
+[WhiteElo "901"]
+[BlackElo "1123"]
+[PlyCount "49"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 Nf6 2. e5 Ng8 3. d4 Nh6 4. h3?! { (1.35 → 0.82) Inaccuracy. The best move was Nf3. } (4. Nf3 e6 5. Bxh6 gxh6 6. Bd3 c5 7. dxc5 Bxc5 8. Nc3 d5) 4... e6 5. c4 Bb4+ 6. Bd2 Bxd2+ 7. Qxd2 O-O 8. Nc3 Qh4?! { (0.54 → 1.51) Inaccuracy. The best move was Nc6. } (8... Nc6 9. Nf3 Nf5 10. Be2 d6 11. Rad1 Rab8 12. O-O Bd7 13. a3) 9. Nf3 Qe7 10. Bd3 f6 11. d5? { (1.73 → 0.70) Mistake. The best move was exf6. } (11. exf6 Qxf6 12. O-O Nf5 13. Rae1 d6 14. Ne4 Qe7 15. Ng3 Qf6) 11... fxe5 12. Ng5?! { (0.90 → 0.24) Inaccuracy. The best move was dxe6. } (12. dxe6 dxe6 13. Nxe5 Nd7 14. Nf3 Nc5 15. O-O-O Nf5 16. Bxf5 exf5) 12... Rf7?? { (0.24 → 3.93) Blunder. The best move was Nf5. } (12... Nf5 13. dxe6 dxe6 14. O-O Nc6 15. Rfe1 Rfd8 16. Nf3 Qf6 17. Ne4) 13. Nxf7? { (3.93 → 1.97) Mistake. The best move was Bxh7+. } (13. Bxh7+ Kh8 14. dxe6 dxe6 15. Nxf7+ Nxf7 16. Bc2 Nc6 17. Qe2 Nh6) 13... Qxf7? { (1.97 → 3.01) Mistake. The best move was Nxf7. } (13... Nxf7 14. Be4 Na6 15. dxe6 dxe6 16. Qc2 Ng5 17. O-O Nc5 18. Rad1) 14. O-O exd5?! { (3.01 → 3.59) Inaccuracy. The best move was Qf4. } (14... Qf4 15. Rad1 Qxd2 16. Rxd2 d6 17. Be4 Nd7 18. Nb5 Nf6 19. Bf3) 15. Nxd5 c6?? { (4.02 → 7.53) Blunder. The best move was d6. } (15... d6 16. f4 e4 17. Bxe4 c6 18. Ne3 Qe7 19. Qd3 g6 20. Rfe1) 16. Nc7 Nf5? { (7.57 → 9.11) Mistake. The best move was Na6. } (16... Na6 17. Nxa8 b6 18. Rae1 Qe7 19. f4 Nf7 20. fxe5 Bb7 21. Qc2) 17. Bxf5 Qxf5 18. Nxa8 b5?! { (9.33 → 10.84) Inaccuracy. The best move was Na6. } (18... Na6 19. Rad1 e4 20. f3 Qc5+ 21. Qd4 Kf8 22. fxe4+ Ke7 23. e5) 19. cxb5 cxb5 20. Qd5+ Qf7 21. Qxb5 Nc6 22. Rac1 Nd4 23. Rxc8+ Qf8 24. Qd5+ Kh8?! { (105.89 → Mate in 1) Checkmate is now unavoidable. The best move was Ne6. } (24... Ne6 25. Rcxf8+ Kxf8 26. Qxd7 Nc5 27. Qd6+ Kf7 28. Qxc5 h5 29. Qxa7+) 25. Rcxf8# 1-0
