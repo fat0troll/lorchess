@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/kvx15991"]
+[Date "2013.11.06"]
+[White "Magian"]
+[Black "Anonymous"]
+[Result "1-0"]
+[WhiteElo "1559"]
+[BlackElo "?"]
+[PlyCount "41"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Bd6 3. Bc4 Qe7?! { (0.40 → 1.19) Inaccuracy. The best move was Nc6. } (3... Nc6 4. Nc3 Nf6 5. d3 O-O 6. O-O Be7 7. Be3 d6 8. a3) 4. Nc3 Nc6 5. Nd5 Qd8 6. d4 Nge7? { (1.59 → 2.74) Mistake. The best move was Nf6. } (6... Nf6 7. Bg5 h6 8. Bxf6 gxf6 9. c3 exd4 10. cxd4 Na5 11. Bb5) 7. dxe5? { (2.74 → 1.29) Mistake. The best move was Ng5. } (7. Ng5 Nxd5 8. Bxd5 Rhf8 9. Nxh7 Nxd4 10. Bg5 Be7 11. Bxe7 Qxe7) 7... O-O?? { (1.29 → 6.90) Blunder. The best move was Nxe5. } (7... Nxe5 8. Nxe5 Bxe5 9. Qh5 Ng6 10. Bg5 f6 11. Nf4 Bxf4 12. Bxf4) 8. exd6 cxd6 9. Bg5 b5?! { (7.11 → 8.04) Inaccuracy. The best move was h6. } (9... h6 10. Bh4 b5 11. Be2 f6 12. O-O Bb7 13. Bxb5 Ne5 14. Nc3) 10. Nxe7+? { (8.04 → 6.58) Mistake. The best move was Nd4. } (10. Nd4 Qa5+ 11. b4 Nxb4 12. Nb3 Nxc2+ 13. Kf1 Qa4 14. Nxe7+ Kh8) 10... Kh8?? { (6.58 → 14.64) Blunder. The best move was Nxe7. } (10... Nxe7 11. Bd5 Rab8 12. O-O h6 13. Bh4 g5 14. Bg3 Rb6 15. Bb3) 11. Ng6+ Kg8 12. Bxd8 Rfxd8?! { (21.67 → Mate in 4) Checkmate is now unavoidable. The best move was hxg6. } (12... hxg6 13. Bd5 Bb7 14. Bc7 Rac8 15. Bxd6 Rfe8 16. Qd3 Nd8 17. O-O-O) 13. Bxf7+ Kxf7 14. Qd5+ Kxg6 15. Qxd6+?! { (Mate in 2 → 28.00) Lost forced checkmate sequence. The best move was Qf5+. } (15. Qf5+ Kh6 16. Qg5#) 15... Kf7 16. Ng5+ Ke8 17. Nxh7 Kf7 18. O-O-O Rde8?! { (24.82 → Mate in 6) Checkmate is now unavoidable. The best move was Kg8. } (18... Kg8 19. Ng5 Rdf8 20. Qd5+ Kh8 21. Rd3 d6 22. Qxc6 Bg4 23. f3) 19. Ng5+ Kg8 20. Qd5+?! { (Mate in 5 → 35.77) Lost forced checkmate sequence. The best move was Qg6. } (20. Qg6 Red8 21. Qh7+ Kf8 22. Qh8+ Ke7 23. Qxg7+ Ke8 24. Qf7#) 20... Kf8?! { (35.77 → Mate in 1) Checkmate is now unavoidable. The best move was Re6. } (20... Re6 21. Nxe6 Ne7 22. Qxa8 Kf7 23. Ng5+ Kg6 24. f4 Kh5 25. Qxa7) 21. Qf7# 1-0
