@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/26zmn5cd"]
+[Date "2013.11.06"]
+[White "darkshvein"]
+[Black "Nokman"]
+[Result "0-1"]
+[WhiteElo "1057"]
+[BlackElo "1209"]
+[PlyCount "34"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. Nc3 e5 2. e4 Nf6 3. Nf3 d6 4. g3?! { (0.52 → -0.04) Inaccuracy. The best move was d4. } (4. d4 exd4 5. Nxd4 Be7 6. Bb5+ Bd7 7. Bxd7+ Nbxd7 8. O-O O-O) 4... d5?! { (-0.04 → 0.92) Inaccuracy. The best move was Bg4. } (4... Bg4 5. h3 Bxf3 6. Qxf3 Nc6 7. Qd1 Be7 8. Bg2 O-O 9. d3) 5. Bb5+? { (0.92 → -1.25) Mistake. The best move was exd5. } (5. exd5 Nxd5 6. Nxe5 Nxc3 7. dxc3 Qxd1+ 8. Kxd1 Bd6 9. Nc4 Be7) 5... c6 6. Bd3 Bg4?! { (-1.15 → -0.62) Inaccuracy. The best move was d4. } (6... d4 7. Nb1 Nbd7 8. O-O Bd6 9. Na3 b5 10. Qe2 Nc5 11. c3) 7. exd5 cxd5 8. h3 Be6?! { (-0.96 → 0.00) Inaccuracy. The best move was Bxf3. } (8... Bxf3 9. Bb5+ Nc6 10. Qxf3 Be7 11. Qf5 O-O 12. Bxc6 bxc6 13. d3) 9. Bb5+ Nc6 10. O-O? { (0.00 → -1.25) Mistake. The best move was Nxe5. } (10. Nxe5 Qb6 11. d4 Bb4 12. Bxc6+ bxc6 13. Kf1 O-O 14. Kg2 Ne4) 10... Qb6 11. Qe2 Bxh3?! { (-1.11 → -0.36) Inaccuracy. The best move was Bd6. } (11... Bd6 12. d4 e4 13. Ng5 O-O 14. Na4 Qc7 15. Bxc6 bxc6 16. Nxe6) 12. Bxc6+?! { (-0.36 → -0.96) Inaccuracy. The best move was Qxe5+. } (12. Qxe5+ Be7 13. Bxc6+ bxc6 14. Rfe1 Be6 15. Na4 Qb8 16. Qxb8+ Raxb8) 12... Qxc6? { (-0.96 → 0.06) Mistake. The best move was bxc6. } (12... bxc6 13. Qxe5+ Kd7 14. Rfe1 Rae8 15. Qg5 Rxe1+ 16. Nxe1 h6 17. Qh4) 13. Ne1?? { (0.06 → -4.36) Blunder. The best move was Qxe5+. } (13. Qxe5+ Qe6 14. Rfe1 Qxe5 15. Nxe5 Be6 16. d3 Bc5 17. Nf3 O-O) 13... d4? { (-4.36 → -2.78) Mistake. The best move was Bd6. } (13... Bd6 14. d4 Bxf1 15. Qxf1 O-O 16. Nf3 e4 17. Nh4 g6 18. Bg5) 14. Nd1? { (-2.78 → -5.07) Mistake. The best move was Qxe5+. } (14. Qxe5+ Be7 15. Qxd4 Bxf1 16. Kxf1 Qh1+ 17. Ke2 O-O 18. Qh4 Qc6) 14... Rac8? { (-5.07 → -3.23) Mistake. The best move was Bd6. } (14... Bd6 15. d3 O-O 16. Bg5 Nd5 17. Bd2 Rac8 18. c4 Nf6 19. f3) 15. d3? { (-3.23 → -4.96) Mistake. The best move was Qxe5+. } (15. Qxe5+ Be7 16. Qxd4 Bxf1 17. Kxf1 Qh1+ 18. Ke2 O-O 19. Qh4 Qxh4) 15... Bb4 16. a3?? { (-4.78 → -11.03) Blunder. The best move was c3. } (16. c3 Bxf1 17. Qxf1 dxc3 18. bxc3 Bxc3 19. Nxc3 Qxc3 20. Rb1 O-O) 16... Bxe1 17. Rfxe1?! { (-10.74 → Mate in 1) Checkmate is now unavoidable. The best move was f3. } (17. f3 Bxg3 18. c4 Bxf1 19. Kxf1 h5 20. Qg2 h4 21. Bg5 Nh5) 17... Qg2# 0-1
