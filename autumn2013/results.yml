@@ -767,6 +767,11 @@
     black:  darkenshvein
     result: '1:0'
 
+  - date:   07.11.2013
+    white:  redgremlin
+    black:  J
+    result: '1:0'
+
   - date:   02.11.2013
     white:  Magian
     black:  aptyp
@@ -814,6 +819,16 @@
     black:  Magian
     result: '0:1'
 
+  - date:   07.11.2013
+    white:  Michkova
+    black:  redgremlin
+    result: '0:1'
+
+  - date:   06.11.2013
+    white:  darkenshvein
+    black:  Nokman
+    result: '0:1'
+
   - date:   02.11.2013
     white:  iVS
     black:  Nedis
@@ -829,6 +844,11 @@
   - date:   23.10.2013
     white:  shell-script
     black:  darkenshvein
+    result: '1:0'
+
+  - date:   07.11.2013
+    white:  Genuine
+    black:  J
     result: '1:0'
 
   - date:   31.10.2013
