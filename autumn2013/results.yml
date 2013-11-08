@@ -134,6 +134,11 @@
     black:  redgremlin
     result: '0:1'
 
+  - date:   08.11.2013
+    white:  Nokman
+    black:  shell-script
+    result: '1:0'
+
   - date:   21.09.2013
     white:  Kakadu
     black:  MyTrooName
@@ -312,6 +317,11 @@
     black:  DoctorSinus
     result: '1:0'
 
+  - date:   08.11.2013
+    white:  darkenshvein
+    black:  farzeet
+    result: '1:0'
+
   - date:   29.09.2013
     white:  iVS
     black:  uroboros
@@ -453,6 +463,11 @@
     black:  shell-script
     result: '1:0'
 
+  - date:   08.11.2013
+    white:  farzeet
+    black:  Nokman
+    result: '0:1'
+
   - date:   04.11.2013
     white:  DoctorSinus
     black:  Nedis
@@ -547,6 +562,11 @@
     black:  Magian
     result: '1:0'
 
+  - date:   08.11.2013
+    white:  farzeet
+    black:  redgremlin
+    result: '0:1'
+
   - date:   17.10.2013
     white:  DoctorSinus
     black:  shell-script
@@ -599,6 +619,11 @@
     black:  aptyp
     result: '1:0'
 
+  - date:   08.11.2013
+    white:  Nokman
+    black:  trex6
+    result: '1:0'
+
   - date:   31.10.2013
     white:  shell-script
     black:  Kakadu
@@ -634,6 +659,11 @@
   - date:   19.10.2013
     white:  uroboros
     black:  LongLiveUbuntu
+    result: '0:1'
+
+  - date:   08.11.2013
+    white:  farzeet
+    black:  Genuine
     result: '0:1'
 
   - date:   29.10.2013
@@ -698,6 +728,11 @@
     black:  aptyp
     result: '0:1'
 
+  - date:   08.11.2013
+    white:  redgremlin
+    black:  trex6
+    result: '1:0'
+
   - date:   27.10.2013
     white:  Magian
     black:  Kakadu
@@ -725,6 +760,11 @@
 
 - number: 16
   games:
+  - date:   08.11.2013
+    white:  farzeet
+    black:  raven_cler
+    result: '0:1'
+
   - date:   31.10.2013
     white:  DoctorSinus
     black:  LongLiveUbuntu
@@ -824,6 +864,11 @@
     black:  redgremlin
     result: '0:1'
 
+  - date:   08.11.2013
+    white:  HunOL
+    black:  shell-script
+    result: '1:0'
+
   - date:   06.11.2013
     white:  darkenshvein
     black:  Nokman
@@ -833,6 +878,11 @@
     white:  iVS
     black:  Nedis
     result: '0.5:0.5'
+
+  - date:   08.11.2013
+    white:  MyTrooName
+    black:  farzeet
+    result: '1:0'
 
 - number: 19
   games:
@@ -859,5 +909,10 @@
   - date:   31.10.2013
     white:  uroboros
     black:  Kakadu
+    result: '0:1'
+
+  - date:   08.11.2013
+    white:  farzeet
+    black:  DoctorSinus
     result: '0:1'
 
