@@ -38,7 +38,7 @@ for dir in "${tour_dirs[@]}"; do
         # Parsed data of game: date a[1], white player a[2], black
         # player a[6], and the result a[3]
         data=( $(echo "$line" | gawk --re-interval \
-            'match($0, /'${date}' — '${white}' '${result}' '${black}'/, a) \
+            'match($0, /'${date}' [-—] '${white}' '${result}' '${black}'/, a) \
             { print a[1], a[2], a[6], a[3] }') )
 
         if [[ ${#data[@]} != 0 ]]; then
