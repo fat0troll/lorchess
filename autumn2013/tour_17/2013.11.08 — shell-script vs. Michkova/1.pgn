@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/1uozyvwi"]
+[Date "2013.11.08"]
+[White "cppmm"]
+[Black "Michkova"]
+[Result "0-1"]
+[WhiteElo "945"]
+[BlackElo "1352"]
+[PlyCount "44"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. g3 e5 2. Bg2 Nf6 3. Nh3 d5 4. c3 Nc6 5. d4 e4?! { (-0.84 → -0.24) Inaccuracy. The best move was Bd6. } (5... Bd6 6. O-O O-O 7. Be3 Qe7 8. Nd2 Bf5 9. Qb3 exd4 10. cxd4) 6. Nd2 Bd6 7. O-O O-O 8. e3 Bg4 9. Qb3 Qc8 10. Nf4 Bxf4 11. exf4 Ne7?! { (-0.72 → 0.00) Inaccuracy. The best move was Bh3. } (11... Bh3 12. Rfe1 Bxg2 13. Kxg2 a5 14. Nf1 a4 15. Qd1 Ne7 16. Ne3) 12. c4? { (0.00 → -1.11) Mistake. The best move was f3. } (12. f3 exf3 13. Nxf3 Rfe8 14. Rfe1 Be6 15. Re2 Bg4 16. Ree1) 12... Nf5 13. cxd5 Nxd4 14. Qc4 Ne2+? { (-0.80 → 0.22) Mistake. The best move was Nf3+. } (14... Nf3+ 15. Nxf3 exf3 16. Bh1 Rfd8 17. Qb3 Rxd5 18. Bxf3 Bxf3 19. Qxf3) 15. Kh1 Rfe8? { (-0.24 → 1.41) Mistake. The best move was b5. } (15... b5 16. Qxb5 Qf5 17. Nc4 Rfb8 18. Qc5 Bh3 19. Rfe1 Bxg2+ 20. Kxg2) 16. Nxe4 Nxe4 17. Bxe4 Bh3?! { (1.49 → 2.42) Inaccuracy. The best move was b5. } (17... b5 18. Qd3 Qd7 19. f3 Bh3 20. Qxe2 f5 21. Rfe1 fxe4 22. fxe4) 18. Qxe2?? { (2.42 → -0.80) Blunder. The best move was Be3. } (18. Be3 Bxf1 19. Rxf1 Qg4 20. Re1 Rac8 21. Bg2 Nxf4 22. gxf4 a6) 18... Bxf1 19. Qe1?? { (-0.90 → -6.32) Blunder. The best move was Qc2. } (19. Qc2 f5 20. Be3 Rxe4 21. Rxf1 a5 22. a3 Qd8 23. Qb3 a4) 19... Qh3?? { (-6.32 → -1.93) Blunder. The best move was Bd3. } (19... Bd3 20. Bxh7+ Bxh7 21. Be3 Be4+ 22. Kg1 Bxd5 23. Qf1 Qe6 24. Qb1) 20. b4?? { (-1.93 → -17.43) Blunder. The best move was Be3. } (20. Be3 Rxe4 21. Qxf1 Qxf1+ 22. Rxf1 Rc4 23. b3 Rc2 24. a4 a5) 20... Bg2+ 21. Kg1 Bxe4 22. Qc3?! { (-18.20 → Mate in 1) Checkmate is now unavoidable. The best move was Qxe4. } (22. Qxe4 Rxe4 23. Be3 Rxb4 24. a4 Rd8 25. Bc5 Rc4 26. Bxa7 Rxd5) 22... Qg2# 0-1
