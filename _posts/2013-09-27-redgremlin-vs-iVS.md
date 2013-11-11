@@ -10,6 +10,7 @@ pgn:    autumn2013/2013-09-10-redgremlin-vs-iVS-with-comments.pgn
 source with SetPgnUrl() -->
 <form style="display:none;">
   <textarea id="pgnText" style="display:none;">
-    {% include pgns/autumn2013/2013-09-10-redgremlin-vs-iVS-with-comments.pgn %}
+    {% capture pgnfile %}pgns/{{ page.pgn }}{% endcapture %}
+    {% include {{pgnfile}} %}
   </textarea>
 </form>

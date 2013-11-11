@@ -10,6 +10,7 @@ pgn:    great12/2013-08-15-Michkova-vs-HunOL-with-comments.pgn
 source with SetPgnUrl() -->
 <form style="display:none;">
   <textarea id="pgnText" style="display:none;">
-    {% include pgns/great12/2013-08-15-Michkova-vs-HunOL-with-comments.pgn %}
+    {% capture pgnfile %}pgns/{{ page.pgn }}{% endcapture %}
+    {% include {{pgnfile}} %}
   </textarea>
 </form>
