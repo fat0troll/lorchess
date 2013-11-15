@@ -40,6 +40,11 @@
     black:  shell-script
     result: '1:0'
 
+  - date:   14.11.2013
+    white:  Nedis
+    black:  Nokman
+    result: '1:0'
+
   - date:   21.09.2013
     white:  DoctorSinus
     black:  MyTrooName
@@ -916,6 +921,11 @@
     black:  darkenshvein
     result: '1:0'
 
+  - date:   11.11.2013
+    white:  redgremlin
+    black:  HunOL
+    result: '1:0'
+
   - date:   08.11.2013
     white:  Magian
     black:  Michkova
@@ -930,6 +940,11 @@
     white:  LongLiveUbuntu
     black:  aptyp
     result: '0:1'
+
+  - date:   11.11.2013
+    white:  raven_cler
+    black:  trex6
+    result: '1:0'
 
   - date:   31.10.2013
     white:  uroboros
