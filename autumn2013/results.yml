@@ -956,3 +956,8 @@
     black:  DoctorSinus
     result: '0:1'
 
+  - date:   15.11.2013
+    white:  Nedis
+    black:  MyTrooName
+    result: '1:0'
+
