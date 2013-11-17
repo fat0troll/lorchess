@@ -83,6 +83,7 @@
   lor:     raven_cler
   lichess: raven_cler
   elo:     902
+  status:  withdrew
 
 - number:  18
   lor:     uroboros
