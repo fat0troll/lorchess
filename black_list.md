@@ -10,3 +10,4 @@
 * [qulinxao](http://www.linux.org.ru/people/qulinxao/profile): внезапно появился, также внезапно исчез, никто уже толком и вспомнит, а был ли он в турнире?
 * [uroboros](http://www.linux.org.ru/people/uroboros/profile): хам, nuff said.
 * [LongLiveUbuntu](http://www.linux.org.ru/people/LongLiveUbuntu/profile): очень стеснялся сказать, что больше не собирается играть, что привело к недомолвкам и непониманию.
+* [raven_cler](http://www.linux.org.ru/people/raven_cler/profile): в один день достигнул нирваны и совсем забил на турнир.
