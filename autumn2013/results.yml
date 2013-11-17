@@ -374,6 +374,11 @@
     black:  shell-script
     result: '0:1'
 
+  - date:   17.11.2013
+    white:  raven_cler
+    black:  Nokman
+    result: '0:1'
+
   - date:   29.09.2013
     white:  uroboros
     black:  Nedis
@@ -440,6 +445,11 @@
     white:  Nokman
     black:  uroboros
     result: '0:1'
+
+  - date:   17.11.2013
+    white:  shell-script
+    black:  raven_cler
+    result: '1:0'
 
   - date:   31.10.2013
     white:  redgremlin
@@ -795,6 +805,11 @@
     black:  redgremlin
     result: '0:1'
 
+  - date:   17.11.2013
+    white:  J
+    black:  shell-script
+    result: '0.5:0.5'
+
   - date:   04.11.2013
     white:  Michkova
     black:  Nokman
@@ -852,6 +867,11 @@
     black:  Kakadu
     result: '0:1'
 
+  - date:   17.11.2913
+    white:  raven_cler
+    black:  DoctorSinus
+    result: '0:1'
+
   - date:   31.10.2013
     white:  uroboros
     black:  farzeet
@@ -867,6 +887,11 @@
   - date:   31.10.2013
     white:  DoctorSinus
     black:  uroboros
+    result: '1:0'
+
+  - date:   17.11.2013
+    white:  Kakadu
+    black:  raven_cler
     result: '1:0'
 
   - date:   31.10.2013
