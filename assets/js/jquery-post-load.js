@@ -7,3 +7,8 @@ $('#GameWrapper center').affix({
     }
   }
 });
+
+/* Sort a tournament table with tablesorter */
+$(document).ready(function() {
+  $('.tablesorter').tablesorter();
+});
