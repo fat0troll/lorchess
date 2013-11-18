@@ -138,7 +138,7 @@ module LORChess
 
     def to_html
 
-      @buffer << "<table class=\"table table-bordered tournament\">\n"
+      @buffer << "<table class=\"table table-bordered tournament tablesorter\">\n"
       @buffer << "  <caption><strong>LOR Chess : Осень-2013</strong><caption>\n"
       @buffer << "  <thead>\n"
       @buffer << "    <tr>\n"
@@ -147,7 +147,7 @@ module LORChess
       @buffer << "      <th>elo*</th>\n"
 
       @@dim.times do |i|
-        @buffer << "      <th>" << (i + 1).to_s << "</th>\n"
+        @buffer << "      <th class=\"{sorter: false}\">" << (i + 1).to_s << "</th>\n"
       end
 
       @buffer << "      <th>Игры</th>\n"
