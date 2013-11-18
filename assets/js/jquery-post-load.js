@@ -10,5 +10,8 @@ $('#GameWrapper center').affix({
 
 /* Sort a tournament table with tablesorter */
 $(document).ready(function() {
-  $('.tablesorter').tablesorter();
+  $('.tablesorter').tablesorter({
+    // Sort on the player's number
+    sortList: [[0,0]]
+  });
 });
