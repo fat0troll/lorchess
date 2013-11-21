@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-tournament=autumn2013
+YEAR=2013
+TOURNAMENT=3-autumn
+SCRIPT_PATH=`dirname $0`
 
 # Regexps to parse the result of game
 date='([0-9]{2}\.[0-9]{2}\.[0-9]{4})'
@@ -8,31 +10,27 @@ white='(.+)'
 black='(.+)'
 result='((1|0|0\.5):(1|0|0\.5))'
 
-script_path=`dirname $0`
-
 # Directories to search `tour_info' in
 if [[ $# != 0 ]]; then
     tour_dirs=()
-    for number in $@; do
-        # Change tour numbers: `1' -> `01', `2' -> `02', and so on
-        number=0"$number"
-        number=${number:(-2)}
+    for number in "$@"; do
+        # Change tour numbers: '1' -> '01', '2' -> '02', and so on
+        number=$(printf "%02g" "$number")
 
-        tour_dirs+=($script_path/$tournament/tour_$number)
+        tour_dirs+=("$SCRIPT_PATH"/"$YEAR"/"$TOURNAMENT"/tours/"$number")
     done
 else
-    tour_dirs=($script_path/$tournament/tour_*)
+    tour_dirs=("$SCRIPT_PATH"/"$YEAR"/"$TOURNAMENT"/tours/*)
 fi
 
 for dir in "${tour_dirs[@]}"; do
-    number=${dir:(-2)}
-    number=${number#0} # remove the leading `0' if any
+    number=$(printf "%01g" ${dir:(-2)}) # remove the leading `0' if any
 
     echo "- number: ${number}"
     echo "  games:"
 
     # Add a newline at the end of `tour_info' to parse the last line
-    tour_info=$(cat $dir/tour_info && echo)
+    tour_info=$(cat "$dir/tour_info" && echo)
 
     while read line; do
         # Parsed data of game: date a[1], white player a[2], black
