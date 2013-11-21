@@ -5,14 +5,16 @@ layout: page
 <h1>Обзоры</h1>
 <ul class="list-unstyled">
   {% for post in site.posts %}
-    {% capture dir %}{{ post.pgn | split: '/' | first }}{% endcapture %}
-    {% for tourney in site.tourneys %}
-      {% if tourney.dir == dir %}
-        {% capture tourneylink %}<a href="{{ tourney.url }}">{{ tourney.name }}</a>{% endcapture %}
+    {% capture basename %}{{ post.pgn | split: '/' | last }}{% endcapture %}
+    {% capture dir %}{{ post.pgn | remove: basename }}{% endcapture %}
+
+    {% for trn in site.tournaments %}
+      {% capture trndir %}{{ trn.dir | append: '/' }}{% endcapture %}
+      {% if trndir == dir %}
+        {% capture tournamentlink %}<a href="{{ trn.url }}">{{ trn.name }}</a>{% endcapture %}
       {% endif %}
     {% endfor %}
 
-    {% capture basename %}{{ post.pgn | split: '/' | last }}{% endcapture %}
     {% capture gamedate %}{{ basename | truncate: 11, '' }}{% endcapture %}
     {% capture players %}{{ basename | remove: gamedate | remove: '-with-comments.pgn' }}{% endcapture %}
 
@@ -30,7 +32,7 @@ layout: page
       <p class="lead" style="margin-bottom:0"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
       <dl class="dl-horizontal">
         <dt>Дата:</dt><dd>{{ post.date | date_to_string }}</dd>
-        <dt>Турнир:</dt><dd>{{ tourneylink }}</dd>
+        <dt>Турнир:</dt><dd>{{ tournamentlink }}</dd>
         <dt>Игра:</dt><dd>{{ whitelink }} vs. {{ blacklink }} ({{ gamedate | date: "%d.%m.%Y" }})</dd>
       </dl>
     </li>

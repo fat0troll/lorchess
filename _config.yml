@@ -24,11 +24,11 @@ nav-links:
   - url: /atom.xml
     title: Подписка
 
-tourneys:
+tournaments:
   - name: Великолепная дюжина
     url:  http://www.linux.org.ru/forum/talks/9088834
-    dir:  great12
+    dir:  2013/2-great12
 
   - name: Осень 2013
     url:  http://www.linux.org.ru/forum/talks/9539078
-    dir:  autumn2013
+    dir:  2013/3-autumn
