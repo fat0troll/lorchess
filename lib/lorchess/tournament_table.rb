@@ -5,10 +5,12 @@ module LORChess
 
     require 'yaml'
 
+    DATADIR='2013/3-autumn'
+
     dir = File.dirname(__FILE__)
-    players_yaml = File.expand_path('../../autumn2013/players.yml', dir)
+    players_yaml = File.expand_path("../../#{DATADIR}/players.yml", dir)
     @@db_players = YAML.load_file players_yaml
-    results_yaml = File.expand_path('../../autumn2013/results.yml', dir)
+    results_yaml = File.expand_path("../../#{DATADIR}/results.yml", dir)
     @@db_results = YAML.load_file results_yaml
 
     @@dim = @@db_players.length

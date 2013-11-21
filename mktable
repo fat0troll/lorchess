@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
 
-tournament=autumn2013
-results=$tournament/results.yml
-table=_includes/$tournament/tournament_table.html
+YEAR=2013
+TOURNAMENT=3-autumn
+RESULTS=$YEAR/$TOURNAMENT/results.yml
+TABLE=_includes/$TOURNAMENT/table.html
 
 # Update game results
 git checkout master
-./tour-parse > $results
-git add $results
+./tour-parse > $RESULTS
+git add $RESULTS
 git commit -m "Update game results."
 # Successful `git commit' returns exit code `0'
 ret_code=$?
@@ -15,13 +16,13 @@ ret_code=$?
 if [[ $ret_code == 0 ]]; then
 
     # Check the difference between game results
-    git diff HEAD^ HEAD -- $results
+    git diff HEAD^ HEAD -- $RESULTS
 
     # Update the tournament table
     bin/lorchess > temp_table.html
     git checkout gh-pages
-    mv temp_table.html $table
-    git add $table
+    mv temp_table.html $TABLE
+    git add $TABLE
     git commit -m "Update the tournament table."
     git checkout master
 fi
