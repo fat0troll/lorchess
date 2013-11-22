@@ -3,7 +3,7 @@ require 'rake'
 
 # The year and title of tournament
 @year = '2013'
-@tournament ='3-autumn'
+@tournament ='4-knockout'
 
 require 'yaml'
 file_dir = File.dirname(__FILE__)
