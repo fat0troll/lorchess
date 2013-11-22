@@ -1,8 +1,37 @@
 # -*- coding: utf-8 -*-
 require 'rake'
-tournament='autumn2013'
 
-# Fix the game date in PNG: YYYY-MM-DD -> YYYY.MM.DD
+# The year and title of tournament
+@year = '2013'
+@tournament ='3-autumn'
+
+require 'yaml'
+file_dir = File.dirname(__FILE__)
+yaml_file = File.expand_path("#{@year}/#{@tournament}/players.yml", file_dir)
+@config = YAML.load_file yaml_file
+
+# Sort players in numerical order
+@config.sort! { |x,y| x['number'] <=> y['number'] }
+
+# Associate a 'lichess' nickname with player's name
+@player_lichess = {}
+@config.each do |player|
+  lichess = player['lichess']
+  @player_lichess[lichess] = player['lor']
+end
+
+# Fix a player name in PGN
+def fix_player color, name
+  str = File.open('temp.pgn', 'r') { |f| f.read }
+  player_regex = Regexp.new "^\\[#{color.capitalize} \".*\"\\]$"
+  parts = str.partition player_regex
+  File.open('temp.pgn', 'w+') do |f|
+    f.write(parts[0] + "[#{color.capitalize} \"#{name}\"]" + parts[2])
+  end
+  puts "The 'lichess' name '#{name}' of #{color} player incorporated into PGN"
+end
+
+# Fix the game date in PGN: YYYY-MM-DD -> YYYY.MM.DD
 def fix_date
   str = File.open('temp.pgn', 'r') { |f| f.read }
   parts = str.partition /^\[Date \"\d{4}-\d{2}-\d{2}\"\]$/
@@ -17,17 +46,48 @@ def fix_date
   end
 end
 
-# Return the directory name to put PGN file in
+# Returns the 'lichess' name of player to be corrected
+def choose_name
+  print "Would you like to correct the name? > "
+  answer = $stdin.gets.chomp
+  if ['Yes', 'yes', 'Y', 'y'].include? answer
+    @config.each do |player|
+      puts "%2.0f. %s" % [ player['number'], player['lor'] ]
+    end
+
+    print "Put the player's number > "
+    num = Integer $stdin.gets.chomp
+    @config[num-1]['lichess']
+  else
+    abort
+  end
+end
+
+# Returns the directory name to put PGN file in
 def pgn_dir
   str = File.open('temp.pgn', 'r') { |f| f.read }
 
   date = str.scan(/^\[Date \"(.*)\"\]$/)[0][0]
-  date.gsub! '-', '.' # if date has not been corrected
-  white = str.scan(/^\[White \"(.*)\"\]$/)[0][0]
-  black = str.scan(/^\[Black \"(.*)\"\]$/)[0][0]
+  date.gsub! '.', '-'
+  white_lichess = str.scan(/^\[White \"(.*)\"\]$/)[0][0]
+  white = @player_lichess[white_lichess]
+  black_lichess = str.scan(/^\[Black \"(.*)\"\]$/)[0][0]
+  black = @player_lichess[black_lichess]
 
-  dir = date + ' — ' + white + ' vs. ' + black
-  return dir
+  unless white
+    puts "Could not recognize white player '#{white_lichess}'"
+    name = choose_name
+    fix_player 'white', name
+    white = @player_lichess[name]
+  end
+  unless black
+    puts "Could not recognize black player '#{black_lichess}'"
+    name = choose_name
+    fix_player 'black', name
+    black = @player_lichess[name]
+  end
+
+  date + '-' + white + '-vs-' + black
 end
 
 # Return the file name to move PGN file to
@@ -57,12 +117,14 @@ namespace :pgn do
   task :mv do
     require 'fileutils'
 
-    tour = ('0' + ENV['tour'])[-2..-1] # change `1' -> `01' and so on
-    dir = tournament + '/tour_' + tour + '/' + pgn_dir
+    # Change `1' -> `01' and so on
+    tour = "%02g" % ENV['tour']
+
+    dir = "#{@year}/#{@tournament}/tours/#{tour}/" + pgn_dir
     if Dir.exists? dir
       puts "PGN directory exists"
     else
-      puts "Directory \"#{dir.shellescape}\" doesn't exist"
+      puts "Directory '#{dir}' does not exist"
       print "Create the directory? > "
       answer = $stdin.gets.chomp
       if ['Yes', 'yes', 'Y', 'y'].include? answer
@@ -72,7 +134,7 @@ namespace :pgn do
       end
     end
     dest = dir + '/' + pgn_file(dir)
-    puts "Moving PGN file to \"#{dest.shellescape}\""
+    puts "Moving PGN file to '#{dest}'"
     FileUtils.mv('temp.pgn', dest)
   end
 
