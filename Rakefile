@@ -5,6 +5,9 @@ require 'rake'
 @year = '2013'
 @tournament ='4-knockout'
 
+# Ask to choose the directory of PGN file
+@ask_dir = true
+
 require 'yaml'
 file_dir = File.dirname(__FILE__)
 yaml_file = File.expand_path("#{@year}/#{@tournament}/players.yml", file_dir)
@@ -47,15 +50,15 @@ def fix_date
 end
 
 # Returns the 'lichess' name of player to be corrected
-def choose_name
-  print "Would you like to correct the name? > "
+def choose_player
+  print "Would you like to correct the player name? > "
   answer = $stdin.gets.chomp
   if ['Yes', 'yes', 'Y', 'y'].include? answer
     @config.each do |player|
       puts "%2.0f. %s" % [ player['number'], player['lor'] ]
     end
 
-    print "Put the player's number > "
+    print "Put the player number > "
     num = Integer $stdin.gets.chomp
     @config[num-1]['lichess']
   else
@@ -63,8 +66,8 @@ def choose_name
   end
 end
 
-# Returns the directory name to put PGN file in
-def pgn_dir
+# Returns possible directories to put PGN file in
+def pgn_dirs
   str = File.open('temp.pgn', 'r') { |f| f.read }
 
   date = str.scan(/^\[Date \"(.*)\"\]$/)[0][0]
@@ -76,21 +79,50 @@ def pgn_dir
 
   unless white
     puts "Could not recognize white player '#{white_lichess}'"
-    name = choose_name
+    name = choose_player
     fix_player 'white', name
     white = @player_lichess[name]
   end
   unless black
     puts "Could not recognize black player '#{black_lichess}'"
-    name = choose_name
+    name = choose_player
     fix_player 'black', name
     black = @player_lichess[name]
   end
 
-  date + '-' + white + '-vs-' + black
+  subdir1 = date + '-' + white + '-vs-' + black
+  subdir2 = date + '-' + black + '-vs-' + white
+  # Change `1' -> `01' and so on
+  tour = "%02g" % ENV['tour']
+
+  [subdir1, subdir2].map do |subdir|
+    "#{@year}/#{@tournament}/tours/#{tour}/" + subdir
+  end
 end
 
-# Return the file name to move PGN file to
+# Make the directory to move PGN file in
+def mk_dir dir
+  puts "Directory '#{dir}' does not exist"
+  print "Create the directory? > "
+  answer = $stdin.gets.chomp
+  if ['Yes', 'yes', 'Y', 'y'].include? answer
+    FileUtils.mkdir_p dir
+  else
+    abort "PGN directory wasn't created"
+  end
+end
+
+# Choose and make the directory to move PGN file in
+def choose_and_mk_dir dirs
+  puts "Choose a directory of PGN file from the list below:"
+  dirs.each_with_index { |dir, index| puts "%2.0f. %s" % [index+1, dir] }
+
+  print "Create a directory? (number) > "
+  num = Integer $stdin.gets.chomp
+  FileUtils.mkdir_p dirs[num-1]
+end
+
+# Returns the file name to move PGN file to
 def pgn_file dir
   file = (Dir.entries(dir).length - 1).to_s + '.pgn'
   if File.exists? (dir + '/' + file)
@@ -117,25 +149,21 @@ namespace :pgn do
   task :mv do
     require 'fileutils'
 
-    # Change `1' -> `01' and so on
-    tour = "%02g" % ENV['tour']
-
-    dir = "#{@year}/#{@tournament}/tours/#{tour}/" + pgn_dir
-    if Dir.exists? dir
-      puts "PGN directory exists"
+    dirs = pgn_dirs
+    unless dirs.any? { |dir| Dir.exists? dir }
+      @ask_dir ? choose_and_mk_dir(dirs) : mk_dir(dirs.first)
     else
-      puts "Directory '#{dir}' does not exist"
-      print "Create the directory? > "
-      answer = $stdin.gets.chomp
-      if ['Yes', 'yes', 'Y', 'y'].include? answer
-        FileUtils.mkdir_p dir
-      else
-        abort "PGN directory wasn't created"
+      puts "PGN directory exists"
+    end
+
+    dirs.each do |dir|
+      if Dir.exists? dir
+        dest = dir + '/' + pgn_file(dir)
+        puts "Moving PGN file to '#{dest}'"
+        FileUtils.mv('temp.pgn', dest)
+        break
       end
     end
-    dest = dir + '/' + pgn_file(dir)
-    puts "Moving PGN file to '#{dest}'"
-    FileUtils.mv('temp.pgn', dest)
   end
 
   desc "Download and move PGN file at once"
