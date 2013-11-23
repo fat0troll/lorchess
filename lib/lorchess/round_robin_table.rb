@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 module LORChess
-  class TournamentTable
+  class RoundRobinTable
 
     require 'yaml'
 
