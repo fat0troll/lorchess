@@ -51,7 +51,7 @@ end
 
 # Returns the 'lichess' name of player to be corrected
 def choose_player
-  print "Would you like to correct the player name? > "
+  print "Would you like to correct the player name? (Y/N) > "
   answer = $stdin.gets.chomp
   if ['Yes', 'yes', 'Y', 'y'].include? answer
     @config.each do |player|
@@ -103,7 +103,7 @@ end
 # Make the directory to move PGN file in
 def mk_dir dir
   puts "Directory '#{dir}' does not exist"
-  print "Create the directory? > "
+  print "Create the directory? (Y/N) > "
   answer = $stdin.gets.chomp
   if ['Yes', 'yes', 'Y', 'y'].include? answer
     FileUtils.mkdir_p dir
@@ -117,7 +117,7 @@ def choose_and_mk_dir dirs
   puts "Choose a directory of PGN file from the list below:"
   dirs.each_with_index { |dir, index| puts "%2.0f. %s" % [index+1, dir] }
 
-  print "Create a directory? (number) > "
+  print "Create a directory? (Number) > "
   num = Integer $stdin.gets.chomp
   FileUtils.mkdir_p dirs[num-1]
 end
