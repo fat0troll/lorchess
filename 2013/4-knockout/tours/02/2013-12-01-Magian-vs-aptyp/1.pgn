@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/m59xzfgl"]
+[Date "2013.12.01"]
+[White "aptypr"]
+[Black "Magian"]
+[Result "0-1"]
+[WhiteElo "1263"]
+[BlackElo "1444"]
+[PlyCount "30"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Qf6 5. Be3 Bc5 6. Nf5? { (0.34 → -0.88) Mistake. The best move was c3. } (6. c3 Nge7 7. Bc4 O-O 8. O-O d6 9. Na3 Bd7 10. Nxc6 Bxc6) 6... d6 7. Bxc5 Bxf5 8. exf5? { (-0.58 → -1.79) Mistake. The best move was Be3. } (8. Be3 Bxe4 9. Nc3 Qe5 10. Nxe4 Qxe4 11. Qd3 Qxd3 12. Bxd3 Nf6) 8... dxc5? { (-1.79 → -0.78) Mistake. The best move was Qxb2. } (8... Qxb2 9. Nd2 dxc5 10. Rab1 Qe5+ 11. Qe2 O-O-O 12. Qxe5 Nxe5 13. Ne4) 9. Qe2+? { (-0.78 → -2.24) Mistake. The best move was Nc3. } (9. Nc3 Nd4 10. Bb5+ c6 11. Bd3 Qe5+ 12. Kf1 O-O-O 13. g3 Kb8) 9... Nge7 10. Nc3 O-O?! { (-1.95 → -1.11) Inaccuracy. The best move was O-O-O. } (10... O-O-O 11. Qc4 Kb8 12. Be2 Qxf5 13. Qe4 Rhe8 14. O-O Qxe4 15. Nxe4) 11. O-O-O Nxf5 12. Nd5 Qg5+?! { (-1.31 → -0.60) Inaccuracy. The best move was Qd6. } (12... Qd6 13. Qg4 Nfd4 14. Ne3 Qf6 15. Qg3 Rad8 16. Bd3 Ne5 17. Kb1) 13. f4 Qd8 14. Nb6?? { (-0.72 → -6.62) Blunder. The best move was Qc4. } (14. Qc4 Qd6 15. c3 Rfd8 16. g4 Nh4 17. Bd3 Na5 18. Qa4 c6) 14... Nfd4 15. Rxd4? { (-6.64 → -9.31) Mistake. The best move was Qe4. } (15. Qe4 axb6 16. c3 Rfe8 17. Qb1 Qf6 18. g3 Ne2+ 19. Bxe2 Rxe2) 15... Nxd4 0-1
