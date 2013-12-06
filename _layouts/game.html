@@ -12,6 +12,14 @@ layout: default
 </div>
 
 <div class="col-xs-12 col-sm-7 col-md-8">
+  <!-- paste your PGN below and make sure you dont specify an external
+  source with SetPgnUrl() -->
+  <form style="display:none;">
+    <textarea id="pgnText" style="display:none;">
+      {% include {{page.pgn}} %}
+    </textarea>
+  </form>
+
   <div id="GameText"></div>
 </div>
 
