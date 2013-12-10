@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/dsl3gv1s"]
+[Date "2013.12.09"]
+[White "sshilovsky"]
+[Black "fat0troll"]
+[Result "1-0"]
+[WhiteElo "1230"]
+[BlackElo "964"]
+[PlyCount "55"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 g6?! { (0.22 → 0.82) Inaccuracy. The best move was e6. } (1... e6 2. Nf3) 2. e5?! { (0.82 → 0.22) Inaccuracy. The best move was Nc3. } (2. Nc3 d6 3. d4 Nf6 4. Be2 Bg7 5. Nf3 O-O 6. O-O Bg4) 2... Bg7 3. d4 d6 4. f4 f6 5. Nf3 Bg4? { (-0.10 → 1.31) Mistake. The best move was dxe5. } (5... dxe5 6. Nc3 exd4 7. Qxd4 Qxd4 8. Nxd4 Nh6 9. Bd3 Na6 10. O-O) 6. exd6?! { (1.31 → 0.64) Inaccuracy. The best move was h3. } (6. h3 Bxf3 7. Qxf3 c6 8. Qb3 Qc8 9. exd6 exd6 10. Nc3 Ne7) 6... exd6 7. h3 Bxf3 8. Qxf3 Qe7+? { (0.60 → 1.91) Mistake. The best move was Nc6. } (8... Nc6 9. Bb5 d5 10. Nc3 Nge7 11. Be3 Qd6 12. O-O-O O-O-O 13. Kb1) 9. Be2? { (1.91 → 0.12) Mistake. The best move was Kf2. } (9. Kf2 Nc6 10. Bb5 O-O-O 11. Rhe1 Qf7 12. Bxc6 bxc6 13. Qxc6 Kb8) 9... g5?? { (0.12 → 9.15) Blunder. The best move was Nc6. } (9... Nc6 10. c3 O-O-O 11. O-O f5 12. d5 Nb8 13. Rfe1 Qh4 14. Bd2) 10. Qxb7 Nh6 11. Qxa8 O-O 12. Qd5+ Kh8 13. Nc3 g4?! { (9.49 → 10.68) Inaccuracy. The best move was c6. } (13... c6 14. Qf3 d5 15. Qd3 Nd7 16. O-O Nf7 17. Bg4 Nb6 18. b3) 14. hxg4 Nxg4 15. Qf3?! { (13.45 → 9.05) Inaccuracy. The best move was Qh5. } (15. Qh5 Nh6 16. f5 Nc6 17. Nd5 Qf7 18. Bxh6 Qxh5 19. Bxg7+ Kxg7) 15... Re8?! { (9.05 → 15.03) Inaccuracy. The best move was f5. } (15... f5 16. Nd5 Qf7 17. Ne3 Bxd4 18. Nxg4 fxg4 19. Qxg4 Rg8 20. Qf3) 16. Qxg4 Bh6 17. Rxh6 Qg7 18. Qxg7+ Kxg7 19. f5 Nd7 20. Nd5 a5 21. Nxc7 Re7 22. Ne6+ Kf7?! { (25.17 → Mate in 6) Checkmate is now unavoidable. The best move was Kh8. } (22... Kh8 23. Bf4 d5 24. Kf2 Nb6 25. Rxf6 Nd7 26. Rh6 Kg8 27. Rah1) 23. Rxh7+ Ke8 24. Bh5+ Rf7 25. Rxf7?! { (Mate in 2 → Mate in 2) Not the best checkmate sequence. The best move was Bxf7+. } (25. Bxf7+ Ke7 26. Bh5#) 25... Ne5 26. Rfa7+ Nf7 27. Rxf7?! { (Mate in 1 → Mate in 1) Not the best checkmate sequence. The best move was Bxf7#. } (27. Bxf7#) 27... d5 28. Rfa7# 1-0
