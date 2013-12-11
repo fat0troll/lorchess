@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/rhsbruqa"]
+[Date "2013.12.10"]
+[White "Magian"]
+[Black "HunOL"]
+[Result "0-1"]
+[WhiteElo "1454"]
+[BlackElo "1436"]
+[PlyCount "76"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Bb4 4. e3 Nf6 5. Bd2 Nc6 6. Nf3 O-O 7. Rac1 b6 8. a3 Be7?! { (0.24 → 0.96) Inaccuracy. The best move was Bxc3. } (8... Bxc3 9. Bxc3 a5 10. cxd5 Qxd5 11. Bd2 Ba6 12. Bxa6 Rxa6 13. O-O) 9. cxd5 exd5 10. Bd3 Bb7 11. O-O Rfe8 12. Ne2 Qd6? { (0.70 → 2.20) Mistake. The best move was a6. } (12... a6 13. Qa4 Qd7 14. Ng3 Bf8 15. Qc2 g6 16. Rfd1 Bg7 17. Be2) 13. Nf4? { (2.20 → 0.62) Mistake. The best move was Bb5. } (13. Bb5 a5 14. Ng3 g6 15. Qc2 Nd8 16. Bxe8 Nxe8 17. b4 Ne6) 13... Nd8? { (0.62 → 1.81) Mistake. The best move was Ne4. } (13... Ne4 14. Qc2 Nxd2 15. Nxd2 Nxd4 16. Qxc7 Bc6 17. Qxd6 Bxd6 18. exd4) 14. Ng5? { (1.81 → 0.08) Mistake. The best move was Bb4. } (14. Bb4 Qd7 15. Ne5 Qc8 16. Nh5 c5 17. dxc5 Qe6 18. c6 Nxc6) 14... g6?! { (0.08 → 0.96) Inaccuracy. The best move was c5. } (14... c5 15. Qa4 Nc6 16. Qc2 g6 17. dxc5 bxc5 18. Be2 Ne5 19. b4) 15. Bb4 Qd7 16. Bxe7 Rxe7 17. Qf3?! { (1.03 → 0.22) Inaccuracy. The best move was Qc2. } (17. Qc2 Qd6 18. Be2 c6 19. Rfe1 h6 20. Nf3 Ne6 21. Nxg6 fxg6) 17... Ne4 18. Bxe4 dxe4 19. Qg3 f6 20. Nh5? { (0.20 → -1.69) Mistake. The best move was Ngh3. } (20. Ngh3 Qf5 21. Ne2 Ne6 22. Nhf4 Nxf4 23. Qxf4 Qxf4 24. Nxf4 Kf7) 20... Qf5 21. Nxf6+? { (-1.65 → -3.33) Mistake. The best move was Rxc7. } (21. Rxc7 Rxc7 22. Qxc7 gxh5 23. Nf7 Nxf7 24. Qxb7 Rc8 25. Qxa7 Qe6) 21... Qxf6 22. h4 Rc8 23. h5 h6 24. Nh3 g5 25. Kh1? { (-2.98 → -4.16) Mistake. The best move was Nf4. } (25. Nf4 c5 26. dxc5 Rec7 27. Rfd1 Nf7 28. b4 bxc5 29. Nd5 Bxd5) 25... Ne6 26. Qh2 c5 27. Ng1? { (-4.92 → -6.48) Mistake. The best move was Rfd1. } (27. Rfd1 Rd7 28. dxc5 Qxb2 29. Rxd7 Qxc1+ 30. Ng1 Nxc5 31. Rd6 Nd3) 27... g4? { (-6.48 → -4.66) Mistake. The best move was cxd4. } (27... cxd4 28. Rxc8+ Bxc8 29. Qb8 Rc7 30. exd4 Qxd4 31. Ne2 Qxb2 32. Ng3) 28. dxc5 Nxc5 29. b4 Nd3 30. Rxc8+ Bxc8 31. Qg3 Re5 32. Ne2 Rxh5+ 33. Kg1 Qh4?! { (-4.98 → -4.00) Inaccuracy. The best move was Re5. } (33... Re5 34. Qh2 h5 35. g3 Ba6 36. Nd4 Bc4 37. Rd1 a5 38. Ra1) 34. Qxh4 Rxh4 35. g3?! { (-4.26 → -4.86) Inaccuracy. The best move was Nf4. } (35. Nf4 Ba6 36. Rb1 Nxf4 37. exf4 Rh5 38. Rc1 Rf5 39. g3 Kg7) 35... Rh5 36. Nc3 Ne5 37. Nxe4?! { (-5.15 → Mate in 2) Checkmate is now unavoidable. The best move was Kg2. } (37. Kg2 Kg7 38. Ra1 Nd3 39. Ne2 Ba6 40. Nd4 Bc4 41. Rb1 Rd5) 37... Nf3+ 38. Kg2 Rh2# 0-1
