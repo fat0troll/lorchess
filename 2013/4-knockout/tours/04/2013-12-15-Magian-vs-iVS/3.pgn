@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/nqdkzk0p"]
+[Date "2013.12.15"]
+[White "Magian"]
+[Black "iVS"]
+[Result "1-0"]
+[WhiteElo "1447"]
+[BlackElo "1383"]
+[PlyCount "65"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. Nf3 Nc6 5. c3 Qb6 6. Be2 cxd4 7. cxd4 Bb4+? { (-0.20 → 0.82) Mistake. The best move was Nge7. } (7... Nge7 8. Nc3 Nf5 9. Na4 Bb4+ 10. Kf1 Qd8 11. g3 O-O 12. Kg2) 8. Nc3 Nge7 9. O-O Nf5 10. a3 Be7 11. Na4 Qc7 12. Bb5?! { (0.54 → -0.14) Inaccuracy. The best move was g4. } (12. g4 Nh4 13. Nxh4 Bxh4 14. Be3 O-O 15. Qc2 f6 16. f4 b6) 12... Bd7 13. Bxc6 Bxc6 14. Nc3 O-O?! { (-0.60 → 0.08) Inaccuracy. The best move was h6. } (14... h6 15. g4 Nh4 16. Nxh4 Bxh4 17. f4 O-O 18. f5 Qb6 19. f6) 15. Be3? { (0.08 → -0.92) Mistake. The best move was g4. } (15. g4 Nh6 16. Bxh6 gxh6 17. Qd2 Kg7 18. Kg2 Rac8 19. Rfe1 Qd8) 15... Nxe3 16. fxe3 b5 17. Rac1 Qb6?! { (-1.09 → -0.56) Inaccuracy. The best move was Qd7. } (17... Qd7 18. Rfe1 Rac8 19. e4 dxe4 20. Nxe4 Bxe4 21. Rxc8 Rxc8 22. Rxe4) 18. Ne2 b4 19. axb4 Bxb4 20. Qb3 a5 21. Nf4 Qb7 22. Ng5?! { (-0.98 → -1.69) Inaccuracy. The best move was Nd3. } (22. Nd3 Bb5 23. Nc5 Qe7 24. Nd3 Bc4 25. Qc2 Rfc8 26. Rfd1 Ba6) 22... Qd7?? { (-1.69 → 4.06) Blunder. The best move was h6. } (22... h6 23. Nf3 a4 24. Qc2 Bb5 25. Rf2 Rfc8 26. Qd1 Rxc1 27. Qxc1) 23. Qc2 g6 24. Qxc6 Qe7? { (4.18 → 6.02) Mistake. The best move was Qxc6. } (24... Qxc6 25. Rxc6 a4 26. Ra1 Be7 27. Nf3 Rfb8 28. Rc2 g5 29. Nd3) 25. Nf3? { (6.02 → 4.44) Mistake. The best move was Nxf7. } (25. Nxf7 Bd2 26. Nh6+ Kh8 27. Nxe6 Bxe3+ 28. Kh1 Bxh6 29. Nxf8 Rxf8) 25... Rfc8?? { (4.44 → 10.46) Blunder. The best move was a4. } (25... a4 26. e4 dxe4 27. Qxe4 a3 28. bxa3 Bxa3 29. Rca1 Rfb8 30. Nd3) 26. Qa4?? { (10.46 → 4.38) Blunder. The best move was Qxc8+. } (26. Qxc8+ Rxc8 27. Rxc8+ Kg7 28. Rfc1 Bd2 29. Nxd2 Qb4 30. Rc1c2 Qb6) 26... Rc7 27. Nd3 Rac8 28. Rxc7 Qxc7? { (4.74 → 5.93) Mistake. The best move was Rxc7. } (28... Rxc7 29. Rf2 Kg7 30. Rc2 Rxc2 31. Qxc2 h6 32. Kf2 Qb7 33. Qa4) 29. Rc1 Qb7 30. Rxc8+ Qxc8 31. Nxb4 Qc1+ 32. Kf2 Qxb2+? { (6.36 → 8.42) Mistake. The best move was axb4. } (32... axb4 33. Qxb4 Kg7 34. Qc3 Qa1 35. Nd2 h6 36. h3 h5 37. e4) 33. Nc2 1-0
