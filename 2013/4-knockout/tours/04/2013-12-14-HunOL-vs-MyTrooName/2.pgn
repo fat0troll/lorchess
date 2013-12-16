@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/4bffv129"]
+[Date "2013.12.14"]
+[White "sshilovsky"]
+[Black "HunOL"]
+[Result "1-0"]
+[WhiteElo "1266"]
+[BlackElo "1429"]
+[PlyCount "59"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 g6?! { (0.14 → 0.96) Inaccuracy. The best move was e6. } (1... e6 2. d4 d5 3. exd5 exd5 4. Nc3 Nf6 5. Nf3 Bd6 6. Bd3) 2. d4 Bg7 3. Be3 d6 4. c3 Nf6 5. f3 Nc6 6. Qa4?! { (0.50 → -0.46) Inaccuracy. The best move was Bd3. } (6. Bd3 d5 7. e5 Nd7 8. Ne2 f6 9. f4 Nb6 10. Nd2 O-O) 6... Bd7 7. Bb5 e5?! { (-0.54 → 0.00) Inaccuracy. The best move was a6. } (7... a6 8. Bxc6 Bxc6 9. Qb3 d5 10. e5 Nd7 11. Ne2 Nb6 12. O-O) 8. d5 Ne7 9. Bxd7+ Qxd7 10. Qxd7+ Nxd7 11. Nh3 c6 12. c4 cxd5 13. cxd5 O-O?! { (0.28 → 0.98) Inaccuracy. The best move was Rac8. } (13... Rac8 14. Nc3 a6 15. O-O O-O 16. Rac1 f5 17. Bg5 Bf6 18. Bh6) 14. Ng5?! { (0.98 → 0.18) Inaccuracy. The best move was Na3. } (14. Na3 Nf6 15. Rac1 Rfd8 16. O-O a6 17. Nc4 b5 18. Na5 Rdc8) 14... Bh6 15. Ke2 Bxg5 16. Bxg5 f6 17. Bh6 Rfc8 18. Nc3 f5?! { (0.26 → 1.09) Inaccuracy. The best move was a6. } (18... a6 19. Rac1 b5 20. h4 Kf7 21. Bd2 h5 22. b3 Rab8 23. g3) 19. Bg5 Kf7? { (0.90 → 1.93) Mistake. The best move was Kf8. } (19... Kf8 20. g4 f4 21. h4 Ng8 22. h5 Kg7 23. hxg6 Kxg6 24. Bh4) 20. Rac1? { (1.93 → 0.28) Mistake. The best move was Nb5. } (20. Nb5 Rc2+ 21. Bd2 Nc8 22. Rac1 Rc5 23. Nc7 Rb8 24. Ne6 Rxc1) 20... a6 21. Rhf1 Ng8 22. exf5 gxf5 23. g4 f4? { (0.08 → 2.36) Mistake. The best move was Kg6. } (23... Kg6 24. Bd2 Ngf6 25. gxf5+ Kxf5 26. Rfg1 Rcg8 27. h4 h6 28. Bxh6) 24. Ne4 Kg6 25. h4 h6 26. h5+ Kh7? { (3.11 → 4.62) Mistake. The best move was Kg7. } (26... Kg7 27. Bh4 Ngf6 28. Nxd6 Rxc1 29. Bxf6+ Nxf6 30. Rxc1 Nxd5 31. Rc5) 27. Bh4 Ndf6? { (4.96 → 7.85) Mistake. The best move was Nb6. } (27... Nb6 28. Nxd6 Rxc1 29. Rxc1 Nxd5 30. Rc5 Ngf6 31. Bxf6 Nxf6 32. Rc7+) 28. Nxf6+ Nxf6 29. Bxf6 Rce8? { (7.69 → 13.97) Mistake. The best move was Kg8. } (29... Kg8 30. Be7 Kf7 31. Bxd6 Rcd8 32. Rc7+ Kg8 33. Be7 Rxd5 34. Rfc1) 30. Rc7+ 1-0
