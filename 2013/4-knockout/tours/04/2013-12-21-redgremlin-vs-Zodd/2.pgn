@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/zpqn6e6v"]
+[Date "2013.12.21"]
+[White "zodd"]
+[Black "gremlin_the_red"]
+[Result "0-1"]
+[WhiteElo "1323"]
+[BlackElo "1365"]
+[PlyCount "42"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Nf5?! { (0.54 → -0.28) Inaccuracy. The best move was Ndb5. } (6. Ndb5 Bb4 7. a3 Bxc3+ 8. Nxc3 d6 9. Be2 O-O 10. Be3 Be6) 6... d5 7. Ng3? { (-0.16 → -1.33) Mistake. The best move was exd5. } (7. exd5 Bxf5 8. dxc6 Qxd1+ 9. Nxd1 bxc6 10. Ne3 Be6 11. Nc4 e4) 7... d4 8. Na4? { (-1.29 → -3.81) Mistake. The best move was Nb1. } (8. Nb1 Be6 9. Nd2 Rac8 10. a3 h5 11. h4 Qa5 12. Rab1 Ng4) 8... Qa5+ 9. Nc3? { (-3.87 → -5.41) Mistake. The best move was c3. } (9. c3 b5 10. Bd2 Qxa4 11. Qxa4 bxa4 12. Bb5 Bd7 13. Bxa4 Rab8) 9... dxc3 10. b3? { (-5.55 → -6.58) Mistake. The best move was bxc3. } (10. bxc3 h5 11. h4 Bc5 12. Bd3 Qxc3+ 13. Bd2 Qd4 14. O-O Ng4) 10... Be7?! { (-6.58 → -5.91) Inaccuracy. The best move was Bg4. } (10... Bg4 11. f3 Rad8 12. Bd3 Be6 13. Bg5 Nb4 14. O-O Nxd3 15. cxd3) 11. Bc4 O-O 12. O-O?! { (-5.57 → -6.50) Inaccuracy. The best move was Bg5. } (12. Bg5 Rfd8 13. Qb1 Nd4 14. O-O Be6 15. Bd3 Rd7 16. Qe1 h6) 12... Bg4? { (-6.50 → -5.07) Mistake. The best move was Rfd8. } (12... Rfd8 13. Bd3 Nb4 14. Be3 Be6 15. Qe2 Nxd3 16. cxd3 Ba3 17. Bc1) 13. f3 Qc5+ 14. Kh1 Be6 15. Bxe6 fxe6 16. Qd3?! { (-4.78 → -5.53) Inaccuracy. The best move was a3. } (16. a3 Rad8 17. Qe1 Nd4 18. Be3 Qd6 19. Bxd4 Qxd4 20. b4 Qc4) 16... Rad8 17. Qe2? { (-5.79 → -7.87) Mistake. The best move was Be3. } (17. Be3 Rxd3 18. Bxc5 Rd2 19. Bxe7 Nxe7 20. Rfc1 Rfd8 21. Kg1 Nc6) 17... Nd4 18. Qf2? { (-8.20 → -11.73) Mistake. The best move was b4. } (18. b4 Qxb4 19. Qd3 Nb3 20. Qxd8 Rxd8 21. axb3 Qb5 22. Bg5 Bc5) 18... Ng4 19. Qg1 Nxc2 20. Qxc5 Bxc5 21. Rab1 Nf2+ 0-1
