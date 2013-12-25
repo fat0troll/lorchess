@@ -32,3 +32,7 @@ tournaments:
   - name: Осень 2013
     url:  http://www.linux.org.ru/forum/talks/9539078
     dir:  2013/3-autumn
+
+  - name: Knockout!
+    url:  http://www.linux.org.ru/forum/talks/9840999
+    dir:  2013/4-knockout
