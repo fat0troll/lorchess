@@ -37,30 +37,34 @@ h1, h2, h3, h4, h5, h6 { text-align: left; }
   src: url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.eot?#iefix') format('embedded-opentype'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.woff') format('woff'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.ttf') format('truetype'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.svg#CReaderTRegular') format('svg');
 }
 
+.whiteSquare, .blackSquare, .highlightWhiteSquare, .highlightBlackSquare {
+  height: 56px;
+  width: 56px;
+}
 .pieceImage {
-  width: 40px;
-  height: 40px;
+  height: 52px;
+  width: 52px;
 }
 div#BoardWrapper {
   position: relative;
-  width: 320px;
-  height: 320px;
+  width: 448px;
+  height: 448px;
   margin: 0 0 2em;
 }
 span.board_mark {
   position: absolute;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 56px;
+  height: 56px;
+  line-height: 56px;
   color: #bbb;
   font-weight: bold;
   text-transform: uppercase;
 }
 span.board_mark.vert {
-  right: -30px;
+  right: -33px;
 }
 span.board_mark.horz {
-  bottom: -33px;
+  bottom: -36px;
 }
 
 .whiteSquare, .highlightWhiteSquare {
