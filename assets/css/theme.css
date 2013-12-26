@@ -85,6 +85,7 @@ span.board_mark.horz {
   padding: 0 2px;
   font-weight: bold;
 }
+span.variation { padding: 0; }
 .move:hover, .variation:hover,
 .moveOn:hover, .variationOn:hover {
   text-decoration: none;
