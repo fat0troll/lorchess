@@ -37,19 +37,36 @@ h1, h2, h3, h4, h5, h6 { text-align: left; }
   src: url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.eot?#iefix') format('embedded-opentype'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.woff') format('woff'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.ttf') format('truetype'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.svg#CReaderTRegular') format('svg');
 }
 
-.whiteSquare, .blackSquare, .highlightWhiteSquare, .highlightBlackSquare {
-  height: 56px;
-  width: 56px;
+#GameWrapper center {
+  padding: 20px 0;
+  background-color: white;
+  z-index: 10;
 }
-.pieceImage {
-  height: 52px;
-  width: 52px;
+.affix {
+  top: 50px;
+  left: 0;
+  width: inherit;
 }
-div#BoardWrapper {
+@media (min-width: 768px) {
+  #GameWrapper {
+    float: left;
+    width: 478px;
+  }
+  #TextWrapper {
+    margin-left: 478px;
+    width: auto;
+  }
+}
+
+#BoardWrapper {
   position: relative;
   width: 448px;
   height: 448px;
   margin: 0 0 2em;
+}
+.whiteSquare, .blackSquare, .highlightWhiteSquare, .highlightBlackSquare {
+  height: 56px;
+  width: 56px;
 }
 span.board_mark {
   position: absolute;
@@ -65,6 +82,10 @@ span.board_mark.vert {
 }
 span.board_mark.horz {
   bottom: -36px;
+}
+.pieceImage {
+  height: 52px;
+  width: 52px;
 }
 
 .whiteSquare, .highlightWhiteSquare {
@@ -94,17 +115,6 @@ span.variation { padding: 0; }
   color: #fff !important;
   background: #428bca;
   border-radius: .25em;
-}
-
-#GameWrapper center {
-  padding: 20px 0;
-  background-color: white;
-  z-index: 10;
-}
-.affix {
-  top: 50px;
-  left: 0;
-  width: inherit;
 }
 
 /* Tournament table */

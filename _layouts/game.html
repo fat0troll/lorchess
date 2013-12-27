@@ -10,11 +10,11 @@ layout: default
 <!-- Add the extra clearfix -->
 <div class="clearfix"></div>
 
-<div class="col-xs-12 col-md-6" id="GameWrapper">
+<div id="GameWrapper" class="col-xs-12">
   {% include pgn4web.html %}
 </div>
 
-<div class="col-xs-12 col-md-6">
+<div id="TextWrapper" class="col-xs-12">
   <!-- paste your PGN below and make sure you dont specify an external
   source with SetPgnUrl() -->
   <form style="display:none;">
@@ -29,6 +29,3 @@ layout: default
     <button type="button" class="btn btn-primary">Загрузить PGN</button>
   </a>
 </div>
-
-<!-- Add the extra clearfix -->
-<div class="clearfix"></div>
