@@ -37,6 +37,19 @@ h1, h2, h3, h4, h5, h6 { text-align: left; }
   src: url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.eot?#iefix') format('embedded-opentype'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.woff') format('woff'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.ttf') format('truetype'), url('{{ site.baseurl }}/assets/fonts/pgn4web/ChessInformantReader.svg#CReaderTRegular') format('svg');
 }
 
+#GameWrapper {
+  float: left;
+  width: 478px;
+}
+#TextWrapper {
+  margin-left: 478px;
+  width: auto;
+}
+@media (max-width: 767px), handheld and (orientation: portrait) {
+  #GameWrapper { width: 100%; }
+  #TextWrapper { margin-left: 0; }
+}
+
 #GameWrapper center {
   padding: 20px 0;
   background-color: white;
@@ -46,16 +59,6 @@ h1, h2, h3, h4, h5, h6 { text-align: left; }
   top: 50px;
   left: 0;
   width: inherit;
-}
-@media (min-width: 768px) {
-  #GameWrapper {
-    float: left;
-    width: 478px;
-  }
-  #TextWrapper {
-    margin-left: 478px;
-    width: auto;
-  }
 }
 
 #BoardWrapper {
