@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/b1s4skzh"]
+[Date "2014.01.08"]
+[White "Magian"]
+[Black "Nedis"]
+[Result "0-1"]
+[WhiteElo "1790"]
+[BlackElo "1688"]
+[PlyCount "68"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 Nf6 2. Nc3 Nc6 3. d4 d5 4. e5 Ne4 5. Nxe4 dxe4 6. Bb5?! { (0.88 → 0.20) Inaccuracy. The best move was c3. } (6. c3 Bf5 7. Ne2 e6 8. Ng3 Be7 9. Nxf5 exf5 10. Bc4 O-O) 6... Bd7 7. c3 Nxe5 8. Bxd7+ Nxd7 9. Ne2?! { (0.02 → -0.48) Inaccuracy. The best move was Qe2. } (9. Qe2 c6 10. Qxe4 e6 11. Nf3 Bd6 12. O-O O-O 13. Qc2 h6) 9... Nf6 10. O-O e6 11. Bg5 Qd5 12. Bh4 O-O-O 13. Qa4 Kb8 14. b4?! { (-1.19 → -1.81) Inaccuracy. The best move was c4. } (14. c4 Qh5 15. Bxf6 gxf6 16. Ng3 Qh4 17. c5 c6 18. Rac1 f5) 14... Bd6 15. b5?? { (-1.83 → -6.14) Blunder. The best move was Qa5. } (15. Qa5 Qc4 16. Bxf6 gxf6 17. Qh5 Rhg8 18. Rfe1 Rg7 19. g3 f5) 15... Qh5 16. Bg3 Qxe2 17. Rfe1 Qd2 18. Bxd6 Rxd6 19. Rac1?! { (-6.94 → -7.67) Inaccuracy. The best move was Qc4. } (19. Qc4 Nd5 20. Rac1 Nf4 21. Rcd1 Qc2 22. Qf1 f5 23. f3 exf3) 19... Rd5 20. Red1?! { (-7.57 → -8.12) Inaccuracy. The best move was Rcd1. } (20. Rcd1 Qb2 21. Rdc1 Rhd8 22. h3 Rxb5 23. Kh2 Rbd5 24. Rc2 Qb6) 20... Qe2?! { (-8.12 → -7.33) Inaccuracy. The best move was Qf4. } (20... Qf4 21. h3 e3 22. Qc2 Ne4 23. fxe3 Qxe3+ 24. Kh2 Rxb5 25. Rd3) 21. Rde1 Qxb5 22. Qc2 Qa6 23. Red1 Rhd8 24. Qb2 e5 25. c4? { (-8.60 → -9.63) Mistake. The best move was Qb3. } (25. Qb3 Qd6 26. h3 Rd8d7 27. Qc2 exd4 28. cxd4 Rd5xd4 29. Rxd4 Qxd4) 25... Rd5xd4 26. Rxd4 exd4 27. c5 d3 28. Qd2 e3 29. fxe3 Ne4 30. Qd1 d2 31. Rc2 Qd3 32. Rb2 Qxe3+ 33. Kh1 Qe1+ 34. Qxe1 dxe1=R# 0-1
