@@ -1,4 +1,5 @@
 <center data-spy="affix">
+  <div id="GameSelector"></div>
   <b><span id="GameWhite"></span>&nbsp;-&nbsp;<span id="GameBlack"></span>&nbsp;&nbsp;<span id="GameResult"></span></b>
   <p></p>
   <div id="BoardWrapper">
@@ -37,6 +38,7 @@
 
  SetImagePath("{{ site.baseurl }}/assets/img/chesspieces/wikipedia");
  SetImageType("png");
+ SetGameSelectorOptions("Выбрать партию ...", false, 0, 0, 0, 15, 15, 0, 10); // (head, num, chEvent, chSite, chRound, chWhite, chBlack, chResult, chDate);
  SetCommentsOnSeparateLines(true);
  SetAutoplayDelay(1000); // milliseconds
  SetAutostartAutoplay(false);
