@@ -2,8 +2,8 @@
 require 'rake'
 
 # The year and title of tournament
-@year = '2013'
-@tournament ='4-knockout'
+@year = '2014'
+@tournament ='1-tabiyas'
 
 # Ask to choose the directory of PGN file
 @ask_dir = true

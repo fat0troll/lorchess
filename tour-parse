@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-YEAR=2013
-TOURNAMENT=3-autumn
+YEAR=2014
+TOURNAMENT=1-tabiyas
 SCRIPT_PATH=`dirname $0`
 
 # Regexps to parse the result of game

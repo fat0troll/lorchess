@@ -5,7 +5,7 @@ module LORChess
 
     require 'yaml'
 
-    DATADIR='2013/3-autumn'
+    DATADIR='2014/1-tabiyas'
 
     dir = File.dirname(__FILE__)
     players_yaml = File.expand_path("../../#{DATADIR}/players.yml", dir)
