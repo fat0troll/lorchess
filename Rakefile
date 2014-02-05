@@ -147,7 +147,7 @@ namespace :pgn do
     fix_date # fix the game date
   end
 
-  desc "Move PNG into the directory of destination"
+  desc "Move PGN into the directory of destination"
   task :mv do
     require 'fileutils'
 
