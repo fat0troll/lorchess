@@ -140,7 +140,7 @@ namespace :pgn do
     require 'open-uri'
 
     doc = Nokogiri::HTML open ENV['url']
-    link = doc.css('a.view_pgn_toggle').first
+    link = doc.css('.fen_pgn a').first
     pgn_url = 'http://lichess.org' + link['href']
     str = URI.parse(pgn_url).read
     File.open('temp.pgn', 'w') { |f| f.write str }
