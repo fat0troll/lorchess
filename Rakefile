@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+extend Math
 require 'rake'
 
 # The year and title of tournament
@@ -23,7 +24,7 @@ yaml_file = File.expand_path("#{@year}/#{@tournament}/players.yml", file_dir)
   @player_lichess[lichess] = player['lor']
 end
 
-# Fix a player name in PGN
+# Fix the player's name in PGN
 def fix_player color, name
   str = File.open('temp.pgn', 'r') { |f| f.read }
   player_regex = Regexp.new "^\\[#{color.capitalize} \".*\"\\]$"
@@ -31,7 +32,7 @@ def fix_player color, name
   File.open('temp.pgn', 'w+') do |f|
     f.write(parts[0] + "[#{color.capitalize} \"#{name}\"]" + parts[2])
   end
-  puts "The 'lichess' name '#{name}' of #{color} player incorporated into PGN"
+  puts "The 'lichess' name of #{color} player is changed to '#{name}'"
 end
 
 # Fix the game date in PGN: YYYY-MM-DD -> YYYY.MM.DD
@@ -51,14 +52,15 @@ end
 
 # Returns the 'lichess' name of player to be corrected
 def choose_player
-  print "Would you like to correct the player name? (Y/N) > "
+  print "Would you like to correct the player's name? (Y/N)> "
   answer = $stdin.gets.chomp
   if ['Yes', 'yes', 'Y', 'y'].include? answer
+    indention = (log(@config.size) / log(10)).floor + 1
     @config.each do |player|
-      puts "%2.0f. %s" % [ player['number'], player['lor'] ]
+      puts "%#{indention}.0f. %s" % [ player['number'], player['lor'] ]
     end
 
-    print "Put the player number > "
+    print "Put the player's number> "
     num = Integer $stdin.gets.chomp
     @config[num-1]['lichess']
   else
@@ -78,7 +80,7 @@ def pgn_dirs
   black = @player_lichess[black_lichess]
 
   unless white
-    puts "Could not recognize white player '#{white_lichess}'"
+    puts "Could not find white player '#{white_lichess}'"
     name = choose_player
     fix_player 'white', name
     white = @player_lichess[name]
@@ -103,7 +105,7 @@ end
 # Make the directory to move PGN file in
 def mk_dir dir
   puts "Directory '#{dir}' does not exist"
-  print "Create the directory? (Y/N) > "
+  print "Create the directory? (Y/N)> "
   answer = $stdin.gets.chomp
   if ['Yes', 'yes', 'Y', 'y'].include? answer
     FileUtils.mkdir_p dir
@@ -115,9 +117,9 @@ end
 # Choose and make the directory to move PGN file in
 def choose_and_mk_dir dirs
   puts "Choose a directory of PGN file from the list below:"
-  dirs.each_with_index { |dir, index| puts "%2.0f. %s" % [index+1, dir] }
+  dirs.each_with_index { |dir, index| puts "%1.0f. %s" % [index+1, dir] }
 
-  print "Create a directory? (Number) > "
+  print "Create a directory? (Number)> "
   num = Integer $stdin.gets.chomp
   FileUtils.mkdir_p dirs[num-1]
 end
