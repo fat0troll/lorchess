@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/HWDmOrff"]
+[Date "2014.02.08"]
+[White "kilop_mer"]
+[Black "aptypr"]
+[Result "0-1"]
+[WhiteElo "1190"]
+[BlackElo "1596"]
+[PlyCount "34"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4?! { (0.30 → -0.20) Inaccuracy. The best move was Nc3. } (4. Nc3 Nf6 5. d3 h6 6. O-O O-O 7. Nd5 d6 8. c3 a6) 4... Bxb4 5. c3 Ba5 6. d4 d6?! { (-0.56 → 0.00) Inaccuracy. The best move was exd4. } (6... exd4 7. O-O dxc3 8. Qb3 Qf6 9. e5 Qg6 10. Nxc3 Nge7 11. Bg5) 7. Bg5 Nf6 8. Qb3?! { (-0.68 → -1.47) Inaccuracy. The best move was Qa4. } (8. Qa4 Bd7 9. Bxf6 Qxf6 10. d5 Qf4 11. dxc6 Bxc6 12. Qxa5 Qc1+) 8... O-O 9. O-O Bg4?! { (-1.73 → -0.82) Inaccuracy. The best move was exd4. } (9... exd4 10. cxd4 h6 11. Bxf6 Qxf6 12. Rfd1 Bb6 13. Qb2 Bg4) 10. Nbd2 Rab8 11. h3 Bh5 12. g4 Bg6 13. Nh4? { (-0.88 → -2.26) Mistake. The best move was dxe5. } (13. dxe5 dxe5 14. Nh4 Bb6 15. Nxg6 hxg6 16. Be2 Qe8 17. Rad1 Rbd8) 13... exd4 14. Nxg6 hxg6 15. cxd4 Bxd2 16. d5?? { (-2.46 → -6.90) Blunder. The best move was Bxd2. } (16. Bxd2 Nxe4 17. Be3 d5 18. Bb5 a6 19. Be2 Qh4 20. Qxd5 Nc3) 16... Na5 17. Qb2?? { (-6.72 → -11.23) Blunder. The best move was Bxf6. } (17. Bxf6 Qxf6 18. Qd3 Nxc4 19. Qxc4 Ba5 20. Kg2 Qf4 21. Rab1 Bb6) 
