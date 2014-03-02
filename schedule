@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 REPO=fat0troll/lorchess
-TOURNEY=autumn2013
+TOURNEY=2014/1-tabiyas
 
 # Variables
 date="[0-9]\{2\}\.[0-9]\{2\}\.[0-9]\{4\}"
@@ -57,7 +57,7 @@ fi
 
 for i in $seq; do
 
-    url="https://raw.github.com/${REPO}/master/${TOURNEY}/tour_${i}/tour_info"
+    url="https://raw.github.com/${REPO}/master/${TOURNEY}/tours/${i}/tour_info"
 
     # Store 'tour_info' in an array of lines.
     # *NOTE* The incorporation of newline at the end of 'tour_info'
