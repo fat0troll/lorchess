@@ -140,8 +140,8 @@ module LORChess
 
     def to_html
 
-      @buffer << "<table class=\"table table-bordered tournament tablesorter\">\n"
-      @buffer << "  <caption><strong>LOR Chess : Осень-2013</strong><caption>\n"
+      @buffer << "<table class=\"table tournament tablesorter\">\n"
+      @buffer << "  <caption><strong>Таблица результатов</strong><caption>\n"
       @buffer << "  <thead>\n"
       @buffer << "    <tr>\n"
       @buffer << "      <th>№</th>\n"
@@ -158,6 +158,11 @@ module LORChess
       @buffer << "      <th>Бергер</th>\n"
       @buffer << "    </tr>\n"
       @buffer << "  </thead>\n"
+      @buffer << "  <tfoot>\n"
+      @buffer << "    <tr>\n"
+      @buffer << "      <td colspan=\"" << (@@dim + 7).to_s << "\">* Средний elo на начало турнира</td>\n"
+      @buffer << "    </tr>\n"
+      @buffer << "  </tfoot>\n"
       @buffer << "  <tbody>\n"
 
       @@dim.times do |i|
@@ -184,7 +189,6 @@ module LORChess
 
       @buffer << "  </tbody>\n"
       @buffer << "</table>\n"
-      @buffer << "* Средний elo на 13.09.2013 3.00 МСК"
       @buffer
     end
 
