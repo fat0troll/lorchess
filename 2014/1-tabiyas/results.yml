@@ -1,5 +1,10 @@
 - number: 1
   games:
+  - date:   20.02.2014
+    white:  HunOL
+    black:  MyTrooName
+    result: '1:0'
+
   - date:   08.02.2014
     white:  kilop
     black:  aptyp
@@ -63,6 +68,11 @@
 
 - number: 5
   games:
+  - date:   05.03.2014
+    white:  DoctorSinus
+    black:  HunOL
+    result: '1:0'
+
   - date:   26.02.2014
     white:  trex6
     black:  aptyp
