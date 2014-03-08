@@ -6,11 +6,6 @@
     result: '1:0'
 
   - date:   08.02.2014
-    white:  kilop
-    black:  aptyp
-    result: '0:1'
-
-  - date:   08.02.2014
     white:  iVS
     black:  Magian
     result: '1:0'
@@ -22,11 +17,6 @@
 
 - number: 2
   games:
-  - date:   16.02.2014
-    white:  HunOL
-    black:  kilop
-    result: '1:0'
-
   - date:   08.02.2014
     white:  Magian
     black:  DoctorSinus
