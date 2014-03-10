@@ -22,6 +22,11 @@
     black:  DoctorSinus
     result: '1:0'
 
+  - date:   13.02.2014
+    white:  MyTrooName
+    black:  trex6
+    result: '1:0'
+
 - number: 3
   games:
   - date:   27.02.2014
@@ -58,6 +63,11 @@
 
 - number: 5
   games:
+  - date:   10.03.2014
+    white:  Adem
+    black:  MyTrooName
+    result: '1:0'
+
   - date:   05.03.2014
     white:  DoctorSinus
     black:  HunOL
@@ -79,4 +89,23 @@
     white:  aptyp
     black:  Magian
     result: '0:1'
+
+- number: 7
+  games:
+  - date:   10.03.2014
+    white:  Magian
+    black:  HunOL
+    result: '1:0'
+
+  - date:   10.03.2014
+    white:  redgremlin
+    black:  aptyp
+    result: '0.5:0.5'
+
+- number: 8
+  games:
+  - date:   10.03.2014
+    white:  MyTrooName
+    black:  aptyp
+    result: '1:0'
 
