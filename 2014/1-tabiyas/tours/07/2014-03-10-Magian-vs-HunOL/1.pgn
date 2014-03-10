@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/tdy5NQsC"]
+[Date "2014.03.10"]
+[White "Magian"]
+[Black "HunOL"]
+[Result "1-0"]
+[WhiteElo "1790"]
+[BlackElo "1781"]
+[PlyCount "63"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. f3 axb5 6. e4 Qa5+ 7. Bd2 b4 8. Na3 e6 9. Nc4 Qc7 10. Bg5 Bd6? { (0.04 → 2.76) Mistake. The best move was Ba6. } (10... Ba6 11. Nh3 Bxc4 12. Bxc4 Bd6 13. Qd2 exd5 14. Bxd5 Nxd5 15. Qxd5 Ra6 16. O-O-O O-O) 11. dxe6? { (2.76 → 1.45) Mistake. The best move was Bxf6. } (11. Bxf6 gxf6 12. dxe6 Bxh2 13. exf7+ Ke7 14. Qd5 Bg3+ 15. Kd1 Qc6 16. Qh5 Rhf8 17. Qxh7 d5 18. Ne3 dxe4) 11... Be5? { (1.45 → 3.62) Mistake. The best move was Bxh2. } (11... Bxh2 12. exf7+ Kxf7 13. Bxf6 Bg3+ 14. Ke2 Kxf6 15. Qd5 Bb7 16. Qf5+ Ke7 17. Kd1 Ba6 18. Kc2 Nc6 19. Qxc5+) 12. exf7+ Kxf7 13. Nxe5+? { (3.84 → 2.40) Mistake. The best move was Bxf6. } (13. Bxf6 Kxf6 14. f4 Bxf4 15. Nh3 Bxh2 16. Qd5 Bg3+ 17. Kd1 Bb7 18. Qg5+ Kf7 19. e5 Kg8 20. Qxg3 Bd5) 13... Qxe5 14. Bc4+ Kg6 15. Qd2?? { (2.66 → -0.70) Blunder. The best move was Nh3. } (15. Nh3 Qxb2 16. Rac1 h6 17. Be3 Kh7 18. Rc2 Qe5 19. Bxc5 Nc6 20. Bd6 Qa5 21. O-O Ba6 22. Bxa6 Qxa6) 15... d5?? { (-0.70 → 3.55) Blunder. The best move was Qxg5. } (15... Qxg5 16. f4 Nxe4 17. fxg5 Nxd2 18. Bd5 Ra6 19. Rad1 c4 20. Rxd2 c3 21. Re2 Nc6 22. Nf3 Ra5 23. Be4+) 16. f4?? { (3.55 → -1.15) Blunder. The best move was Bxf6. } (16. Bxf6 gxf6 17. Bxd5 Rhd8 18. Ne2 Kg7 19. Nf4 Nc6 20. Qc1 Rxd5 21. Nxd5 Be6 22. Nf4 Bxa2 23. Nd3 Qd4) 16... Qxe4+ 17. Be2 Qxg2?? { (-0.68 → 11.97) Blunder. The best move was Nc6. } (17... Nc6 18. Nf3 Ba6 19. f5+ Kf7 20. Be3 h6 21. Bxa6 Rxa6 22. O-O d4 23. Bf2 Qxf5 24. Bh4) 18. Bd3+ Qe4+ 19. Bxe4+ Nxe4 20. Qxd5 Rhe8 21. Qxa8 Nc3+ 22. Kf1 Ba6+ 23. Kg2 Bb5 24. Nf3 Bc6 25. Qa7 Re2+ 26. Kg3 Ne4+ 27. Kh4 Nxg5 28. Nxg5 Bd7?! { (34.14 → Mate in 8) Checkmate is now unavoidable. The best move was Nd7. } (28... Nd7 29. Qa6 Nf6 30. f5+ Kxf5 31. Qxe2 Kg6 32. Rhf1 c4 33. Qc2+ Be4 34. Nxe4 b3 35. Qxc4 h5 36. Nxf6) 29. Rad1 h6 30. Rd6+ Kf5 31. Qxc5+ Kxf4 32. Rf1+ 1-0
