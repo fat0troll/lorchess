@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/8HN2xZIt"]
+[Date "2014.03.16"]
+[White "Adem"]
+[Black "HunOL"]
+[Result "1-0"]
+[WhiteElo "1655"]
+[BlackElo "1781"]
+[PlyCount "57"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 Nf5 8. Bd3 g6?! { (0.38 → 1.13) Inaccuracy. The best move was O-O. } (8... O-O 9. Nf3 c4 10. Bxf5 exf5 11. Qh5 Nc6 12. O-O Qa5 13. a4 h6 14. Bd2 Be6 15. Rfb1 Qc7 16. Kh1) 9. Bg5?! { (1.13 → 0.43) Inaccuracy. The best move was Nf3. } (9. Nf3 Nc6 10. O-O c4 11. Bxf5 exf5 12. Qh3 h5 13. Bg5 Qa5 14. Bf6 O-O 15. Ng5 f4 16. Qf3 Bf5) 9... Qc7 10. Ne2 Nc6? { (0.62 → 1.89) Mistake. The best move was Ng7. } (10... Ng7 11. dxc5 Nd7 12. Qf4 Nh5 13. Qa4 O-O 14. Be7 Nxc5 15. Qh4 Rfe8 16. Bd6) 11. O-O Nce7 12. h4?! { (1.93 → 1.31) Inaccuracy. The best move was Bf6. } (12. Bf6 Rhf8 13. dxc5 Qxc5 14. Rfb1 a6 15. Qa4+ Bd7 16. Qf4 Ng8 17. Bxf5 Nxf6 18. exf6 gxf5 19. Rxb7 Rac8) 12... Ng7 13. f4?? { (1.35 → -2.90) Blunder. The best move was Bf6. } (13. Bf6 O-O 14. Ng3 c4 15. Be2 Ne8 16. Bg5 Nf5 17. Nxf5 exf5 18. Qf3 Be6 19. Rfb1 Ng7 20. a4 Rae8) 13... h5? { (-2.90 → -0.68) Mistake. The best move was c4. } (13... c4 14. Qf3 O-O 15. Rfc1 Rfe8 16. Ng3 cxd3 17. cxd3 Bd7 18. Bxe7 Rxe7 19. h5 Nf5 20. Nxf5 gxf5 21. c4) 14. Qh3? { (-0.68 → -3.01) Mistake. The best move was Bb5+. } (14. Bb5+ Bd7 15. Bxd7+ Qxd7 16. Qf3 Rac8 17. Qf2 cxd4 18. Nxd4 Rxc3 19. Rab1 Rc4 20. Rb4 O-O 21. Rxc4 dxc4) 14... Ngf5?? { (-3.01 → 0.22) Blunder. The best move was c4. } (14... c4 15. Bxe7 Kxe7 16. Qg3 cxd3 17. cxd3 Nf5 18. Qg5+ Kf8 19. Qf6 Rh7 20. Rac1 Qe7 21. Qxe7+ Kxe7 22. c4) 15. Qf3 c4 16. Bxf5 Nxf5 17. Ng3 Ng7 18. Bf6 Rh7 19. Bxg7?! { (1.50 → 0.80) Inaccuracy. The best move was f5. } (19. f5 Nxf5 20. Nxf5 gxf5 21. Qf4 Kf8 22. Qg5 b6 23. Rf3 Bb7 24. Rg3) 19... Rxg7 20. f5 exf5 21. Qxd5 Be6 22. Qb5+ Qc6 23. Qxc6+ bxc6 24. Rab1 c5?! { (0.48 → 1.35) Inaccuracy. The best move was f6. } (24... f6 25. Rfe1 Kf7 26. Ne2 fxe5 27. dxe5 Re8 28. Nf4 Bd5 29. Rbd1 Be4 30. Rd7+ Kg8 31. e6 Rxd7 32. exd7) 25. Rb5 cxd4 26. cxd4 a6?! { (0.80 → 1.63) Inaccuracy. The best move was f6. } (26... f6 27. Ne2 fxe5 28. Rxe5 Re7 29. Nf4 Bf7 30. Rfe1 Rxe5 31. Rxe5+ Kf8 32. Ra5 Rb8 33. Rxa7 Rb2 34. Kf2) 27. Rb6 Bd5 28. c3 Kd7?? { (1.55 → 6.04) Blunder. The best move was Ke7. } (28... Ke7 29. Rd6 Rd8 30. Rxa6 Rgg8 31. Ra5 Rd7 32. Rb1 Ra8 33. Rxa8 Bxa8 34. Rb4 Ra7 35. Rxc4 f6 36. exf6+) 29. Rd6+ 1-0
