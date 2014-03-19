@@ -132,6 +132,11 @@
 
 - number: 7
   games:
+  - date:   18.03.2014
+    white:  DoctorSinus
+    black:  Adem
+    result: '0:1'
+
   - date:   10.03.2014
     white:  Magian
     black:  HunOL
@@ -158,4 +163,11 @@
     white:  iVS
     black:  DoctorSinus
     result: '1:0'
+
+- number: 10
+  games:
+  - date:   19.03.2014
+    white:  MyTrooName
+    black:  HunOL
+    result: '0:1'
 
