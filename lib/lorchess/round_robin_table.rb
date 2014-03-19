@@ -5,7 +5,8 @@ module LORChess
 
     require 'yaml'
 
-    DATADIR='2014/1-tabiyas'
+    DATADIR = '2014/1-tabiyas'
+    ROUNDS = 2
 
     dir = File.dirname(__FILE__)
     players_yaml = File.expand_path("../../#{DATADIR}/players.yml", dir)
@@ -14,6 +15,7 @@ module LORChess
     @@db_results = YAML.load_file results_yaml
 
     @@dim = @@db_players.length
+    @@rounds = ROUNDS || 1
 
     # Sort players in numerical order
     @@db_players.sort! { |x,y| x['number'] <=> y['number'] }
@@ -21,11 +23,13 @@ module LORChess
     def initialize
       @players = @@db_players.map { |player| player['lor'] }
       @elo_points = @@db_players.map { |player| player['elo'].to_s }
-      @game_scores = Array.new(@@dim) { Array.new(@@dim) }
-      @player_games = []
-      @total_scores = []
-      @player_places = []
-      @berger_coefs = []
+      @game_scores = Array.new(@@rounds) {
+        Array.new(@@dim) { Array.new(@@dim) }
+      }
+      @player_games = Array.new(@@dim, 0)
+      @total_scores = Array.new(@@dim, 0.0)
+      @player_places = Array.new(@@dim)
+      @berger_coefs = Array.new(@@dim, 0.0)
       @buffer = ''
 
       # Players withdrew from tournament
@@ -50,33 +54,38 @@ module LORChess
 
     def fill_results
       @@db_results.each do |tour|
+        # zero-based round
+        round = (tour['number'] - 1).div(@@dim)
+
         tour['games'].each do |game|
-          import game
+          import game, round
         end
       end
     end
 
-    def import game
+    def import game, round
       num_white = @player_numbers[game['white']]
       num_black = @player_numbers[game['black']]
       score = game['result'].split ':'
 
-      @game_scores[num_white][num_black] = score[0].to_f
-      @game_scores[num_black][num_white] = score[1].to_f
+      @game_scores[round][num_white][num_black] = score[0].to_f
+      @game_scores[round][num_black][num_white] = score[1].to_f
     end
 
     def calculate
-      @game_scores.each do |row|
-        games = 0
-        sum = 0.0
-        row.each do |score|
-          unless score.nil?
-            games += 1
-            sum += score
+      @game_scores.each do |round|
+        round.each_with_index do |row, index|
+          games = 0
+          sum = 0.0
+          row.each do |score|
+            unless score.nil?
+              games += 1
+              sum += score
+            end
           end
+          @player_games[index] += games
+          @total_scores[index] += sum
         end
-        @player_games << games.to_s
-        @total_scores << sum
       end
 
       calculate_berger
@@ -110,17 +119,24 @@ module LORChess
     end
 
     def calculate_berger
-      @berger_coefs = @game_scores.map do |row|
-        berger = 0.0
-        row.each_with_index do |score, i|
-          berger += score * @total_scores[i] unless score.nil?
+      @game_scores.each do |round|
+        round.each_with_index do |row, index|
+          berger = 0.0
+          row.each_with_index do |score, i|
+            berger += score * @total_scores[i] unless score.nil?
+          end
+          @berger_coefs[index] += berger
         end
-        berger
       end
     end
 
     def results_to_s
-      @game_scores.map! { |row| row.map { |cell| stylize_score cell } }
+      @game_scores.map! do |round|
+        round.map do |row|
+          row.map { |cell| stylize_score cell }
+        end
+      end
+      @player_games.map! { |num| num.to_s }
       @total_scores.map! { |score| stylize_score score }
       @berger_coefs.map! { |coef| coef.to_s }
     end
@@ -148,7 +164,7 @@ module LORChess
       @buffer << "      <th>Участник</th>\n"
       @buffer << "      <th>elo*</th>\n"
 
-      @@dim.times do |i|
+      (@@dim * @@rounds).times do |i|
         @buffer << "      <th class=\"{sorter: false}\">" << (i + 1).to_s << "</th>\n"
       end
 
@@ -160,7 +176,7 @@ module LORChess
       @buffer << "  </thead>\n"
       @buffer << "  <tfoot>\n"
       @buffer << "    <tr>\n"
-      @buffer << "      <td colspan=\"" << (@@dim + 7).to_s << "\">* Средний elo на начало турнира</td>\n"
+      @buffer << "      <td colspan=\"" << (@@dim * @@rounds + 7).to_s << "\">* Средний elo на начало турнира</td>\n"
       @buffer << "    </tr>\n"
       @buffer << "  </tfoot>\n"
       @buffer << "  <tbody>\n"
@@ -172,11 +188,13 @@ module LORChess
         @buffer << "      <td class=\"player\"><strong>" << @players[i] << "</strong></td>\n"
         @buffer << "      <td class=\"elo\">" << @elo_points[i] << "</td>\n"
 
-        @@dim.times do |j|
-          unless j == i
-            @buffer << "      <td class=\"score\">" << @game_scores[i][j] << "</td>\n"
-          else
-            @buffer << "      <td class=\"diagonal\"></td>\n"
+        @@rounds.times do |round|
+          @@dim.times do |j|
+            unless j == i
+              @buffer << "      <td class=\"score\">" << @game_scores[round][i][j] << "</td>\n"
+            else
+              @buffer << "      <td class=\"diagonal\"></td>\n"
+            end
           end
         end
 
