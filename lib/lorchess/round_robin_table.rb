@@ -164,8 +164,8 @@ module LORChess
       @buffer << "      <th>Участник</th>\n"
       @buffer << "      <th>elo*</th>\n"
 
-      (@@dim * @@rounds).times do |i|
-        @buffer << "      <th class=\"{sorter: false}\">" << (i + 1).to_s << "</th>\n"
+      @@dim.times do |i|
+        @buffer << "      <th class=\"opponent\" colspan=\"#{@@rounds.to_s}\">#{(i + 1).to_s}</th>\n"
       end
 
       @buffer << "      <th>Игры</th>\n"
@@ -176,32 +176,32 @@ module LORChess
       @buffer << "  </thead>\n"
       @buffer << "  <tfoot>\n"
       @buffer << "    <tr>\n"
-      @buffer << "      <td colspan=\"" << (@@dim * @@rounds + 7).to_s << "\">* Средний elo на начало турнира</td>\n"
+      @buffer << "      <td colspan=\"#{(@@dim * @@rounds + 7).to_s}\">* Средний elo на начало турнира</td>\n"
       @buffer << "    </tr>\n"
       @buffer << "  </tfoot>\n"
       @buffer << "  <tbody>\n"
 
       @@dim.times do |i|
 
-        @buffer << "    <tr class=\"place-" << @player_places[i] << "\">\n"
-        @buffer << "      <td class=\"number\">" << (i + 1).to_s << "</td>\n"
-        @buffer << "      <td class=\"player\"><strong>" << @players[i] << "</strong></td>\n"
-        @buffer << "      <td class=\"elo\">" << @elo_points[i] << "</td>\n"
+        @buffer << "    <tr class=\"place-#{@player_places[i]}\">\n"
+        @buffer << "      <td class=\"number\">#{(i + 1).to_s}</td>\n"
+        @buffer << "      <td class=\"player\"><strong>#{@players[i]}</strong></td>\n"
+        @buffer << "      <td class=\"elo\">#{@elo_points[i]}</td>\n"
 
-        @@rounds.times do |round|
-          @@dim.times do |j|
-            unless j == i
-              @buffer << "      <td class=\"score\">" << @game_scores[round][i][j] << "</td>\n"
-            else
-              @buffer << "      <td class=\"diagonal\"></td>\n"
+        @@dim.times do |j|
+          unless j == i
+            @@rounds.times do |round|
+              @buffer << "      <td class=\"score\">#{@game_scores[round][i][j]}</td>\n"
             end
+          else
+            @buffer << "      <td class=\"diagonal\" colspan=\"#{@@rounds.to_s}\"></td>\n"
           end
         end
 
-        @buffer << "      <td class=\"games\">" << @player_games[i] << "</td>\n"
-        @buffer << "      <td class=\"total\">" << @total_scores[i] << "</td>\n"
-        @buffer << "      <td class=\"place\">" << @player_places[i] << "</td>\n"
-        @buffer << "      <td class=\"berger\">" << @berger_coefs[i] << "</td>\n"
+        @buffer << "      <td class=\"games\">#{@player_games[i]}</td>\n"
+        @buffer << "      <td class=\"total\">#{@total_scores[i]}</td>\n"
+        @buffer << "      <td class=\"place\">#{@player_places[i]}</td>\n"
+        @buffer << "      <td class=\"berger\">#{@berger_coefs[i]}</td>\n"
         @buffer << "    </tr>\n"
       end
 
