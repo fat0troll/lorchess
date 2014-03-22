@@ -142,6 +142,11 @@
     black:  Adem
     result: '0:1'
 
+  - date:   22.03.2014
+    white:  trex6
+    black:  J
+    result: '0:1'
+
   - date:   10.03.2014
     white:  Magian
     black:  HunOL
@@ -174,6 +179,13 @@
     black:  DoctorSinus
     result: '1:0'
 
+- number: 9
+  games:
+  - date:   22.03.2014
+    white:  redgremlin
+    black:  J
+    result: '1:0'
+
 - number: 10
   games:
   - date:   19.03.2014
@@ -185,4 +197,9 @@
     white:  aptyp
     black:  J
     result: '0:1'
+
+  - date:   22.03.2014
+    white:  redgremlin
+    black:  Adem
+    result: '1:0'
 
