@@ -194,7 +194,7 @@ module LORChess
               @buffer << "      <td class=\"score\">#{@game_scores[round][i][j]}</td>\n"
             end
           else
-            @buffer << "      <td class=\"diagonal\" colspan=\"#{@@rounds.to_s}\"></td>\n"
+            @buffer << "      <td class=\"diagonal\"></td>\n" * @@rounds
           end
         end
 
