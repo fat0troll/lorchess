@@ -37,6 +37,11 @@
     black:  Adem
     result: '1:0'
 
+  - date:   22.03.2014
+    white:  redgremlin
+    black:  iVS
+    result: '1:0'
+
   - date:   08.02.2014
     white:  Magian
     black:  DoctorSinus
@@ -181,6 +186,11 @@
 
 - number: 9
   games:
+  - date:   23.03.2014
+    white:  Magian
+    black:  Adem
+    result: '0.5:0.5'
+
   - date:   22.03.2014
     white:  redgremlin
     black:  J
@@ -203,3 +213,24 @@
     black:  Adem
     result: '1:0'
 
+  - date:   23.03.2014
+    white:  Magian
+    black:  iVS
+    result: '0.5:0.5'
+
+- number: 11
+  games:
+- number: 12
+  games:
+- number: 13
+  games:
+- number: 14
+  games:
+- number: 15
+  games:
+- number: 16
+  games:
+- number: 17
+  games:
+- number: 18
+  games:
