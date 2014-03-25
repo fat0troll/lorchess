@@ -54,11 +54,13 @@ module LORChess
 
     def fill_results
       @@db_results.each do |tour|
-        # zero-based round
-        round = (tour['number'] - 1).div(@@dim - 1)
+        if tour['games']
+          # zero-based round
+          round = (tour['number'] - 1).div(@@dim - 1)
 
-        tour['games'].each do |game|
-          import game, round
+          tour['games'].each do |game|
+            import game, round
+          end
         end
       end
     end
