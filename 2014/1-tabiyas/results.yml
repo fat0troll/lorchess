@@ -196,6 +196,11 @@
     black:  J
     result: '1:0'
 
+  - date:   26.03.2014
+    white:  aptyp
+    black:  HunOL
+    result: '1:0'
+
 - number: 10
   games:
   - date:   19.03.2014
