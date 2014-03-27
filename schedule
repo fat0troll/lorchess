@@ -152,6 +152,32 @@ info_output_lor() {
 
 }
 
+info_output_html() {
+    echo "<div class=\"tour-info\">"
+    echo "  <table class=\"table table-striped table-condensed\">"
+    echo "    <caption>"
+    echo "      <strong>${tour_num} тур (${date_beg} - ${date_end})</strong>"
+    echo "    </caption>"
+    echo "    <tbody>"
+
+    echo -en "$1" | while read white black result; do
+        # Highlight player's name
+        if [[ -n "$PLAYER" ]]; then
+            [[ "$white" =~ $PLAYER ]] && white="<strong>${white}</strong>"
+            [[ "$black" =~ $PLAYER ]] && black="<strong>${black}</strong>"
+        fi
+
+        echo "      <tr>"
+        echo "        <td>${white} - ${black}</td><td>${result}</td>"
+        echo "      </tr>"
+    done
+
+    echo "    </tbody>"
+    echo "  </table>"
+    echo "</div>"
+    echo
+}
+
 # Note that we use '"$@"' to let each command-line parameter expand to a
 # separate word. The quotes around '$@' are essential!
 # We need 'opts' as the 'eval set --' would nuke the return value of getopt
