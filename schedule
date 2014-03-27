@@ -173,7 +173,7 @@ info_output_lor() {
 
 info_output_html() {
     echo "<div class=\"tour-info\">"
-    echo "  <table class=\"table table-condensed table-bordered\">"
+    echo "  <table class=\"table table-condensed\">"
     echo "    <caption>"
     echo "      <strong>${tour_num} тур (${date_beg} - ${date_end})</strong>"
     echo "    </caption>"
