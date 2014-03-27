@@ -128,11 +128,23 @@ info_output_term() {
 }
 
 info_output_lor() {
-    echo "[u][b]${tour_num} тур (${date_beg} - ${date_end})[/b][/u]"
+    echo "[b]${tour_num} тур (${date_beg} - ${date_end})[/b]"
     echo "[list]"
 
     echo -en "$1" | while read white black result; do
-        echo "  [*][user]${white}[/user] - [user]${black}[/user] ${result}"
+        local line="  [*] [user]${white}[/user] - [user]${black}[/user] ${result}"
+
+        # Highlight player's name
+        if [[ -n "$PLAYER" ]]; then
+            players=$(grep -o "\\[user\\][^ ]*${PLAYER}[^ ]*\\[/user\\]" <<< "$line")
+            # Escape symbols ']', '[', and '/'
+            players=$(sed 's/[][\/]/\\\0/g' <<< "$players")
+            for name in $players; do
+                line=$(sed "s/${name}/[b]\0[\\/b]/g" <<< "$line")
+            done
+        fi
+
+        echo "$line"
     done
 
     echo "[/list]"
