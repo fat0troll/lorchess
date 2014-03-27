@@ -1,129 +1,165 @@
 #!/usr/bin/env bash
+# Copyright 2014 Vladimir Ivanov <ivvl82@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
 
 REPO=fat0troll/lorchess
-TOURNEY=2014/1-tabiyas
+TOURNAMENT=2014/1-tabiyas
 
 # Variables
-date="[0-9]\{2\}\.[0-9]\{2\}\.[0-9]\{4\}"
-result="\(0\|1\|0\.5\):\(0\|1\|0\.5\)"
+date_re="[0-9?]{2}\\.[0-9?]{2}\\.[0-9?]{4}"
+res_re="(0|1|0\\.5):(0|1|0\\.5)"
 
-# Colors
-restore="\033[00m"
-red="\033[01;31m"
-green="\033[01;32m"
-yellow="\033[01;33m"
-cyan="\033[01;36m"
+show_tour_sequence() {
+    local sequence info_array
 
-# Highlight output
-highlight () {
-    line=$1
+    # Generate the sequence of tours to search in
+    if [[ -z "$@" ]]; then
+        sequence=$(seq -f "%02g" 1 99)
+    else
+        # Change tour numbers: '1' -> '01', '2' -> '02', and so on
+        sequence=$(for i in "$@"; do printf "%02g " "$i"; done)
+    fi
 
-    # Highlight the tour heading
-    line=$(sed "s/Тур/\\${green}\0\\${restore}/g" <<< "$line")
-    line=$(sed "s/№[0-9]\+/\\${cyan}\0\\${restore}/g" <<< "$line")
-    line=$(sed "s/^=*$/\\${green}\0\\${restore}/g" <<< "$line")
+    for tour in $sequence; do
+        # Produce output only if 'tour_info' exists
+        if fetch_info_array "$tour"; then
+            for ((i=5; i<${#info_array[@]}; ++i)); do
+                if keep_info_line "${info_array[$i]}"; then
+                    show_tour_info
+                    break
+                fi
+            done
+        else
+            # If the tour numbers were not passed as arguments, exit
+            # once the first non-existing 'tour_info' is reached
+            [[ -z "$@" ]] && break
+        fi
+    done
+}
 
-    # Highlight the tour duration
-    line=$(sed "s/\(^.*\):/\\${green}\1\\${restore}:/g" <<< "$line")
+fetch_info_array() {
+    local url="https://raw.github.com/${REPO}/master/${TOURNAMENT}/tours/${1}/tour_info"
 
-    # Highlight date
-    line=$(sed "s/${date}/\\${cyan}\0\\${restore}/g" <<< "$line")
+    # Store 'tour_info' in an array of lines.
+    # *NOTE* The incorporation of a newline at the end of 'tour_info'
+    # (--write-out '\n') is important and allows one to read the last
+    # line with no trailing '\n'
+    info_array=()
+    while read line; do
+        info_array+=("$line")
+    done <<< "$(curl --fail -q --silent --write-out '\n' $url)"
 
-    echo -e "$line"
+    return `[[ -n $info_array ]]`
+}
+
+keep_info_line() {
+    local line="$1" keep=1
+
+    if $SHOW_ALL; then
+        keep=0
+    else
+        # Keep line if the game is not finished
+        if [[ -z $(egrep "$res_re" <<< "$line") ]]; then
+            if [[ -z "$PLAYER" ]]; then
+                keep=0
+
+            # In addition, if the player was passed as an argument,
+            # check if it is his game or not
+            elif [[ -n $(grep -o "$PLAYER" <<< "$line") ]]; then
+                keep=0
+            fi
+        fi
+    fi
+
+    return $keep
+}
+
+show_tour_info() {
+    [[ "${info_array[0]}" =~ "Тур №"([0-9]+) ]]
+    local tour_num="${BASH_REMATCH[1]}"
+
+    [[ "${info_array[3]}" =~ ($date_re)" "*[-—]" "*($date_re) ]]
+    local date_beg="${BASH_REMATCH[1]}" date_end="${BASH_REMATCH[2]}"
+    # Use short dates
+    date_beg="${date_beg:0:5}"; date_end="${date_end:0:5}"
+
+    # Lines with game info
+    local output_lines=""
+    for ((i=5; i<${#info_array[@]}; ++i)); do
+        local line="${info_array[$i]}"
+
+        if keep_info_line "$line"; then
+            [[ "$line" =~ ($date_re)" "*[-—]" "*([^" "]+)" "*($res_re)?" "*([^" "]+) ]]
+            local white="${BASH_REMATCH[2]}" black="${BASH_REMATCH[6]}" result
+            case "${BASH_REMATCH[3]}" in
+                1:0)     result="1-0";;
+                0:1)     result="0-1";;
+                0.5:0.5) result="1/2";;
+                *)       result="";;
+            esac
+
+            output_lines+="${white} ${black} ${result}\n"
+        fi
+    done
+
+    eval "info_output_$FORMAT \"${output_lines}\""
+}
+
+info_output_term() {
+    echo -n "$(tput setaf 2)Тур ${tour_num} "
+    echo "$(tput setaf 6)(${date_beg} - ${date_end})$(tput sgr0)"
+
+    echo -e "$1" | column -t | while IFS= read line; do
+        # Highlight player's name
+        if [[ -n "$PLAYER" ]]; then
+            players=$(grep -o "[^ ]*${PLAYER}[^ ]*" <<< "$line")
+            for name in $players; do
+                line=$(sed "s/${name}/\\$(tput setaf 1)\0\\$(tput sgr0)/g" <<< "$line")
+            done
+        fi
+
+        # Highlight result
+        line=$(sed "s/\(1-0\|0-1\|1\\/2\)$/\\$(tput setaf 6)\0\\$(tput sgr0)/g" <<< "$line")
+
+        echo "$line"
+    done
+
+    echo
 }
 
 # Note that we use '"$@"' to let each command-line parameter expand to a
 # separate word. The quotes around '$@' are essential!
 # We need 'opts' as the 'eval set --' would nuke the return value of getopt
-opts=$(getopt --options p: --longoptions player: -- "$@")
+opts=$(getopt --options ap:f:h \
+    --longoptions all,player:,format:,help \
+    -- "$@")
 
 # Note the quotes around '$opts': they are essential!
 eval set -- "$opts"
 
-name=""
-if [[ $1 == -p || $1 == --player ]]; then
-    name=$2
-    shift 2
-fi
-shift
+SHOW_ALL=false
+PLAYER=""
+FORMAT=term
 
-# Generate the sequence of tours to search in
-if [[ -z "$@" ]]; then
-    seq=$(seq -f "%02g" 1 99)
-else
-    # Change tour numbers: '1' -> '01', '2' -> '02', and so on
-    seq=$(for i in "$@"; do printf "%02g " "$i"; done)
-fi
-
-for i in $seq; do
-
-    url="https://raw.github.com/${REPO}/master/${TOURNEY}/tours/${i}/tour_info"
-
-    # Store 'tour_info' in an array of lines.
-    # *NOTE* The incorporation of newline at the end of 'tour_info'
-    # (--write-out '\n') is important and allows one to read the last
-    # line without trailing '\n'
-    lines=()
-    while read line; do
-        lines+=("$line")
-    done <<< "$(curl --fail -q --silent --write-out '\n' $url)"
-
-    # Produce output only if 'tour_info' exists
-    if [[ -n $lines ]]; then
-
-        # Decide to skip the tour or not
-        unskip=""; player=""
-        for ((j=5; j<${#lines[@]}; ++j)); do
-            line="${lines[$j]}"
-
-            # Don't skip if an unfinished game exists
-            if [[ -z $(grep "$result" <<< "$line") ]]; then
-                if [[ -z "$name" ]]; then
-                    unskip="yes"
-
-                # In addition, if the player was passed as an
-                # argument, check if this is his game or not
-                elif [[ -n $(grep -o "$name" <<< "$line") ]]; then
-                    unskip="yes"
-                    # Complete player's name
-                    player=$(grep -o "[^ ]*${name}[^ ]*" <<< "$line")
-                fi
-            fi
-        done
-
-        if [[ -n "$unskip" ]]; then
-
-            # The separator between tours
-            echo -en "$yellow"
-            for j in {1..41}; do echo -n "-"; done
-            echo -e "$restore"
-
-            # Output the tour heading as is
-            for ((j=0; j<5; ++j)); do highlight "${lines[$j]}"; done
-
-            # Lines with game info
-            for ((j=5; j<${#lines[@]}; ++j)); do
-                line="${lines[$j]}"
-
-                # Output only unfinished games
-                if [[ -z $(grep "$result" <<< "$line") ]]; then
-                    if [[ -z "$player" ]]; then
-                        highlight "$line"
-
-                    # If the player was passed as an argument,
-                    # highlight his name
-                    elif [[ -n $(grep -o "${player}" <<< "$line") ]]; then
-                        line=$(sed "s/${player}/\\${red}\0\\${restore}/g" <<< "$line")
-                        highlight "$line"
-                    fi
-                fi
-            done
-       fi
-    else
-        # If the tour numbers were not passed as arguments, exit once
-        # the first non-existing 'tour_info' is reached
-        [[ -z "$@" ]] && break
-    fi
+while true; do
+    case "$1" in
+        -a|--all)
+            SHOW_ALL=true
+            shift;;
+        -p|--player)
+            PLAYER="$2"
+            shift 2;;
+        -f|--format)
+            FORMAT="$2"
+            shift 2;;
+        -h|--help)
+            usage
+            break;;
+        --)
+            shift
+            show_tour_sequence "$@"
+            break;;
+    esac
 done
 
 exit 0
