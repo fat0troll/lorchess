@@ -168,7 +168,7 @@ info_output_html() {
         fi
 
         echo "      <tr>"
-        echo "        <td>${white} - ${black}</td><td>${result}</td>"
+        echo "        <td>${white} - ${black}</td><td class=\"result\">${result}</td>"
         echo "      </tr>"
     done
 
