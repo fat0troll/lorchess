@@ -142,6 +142,11 @@
 
 - number: 7
   games:
+  - date:   28.03.2014
+    white:  iVS
+    black:  MyTrooName
+    result: '0:1'
+
   - date:   18.03.2014
     white:  DoctorSinus
     black:  Adem
@@ -168,6 +173,11 @@
     white:  MyTrooName
     black:  aptyp
     result: '1:0'
+
+  - date:   27.03.2014
+    white:  HunOL
+    black:  redgremlin
+    result: '0:1'
 
   - date:   16.03.2014
     white:  J
