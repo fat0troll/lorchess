@@ -250,6 +250,11 @@
     black:  aptyp
     result: '1:0'
 
+  - date:   10.04.2014
+    white:  iVS
+    black:  redgremlin
+    result: '0:1'
+
   - date:   09.04.2014
     white:  DoctorSinus
     black:  Magian
@@ -266,6 +271,11 @@
     white:  HunOL
     black:  Adem
     result: '1:0'
+
+  - date:   10.04.2014
+    white:  aptyp
+    black:  iVS
+    result: '0:1'
 
 - number: 13
   games:
