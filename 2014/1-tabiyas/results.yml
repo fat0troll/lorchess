@@ -201,6 +201,11 @@
 
 - number: 9
   games:
+  - date:   14.04.2014
+    white:  DoctorSinus
+    black:  MyTrooName
+    result: '0:1'
+
   - date:   23.03.2014
     white:  Magian
     black:  Adem
@@ -279,6 +284,11 @@
 
 - number: 13
   games:
+  - date:   14.04.2014
+    white:  DoctorSinus
+    black:  aptyp
+    result: '0:1'
+
   - date:   09.04.2014
     white:  iVS
     black:  HunOL
@@ -291,6 +301,11 @@
 
 - number: 14
   games:
+  - date:   13.04.2014
+    white:  MyTrooName
+    black:  Adem
+    result: '0:1'
+
   - date:   09.04.2014
     white:  J
     black:  iVS
