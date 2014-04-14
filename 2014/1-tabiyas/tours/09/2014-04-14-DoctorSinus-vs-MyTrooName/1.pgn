@@ -1,0 +1,14 @@
+[Event "Casual game"]
+[Site "http://lichess.org/Uswm1qNX"]
+[Date "2014.04.14"]
+[White "fat0troll"]
+[Black "sshilovsky"]
+[Result "0-1"]
+[WhiteElo "1256"]
+[BlackElo "1496"]
+[PlyCount "96"]
+[Variant "From position"]
+[FEN "r1bq1rk1/pp2ppbp/2np1np1/2pP4/2P1P3/2N1BP2/PP2N1PP/R2QKB1R b - - 0 1"]
+[SetUp "1"]
+
+1... e5 2. Bg5 Qa5 3. Bxf6 Bxf6 4. Qa4 Qxa4 5. Nxa4 Nd4 6. Nxd4 exd4 7. Bd3 Be5 8. b3 b6 9. Nb2 f5 10. exf5 Bxf5 11. Bxf5 Rxf5 12. g4 Rxf3 13. Ke2 Rh3 14. Raf1 d3+ 15. Nxd3 Rxh2+ 16. Rxh2 Bxh2 17. Nf4 Bxf4 18. Rxf4 Re8+ 19. Kf3 Kg7 20. g5 Re5 21. Kg4 h5+ 22. gxh6+ Kxh6 23. Rf6 Rg5+ 24. Kf4 Rg2 25. Rxd6 Rxa2 26. Rc6 Rf2+ 27. Kg3 Rf7 28. d6 Rd7 29. Kf4 g5+ 30. Ke5 g4 31. Rc7 Rd8 32. d7 g3 33. Ke6 g2 34. Ke7 Rxd7+ 35. Rxd7 g1=Q 36. Rd6+ Kh7 37. Rd7 Kg6 38. Rd6+ Kf5 39. Rf6+ Ke5 40. Re6+ Kd4 41. Rd6+ Kc3 42. Rd7 Qg7+ 43. Kd8 Qxd7+ 44. Kxd7 Kxb3 45. Kc7 Kxc4 46. Kb7 Kd3 47. Kxa7 c4 48. Kxb6 c3 0-1
