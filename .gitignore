@@ -1,6 +1,7 @@
 _drafts
 _site
 Gemfile.lock
+.ruby-*
 
 # Rakefile junk
 temp.pgn
