@@ -23,7 +23,7 @@
   - date:   02.03.2014
     white:  DoctorSinus
     black:  trex6
-    result: '0:1'
+    result: '1:0'
 
 - number: 2
   games:
@@ -86,6 +86,11 @@
     black:  Magian
     result: '0:1'
 
+  - date:   18.04.2014
+    white:  redgremlin
+    black:  trex6
+    result: '1:0'
+
   - date:   16.02.2014
     white:  aptyp
     black:  DoctorSinus
@@ -134,6 +139,11 @@
     white:  aptyp
     black:  Magian
     result: '0:1'
+
+  - date:   18.04.2014
+    white:  HunOL
+    black:  trex6
+    result: '1:0'
 
   - date:   09.04.2014
     white:  J
@@ -206,6 +216,11 @@
     black:  MyTrooName
     result: '0:1'
 
+  - date:   18.04.2014
+    white:  trex6
+    black:  iVS
+    result: '0:1'
+
   - date:   23.03.2014
     white:  Magian
     black:  Adem
@@ -243,6 +258,11 @@
     black:  iVS
     result: '0.5:0.5'
 
+  - date:   18.04.2014
+    white:  trex6
+    black:  DoctorSinus
+    result: '0:1'
+
 - number: 11
   games:
   - date:   05.04.2014
@@ -265,6 +285,11 @@
     black:  Magian
     result: '1:0'
 
+  - date:   18.04.2014
+    white:  trex6
+    black:  MyTrooName
+    result: '0:1'
+
 - number: 12
   games:
   - date:   06.04.2014
@@ -282,8 +307,18 @@
     black:  iVS
     result: '0:1'
 
+  - date:   18.04.2014
+    white:  Magian
+    black:  trex6
+    result: '1:0'
+
 - number: 13
   games:
+  - date:   18.04.2014
+    white:  trex6
+    black:  redgremlin
+    result: '0:1'
+
   - date:   14.04.2014
     white:  DoctorSinus
     black:  aptyp
@@ -311,11 +346,36 @@
     black:  iVS
     result: '0:1'
 
+  - date:   18.04.2014
+    white:  aptyp
+    black:  trex6
+    result: '1:0'
+
 - number: 15
   games:
+  - date:   18.04.2014
+    white:  trex6
+    black:  HunOL
+    result: '0:1'
+
 - number: 16
   games:
+  - date:   18.04.2014
+    white:  J
+    black:  trex6
+    result: '1:0'
+
 - number: 17
   games:
+  - date:   18.04.2014
+    white:  trex6
+    black:  Adem
+    result: '0:1'
+
 - number: 18
   games:
+  - date:   18.04.2014
+    white:  iVS
+    black:  trex6
+    result: '1:0'
+
