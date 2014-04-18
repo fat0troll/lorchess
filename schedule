@@ -5,6 +5,9 @@
 REPO=fat0troll/lorchess
 TOURNAMENT=2014/1-tabiyas
 
+# *FIXME* Withdrew players should be taken from the main config
+WITHDREW_PLS="trex6"
+
 # Variables
 date_re="([0-9?]{2})\\.([0-9?]{2})\\.([0-9?]{4})"
 res_re="(0|1|0\\.5):(0|1|0\\.5)"
@@ -100,7 +103,9 @@ show_tour_info() {
 
             # Store the link of game in variable '$url'
             if $SHOW_LINK; then
-                [[ -n "$result" ]] && store_game_url
+                if [[ ! "$WITHDREW_PLS" =~ (^|' '+)("${white}"|"${black}")($|' '+) ]]; then
+                    [[ -n "$result" ]] && store_game_url
+                fi
             fi
 
             output_lines+="${white} ${black} ${result} ${url}\n"
