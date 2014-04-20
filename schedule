@@ -241,15 +241,16 @@ info_output_html() {
     echo
 }
 
-# Note that we use '"$@"' to let each command-line parameter expand to a
-# separate word. The quotes around '$@' are essential!
-# We need 'opts' as the 'eval set --' would nuke the return value of getopt
-opts=$(getopt --options ap:f:lh \
-    --longoptions all,player:,format:,link,help \
-    -- "$@")
-
-# Note the quotes around '$opts': they are essential!
-eval set -- "$opts"
+checkargs() {
+    if [[ "$OPTARG" =~ ^-[apflhv]$ ]]; then
+        echo "Option -${opt}: argument not found"
+        exit 1
+    fi
+    if [[ "$opt" == f && ! "$OPTARG" =~ ^(term|html|lor)$ ]]; then
+        echo "Incorrect FORMAT specified"
+        exit 1
+    fi
+}
 
 SHOW_ALL=false
 PLAYER=""
@@ -257,28 +258,26 @@ FORMAT=term
 SHOW_LINK=false
 BASEURL="https://raw.github.com/${REPO}/master/${TOURNAMENT}"
 
-while true; do
-    case "$1" in
-        -a|--all)
-            SHOW_ALL=true
-            shift;;
-        -p|--player)
-            PLAYER="$2"
-            shift 2;;
-        -f|--format)
-            FORMAT="$2"
-            shift 2;;
-        -l|--link)
-            SHOW_LINK=true
-            shift;;
-        -h|--help)
-            usage
-            break;;
-        --)
-            shift
-            show_tour_sequence "$@"
-            break;;
+while getopts "ap:f:lhv" opt; do
+    case "$opt" in
+        a)  SHOW_ALL=true
+            ;;
+        p)  checkargs
+            PLAYER="$OPTARG"
+            ;;
+        f)  checkargs
+            FORMAT="$OPTARG"
+            ;;
+        l)  SHOW_LINK=true
+            ;;
+        h)  usage && exit 0
+            ;;
+        v)  version && exit 0
+            ;;
     esac
 done
+
+shift $(($OPTIND - 1))
+show_tour_sequence "$@"
 
 exit 0
