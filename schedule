@@ -203,19 +203,8 @@ info_output_lor() {
 
     echo -en "$1" | while read white black result url; do
         [[ -n "$url" ]] && result="[url=${url}]${result}[/url]"
-        local line="  [*] [user]${white}[/user] - [user]${black}[/user] ${result}"
 
-        # Highlight player's name
-        if [[ -n "$PLAYER" ]]; then
-            players=$(grep -o "\\[user\\][^ ]*${PLAYER}[^ ]*\\[/user\\]" <<< "$line")
-            # Escape symbols ']', '[', and '/'
-            players=$(sed 's/[][\/]/\\\0/g' <<< "$players")
-            for name in $players; do
-                line=$(sed "s/${name}/[b]\0[\\/b]/g" <<< "$line")
-            done
-        fi
-
-        echo "$line"
+        echo "  [*] [user]${white}[/user] - [user]${black}[/user] ${result}"
     done
 
     echo "[/list]"
@@ -233,12 +222,6 @@ info_output_html() {
 
     echo -en "$1" | while read white black result url; do
         [[ -n "$url" ]] && result="<a href=\"${url}\">${result}</a>"
-
-        # Highlight player's name
-        if [[ -n "$PLAYER" ]]; then
-            [[ "$white" =~ $PLAYER ]] && white="<strong>${white}</strong>"
-            [[ "$black" =~ $PLAYER ]] && black="<strong>${black}</strong>"
-        fi
 
         echo "      <tr>"
         echo "        <td>${white} - ${black}</td><td class=\"result\">${result}</td>"
