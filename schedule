@@ -8,9 +8,6 @@ TOURNAMENT=2014/1-tabiyas
 # Version information
 VERSION="0.1"
 
-# *FIXME* Withdrew players should be taken from the main config
-WITHDREW_PLS="trex6"
-
 argv0=${0##*/}
 
 usage() {
@@ -31,8 +28,7 @@ Usage: $argv0 [options] [tours]
 
 Options:
   -a            List accomplished games too
-  -p PLAYER     Only PLAYER's games are listed; this supports globs
-                inside PLAYER for player matching
+  -p PLAYER     Show game if PLAYER is a part of a player's name
   -f FORMAT     Specify the output format; FORMAT is \`term'
                 (default), \`html', or \`lor'
   -l            Add the URL link to game (if accomplished)
@@ -45,12 +41,8 @@ version() {
     echo "${argv0}-${VERSION}"
 }
 
-# Variables
-date_re="([0-9?]{2})\\.([0-9?]{2})\\.([0-9?]{4})"
-res_re="(0|1|0\\.5):(0|1|0\\.5)"
-
 show_tour_sequence() {
-    local sequence info_array
+    local sequence
 
     # Generate the sequence of tours to search in
     if [[ -z "$@" ]]; then
@@ -61,14 +53,46 @@ show_tour_sequence() {
     fi
 
     for tour in $sequence; do
+        local info_url="${BASEURL}/tours/${tour}/tour_info"
+
+        # *NOTE* The incorporation of a newline at the end of
+        # 'tour_info' (--write-out '\n') is important and allows one
+        # to read the last line with no trailing '\n'
+        local tour_info="$(curl -q --fail --silent --write-out '\n' $info_url)"
+
         # Produce output only if 'tour_info' exists
-        if fetch_info_array "$tour"; then
-            for ((i=5; i<${#info_array[@]}; ++i)); do
-                if keep_info_line "${info_array[$i]}"; then
-                    show_tour_info
-                    break
+        if [[ -n "$tour_info" ]]; then
+            local tour_num date_beg date_end
+            local white black result game_date game_url
+            # Lines with game info
+            local output_lines=""
+
+            while read line; do
+                get_tour_num "$line" && continue
+                get_tour_dates "$line" && continue
+
+                # Keep game info if needed, and store it in variables
+                # 'while', 'black', 'result', and 'game_date'
+                if keep_game_info "$line"; then
+                    # Fix result
+                    case "$result" in
+                        1:0)     result="1-0" ;;
+                        0:1)     result="0-1" ;;
+                        0.5:0.5) result="1/2" ;;
+                    esac
+
+                    # Store the link to game in 'game_url'
+                    game_url=""
+                    if $SHOW_LINK; then
+                        [[ -n "$result" ]] && store_game_url
+                    fi
+
+                    output_lines+="${white} ${black} ${result} ${game_url}\n"
                 fi
-            done
+            done <<< "$tour_info"
+
+            [[ -n "$output_lines" ]] && eval "info_output_$FORMAT \"${output_lines}\""
+
         else
             # If the tour numbers were not passed as arguments, exit
             # once the first non-existing 'tour_info' is reached
@@ -77,36 +101,46 @@ show_tour_sequence() {
     done
 }
 
-fetch_info_array() {
-    local url="${BASEURL}/tours/${1}/tour_info"
-
-    # Store 'tour_info' in an array of lines.
-    # *NOTE* The incorporation of a newline at the end of 'tour_info'
-    # (--write-out '\n') is important and allows one to read the last
-    # line with no trailing '\n'
-    info_array=()
-    while read line; do
-        info_array+=("$line")
-    done <<< "$(curl -q --fail --silent --write-out '\n' $url)"
-
-    return `[[ -n $info_array ]]`
+get_tour_num() {
+    if [[ "$1" =~ "Тур №"([0-9]+) ]]; then
+        tour_num="${BASH_REMATCH[1]}"
+        return 0
+    else
+        return 1
+    fi
 }
 
-keep_info_line() {
+get_tour_dates() {
+    local date_re="[0-9?]{2}\\.[0-9?]{2}\\.[0-9?]{4}"
+
+    if [[ "$1" =~ "Время проведения:"' '*($date_re)' '*[-—]' '*($date_re) ]]; then
+        date_beg="${BASH_REMATCH[1]}" date_end="${BASH_REMATCH[2]}"
+        # Use short dates
+        date_beg="${date_beg:0:5}" date_end="${date_end:0:5}"
+        return 0
+    else
+        return 1
+    fi
+}
+
+keep_game_info() {
+    local date_re="([0-9?]{2})\\.([0-9?]{2})\\.([0-9?]{4})"
+    local res_re="(0|1|0\\.5):(0|1|0\\.5)"
     local line="$1" keep=1
 
-    if $SHOW_ALL; then
-        keep=0
-    else
-        # Keep line if the game is not finished
-        if [[ -z $(egrep "$res_re" <<< "$line") ]]; then
-            if [[ -z "$PLAYER" ]]; then
-                keep=0
+    if [[ "$line" =~ ($date_re)' '*[-—]' '*([^' ']+)' '*($res_re)?' '*([^' ']+) ]]; then
+        white="${BASH_REMATCH[5]}"
+        black="${BASH_REMATCH[9]}"
+        result="${BASH_REMATCH[6]}"
+        game_date="${BASH_REMATCH[4]}-${BASH_REMATCH[3]}-${BASH_REMATCH[2]}"
 
-            # In addition, if the player was passed as an argument,
-            # check if it is his game or not
-            elif [[ -n $(grep -o "$PLAYER" <<< "$line") ]]; then
+        # If the player was passed as an argument, check if it is his game or not
+        if [[ -z "$PLAYER" || "$white" =~ "$PLAYER" || "$black" =~ "$PLAYER" ]]; then
+            if $SHOW_ALL; then
                 keep=0
+            else
+                # Keep line if the game is not finished
+                [[ -z "$result" ]] && keep=0
             fi
         fi
     fi
@@ -114,55 +148,17 @@ keep_info_line() {
     return $keep
 }
 
-show_tour_info() {
-    [[ "${info_array[0]}" =~ "Тур №"([0-9]+) ]]
-    local tour_num="${BASH_REMATCH[1]}"
-
-    [[ "${info_array[3]}" =~ ($date_re)" "*[-—]" "*($date_re) ]]
-    local date_beg="${BASH_REMATCH[1]}" date_end="${BASH_REMATCH[5]}"
-    # Use short dates
-    date_beg="${date_beg:0:5}"; date_end="${date_end:0:5}"
-
-    # Lines with game info
-    local output_lines=""
-    for ((i=5; i<${#info_array[@]}; ++i)); do
-        local line="${info_array[$i]}"
-
-        if keep_info_line "$line"; then
-            [[ "$line" =~ ($date_re)" "*[-—]" "*([^" "]+)" "*($res_re)?" "*([^" "]+) ]]
-            local white="${BASH_REMATCH[5]}" black="${BASH_REMATCH[9]}" result="" url=""
-            local game_date="${BASH_REMATCH[4]}-${BASH_REMATCH[3]}-${BASH_REMATCH[2]}"
-            case "${BASH_REMATCH[6]}" in
-                1:0)     result="1-0";;
-                0:1)     result="0-1";;
-                0.5:0.5) result="1/2";;
-            esac
-
-            # Store the link of game in variable '$url'
-            if $SHOW_LINK; then
-                if [[ ! "$WITHDREW_PLS" =~ (^|' '+)("${white}"|"${black}")($|' '+) ]]; then
-                    [[ -n "$result" ]] && store_game_url
-                fi
-            fi
-
-            output_lines+="${white} ${black} ${result} ${url}\n"
-        fi
-    done
-
-    eval "info_output_$FORMAT \"${output_lines}\""
-}
-
 store_game_url() {
     local tour=$(printf "%02g" "$tour_num")
     local game_dir="${game_date}-${white}-vs-${black}"
-    local game_url="${BASEURL}/tours/${tour}/${game_dir}/1.pgn"
+    local pgn_url="${BASEURL}/tours/${tour}/${game_dir}/1.pgn"
 
     while read line; do
-        # Search for an URL inside PGN file
-        [[ "$line" =~ "[Site \""([a-z]+:[^"\""]+)"\"]" ]]
-        url="${BASH_REMATCH[1]}"
-        [[ -n "$url" ]] && break
-    done <<< "$(curl -q --fail --silent $game_url)"
+        # Search for a URL inside PGN file
+        [[ "$line" =~ "[Site \""([a-z]+:[^\"]+)"\"]" ]]
+        game_url="${BASH_REMATCH[1]}"
+        [[ -n "$game_url" ]] && break
+    done <<< "$(curl -q --fail --silent $pgn_url)"
 }
 
 info_output_term() {
