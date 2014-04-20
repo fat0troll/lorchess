@@ -184,12 +184,12 @@ info_output_term() {
         if [[ -n "$PLAYER" ]]; then
             players=$(grep -o "[^ ]*${PLAYER}[^ ]*" <<< "$line")
             for name in $players; do
-                line=$(sed "s/${name}/\\$(tput setaf 1)\0\\$(tput sgr0)/g" <<< "$line")
+                line=$(sed -E "s/(${name})/\\$(tput setaf 1)\1\\$(tput sgr0)/g" <<< "$line")
             done
         fi
 
         # Highlight result
-        line=$(sed "s/\(1-0\|0-1\|1\\/2\)/\\$(tput setaf 6)\0\\$(tput sgr0)/g" <<< "$line")
+        line=$(sed -E "s/(1-0|0-1|1\\/2)/\\$(tput setaf 6)\1\\$(tput sgr0)/g" <<< "$line")
 
         echo "$line"
     done
