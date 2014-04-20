@@ -2,8 +2,8 @@
 # Copyright 2014 Vladimir Ivanov <ivvl82@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
-REPO=fat0troll/lorchess
-TOURNAMENT=2014/1-tabiyas
+REPO="https://raw.githubusercontent.com/fat0troll/lorchess/master"
+TOURNAMENT="2014/1-tabiyas"
 
 # Version information
 VERSION="0.1"
@@ -53,7 +53,9 @@ show_tour_sequence() {
     fi
 
     for tour in $sequence; do
-        local info_url="${BASEURL}/tours/${tour}/tour_info"
+        convert_repo_url
+        local base_url="${REPO}/${TOURNAMENT}"
+        local info_url="${base_url}/tours/${tour}/tour_info"
 
         # *NOTE* The incorporation of a newline at the end of
         # 'tour_info' (--write-out '\n') is important and allows one
@@ -99,6 +101,18 @@ show_tour_sequence() {
             [[ -z "$@" ]] && break
         fi
     done
+}
+
+convert_repo_url() {
+    if [[ ! "$REPO" =~ ^(https?|file):// ]]; then
+        if [[ ! "$REPO" =~ ^/ ]]; then
+            # REPO is a relative path
+            base_dir="$(dirname $0)"
+            REPO="$(cd ${base_dir}/${REPO}; pwd)"
+        fi
+
+        REPO="file://${REPO}"
+    fi
 }
 
 get_tour_num() {
@@ -151,7 +165,7 @@ keep_game_info() {
 store_game_url() {
     local tour=$(printf "%02g" "$tour_num")
     local game_dir="${game_date}-${white}-vs-${black}"
-    local pgn_url="${BASEURL}/tours/${tour}/${game_dir}/1.pgn"
+    local pgn_url="${base_url}/tours/${tour}/${game_dir}/1.pgn"
 
     while read line; do
         # Search for a URL inside PGN file
@@ -252,7 +266,6 @@ SHOW_ALL=false
 PLAYER=""
 FORMAT=term
 SHOW_LINK=false
-BASEURL="https://raw.github.com/${REPO}/master/${TOURNAMENT}"
 
 while getopts "ap:f:lhv" opt; do
     case "$opt" in
