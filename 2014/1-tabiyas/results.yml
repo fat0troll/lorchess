@@ -358,8 +358,23 @@
     black:  HunOL
     result: '0:1'
 
+  - date:   18.04.2014
+    white:  DoctorSinus
+    black:  J
+    result: '0.5:0.5'
+
+  - date:   21.04.2014
+    white:  iVS
+    black:  Adem
+    result: '0:1'
+
 - number: 16
   games:
+  - date:   18.04.2014
+    white:  Adem
+    black:  DoctorSinus
+    result: '1:0'
+
   - date:   18.04.2014
     white:  J
     black:  trex6
