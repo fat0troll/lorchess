@@ -1,0 +1,14 @@
+[Event "Casual game"]
+[Site "http://lichess.org/B4TwHfWt"]
+[Date "2014.04.21"]
+[White "iVS"]
+[Black "Adem"]
+[Result "0-1"]
+[WhiteElo "1769"]
+[BlackElo "1732"]
+[PlyCount "100"]
+[Variant "From position"]
+[FEN "r1bq1rk1/2p1bppp/p1n2n2/1p1pp3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 0 1"]
+[SetUp "1"]
+
+1. exd5 Nxd5 2. Nxe5 Nxe5 3. Rxe5 c6 4. g3 Bd6 5. Ree1 Rfe8 6. d4 Bh3 7. Be3 Nxe3 8. fxe3 Qg5 9. Qf3 Bg4 10. Qf2 h5 11. Bxf7+ Kh8 12. Bxe8 Rxe8 13. Nd2 h4 14. gxh4 Qh5 15. Kh1 Rf8 16. Qg2 Qxh4 17. Ref1 Rxf1+ 18. Rxf1 Bh3 19. Qxc6 Bxf1 20. Nxf1 Be7 21. Ng3 Qg5 22. Qe8+ Kh7 23. Qh5+ Qxh5 24. Nxh5 Kg6 25. Nf4+ Kf5 26. Kg2 g5 27. Ne2 Ke4 28. Kf2 Kd3 29. Ng3 Kc2 30. e4 Kxb2 31. Nf5 Bd8 32. Nd6 Kxc3 33. Ke3 b4 34. e5 Kb2 35. Kd3 Kxa2 36. e6 b3 37. Nc4 b2 38. Nxb2 Kxb2 39. d5 Be7 40. Kd4 Bd6 41. Ke4 Kc3 42. Kf5 Kd4 43. Kxg5 Kxd5 44. Kf5 a5 45. h4 a4 46. h5 a3 47. h6 a2 48. h7 a1=Q 49. Kg6 Kxe6 50. Kh6 Kf7 0-1
