@@ -184,6 +184,9 @@ info_output_term() {
         if [[ -n "$PLAYER" ]]; then
             players=$(grep -o "[^ ]*${PLAYER}[^ ]*" <<< "$line")
             for name in $players; do
+                # PLAYER is a part of 'game_url' or 'result'
+                [[ "$name" =~ ^http:\/\/ || "$name" =~ ^(1-0|0-1|1\/2)$ ]] && continue
+
                 line=$(sed -E "s/(${name})/\\$(tput setaf 1)\1\\$(tput sgr0)/g" <<< "$line")
             done
         fi
