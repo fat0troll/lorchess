@@ -6,7 +6,7 @@ REPO="https://raw.githubusercontent.com/fat0troll/lorchess/master"
 TOURNAMENT="2014/1-tabiyas"
 
 # Version information
-VERSION="0.2"
+VERSION="0.3"
 
 argv0=${0##*/}
 
