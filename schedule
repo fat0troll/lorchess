@@ -192,7 +192,7 @@ info_output_term() {
         fi
 
         # Highlight result
-        line=$(sed -E "s/(1-0|0-1|1\\/2)/\\$(tput setaf 6)\1\\$(tput sgr0)/g" <<< "$line")
+        line=$(sed -E "s/ (1-0|0-1|1\\/2)( |$)/ \\$(tput setaf 6)\1\\$(tput sgr0)\2/g" <<< "$line")
 
         echo "$line"
     done
