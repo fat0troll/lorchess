@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/0uc0rbAL"]
+[Date "2014.04.24"]
+[White "HunOL"]
+[Black "Magian"]
+[Result "0-1"]
+[WhiteElo "1709"]
+[BlackElo "1693"]
+[PlyCount "70"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Rfe1 b5 7. Bb3 O-O 8. c3 d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. d4 Bd6 13. Re2 Qh4 14. g3 Qh3 15. f4? { (0.34 → -1.04) Mistake. The best move was Nd2. } (15. Nd2 Bf5 16. Ne4 Bg4 17. Nxd6 Qh5) 15... Bg4 16. Qf1 Qxf1+ 17. Kxf1 Bxe2+ 18. Kxe2 Rfe8+ 19. Kf2 Nf6 20. Nd2 Ng4+ 21. Kg1?? { (-0.91 → -5.19) Blunder. The best move was Kg2. } (21. Kg2 c5 22. h3 Ne3+ 23. Kf2 cxd4 24. Nf3 Rac8 25. Nxd4 Nc4 26. Bxc4 Rxc4 27. a3 g6 28. Be3 Rcc8) 21... Re1+ 22. Nf1 Rae8 23. h3 Ne3 24. Bxe3 Rxa1 25. Kf2 Rxf1+? { (-5.99 → -4.98) Mistake. The best move was a5. } (25... a5 26. Bc2 a4 27. Ke2 Rxa2 28. Kd3 Rxb2 29. Bc1 Ra2 30. Ne3 Ra1 31. Bd2 Rg1 32. Nf5 Bc7 33. c4) 26. Kxf1 Rxe3 27. Kf2 Re7? { (-5.43 → -3.91) Mistake. The best move was Rd3. } (27... Rd3 28. c4 a5 29. cxb5 cxb5 30. Bd5 Rxd4 31. Bb7 Rd2+ 32. Kf3 Rxb2 33. Bd5 Rc2 34. h4 Rc3+ 35. Kg2) 28. a4 c5 29. axb5 axb5 30. dxc5?! { (-4.64 → -5.45) Inaccuracy. The best move was Bd5. } (30. Bd5 cxd4 31. cxd4 Bc7 32. Bc6 Bb6 33. Bxb5 Bxd4+ 34. Kg2 Bxb2 35. h4 g6 36. Kf3 Bd4 37. g4 Re3+) 30... Bxc5+ 31. Kf3?! { (-5.44 → -6.05) Inaccuracy. The best move was Kf1. } (31. Kf1 Re3 32. g4 Rxh3 33. Bd1 Rg3 34. Ke1 Rg1+ 35. Ke2 Bd6 36. f5 Rxg4 37. Ke3 Bc5+ 38. Kf3 h5) 31... Re3+ 32. Kg4 g6 33. h4 Kg7 34. Bd5 h5+ 35. Kh3 Bd6 0-1
