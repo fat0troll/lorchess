@@ -135,6 +135,11 @@
 
 - number: 6
   games:
+  - date:   26.04.2014
+    white:  MyTrooName
+    black:  redgremlin
+    result: '0:1'
+
   - date:   02.03.2014
     white:  aptyp
     black:  Magian
@@ -314,6 +319,11 @@
 
 - number: 13
   games:
+  - date:   25.04.2014
+    white:  Magian
+    black:  MyTrooName
+    result: '1:0'
+
   - date:   18.04.2014
     white:  trex6
     black:  redgremlin
@@ -353,6 +363,16 @@
 
 - number: 15
   games:
+  - date:   26.04.2014
+    white:  redgremlin
+    black:  MyTrooName
+    result: '1:0'
+
+  - date:   26.04.2014
+    white:  Magian
+    black:  aptyp
+    result: '0:1'
+
   - date:   18.04.2014
     white:  trex6
     black:  HunOL
@@ -388,6 +408,11 @@
   - date:   24.04.2014
     white:  HunOL
     black:  Magian
+    result: '0:1'
+
+  - date:   26.04.2014
+    white:  aptyp
+    black:  redgremlin
     result: '0:1'
 
 - number: 17
