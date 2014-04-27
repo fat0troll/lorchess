@@ -1,0 +1,13 @@
+[Event "Casual game"]
+[Site "http://lichess.org/P6AnicV6"]
+[Date "2014.04.27"]
+[White "gremlin_the_red"]
+[Black "Magian"]
+[Result "1-0"]
+[WhiteElo "1685"]
+[BlackElo "1693"]
+[PlyCount "65"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 c5 5. Bd3 Nc6 6. Nf3 Bxc3+ 7. bxc3 d6 8. O-O O-O 9. Qe2 Ne7?! { (0.04 → 0.71) Inaccuracy. The best move was e5. } (9... e5 10. Ng5 h6 11. Ne4 exd4 12. cxd4 Rfe8 13. Nxf6+ Qxf6 14. Bb2 Bf5 15. Bxf5 Qxf5 16. d5 Ne5 17. Bxe5) 10. e4 Ng6 11. Bg5?! { (0.70 → 0.17) Inaccuracy. The best move was e5. } (11. e5 dxe5 12. Nxe5 b6 13. Bxg6 hxg6 14. dxc5 bxc5 15. Rab1 Qc7 16. Bf4 Nh5 17. Bg5 Bb7 18. Rfd1 Nf6) 11... h6 12. Be3 b6?! { (0.10 → 1.07) Inaccuracy. The best move was e5. } (12... e5 13. h3 b6 14. Rab1 Bd7 15. d5 Qc8 16. Qd2 Rfe8 17. Rfe1 Qa6) 13. e5 dxe5 14. Bxg6 fxg6 15. Nxe5 Bb7 16. Nxg6 Rf7 17. Ne5 Rff8 18. dxc5 bxc5? { (1.42 → 2.46) Mistake. The best move was Qc7. } (18... Qc7 19. Ng6 Rfe8 20. cxb6 axb6 21. Bd4 Nd7 22. Be5 Qc6 23. f3 Nf8 24. Nxf8 Rexf8 25. Rfb1 Rf7 26. Bd4) 19. Bxc5 Rfe8 20. Bd4 Ref8 21. Rab1 Rab8? { (2.58 → 4.83) Mistake. The best move was Qc7. } (21... Qc7 22. c5 Rac8 23. Rfe1 Rfe8 24. Qc2 Rcb8 25. f3 Nd7 26. Rxb7 Rxb7 27. c6) 22. Bxa7 Rba8?? { (4.78 → 7.83) Blunder. The best move was Qc7. } (22... Qc7 23. Bxb8 Rxb8 24. f3 Re8 25. Rfe1 Ra8 26. Qe3 Be4 27. Rb5 Bf5 28. g4 Bc2 29. Qb6 Qxb6+ 30. Rxb6) 23. Rxb7 Qc8? { (7.89 → 10.24) Mistake. The best move was Qe8. } (23... Qe8 24. Qe3 Qh5 25. f3 Qf5 26. Nc6 Qh5 27. Qxe6+ Kh8 28. Qe5 Rfe8 29. Qg3 Reg8 30. Ne5 Rae8 31. Re1) 24. Rfb1 Rfd8 25. Bd4 Rdf8 26. Nd7?? { (13.81 → 6.37) Blunder. The best move was Ng6. } (26. Ng6 Qe8 27. Nxf8 e5 28. Bc5 e4 29. Qe3 Nh5 30. Be7 Qc6 31. Rb7b8 Rxb8 32. Rxb8 Qxc4 33. Ng6+ Kh7) 26... Nxd7 27. Qxe6+ Rf7 28. c5 Kf8?? { (6.79 → 21.71) Blunder. The best move was Qe8. } (28... Qe8 29. Qd5 Ra5 30. Qc4 Ra8 31. c6 Nf8 32. c7 Rc8 33. Rb7b8 Nd7 34. Rxc8 Qxc8 35. Rb7 Kf8 36. f3) 29. c6 Re7?! { (22.05 → Mate in 6) Checkmate is now unavoidable. The best move was Kg8. } (29... Kg8 30. cxd7 Qd8 31. Bc5 h5 32. Be7 Ra6 33. Qxf7+ Kxf7 34. Bxd8 Rd6 35. Bb6 Ke6 36. d8=Q Rxd8 37. Bxd8) 30. cxd7? { (Mate in 6 → 8.68) Lost forced checkmate sequence. The best move was Bc5. } (30. Bc5 Qd8 31. Rxd7 Qxd7 32. cxd7 g5 33. Qxe7+ Kg8 34. Bd4 Rxa2 35. d8=Q#) 30... Qxb7?! { (8.68 → Mate in 9) Checkmate is now unavoidable. The best move was Rxe6. } (30... Rxe6 31. Bxg7+ Kg8 32. dxc8=R+ Rxc8 33. Bd4 Rce8 34. f3 Re6e1+ 35. Rxe1 Rxe1+ 36. Kf2 Rc1 37. a4 Rc2+ 38. Kg3) 31. Bxg7+ Kxg7 32. Qxe7+ Kg6 33. Rxb7 1-0
