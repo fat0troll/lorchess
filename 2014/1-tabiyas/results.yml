@@ -361,6 +361,11 @@
     black:  trex6
     result: '1:0'
 
+  - date:   27.04.2014
+    white:  redgremlin
+    black:  Magian
+    result: '1:0'
+
 - number: 15
   games:
   - date:   26.04.2014
@@ -422,6 +427,11 @@
     black:  MyTrooName
     result: '1:0'
 
+  - date:   27.04.2014
+    white:  Magian
+    black:  J
+    result: '1:0'
+
   - date:   18.04.2014
     white:  trex6
     black:  Adem
@@ -433,6 +443,11 @@
     white:  iVS
     black:  trex6
     result: '1:0'
+
+  - date:   27.04.2014
+    white:  J
+    black:  redgremlin
+    result: '0:1'
 
   - date:   24.04.2014
     white:  HunOL
