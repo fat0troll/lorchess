@@ -2,7 +2,8 @@
 # Copyright 2014 Vladimir Ivanov <ivvl82@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
-REPO="https://raw.githubusercontent.com/fat0troll/lorchess/master"
+# REPO="https://raw.githubusercontent.com/fat0troll/lorchess/master"
+REPO="`dirname $0`"
 TOURNAMENT="2014/1-tabiyas"
 
 # Version information
@@ -22,9 +23,10 @@ Usage: $argv0 [options] [tours]
   \`tour_info' is found. By default, only unaccomplished games are
   listed.
 
-  Inner variable REPO points to the root of repository; REPO is a URL
-  link, absolute or relative path. Inner variable TOURNAMENT specifies
-  the sub-directory of tournament.
+  Inner variable REPO points to the root of repository; its default
+  value of \`dirname \$0\` can be replaced by a URL link, absolute or
+  relative path. Inner variable TOURNAMENT specifies the sub-directory
+  of tournament.
 
 Options:
   -a            List accomplished games too
@@ -78,9 +80,9 @@ show_tour_sequence() {
                 if keep_game_info "$line"; then
                     # Fix result
                     case "$result" in
-                        1:0)     result="1-0" ;;
-                        0:1)     result="0-1" ;;
-                        0.5:0.5) result="1/2" ;;
+                        "1:0")     result="1-0" ;;
+                        "0:1")     result="0-1" ;;
+                        "0.5:0.5") result="1/2" ;;
                     esac
 
                     # Store the link to game in 'game_url'
@@ -130,7 +132,7 @@ get_tour_dates() {
     if [[ "$1" =~ "Время проведения:"\ *($date_re)\ *[-—]\ *($date_re) ]]; then
         date_beg="${BASH_REMATCH[1]}" date_end="${BASH_REMATCH[2]}"
         # Use short dates
-        date_beg="${date_beg:0:5}" date_end="${date_end:0:5}"
+        date_beg="${date_beg::5}" date_end="${date_end::5}"
         return 0
     else
         return 1
