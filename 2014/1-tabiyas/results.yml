@@ -312,6 +312,11 @@
     black:  iVS
     result: '0:1'
 
+  - date:   29.04.2014
+    white:  redgremlin
+    black:  DoctorSinus
+    result: '1:0'
+
   - date:   18.04.2014
     white:  Magian
     black:  trex6
@@ -435,6 +440,11 @@
   - date:   18.04.2014
     white:  trex6
     black:  Adem
+    result: '0:1'
+
+  - date:   29.04.2014
+    white:  DoctorSinus
+    black:  iVS
     result: '0:1'
 
 - number: 18
