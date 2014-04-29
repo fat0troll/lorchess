@@ -44,65 +44,69 @@ version() {
 }
 
 show_tour_sequence() {
-    local sequence
+    local tour_info
 
-    # Generate the sequence of tours to search in
-    if [[ -z "$@" ]]; then
-        sequence=$(seq -f "%02g" 1 99)
+    # Reduce REPO to a canonical form
+    convert_repo_url
+
+    if [[ -n "$@" ]]; then
+        for num in $@; do
+            fetch_tour_info "$num" && output_tour_info
+        done
     else
-        # Change tour numbers: '1' -> '01', '2' -> '02', and so on
-        sequence=$(for i in "$@"; do printf "%02g " "$i"; done)
+        # If the tour numbers were not passed as arguments, exit once
+        # the first non-existing 'tour_info' is reached
+        num=1
+        while fetch_tour_info "$num"; do
+            output_tour_info
+            num=$((num+1))
+        done
     fi
+}
 
-    for tour in $sequence; do
-        convert_repo_url
-        local base_url="${REPO}/${TOURNAMENT}"
-        local info_url="${base_url}/tours/${tour}/tour_info"
+fetch_tour_info() {
+    # Change tour numbers: '1' -> '01', '2' -> '02', and so on
+    local tour=$(printf "%02g" "$num")
 
-        # *NOTE* The incorporation of a newline at the end of
-        # 'tour_info' (--write-out '\n') is important and allows one
-        # to read the last line with no trailing '\n'
-        local tour_info="$(curl -q --fail --silent --write-out '\n' $info_url)"
+    # *NOTE* The incorporation of a newline at the end of 'tour_info'
+    # (--write-out '\n') is important and allows one to read the last
+    # line with no trailing '\n'
+    local info_url="${REPO}/${TOURNAMENT}/tours/${tour}/tour_info"
+    tour_info="$(curl -q --fail --silent --write-out '\n' $info_url)"
+    return `[[ -n "$tour_info" ]]`
+}
 
-        # Produce output only if 'tour_info' exists
-        if [[ -n "$tour_info" ]]; then
-            local tour_num date_beg date_end
-            local white black result game_date game_url
-            # Lines with game info
-            local output_lines=""
+output_tour_info() {
+    local tour_num date_beg date_end
+    local white black result game_date game_url
+    # Lines with game info
+    local output_lines=""
 
-            while read line; do
-                get_tour_num "$line" && continue
-                get_tour_dates "$line" && continue
+    while read line; do
+        get_tour_num "$line" && continue
+        get_tour_dates "$line" && continue
 
-                # Keep game info if needed, and store it in variables
-                # 'while', 'black', 'result', and 'game_date'
-                if keep_game_info "$line"; then
-                    # Fix result
-                    case "$result" in
-                        "1:0")     result="1-0" ;;
-                        "0:1")     result="0-1" ;;
-                        "0.5:0.5") result="1/2" ;;
-                    esac
+        # Keep game info if needed, and store it in variables 'white',
+        # 'black', 'result', and 'game_date'
+        if keep_game_info "$line"; then
+            # Fix result
+            case "$result" in
+                "1:0")     result="1-0" ;;
+                "0:1")     result="0-1" ;;
+                "0.5:0.5") result="1/2" ;;
+            esac
 
-                    # Store the link to game in 'game_url'
-                    game_url=""
-                    if $SHOW_LINK; then
-                        [[ -n "$result" ]] && store_game_url
-                    fi
+            # Store the link to game in 'game_url'
+            game_url=""
+            if $SHOW_LINK; then
+                [[ -n "$result" ]] && store_game_url
+            fi
 
-                    output_lines+="${white} ${black} ${result} ${game_url}\n"
-                fi
-            done <<< "$tour_info"
-
-            [[ -n "$output_lines" ]] && eval "info_output_$FORMAT \"${output_lines}\""
-
-        else
-            # If the tour numbers were not passed as arguments, exit
-            # once the first non-existing 'tour_info' is reached
-            [[ -z "$@" ]] && break
+            output_lines+="${white} ${black} ${result} ${game_url}\n"
         fi
-    done
+    done <<< "$tour_info"
+
+    [[ -n "$output_lines" ]] && eval "info_output_$FORMAT \"${output_lines}\""
 }
 
 convert_repo_url() {
@@ -165,9 +169,9 @@ keep_game_info() {
 }
 
 store_game_url() {
-    local tour=$(printf "%02g" "$tour_num")
+    local tour=$(printf "%02g" "$num")
     local game_dir="${game_date}-${white}-vs-${black}"
-    local pgn_url="${base_url}/tours/${tour}/${game_dir}/1.pgn"
+    local pgn_url="${REPO}/${TOURNAMENT}/tours/${tour}/${game_dir}/1.pgn"
 
     while read line; do
         # Search for a URL inside PGN file
