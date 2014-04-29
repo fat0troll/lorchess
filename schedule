@@ -72,7 +72,7 @@ fetch_tour_info() {
     # (--write-out '\n') is important and allows one to read the last
     # line with no trailing '\n'
     local info_url="${REPO}/${TOURNAMENT}/tours/${tour}/tour_info"
-    tour_info="$(curl -q --fail --silent --write-out '\n' $info_url)"
+    tour_info="$(curl -q --fail --location --silent --write-out '\n' $info_url)"
     return `[[ -n "$tour_info" ]]`
 }
 
@@ -178,7 +178,7 @@ store_game_url() {
         [[ "$line" =~ "[Site \""([a-z]+:[^\"]+)"\"]" ]]
         game_url="${BASH_REMATCH[1]}"
         [[ -n "$game_url" ]] && break
-    done <<< "$(curl -q --fail --silent $pgn_url)"
+    done <<< "$(curl -q --fail --location --silent $pgn_url)"
 }
 
 info_output_term() {
