@@ -7,7 +7,7 @@ REPO="`dirname $0`"
 TOURNAMENT="2014/1-tabiyas"
 
 # Version information
-VERSION="0.3"
+VERSION="0.4"
 
 argv0="${0##*/}"
 
