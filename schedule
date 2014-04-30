@@ -66,7 +66,7 @@ show_tour_sequence() {
 
 fetch_tour_info() {
     # Change tour numbers: '1' -> '01', '2' -> '02', and so on
-    local tour=$(printf "%02g" "$num")
+    local tour=$(printf "%02g" "$1")
 
     # *NOTE* The incorporation of a newline at the end of 'tour_info'
     # (--write-out '\n') is important and allows one to read the last
@@ -83,7 +83,9 @@ output_tour_info() {
     local output_lines=""
 
     while read line; do
+        # Read 'tour_num'
         get_tour_num "$line" && continue
+        # Read 'date_beg' and 'date_end'
         get_tour_dates "$line" && continue
 
         # Keep game info if needed, and store it in variables 'white',
@@ -169,7 +171,7 @@ keep_game_info() {
 }
 
 store_game_url() {
-    local tour=$(printf "%02g" "$num")
+    local tour=$(printf "%02g" "$tour_num")
     local game_dir="${game_date}-${white}-vs-${black}"
     local pgn_url="${REPO}/${TOURNAMENT}/tours/${tour}/${game_dir}/1.pgn"
 
