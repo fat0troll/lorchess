@@ -361,6 +361,11 @@
     black:  iVS
     result: '0:1'
 
+  - date:   01.05.2014
+    white:  HunOL
+    black:  DoctorSinus
+    result: '0:1'
+
   - date:   18.04.2014
     white:  aptyp
     black:  trex6
@@ -432,6 +437,11 @@
     black:  MyTrooName
     result: '1:0'
 
+  - date:   01.05.2014
+    white:  redgremlin
+    black:  HunOL
+    result: '0.5:0.5'
+
   - date:   27.04.2014
     white:  Magian
     black:  J
@@ -449,6 +459,11 @@
 
 - number: 18
   games:
+  - date:   01.05.2014
+    white:  MyTrooName
+    black:  DoctorSinus
+    result: '1:0'
+
   - date:   18.04.2014
     white:  iVS
     black:  trex6
