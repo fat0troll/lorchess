@@ -469,6 +469,11 @@
     black:  trex6
     result: '1:0'
 
+  - date:   04.05.2014
+    white:  Adem
+    black:  Magian
+    result: '0:1'
+
   - date:   27.04.2014
     white:  J
     black:  redgremlin
