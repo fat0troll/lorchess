@@ -28,14 +28,17 @@ get_game_players() {
 
 parse_config() {
     # Copy player INI file to the temporary location
-    cp "$ply_ini" "$tmp_ini"
+    # NOTE: an empty line is added to the file beginning in order to
+    # match the only first occurrence for non-GNU sed
+    echo > "$tmp_ini"
+    cat "$ply_ini" >> "$tmp_ini"
 
     # Remove tabs or spaces around the `='
-    sed -i".prev" -E "s/^([^ \t=]*)[ \t]*=[ \t]*/\1=/g" "$tmp_ini"
+    sed -i".prev" -E "s/[[:blank:]]*=[[:blank:]]*/=/g" "$tmp_ini"
 
     # Transform section labels into function declaration
-    sed -i".prev" -E "0,/^\[([^]]*)\]/s//config_section_\1() {/g" "$tmp_ini"
-    sed -i".prev" -E "s/^\[([^]]*)\]/}\nconfig_section_\1() {/g" "$tmp_ini"
+    sed -i".prev" -E "1,/^\[.*\]/s/^\[([^]]*)\]/config_section_\1() {/g" "$tmp_ini"
+    sed -i".prev" -E "s/^\[([^]]*)\]/}\\"$'\n'"config_section_\1() {/g" "$tmp_ini"
     echo -e "\n}" >> "$tmp_ini"
 
     # Load the file
@@ -44,14 +47,14 @@ parse_config() {
 
 fix_white_player() {
     local number
-    echo "Lichess player '${w_lichess}' was not found."
+    echo "Lichess player '${w_lichess}' not found."
     choose_player
     white="${players[$number]}"
 }
 
 fix_black_player() {
     local number
-    echo "Lichess player '${b_lichess}' was not found."
+    echo "Lichess player '${b_lichess}' not found."
     choose_player
     black="${players[$number]}"
 }
@@ -60,7 +63,8 @@ choose_player() {
     local answer
     echo -n "Would you like to choose a name? (Y/n)> "
     read answer
-    [[ "$answer" =~ ^(|Y|y|Yes|yes)$ ]] || exit 1
+    [[ "$answer" =~ ^(Y|y|Yes|yes)$ ]] || exit 1
+
     for ((i=0; i<${#players[@]}; ++i)); do
         echo "$((i+1)) ${players[$i]}"
     done \
@@ -68,6 +72,10 @@ choose_player() {
         | sed -E "s/^([0-9]*)/$(tput setaf 6)\1$(tput sgr0)/g" # highlight number
     echo -n "Put number> "
     read number
+
+    if (( "$number" < 1 || "$number" > ${#players[@]} )); then
+        die "Incorrect player number."
+    fi
     number=$((number-1))
 }
 
@@ -121,11 +129,11 @@ date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
 date=$(tr '.' '-' <<< "$date")
 
 pgn_dir="${REPO}/${TOURNAMENT}/tours/${TOUR}/${date}-${white}-vs-${black}"
-[[ -d "$pgn_dir" ]] && die "Directory \"${pgn_dir}\" already exist."
+[[ -d "$pgn_dir" ]] && die "Directory ${pgn_dir} already exist."
 
-echo "Creating directory \"${pgn_dir}\"..."
+echo "Creating directory ${pgn_dir}..."
 mkdir -p "$pgn_dir"
 echo "Storing PGN file..."
-cp "${tmp_pgn}" "${pgn_dir}/1.pgn"
+cp "$tmp_pgn" "${pgn_dir}/1.pgn"
 
 exit 0
