@@ -1,0 +1,131 @@
+#!/usr/bin/env bash
+# Copyright 2014 Vladimir Ivanov <ivvl82@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+REPO="`dirname $0`"
+TOURNAMENT="2014/1-tabiyas"
+
+# Config file for players
+ply_ini="${REPO}/${TOURNAMENT}/players.ini"
+
+get_game_players() {
+    # Extract players on Lichess
+    local w_lichess=$(sed -En "s/\[White \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
+    local b_lichess=$(sed -En "s/\[Black \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
+
+    # Get names of white and black players
+    local counter=1 players=()
+    parse_config
+    while eval "config_section_player${counter}" 2>/dev/null; do
+        players+=("$name")
+        [[ "$lichess" == "$w_lichess" ]] && white="$name"
+        [[ "$lichess" == "$b_lichess" ]] && black="$name"
+        counter=$((counter+1))
+    done
+    [[ -z "$white" ]] && fix_white_player
+    [[ -z "$black" ]] && fix_black_player
+}
+
+parse_config() {
+    # Copy player INI file to the temporary location
+    cp "$ply_ini" "$tmp_ini"
+
+    # Remove tabs or spaces around the `='
+    sed -i".prev" -E "s/^([^ \t=]*)[ \t]*=[ \t]*/\1=/g" "$tmp_ini"
+
+    # Transform section labels into function declaration
+    sed -i".prev" -E "0,/^\[([^]]*)\]/s//config_section_\1() {/g" "$tmp_ini"
+    sed -i".prev" -E "s/^\[([^]]*)\]/}\nconfig_section_\1() {/g" "$tmp_ini"
+    echo -e "\n}" >> "$tmp_ini"
+
+    # Load the file
+    source "$tmp_ini"
+}
+
+fix_white_player() {
+    local number
+    echo "Lichess player '${w_lichess}' was not found."
+    choose_player
+    white="${players[$number]}"
+}
+
+fix_black_player() {
+    local number
+    echo "Lichess player '${b_lichess}' was not found."
+    choose_player
+    black="${players[$number]}"
+}
+
+choose_player() {
+    local answer
+    echo -n "Would you like to choose a name? (Y/n)> "
+    read answer
+    [[ "$answer" =~ ^(|Y|y|Yes|yes)$ ]] || exit 1
+    for ((i=0; i<${#players[@]}; ++i)); do
+        echo "$((i+1)) ${players[$i]}"
+    done \
+        | column -t \
+        | sed -E "s/^([0-9]*)/$(tput setaf 6)\1$(tput sgr0)/g" # highlight number
+    echo -n "Put number> "
+    read number
+    number=$((number-1))
+}
+
+die() {
+    echo "$@" 1>&2
+    exit 1
+}
+
+checkargs() {
+    if [[ "$opt" == t && ! "$OPTARG" =~ ^[0-9]+$ ]]; then
+        echo "Incorrect tour number" 1>&2
+        exit 1
+    fi
+}
+
+TOUR=""
+
+while getopts "t:hv" opt; do
+    case "$opt" in
+        t)  checkargs
+            TOUR=$(printf "%02g" "$OPTARG")
+            ;;
+        h)  usage && exit 0
+            ;;
+        v)  version && exit 0
+            ;;
+    esac
+done
+
+shift $(($OPTIND - 1))
+
+# For now, tour number should be given explicitly
+[[ -z "$TOUR" ]] && die "Tour number not specified."
+
+# Temporary files
+tmp_ini=$(mktemp -t `basename $ply_ini`.XXXXXX)
+tmp_pgn=$(mktemp -t pgn.XXXXXX)
+trap "rm ${tmp_ini} ${tmp_ini}.prev ${tmp_pgn}" EXIT
+
+# Download PGN file
+[[ "$1" =~ ^(http://[^/]*)/([^/]*) ]]
+pgn_url="${BASH_REMATCH[1]}/${BASH_REMATCH[2]:0:8}/pgn"
+curl -q --fail --location --silent "$pgn_url" > "$tmp_pgn" \
+    || die "PGN file not found."
+
+white="" black=""
+get_game_players
+
+# Extract the game date
+date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
+date=$(tr '.' '-' <<< "$date")
+
+pgn_dir="${REPO}/${TOURNAMENT}/tours/${TOUR}/${date}-${white}-vs-${black}"
+[[ -d "$pgn_dir" ]] && die "Directory \"${pgn_dir}\" already exist."
+
+echo "Creating directory \"${pgn_dir}\"..."
+mkdir -p "$pgn_dir"
+echo "Storing PGN file..."
+cp "${tmp_pgn}" "${pgn_dir}/1.pgn"
+
+exit 0
