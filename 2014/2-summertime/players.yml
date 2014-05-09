@@ -1,0 +1,49 @@
+- number:  1
+  lor:     J
+  lichess: LOR_J
+  elo:     1479
+
+- number:  2
+  lor:     shell-script
+  lichess: cppmm
+  elo:     1190
+
+- number:  3
+  lor:     DoctorSinus
+  lichess: fat0troll
+  elo:     1255
+
+- number:  4
+  lor:     MyTrooName
+  lichess: sshilovsky
+  elo:     1544
+
+- number:  5
+  lor:     iVS
+  lichess: iVS
+  elo:     1740
+
+- number:  6
+  lor:     n1l
+  lichess: n1l
+  elo:     1334
+
+- number:  7
+  lor:     redgremlin
+  lichess: gremlin_the_red
+  elo:     1685
+
+- number:  8
+  lor:     HunOL
+  lichess: HunOL
+  elo:     1723
+
+- number:  9
+  lor:     MikeDM
+  lichess: MikeDM
+  elo:     1324
+
+- number:  10
+  lor:     raven_cler
+  lichess: raven_cler
+  elo:     1279
