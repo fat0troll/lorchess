@@ -79,6 +79,26 @@ choose_player() {
     number=$((number-1))
 }
 
+update_tour_info() {
+    local date_re="[0-9?]{2}\.[0-9?]{2}\.[0-9?]{4}"
+
+    local tour_info="${REPODIR}/${TOURNAMENT}/tours/${TOUR}/tour_info"
+    [[ ! -f "$tour_info" ]] && die "Tour_info not found in ${REPODIR}/${TOURNAMENT}/tours/${TOUR}."
+
+    local game_date="${date:8:2}.${date:5:2}.${date::4}"
+    local result=$(sed -En "s/\[Result \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
+    case "$result" in
+        "1-0")     result="1:0" ;;
+        "0-1")     result="0:1" ;;
+        "1/2-1/2") result="0.5:0.5" ;;
+    esac
+
+    sed -i".orig" \
+        -E "s/${date_re}( *[-—] *)${white} *${black}/${game_date}\1${white} ${result} ${black}/g" \
+        "$tour_info"
+    rm "${tour_info}.orig"
+}
+
 die() {
     echo "$@" 1>&2
     exit 1
@@ -135,5 +155,7 @@ echo "Creating directory ${pgn_dir}..."
 mkdir -p "$pgn_dir"
 echo "Storing PGN file..."
 cp "$tmp_pgn" "${pgn_dir}/1.pgn"
+echo "Updating tour_info..."
+update_tour_info
 
 exit 0
