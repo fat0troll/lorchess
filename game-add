@@ -2,11 +2,11 @@
 # Copyright 2014 Vladimir Ivanov <ivvl82@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
-REPO="`dirname $0`"
-TOURNAMENT="2014/1-tabiyas"
+REPODIR="`dirname $0`"
+TOURNAMENT="2014/2-summertime"
 
 # Config file for players
-ply_ini="${REPO}/${TOURNAMENT}/players.ini"
+ply_ini="${REPODIR}/${TOURNAMENT}/players.ini"
 
 get_game_players() {
     # Extract players on Lichess
@@ -128,7 +128,7 @@ get_game_players
 date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
 date=$(tr '.' '-' <<< "$date")
 
-pgn_dir="${REPO}/${TOURNAMENT}/tours/${TOUR}/${date}-${white}-vs-${black}"
+pgn_dir="${REPODIR}/${TOURNAMENT}/tours/${TOUR}/${date}-${white}-vs-${black}"
 [[ -d "$pgn_dir" ]] && die "Directory ${pgn_dir} already exist."
 
 echo "Creating directory ${pgn_dir}..."

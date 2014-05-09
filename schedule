@@ -4,7 +4,7 @@
 
 # REPO="https://raw.githubusercontent.com/fat0troll/lorchess/master"
 REPO="`dirname $0`"
-TOURNAMENT="2014/1-tabiyas"
+TOURNAMENT="2014/2-summertime"
 
 # Version information
 VERSION="0.4"
