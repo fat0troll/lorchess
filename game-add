@@ -8,14 +8,14 @@ TOURNAMENT="2014/2-summertime"
 # Config file for players
 ply_ini="${REPODIR}/${TOURNAMENT}/players.ini"
 
-get_game_players() {
+game_get_players() {
     # Extract players on Lichess
     local w_lichess=$(sed -En "s/\[White \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
     local b_lichess=$(sed -En "s/\[Black \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
 
     # Get names of white and black players
     local counter=1 players=()
-    parse_config
+    game_parse_config
     while eval "config_section_player${counter}" 2>/dev/null; do
         players+=("$name")
         [[ "$lichess" == "$w_lichess" ]] && white="$name"
@@ -26,7 +26,7 @@ get_game_players() {
     [[ -z "$black" ]] && fix_black_player
 }
 
-parse_config() {
+game_parse_config() {
     # Copy player INI file to the temporary location
     # NOTE: an empty line is added to the file beginning in order to
     # match the only first occurrence for non-GNU sed
@@ -75,7 +75,7 @@ choose_player() {
     number=$((number-1))
 }
 
-add_game() {
+game_add_to_repo() {
     local date_re="[0-9?]{2}\.[0-9?]{2}\.[0-9?]{4}"
     # Check if the tour number is correct
     local correct=false
@@ -89,11 +89,6 @@ add_game() {
         die "Game '${white} vs. ${black}' not found in ${tour_info}."
     fi
 
-    # Extract the game date from PGN
-    local pgn_date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
-    pgn_date=$(tr '.' '-' <<< "$pgn_date")
-
-    pgn_dir="${REPODIR}/${TOURNAMENT}/tours/${TOUR}/${pgn_date}-${white}-vs-${black}"
     [[ -d "$pgn_dir" ]] && die "Directory ${pgn_dir} already exist."
     echo "Creating directory ${pgn_dir}..."
     mkdir -p "$pgn_dir"
@@ -114,6 +109,13 @@ add_game() {
         -E "s/${date_re}( *[-—] *)${white} *${black}/${game_date}\1${white} ${result} ${black}/g" \
         "$tour_info"
     rm "${tour_info}.orig"
+}
+
+game_git_commit() {
+    git pull
+    git add "${pgn_dir}/1.pgn" "$tour_info"
+    git commit -m "Tour ${TOUR#0}: ${white} vs. ${black}."
+    git push
 }
 
 die() {
@@ -156,13 +158,19 @@ trap "rm ${tmp_ini} ${tmp_ini}.prev ${tmp_pgn}" EXIT
 
 # Download PGN file
 [[ "$1" =~ ^(http://[^/]*)/([^/]*) ]]
-pgn_url="${BASH_REMATCH[1]}/${BASH_REMATCH[2]:0:8}/pgn"
+pgn_url="${BASH_REMATCH[1]}/${BASH_REMATCH[2]::8}/pgn"
 curl -q --fail --location --silent "$pgn_url" > "$tmp_pgn" \
     || die "PGN file not found."
 
 white="" black=""
-get_game_players
+game_get_players
 
-add_game
+# Extract the game date from PGN
+pgn_date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
+pgn_date=$(tr '.' '-' <<< "$pgn_date")
+pgn_dir="${REPODIR}/${TOURNAMENT}/tours/${TOUR}/${pgn_date}-${white}-vs-${black}"
+
+game_add_to_repo
+game_git_commit
 
 exit 0
