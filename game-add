@@ -60,11 +60,7 @@ fix_black_player() {
 }
 
 choose_player() {
-    local answer
-    echo -n "Would you like to choose a name? (Y/n)> "
-    read answer
-    [[ "$answer" =~ ^(Y|y|Yes|yes)$ ]] || exit 1
-
+    echo "Please choose a proper name from the list below:"
     for ((i=0; i<${#players[@]}; ++i)); do
         echo "$((i+1)) ${players[$i]}"
     done \
@@ -79,13 +75,34 @@ choose_player() {
     number=$((number-1))
 }
 
-update_tour_info() {
+add_game() {
     local date_re="[0-9?]{2}\.[0-9?]{2}\.[0-9?]{4}"
+    # Check if the tour number is correct
+    local correct=false
+    while IFS= read line; do
+        if [[ "$line" =~ ${date_re}\ *[-—]\ *${white}\ *${black} ]]; then
+            correct=true
+            break
+        fi
+    done < "$tour_info"
+    if ! $correct; then
+        die "Game '${white} vs. ${black}' not found in ${tour_info}."
+    fi
 
-    local tour_info="${REPODIR}/${TOURNAMENT}/tours/${TOUR}/tour_info"
-    [[ ! -f "$tour_info" ]] && die "Tour_info not found in ${REPODIR}/${TOURNAMENT}/tours/${TOUR}."
+    # Extract the game date from PGN
+    local pgn_date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
+    pgn_date=$(tr '.' '-' <<< "$pgn_date")
 
-    local game_date="${date:8:2}.${date:5:2}.${date::4}"
+    pgn_dir="${REPODIR}/${TOURNAMENT}/tours/${TOUR}/${pgn_date}-${white}-vs-${black}"
+    [[ -d "$pgn_dir" ]] && die "Directory ${pgn_dir} already exist."
+    echo "Creating directory ${pgn_dir}..."
+    mkdir -p "$pgn_dir"
+
+    echo "Storing PGN file..."
+    cp "$tmp_pgn" "${pgn_dir}/1.pgn"
+
+    echo "Updating tour_info..."
+    local game_date="${pgn_date:8:2}.${pgn_date:5:2}.${pgn_date::4}"
     local result=$(sed -En "s/\[Result \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
     case "$result" in
         "1-0")     result="1:0" ;;
@@ -129,6 +146,8 @@ shift $(($OPTIND - 1))
 
 # For now, tour number should be given explicitly
 [[ -z "$TOUR" ]] && die "Tour number not specified."
+tour_info="${REPODIR}/${TOURNAMENT}/tours/${TOUR}/tour_info"
+[[ ! -f "$tour_info" ]] && die "File ${tour_info} not found."
 
 # Temporary files
 tmp_ini=$(mktemp -t `basename $ply_ini`.XXXXXX)
@@ -144,18 +163,6 @@ curl -q --fail --location --silent "$pgn_url" > "$tmp_pgn" \
 white="" black=""
 get_game_players
 
-# Extract the game date
-date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
-date=$(tr '.' '-' <<< "$date")
-
-pgn_dir="${REPODIR}/${TOURNAMENT}/tours/${TOUR}/${date}-${white}-vs-${black}"
-[[ -d "$pgn_dir" ]] && die "Directory ${pgn_dir} already exist."
-
-echo "Creating directory ${pgn_dir}..."
-mkdir -p "$pgn_dir"
-echo "Storing PGN file..."
-cp "$tmp_pgn" "${pgn_dir}/1.pgn"
-echo "Updating tour_info..."
-update_tour_info
+add_game
 
 exit 0
