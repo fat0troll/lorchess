@@ -1,0 +1,19 @@
+- number: 1
+  games:
+  - date:   10.05.2014
+    white:  DoctorSinus
+    black:  HunOL
+    result: '1:0'
+
+- number: 2
+  games:
+  - date:   09.05.2014
+    white:  HunOL
+    black:  MyTrooName
+    result: '0:1'
+
+  - date:   10.05.2014
+    white:  MikeDM
+    black:  DoctorSinus
+    result: '0:1'
+
