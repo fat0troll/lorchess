@@ -5,7 +5,7 @@ module LORChess
 
     require 'yaml'
 
-    DATADIR = '2014/1-tabiyas'
+    DATADIR = '2014/2-summertime'
     ROUNDS = 2
 
     dir = File.dirname(__FILE__)
