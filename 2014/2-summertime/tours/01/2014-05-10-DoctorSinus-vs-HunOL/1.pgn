@@ -1,0 +1,13 @@
+[Event "Rated game"]
+[Site "http://lichess.org/TKE1oeqP"]
+[Date "2014.05.10"]
+[White "fat0troll"]
+[Black "HunOL"]
+[Result "1-0"]
+[WhiteElo "1255"]
+[BlackElo "1707"]
+[PlyCount "25"]
+[Variant "Standard"]
+[Annotator "lichess.org"]
+
+1. e4 c6 2. d4 d5 3. exd5 { Caro-Kann Defense, Exchange Variation } cxd5 4. Bb5+ Bd7 5. Bxd7+ Qxd7 6. Nc3 e6 7. Nf3 Bb4 8. Bd2 Nc6 9. O-O Nf6 10. Ne5 Qc7 11. Nb5 Qc8 12. Bxb4 Nxb4 13. Nd6+ 1-0
