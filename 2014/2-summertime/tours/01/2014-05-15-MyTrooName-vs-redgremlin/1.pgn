@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/wwCfjmIi"]
+[Date "2014.05.15"]
+[White "sshilovsky"]
+[Black "gremlin_the_red"]
+[Result "0-1"]
+[WhiteElo "1554"]
+[BlackElo "1699"]
+[PlyCount "58"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B20"]
+[Opening "Sicilian Defense, Bowlder Attack"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. Bc4 { Sicilian Defense, Bowlder Attack } Nc6 3. d3 e6 4. Nc3 Nf6 5. f4 d5 6. Bb5 d4 7. e5?! { (-0.15 → -0.72) Inaccuracy. The best move was Bxc6+. } (7. Bxc6+ bxc6 8. Nce2 c4 9. Nf3 Ba6 10. O-O Bc5 11. b3 cxd3 12. cxd3 Nxe4 13. Bb2 Nc3) 7... dxc3 8. exf6 cxb2 9. Bxb2 Qa5+ 10. Qd2 Qxb5 11. c4 Qa4 12. fxg7 Bxg7 13. Bxg7 Rhg8 14. Bc3 Bd7?! { (-0.56 → 0.31) Inaccuracy. The best move was b5. } (14... b5 15. Nf3 bxc4 16. O-O Ba6 17. f5 cxd3 18. Rf2 O-O-O 19. Qe3 exf5 20. Rb1 d2 21. Bxd2 Qxa2 22. Rc1) 15. Nf3 O-O-O 16. O-O Nb4?! { (0.45 → 1.32) Inaccuracy. The best move was e5. } (16... e5 17. fxe5 Be6 18. Rab1 b6 19. Qe2 Kb8 20. Rf2 Qa6 21. Qe3 Bf5 22. Ne1 Qc8 23. Qf3 Be6 24. Nc2) 17. Ne5? { (1.32 → -1.12) Mistake. The best move was a3. } (17. a3 Na6 18. Bf6 Rdf8 19. Ne5 Bc6 20. Rf2 Kb8 21. Be7 Rfe8 22. Bd6+ Ka8 23. Nxf7 Rg7 24. Ne5 Reg8) 17... Bc6?! { (-1.12 → -0.56) Inaccuracy. The best move was Nxd3. } (17... Nxd3 18. Qe2 Nxe5 19. Bxe5 Bc6 20. Rf2 b6 21. Re1 Rd7 22. Bf6 Kb7 23. Bc3 Kb8 24. Bf6 Ka8 25. Be5) 18. Rf2? { (-0.56 → -2.02) Mistake. The best move was g3. } (18. g3 Nxd3 19. Qe2 f5 20. Nxc6 Qxc6 21. Rf3 Qe4 22. Qxe4 fxe4 23. Re3 Rdf8 24. Rf1 Nxf4 25. Rxe4 Nh3+) 18... Nxd3 19. Nxd3 Qxc4 20. Ne5?! { (-1.95 → -2.57) Inaccuracy. The best move was Be5. } (20. Be5 Qxd3 21. Qxd3 Rxd3 22. Rc1 b6 23. g3 Bd5 24. f5 exf5 25. Rxf5 Bxa2 26. Rh5 Be6 27. Rxh7 Kb7) 20... Qe4?? { (-2.57 → 2.29) Blunder. The best move was Rxd2. } (20... Rxd2 21. Nxc4 Rgxg2+ 22. Rxg2 Rxg2+ 23. Kf1 Rc2 24. Nd6+ Kd7 25. Be5 f6 26. Bxf6 Kxd6 27. Be5+ Kd5 28. Rb1) 21. Qe2?! { (2.29 → 1.60) Inaccuracy. The best move was Qb2. } (21. Qb2 Qa4 22. Qe2 Bb5 23. Qh5 f6 24. Nf3 Rd1+ 25. Rxd1 Qxd1+ 26. Be1 Qd5 27. Qf7 Re8 28. Qxf6 Qe4) 21... Qa4? { (1.60 → 3.85) Mistake. The best move was Qxe2. } (21... Qxe2 22. Rxe2 Be8 23. a4 Rd5 24. g3 b6 25. Rb2 Kc7 26. Nc4 Bc6 27. Be5+ Kd7 28. Bf6 Rf5 29. Ne5+) 22. Nxf7 Rdf8 23. Qxe6+ Kb8 24. Be5+ Ka8 25. Bd6?? { (3.89 → -9.17) Blunder. The best move was Nd6. } (25. Nd6 h5 26. Qb3 h4 27. Qxa4 Bxa4 28. f5 Bc6 29. f6 h3 30. f7 Rg5 31. Re1 hxg2 32. h4 Rg4) 25... Qd4 26. g3 Qxa1+ 27. Rf1 Qd4+ 28. Rf2 Rfe8 29. Qb3?! { (-8.98 → Mate in 1) Checkmate is now unavoidable. The best move was Be7. } (29. Be7 Rg6 30. Qb3 Qe4 31. Rf3 Rxe7 32. Qd3 Qd4+ 33. Qxd4 cxd4 34. Rd3 Rxf7 35. Kf2 Rd7 36.
