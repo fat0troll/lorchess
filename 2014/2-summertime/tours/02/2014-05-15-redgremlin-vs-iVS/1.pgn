@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/E1Kst9qU"]
+[Date "2014.05.15"]
+[White "gremlin_the_red"]
+[Black "iVS"]
+[Result "1-0"]
+[WhiteElo "1685"]
+[BlackElo "1760"]
+[PlyCount "49"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A40"]
+[Opening "Horwitz Defense, General"]
+[Annotator "lichess.org"]
+
+1. d4 e6 { Horwitz Defense, General } 2. c4 f5 3. Nc3 Nf6 4. g3 c6 5. Bg2 d5 6. Nf3 Bd6 7. O-O O-O 8. Nd2 Ng4 9. e4 dxe4 10. Ndxe4 fxe4?! { (0.53 → 1.12) Inaccuracy. The best move was Be7. } (10... Be7 11. h3 Nh6 12. Nc5 Nf7 13. Be3 Bxc5 14. dxc5 e5 15. Qe2 Be6 16. a3 Na6 17. Rad1 Qf6) 11. Qxg4 e5 12. Qxe4 Bf5 13. Qe3 Nd7?! { (0.78 → 1.39) Inaccuracy. The best move was exd4. } (13... exd4 14. Qxd4 Na6 15. Ne4 Bc7 16. Be3 Qxd4 17. Bxd4 Rfe8 18. Rfe1 Nb4 19. Re2 Nd3 20. b3 Bb6 21. Bxb6) 14. d5 Bc5 15. Qe2 e4 16. Be3 cxd5 17. Nxd5 Rac8 18. Rad1 Qe8 19. b3 Ne5 20. Bxc5 Rxc5 21. Rfe1?! { (1.84 → 1.25) Inaccuracy. The best move was f4. } (21. f4 exf3 22. Bxf3 Nxf3+ 23. Qxf3 Rc6 24. Rde1 Be6 25. Qe3 Rxf1+ 26. Rxf1 a6 27. Qg5 Bxd5 28. Qxd5+ Kh8) 21... Bg4 22. Qxe4 Bxd1 23. Qxe5 Qxe5 24. Rxe5 b5?? { (1.04 → 4.35) Blunder. The best move was b6. } (24... b6 25. f4 Bg4 26. Kf2 Rd8 27. Bf3 Bd7 28. Ke3 Kf8 29. Be4 h6 30. f5 Re8 31. Rxe8+ Kxe8 32. g4) 25. 
