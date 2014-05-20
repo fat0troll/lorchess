@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/bxyhOJHm"]
+[Date "2014.05.20"]
+[White "LOR_J"]
+[Black "raven_cler"]
+[Result "0-1"]
+[WhiteElo "1426"]
+[BlackElo "1279"]
+[PlyCount "58"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B01"]
+[Opening "Scandinavian Defense, Gubinsky-Melts Defense"]
+[Annotator "lichess.org"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 { Scandinavian Defense, Gubinsky-Melts Defense } 4. Nf3 Nf6 5. Bc4 Bg4 6. h3 Bh5 7. Qe2 Nc6 8. Qe3?! { (0.62 → 0.00) Inaccuracy. The best move was g4. } (8. g4 Bg6 9. d4 a6 10. g5 Nb4 11. O-O Nfd5 12. Ne5 b5 13. Nxd5 Nxd5 14. Bd3 e6 15. Qf3 O-O-O) 8... O-O-O 9. O-O Bxf3 10. Qxf3 Nd4 11. Qd3 e6 12. Ne2 Qe5 13. Nxd4? { (-0.22 → -1.39) Mistake. The best move was c3. } (13. c3 Nb3 14. Qxd8+ Kxd8 15. axb3 a6 16. d4 Qf5 17. Ng3 Qc2) 13... Rxd4 14. Qb3 Bd6 15. g3 h5? { (-2.21 → -0.33) Mistake. The best move was Nh5. } (15... Nh5 16. Kg2 Qe4+ 17. Kg1 Nxg3 18. fxg3 Rxc4 19. Qd3 Bc5+ 20. Kh2 f5 21. Qxe4 Rxe4 22. Kg2 Re2+ 23. Kf3) 16. c3 Rd5?? { (-4.86 → 0.53) Blunder. The best move was Rg4. } (16... Rg4 17. Bxe6+ fxe6 18. c4 Rg6 19. Qe3 Qf5 20. Rfe1 Qxh3 21. Qxe6+ Qxe6 22. Rxe6 h4 23. d4 hxg3 24. fxg3) 17. Bxd5 exd5 18. d4? { (0.45 → -0.78) Mistake. The best move was h4. } (18. h4 Qf5 19. Qd1 Qh3 20. Qf3 Ng4 21. Qg2) 18... Qf5 19. h4 Re8? { (-0.85 → 0.89) Mistake. The best move was Qh3. } (19... Qh3 20. Qc2 Re8 21. Bg5 Ng4 22. f3 Ne3 23. Bxe3 Qxg3+ 24. Qg2 Rxe3 25. Qxg3 Bxg3 26. Kg2 Bxh4 27. f4) 20. Be3?? { (0.89 → -5.77) Blunder. The best move was Qd1. } (20. Qd1 Ng4 21. Kg2 Qe4+ 22. f3 Qe2+ 23. Qxe2 Rxe2+ 24. Kg1 Nf6 25. Rf2 Re1+ 26. Kg2 Ng8 27. f4 c6) 20... Qg4?? { (-5.77 → 0.00) Blunder. The best move was Qh3. } (20... Qh3 21. Qc2 Ng4 22. Rfe1 Qh2+ 23. Kf1 Nxe3+ 24. Rxe3 Rxe3 25. Qf5+ Re6 26. Qxd5 Bxg3 27. Qg2 Qxg2+ 28. Kxg2) 21. Qd1 Qf5?! { (0.00 → 0.91) Inaccuracy. The best move was Qh3. } (21... Qh3 22. Qf3 Bxg3 23. Qxg3 Qxg3+ 24. fxg3 Rxe3 25. Kf2 Ng4+ 26. Kg2 Re2+ 27. Kg1 f6 28. Rae1 Rxb2 29. Re8+) 22. Rfe1 Re4 23. a4? { (1.06 → -0.81) Mistake. The best move was Bg5. } (23. Bg5 Ng4 24. Qd2 Qf3 25. Rxe4 dxe4 26. Rf1 e3 27. fxe3 Qxg3+ 28. Qg2 f6 29. Qxg3 Bxg3 30. Bf4 Bxh4) 23... Ng4?! { (-0.81 → 0.00) Inaccuracy. The best move was Rg4. } (23... Rg4 24. Re2 Bxg3 25. fxg3 Rxg3+ 26. Rg2 Qh3 27. Rxg3 Qxg3+ 28. Kf1 Qxe3 29. Qe2 Qh3+ 30. Qg2 Qxh4 31. Qxg7) 24. Ref1?? { (0.00 → -3.05) Blunder. The best move was Qd2. } (24. Qd2 Qf3 25. Qe2 Rxe3 26. fxe3 Qxg3+ 27. Qg2 Qxh4 28. Qf3 Nh2 29. Qf5+ Kb8 30. Re2 Qg3+ 31. Kh1 Ng4) 24... Nxe3 25. fxe3 Qg6? { (-3.05 → -0.38) Mistake. The best move was Qh3. } (25... Qh3 26. Qf3 Rg4 27. Qf5+ Kb8 28. Kf2 Qh2+ 29. Ke1 Qxb2 30. Qb1 Bxg3+ 31. Kd1 Qxc3 32. Ke2 Rxh4 33. Ra2) 26. Qf3 Bxg3?! { (-0.32 → 0.28) Inaccuracy. The best move was Kb8. } (26... Kb8 27. Rf2 Rxh4 28. Rg2 Re4 29. b4 f6 30. b5 Qg5 31. Re1 Rg4 32. Kf2 h4 33. gxh4 Qxh4+ 34. Ke2) 27. Kh1?? { (0.28 → -14.12) Blunder. The best move was Qf5+. } (27. Qf5+ Kd8 28. Qxg6 fxg6 29. Rf8+ Kd7 30. Raf1 Rxe3 31. Rf1f7+ Re7 32. Rxe7+ Kxe7 33. Rg8 Kf6 34. Rb8 b6) 27... Rxh4
