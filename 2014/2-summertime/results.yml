@@ -1,5 +1,10 @@
 - number: 1
   games:
+  - date:   20.05.2014
+    white:  J
+    black:  raven_cler
+    result: '0:1'
+
   - date:   11.05.2014
     white:  shell-script
     black:  MikeDM
@@ -49,10 +54,20 @@
 
 - number: 3
   games:
+  - date:   20.05.2014
+    white:  DoctorSinus
+    black:  J
+    result: '1:0'
+
   - date:   17.05.2014
     white:  MyTrooName
     black:  MikeDM
     result: '1:0'
+
+  - date:   20.05.2014
+    white:  iVS
+    black:  HunOL
+    result: '0:1'
 
 - number: 4
   games:
