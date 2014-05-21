@@ -8,6 +8,35 @@ TOURNAMENT="2014/2-summertime"
 # Config file for players
 ply_ini="${REPODIR}/${TOURNAMENT}/players.ini"
 
+# Version information
+VERSION="0.1"
+
+argv0="${0##*/}"
+
+usage() {
+    cat <<EOF
+Store a chess game played on lichess.org
+
+Usage:
+  $argv0 -t <num> <url>
+  $argv0 -h
+  $argv0 -v
+
+The first form fills the result of a chess game and stores its PGN
+file. Assumes that the game is available at <url> (lichess.org) and
+corresponds to tournament tour <num>.
+
+The second form shows this help output. The third form shows version
+information.
+EOF
+
+    exit "${1:-0}"
+}
+
+version() {
+    exec echo "${argv0}-${VERSION}"
+}
+
 game_get_players() {
     # Extract players on Lichess
     local w_lichess=$(sed -En "s/\[White \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
@@ -124,30 +153,25 @@ die() {
 }
 
 checkargs() {
-    if [[ "$opt" == t && ! "$OPTARG" =~ ^[0-9]+$ ]]; then
-        echo "Incorrect tour number" 1>&2
-        exit 1
+    if [[ "$opt" == t && "$OPTARG" =~ ^[0-9]+$ ]]; then
+        TOUR=$(printf "%02g" "$OPTARG")
     fi
 }
 
 TOUR=""
-
 while getopts "t:hv" opt; do
     case "$opt" in
-        t)  checkargs
-            TOUR=$(printf "%02g" "$OPTARG")
-            ;;
-        h)  usage && exit 0
-            ;;
-        v)  version && exit 0
-            ;;
+        t) checkargs ;;
+        h) usage ;;
+        v) version ;;
+        *) usage 1 ;;
     esac
 done
 
 shift $(($OPTIND - 1))
-
 # For now, tour number should be given explicitly
-[[ -z "$TOUR" ]] && die "Tour number not specified."
+[[ -z "$TOUR" || -z "$1" ]] && usage 1
+
 tour_info="${REPODIR}/${TOURNAMENT}/tours/${TOUR}/tour_info"
 [[ ! -f "$tour_info" ]] && die "File ${tour_info} not found."
 
