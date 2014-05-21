@@ -162,18 +162,18 @@ module LORChess
       @buffer << "  <caption><strong>Таблица результатов</strong><caption>\n"
       @buffer << "  <thead>\n"
       @buffer << "    <tr>\n"
-      @buffer << "      <th>№</th>\n"
-      @buffer << "      <th>Участник</th>\n"
-      @buffer << "      <th>elo*</th>\n"
+      @buffer << "      <th class=\"number\">№</th>\n"
+      @buffer << "      <th class=\"player\">Участник</th>\n"
+      @buffer << "      <th class=\"elo\">elo*</th>\n"
 
       @@dim.times do |i|
-        @buffer << "      <th class=\"opponent\" colspan=\"#{@@rounds.to_s}\">#{(i + 1).to_s}</th>\n"
+        @buffer << "      <th class=\"score\" colspan=\"#{@@rounds.to_s}\">#{(i + 1).to_s}</th>\n"
       end
 
-      @buffer << "      <th>Игры</th>\n"
-      @buffer << "      <th>Очки</th>\n"
-      @buffer << "      <th>Место</th>\n"
-      @buffer << "      <th>Бергер</th>\n"
+      @buffer << "      <th class=\"games\">Игры</th>\n"
+      @buffer << "      <th class=\"total\">Очки</th>\n"
+      @buffer << "      <th class=\"place\">Место</th>\n"
+      @buffer << "      <th class=\"berger\">Бергер</th>\n"
       @buffer << "    </tr>\n"
       @buffer << "  </thead>\n"
       @buffer << "  <tfoot>\n"
