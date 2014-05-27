@@ -71,6 +71,11 @@
 
 - number: 4
   games:
+  - date:   23.05.2014
+    white:  raven_cler
+    black:  redgremlin
+    result: '0:1'
+
   - date:   17.05.2014
     white:  MikeDM
     black:  iVS
@@ -83,6 +88,21 @@
 
 - number: 5
   games:
+  - date:   27.05.2014
+    white:  DoctorSinus
+    black:  raven_cler
+    result: '0:1'
+
+  - date:   27.05.2014
+    white:  iVS
+    black:  J
+    result: '1:0'
+
+  - date:   27.05.2014
+    white:  redgremlin
+    black:  HunOL
+    result: '0:1'
+
 - number: 6
   games:
 - number: 7
