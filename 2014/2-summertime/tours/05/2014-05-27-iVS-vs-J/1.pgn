@@ -1,0 +1,18 @@
+[Event "Rated game"]
+[Site "http://lichess.org/1okH40Gh"]
+[Date "2014.05.27"]
+[White "iVS"]
+[Black "LOR_J"]
+[Result "1-0"]
+[WhiteElo "1714"]
+[BlackElo "1403"]
+[PlyCount "67"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D31"]
+[Opening "Semi-Slav Defense, Acclerated Move Order"]
+[WhiteClock ":5:37"]
+[BlackClock ":6:15"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 { Semi-Slav Defense, Acclerated Move Order } 4. Nf3 Nf6 5. Bg5 h6 6. Bh4 Be7 7. e3 Qa5 8. Qc2 O-O 9. Bd3 Nbd7 10. O-O c5 11. cxd5 exd5 12. a3 c4 13. Be2 b5?! { (0.43 → 1.24) Inaccuracy. The best move was Bd6. } (13... Bd6 14. b4 Qc7 15. Nb5 Qb6 16. Nxd6 Qxd6 17. Rfc1 Qe6 18. Nd2 b5 19. Bg3 Bb7 20. a4 a5 21. bxa5) 14. b4?! { (1.24 → 0.70) Inaccuracy. The best move was Ne5. } (14. Ne5 Qc7 15. Nxb5 Qb7 16. Nc3 Rab8 17. Rfb1 Qc7 18. e4 Nxe5 19. dxe5 Qxe5 20. Bg3) 14... Qb6 15. Bxf6? { (0.67 → -0.53) Mistake. The best move was Ne5. } (15. Ne5 Qe6 16. Bxf6 Nxf6 17. Nxb5 Qb6 18. Nc3 Bd6 19. Bf3 Be6 20. Rfd1 Rfe8 21. e4 dxe4 22. Nxe4 Nxe4) 15... Nxf6 16. e4?! { (-0.42 → -1.08) Inaccuracy. The best move was Nh4. } (16. Nh4 a5 17. Nf5 Bd8 18. bxa5 Rxa5 19. Rfb1 Qc6 20. Bf3 Bd7 21. Ra2 Qe6 22. g4 Bb6) 16... dxe4 17. Nxe4 Nxe4 18. Qxe4 Be6?! { (-1.08 → -0.50) Inaccuracy. The best move was Bb7. } (18... Bb7 19. Qxe7 Rfe8 20. Qc5 Rxe2 21. a4 Bxf3 22. gxf3 Qg6+ 23. Kh1 Qf6 24. Kg2 bxa4 25. Rxa4 Rd2 26. Qxc4) 19. d5 Qb7 20. Rad1? { (-0.88 → -1.89) Mistake. The best move was Bxc4. } (20. Bxc4 bxc4 21. Rae1 Bxd5 22. Qxe7 Bxf3 23. gxf3 Qxf3 24. Re3 Qd5 25. Rfe1 Rfd8 26. Qe5 Rac8 27. Qxd5 Rxd5) 20... Rad8 21. Qc2?! { (-1.93 → -2.60) Inaccuracy. The best move was Nd4. } (21. Nd4 Bxd5 22. Qg4 g6 23. Rfe1 Bf6 24. Qf4 Bxd4 25. Rxd4 Bxg2 26. Rxd8 Rxd8 27. Bg4 Qc6 28. Re7 Bd5) 21... Bxd5 22. Rd2 Bxf3?! { (-2.55 → -1.61) Inaccuracy. The best move was Bf6. } (22... Bf6 23. Qc1 Rfe8 24. Re1 Qc6 25. Rdd1 a6 26. h3 c3 27. Qc2 g6 28. Bf1 Kg7 29. Rxe8 Rxe8 30. Nd4) 23. Bxf3 Qc7 24. Re2 Bd6?! { (-1.67 → -1.10) Inaccuracy. The best move was Rd3. } (24... Rd3 25. Ra1 Qd6 26. Ree1 Rd2 27. Qe4 Bf6 28. Rad1 Rfd8 29. Rxd2 Qxd2 30. Qe3 Qxe3 31. Rxe3 Bb2 32. g3) 25. h3 Bf4 26. Rfe1 c3 27. Re2e7 Qc8 28. Rxa7? { (-1.22 → -2.85) Mistake. The best move was Bg4. } (28. Bg4 f5 29. Bh5 Rd2 30. Qb3+ Kh7 31. Re7e8 Rxe8 32. Rxe8 Qxe8 33. Bxe8 c2) 28... Bd2? { (-2.85 → -0.10) Mistake. The best move was Rd2. } (28... Rd2 29. Qe4 Bb8 30. Rb7 c2 31. Rc1 Rfd8 32. Qe1 Rd2d1 33. Bxd1 cxd1=R 34. Rxd1 Rxd1 35. Qxd1 Qxb7 36. Qd3) 29. Ree7 Rfe8?? { (-0.56 → 6.40) Blunder. The best move was Bg5. } (29... Bg5 30. Rec7 Qe6 31. Qxc3 Rd2 32. Rce7 Qb6 33. Qc5 Qxc5 34. bxc5 Bxe7 35. Rxe7 Rc2 36. c6 Ra8 37. Bd5) 30. Rexf7 Re1+ 31. Kh2 Qb8+? { (6.66 → 7.95) Mistake. The best move was Bf4+. } (31... Bf4+ 32. Rxf4 Qb8 33. Raf7 Re7 34. Rxe7 Qxf4+ 35. Kg1 Qf6 36. Rc7 Qe5 37. Qb3+ Kh7 38. Qxc3 Qxc3 39. Rxc3) 32. g3 Rd6?! { (8.26 → Mate in 4) Checkmate is now unavoidable. The best move was Qxa7. } (32... Qxa7 33. Rxa7 Bg5 34. Qxc3 Re7 35. Rxe7 Bxe7 36. Qe5 Bg5 37. Qxb5 Kf8 38. Bd5 Be7 39. Qe2 Rd6 40. Qe5) 33. Rfxg7+ Kf8 3
