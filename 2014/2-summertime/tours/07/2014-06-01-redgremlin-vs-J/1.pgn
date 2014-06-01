@@ -1,0 +1,18 @@
+[Event "Rated game"]
+[Site "http://lichess.org/IHIWYv2I"]
+[Date "2014.06.01"]
+[White "gremlin_the_red"]
+[Black "LOR_J"]
+[Result "1-0"]
+[WhiteElo "1739"]
+[BlackElo "1474"]
+[PlyCount "35"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D50"]
+[Opening "Queen's Gambit Declined, Modern Variation"]
+[WhiteClock ":16:55"]
+[BlackClock ":15:0"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 { Queen's Gambit Declined, Modern Variation } Be7 5. Nf3 h6 6. Bh4 Ne4 7. Bxe7 Qxe7 8. e3 b6 9. Bd3 Nxc3 10. bxc3 Ba6 11. cxd5 Bxd3 12. Qxd3 exd5 13. O-O O-O 14. Rfe1 Rfd8 15. e4 dxe4 16. Rxe4 Qa3 17. Rae1?! { (1.14 → 0.23) Inaccuracy. The best move was Nh4. } (17. Nh4 Nd7 18. Nf5 Qf8 19. Qg3 Kh7 20. Re7 Nf6 21. Rae1 Nd5 22. Re7e5 g6 23. Ne7 Nxe7) 17... Qxa2? { (0.23 → Mate in 2) Checkmate is now unavoidable. The best move was Nd7. } (17... Nd7 18. Qc2 Nf6 19. Re4e5 c5 20. dxc5 bxc5 21. Re5e2 Qa6 22. Ne5 Nd5 23. g3 Qd6 24. c4 Nb4 25. Qe4) 18. Re4e8+ { Black resigns }
