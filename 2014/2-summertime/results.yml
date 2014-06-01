@@ -117,8 +117,23 @@
 
 - number: 7
   games:
+  - date:   01.06.2014
+    white:  redgremlin
+    black:  J
+    result: '1:0'
+
 - number: 8
   games:
+  - date:   01.06.2014
+    white:  J
+    black:  HunOL
+    result: '0:1'
+
+  - date:   01.06.2014
+    white:  MyTrooName
+    black:  iVS
+    result: '1:0'
+
 - number: 9
   games:
 - number: 10
