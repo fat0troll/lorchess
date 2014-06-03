@@ -1,0 +1,18 @@
+[Event "Rated game"]
+[Site "http://lichess.org/UGJcTqsT"]
+[Date "2014.06.03"]
+[White "fat0troll"]
+[Black "sshilovsky"]
+[Result "0-1"]
+[WhiteElo "1309"]
+[BlackElo "1535"]
+[PlyCount "34"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C60"]
+[Opening "Spanish Game, General"]
+[WhiteClock ":15:46"]
+[BlackClock ":15:57"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 { Spanish Game, General } Nf6 4. Nc3 Bc5 5. O-O a6 6. Bxc6 dxc6 7. Nxe5 O-O 8. Nc4 Ng4 9. Na4 Nxf2 10. Rxf2 Bxf2+ 11. Kxf2 Qh4+ 12. g3 Qxh2+ 13. Ke3 Qxg3+ 14. Kd4 b5 15. Ne5 Rfd8+ 16. Kc5 Qxe5+ 17. Kxc6 Qd6# { White is checkmated } 0-1
