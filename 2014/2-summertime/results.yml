@@ -115,8 +115,23 @@
     black:  HunOL
     result: '0:1'
 
+  - date:   03.06.2014
+    white:  DoctorSinus
+    black:  MyTrooName
+    result: '0:1'
+
 - number: 7
   games:
+  - date:   02.06.2014
+    white:  MyTrooName
+    black:  raven_cler
+    result: '1:0'
+
+  - date:   03.06.2014
+    white:  iVS
+    black:  DoctorSinus
+    result: '1:0'
+
   - date:   01.06.2014
     white:  redgremlin
     black:  J
