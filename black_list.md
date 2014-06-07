@@ -6,8 +6,9 @@
 А ты нашёл себя в списке :trollface:?
 -------------------------------------
 
-* [Ttt](http://www.linux.org.ru/people/Ttt/profile): недостаток женского внимания влечёт такие странные поступки, как участие в любом турнире, где замечена тян.
-* [qulinxao](http://www.linux.org.ru/people/qulinxao/profile): внезапно появился, также внезапно исчез, никто уже толком и вспомнит, а был ли он в турнире?
-* [uroboros](http://www.linux.org.ru/people/uroboros/profile): хам, nuff said.
-* [LongLiveUbuntu](http://www.linux.org.ru/people/LongLiveUbuntu/profile): очень стеснялся сказать, что больше не собирается играть, что привело к недомолвкам и непониманию.
-* [cetjs2](http://www.linux.org.ru/people/cetjs2/profile): ужик, nuff said.
+* [Ttt](https://www.linux.org.ru/people/Ttt/profile): недостаток женского внимания влечёт такие странные поступки, как участие в любом турнире, где замечена тян.
+* [qulinxao](https://www.linux.org.ru/people/qulinxao/profile): внезапно появился, также внезапно исчез, никто уже толком и вспомнит, а был ли он в турнире?
+* [uroboros](https://www.linux.org.ru/people/uroboros/profile): хам, nuff said.
+* [LongLiveUbuntu](https://www.linux.org.ru/people/LongLiveUbuntu/profile): очень стеснялся сказать, что больше не собирается играть, что привело к недомолвкам и непониманию.
+* [cetjs2](https://www.linux.org.ru/people/cetjs2/profile): ужик, nuff said.
+* [n1l](https://www.linux.org.ru/people/n1l/profile): обиделся, что не дали начинать все партии черными и ушёл; нам очень при-очень совестно, честно-честно.
