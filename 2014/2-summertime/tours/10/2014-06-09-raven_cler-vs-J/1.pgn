@@ -1,0 +1,18 @@
+[Event "Casual game"]
+[Site "http://lichess.org/cqaGX1tr"]
+[Date "2014.06.09"]
+[White "raven_cler"]
+[Black "LOR_J"]
+[Result "1-0"]
+[WhiteElo "1319"]
+[BlackElo "1552"]
+[PlyCount "41"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C45"]
+[Opening "Scotch Game, General"]
+[WhiteClock ":12:47"]
+[BlackClock ":9:48"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 { Scotch Game, General } Nxd4 5. Qxd4 c5 6. Qe5+ Qe7 7. Bf4 d6 8. Qxe7+ Bxe7 9. Nc3 Nf6 10. O-O-O a6 11. Bxd6 Bxd6 12. Rxd6 Be6 13. Be2 b5? { (1.58 → 3.19) Mistake. The best move was Rad8. } (13... Rad8 14. Rxd8+ Kxd8 15. f4 Re8 16. e5 Nd7 17. g4 f5 18. g5 Kc7 19. Rd1 Nf8 20. Bh5 Re7 21. b3) 14. Rxa6 O-O?! { (3.22 → 3.80) Inaccuracy. The best move was Rxa6. } (14... Rxa6 15. Bxb5+ Ke7 16. Bxa6 Ra8 17. Bb5 Ne8 18. Bc6 Rc8 19. Bxe8 Rxe8 20. Rd1 f6 21. a4 c4 22. h3) 15. Rxa8 Rxa8 16. Bxb5 Bxa2 17. e5 Ng4 18. h3 Nxe5 19. b3 c4?! { (3.98 → 4.86) Inaccuracy. The best move was Bxb3. } (19... Bxb3 20. cxb3 Ra1+ 21. Nb1 Ra2 22. Rd1 f6 23. Rd2 Rxd2 24. Nxd2 f5 25. Kc2 Nf7 26. Bc4 Kf8 27. Nf3) 20. b4 Rb8?! { (4.69 → 5.23) Inaccuracy. The best move was Bb3. } (20... Bb3 21. cxb3 Ra1+ 22. Nb1 cxb3 23. Re1 f6 24. f4 Ng6 25. g3 Ra2 26. Re2 Ra7 27. Kb2 Ne7 28. Bc4+) 21. Kb2 { Black resig
