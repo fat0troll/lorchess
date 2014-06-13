@@ -5,10 +5,10 @@
     black:  raven_cler
     result: '0:1'
 
-  - date:   11.05.2014
+  - date:   13.06.2014
     white:  shell-script
     black:  MikeDM
-    result: '1:0'
+    result: '0:1'
 
   - date:   10.05.2014
     white:  DoctorSinus
@@ -20,17 +20,17 @@
     black:  redgremlin
     result: '0:1'
 
-  - date:   11.05.2014
+  - date:   13.06.2014
     white:  iVS
     black:  n1l
     result: '1:0'
 
 - number: 2
   games:
-  - date:   16.05.2014
+  - date:   13.06.2014
     white:  raven_cler
     black:  n1l
-    result: '0.5:0.5'
+    result: '1:0'
 
   - date:   15.05.2014
     white:  redgremlin
@@ -47,13 +47,18 @@
     black:  DoctorSinus
     result: '0:1'
 
-  - date:   19.05.2014
+  - date:   13.06.2014
     white:  J
     black:  shell-script
     result: '1:0'
 
 - number: 3
   games:
+  - date:   13.06.2014
+    white:  shell-script
+    black:  raven_cler
+    result: '0:1'
+
   - date:   20.05.2014
     white:  DoctorSinus
     black:  J
@@ -69,7 +74,7 @@
     black:  HunOL
     result: '0:1'
 
-  - date:   29.05.2014
+  - date:   13.06.2014
     white:  n1l
     black:  redgremlin
     result: '0:1'
@@ -81,6 +86,11 @@
     black:  redgremlin
     result: '0:1'
 
+  - date:   13.06.2014
+    white:  HunOL
+    black:  n1l
+    result: '1:0'
+
   - date:   17.05.2014
     white:  MikeDM
     black:  iVS
@@ -91,6 +101,11 @@
     black:  MyTrooName
     result: '1:0'
 
+  - date:   13.06.2014
+    white:  shell-script
+    black:  DoctorSinus
+    result: '0:1'
+
 - number: 5
   games:
   - date:   27.05.2014
@@ -98,10 +113,20 @@
     black:  raven_cler
     result: '0:1'
 
+  - date:   13.06.2014
+    white:  MyTrooName
+    black:  shell-script
+    result: '1:0'
+
   - date:   27.05.2014
     white:  iVS
     black:  J
     result: '1:0'
+
+  - date:   13.06.2014
+    white:  n1l
+    black:  MikeDM
+    result: '0:1'
 
   - date:   27.05.2014
     white:  redgremlin
@@ -113,6 +138,16 @@
   - date:   30.05.2014
     white:  raven_cler
     black:  HunOL
+    result: '0:1'
+
+  - date:   13.06.2014
+    white:  J
+    black:  n1l
+    result: '1:0'
+
+  - date:   13.06.2014
+    white:  shell-script
+    black:  iVS
     result: '0:1'
 
   - date:   03.06.2014
@@ -132,6 +167,11 @@
     black:  DoctorSinus
     result: '1:0'
 
+  - date:   13.06.2014
+    white:  n1l
+    black:  shell-script
+    result: '0.5:0.5'
+
   - date:   01.06.2014
     white:  redgremlin
     black:  J
@@ -144,6 +184,16 @@
     black:  HunOL
     result: '0:1'
 
+  - date:   13.06.2014
+    white:  shell-script
+    black:  redgremlin
+    result: '0:1'
+
+  - date:   13.06.2014
+    white:  DoctorSinus
+    black:  n1l
+    result: '1:0'
+
   - date:   01.06.2014
     white:  MyTrooName
     black:  iVS
@@ -151,21 +201,126 @@
 
 - number: 9
   games:
+  - date:   09.06.2014
+    white:  iVS
+    black:  raven_cler
+    result: '0:1'
+
+  - date:   13.06.2014
+    white:  n1l
+    black:  MyTrooName
+    result: '0:1'
+
+  - date:   13.06.2014
+    white:  HunOL
+    black:  shell-script
+    result: '1:0'
+
 - number: 10
   games:
+  - date:   09.06.2014
+    white:  raven_cler
+    black:  J
+    result: '1:0'
+
+  - date:   13.06.2014
+    white:  MikeDM
+    black:  shell-script
+    result: '1:0'
+
+  - date:   13.06.2014
+    white:  n1l
+    black:  iVS
+    result: '0:1'
+
 - number: 11
   games:
+  - date:   13.06.2014
+    white:  n1l
+    black:  raven_cler
+    result: '0:1'
+
+  - date:   13.06.2014
+    white:  shell-script
+    black:  J
+    result: '0:1'
+
 - number: 12
   games:
+  - date:   13.06.2014
+    white:  raven_cler
+    black:  shell-script
+    result: '1:0'
+
+  - date:   13.06.2014
+    white:  redgremlin
+    black:  n1l
+    result: '1:0'
+
 - number: 13
   games:
+  - date:   13.06.2014
+    white:  n1l
+    black:  HunOL
+    result: '0:1'
+
+  - date:   13.06.2014
+    white:  DoctorSinus
+    black:  shell-script
+    result: '1:0'
+
 - number: 14
   games:
+  - date:   13.06.2014
+    white:  shell-script
+    black:  MyTrooName
+    result: '0:1'
+
+  - date:   13.06.2014
+    white:  MikeDM
+    black:  n1l
+    result: '1:0'
+
 - number: 15
   games:
+  - date:   13.06.2014
+    white:  n1l
+    black:  J
+    result: '0:1'
+
+  - date:   13.06.2014
+    white:  iVS
+    black:  shell-script
+    result: '1:0'
+
 - number: 16
   games:
+  - date:   13.06.2014
+    white:  shell-script
+    black:  n1l
+    result: '0.5:0.5'
+
 - number: 17
   games:
+  - date:   13.06.2014
+    white:  redgremlin
+    black:  shell-script
+    result: '1:0'
+
+  - date:   13.06.2014
+    white:  n1l
+    black:  DoctorSinus
+    result: '0:1'
+
 - number: 18
   games:
+  - date:   13.06.2014
+    white:  MyTrooName
+    black:  n1l
+    result: '1:0'
+
+  - date:   13.06.2014
+    white:  shell-script
+    black:  HunOL
+    result: '0:1'
+
