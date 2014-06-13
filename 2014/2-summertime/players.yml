@@ -7,6 +7,7 @@
   lor:     shell-script
   lichess: cppmm
   elo:     1190
+  status:  withdrew
 
 - number:  3
   lor:     DoctorSinus
@@ -27,6 +28,7 @@
   lor:     n1l
   lichess: n1l
   elo:     1334
+  status:  withdrew
 
 - number:  7
   lor:     redgremlin
