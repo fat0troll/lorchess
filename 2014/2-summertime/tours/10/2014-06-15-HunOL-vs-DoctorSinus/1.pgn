@@ -1,0 +1,18 @@
+[Event "Rated game"]
+[Site "http://lichess.org/Y2vHthmw"]
+[Date "2014.06.15"]
+[White "HunOL"]
+[Black "fat0troll"]
+[Result "0-1"]
+[WhiteElo "1737"]
+[BlackElo "1301"]
+[PlyCount "82"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A41"]
+[Opening "Rat Defense"]
+[WhiteClock ":11:46"]
+[BlackClock ":12:34"]
+[Annotator "lichess.org"]
+
+1. d4 d6 { Rat Defense } 2. e4 e5 3. dxe5 dxe5 4. Qxd8+ Kxd8 5. Nf3 Nc6 6. Bb5 Bg4 7. Ng5 Nh6 8. O-O Nd4 9. Bd3 Be2 10. Bxe2 Nxe2+ 11. Kh1 Nd4 12. Na3 Bxa3 13. bxa3 f6 14. Nh3 Nxc2 15. Rb1 b6 16. Rb2 Nd4 17. Rd1 Ke7 18. Be3 Rad8 19. Rc1 c5 20. a4 f5 21. Bg5+ Ke6 22. Bxd8 Rxd8 23. exf5+ Kxf5 24. a5 g5 25. axb6 axb6 26. Rxb6 g4 27. Ng1 Nf7 28. g3 Ra8 29. Ra1 c4 30. Rb4 Nc2 31. Rc1 Nxb4 32. Rxc4 Nxa2 33. Ne2 Ng5 34. Rc7 h5 35. Rc5 Nb4 36. Nd4+ Ke4 37. Nb3 Nd3 38. Rc4+ Kf3 39. Rc3 e4 40. Nd4+ Kxf2 41. Nf5 Ra1+ { White resigns } 0-1
