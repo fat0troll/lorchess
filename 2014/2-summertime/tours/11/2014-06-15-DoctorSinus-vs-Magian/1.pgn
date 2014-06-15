@@ -1,0 +1,18 @@
+[Event "Rated game"]
+[Site "http://lichess.org/4TVe6FYD"]
+[Date "2014.06.15"]
+[White "fat0troll"]
+[Black "Magian"]
+[Result "0-1"]
+[WhiteElo "1325"]
+[BlackElo "1701"]
+[PlyCount "60"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C20"]
+[Opening "King Pawn Game, Leonardis Variation"]
+[WhiteClock ":15:18"]
+[BlackClock ":16:30"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. d3 { King Pawn Game, Leonardis Variation } Bc5 3. Nf3 Nc6 4. Be2 d6 5. O-O Nf6 6. Nc3 O-O 7. Bg5 h6 8. Be3 Bb4 9. Nd5 Nxd5 10. exd5 Ne7 11. c3 Ba5 12. b4 Bb6 13. Bxb6 axb6 14. a4? { (-0.37 → -1.50) Mistake. The best move was c4. } (14. c4 c6 15. dxc6 bxc6 16. a4 Ng6 17. g3 Bf5 18. b5 Ne7 19. Re1 Qc7 20. bxc6 Nxc6 21. Nh4 Be6) 14... Nxd5 15. Qc2 f5 16. a5 bxa5 17. Rxa5 Be6 18. d4 Rxa5 19. bxa5 e4 20. c4?! { (-1.88 → -2.61) Inaccuracy. The best move was Nd2. } (20. Nd2 Nf4 21. Bd1 Qg5 22. g3 Ra8 23. Kh1 Nd3 24. f4 Qg6 25. Be2 Rxa5) 20... Nb4 21. Qa4 c5?! { (-2.82 → -2.20) Inaccuracy. The best move was exf3. } (21... exf3 22. Bxf3 c5 23. Bxb7 Bxc4 24. Ra1) 22. dxc5? { (-2.20 → -3.23) Mistake. The best move was Nd2. } (22. Nd2 Bd7 23. Qd1 cxd4 24. Qb1 Qxa5) 22... dxc5 23. Ne5 Qf6? { (-3.24 → -1.40) Mistake. The best move was f4. } (23... f4 24. Bg4 Bxg4 25. Nxg4 Qe7 26. h3 h5 27. Nh2 f3 28. Qd1 fxg2 29. Kxg2 Nd3) 24. Nd7 Bxd7 25. Qxd7 Rf7?! { (-1.30 → -0.42) Inaccuracy. The best move was Qc6. } (25... Qc6 26. Rd1 Qxd7 27. Rxd7 Ra8 28. g4 f4 29. Re7 f3 30. Bf1 Rxa5 31. Rxe4 Nc6 32. Re1 Nd4 33. Bd3) 26. Qe8+?! { (-0.42 → -1.40) Inaccuracy. The best move was Qc8+. } (26. Qc8+ Kh7 27. Qxc5 Qb2 28. Qb5 Qxe2 29. Qxb4 Rc7 30. Qb5 g6 31. Rb1 e3 32. fxe3 Qxe3+ 33. Kh1 Re7) 26... Kh7 27. Bh5 g6 28. Rd1?? { (-1.73 → -5.51) Blunder. The best move was Be2. } (28. Be2 Re7 29. Qc8 Qd4 30. Qf8 Nc6 31. Rd1 Qe5 32. Rd5 Qe6 33. Rxc5) 28... gxh5 29. Rd7?! { (-5.58 → Mate in 2) Checkmate is now unavoidable. The best move was Qd8. } (29. Qd8 Qc3 30. Qh4 Nd3 31. Qxh5 Qxc4 32. g3 Kg7 33. Qe2 Qc3 34. Qd2 Qxd2 35. Rxd2 Kf6 36. Rc2 Rd7) 29... Qa1+ 30. Rd1 Qxd1# { White i
