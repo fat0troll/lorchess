@@ -1,0 +1,18 @@
+[Event "Rated game"]
+[Site "http://lichess.org/8d2GaNAv"]
+[Date "2014.06.15"]
+[White "gremlin_the_red"]
+[Black "fat0troll"]
+[Result "1-0"]
+[WhiteElo "1755"]
+[BlackElo "1327"]
+[PlyCount "51"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A41"]
+[Opening "Rat Defense"]
+[WhiteClock ":16:43"]
+[BlackClock ":12:7"]
+[Annotator "lichess.org"]
+
+1. d4 d6 { Rat Defense } 2. c4 Nf6 3. Nc3 Nc6 4. e4 Bd7 5. f3 e5 6. d5 Ne7 7. Be3 c5 8. Bd3 b6 9. Nge2 g6 10. Qd2 Bg7 11. O-O-O O-O 12. g4 h5 13. gxh5 Nxh5 14. Rdg1 f5 15. exf5 Bxf5 16. Ne4 Bxe4 17. Bxe4 Nf5 18. Rxg6 Rf6 19. Bxf5 Rxf5 20. Rhg1 Qh4 21. Bh6 Qxh2 22. Bxg7 Nf4 23. Bxe5+ Kf7 24. Bxf4 Re8 25. Rg7+ Kf6 26. R1g6# { Black is checkmated } 1-0
