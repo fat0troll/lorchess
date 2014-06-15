@@ -1,0 +1,18 @@
+[Event "Rated game"]
+[Site "http://lichess.org/7LxWWNZp"]
+[Date "2014.06.15"]
+[White "gremlin_the_red"]
+[Black "sshilovsky"]
+[Result "1-0"]
+[WhiteElo "1754"]
+[BlackElo "1532"]
+[PlyCount "43"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D06"]
+[Opening "Queen's Gambit Declined, Marshall Defense"]
+[WhiteClock ":16:34"]
+[BlackClock ":16:4"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 Nf6 { Queen's Gambit Declined, Marshall Defense } 3. Nc3 Bf5 4. cxd5 Nxd5 5. Qb3 Nb6 6. e4 Bg6 7. Nf3 Bh5?? { (0.90 → 4.06) Blunder. The best move was N8d7. } (7... N8d7 8. d5 e6 9. dxe6 fxe6 10. Qxe6+ Qe7 11. Qh3 Nc5 12. Bg5 Qe6 13. Qxe6+ Nxe6 14. a3 Bd6 15. Bb5+) 8. Be3? { (4.06 → 1.37) Mistake. The best move was Qb5+. } (8. Qb5+ Nc6 9. Qxh5 g6 10. Qg5 Bg7 11. d5 Nb4 12. Qd2 O-O 13. h4 e6 14. a3 Na6 15. dxe6 fxe6) 8... Bxf3 9. gxf3 e6 10. O-O-O N8d7 11. f4 Be7 12. Rg1 O-O 13. f5? { (1.56 → 0.46) Mistake. The best move was d5. } (13. d5 e5 14. fxe5 Nxe5 15. Kb1 Ned7 16. Nb5 a6 17. Nd4 Bf6 18. f4 g6 19. Rc1 a5 20. Bd3 a4) 13... exf5 14. exf5 g6?? { (0.23 → 6.92) Blunder. The best move was Kh8. } (14... Kh8 15. Bf4 Bd6 16. Bxd6 cxd6 17. Nb5 Qh4 18. Qg3 Rfc8+ 19. Kb1 Qxg3) 15. fxg6 hxg6?? { (6.87 → 17.45) Blunder. The best move was Bd6. } (15... Bd6 16. gxf7+ Kh8 17. Bh6 Bf4+ 18. Bxf4 Qe7 19. Bxc7 Rxf7 20. Bd3 Rg7 21. Kb1 Rag8 22. Rg3 Qf7 23. Qxf7) 16. Rxg6+ Kh8 17. Rh6+ Kg8 18. Bd3 Bg5 19. Rg1 Kg7?! { (17.36 → Mate in 4) Checkmate is now unavoidable. The best move was Re8. } (19... Re8 20. Rxg5+ Qxg5 21. Bxg5 Re1+ 22. Kd2 Rae8 23. Rg6+ Kf8 24. Qb4+ c5 25. Bh6+ Ke7 26. dxc5 fxg6 27. cxb6+) 20. Rh7+ Kg8 21. Bxg5 Qxg5+ 22. Rxg5# { Black is chec
