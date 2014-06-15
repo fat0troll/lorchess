@@ -81,6 +81,11 @@
     black:  n1l
     result: '1:0'
 
+  - date:   15.06.2014
+    white:  Magian
+    black:  iVS
+    result: '0:1'
+
   - date:   17.05.2014
     white:  J
     black:  MyTrooName
@@ -206,6 +211,11 @@
     black:  MyTrooName
     result: '0:1'
 
+  - date:   15.06.2014
+    white:  redgremlin
+    black:  DoctorSinus
+    result: '1:0'
+
   - date:   13.06.2014
     white:  HunOL
     black:  shell-script
@@ -222,6 +232,11 @@
     white:  Magian
     black:  shell-script
     result: '1:0'
+
+  - date:   15.06.2014
+    white:  HunOL
+    black:  DoctorSinus
+    result: '0:1'
 
   - date:   13.06.2014
     white:  n1l
@@ -257,6 +272,11 @@
   - date:   13.06.2014
     white:  n1l
     black:  HunOL
+    result: '0:1'
+
+  - date:   15.06.2014
+    white:  iVS
+    black:  Magian
     result: '0:1'
 
   - date:   13.06.2014
