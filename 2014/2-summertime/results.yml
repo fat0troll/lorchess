@@ -42,6 +42,11 @@
     black:  MyTrooName
     result: '0:1'
 
+  - date:   15.06.2014
+    white:  Magian
+    black:  DoctorSinus
+    result: '1:0'
+
   - date:   13.06.2014
     white:  J
     black:  shell-script
@@ -58,6 +63,11 @@
     white:  DoctorSinus
     black:  J
     result: '1:0'
+
+  - date:   15.06.2014
+    white:  MyTrooName
+    black:  Magian
+    result: '0:1'
 
   - date:   20.05.2014
     white:  iVS
@@ -221,6 +231,11 @@
     black:  shell-script
     result: '1:0'
 
+  - date:   15.06.2014
+    white:  Magian
+    black:  J
+    result: '1:0'
+
 - number: 10
   games:
   - date:   09.06.2014
@@ -238,6 +253,11 @@
     black:  DoctorSinus
     result: '0:1'
 
+  - date:   15.06.2014
+    white:  redgremlin
+    black:  MyTrooName
+    result: '1:0'
+
   - date:   13.06.2014
     white:  n1l
     black:  iVS
@@ -248,6 +268,16 @@
   - date:   13.06.2014
     white:  n1l
     black:  raven_cler
+    result: '0:1'
+
+  - date:   15.06.2014
+    white:  iVS
+    black:  redgremlin
+    result: '0.5:0.5'
+
+  - date:   15.06.2014
+    white:  DoctorSinus
+    black:  Magian
     result: '0:1'
 
   - date:   13.06.2014
@@ -262,6 +292,11 @@
     black:  shell-script
     result: '1:0'
 
+  - date:   15.06.2014
+    white:  J
+    black:  DoctorSinus
+    result: '1:0'
+
   - date:   13.06.2014
     white:  redgremlin
     black:  n1l
@@ -269,6 +304,11 @@
 
 - number: 13
   games:
+  - date:   15.06.2014
+    white:  redgremlin
+    black:  raven_cler
+    result: '0:1'
+
   - date:   13.06.2014
     white:  n1l
     black:  HunOL
@@ -278,6 +318,11 @@
     white:  iVS
     black:  Magian
     result: '0:1'
+
+  - date:   15.06.2014
+    white:  MyTrooName
+    black:  J
+    result: '0.5:0.5'
 
   - date:   13.06.2014
     white:  DoctorSinus
@@ -347,5 +392,10 @@
   - date:   13.06.2014
     white:  shell-script
     black:  HunOL
+    result: '0:1'
+
+  - date:   15.06.2014
+    white:  J
+    black:  Magian
     result: '0:1'
 
