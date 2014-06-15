@@ -1,0 +1,18 @@
+[Event "Rated game"]
+[Site "http://lichess.org/ymZzN9GP"]
+[Date "2014.06.15"]
+[White "Magian"]
+[Black "LOR_J"]
+[Result "1-0"]
+[WhiteElo "1712"]
+[BlackElo "1569"]
+[PlyCount "75"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D50"]
+[Opening "Queen's Gambit Declined, Modern Variation"]
+[WhiteClock ":9:30"]
+[BlackClock ":8:25"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 { Queen's Gambit Declined, Modern Variation } Be7 5. Nf3 Nc6 6. e3 h6 7. Bh4 O-O 8. a3 Nd7 9. Bxe7 Nxe7 10. c5 b6 11. cxb6 axb6 12. Rc1 c5 13. Bd3 c4 14. Bb1 Ba6 15. O-O b5 16. Qc2 f5 17. Ne2 Ng6 18. Qc3 Qe7 19. Ne5 Ndxe5 20. dxe5 Qc7 21. f4 Qb6 22. Nd4 Ne7 23. h3 Bc8 24. g4 Nc6 25. Rf2?! { (0.32 → -0.21) Inaccuracy. The best move was Nxc6. } (25. Nxc6 Qxc6 26. Kh2 Ra4 27. gxf5 exf5 28. Rg1 Qb7 29. Qc2 Qb6 30. Qd2 Rf7 31. Qd4 Qc6 32. Bc2 Ra6) 25... Nxd4 26. exd4 Qd8?! { (-0.10 → 0.45) Inaccuracy. The best move was b4. } (26... b4 27. axb4 Ra4 28. gxf5 exf5 29. b5 Qxb5 30. Bc2 Rb4 31. Bd1 Be6 32. Rg2 Qb6 33. Ra1 Rb8 34. Ra2) 27. Rg2 Qh4 28. Rf1 Bd7 29. g5? { (0.77 → -0.34) Mistake. The best move was Kh2. } (29. Kh2 Rf7 30. Qf3 fxg4 31. Rxg4 Qe7 32. Rfg1 Kh8 33. Qg2 Qf8 34. Qc2 g5 35. Qg6 Qg7 36. fxg5 Rf2+) 29... Rab8 30. gxh6 Qxh6 31. Rf3 Rb7 32. Rfg3 Bc6 33. Rg6 Qh4? { (0.06 → 1.25) Mistake. The best move was Qxf4. } (33... Qxf4 34. Rxe6 Be8 35. Rd6 Rd7 36. Rb6 Re7 37. Qd2 Qh4 38. Kh2 f4 39. Rg4) 34. Rxe6 Rb6? { (1.28 → 3.94) Mistake. The best move was Bd7. } (34... Bd7 35. Reg6 Be8 36. Qg3 Qxg3 37. R6xg3 Kh7 38. Rg5 g6 39. h4 b4 40. a4 Kh6 41. h5 gxh5 42. Bxf5) 35. Reg6 Rf7?! { (3.88 → 4.83) Inaccuracy. The best move was Qxf4. } (35... Qxf4 36. Rxg7+ Kh8 37. R7g6 b4 38. Qg3 Qxg3 39. R2xg3 Kh7 40. axb4 Ra6 41. Kg2 Bb5 42. e6 Ra7) 36. Bxf5 Rxf5?? { (4.94 → 24.35) Blunder. The best move was b4. } (36... b4 37. axb4 Kh8 38. R2g4 Qh5 39. Be6 Ra7 40. Bxd5 Ra1+ 41. Kf2 Bxd5 42. Rxb6 Qf5 43. Rb8+ Kh7 44. Rh4+) 37. Rxg7+ Kf8?! { (17.01 → Mate in 4) Checkmate is now unavoidable. The best move was Kh8. } (37... Kh8 38. Rg8+ Kh7 39. R2g7+ Kh6 40. Rg4 Qxg4+ 41. hxg4 Kh7 42. Rc8 Rf8 43. Rxf8 Kg7 44. Rf6 Rb8 45. Rxc6) 38. Qb4+ { Bla
