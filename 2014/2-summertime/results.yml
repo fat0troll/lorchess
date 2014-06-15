@@ -7,7 +7,7 @@
 
   - date:   13.06.2014
     white:  shell-script
-    black:  MikeDM
+    black:  Magian
     result: '0:1'
 
   - date:   10.05.2014
@@ -42,11 +42,6 @@
     black:  MyTrooName
     result: '0:1'
 
-  - date:   10.05.2014
-    white:  MikeDM
-    black:  DoctorSinus
-    result: '0:1'
-
   - date:   13.06.2014
     white:  J
     black:  shell-script
@@ -62,11 +57,6 @@
   - date:   20.05.2014
     white:  DoctorSinus
     black:  J
-    result: '1:0'
-
-  - date:   17.05.2014
-    white:  MyTrooName
-    black:  MikeDM
     result: '1:0'
 
   - date:   20.05.2014
@@ -90,11 +80,6 @@
     white:  HunOL
     black:  n1l
     result: '1:0'
-
-  - date:   17.05.2014
-    white:  MikeDM
-    black:  iVS
-    result: '0:1'
 
   - date:   17.05.2014
     white:  J
@@ -125,7 +110,7 @@
 
   - date:   13.06.2014
     white:  n1l
-    black:  MikeDM
+    black:  Magian
     result: '0:1'
 
   - date:   27.05.2014
@@ -224,7 +209,7 @@
     result: '1:0'
 
   - date:   13.06.2014
-    white:  MikeDM
+    white:  Magian
     black:  shell-script
     result: '1:0'
 
@@ -277,7 +262,7 @@
     result: '0:1'
 
   - date:   13.06.2014
-    white:  MikeDM
+    white:  Magian
     black:  n1l
     result: '1:0'
 
