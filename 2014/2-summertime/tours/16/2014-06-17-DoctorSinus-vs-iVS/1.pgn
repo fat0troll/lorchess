@@ -1,0 +1,18 @@
+[Event "Rated game"]
+[Site "http://lichess.org/mMz33vNH"]
+[Date "2014.06.17"]
+[White "fat0troll"]
+[Black "iVS"]
+[Result "0-1"]
+[WhiteElo "1313"]
+[BlackElo "1681"]
+[PlyCount "128"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C02"]
+[Opening "French Defense, Advance Variation, Paulsen Attack"]
+[WhiteClock ":16:49"]
+[BlackClock ":9:28"]
+[Annotator "lichess.org"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 { French Defense, Advance Variation, Paulsen Attack } Qb6 6. Qb3 Qxb3 7. axb3 cxd4 8. Nxd4 Nxd4 9. cxd4 a6 10. b4 Bd7 11. Bd2 Rc8 12. Bd3 Ne7 13. O-O Nc6 14. Na3 Nxb4 15. Bxb4 Bxb4 16. Rfc1 O-O 17. Rxc8 Rxc8 18. f4 Bd2 19. Nc2 Bxf4 20. g3 Bg5 21. h4 Be7 22. Ne3 Bd8 23. Ng2 Bb6 24. Nf4 Bxd4+ 25. Kf1 Bxe5 26. Rb1 Bc6 27. b4 h6 28. b5 axb5 29. Bxb5 Kf8 30. Bxc6 bxc6 31. Ke2 Ke7 32. Rb7+ Rc7 33. Rb3 Kf6 34. Nh5+ Kg6 35. Nf4+ Kf5 36. Nd3 Bxg3 37. Nf2 Bxh4 38. Rf3+ Kg6 39. Ng4 Kg5 40. Ne5 f6 41. Nd3 e5 42. Nf2 Bxf2 43. Kxf2 e4 44. Rg3+ Kf4 45. Rh3 Ra7 46. Rh4+ Ke5 47. Rh5+ f5 48. Kg3 Ra3+ 49. Kh4 e3 50. Kg3 d4 51. Rh1 Ra2 52. Kf3 Rf2+ 53. Kg3 f4+ 54. Kh3 e2 55. Re1 Rf3+ 56. Kg2 Re3 57. Kf2 d3 58. Ra1 e1=Q+ 59. Rxe1 Rxe1 60. Kxe1 c5 61. Kd2 c4 62. Kc3 f3 63. Kd2 f2 64. Ke3 f1=Q { White resigns } 0-1
