@@ -1,0 +1,18 @@
+[Event "Casual game"]
+[Site "http://lichess.org/3HaIKvYO"]
+[Date "2014.06.17"]
+[White "raven_cler"]
+[Black "fat0troll"]
+[Result "1-0"]
+[WhiteElo "1370"]
+[BlackElo "1313"]
+[PlyCount "69"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense, General"]
+[WhiteClock ":8:25"]
+[BlackClock ":11:45"]
+[Annotator "lichess.org"]
+
+1. e4 c6 { Caro-Kann Defense, General } 2. Nc3 Nf6 3. Nf3 d5 4. exd5 Nxd5 5. Be2 Nxc3 6. dxc3 Qxd1+ 7. Bxd1 Bg4 8. Be2 e6 9. Be3 Nd7 10. Rd1 Nb6 11. O-O Be7 12. Rd4 Bxf3 13. Bxf3 O-O 14. Rfd1 Rad8 15. Rxd8 Rxd8 16. Rxd8+ Bxd8 17. Kf1 f5 18. Bf4 g5 19. Bb8 g4 20. Be2 Nd5 21. Bxa7 Nf4 22. Bb8 Nxe2 23. Kxe2 h5 24. Be5 Kf7 25. Ke3 Bf6 26. Kf4 h4 27. a4 h3 28. gxh3 gxh3 29. b4 Ke7 30. a5 Bxe5+ 31. Kxe5 Kd7 32. c4 Ke7 33. b5 c5 34. a6 Kd7 35. a7 { Black resigns } 1-0
