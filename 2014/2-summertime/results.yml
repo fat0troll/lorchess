@@ -140,6 +140,11 @@
     black:  HunOL
     result: '0:1'
 
+  - date:   22.06.2014
+    white:  Magian
+    black:  redgremlin
+    result: '1:0'
+
   - date:   13.06.2014
     white:  J
     black:  n1l
@@ -297,6 +302,11 @@
     black:  DoctorSinus
     result: '1:0'
 
+  - date:   22.06.2014
+    white:  Magian
+    black:  MyTrooName
+    result: '1:0'
+
   - date:   17.06.2014
     white:  HunOL
     black:  iVS
@@ -358,6 +368,16 @@
 
 - number: 15
   games:
+  - date:   20.06.2014
+    white:  HunOL
+    black:  raven_cler
+    result: '0:1'
+
+  - date:   22.06.2014
+    white:  redgremlin
+    black:  Magian
+    result: '0:1'
+
   - date:   13.06.2014
     white:  n1l
     black:  J
