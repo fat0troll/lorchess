@@ -390,6 +390,11 @@
 
 - number: 16
   games:
+  - date:   02.07.2014
+    white:  raven_cler
+    black:  MyTrooName
+    result: '1:0'
+
   - date:   17.06.2014
     white:  DoctorSinus
     black:  iVS
@@ -410,6 +415,11 @@
   - date:   15.06.2014
     white:  Magian
     black:  raven_cler
+    result: '1:0'
+
+  - date:   28.06.2014
+    white:  HunOL
+    black:  J
     result: '1:0'
 
   - date:   13.06.2014
