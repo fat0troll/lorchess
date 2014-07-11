@@ -1,0 +1,18 @@
+[Event "Rated game"]
+[Site "http://lichess.org/AMDdel87"]
+[Date "2014.07.11"]
+[White "fat0troll"]
+[Black "gremlin_the_red"]
+[Result "0-1"]
+[WhiteElo "1309"]
+[BlackElo "1734"]
+[PlyCount "92"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B30"]
+[Opening "Sicilian Defense, Old Sicilian, General"]
+[WhiteClock ":17:29"]
+[BlackClock ":18:10"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. Nf3 Nc6 { Sicilian Defense, Old Sicilian, General } 3. Nc3 Nf6 4. d4 cxd4 5. Nxd4 e5 6. Nxc6 bxc6 7. Bg5 Bb4 8. Bc4 Bxc3+ 9. bxc3 Qa5 10. Bxf6 Qxc3+ 11. Ke2 Qxc4+ 12. Qd3 Qxd3+ 13. cxd3 gxf6 14. Rhc1 Ba6 15. Rab1 Ke7 16. a4 Rab8 17. Ke3 Rhg8 18. g3 Kd6 19. d4 exd4+ 20. Kxd4 Kc7 21. f4 Rxb1 22. Rxb1 Rb8 23. Rxb8 Kxb8 24. Kc5 Kc7 25. h4 d6+ 26. Kd4 Be2 27. e5 fxe5+ 28. fxe5 c5+ 29. Kd5 Bf3+ 30. Kc4 dxe5 31. Kxc5 f5 32. Kc4 Kc6 33. Kd3 Kd5 34. Ke3 h5 35. Kxf3 Kd4 36. Ke2 Ke4 37. Kf2 Kd3 38. Kf3 e4+ 39. Kf2 Kd2 40. a5 e3+ 41. Kf1 e2+ 42. Kf2 e1=Q+ 43. Kf3 Qe3+ 44. Kg2 Ke1 45. Kh3 Qg1 46. a6 Qh1# { White is checkmated } 0-1
