@@ -280,6 +280,11 @@
     black:  redgremlin
     result: '0.5:0.5'
 
+  - date:   14.07.2014
+    white:  MyTrooName
+    black:  HunOL
+    result: '0:1'
+
   - date:   15.06.2014
     white:  DoctorSinus
     black:  Magian
@@ -388,6 +393,11 @@
     black:  shell-script
     result: '1:0'
 
+  - date:   14.07.2014
+    white:  MyTrooName
+    black:  DoctorSinus
+    result: '0.5:0.5'
+
 - number: 16
   games:
   - date:   02.07.2014
@@ -448,6 +458,11 @@
     white:  MyTrooName
     black:  n1l
     result: '1:0'
+
+  - date:   11.07.2014
+    white:  DoctorSinus
+    black:  redgremlin
+    result: '0:1'
 
   - date:   13.06.2014
     white:  shell-script
