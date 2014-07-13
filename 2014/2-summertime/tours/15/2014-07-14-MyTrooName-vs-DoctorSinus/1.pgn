@@ -1,0 +1,18 @@
+[Event "Rated game"]
+[Site "http://lichess.org/LNFLjjST"]
+[Date "2014.07.14"]
+[White "sshilovsky"]
+[Black "fat0troll"]
+[Result "1/2-1/2"]
+[WhiteElo "1560"]
+[BlackElo "1307"]
+[PlyCount "102"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense, Advance Variation"]
+[WhiteClock ":18:34"]
+[BlackClock ":18:1"]
+[Annotator "lichess.org"]
+
+1. e4 c6 2. d4 d5 3. e5 { Caro-Kann Defense, Advance Variation } e6 4. Nf3 f5 5. Bg5 Be7 6. h4 Bxg5 7. Nxg5 Nh6 8. Qh5+ Kd7 9. g3 Qe8 10. Qxe8+ Kxe8 11. Nd2 Nd7 12. Nxe6 Rg8 13. Nc7+ Kf7 14. e6+ Ke7 15. exd7 Bxd7 16. Nxa8 Rxa8 17. O-O-O Re8 18. Re1+ Kf6 19. Rxe8 Bxe8 20. Nb3 b6 21. Bd3 Ng4 22. f3 Nf2 23. Re1 Bh5 24. Re5 Bxf3 25. Rxf5+ Ke6 26. Rxf3 Nh3 27. Bf5+ Kf6 28. Bxh3+ Kg6 29. h5+ Kxh5 30. Bf5 g6 31. g4+ Kg5 32. Bd7 c5 33. dxc5 bxc5 34. Nxc5 h5 35. gxh5 gxh5 36. Ne6+ Kg4 37. Nd4+ Kg5 38. Rh3 h4 39. c4 dxc4 40. b3 cxb3 41. axb3 a5 42. Nc2 Kh5 43. b4 axb4 44. Nxb4 Kg5 45. Rxh4 Kxh4 46. Kd2 Kg5 47. Ke3 Kf6 48. Ke4 Ke7 49. Bb5 Kd6 50. Bc4 Kc5 51. Ke5 Kxc4 { Draw } 1/2-1/2
