@@ -1,0 +1,18 @@
+[Event "Rated game"]
+[Site "http://lichess.org/fBoHTBxW"]
+[Date "2014.07.14"]
+[White "sshilovsky"]
+[Black "HunOL"]
+[Result "0-1"]
+[WhiteElo "1565"]
+[BlackElo "1772"]
+[PlyCount "64"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense, Advance Variation, Van der Wiel Attack"]
+[WhiteClock ":13:45"]
+[BlackClock ":8:52"]
+[Annotator "lichess.org"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nc3 { Caro-Kann Defense, Advance Variation, Van der Wiel Attack } e6 5. Bf4 Nd7 6. Bd3 Bxd3 7. Qxd3 c5 8. dxc5 Bxc5 9. Nf3 Ne7 10. Nd4 Qb6 11. Na4 Qb4+ 12. c3 Qxa4 13. Nb5 Bxf2+ 14. Kf1 Qxf4 15. Nc7+ Kd8 16. Nxa8 Be3+ 17. Ke2 Qf2+ 18. Kd1 Nxe5 19. Qe2 Qxe2+ 20. Kxe2 Nf5 21. Rhf1 Kd7 22. Rxf5 exf5 23. Kxe3 Rxa8 24. Kd4 Kd6 25. Rf1 g6 26. h3 Rc8 27. g4 Rc4+ 28. Ke3 fxg4 29. hxg4 Nxg4+ 30. Kd2 Ke6 31. b3 Re4 32. Rh1 h5 { White resigns } 0-1
