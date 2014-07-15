@@ -1,0 +1,18 @@
+[Event "Rated game"]
+[Site "http://lichess.org/y1hH2oQs"]
+[Date "2014.07.15"]
+[White "LOR_J"]
+[Black "gremlin_the_red"]
+[Result "0-1"]
+[WhiteElo "1440"]
+[BlackElo "1748"]
+[PlyCount "42"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A45"]
+[Opening "Trompowsky Attack, General"]
+[WhiteClock ":14:2"]
+[BlackClock ":14:53"]
+[Annotator "lichess.org"]
+
+1. d4 Nf6 2. Bg5 { Trompowsky Attack, General } c5 3. Bxf6 gxf6 4. d5 Bh6 5. Nf3 d6 6. c4 Nd7 7. e4 Ne5 8. Nxe5 fxe5 9. Bd3 Bd7 10. O-O Rg8 11. g3 Qb6 12. b3 O-O-O 13. Nc3 Rdf8 14. Rb1 a5 15. a3 f5 16. exf5 Bxf5 17. Bxf5+ Rxf5 18. Nb5 e4? { (0.43 → 1.98) Mistake. The best move was Kb8. } (18... Kb8 19. Qd3 Rf7 20. Rbe1 Rgf8 21. f3 Qd8 22. Qc3 Bg5 23. h4 Bh6 24. Kh2 Rf6 25. Qd3) 19. b4? { (1.98 → 0.57) Mistake. The best move was Qc2. } (19. Qc2 Rf7 20. Qxe4 Rg6 21. Rbe1 Kb8 22. f4 Bg7 23. Qd3 Rh6 24. Rf2 Qd8 25. Rfe2 Bf6 26. Qe3 Qd7) 19... cxb4 20. axb4?! { (0.89 → 0.06) Inaccuracy. The best move was Nd4. } (20. Nd4 Rff8 21. axb4 axb4 22. Re1 Bg7 23. Rxe4 h5 24. Qd2 Bxd4 25. Rxd4 Rg4 26. Rxg4 hxg4 27. Rxb4 Rxf2) 20... e3 21. f4?? { (0.32 → -5.60) Blunder. The best move was Qd3. } (21. Qd3 Rgf8 22. bxa5 exf2+ 23. Kg2 Qe3 24. Rb3 Re5 25. Nd4 Rf7 26. Ne6 Re4) 21... e2+ { White resig
