@@ -371,6 +371,11 @@
     black:  n1l
     result: '1:0'
 
+  - date:   18.07.2014
+    white:  HunOL
+    black:  redgremlin
+    result: '0:1'
+
 - number: 15
   games:
   - date:   20.06.2014
@@ -414,6 +419,11 @@
     white:  shell-script
     black:  n1l
     result: '0.5:0.5'
+
+  - date:   15.07.2014
+    white:  J
+    black:  redgremlin
+    result: '0:1'
 
   - date:   15.06.2014
     white:  Magian
