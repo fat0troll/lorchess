@@ -1,0 +1,18 @@
+Жеребьевка участников LORChess.
+Размер таблицы участников: 12.
+Данный файл является неизменяемым и создаваемым один раз.
+UNIX timestamp: 1409261654
+========
+
+11 | iVS
+6 | DoctorSinus
+7 | J
+4 | aptyp
+5 | MyTrooName
+12 | redgremlin
+8 | HunOL
+3 | Nedis
+9 | Magian
+10 | Kakadu
+1 | dvvrd
+2 | shell-script
