@@ -3,7 +3,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 REPODIR="`dirname $0`"
-TOURNAMENT="2014/2-summertime"
+TOURNAMENT="2014/3-fallenleaves"
 
 # Config file for players
 ply_ini="${REPODIR}/${TOURNAMENT}/players.ini"
