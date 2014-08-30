@@ -2,18 +2,15 @@
 # Copyright 2014 Vladimir Ivanov <ivvl82@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
-REPODIR="`dirname $0`"
-TOURNAMENT="2014/3-fallenleaves"
-
-# Config file for players
-ply_ini="${REPODIR}/${TOURNAMENT}/players.ini"
+# Specify the tournament here
+TOURNAMENT=
 
 # Version information
-VERSION="0.1"
+VERSION="0.2"
 
-argv0="${0##*/}"
+argv0=${0##*/}
 
-usage() {
+function usage {
     cat <<EOF
 Store a chess game played on lichess.org
 
@@ -33,62 +30,76 @@ EOF
     exit "${1:-0}"
 }
 
-version() {
+function version {
     exec echo "${argv0}-${VERSION}"
 }
 
-game_get_players() {
+function game_setup {
+    # If no tournament given, set it to the last one
+    if [[ -z $TOURNAMENT ]]; then
+        local year=$(ls -1 -d [0-9][0-9][0-9][0-9]/ | tail -1)
+        TOURNAMENT=$(ls -1 -d ${year}[0-9]-*/ | tail -1)
+        # Remove the trailing slash
+        TOURNAMENT=${TOURNAMENT%/}
+    fi
+
+    REPODIR=`dirname "$0"`
+    # Configuration file for players
+    ply_ini=${REPODIR}/${TOURNAMENT}/players.ini
+}
+
+function game_get_players {
     # Extract players on Lichess
-    local w_lichess=$(sed -En "s/\[White \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
-    local b_lichess=$(sed -En "s/\[Black \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
+    local w_lichess=$(sed -En "s/\[White \"([^\"]*)\"\]/\1/p" < $tmp_pgn)
+    local b_lichess=$(sed -En "s/\[Black \"([^\"]*)\"\]/\1/p" < $tmp_pgn)
 
     # Get names of white and black players
     local counter=1 players=()
     game_parse_config
     while eval "config_section_player${counter}" 2>/dev/null; do
         players+=("$name")
-        [[ "$lichess" == "$w_lichess" ]] && white="$name"
-        [[ "$lichess" == "$b_lichess" ]] && black="$name"
-        counter=$((counter+1))
+        [[ $lichess == $w_lichess ]] && white=$name
+        [[ $lichess == $b_lichess ]] && black=$name
+        : $((counter += 1))
     done
-    [[ -z "$white" ]] && fix_white_player
-    [[ -z "$black" ]] && fix_black_player
+    [[ -z $white ]] && fix_white_player
+    [[ -z $black ]] && fix_black_player
 }
 
-game_parse_config() {
+function game_parse_config {
     # Copy player INI file to the temporary location
     # NOTE: an empty line is added to the file beginning in order to
     # match the only first occurrence for non-GNU sed
-    echo > "$tmp_ini"
-    cat "$ply_ini" >> "$tmp_ini"
+    echo > $tmp_ini
+    cat "$ply_ini" >> $tmp_ini
 
     # Remove tabs or spaces around the `='
-    sed -i".prev" -E "s/[[:blank:]]*=[[:blank:]]*/=/g" "$tmp_ini"
+    sed -E "s/[[:blank:]]*=[[:blank:]]*/=/" -i.prev "$tmp_ini"
 
     # Transform section labels into function declaration
-    sed -i".prev" -E "1,/^\[.*\]/s/^\[([^]]*)\]/config_section_\1() {/g" "$tmp_ini"
-    sed -i".prev" -E "s/^\[([^]]*)\]/}\\"$'\n'"config_section_\1() {/g" "$tmp_ini"
-    echo -e "\n}" >> "$tmp_ini"
+    sed -E "1,/^\[.*\]/s/^\[([^]]*)\]/config_section_\1() {/" -i.prev "$tmp_ini"
+    sed -E "s/^\[([^]]*)\]/}\\"$'\n'"config_section_\1() {/g" -i.prev "$tmp_ini"
+    echo -e "\n}" >> $tmp_ini
 
-    # Load the file
+    # Source the file
     source "$tmp_ini"
 }
 
-fix_white_player() {
+function fix_white_player {
     local number
     echo "Lichess player '${w_lichess}' not found."
     choose_player
-    white="${players[$number]}"
+    white=${players[$number]}
 }
 
-fix_black_player() {
+function fix_black_player {
     local number
     echo "Lichess player '${b_lichess}' not found."
     choose_player
-    black="${players[$number]}"
+    black=${players[$number]}
 }
 
-choose_player() {
+function choose_player {
     echo "Please choose a proper name from the list below:"
     for ((i=0; i<${#players[@]}; ++i)); do
         echo "$((i+1)) ${players[$i]}"
@@ -98,27 +109,32 @@ choose_player() {
     echo -n "Put number> "
     read number
 
-    if (( "$number" < 1 || "$number" > ${#players[@]} )); then
+    if (( $number < 1 || $number > ${#players[@]} )); then
         die "Incorrect player number."
     fi
-    number=$((number-1))
+    : $((number += -1))
 }
 
-game_add_to_repo() {
-    local date_re="[0-9?]{2}\.[0-9?]{2}\.[0-9?]{4}"
+function game_add_to_repo {
+    local date_re=[0-9?]{2}\.[0-9?]{2}\.[0-9?]{4}
     # Check if the tour number is correct
-    local correct=false
+    local correct=false length_max=0
     while IFS= read line; do
-        if [[ "$line" =~ ${date_re}\ *[-—]\ *${white}\ *${black} ]]; then
-            correct=true
-            break
+        if [[ $line =~ ^(${date_re}\ +([^\ ]+)\ +([^\ ]+)) ]]; then
+            if [[ ${BASH_REMATCH[2]} == $white && ${BASH_REMATCH[3]} == $black ]]; then
+                correct=true
+                local length_rec=${#BASH_REMATCH[1]}
+            fi
+            # Determine the maximal length of game record
+            local length=${#BASH_REMATCH[1]}
+            (( $length > $length_max )) && length_max=$length
         fi
-    done < "$tour_info"
+    done < $tour_info
     if ! $correct; then
         die "Game '${white} vs. ${black}' not found in ${tour_info}."
     fi
 
-    [[ -d "$pgn_dir" ]] && die "Directory ${pgn_dir} already exist."
+    [[ -d $pgn_dir ]] && die "Directory ${pgn_dir} already exist."
     echo "Creating directory ${pgn_dir}..."
     mkdir -p "$pgn_dir"
 
@@ -126,54 +142,52 @@ game_add_to_repo() {
     cp "$tmp_pgn" "${pgn_dir}/1.pgn"
 
     echo "Updating tour_info..."
-    local game_date="${pgn_date:8:2}.${pgn_date:5:2}.${pgn_date::4}"
-    local result=$(sed -En "s/\[Result \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
-    case "$result" in
-        "1-0")     result="1:0" ;;
-        "0-1")     result="0:1" ;;
-        "1/2-1/2") result="0.5:0.5" ;;
-    esac
+    local game_date=${pgn_date:8:2}.${pgn_date:5:2}.${pgn_date::4}
+    local result=$(sed -En "s/\[Result \"([^\"]*)\"\]/\1/p" < $tmp_pgn)
+    local spaces=$((length_max - length_rec + 1))
+    local sep=$(printf "%${spaces}s" " ")
 
-    sed -i".orig" \
-        -E "s/${date_re}( *[-—] *)${white} *${black}/${game_date}\1${white} ${result} ${black}/g" \
-        "$tour_info"
+    sed -E "s/${date_re}( +${white} +${black})/${game_date}\1${sep}${result}/g" \
+        -i.orig "$tour_info"
     rm "${tour_info}.orig"
 }
 
-game_git_commit() {
-    git pull
+function game_git_commit {
     git add "${pgn_dir}/1.pgn" "$tour_info"
     git commit -m "Tour ${TOUR#0}: ${white} vs. ${black}."
     git push
 }
 
-die() {
+function die {
     echo "$@" 1>&2
     exit 1
 }
 
-checkargs() {
-    if [[ "$opt" == t && "$OPTARG" =~ ^[0-9]+$ ]]; then
-        TOUR=$(printf "%02g" "$OPTARG")
+function checkargs {
+    if [[ $opt == t && $OPTARG =~ ^[0-9]+$ ]]; then
+        TOUR=$(printf "%02g" $OPTARG)
     fi
 }
 
-TOUR=""
-while getopts "t:hv" opt; do
-    case "$opt" in
+while getopts t:hv opt; do
+    case $opt in
         t) checkargs ;;
-        h) usage ;;
-        v) version ;;
-        *) usage 1 ;;
+        h) usage     ;;
+        v) version   ;;
+        *) usage 1   ;;
     esac
 done
 
 shift $(($OPTIND - 1))
 # For now, tour number should be given explicitly
-[[ -z "$TOUR" || -z "$1" ]] && usage 1
+[[ -z $TOUR || -z $1 ]] && usage 1
 
-tour_info="${REPODIR}/${TOURNAMENT}/tours/${TOUR}/tour_info"
-[[ ! -f "$tour_info" ]] && die "File ${tour_info} not found."
+game_setup
+tour_info=${REPODIR}/${TOURNAMENT}/tours/${TOUR}/tour_info
+[[ ! -f $tour_info ]] && die "File ${tour_info} not found."
+
+# Ensure that the repository is up-to-date
+git pull
 
 # Temporary files
 tmp_ini=$(mktemp -t `basename $ply_ini`.XXXXXX)
@@ -181,17 +195,15 @@ tmp_pgn=$(mktemp -t pgn.XXXXXX)
 trap "rm ${tmp_ini} ${tmp_ini}.prev ${tmp_pgn}" EXIT
 
 # Download PGN file
-[[ "$1" =~ ^(http://[^/]*)/([^/]*) ]]
-pgn_url="${BASH_REMATCH[1]}/${BASH_REMATCH[2]::8}/pgn"
-curl -q --fail --location --silent "$pgn_url" > "$tmp_pgn" \
+[[ $1 =~ ^(http://[^/]*)/([^/]*) ]]
+pgn_url=${BASH_REMATCH[1]}/${BASH_REMATCH[2]::8}/pgn
+curl -q --fail --location --silent "$pgn_url" > $tmp_pgn \
     || die "PGN file not found."
 
-white="" black=""
 game_get_players
 
-# Extract the game date from PGN
 pgn_date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
-pgn_date=$(tr '.' '-' <<< "$pgn_date")
+pgn_date=$(tr "." "-" <<< "$pgn_date")
 pgn_dir="${REPODIR}/${TOURNAMENT}/tours/${TOUR}/${pgn_date}-${white}-vs-${black}"
 
 game_add_to_repo
