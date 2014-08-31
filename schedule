@@ -2,16 +2,18 @@
 # Copyright 2014 Vladimir Ivanov <ivvl82@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
-# REPO="https://raw.githubusercontent.com/fat0troll/lorchess/master"
-REPO="`dirname $0`"
-TOURNAMENT="2014/3-fallenleaves"
+# REPO_DIR="https://github.com/fat0troll/lorchess"
+REPO_DIR=`dirname "$0"`
+
+# Specify the tournament here
+TOURNAMENT=
 
 # Version information
-VERSION="0.4"
+VERSION="0.5"
 
-argv0="${0##*/}"
+argv0=${0##*/}
 
-usage() {
+function usage {
     cat <<EOF
 List games on tours of tournament
 
@@ -37,50 +39,84 @@ Options:
   -h            Show this help output
   -v            Show version information
 EOF
+
+    exit "${1:-0}"
 }
 
-version() {
-    echo "${argv0}-${VERSION}"
+function version {
+    exec echo "${argv0}-${VERSION}"
 }
 
-show_tour_sequence() {
-    local tour_info
+function setup_repo {
+    CURL_OPTS="-q --fail --location --silent"
 
-    # Reduce REPO to a canonical form
-    convert_repo_url
+    # If no tournament given, set it to the last one
+    if [[ -z $TOURNAMENT ]]; then
+        if [[ $REPO_DIR =~ ^https://github\.com/(.*) ]]; then
+            REPO_NAME=${BASH_REMATCH[1]}
+            local year=$(curl $CURL_OPTS \
+                https://api.github.com/repos/${REPO_NAME}/contents \
+                | sed -En "/\"path\":/h;/\"type\": \"dir\"/{g;p}" \
+                | sed -En "s|.*\"([0-9]{4})\".*|\1|p" | tail -1)
+            TOURNAMENT=$(curl $CURL_OPTS \
+                https://api.github.com/repos/${REPO_NAME}/contents/${year} \
+                | sed -En "/\"path\":/h;/\"type\": \"dir\"/{g;p}" \
+                | sed -En "s|.*\"(${year}/[0-9]-.*)\".*|\1|p" | tail -1)
+        else
+            # Convert REPO_DIR to an absolute path
+            [[ $REPO_DIR =~ ^/ ]] || REPO_DIR=$(cd ${REPO_DIR}; pwd)
 
-    if [[ -n "$@" ]]; then
-        for num in $@; do
-            fetch_tour_info "$num" && output_tour_info
-        done
-    else
-        # If the tour numbers were not passed as arguments, exit once
-        # the first non-existing 'tour_info' is reached
-        num=1
-        while fetch_tour_info "$num"; do
-            output_tour_info
-            num=$((num+1))
-        done
+            local year_dir=$(ls -1 -d ${REPO_DIR}/[0-9][0-9][0-9][0-9]/ | tail -1)
+            TOURNAMENT=$(ls -1 -d ${year_dir}[0-9]-*/ | tail -1 \
+                | sed -E "s|${REPO_DIR}/(.*)|\1|")
+            # Remove the trailing slash
+            TOURNAMENT=${TOURNAMENT%/}
+        fi
     fi
 }
 
-fetch_tour_info() {
-    # Change tour numbers: '1' -> '01', '2' -> '02', and so on
-    local tour=$(printf "%02g" "$1")
+function show_tour_sequence {
+    local tour_seq=$@
 
-    # *NOTE* The incorporation of a newline at the end of 'tour_info'
-    # (--write-out '\n') is important and allows one to read the last
-    # line with no trailing '\n'
-    local info_url="${REPO}/${TOURNAMENT}/tours/${tour}/tour_info"
-    tour_info="$(curl -q --fail --location --silent --write-out '\n' $info_url)"
-    return `[[ -n "$tour_info" ]]`
+    # If no tour sequence given, set it to all tours
+    if [[ -z $tour_seq ]]; then
+        if [[ $REPO_DIR =~ ^https://github\.com/(.*) ]]; then
+            tour_seq=$(curl $CURL_OPTS \
+                https://api.github.com/repos/${REPO_NAME}/contents/${TOURNAMENT}/tours \
+                | sed -En "/\"path\":/h;/\"type\": \"dir\"/{g;p}" \
+                | sed -En "s|.*\"${TOURNAMENT}/tours/([0-9]{2})\".*|\1|p")
+        else
+            tour_seq=$(ls -1 -d ${REPO_DIR}/${TOURNAMENT}/tours/[0-9][0-9]/ \
+                | sed -E "s|${REPO_DIR}/${TOURNAMENT}/tours/([0-9]{2})/|\1|")
+        fi
+    fi
+
+    for tour in $tour_seq; do
+        # Change tour numbers: '1' -> '01', '2' -> '02', and so on
+        tour=$(printf "%02g" $tour)
+
+        # *NOTE* The incorporation of a newline at the end of
+        # 'tour_info' is important and allows one to read the last
+        # line with no trailing '\n'
+        if [[ $REPO_DIR =~ ^https://github\.com/(.*) ]]; then
+            local tour_info=$(curl $CURL_OPTS --write-out '\n' \
+                ${REPO_DIR}/raw/master/${TOURNAMENT}/tours/${tour}/tour_info)
+            [[ -n $tour_info ]] && output_tour_info
+        else
+            local info_file=${REPO_DIR}/${TOURNAMENT}/tours/${tour}/tour_info
+            if [[ -f $info_file ]]; then
+                local tour_info=$(cat $info_file; echo)
+                output_tour_info
+            fi
+        fi
+    done
 }
 
-output_tour_info() {
+function output_tour_info {
     local tour_num date_beg date_end
     local white black result game_date game_url
     # Lines with game info
-    local output_lines=""
+    local output_lines=
 
     while read line; do
         # Read 'tour_num'
@@ -91,78 +127,57 @@ output_tour_info() {
         # Keep game info if needed, and store it in variables 'white',
         # 'black', 'result', and 'game_date'
         if keep_game_info "$line"; then
-            # Fix result
-            case "$result" in
-                "1:0")     result="1-0" ;;
-                "0:1")     result="0-1" ;;
-                "0.5:0.5") result="1/2" ;;
-            esac
-
             # Store the link to game in 'game_url'
-            game_url=""
+            game_url=
             if $SHOW_LINK; then
-                [[ -n "$result" ]] && store_game_url
+                [[ -n $result ]] && store_game_url
             fi
 
             output_lines+="${white} ${black} ${result} ${game_url}\n"
         fi
     done <<< "$tour_info"
 
-    [[ -n "$output_lines" ]] && eval "info_output_$FORMAT \"${output_lines}\""
+    [[ -n $output_lines ]] && eval "info_output_$FORMAT \"${output_lines}\""
 }
 
-convert_repo_url() {
-    if [[ ! "$REPO" =~ ^(https?|file):// ]]; then
-        if [[ ! "$REPO" =~ ^/ ]]; then
-            # REPO is a relative path
-            base_dir="$(dirname $0)"
-            REPO="$(cd ${base_dir}/${REPO}; pwd)"
-        fi
-
-        REPO="file://${REPO}"
-    fi
-}
-
-get_tour_num() {
-    if [[ "$1" =~ "Тур №"([0-9]+) ]]; then
-        tour_num="${BASH_REMATCH[1]}"
+function get_tour_num {
+    if [[ $1 =~ ^"Тур №"([0-9]+) ]]; then
+        tour_num=${BASH_REMATCH[1]}
         return 0
     else
         return 1
     fi
 }
 
-get_tour_dates() {
+function get_tour_dates {
     local date_re="[0-9?]{2}\.[0-9?]{2}\.[0-9?]{4}"
 
-    if [[ "$1" =~ "Время проведения:"\ *($date_re)\ *[-—]\ *($date_re) ]]; then
-        date_beg="${BASH_REMATCH[1]}" date_end="${BASH_REMATCH[2]}"
+    if [[ $1 =~ ^"Время проведения:"\ +($date_re)\ +-\ +($date_re) ]]; then
+        date_beg=${BASH_REMATCH[1]} date_end=${BASH_REMATCH[2]}
         # Use short dates
-        date_beg="${date_beg::5}" date_end="${date_end::5}"
+        date_beg=${date_beg::5} date_end=${date_end::5}
         return 0
     else
         return 1
     fi
 }
 
-keep_game_info() {
+function keep_game_info {
     local date_re="([0-9?]{2})\.([0-9?]{2})\.([0-9?]{4})"
-    local res_re="(0|1|0\.5):(0|1|0\.5)"
-    local line="$1" keep=1
+    local res_re="(1|1/2|0)-(1|1/2|0)"
+    local line=$1 keep=1
 
-    if [[ "$line" =~ ($date_re)\ *[-—]\ *([^\ ]+)\ *($res_re)?\ *([^\ ]+) ]]; then
-        white="${BASH_REMATCH[5]}"
-        black="${BASH_REMATCH[9]}"
-        result="${BASH_REMATCH[6]}"
-        game_date="${BASH_REMATCH[4]}-${BASH_REMATCH[3]}-${BASH_REMATCH[2]}"
+    if [[ $line =~ ^($date_re)\ +([^\ ]+)\ +-\ +([^\ ]+)\ *($res_re)? ]]; then
+        white=${BASH_REMATCH[5]} black=${BASH_REMATCH[6]} result=${BASH_REMATCH[7]}
+        game_date=${BASH_REMATCH[4]}-${BASH_REMATCH[3]}-${BASH_REMATCH[2]}
 
         # If the player was passed as an argument, check if it is his game or not
-        if [[ -z "$PLAYER" || "$white" =~ "$PLAYER" || "$black" =~ "$PLAYER" ]]; then
+        if [[ -z $PLAYER || $white =~ $PLAYER || $black =~ $PLAYER ]]; then
             if $SHOW_ALL; then
                 keep=0
             else
                 # Keep line if the game is not finished
-                [[ -z "$result" ]] && keep=0
+                [[ -z $result ]] && keep=0
             fi
         fi
     fi
@@ -170,37 +185,37 @@ keep_game_info() {
     return $keep
 }
 
-store_game_url() {
+function store_game_url {
     local tour=$(printf "%02g" "$tour_num")
-    local game_dir="${game_date}-${white}-vs-${black}"
-    local pgn_url="${REPO}/${TOURNAMENT}/tours/${tour}/${game_dir}/1.pgn"
+    local game_dir=${game_date}-${white}-vs-${black}
+    local pgn_url=${REPO}/${TOURNAMENT}/tours/${tour}/${game_dir}/1.pgn
 
     while read line; do
         # Search for a URL inside PGN file
-        [[ "$line" =~ "[Site \""([a-z]+:[^\"]+)"\"]" ]]
-        game_url="${BASH_REMATCH[1]}"
-        [[ -n "$game_url" ]] && break
-    done <<< "$(curl -q --fail --location --silent $pgn_url)"
+        [[ $line =~ "[Site \""([a-z]+:[^\"]+)"\"]" ]]
+        game_url=${BASH_REMATCH[1]}
+        [[ -n $game_url ]] && break
+    done <<< $(curl -q --fail --location --silent "$pgn_url")
 }
 
-info_output_term() {
+function info_output_term {
     echo -n "$(tput setaf 2)${tour_num} тур "
     echo "$(tput setaf 6)(${date_beg} - ${date_end})$(tput sgr0)"
 
     echo -en "$1" | column -t | while IFS= read line; do
         # Highlight player's name
-        if [[ -n "$PLAYER" ]]; then
+        if [[ -n $PLAYER ]]; then
             players=$(grep -o "[^ ]*${PLAYER}[^ ]*" <<< "$line")
             for name in $players; do
                 # PLAYER is a part of 'game_url' or 'result'
-                [[ "$name" =~ ^http:// || "$name" =~ ^(1-0|0-1|1/2)$ ]] && continue
+                [[ $name =~ ^http:// || $name =~ ^(1-0|1/2-1/2|0-1|)$ ]] && continue
 
                 line=$(sed -E "s/(${name})/$(tput setaf 1)\1$(tput sgr0)/g" <<< "$line")
             done
         fi
 
         # Highlight result
-        line=$(sed -E "s/ (1-0|0-1|1\/2)( |$)/ $(tput setaf 6)\1$(tput sgr0)\2/g" <<< "$line")
+        line=$(sed -E "s/ (1-0|1\/2-1\/2|0-1)( |$)/ $(tput setaf 6)\1$(tput sgr0)\2/g" <<< "$line")
 
         echo "$line"
     done
@@ -208,12 +223,12 @@ info_output_term() {
     echo
 }
 
-info_output_lor() {
+function info_output_lor {
     echo "[b]${tour_num} тур (${date_beg} - ${date_end})[/b]"
     echo "[list]"
 
     echo -en "$1" | while read white black result url; do
-        [[ -n "$url" ]] && result="[url=${url}]${result}[/url]"
+        [[ -n $url ]] && result="[url=${url}]${result}[/url]"
 
         echo "  [*] [user]${white}[/user] - [user]${black}[/user] ${result}"
     done
@@ -223,7 +238,7 @@ info_output_lor() {
 
 }
 
-info_output_html() {
+function info_output_html {
     echo "<div class=\"tour-info\">"
     echo "  <table class=\"table table-condensed\">"
     echo "    <caption>"
@@ -232,7 +247,7 @@ info_output_html() {
     echo "    <tbody>"
 
     echo -en "$1" | while read white black result url; do
-        [[ -n "$url" ]] && result="<a href=\"${url}\">${result}</a>"
+        [[ -n $url ]] && result="<a href=\"${url}\">${result}</a>"
 
         echo "      <tr>"
         echo "        <td>${white} - ${black}</td><td class=\"result\">${result}</td>"
@@ -245,42 +260,43 @@ info_output_html() {
     echo
 }
 
-checkargs() {
-    if [[ "$OPTARG" =~ ^-[apflhv]$ ]]; then
-        echo "Option -${opt}: argument not found" 1>&2
-        exit 1
-    fi
-    if [[ "$opt" == f && ! "$OPTARG" =~ ^(term|html|lor)$ ]]; then
-        echo "Incorrect FORMAT specified" 1>&2
-        exit 1
-    fi
+function die {
+    echo "$@" 1>&2
+    exit 1
 }
 
-SHOW_ALL=false
-PLAYER=""
+function checkargs {
+    [[ $OPTARG =~ ^-[apflhv]$ ]] && die "Option -${opt}: argument not found"
+    [[ $opt == f && ! $OPTARG =~ ^(term|html|lor)$ ]] && die "Incorrect FORMAT specified"
+}
+
 FORMAT=term
+SHOW_ALL=false
 SHOW_LINK=false
 
-while getopts "ap:f:lhv" opt; do
-    case "$opt" in
+while getopts ap:f:lhv opt; do
+    case $opt in
         a)  SHOW_ALL=true
             ;;
         p)  checkargs
-            PLAYER="$OPTARG"
+            PLAYER=$OPTARG
             ;;
         f)  checkargs
-            FORMAT="$OPTARG"
+            FORMAT=$OPTARG
             ;;
         l)  SHOW_LINK=true
             ;;
-        h)  usage && exit 0
+        h)  usage
             ;;
-        v)  version && exit 0
+        v)  version
+            ;;
+        *)  usage 1
             ;;
     esac
 done
 
 shift $(($OPTIND - 1))
-show_tour_sequence "$@"
+setup_repo
+show_tour_sequence $@
 
 exit 0
