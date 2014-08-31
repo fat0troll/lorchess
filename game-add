@@ -120,7 +120,7 @@ function game_add_to_repo {
     # Check if the tour number is correct
     local correct=false length_max=0
     while IFS= read line; do
-        if [[ $line =~ ^(${date_re}\ +([^\ ]+)\ +([^\ ]+)) ]]; then
+        if [[ $line =~ ^(${date_re}\ +([^\ ]+)\ +-\ +([^\ ]+)) ]]; then
             if [[ ${BASH_REMATCH[2]} == $white && ${BASH_REMATCH[3]} == $black ]]; then
                 correct=true
                 local length_rec=${#BASH_REMATCH[1]}
@@ -147,7 +147,7 @@ function game_add_to_repo {
     local spaces=$((length_max - length_rec + 1))
     local sep=$(printf "%${spaces}s" " ")
 
-    sed -E "s/${date_re}( +${white} +${black})/${game_date}\1${sep}${result}/g" \
+    sed -E "s/${date_re}( +${white} +- +${black})/${game_date}\1${sep}${result}/g" \
         -i.orig "$tour_info"
     rm "${tour_info}.orig"
 }
