@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/OQY57typ"]
+[Date "2014.08.31"]
+[White "cppmm"]
+[Black "iVS"]
+[Result "0-1"]
+[WhiteElo "1273"]
+[BlackElo "1941"]
+[PlyCount "44"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C00"]
+[Opening "French Defense, Knight Variation"]
+[Annotator "lichess.org"]
+
+1. e4 e6 2. Nf3 { French Defense, Knight Variation } d5 3. Bd3 Nf6 4. exd5 exd5 5. O-O Be7 6. b3 O-O 7. c4 d4 8. Bb2 c5 9. Na3 Nc6 10. Bc2 Bg4 11. d3?! { (-1.05 → -1.92) Inaccuracy. The best move was h3. } (11. h3 Bd7 12. Bd3 Bd6 13. Re1 b6 14. Nb5 Bf4 15. Na3 a6 16. Nc2 Qc7 17. b4 Rae8 18. bxc5 bxc5) 11... Ne5 12. Re1 Bd6 13. h3? { (-1.93 → -4.56) Mistake. The best move was Rxe5. } (13. Rxe5 Bxe5 14. h3 Bxf3 15. Qxf3 Qd7 16. Nb1 Rfe8 17. Nd2 a6 18. a3 a5 19. Rd1 g6 20. Kh1 Qc7) 13... Bxf3?! { (-4.56 → -3.72) Inaccuracy. The best move was Nxf3+. } (13... Nxf3+ 14. gxf3 Bxh3 15. f4 Qd7 16. Qf3 Rfe8 17. b4 Qf5 18. Re4 cxb4 19. Nb5 Qg6+ 20. Qg3 Nxe4 21. dxe4) 14. gxf3 Qd7 15. Nb5?? { (-4.22 → -7.70) Blunder. The best move was Kg2. } (15. Kg2 Qf5 16. Nb5 Ng6 17. Rh1 Nh4+ 18. Kf1 Bb8 19. f4 Qxf4) 15... Bb8?? { (-7.70 → -4.47) Blunder. The best move was Qxh3. } (15... Qxh3 16. Nxd6 Nxf3+ 17. Qxf3 Qxf3 18. Ne4 b6 19. a3 Nxe4 20. dxe4 Qg4+ 21. Kf1 Rae8 22. Rad1 Qh3+ 23. Ke2) 16. Kg2 Nh5?! { (-4.94 → -4.24) Inaccuracy. The best move was Ng6. } (16... Ng6 17. Rh1 Nh4+ 18. Kf1 Qf5 19. Nxd4 cxd4 20. Bxd4 Nxf3 21. Be3 Re8 22. b4 Nh2+ 23. Rxh2 Bxh2 24. Kg2) 17. Qd2?? { (-4.24 → -9.21) Blunder. The best move was Re4. } (17. Re4 Ng6 18. Rg4 a6 19. Na3 f5 20. Rxg6 Nf4+ 21. Kh1 Nxg6 22. Qf1 Qd6 23. Qg2 Nf4 24. Qg3 Qc6) 17... Nxf3 18. Kxf3 Qxh3+ 19. Ke2 Bf4 20. Qa5?! { (-9.22 → Mate in 3) Checkmate is now unavoidable. The best move was Kd1. } (20. Kd1 Bxd2 21. Kxd2 Qh4 22. Kc1 a6 23. Nxd4 Qxf2 24. Rd1 cxd4 25. Ba3 Rfe8 26. Kb2 Re2 27. Rac1 Nf4) 20... Qg4+?! { (Mate in 3 → -14.63) Lost forced checkmate sequence. The best move was Rfe8+. } (20... Rfe8+ 21. Kd1 Qf3+ 22. Re2 Qxe2#) 21. f3?! { (-14.63 → Mate in 4) Checkmate is now unavoidable. The best move was Kf1. } (21. Kf1 b6 22. Re4 bxa5 23. Nxd4 cxd4 24. Bxd4 f5 25. Rxf4 Nxf4) 21... Rfe8+ 22. Kd1 Qxf3+ { White resigns } 0-1
