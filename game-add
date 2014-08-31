@@ -35,17 +35,21 @@ function version {
 }
 
 function game_setup {
+    REPO_DIR=`dirname "$0"`
+    # Convert REPO_DIR to an absolute path
+    REPO_DIR=$(cd ${REPO_DIR}; pwd)
+
     # If no tournament given, set it to the last one
     if [[ -z $TOURNAMENT ]]; then
-        local year=$(ls -1 -d [0-9][0-9][0-9][0-9]/ | tail -1)
-        TOURNAMENT=$(ls -1 -d ${year}[0-9]-*/ | tail -1)
+        local year_dir=$(ls -1 -d ${REPO_DIR}/[0-9][0-9][0-9][0-9]/ | tail -1)
+        TOURNAMENT=$(ls -1 -d ${year_dir}[0-9]-*/ | tail -1 \
+            | sed -E "s|${REPO_DIR}/(.*)|\1|")
         # Remove the trailing slash
         TOURNAMENT=${TOURNAMENT%/}
     fi
 
-    REPODIR=`dirname "$0"`
     # Configuration file for players
-    ply_ini=${REPODIR}/${TOURNAMENT}/players.ini
+    ply_ini=${REPO_DIR}/${TOURNAMENT}/players.ini
 }
 
 function game_get_players {
@@ -153,6 +157,7 @@ function game_add_to_repo {
 }
 
 function game_git_commit {
+    cd $REPO_DIR
     git add "${pgn_dir}/1.pgn" "$tour_info"
     git commit -m "Tour ${TOUR#0}: ${white} vs. ${black}."
     git push
@@ -183,7 +188,7 @@ shift $(($OPTIND - 1))
 [[ -z $TOUR || -z $1 ]] && usage 1
 
 game_setup
-tour_info=${REPODIR}/${TOURNAMENT}/tours/${TOUR}/tour_info
+tour_info=${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/tour_info
 [[ ! -f $tour_info ]] && die "File ${tour_info} not found."
 
 # Ensure that the repository is up-to-date
@@ -204,7 +209,7 @@ game_get_players
 
 pgn_date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
 pgn_date=$(tr "." "-" <<< "$pgn_date")
-pgn_dir="${REPODIR}/${TOURNAMENT}/tours/${TOUR}/${pgn_date}-${white}-vs-${black}"
+pgn_dir="${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/${pgn_date}-${white}-vs-${black}"
 
 game_add_to_repo
 game_git_commit
