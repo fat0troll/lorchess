@@ -56,11 +56,11 @@ function setup_repo {
             REPO_NAME=${BASH_REMATCH[1]}
             local year=$(curl $CURL_OPTS \
                 https://api.github.com/repos/${REPO_NAME}/contents \
-                | sed -En "/\"path\":/h;/\"type\": \"dir\"/{g;p}" \
+                | sed -En "/\"path\":/h;/\"type\": \"dir\"/{g;p;}" \
                 | sed -En "s|.*\"([0-9]{4})\".*|\1|p" | tail -1)
             TOURNAMENT=$(curl $CURL_OPTS \
                 https://api.github.com/repos/${REPO_NAME}/contents/${year} \
-                | sed -En "/\"path\":/h;/\"type\": \"dir\"/{g;p}" \
+                | sed -En "/\"path\":/h;/\"type\": \"dir\"/{g;p;}" \
                 | sed -En "s|.*\"(${year}/[0-9]-.*)\".*|\1|p" | tail -1)
         else
             # Convert REPO_DIR to an absolute path
@@ -83,7 +83,7 @@ function show_tour_sequence {
         if [[ $REPO_DIR =~ ^https://github\.com/(.*) ]]; then
             tour_seq=$(curl $CURL_OPTS \
                 https://api.github.com/repos/${REPO_NAME}/contents/${TOURNAMENT}/tours \
-                | sed -En "/\"path\":/h;/\"type\": \"dir\"/{g;p}" \
+                | sed -En "/\"path\":/h;/\"type\": \"dir\"/{g;p;}" \
                 | sed -En "s|.*\"${TOURNAMENT}/tours/([0-9]{2})\".*|\1|p")
         else
             tour_seq=$(ls -1 -d ${REPO_DIR}/${TOURNAMENT}/tours/[0-9][0-9]/ \
