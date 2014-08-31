@@ -78,11 +78,11 @@ function game_parse_config {
     cat "$ply_ini" >> $tmp_ini
 
     # Remove tabs or spaces around the `='
-    sed -E "s/[[:blank:]]*=[[:blank:]]*/=/" -i.prev "$tmp_ini"
+    sed -E -i.prev "s/[[:blank:]]*=[[:blank:]]*/=/" "$tmp_ini"
 
     # Transform section labels into function declaration
-    sed -E "1,/^\[.*\]/s/^\[([^]]*)\]/config_section_\1() {/" -i.prev "$tmp_ini"
-    sed -E "s/^\[([^]]*)\]/}\\"$'\n'"config_section_\1() {/g" -i.prev "$tmp_ini"
+    sed -E -i.prev "1,/^\[.*\]/s/^\[([^]]*)\]/config_section_\1() {/" "$tmp_ini"
+    sed -E -i.prev "s/^\[([^]]*)\]/}\\"$'\n'"config_section_\1() {/" "$tmp_ini"
     echo -e "\n}" >> $tmp_ini
 
     # Source the file
@@ -109,7 +109,7 @@ function choose_player {
         echo "$((i+1)) ${players[$i]}"
     done \
         | column -t \
-        | sed -E "s/^([0-9]*)/$(tput setaf 6)\1$(tput sgr0)/g" # highlight number
+        | sed -E "s/^([0-9]*)/$(tput setaf 6)\1$(tput sgr0)/" # highlight number
     echo -n "Put number> "
     read number
 
@@ -120,7 +120,7 @@ function choose_player {
 }
 
 function game_add_to_repo {
-    local date_re=[0-9?]{2}\.[0-9?]{2}\.[0-9?]{4}
+    local date_re="[0-9?]{2}\.[0-9?]{2}\.[0-9?]{4}"
     # Check if the tour number is correct
     local correct=false length_max=0
     while IFS= read line; do
@@ -151,8 +151,8 @@ function game_add_to_repo {
     local spaces=$((length_max - length_rec + 1))
     local sep=$(printf "%${spaces}s" " ")
 
-    sed -E "s/${date_re}( +${white} +- +${black})/${game_date}\1${sep}${result}/g" \
-        -i.orig "$tour_info"
+    sed -E -i.orig \
+        "s/${date_re}( +${white} +- +${black})/${game_date}\1${sep}${result}/" "$tour_info"
     rm "${tour_info}.orig"
 }
 
