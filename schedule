@@ -53,24 +53,26 @@ function setup_repo {
     # If no tournament given, set it to the last one
     if [[ -z $TOURNAMENT ]]; then
         if [[ $REPO_DIR =~ ^https://github\.com/(.*) ]]; then
-            REPO_NAME=${BASH_REMATCH[1]}
-            local year=$(curl $CURL_OPTS \
-                https://api.github.com/repos/${REPO_NAME}/contents \
+            REPO_API="https://api.github.com/repos/${BASH_REMATCH[1]}/contents"
+            local year=$(curl $CURL_OPTS $REPO_API \
                 | sed -En "/\"path\":/h;/\"type\": \"dir\"/{g;p;}" \
                 | sed -En "s|.*\"([0-9]{4})\".*|\1|p" | tail -1)
-            TOURNAMENT=$(curl $CURL_OPTS \
-                https://api.github.com/repos/${REPO_NAME}/contents/${year} \
+            TOURNAMENT=$(curl $CURL_OPTS ${REPO_API}/${year} \
                 | sed -En "/\"path\":/h;/\"type\": \"dir\"/{g;p;}" \
                 | sed -En "s|.*\"(${year}/[0-9]-.*)\".*|\1|p" | tail -1)
-        else
-            # Convert REPO_DIR to an absolute path
-            [[ $REPO_DIR =~ ^/ ]] || REPO_DIR=$(cd ${REPO_DIR}; pwd)
 
+            REPO_URL="${REPO_DIR}/raw/master"
+        else
             local year_dir=$(ls -1 -d ${REPO_DIR}/[0-9][0-9][0-9][0-9]/ | tail -1)
             TOURNAMENT=$(ls -1 -d ${year_dir}[0-9]-*/ | tail -1 \
                 | sed -E "s|${REPO_DIR}/(.*)|\1|")
             # Remove the trailing slash
             TOURNAMENT=${TOURNAMENT%/}
+
+            # Convert REPO_DIR to an absolute path
+            [[ $REPO_DIR =~ ^/ ]] || REPO_DIR=$(cd $REPO_DIR; pwd)
+
+            REPO_URL="file://${REPO_DIR}"
         fi
     fi
 }
@@ -81,8 +83,7 @@ function show_tour_sequence {
     # If no tour sequence given, set it to all tours
     if [[ -z $tour_seq ]]; then
         if [[ $REPO_DIR =~ ^https://github\.com/ ]]; then
-            tour_seq=$(curl $CURL_OPTS \
-                https://api.github.com/repos/${REPO_NAME}/contents/${TOURNAMENT}/tours \
+            tour_seq=$(curl $CURL_OPTS ${REPO_API}/${TOURNAMENT}/tours \
                 | sed -En "/\"path\":/h;/\"type\": \"dir\"/{g;p;}" \
                 | sed -En "s|.*\"${TOURNAMENT}/tours/([0-9]{2})\".*|\1|p")
         else
@@ -96,24 +97,17 @@ function show_tour_sequence {
         tour=$(printf "%02g" $tour)
 
         # *NOTE* The incorporation of a newline at the end of
-        # 'tour_info' is important and allows one to read the last
-        # line with no trailing '\n'
-        if [[ $REPO_DIR =~ ^https://github\.com/ ]]; then
-            local tour_info=$(curl $CURL_OPTS --write-out '\n' \
-                ${REPO_DIR}/raw/master/${TOURNAMENT}/tours/${tour}/tour_info)
-            [[ -n $tour_info ]] && output_tour_info
-        else
-            local info_file=${REPO_DIR}/${TOURNAMENT}/tours/${tour}/tour_info
-            if [[ -f $info_file ]]; then
-                local tour_info=$(cat $info_file; echo)
-                output_tour_info
-            fi
-        fi
+        # 'tour_info' (--write-out '\n') is important and allows one
+        # to read the last line with no trailing '\n'
+        local tour_info=$(curl $CURL_OPTS --write-out '\n' \
+            ${REPO_URL}/${TOURNAMENT}/tours/${tour}/tour_info)
+        [[ -n $tour_info ]] && output_tour_info
     done
 }
 
 function output_tour_info {
     local date_re="([0-9?]{2})\.([0-9?]{2})\.([0-9?]{4})"
+    local res_re="(1-0|1/2|0-1)"
     local white= black= result= game_date=
     # Lines with game info
     local output_lines=
@@ -147,15 +141,13 @@ function output_tour_info {
         fi
     done <<< "$tour_info"
 
-    [[ -n $output_lines ]] && eval "info_output_$FORMAT \"${output_lines}\""
+    [[ -n $output_lines ]] && eval "info_output_$FORMAT"
 }
 
 function keep_game_info {
-    local res_re="(1|1/2|0)-(1|1/2|0)"
     local keep=1
-
     if [[ $line =~ ^$date_re\ +([^\ ]+)\ +-\ +([^\ ]+)(\ +$res_re)? ]]; then
-        white=${BASH_REMATCH[4]} black=${BASH_REMATCH[5]} result=${BASH_REMATCH[6]// /}
+        white=${BASH_REMATCH[4]} black=${BASH_REMATCH[5]} result=${BASH_REMATCH[7]}
         game_date=${BASH_REMATCH[3]}-${BASH_REMATCH[2]}-${BASH_REMATCH[1]}
 
         # If the player was passed as an argument, check if it is his game or not
@@ -168,22 +160,15 @@ function keep_game_info {
             fi
         fi
     fi
-
     return $keep
 }
 
 function append_game_url {
     local tour=$(printf "%02g" "$tour_num")
     local game_dir=${game_date}-${white}-vs-${black}
-
-    if [[ $REPO_DIR =~ ^https://github\.com/ ]]; then
-        local pgn_text=$(curl $CURL_OPTS \
-            ${REPO_DIR}/raw/master/${TOURNAMENT}/tours/${tour}/${game_dir}/1.pgn)
-    else
-        local pgn_text=$(cat ${REPO_DIR}/${TOURNAMENT}/tours/${tour}/${game_dir}/1.pgn)
-    fi
-
-    local game_url=$(echo "$pgn_text" | grep -Eo "\[Site \"[a-z]+:[^\"]+\"\]" \
+    local game_url=$(curl $CURL_OPTS \
+        ${REPO_URL}/${TOURNAMENT}/tours/${tour}/${game_dir}/1.pgn \
+        | grep -Eo "\[Site \"[a-z]+:[^\"]+\"\]" \
         | sed -E "s/\[Site \"([a-z]+:[^\"]+)\"\]/\1/")
     output_lines+=" $game_url"
 }
@@ -192,20 +177,20 @@ function info_output_term {
     echo -n "$(tput setaf 2)${tour_num} тур "
     echo "$(tput setaf 6)(${date_beg} - ${date_end})$(tput sgr0)"
 
-    echo -en "$1" | column -t | while IFS= read line; do
+    echo -en "$output_lines" | while IFS= read line; do
         # Highlight player's name
         if [[ -n $PLAYER ]]; then
             players=$(grep -o "[^ ]*${PLAYER}[^ ]*" <<< "$line")
             for name in $players; do
                 # PLAYER is a part of 'game_url' or 'result'
-                [[ $name =~ ^http:// || $name =~ ^(1-0|1/2-1/2|0-1|)$ ]] && continue
+                [[ $name =~ ^http:// || $name =~ ^${res_re}$ ]] && continue
 
                 line=$(sed -E "s/(${name})/$(tput setaf 1)\1$(tput sgr0)/g" <<< "$line")
             done
         fi
 
         # Highlight result
-        line=$(sed -E "s/ (1-0|1\/2-1\/2|0-1)( |$)/ $(tput setaf 6)\1$(tput sgr0)\2/g" <<< "$line")
+        line=$(sed -E "s~ ${res_re}( |$)~ $(tput setaf 6)\1$(tput sgr0)\2~g" <<< "$line")
 
         echo "$line"
     done
@@ -217,7 +202,7 @@ function info_output_lor {
     echo "[b]${tour_num} тур (${date_beg} - ${date_end})[/b]"
     echo "[list]"
 
-    echo -en "$1" | while read white hyphen black result url; do
+    echo -en "$output_lines" | while read white hyphen black result url; do
         [[ -n $url ]] && result="[url=${url}]${result}[/url]"
 
         echo "  [*] [user]${white}[/user] - [user]${black}[/user] ${result}"
@@ -236,7 +221,8 @@ function info_output_html {
     echo "    </caption>"
     echo "    <tbody>"
 
-    echo -en "$1" | while read white hyphen black result url; do
+    echo -en "$output_lines" | while read white hyphen black result url; do
+        [[ $result == "1/2" ]] && result="½-½"
         [[ -n $url ]] && result="<a href=\"${url}\">${result}</a>"
 
         echo "      <tr>"
