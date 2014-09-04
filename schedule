@@ -126,7 +126,7 @@ function output_tour_info {
         # Keep game info if needed, and store it in variables 'white',
         # 'black', 'result', and 'game_date'
         if keep_game_info; then
-            output_lines+=$(sed -E "s/^$date_re\ +//" <<< "$line")
+            output_lines+=$(sed -E "s/$date_re\ +//" <<< "$line")
             # Append the link of game to the end of output line
             if $SHOW_LINK; then
                 [[ -n $result ]] && append_game_url
@@ -140,14 +140,14 @@ function output_tour_info {
 
 function get_tour_num {
     if [[ -z $tour_num ]]; then
-        [[ $line =~ ^"Тур №"([0-9]+) ]] && tour_num=${BASH_REMATCH[1]}
+        [[ $line =~ "Тур №"([0-9]+) ]] && tour_num=${BASH_REMATCH[1]}
         continue
     fi
 }
 
 function get_tour_dates {
     if [[ -z $date_beg || -z $date_end ]]; then
-        if [[ $line =~ ^"Время проведения:"\ +($date_re)\ +-\ +($date_re) ]]; then
+        if [[ $line =~ "Время проведения:"\ +($date_re)\ +-\ +($date_re) ]]; then
             date_beg=${BASH_REMATCH[1]} date_end=${BASH_REMATCH[5]}
 
             if ! $SHOW_FUTURE; then
@@ -169,7 +169,7 @@ function get_tour_dates {
 
 function keep_game_info {
     local keep=1
-    if [[ $line =~ ^$date_re\ +([^\ ]+)\ +-\ +([^\ ]+)(\ +$res_re)? ]]; then
+    if [[ $line =~ $date_re\ +([^\ ]+)\ +-\ +([^\ ]+)(\ +$res_re)? ]]; then
         white=${BASH_REMATCH[4]} black=${BASH_REMATCH[5]} result=${BASH_REMATCH[7]}
         game_date=${BASH_REMATCH[3]}-${BASH_REMATCH[2]}-${BASH_REMATCH[1]}
 
@@ -191,8 +191,7 @@ function append_game_url {
     local game_dir=${game_date}-${white}-vs-${black}
     local game_url=$(curl $CURL_OPTS \
         ${REPO_URL}/${TOURNAMENT}/tours/${tour}/${game_dir}/1.pgn \
-        | grep -Eo "\[Site \"[a-z]+:[^\"]+\"\]" \
-        | sed -E "s/\[Site \"([a-z]+:[^\"]+)\"\]/\1/")
+        | sed -En "s/\[Site \"([a-z]+:[^\"]+)\"\]/\1/p")
     output_lines+=" $game_url"
 }
 
