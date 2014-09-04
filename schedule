@@ -57,11 +57,11 @@ function setup_repo {
         if [[ $REPO_DIR =~ ^https://github\.com/(.*) ]]; then
             REPO_API="https://api.github.com/repos/${BASH_REMATCH[1]}/contents"
             local year=$(curl $CURL_OPTS $REPO_API \
-                | sed -En "/\"path\":/h;/\"type\": \"dir\"/{g;p;}" \
-                | sed -En "s|.*\"([0-9]{4})\".*|\1|p" | tail -1)
+                | sed -En "/\"path\":/h;/\"type\": \"dir\"/ \
+                    {g;s|.*\"([0-9]{4})\".*|\1|p;}" | tail -1)
             TOURNAMENT=$(curl $CURL_OPTS ${REPO_API}/${year} \
-                | sed -En "/\"path\":/h;/\"type\": \"dir\"/{g;p;}" \
-                | sed -En "s|.*\"(${year}/[0-9]-.*)\".*|\1|p" | tail -1)
+                | sed -En "/\"path\":/h;/\"type\": \"dir\"/ \
+                    {g;s|.*\"(${year}/[0-9]-.*)\".*|\1|p;}" | tail -1)
 
             REPO_URL="${REPO_DIR}/raw/master"
         else
@@ -86,8 +86,8 @@ function show_tour_sequence {
     if [[ -z $tour_seq ]]; then
         if [[ $REPO_DIR =~ ^https://github\.com/ ]]; then
             tour_seq=$(curl $CURL_OPTS ${REPO_API}/${TOURNAMENT}/tours \
-                | sed -En "/\"path\":/h;/\"type\": \"dir\"/{g;p;}" \
-                | sed -En "s|.*\"${TOURNAMENT}/tours/([0-9]{2})\".*|\1|p")
+                | sed -En "/\"path\":/h;/\"type\": \"dir\"/ \
+                    {g;s|.*\"${TOURNAMENT}/tours/([0-9]{2})\".*|\1|p;}")
         else
             tour_seq=$(ls -1 -d ${REPO_DIR}/${TOURNAMENT}/tours/[0-9][0-9]/ \
                 | sed -E "s|${REPO_DIR}/${TOURNAMENT}/tours/([0-9]{2})/|\1|")
