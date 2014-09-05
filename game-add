@@ -2,11 +2,13 @@
 # Copyright 2014 Vladimir Ivanov <ivvl82@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
+REPO_DIR=
+
 # Specify the tournament here
 TOURNAMENT=
 
 # Version information
-VERSION="0.2"
+VERSION="0.3"
 
 argv0=${0##*/}
 
@@ -19,12 +21,14 @@ Usage:
   $argv0 -h
   $argv0 -v
 
-The first form fills the result of a chess game and stores its PGN
-file. Assumes that the game is available at <url> (lichess.org) and
-corresponds to tournament tour <num>.
+  Put the script under the root directory of your repository or set
+  inner variable REPO_DIR to it. If the tournament is not the last one
+  (default), store its sub-directory in inner variable TOURNAMENT.
 
-The second form shows this help output. The third form shows version
-information.
+  The first form fills the result of a chess game and stores its PGN
+  file, assuming that the game is available at <url> (lichess.org) and
+  corresponds to tournament tour <num>. The second form shows this
+  help output. The third form shows version information.
 EOF
 
     exit "${1:-0}"
@@ -35,9 +39,9 @@ function version {
 }
 
 function game_setup {
-    REPO_DIR=`dirname "$0"`
+    [[ -z $REPO_DIR ]] && REPO_DIR=`dirname "$0"`
     # Convert REPO_DIR to an absolute path
-    REPO_DIR=$(cd ${REPO_DIR}; pwd)
+    [[ ! $REPO_DIR =~ ^/ ]] && REPO_DIR=$(cd ${REPO_DIR}; pwd)
 
     # If no tournament given, set it to the last one
     if [[ -z $TOURNAMENT ]]; then
@@ -54,16 +58,16 @@ function game_setup {
 
 function game_get_players {
     # Extract players on Lichess
-    local w_lichess=$(sed -En "s/\[White \"([^\"]*)\"\]/\1/p" < $tmp_pgn)
-    local b_lichess=$(sed -En "s/\[Black \"([^\"]*)\"\]/\1/p" < $tmp_pgn)
+    local wt_lichess=$(sed -En "s/\[White \"([^\"]*)\"\]/\1/p" < $tmp_pgn)
+    local bk_lichess=$(sed -En "s/\[Black \"([^\"]*)\"\]/\1/p" < $tmp_pgn)
 
     # Get names of white and black players
     local counter=1 players=()
     game_parse_config
     while eval "config_section_player${counter}" 2>/dev/null; do
         players+=("$name")
-        [[ $lichess == $w_lichess ]] && white=$name
-        [[ $lichess == $b_lichess ]] && black=$name
+        [[ $lichess == $wt_lichess ]] && white=$name
+        [[ $lichess == $bk_lichess ]] && black=$name
         : $((counter += 1))
     done
     [[ -z $white ]] && fix_white_player
@@ -91,14 +95,14 @@ function game_parse_config {
 
 function fix_white_player {
     local number
-    echo "Lichess player '${w_lichess}' not found."
+    echo "Lichess player '${wt_lichess}' not found."
     choose_player
     white=${players[$number]}
 }
 
 function fix_black_player {
     local number
-    echo "Lichess player '${b_lichess}' not found."
+    echo "Lichess player '${bk_lichess}' not found."
     choose_player
     black=${players[$number]}
 }
@@ -121,22 +125,43 @@ function choose_player {
 
 function game_add_to_repo {
     local date_re="[0-9?]{2}\.[0-9?]{2}\.[0-9?]{4}"
-    # Check if the tour number is correct
     local correct=false length_max=0
-    while IFS= read line; do
+    # Change field separator to read a file line by line
+    old_IFS=$IFS IFS=$'\n'
+    # Check if the tour number is correct
+    for line in $(cat "$tour_info"); do
         if [[ $line =~ ^(${date_re}\ +([^\ ]+)\ +-\ +([^\ ]+)) ]]; then
-            if [[ ${BASH_REMATCH[2]} == $white && ${BASH_REMATCH[3]} == $black ]]; then
-                correct=true
-                local length_rec=${#BASH_REMATCH[1]}
-            fi
-            # Determine the maximal length of game record
             local length=${#BASH_REMATCH[1]}
+            local fst_ply=${BASH_REMATCH[2]} snd_ply=${BASH_REMATCH[3]}
+
+            if [[ $fst_ply == $white && $snd_ply == $black ]]; then
+                local length_rec=${#BASH_REMATCH[1]}
+                correct=true
+            fi
+
+            if [[ $fst_ply == $black && $snd_ply == $white ]]; then
+                local length_rec=${#BASH_REMATCH[1]}
+
+                local answer
+                echo -n "Approve game with wrong players' sides? (Y/n)> "
+                read answer
+                [[ ! $answer =~ ^(Y|y|Yes|yes)$ ]] && exit 1
+                white=$fst_ply black=$snd_ply correct=true
+            fi
+
+            # Determine the maximal length of game records
             (( $length > $length_max )) && length_max=$length
         fi
-    done < $tour_info
+    done
+    IFS=$old_IFS
+
     if ! $correct; then
         die "Game '${white} vs. ${black}' not found in ${tour_info}."
     fi
+
+    local pgn_date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
+    local pgn_date=$(tr "." "-" <<< "$pgn_date")
+    local pgn_dir="${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/${pgn_date}-${white}-vs-${black}"
 
     [[ -d $pgn_dir ]] && die "Directory ${pgn_dir} already exist."
     echo "Creating directory ${pgn_dir}..."
@@ -150,6 +175,9 @@ function game_add_to_repo {
     local result=$(sed -En "s/\[Result \"([^\"]*)\"\]/\1/p" < $tmp_pgn)
     local spaces=$((length_max - length_rec + 1))
     local sep=$(printf "%${spaces}s" " ")
+
+    # Change the representation of draw
+    [[ $result == 1/2-1/2 ]] && result=1/2
 
     sed -E -i.orig \
         "s/${date_re}( +${white} +- +${black})/${game_date}\1${sep}${result}/" "$tour_info"
@@ -206,11 +234,6 @@ curl -q --fail --location --silent "$pgn_url" > $tmp_pgn \
     || die "PGN file not found."
 
 game_get_players
-
-pgn_date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
-pgn_date=$(tr "." "-" <<< "$pgn_date")
-pgn_dir="${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/${pgn_date}-${white}-vs-${black}"
-
 game_add_to_repo
 game_git_commit
 
