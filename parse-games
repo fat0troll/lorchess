@@ -35,7 +35,6 @@ function parse_tour_info {
             local black=${BASH_REMATCH[3]}
             local result=${BASH_REMATCH[5]}
 
-            [[ $date =~ \? ]] && date=
             # Change the representation of result
             [[ $result == 1/2 ]] && result=1/2-1/2
 
@@ -49,7 +48,7 @@ function parse_tour_info {
 function parse_to_ini {
     echo "[game${game_counter}]"
     echo "round  = $round"
-    echo "date   = $date"
+    [[ ! $date =~ \? ]] && echo "date   = $date"
     echo "white  = $white"
     echo "black  = $black"
     echo "result = '$result'"
