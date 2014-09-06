@@ -68,7 +68,7 @@ function game_get_players {
         players+=("$name")
         [[ $lichess == $wt_lichess ]] && white=$name
         [[ $lichess == $bk_lichess ]] && black=$name
-        : $((counter += 1))
+        ((counter += 1))
     done
     [[ -z $white ]] && fix_white_player
     [[ -z $black ]] && fix_black_player
@@ -120,7 +120,7 @@ function choose_player {
     if (( $number < 1 || $number > ${#players[@]} )); then
         die "Incorrect player number."
     fi
-    : $((number += -1))
+    ((number += -1))
 }
 
 function game_add_to_repo {
