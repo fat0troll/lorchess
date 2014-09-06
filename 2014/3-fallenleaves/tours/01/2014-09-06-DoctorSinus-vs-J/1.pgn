@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/kOKLNqnp"]
+[Date "2014.09.06"]
+[White "fat0troll"]
+[Black "LOR_J"]
+[Result "0-1"]
+[WhiteElo "1396"]
+[BlackElo "1650"]
+[PlyCount "84"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C64"]
+[Opening "Spanish Game, Classical Variation"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 { Spanish Game, Classical Variation } 4. Bxc6 dxc6 5. O-O Qf6 6. Nc3 Bg4 7. h3 Bxf3 8. Qxf3 Qxf3 9. gxf3 O-O-O 10. d3 h6 11. f4 Bd4 12. fxe5 Bxe5 13. f4 Bd4+ 14. Kh2 f6 15. Ne2 Bb6 16. e5 Re8 17. Ng3 fxe5 18. fxe5 Rxe5 19. Nf5 g6 20. Ng7 Rh7 21. Rf8+ Kd7 22. Rf7+ Re7 23. Rxe7+ Kxe7 24. Bf4 Rxg7 25. Re1+ Kd7 26. Bxh6 Nxh6 27. c4 Re7 28. Re6 Rxe6 29. Kg3 Re2 30. b4 Rxa2 31. c5 Bxc5 32. bxc5 Ra3 33. Kh4 Rxd3 34. Kg5 Rxh3 35. Kxg6 Ke6 36. Kg7 Rf3 37. Kh7 Rf6 38. Kg7 Ke7 39. Kh7 Ng4 40. Kg7 Ke6 41. Kh7 Kf7 42. Kh8 Rh6# { White is checkmated } 0-1
