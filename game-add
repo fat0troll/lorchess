@@ -161,7 +161,7 @@ function game_add_to_repo {
 
     local pgn_date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
     local pgn_date=$(tr "." "-" <<< "$pgn_date")
-    local pgn_dir="${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/${pgn_date}-${white}-vs-${black}"
+    pgn_dir=${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/${pgn_date}-${white}-vs-${black}
 
     [[ -d $pgn_dir ]] && die "Directory ${pgn_dir} already exist."
     echo "Creating directory ${pgn_dir}..."
