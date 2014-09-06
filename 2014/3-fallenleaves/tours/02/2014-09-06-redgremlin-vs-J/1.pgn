@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/CDc9fgJL"]
+[Date "2014.09.06"]
+[White "gremlin_the_red"]
+[Black "LOR_J"]
+[Result "1-0"]
+[WhiteElo "1877"]
+[BlackElo "1654"]
+[PlyCount "47"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D32"]
+[Opening "Tarrasch Defense, General"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c5 { Tarrasch Defense, General } 4. Nf3 cxd4 5. Nxd4 Nc6 6. cxd5 Nxd4?! { (0.26 → 1.22) Inaccuracy. The best move was exd5. } (6... exd5 7. Bf4 a6 8. e3 Nf6 9. Rc1 Bd6 10. Bxd6 Qxd6 11. h3 O-O 12. Be2 Bd7 13. O-O Rfc8 14. Qb3) 7. Qxd4 exd5 8. Qxd5?! { (1.55 → 1.05) Inaccuracy. The best move was e4. } (8. e4 Ne7 9. Bf4 Bd7 10. exd5 Nf5 11. Qe4+ Qe7 12. O-O-O Qxe4 13. Nxe4 Be7 14. Kb1 O-O 15. d6 Bd8) 8... Be6?! { (1.05 → 1.78) Inaccuracy. The best move was Qxd5. } (8... Qxd5 9. Nxd5 Bd6 10. e4 Nf6 11. Nxf6+ gxf6 12. Be3 Ke7 13. Bd3 Be6 14. b3 Rhd8 15. Rd1 Rac8 16. Bxa7) 9. Qxd8+?! { (1.78 → 0.84) Inaccuracy. The best move was Qxb7. } (9. Qxb7 Nf6 10. e4 Bc5 11. Bb5+ Nd7 12. Bf4 O-O 13. O-O a6 14. Be2 Qf6 15. Bg3 Bd4 16. Nd5 Bxd5) 9... Rxd8 10. Bd2 Nf6 11. f3 Bc5 12. e4 O-O 13. O-O-O Bb4 14. Kb1 a6 15. Be2 Rd7 16. Bg5 Rxd1+ 17. Rxd1 Nh5?! { (1.24 → 1.91) Inaccuracy. The best move was Rc8. } (17... Rc8 18. Be3 Ba5 19. Bd4 h6 20. g4 Bb4 21. h4 b5 22. h5 Ba5 23. Bxf6 gxf6 24. Rd6 Bxc3 25. bxc3) 18. g3?! { (1.91 → 1.31) Inaccuracy. The best move was Nd5. } (18. Nd5 Bxd5 19. Rxd5 Nf6 20. Bxf6 gxf6 21. a3) 18... f5? { (1.31 → 2.37) Mistake. The best move was Nf6. } (18... Nf6 19. Bxf6 gxf6 20. a3 Bc5 21. b4 Bf2 22. Kb2 Rc8) 19. f4? { (2.37 → 1.17) Mistake. The best move was e5. } (19. e5 h6 20. Bc1 b5 21. Nd5 Ba5 22. f4 g6 23. Bf3 Rf7 24. Be3 Rd7 25. a3 Kf7 26. b4 Bd8) 19... Nf6 20. Nd5?! { (1.28 → 0.59) Inaccuracy. The best move was Bxf6. } (20. Bxf6 Rxf6 21. e5 Rh6 22. h4 Bc5 23. Bf3 b5 24. Ne2 Kf8 25. b3 Ke7 26. Kb2) 20... Bxd5 21. exd5 Ne4 22. d6 h6? { (0.73 → 2.65) Mistake. The best move was Bxd6. } (22... Bxd6 23. Bc4+ Kh8 24. Bh4 Bc5 25. Be6 b5 26. Bd8 g6 27. Bc7 Kg7 28. Be5+ Kh6 29. Rd7 Re8 30. Bd5) 23. Be7 Re8?? { (2.89 → 9.74) Blunder. The best move was Rb8. } (23... Rb8 24. a3 Bc5 25. Rd5 b5 26. Bd3 Bb6 27. Rxf5 Nxd6 28. Bxd6 Rd8 29. Rd5 Bc7 30. Bxc7 Rxd5 31. Bc2) 24. d7 { Black resigns } 1-0
