@@ -152,7 +152,7 @@ function get_tour_dates {
 
             if ! $SHOW_FUTURE; then
                 # Unknown beginning of tour
-                [[ $date_beg =~ \? ]] && break
+                [[ $date_beg =~ \? ]] && exit 0
 
                 if date --version >/dev/null 2>&1; then
                     local date_beg_gnu=$(sed -E "s/${date_re}/\3-\2-\1/" <<< $date_beg)
@@ -164,7 +164,7 @@ function get_tour_dates {
                 local date_this=$(date +%s)
 
                 # The date of tour later than today
-                (( date_tour > date_this )) && break
+                (( date_tour > date_this )) && exit 0
             fi
 
             # Use short dates
