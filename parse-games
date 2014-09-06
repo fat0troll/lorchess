@@ -51,7 +51,7 @@ function parse_to_ini {
     [[ ! $date =~ \? ]] && echo "date   = $date"
     echo "white  = $white"
     echo "black  = $black"
-    echo "result = '$result'"
+    [[ -n $result ]] && echo "result = \"$result\""
     echo
 }
 
