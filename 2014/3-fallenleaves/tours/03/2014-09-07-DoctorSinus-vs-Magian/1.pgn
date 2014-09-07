@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/UDMLNMEP"]
+[Date "2014.09.07"]
+[White "fat0troll"]
+[Black "Magian"]
+[Result "0-1"]
+[WhiteElo "1389"]
+[BlackElo "1932"]
+[PlyCount "48"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C41"]
+[Opening "Philidor Defense, Exchange Variation"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 d6 3. d4 exd4 { Philidor Defense, Exchange Variation } 4. Qxd4 Nc6 5. Bb5 Bd7 6. Bxc6 Bxc6 7. O-O Nf6 8. Bg5 Be7 9. Qe3 O-O 10. e5 dxe5 11. Nxe5 Bb5 12. c4 Ba6 13. Nc3 b6 14. Nc6 Bc5 15. Qe5 Re8 16. Nxd8 Rxe5 17. Bxf6 gxf6 18. Rad1 Bxc4 19. Nc6 Rf5 20. g4 Rf4 21. h3 Bxf1 22. Kxf1 Rxf2+ 23. Ke1 Re8+ 24. Ne2 Rexe2# { White is checkmated } 0-1
