@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/nDTD6U0I"]
+[Date "2014.09.07"]
+[White "aptypr"]
+[Black "iVS"]
+[Result "0-1"]
+[WhiteElo "1736"]
+[BlackElo "1946"]
+[PlyCount "84"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A40"]
+[Opening "Horwitz Defense, General"]
+[Annotator "lichess.org"]
+
+1. d4 e6 { Horwitz Defense, General } 2. c4 f5 3. Nf3 Nf6 4. Nc3 Bb4 5. Qb3 Qe7 6. Bg5 O-O 7. g3 c5 8. Bg2 Bxc3+?! { (0.20 → 0.77) Inaccuracy. The best move was cxd4. } (8... cxd4 9. Nxd4 Nc6 10. Nc2 Bc5 11. O-O b6 12. Rad1 Bb7 13. e3 Rad8 14. Nd4 h6 15. Nxc6 Bxc6 16. Bxf6) 9. Qxc3 d6 10. O-O?! { (1.18 → 0.63) Inaccuracy. The best move was dxc5. } (10. dxc5 dxc5 11. Ne5 Nbd7 12. O-O Qe8 13. Bxf6 gxf6 14. Nxd7 Bxd7 15. Bxb7 Rb8 16. Bg2 Bc6 17. b3 Bxg2) 10... Qc7 11. dxc5 Qxc5 12. b3 Ne4 13. Qc1 Nxg5 14. Qxg5 Nd7 15. Rfd1 Nf6 16. Qf4 Ne4?! { (0.35 → 0.86) Inaccuracy. The best move was e5. } (16... e5 17. Qd2 Ne4 18. Qe1 Qb6 19. Nd2 Nf6 20. Nb1 Be6 21. Nc3 e4 22. e3 Rfd8) 17. e3?! { (0.86 → 0.30) Inaccuracy. The best move was Ng5. } (17. Ng5 Nxg5 18. Qxg5 a5 19. a4 h6 20. Qe7 Ra6 21. Rd3 Rf7 22. Qh4 Rb6 23. e3 Qc7 24. Qd4 e5) 17... e5 18. Qh4 Qc7 19. Ng5 Nxg5 20. Qxg5 e4?! { (0.53 → 1.17) Inaccuracy. The best move was Be6. } (20... Be6 21. Rd2 h6 22. Qh5 Rf6 23. Bd5 Bxd5 24. Rxd5 f4 25. exf4 exf4 26. Re1 fxg3 27. hxg3 Qb6 28. Re8+) 21. Rd4 h6 22. Qh5?! { (1.19 → 0.41) Inaccuracy. The best move was Qf4. } (22. Qf4 Rf6 23. h4 Bd7 24. Rad1 Qa5 25. Rxd6 Be6 26. R1d2 Re8 27. Kh2 Qc3 28. f3 Bc8 29. Rd8 Rff8) 22... Be6 23. Rad1 Rad8 24. h3 a5?! { (0.29 → 0.82) Inaccuracy. The best move was Rf6. } (24... Rf6 25. Qe2 Qc5 26. R1d2 b6 27. Qd1 Bc8 28. Rd5 Qc6 29. f3 Bb7 30. fxe4) 25. g4 fxg4? { (0.61 → 1.66) Mistake. The best move was Qe7. } (25... Qe7 26. gxf5 Bxf5 27. c5 d5 28. Rxd5 Rxd5 29. Rxd5 Qf6 30. Rd4 Qe7 31. a3 Qe6 32. Qd1 Bxh3 33. Bxe4) 26. Rxe4?! { (1.66 → 1.13) Inaccuracy. The best move was hxg4. } (26. hxg4 Bf7 27. Qh4 Bg6 28. Bxe4 Bxe4 29. Rxe4 b6 30. Qg3 Rf6 31. Red4 Qd7 32. f4 Qe7 33. Kf2 a4) 26... Bf5?! { (1.13 → 1.86) Inaccuracy. The best move was gxh3. } (26... gxh3 27. Rxe6 hxg2 28. Qg6 a4 29. Rexd6 axb3 30. axb3 Rxd6 31. Qxd6 Qc6 32. Qd5+ Kh7 33. Qxg2 Ra8 34. Qxc6) 27. Red4? { (1.86 → 0.44) Mistake. The best move was Rf4. } (27. Rf4 Be6 28. hxg4 b6 29. Be4 Qd7 30. f3 Qe8 31. Qh4 a4 32. g5 Qe7 33. gxh6 Qxh4 34. Rxh4 axb3) 27... gxh3 28. Bxh3 Bxh3 29. Qxh3 Qf7 30. Rf4 Qg6+ 31. Qg4 Qxg4+ 32. Rxg4 Rf6 33. c5 Rdf8 34. cxd6 Rd8 35. d7 Kf7 36. Rgd4 Rg6+ 37. Kh2 Ke6 38. f4 Rf6 39. Kg3 g5 40. Rd6+ Ke7 41. fxg5?? { (2.09 → -5.62) Blunder. The best move was R6d5. } (41. R6d5 Re6 42. Kf3 gxf4 43. exf4 b6 44. f5 Rc6 45. Kf4 Rc7 46. Kg4 Rdxd7 47. Rxd7+ Rxd7 48. Rxd7+ Kxd7) 41... Rxd6 42. Rxd6 Kxd6 { White resigns } 0-1
