@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/ZxbrBdxQ"]
+[Date "2014.09.07"]
+[White "Magian"]
+[Black "LOR_J"]
+[Result "1-0"]
+[WhiteElo "1928"]
+[BlackElo "1649"]
+[PlyCount "41"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D50"]
+[Opening "Queen's Gambit Declined, Modern Variation"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 { Queen's Gambit Declined, Modern Variation } h6 5. Bh4 Be7 6. Nf3 Nc6 7. e3 Ne4 8. Bxe7 Nxe7 9. cxd5 Nxc3 10. bxc3 Qxd5 11. c4 Qa5+ 12. Nd2 O-O 13. Bd3 c5 14. O-O cxd4 15. exd4 Nc6 16. Nf3 Rd8 17. Re1 Nxd4 18. Nxd4 Rxd4? { (-0.06 → 1.73) Mistake. The best move was Qc3. } (18... Qc3 19. Qe2 Rxd4 20. Red1 g6 21. Rac1 Qa5 22. Be4 Rxd1+ 23. Rxd1 Qc7 24. Qe3 Kh7 25. Qd4 e5 26. Qd8) 19. Bh7+ Kxh7 20. Qxd4 b6?? { (1.60 → 7.96) Blunder. The best move was Qf5. } (20... Qf5 21. Rac1 f6 22. f4 Qa5 23. Re2 Qf5 24. c5 a5 25. h3 Ra6 26. g4 Qg6 27. Rd1 h5) 21. Qe4+ { Black resigns } 1-0
