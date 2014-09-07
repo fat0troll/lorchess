@@ -126,7 +126,7 @@ function output_tour_info {
         # Keep game info if needed, and store it in variables 'white',
         # 'black', 'result', and 'game_date'
         if keep_game_info; then
-            output_lines+=$(sed -E "s/$date_re\ +//" <<< "$line")
+            output_lines+=$(sed -E "s/$date_re +//" <<< "$line")
             # Append the link of game to the end of output line
             if $SHOW_LINK; then
                 [[ -n $result ]] && append_game_url
@@ -214,12 +214,12 @@ function info_output_term {
                 # PLAYER is a part of 'game_url' or 'result'
                 [[ $name =~ ^http:// || $name =~ ^${res_re}$ ]] && continue
 
-                line=$(sed -E "s/(${name})/$(tput setaf 1)\1$(tput sgr0)/g" <<< "$line")
+                line=$(sed -E "s/(${name})/$(tput setaf 1)\1$(tput sgr0)/" <<< "$line")
             done
         fi
 
         # Highlight result
-        line=$(sed -E "s~ ${res_re}( |$)~ $(tput setaf 6)\1$(tput sgr0)\2~g" <<< "$line")
+        line=$(sed -E "s~ ${res_re}( |$)~ $(tput setaf 6)\1$(tput sgr0)\2~" <<< "$line")
 
         echo "$line"
     done
