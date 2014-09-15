@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/e3Iycd3J"]
+[Date "2014.09.15"]
+[White "dvvrd"]
+[Black "aptypr"]
+[Result "1-0"]
+[WhiteElo "1900"]
+[BlackElo "1739"]
+[PlyCount "43"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C32"]
+[Opening "King's Gambit, Falkbeer Countergambit, Modern Transfer"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. f4?! { (0.27 → -0.32) Inaccuracy. The best move was Nf3. } (2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Bd6 5. Nc3 Nd4 6. a4 O-O 7. d3 c6 8. Bc4 Bc5 9. Nxe5 d5) 2... d5 3. exd5 exf4 { King's Gambit, Falkbeer Countergambit, Modern Transfer } 4. Nf3 Nf6 5. Bc4 Nxd5 6. O-O Be6 7. Qe2 Be7 8. Nc3 c6 9. d4 g5 10. Bb3?! { (-0.03 → -0.65) Inaccuracy. The best move was g3. } (10. g3 g4 11. Nxd5 cxd5 12. Bb5+ Nd7 13. Ne5 f3 14. Nxd7 Bxd7 15. Qe5 O-O 16. Bd3 Bf6 17. Qxd5 Be6) 10... Nd7 11. Ne4 h6 12. c4 N5f6 13. Bd2 Qc7 14. Rac1?! { (-0.21 → -1.09) Inaccuracy. The best move was Nf2. } (14. Nf2 g4 15. Ne5 f3 16. gxf3 Nxe5 17. Qxe5) 14... Nxe4 15. Qxe4 Nf6 16. Qe2?! { (-0.57 → -1.12) Inaccuracy. The best move was Qc2. } (16. Qc2 Qd7 17. Bc3 Ng4 18. Qe2 O-O 19. Ne5 Nxe5 20. Qxe5 f6 21. Qe2 Bg4 22. c5+ Kg7 23. Qd3 Bf5) 16... O-O-O 17. Kh1 g4 18. Ne5?! { (-0.87 → -1.47) Inaccuracy. The best move was d5. } (18. d5 gxf3 19. Qxf3 Bg4 20. Qxf4 Qxf4 21. Rxf4 Bh5 22. Re1 Ng8 23. Ba5 Bg5 24. Rff1 Nf6 25. Bxd8 Rxd8) 18... Rxd4 19. Bxf4?! { (-1.53 → -2.45) Inaccuracy. The best move was Ng6. } (19. Ng6 fxg6 20. Qxe6+ Kb8 21. Bc3 Re4 22. Qf7 f3 23. g3 Qd7 24. Qxg6 Rg8 25. Qxh6 Qf5 26. Bxf6 f2) 19... Bd6?? { (-2.45 → 2.70) Blunder. The best move was Re4. } (19... Re4 20. Qxe4 Nxe4 21. Nxf7 Qb6 22. c5 Qxb3 23. axb3 Bxf7 24. Be5 Rh7 25. b4 Bd5 26. Ra1 a6 27. Rae1) 20. c5 Bf8?? { (2.75 → 7.14) Blunder. The best move was Re4. } (20... Re4 21. cxd6 Rxe2 22. Bxe6+ fxe6 23. dxc7 Nh5 24. Ng6 Nxf4 25. Nxh8 Nd3 26. Rc3 Ne5 27. h3 h5 28. Rb3) 21. Nxf7 Qxf7?? { (6.81 → 16.18) Blunder. The best move was Rxf4. } (21... Rxf4 22. Qxe6+ Kb8 23. Nxh8 Bg7 24. Nf7 Re4 25. Qf5 g3 26. Rcd1 a5 27. Nd6 Rh4 28. Qe6 a4 29. Bc2) 22. Bxe6+ { Black resigns } 1-0
