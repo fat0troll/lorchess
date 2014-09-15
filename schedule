@@ -19,7 +19,7 @@ List games on tours of tournament
 
 Usage: $argv0 [options] [tours]
   Put the script under the root directory of your repository or set
-  inner variable REPO_DIR to point to your local or remote GitHub
+  inner variable REPO_DIR to point to your local or remote (GitHub)
   repository. If the tournament is not the last one (default), store
   its sub-directory in inner variable TOURNAMENT.
 
@@ -52,29 +52,32 @@ function setup_repo {
     [[ -z $REPO_DIR ]] && REPO_DIR=`dirname "$0"`
     CURL_OPTS="-q --fail --location --silent"
 
-    # If no tournament given, set it to the last one
-    if [[ -z $TOURNAMENT ]]; then
-        if [[ $REPO_DIR =~ ^https://github\.com/(.*) ]]; then
-            REPO_API="https://api.github.com/repos/${BASH_REMATCH[1]}/contents"
+    if [[ $REPO_DIR =~ ^https://github\.com/(.*) ]]; then
+        REPO_API="https://api.github.com/repos/${BASH_REMATCH[1]}/contents"
+        REPO_URL="${REPO_DIR}/raw/master"
+
+        # If no tournament given, set it to the last one
+        if [[ -z $TOURNAMENT ]]; then
             local year=$(curl $CURL_OPTS $REPO_API \
                 | sed -En "/\"path\":/h;/\"type\": \"dir\"/ \
                     {g;s|.*\"([0-9]{4})\".*|\1|p;}" | tail -1)
             TOURNAMENT=$(curl $CURL_OPTS ${REPO_API}/${year} \
                 | sed -En "/\"path\":/h;/\"type\": \"dir\"/ \
                     {g;s|.*\"(${year}/[0-9]-.*)\".*|\1|p;}" | tail -1)
+        fi
+    else
+        # Convert REPO_DIR to an absolute path
+        [[ ! $REPO_DIR =~ ^/ ]] && REPO_DIR=$(cd $REPO_DIR; pwd)
 
-            REPO_URL="${REPO_DIR}/raw/master"
-        else
+        REPO_URL="file://${REPO_DIR}"
+
+        # If no tournament given, set it to the last one
+        if [[ -z $TOURNAMENT ]]; then
             local year_dir=$(ls -1 -d ${REPO_DIR}/[0-9][0-9][0-9][0-9]/ | tail -1)
             TOURNAMENT=$(ls -1 -d ${year_dir}[0-9]-*/ | tail -1 \
                 | sed -E "s|${REPO_DIR}/(.*)|\1|")
             # Remove the trailing slash
             TOURNAMENT=${TOURNAMENT%/}
-
-            # Convert REPO_DIR to an absolute path
-            [[ ! $REPO_DIR =~ ^/ ]] && REPO_DIR=$(cd $REPO_DIR; pwd)
-
-            REPO_URL="file://${REPO_DIR}"
         fi
     fi
 }
