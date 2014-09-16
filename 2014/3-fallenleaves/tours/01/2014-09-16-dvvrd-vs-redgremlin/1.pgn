@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/Ge7ltqvb"]
+[Date "2014.09.16"]
+[White "dvvrd"]
+[Black "gremlin_the_red"]
+[Result "1-0"]
+[WhiteElo "1922"]
+[BlackElo "1887"]
+[PlyCount "63"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A07"]
+[Opening "King's Indian Attack, General"]
+[Annotator "lichess.org"]
+
+1. Nf3 d5 2. g3 { King's Indian Attack, General } c6 3. Bg2 Bg4 4. d3 Nd7 5. O-O Ngf6 6. Nbd2 e6 7. h3 Bxf3 8. Nxf3 Bd6 9. Re1 O-O 10. e4 dxe4 11. dxe4 Qc7 12. Qe2 Bc5 13. e5 Nd5 14. c4 Ne7 15. Bd2 a5 16. a3 Nf5 17. Kh2 Nd4 18. Nxd4 Bxd4 19. Bf4 c5 20. Rad1 Rad8 21. b3 Nb8 22. Be4 Nc6 23. Bb1 Bc3?? { (0.00 → 4.05) Blunder. The best move was g6. } (23... g6 24. Rd3 Ra8 25. a4 Rac8 26. Kg1 b6 27. Qe4 Bb2 28. Red1 Bd4 29. Re1) 24. Qc2 g6 25. Qxc3 Nd4?! { (4.09 → 4.93) Inaccuracy. The best move was Rxd1. } (25... Rxd1 26. Rxd1 Nd4 27. Be4 b6 28. Qe3 Rc8 29. Kg2 Rd8 30. Bg5 Rd7 31. Bf6 Nf5 32. Qf3 Rxd1 33. Bxf5) 26. Bg5 Rd7 27. Bf6 h6?! { (5.00 → 5.63) Inaccuracy. The best move was Rb8. } (27... Rb8 28. Qe3 Qc8 29. a4 Qf8 30. Be4 b6 31. h4 h6 32. h5 g5 33. Kg2 Rc7 34. f4 g4 35. Rxd4) 28. Re4? { (5.63 → 4.48) Mistake. The best move was h4. } (28. h4 h5 29. Qe3 Kh7 30. Be4 a4 31. bxa4 Rg8 32. a5 Ra8 33. Qg5 Nf5 34. Rxd7 Qxd7 35. Rb1 Qd4) 28... Qc6 29. Rdxd4 cxd4? { (4.84 → Mate in 6) Checkmate is now unavoidable. The best move was Rxd4. } (29... Rxd4 30. Qe3 Kh7 31. Rxd4 cxd4 32. Qxd4 Qc7 33. a4 Rb8 34. Be4 Rc8 35. Qd2 Rb8 36. Kg2 Rc8 37. Qd6) 30. Qd2 Kh7 31. Qxh6+ Kxh6 32. Rh4# { Black is checkmated } 1-0
