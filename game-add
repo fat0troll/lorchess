@@ -58,8 +58,8 @@ function game_setup {
 
 function game_get_players {
     # Extract players on Lichess
-    local wt_lichess=$(sed -En "s/\[White \"([^\"]*)\"\]/\1/p" < $tmp_pgn)
-    local bk_lichess=$(sed -En "s/\[Black \"([^\"]*)\"\]/\1/p" < $tmp_pgn)
+    local wt_lichess=$(sed -En "s/\[White \"([^\"]*)\"\]/\1/p" $tmp_pgn)
+    local bk_lichess=$(sed -En "s/\[Black \"([^\"]*)\"\]/\1/p" $tmp_pgn)
 
     # Get names of white and black players
     local counter=1 players=()
@@ -159,7 +159,7 @@ function game_add_to_repo {
         die "Game '${white} vs. ${black}' not found in ${tour_info}."
     fi
 
-    local pgn_date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" < "$tmp_pgn")
+    local pgn_date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" "$tmp_pgn")
     local pgn_date=$(tr "." "-" <<< "$pgn_date")
     pgn_dir=${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/${pgn_date}-${white}-vs-${black}
 
@@ -172,7 +172,7 @@ function game_add_to_repo {
 
     echo "Updating tour_info..."
     local game_date=${pgn_date:8:2}.${pgn_date:5:2}.${pgn_date::4}
-    local result=$(sed -En "s/\[Result \"([^\"]*)\"\]/\1/p" < $tmp_pgn)
+    local result=$(sed -En "s/\[Result \"([^\"]*)\"\]/\1/p" $tmp_pgn)
     local spaces=$((length_max - length_rec + 1))
     local sep=$(printf "%${spaces}s" " ")
 
@@ -230,8 +230,7 @@ trap "rm ${tmp_ini} ${tmp_ini}.prev ${tmp_pgn}" EXIT
 # Download PGN file
 [[ $1 =~ ^(http://[^/]*)/([^/]*) ]]
 pgn_url=${BASH_REMATCH[1]}/${BASH_REMATCH[2]::8}/pgn
-curl -q --fail --location --silent "$pgn_url" > $tmp_pgn \
-    || die "PGN file not found."
+wget -q "$pgn_url" -O $tmp_pgn || die "PGN file not found."
 
 game_get_players
 game_add_to_repo
