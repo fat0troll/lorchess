@@ -1,13 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/6hg3jzwa"]
-[Date "2013-02-04"]
+[Date "2013.02.04"]
 [White "lanti_oedipe"]
 [Black "AvImd"]
 [Result "0-1"]
-[WhiteElo "1166"]
-[BlackElo "1326"]
+[WhiteElo "1402"]
+[BlackElo "1707"]
 [PlyCount "28"]
-[Variant "standard"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C43"]
+[Opening "Russian Game, Modern Attack"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. Nxd4 $6 { Inaccuracy. Best was e4e5. } 4... Nxe4 $6 { Inaccuracy. Best was f8c5. } 5. Nc3 $2 { Mistake. Best was d1e2. } 5... Nxc3 6. bxc3 Nc6 7. Bb2 $6 { Inaccuracy. Best was f1d3. } 7... d5 8. Bb5 Bd7 $6 { Inaccuracy. Best was d8e7. } 9. c4 $6 { Inaccuracy. Best was e1g1. } 9... Nxd4 10. Qxd4 dxc4 $4 { Blunder. Best was d7b5. } 11. Bxc4 $4 { Blunder. Best was d4e4. } 11... Bc6 12. Qe3+ $6 { Inaccuracy. Best was e1g1. } 12... Qe7 13. Be5 O-O-O 14. Rd1 $4 { Blunder. Best was e1g1. } 14... Qb4+ 0-1
+1. e4 e5 2. Nf3 Nf6 3. d4 { Russian Game, Modern Attack } exd4 4. Nxd4?! { (0.36 → -0.56) Inaccuracy. } 4... Nxe4?! { (-0.56 → 0.04) Inaccuracy. } 5. Nc3? { (0.04 → -1.09) Mistake. } 5... Nxc3 6. bxc3 Nc6 7. Bb2?! { (-0.48 → -1.33) Inaccuracy. } 7... d5 8. Bb5 Bd7?! { (-1.25 → -0.56) Inaccuracy. } 9. c4?! { (-0.56 → -1.29) Inaccuracy. } 9... Nxd4 10. Qxd4 dxc4?? { (-0.96 → 2.94) Blunder. } 11. Bxc4?? { (2.94 → -0.40) Blunder. } 11... Bc6 12. Qe3+?! { (-0.56 → -1.29) Inaccuracy. } 12... Qe7 13. Be5 O-O-O 14. Rd1?? { (-1.69 → -7.31) Blunder. } 14... Qb4+ { White resigns } 0-1

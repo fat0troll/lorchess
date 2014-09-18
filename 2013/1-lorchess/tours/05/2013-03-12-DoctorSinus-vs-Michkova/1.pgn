@@ -1,13 +1,16 @@
 [Event "Rated game"]
-[Site "http://lichess.org/analyse/y0yegx4i"]
-[Date "2013-03-11"]
+[Site "http://lichess.org/y0yegx4i"]
+[Date "2013.03.11"]
 [White "fat0troll"]
 [Black "Michkova"]
 [Result "0-1"]
-[WhiteElo "1034"]
-[BlackElo "1249"]
+[WhiteElo "1367"]
+[BlackElo "1616"]
 [PlyCount "46"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C20"]
+[Opening "King Pawn Game, General"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Be2 Nf6 3. Nf3 Nc6 4. Nc3 Bb4 5. d3 $6 { Inaccuracy. Best was c3d5. } 5... O-O 6. O-O h6 7. Bd2 d6 8. Nd5 Bxd2 9. Qxd2 Nxd5 10. exd5 Ne7 11. c4 f5 12. d4 $6 { Inaccuracy. Best was e2d1. } 12... e4 13. Ne1 Ng6 $6 { Inaccuracy. Best was f5f4. } 14. f3 Qe7 15. c5 $2 { Mistake. Best was e1c2. } 15... dxc5 16. dxc5 $6 { Inaccuracy. Best was f3e4. } 16... Qxc5+ 17. Rf2 $4 { Blunder. Best was g1h1. } 17... e3 18. Qc2 $4 { Blunder. Best was e1d3. } 18... exf2+ 19. Kf1 fxe1=Q+ 20. Kxe1 $4 { Blunder. Best was a1e1. } 20... Qxc2 21. Bd1 Re8+ 22. Kf1 Qd2 $6 { Detected checkmate in 4 moves, but player moved for mate in 5. Best was c2d3. } 23. b3 Qe1# 0-1
+1. e4 e5 { King Pawn Game, General } 2. Be2 Nf6 3. Nf3 Nc6 4. Nc3 Bb4 5. d3?! { (0.32 → -0.24) Inaccuracy. } 5... O-O 6. O-O h6 7. Bd2 d6 8. Nd5 Bxd2 9. Qxd2 Nxd5 10. exd5 Ne7 11. c4 f5 12. d4?! { (0.12 → -0.44) Inaccuracy. } 12... e4 13. Ne1 Ng6?! { (-0.52 → 0.00) Inaccuracy. } 14. f3 Qe7 15. c5? { (0.00 → -1.33) Mistake. } 15... dxc5 16. dxc5?! { (-1.05 → -1.89) Inaccuracy. } 16... Qxc5+ 17. Rf2?? { (-1.97 → -6.94) Blunder. } 17... e3 18. Qc2?? { (-6.90 → -27.19) Blunder. } 18... exf2+ 19. Kf1 fxe1=Q+ 20. Kxe1 Qxc2 21. Bd1 Re8+ 22. Kf1 Qd2?! { (Mate in 4 → Mate in 4) Not the best checkmate sequence. } 23. b3 Qe1# { White is checkmated } 0-1

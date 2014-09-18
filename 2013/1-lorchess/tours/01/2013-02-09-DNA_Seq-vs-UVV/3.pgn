@@ -1,13 +1,16 @@
 [Event "Casual game"]
 [Site "http://lichess.org/0u7twwbf"]
-[Date "2013-02-09"]
+[Date "2013.02.09"]
 [White "vaddim"]
 [Black "UVV"]
 [Result "0-1"]
 [WhiteElo "1200"]
 [BlackElo "1200"]
 [PlyCount "78"]
-[Variant "standard"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C41"]
+[Opening "Philidor Defense, Exchange Variation"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Nxd4 Nf6 5. Nc3 g6 $6 { Inaccuracy. Best was f8e7. } 6. Bd2 $6 { Inaccuracy. Best was f1d3. } 6... Bg7 7. Qc1 $2 { Mistake. Best was f1d3. } 7... c5 $6 { Inaccuracy. Best was f6e4. } 8. Bh6 $4 { Blunder. Best was d4b3. } 8... Bxh6 9. Qxh6 cxd4 10. Nd5 $2 { Mistake. Best was c3b5. } 10... Nxd5 11. exd5 Qa5+ 12. Ke2 Qxd5 13. c3 $2 { Mistake. Best was f2f3. } 13... d3+ $2 { Mistake. Best was b8c6. } 14. Kd2 Bf5 $6 { Inaccuracy. Best was b8c6. } 15. Qe3+ $6 { Inaccuracy. Best was h6g7. } 15... Kd7 16. Bxd3 Bxd3 $2 { Mistake. Best was b8c6. } 17. Qxd3 Qg5+ $6 { Inaccuracy. Best was d5g2. } 18. Qe3 $6 { Inaccuracy. Best was d2c2. } 18... Qxg2 19. Rae1 $6 { Inaccuracy. Best was a1d1. } 19... Qd5+ 20. Qd4 $6 { Inaccuracy. Best was e3d3. } 20... Qg5+ $4 { Blunder. Best was d5d4. } 21. f4 Qg2+ 22. Kd3 $4 { Blunder. Best was e1e2. } 22... Nc6 $6 { Inaccuracy. Best was b8a6. } 23. Qg7 $4 { Blunder. Best was d4e4. } 23... Qf3+ $4 { Blunder. Best was g2d5. } 24. Re3 $4 { Blunder. Best was d3c2. } 24... Qxh1 $2 { Mistake. Best was f3f4. } 25. Qxf7+ Kc8 26. Qe6+ $2 { Mistake. Best was e3e2. } 26... Kc7 $4 { Blunder. Best was c8b8. } 27. Qf7+ Kb6 28. Qb3+ Kc7 $4 { Blunder. Best was b6a6. } 29. Qf7+ Kc8 $4 { Blunder. Best was c7b8. } 30. Qe6+ Kc7 $4 { Blunder. Best was c8b8. } 31. Qf7+ Kb6 $4 { Blunder. Best was c7b8. } 32. Qb3+ Kc7 $4 { Blunder. Best was b6a6. } 33. Qf7+ Kc8 $4 { Blunder. Best was c7b8. } 34. Re8+ $4 { Blunder. Best was f7e6. } 34... Rxe8 35. Qxe8+ Nd8 36. Qe6+ $4 { Blunder. Best was e8g8. } 36... Nxe6 37. Kc4 $4 { Checkmate is now unavoidable. Best was d3e3. } 37... Qe4+ 38. Kb3 Nc5+ 39. Ka3 Qa4# 0-1
+1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Nxd4 Nf6 { Philidor Defense, Exchange Variation } 5. Nc3 g6?! { (0.48 → 1.09) Inaccuracy. } 6. Bd2?! { (1.09 → 0.44) Inaccuracy. } 6... Bg7 7. Qc1? { (0.52 → -0.64) Mistake. } 7... c5?! { (-0.64 → 0.24) Inaccuracy. } 8. Bh6?? { (0.24 → -3.19) Blunder. } 8... Bxh6 9. Qxh6 cxd4 10. Nd5? { (-3.19 → -5.21) Mistake. } 10... Nxd5 11. exd5 Qa5+ 12. Ke2 Qxd5 13. c3? { (-5.61 → -7.67) Mistake. } 13... d3+? { (-7.67 → -5.53) Mistake. } 14. Kd2 Bf5?! { (-5.73 → -5.09) Inaccuracy. } 15. Qe3+?! { (-5.09 → -5.97) Inaccuracy. } 15... Kd7 16. Bxd3 Bxd3? { (-5.93 → -4.88) Mistake. } 17. Qxd3 Qg5+?! { (-4.88 → -4.28) Inaccuracy. } 18. Qe3?! { (-4.28 → -5.17) Inaccuracy. } 18... Qxg2 19. Rae1?! { (-5.41 → -6.02) Inaccuracy. } 19... Qd5+ 20. Qd4?! { (-6.02 → -6.66) Inaccuracy. } 20... Qg5+?? { (-6.66 → -3.47) Blunder. } 21. f4 Qg2+ 22. Kd3?? { (-3.75 → -7.07) Blunder. } 22... Nc6?! { (-7.07 → -6.14) Inaccuracy. } 23. Qg7?? { (-6.14 → -12.80) Blunder. } 23... Qf3+?? { (-12.80 → -6.90) Blunder. } 24. Re3?? { (-6.90 → -12.80) Blunder. } 24... Qxh1 25. Qxf7+ Kc8 26. Qe6+ Kc7? { (-12.52 → -8.52) Mistake. } 27. Qf7+? { (-8.52 → -10.94) Mistake. } 27... Kb6 28. Qb3+ Kc7?? { (-11.19 → 0.00) Blunder. } 29. Qf7+?? { (0.00 → -7.75) Blunder. } 29... Kc8?? { (-7.75 → 0.00) Blunder. } 30. Qe6+?? { (0.00 → -12.64) Blunder. } 30... Kc7?? { (-12.64 → 0.00) Blunder. } 31. Qf7+?? { (0.00 → -8.36) Blunder. } 31... Kb6?? { (-8.36 → 0.00) Blunder. } 32. Qb3+?? { (0.00 → -11.11) Blunder. } 32... Kc7?? { (-11.11 → 0.00) Blunder. } 33. Qf7+?? { (0.00 → -8.56) Blunder. } 33... Kc8?? { (-8.56 → 0.00) Blunder. } 34. Re8+?? { (0.00 → -12.68) Blunder. } 34... Rxe8 35. Qxe8+ Nd8 36. Qe6+ Nxe6 37. Kc4?! { (-34.62 → Mate in 3) Checkmate is now unavoidable. } 37... Qe4+ 38. Kb3 Nc5+ 39. Ka3 Qa4# { White is checkmated } 0-1

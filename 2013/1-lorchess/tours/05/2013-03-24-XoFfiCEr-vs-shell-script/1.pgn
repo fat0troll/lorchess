@@ -1,6 +1,6 @@
 [Event "Casual game"]
-[Site "http://lichess.org/analyse/5gij58dm"]
-[Date "2013-03-24"]
+[Site "http://lichess.org/5gij58dm"]
+[Date "2013.03.24"]
 [White "XRat"]
 [Black "cppmm"]
 [Result "1-0"]
@@ -8,6 +8,9 @@
 [BlackElo "935"]
 [PlyCount "51"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C41"]
+[Opening "Philidor Defense, General"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 d6 3. b3 $6 { Inaccuracy. Best was b1c3. } 3... Nf6 4. Bd3 Be7 5. Bb2 Nc6 6. c3 $6 { Inaccuracy. Best was b1c3. } 6... d5 7. exd5 Qxd5 8. Bc4 Qe4+ 9. Qe2 Qc2 $6 { Inaccuracy. Best was e4e2. } 10. Ba3 $2 { Mistake. Best was d2d3. } 10... Bxa3 11. Nxa3 Qb2 12. Nb5 $4 { Blunder. Best was e1g1. } 12... Qxa1+ 13. Qd1 Qxa2 $4 { Blunder. Best was a1d1. } 14. Nxc7+ Kd7 $2 { Mistake. Best was e8e7. } 15. Nxa8 e4 16. Ng5 b5 $6 { Inaccuracy. Best was c6e5. } 17. Bxf7 Ne5 18. Be6+ $2 { Mistake. Best was e1g1. } 18... Kd8 $2 { Mistake. Best was d7d6. } 19. Bxc8 $2 { Mistake. Best was e1g1. } 19... Kxc8 $2 { Mistake. Best was e5d3. } 20. O-O Qxb3 $4 { Blunder. Best was c8b7. } 21. Qxb3 Rd8 $6 { Inaccuracy. Best was h7h6. } 22. Qe6+ Rd7 23. Qxe5 Kb7 $4 { Checkmate is now unavoidable. Best was c8d8. } 24. Nxe4 $2 { Lost forced checkmate sequence. Best was e5b5. } 24... Kxa8 25. Nxf6 gxf6 $4 { Checkmate is now unavoidable. Best was d7d3. } 26. Qe8+ 1-0
+1. e4 e5 2. Nf3 d6 { Philidor Defense, General } 3. b3?! { (0.56 → -0.12) Inaccuracy. } 3... Nf6 4. Bd3 Be7 5. Bb2 Nc6 6. c3?! { (-0.16 → -1.09) Inaccuracy. } 6... d5 7. exd5 Qxd5 8. Bc4 Qe4+ 9. Qe2 Qc2?! { (-1.09 → -0.44) Inaccuracy. } 10. Ba3? { (-0.44 → -2.74) Mistake. } 10... Bxa3 11. Nxa3 Qb2 12. Nb5?? { (-2.46 → -6.46) Blunder. } 12... Qxa1+ 13. Qd1 Qxa2?? { (-6.86 → -2.94) Blunder. } 14. Nxc7+ Kd7? { (-3.23 → -0.84) Mistake. } 15. Nxa8 e4 16. Ng5 b5?! { (-0.84 → -0.08) Inaccuracy. } 17. Bxf7 Ne5 18. Be6+? { (0.48 → -1.81) Mistake. } 18... Kd8? { (-1.81 → 0.48) Mistake. } 19. Bxc8? { (0.48 → -2.18) Mistake. } 19... Kxc8? { (-2.18 → -0.28) Mistake. } 20. O-O Qxb3?? { (-0.52 → 17.65) Blunder. } 21. Qxb3 Rd8 22. Qe6+ Rd7 23. Qxe5 Kb7?! { (24.12 → Mate in 5) Checkmate is now unavoidable. } 24. Nxe4?! { (Mate in 5 → 27.47) Lost forced checkmate sequence. } 24... Kxa8 25. Nxf6 gxf6?! { (93.26 → Mate in 5) Checkmate is now unavoidable. } 26. Qe8+ { Black resigns } 1-0

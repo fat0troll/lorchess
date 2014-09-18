@@ -1,13 +1,16 @@
 [Event "Casual game"]
 [Site "http://lichess.org/4oxp194j"]
-[Date "2013-02-08"]
+[Date "2013.02.08"]
 [White "UVV"]
 [Black "vaddim"]
 [Result "0-1"]
 [WhiteElo "1200"]
 [BlackElo "1200"]
 [PlyCount "108"]
-[Variant "standard"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B02"]
+[Opening "Alekhine Defense, General"]
 [Annotator "lichess.org"]
 
-1. e4 Nf6 2. Nc3 $6 { Inaccuracy. Best was e4e5. } 2... e6 3. d4 d5 4. e5 Bb4 $4 { Blunder. Best was f6d7. } 5. f3 $4 { Blunder. Best was e5f6. } 5... Na6 $4 { Blunder. Best was f6d7. } 6. exf6 Qxf6 7. Nh3 $6 { Inaccuracy. Best was f1a6. } 7... e5 8. Bxa6 bxa6 9. Be3 $2 { Mistake. Best was d4e5. } 9... Qe6 $2 { Mistake. Best was c8h3. } 10. a3 $6 { Inaccuracy. Best was e1g1. } 10... Bxc3+ 11. bxc3 exd4 $2 { Mistake. Best was e8g8. } 12. cxd4 $4 { Blunder. Best was d1d4. } 12... Qxe3+ 13. Qe2 Qxe2+ 14. Kxe2 O-O $2 { Mistake. Best was c8h3. } 15. Nf4 Be6 16. Rab1 Rab8 17. Rxb8 Rxb8 18. Re1 Re8 19. Nd3 $6 { Inaccuracy. Best was e2d2. } 19... Bf5+ 20. Kd2 Rxe1 21. Nxe1 g5 22. g4 Bd7 23. Kd3 $6 { Inaccuracy. Best was e1d3. } 23... Kg7 24. c4 dxc4+ 25. Kxc4 Bb5+ 26. Kc5 Kf6 27. d5 $6 { Inaccuracy. Best was c5d5. } 27... Ke7 $6 { Inaccuracy. Best was f6e5. } 28. Nc2 Be2 $6 { Inaccuracy. Best was e7d7. } 29. Nd4 Bb5 $2 { Mistake. Best was e2d1. } 30. Nxb5 axb5 31. Kxb5 $2 { Mistake. Best was c5c6. } 31... Kd6 32. Kc4 c6 33. dxc6 Kxc6 34. a4 Kb6 35. Kb4 a5+ 36. Kb3 $4 { Blunder. Best was b4c4. } 36... Kc5 37. Kc3 Kd5 $4 { Blunder. Best was f7f6. } 38. Kd3 Ke5 $4 { Blunder. Best was h7h6. } 39. Ke3 $6 { Inaccuracy. Best was d3c4. } 39... f5 40. h3 $4 { Blunder. Best was g4f5. } 40... f4+ 41. Ke2 $6 { Inaccuracy. Best was e3d3. } 41... Kd4 42. Kd2 Kc4 43. Kc2 $4 { Blunder. Best was d2e2. } 43... Kb4 44. Kb2 $4 { Blunder. Best was c2d3. } 44... Kxa4 45. Ka2 $4 { Blunder. Best was b2c3. } 45... Kb4 46. Kb2 a4 47. Ka2 $4 { Checkmate is now unavoidable. Best was b2c2. } 47... a3 48. Ka1 Kb3 49. Kb1 a2+ 50. Ka1 Ka3 51. h4 gxh4 52. g5 h3 53. g6 h2 54. g7 h1=Q# 0-1
+1. e4 Nf6 { Alekhine Defense, General } 2. Nc3?! { (0.72 → 0.16) Inaccuracy. } 2... e6 3. d4 d5 4. e5 Bb4?? { (0.08 → 3.51) Blunder. } 5. f3?? { (3.51 → -1.01) Blunder. } 5... Na6?? { (-1.01 → 2.78) Blunder. } 6. exf6 Qxf6 7. Nh3?! { (3.03 → 2.46) Inaccuracy. } 7... e5 8. Bxa6 bxa6 9. Be3? { (2.78 → 1.69) Mistake. } 9... Qe6? { (1.69 → 3.71) Mistake. } 10. a3?! { (3.71 → 2.86) Inaccuracy. } 10... Bxc3+ 11. bxc3 exd4? { (3.03 → 4.12) Mistake. } 12. cxd4?? { (4.12 → -1.53) Blunder. } 12... Qxe3+ 13. Qe2 Qxe2+ 14. Kxe2 O-O? { (-1.49 → 0.00) Mistake. } 15. Nf4 Be6 16. Rab1 Rab8 17. Rxb8 Rxb8 18. Re1 Re8 19. Nd3?! { (0.08 → -0.60) Inaccuracy. } 19... Bf5+ 20. Kd2 Rxe1 21. Nxe1 g5 22. g4 Bd7 23. Kd3?! { (-0.40 → -1.13) Inaccuracy. } 23... Kg7 24. c4 dxc4+ 25. Kxc4 Bb5+ 26. Kc5 Kf6 27. d5?! { (-0.88 → -1.49) Inaccuracy. } 27... Ke7?! { (-1.49 → -0.92) Inaccuracy. } 28. Nc2 Be2?! { (-0.92 → -0.40) Inaccuracy. } 29. Nd4 Bb5? { (-0.32 → 2.02) Mistake. } 30. Nxb5? { (2.02 → 0.80) Mistake. } 30... axb5?! { (0.80 → 1.37) Inaccuracy. } 31. Kxb5? { (1.37 → 0.00) Mistake. } 31... Kd6 32. Kc4 c6 33. dxc6 Kxc6 34. a4 Kb6 35. Kb4 a5+ 36. Kb3?? { (0.00 → -9.41) Blunder. } 36... Kc5 37. Kc3 Kd5?? { (-9.81 → -3.63) Blunder. } 38. Kd3?? { (-3.63 → -9.41) Blunder. } 38... Ke5?? { (-9.41 → 0.60) Blunder. } 39. Ke3?! { (0.60 → -0.20) Inaccuracy. } 39... f5 40. h3?? { (-1.09 → -11.27) Blunder. } 40... f4+ 41. Ke2 Kd4 42. Kd2 Kc4 43. Kc2 Kb4 44. Kb2 Kxa4 45. Ka2 Kb4 46. Kb2 a4 47. Ka2?! { (-103.33 → Mate in 10) Checkmate is now unavoidable. } 47... a3 48. Ka1 Kb3 49. Kb1 a2+ 50. Ka1 Ka3 51. h4 gxh4 52. g5 h3 53. g6 h2 54. g7 h1=Q# { White is checkmated } 0-1

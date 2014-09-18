@@ -1,13 +1,16 @@
 [Event "Rated game"]
-[Site "http://lichess.org/analyse/3a0rptec"]
-[Date "2013-03-11"]
+[Site "http://lichess.org/3a0rptec"]
+[Date "2013.03.11"]
 [White "Michkova"]
 [Black "fat0troll"]
 [Result "1-0"]
-[WhiteElo "1256"]
-[BlackElo "1027"]
+[WhiteElo "1624"]
+[BlackElo "1361"]
 [PlyCount "77"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "A40"]
+[Opening "Horwitz Defense, General"]
 [Annotator "lichess.org"]
 
-1. d4 e6 2. c4 Be7 3. Nc3 Nf6 4. e4 O-O 5. e5 Ne8 6. Nf3 Nc6 7. Bd3 d5 8. c5 $6 { Inaccuracy. Best was c4d5. } 8... a5 $6 { Inaccuracy. Best was b7b6. } 9. O-O b6 10. cxb6 cxb6 11. Be3 Ba6 12. Bxa6 Rxa6 13. a3 Ra8 14. Rc1 Rb8 15. Qd3 Nc7 16. Ne2 Qd7 $4 { Blunder. Best was c6a7. } 17. Qc2 b5 $2 { Mistake. Best was c6d4. } 18. Qxc6 Qxc6 19. Rxc6 Rfc8 20. Rfc1 b4 $2 { Mistake. Best was b8b7. } 21. Rxc7 Rxc7 22. Rxc7 bxa3 23. bxa3 Bxa3 24. h3 a4 $2 { Mistake. Best was h7h6. } 25. Ra7 Rb4 $4 { Blunder. Best was a3f8. } 26. Nc3 $4 { Blunder. Best was a7a8. } 26... h6 27. Rxa4 $6 { Inaccuracy. Best was c3a4. } 27... Rb3 28. Ne2 Rb1+ 29. Kh2 Rb2 $2 { Mistake. Best was b1a1. } 30. Rxa3 Rxe2 31. Ra8+ Kh7 32. Rf8 f5 $2 { Mistake. Best was e2a2. } 33. exf6 gxf6 34. Rxf6 h5 $4 { Checkmate is now unavoidable. Best was h7g7. } 35. Rxe6 $2 { Lost forced checkmate sequence. Best was e3h6. } 35... Kg7 $4 { Checkmate is now unavoidable. Best was e2b2. } 36. Bh6+ Kf7 37. Ng5+ Kg8 38. Rxe2 Kh8 39. Re8# 1-0
+1. d4 e6 { Horwitz Defense, General } 2. c4 Be7 3. Nc3 Nf6 4. e4 O-O 5. e5 Ne8 6. Nf3 Nc6 7. Bd3 d5 8. c5?! { (1.45 → 0.64) Inaccuracy. } 8... a5?! { (0.64 → 1.25) Inaccuracy. } 9. O-O b6 10. cxb6 cxb6 11. Be3 Ba6 12. Bxa6 Rxa6 13. a3 Ra8 14. Rc1 Rb8 15. Qd3 Nc7 16. Ne2 Qd7?? { (1.09 → 4.44) Blunder. } 17. Qc2?! { (4.44 → 3.91) Inaccuracy. } 17... b5? { (3.91 → 5.05) Mistake. } 18. Qxc6 Qxc6 19. Rxc6 Rfc8 20. Rfc1 b4? { (5.73 → 7.91) Mistake. } 21. Rxc7 Rxc7 22. Rxc7 bxa3 23. bxa3 Bxa3 24. h3 a4? { (8.04 → 9.17) Mistake. } 25. Ra7 Rb4?! { (9.25 → 21.89) Inaccuracy. } 26. Nc3 h6 27. Rxa4?! { (9.97 → 9.41) Inaccuracy. } 27... Rb3 28. Ne2 Rb1+ 29. Kh2 Rb2 30. Rxa3 Rxe2 31. Ra8+ Kh7 32. Rf8 f5 33. exf6 gxf6 34. Rxf6 h5?! { (16.56 → Mate in 4) Checkmate is now unavoidable. } 35. Rxe6?! { (Mate in 4 → 15.07) Lost forced checkmate sequence. } 35... Kg7?! { (15.07 → Mate in 7) Checkmate is now unavoidable. } 36. Bh6+ Kf7 37. Ng5+ Kg8 38. Rxe2 Kh8 39. Re8# { Black is checkmated } 1-0

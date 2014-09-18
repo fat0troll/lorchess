@@ -1,13 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/qdi4xd5p"]
-[Date "2013-02-03"]
+[Date "2013.02.03"]
 [White "LOR_J"]
 [Black "gremlin_the_red"]
 [Result "0-1"]
-[WhiteElo "1091"]
-[BlackElo "1522"]
+[WhiteElo "1508"]
+[BlackElo "2007"]
 [PlyCount "58"]
-[Variant "standard"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B20"]
+[Opening "Sicilian Defense, General"]
 [Annotator "lichess.org"]
 
-1. e4 c5 2. d4 cxd4 3. Qxd4 Nc6 4. Qc3 $6 { Inaccuracy. Best was d4a4. } 4... d6 $6 { Inaccuracy. Best was g8f6. } 5. Bb5 Bd7 6. Nf3 Nf6 7. Nbd2 g6 8. Nd4 Rc8 9. f4 $2 { Mistake. Best was e1g1. } 9... Bg7 $6 { Inaccuracy. Best was c6d4. } 10. Nxc6 bxc6 11. Ba4 $6 { Inaccuracy. Best was b5e2. } 11... O-O 12. O-O $2 { Mistake. Best was c3f3. } 12... Nxe4 $2 { Mistake. Best was d8b6. } 13. Qe3 Nxd2 14. Qxd2 $6 { Inaccuracy. Best was c1d2. } 14... Qb6+ 15. Kh1 $2 { Mistake. Best was f1f2. } 15... Be6 $4 { Blunder. Best was b6a6. } 16. Bb3 Bxb3 $2 { Mistake. Best was d6d5. } 17. axb3 d5 18. Qe2 e6 19. Be3 d4 20. Bg1 c5 21. Qc4 a5 22. c3 $2 { Mistake. Best was g1f2. } 22... dxc3 $2 { Mistake. Best was c8b8. } 23. bxc3 Rfd8 24. Rac1 Rd2 25. b4 $4 { Blunder. Best was g1e3. } 25... Qc6 26. Rf2 $6 { Inaccuracy. Best was g1f2. } 26... Rxf2 27. Bxf2 cxb4 28. Qxc6 $6 { Inaccuracy. Best was c4b3. } 28... Rxc6 29. c4 $4 { Blunder. Best was f2h4. } 29... b3 0-1
+1. e4 c5 { Sicilian Defense, General } 2. d4 cxd4 3. Qxd4 Nc6 4. Qc3? { (0.12 → -0.88) Mistake. } 4... d6?! { (-0.88 → -0.08) Inaccuracy. } 5. Bb5 Bd7 6. Nf3 Nf6 7. Nbd2 g6 8. Nd4 Rc8 9. f4? { (-0.44 → -2.18) Mistake. } 9... Bg7?! { (-2.18 → -1.33) Inaccuracy. } 10. Nxc6 bxc6 11. Ba4?! { (-1.09 → -2.02) Inaccuracy. } 11... O-O 12. O-O? { (-1.93 → -4.84) Mistake. } 12... Nxe4? { (-4.84 → -2.38) Mistake. } 13. Qe3 Nxd2 14. Qxd2?! { (-2.46 → -3.23) Inaccuracy. } 14... Qb6+ 15. Kh1? { (-3.31 → -5.89) Mistake. } 15... Be6?? { (-5.89 → -2.02) Blunder. } 16. Bb3 Bxb3? { (-2.18 → -1.17) Mistake. } 17. axb3 d5 18. Qe2 e6 19. Be3 d4 20. Bg1 c5 21. Qc4 a5 22. c3? { (-1.21 → -2.34) Mistake. } 22... dxc3? { (-2.34 → -1.25) Mistake. } 23. bxc3 Rfd8 24. Rac1 Rd2 25. b4?? { (-1.37 → -6.54) Blunder. } 25... Qc6 26. Rf2?! { (-6.18 → -7.15) Inaccuracy. } 26... Rxf2 27. Bxf2 cxb4 28. Qxc6?! { (-7.67 → -8.36) Inaccuracy. } 28... Rxc6 29. c4? { (-8.36 → -12.48) Mistake. } 29... b3 { White resigns } 0-1

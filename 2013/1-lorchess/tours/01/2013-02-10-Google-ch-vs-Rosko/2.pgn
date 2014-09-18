@@ -1,13 +1,16 @@
 [Event "Casual game"]
 [Site "http://lichess.org/ohduriso"]
-[Date "2013-02-10"]
+[Date "2013.02.10"]
 [White "Google-ch"]
 [Black "azimov"]
 [Result "0-1"]
 [WhiteElo "1093"]
 [BlackElo "1475"]
 [PlyCount "32"]
-[Variant "standard"]
+[Variant "Standard"]
+[TimeControl "1200+10"]
+[ECO "A46"]
+[Opening "Indian Game, Knights Variation, General"]
 [Annotator "lichess.org"]
 
-1. d4 Nf6 2. Nf3 e6 3. c3 c5 4. e3 d5 5. Bb5+ Nc6 6. Bxc6+ $6 { Inaccuracy. Best was c3c4. } 6... bxc6 7. b4 $6 { Inaccuracy. Best was e1g1. } 7... cxb4 8. cxb4 $6 { Inaccuracy. Best was e1g1. } 8... Bxb4+ 9. Ke2 $4 { Blunder. Best was c1d2. } 9... Ba6+ 10. Qd3 Bxd3+ 11. Kxd3 Qa5 12. Rd1 $4 { Checkmate is now unavoidable. Best was f3d2. } 12... Qa6+ 13. Kc2 Ne4 $2 { Lost forced checkmate sequence. Best was a6a4. } 14. Kb3 $4 { Checkmate is now unavoidable. Best was b1d2. } 14... Qc4+ 15. Ka4 Bd6+ 16. Ka5 Qb5# 0-1
+1. d4 Nf6 2. Nf3 { Indian Game, Knights Variation, General } e6 3. c3 c5 4. e3 d5 5. Bb5+ Nc6 6. Bxc6+?! { (-0.32 → -0.88) Inaccuracy. } 6... bxc6 7. b4?! { (-0.92 → -1.65) Inaccuracy. } 7... cxb4 8. cxb4?! { (-1.33 → -2.02) Inaccuracy. } 8... Bxb4+ 9. Ke2?? { (-2.02 → -14.98) Blunder. } 9... Ba6+ 10. Qd3 Bxd3+ 11. Kxd3 Qa5 12. Rd1?! { (-15.83 → Mate in 5) Checkmate is now unavoidable. } 12... Qa6+ 13. Kc2 Ne4?! { (Mate in 4 → -17.85) Lost forced checkmate sequence. } 14. Kb3?! { (-17.85 → Mate in 4) Checkmate is now unavoidable. } 14... Qc4+ 15. Ka4 Bd6+ 16. Ka5 Qb5# { White is checkmated } 0-1

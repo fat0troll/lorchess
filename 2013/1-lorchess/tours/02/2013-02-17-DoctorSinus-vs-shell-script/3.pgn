@@ -1,13 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/6khkquww"]
-[Date "2013-02-17"]
+[Date "2013.02.17"]
 [White "fat0troll"]
 [Black "cppmm"]
 [Result "0-1"]
-[WhiteElo "1030"]
-[BlackElo "923"]
+[WhiteElo "1361"]
+[BlackElo "1269"]
 [PlyCount "43"]
-[Variant "standard"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C20"]
+[Opening "King Pawn Game, Leonardis Variation"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. d3 d6 3. Be2 Nf6 4. Nf3 Be7 5. Bg5 Nfd7 $6 { Inaccuracy. Best was e8g8. } 6. Bxe7 Qxe7 7. Nc3 O-O 8. Nd5 Qd8 9. Qd2 c6 10. Nb4 $4 { Blunder. Best was d5e3. } 10... a5 11. h4 $6 { Inaccuracy. Best was b4d5. } 11... axb4 12. Qxb4 c5 13. Qc4 Nc6 14. Ng5 $6 { Inaccuracy. Best was h4h5. } 14... h6 15. Nxf7 $2 { Mistake. Best was g5f3. } 15... Rxf7 $2 { Mistake. Best was d8a5. } 16. Bh5 Kh7 $4 { Blunder. Best was d8f6. } 17. Bxf7 Nf8 $6 { Inaccuracy. Best was c6d4. } 18. Bd5 $6 { Inaccuracy. Best was c2c3. } 18... Na5 $6 { Inaccuracy. Best was c6d4. } 19. Qb5 $4 { Blunder. Best was c4c3. } 19... Bd7 20. Bc6 $4 { Blunder. Best was a2a4. } 20... Bxc6 21. Qxb7 $4 { Blunder. Best was b5c6. } 21... Nxb7 22. O-O-O 0-1
+1. e4 e5 2. d3 { King Pawn Game, Leonardis Variation } d6 3. Be2 Nf6 4. Nf3 Be7 5. Bg5 Nfd7?! { (-0.12 → 0.44) Inaccuracy. } 6. Bxe7 Qxe7 7. Nc3 O-O 8. Nd5 Qd8 9. Qd2 c6 10. Nb4?? { (0.36 → -3.35) Blunder. } 10... a5 11. h4?! { (-3.39 → -4.08) Inaccuracy. } 11... axb4 12. Qxb4 c5 13. Qc4 Nc6 14. Ng5?! { (-4.48 → -5.25) Inaccuracy. } 14... h6 15. Nxf7? { (-4.80 → -5.93) Mistake. } 15... Rxf7? { (-5.93 → -4.68) Mistake. } 16. Bh5 Kh7?? { (-4.76 → -1.01) Blunder. } 17. Bxf7 Nf8?! { (-1.45 → -0.52) Inaccuracy. } 18. Bd5?! { (-0.52 → -1.21) Inaccuracy. } 18... Na5?! { (-1.21 → -0.40) Inaccuracy. } 19. Qb5?? { (-0.40 → -8.96) Blunder. } 19... Bd7 20. Bc6?! { (-9.13 → -14.82) Inaccuracy. } 20... Bxc6 21. Qxb7 Nxb7 22. O-O-O { White resigns } 0-1

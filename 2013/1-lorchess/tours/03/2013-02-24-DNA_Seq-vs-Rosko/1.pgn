@@ -1,6 +1,6 @@
 [Event "Casual game"]
-[Site "http://lichess.org/analyse/7vvmj59d"]
-[Date "2013-02-23"]
+[Site "http://lichess.org/7vvmj59d"]
+[Date "2013.02.23"]
 [White "vaddim"]
 [Black "azimov"]
 [Result "0-1"]
@@ -8,6 +8,9 @@
 [BlackElo "1506"]
 [PlyCount "56"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C20"]
+[Opening "King Pawn Game, Leonardis Variation"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. d3 Nf6 3. f4 Nc6 4. fxe5 Nxe5 5. Nf3 Nxf3+ 6. gxf3 Bc5 $6 { Inaccuracy. Best was d7d5. } 7. Qe2 O-O 8. Na3 $6 { Inaccuracy. Best was c1e3. } 8... Re8 $6 { Inaccuracy. Best was d8e7. } 9. Be3 Bxe3 10. Qxe3 d5 11. O-O-O c6 12. Rg1 g6 13. c4 Bf5 14. Be2 Qd6 15. cxd5 $6 { Inaccuracy. Best was e3h6. } 15... cxd5 16. Qd4 $2 { Mistake. Best was e3h6. } 16... Rac8+ $2 { Mistake. Best was d6f4. } 17. Kd2 $2 { Mistake. Best was c1b1. } 17... Qf4+ 18. Ke1 dxe4 $6 { Inaccuracy. Best was f4h2. } 19. dxe4 Qxh2 $6 { Inaccuracy. Best was f5e6. } 20. Rf1 $4 { Blunder. Best was d4f2. } 20... Nxe4 $2 { Mistake. Best was f5e4. } 21. Qg1 $4 { Blunder. Best was f3e4. } 21... Qh4+ 22. Rf2 Nxf2 23. Qxf2 Qh1+ $4 { Blunder. Best was e8e2. } 24. Qf1 $4 { Checkmate is now unavoidable. Best was e1d2. } 24... Rxe2+ 25. Kxe2 Re8+ $2 { Lost forced checkmate sequence. Best was h1h2. } 26. Kf2 Qh2+ 27. Qg2 Re2+ 28. Kf1 $4 { Checkmate is now unavoidable. Best was f2e2. } 28... Qxg2# 0-1
+1. e4 e5 2. d3 { King Pawn Game, Leonardis Variation } Nf6 3. f4 Nc6 4. fxe5 Nxe5 5. Nf3 Nxf3+ 6. gxf3 Bc5?! { (-0.48 → 0.08) Inaccuracy. } 7. Qe2 O-O 8. Na3?! { (-0.28 → -1.25) Inaccuracy. } 8... Re8?! { (-1.25 → -0.52) Inaccuracy. } 9. Be3 Bxe3 10. Qxe3 d5 11. O-O-O c6 12. Rg1 g6 13. c4 Bf5 14. Be2 Qd6 15. cxd5?! { (0.24 → -0.68) Inaccuracy. } 15... cxd5 16. Qd4? { (-0.80 → -2.38) Mistake. } 16... Rac8+? { (-2.38 → -0.64) Mistake. } 17. Kd2? { (-0.64 → -1.89) Mistake. } 17... Qf4+ 18. Ke1 dxe4?! { (-2.14 → -1.21) Inaccuracy. } 19. dxe4 Qxh2?! { (-1.53 → -0.76) Inaccuracy. } 20. Rf1?? { (-0.76 → -8.92) Blunder. } 20... Nxe4? { (-8.92 → -6.38) Mistake. } 21. Qg1?? { (-6.38 → -34.98) Blunder. } 21... Qh4+ 22. Rf2 Nxf2 23. Qxf2 Qh1+ 24. Qf1?! { (-35.07 → Mate in 10) Checkmate is now unavoidable. } 24... Rxe2+ 25. Kxe2 Re8+?! { (Mate in 9 → -15.95) Lost forced checkmate sequence. } 26. Kf2 Qh2+ 27. Qg2 Re2+ 28. Kf1?! { (-18.02 → Mate in 1) Checkmate is now unavoidable. } 28... Qxg2# { White is checkmated } 0-1

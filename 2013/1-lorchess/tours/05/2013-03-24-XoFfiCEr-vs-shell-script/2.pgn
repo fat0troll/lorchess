@@ -1,6 +1,6 @@
 [Event "Casual game"]
-[Site "http://lichess.org/analyse/bipkw806"]
-[Date "2013-03-24"]
+[Site "http://lichess.org/bipkw806"]
+[Date "2013.03.24"]
 [White "cppmm"]
 [Black "XRat"]
 [Result "1-0"]
@@ -8,6 +8,9 @@
 [BlackElo "890"]
 [PlyCount "57"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "A00"]
+[Opening "Hungarian Opening, Slav Formation"]
 [Annotator "lichess.org"]
 
-1. g3 $6 { Inaccuracy. Best was e2e4. } 1... d5 2. Bg2 c6 3. Nh3 $6 { Inaccuracy. Best was g1f3. } 3... f6 $6 { Inaccuracy. Best was e7e5. } 4. O-O Nh6 5. d4 Nf5 $6 { Inaccuracy. Best was h6f7. } 6. b3 Na6 7. e3 g6 8. c4 e6 9. c5 $6 { Inaccuracy. Best was c1b2. } 9... Nb4 $6 { Inaccuracy. Best was b7b6. } 10. Bd2 a5 $6 { Inaccuracy. Best was b4a6. } 11. a3 Nd3 $2 { Mistake. Best was b4a6. } 12. Qc2 Nxf2 $2 { Mistake. Best was b7b6. } 13. Nxf2 Be7 14. b4 $2 { Mistake. Best was b1c3. } 14... axb4 15. Bxb4 $4 { Blunder. Best was c2b2. } 15... Nxe3 16. Qe2 Nxf1 17. Kxf1 O-O 18. Nc3 Qd7 $2 { Mistake. Best was e6e5. } 19. Ng4 $2 { Mistake. Best was g2h3. } 19... Kh8 $2 { Mistake. Best was b7b6. } 20. Bh3 $2 { Mistake. Best was e2b2. } 20... f5 $4 { Blunder. Best was b7b6. } 21. Ne5 Qe8 22. Qd2 $6 { Inaccuracy. Best was a1e1. } 22... Bf6 23. Ne2 Bxe5 24. dxe5 Qd8 25. Nf4 Rg8 26. g4 $2 { Mistake. Best was a3a4. } 26... Qc7 $2 { Mistake. Best was f5g4. } 27. Re1 Bd7 28. gxf5 exf5 $4 { Blunder. Best was g6f5. } 29. e6 1-0
+1. g3?! { (0.20 → -0.32) Inaccuracy. } 1... d5 2. Bg2 c6 { Hungarian Opening, Slav Formation } 3. Nh3?! { (0.24 → -0.40) Inaccuracy. } 3... f6? { (-0.40 → 0.60) Mistake. } 4. O-O Nh6 5. d4 Nf5?! { (0.40 → 0.96) Inaccuracy. } 6. b3 Na6 7. e3 g6 8. c4 e6 9. c5?! { (0.52 → -0.16) Inaccuracy. } 9... Nb4?! { (-0.16 → 0.76) Inaccuracy. } 10. Bd2 a5?! { (0.48 → 1.37) Inaccuracy. } 11. a3 Nd3? { (1.17 → 2.82) Mistake. } 12. Qc2 Nxf2? { (2.58 → 3.63) Mistake. } 13. Nxf2 Be7 14. b4? { (3.79 → 2.50) Mistake. } 14... axb4 15. Bxb4?? { (2.46 → -0.96) Blunder. } 15... Nxe3 16. Qe2 Nxf1 17. Kxf1 O-O 18. Nc3 Qd7? { (-1.57 → -0.28) Mistake. } 19. Ng4? { (-0.28 → -2.14) Mistake. } 19... Kh8? { (-2.14 → -1.13) Mistake. } 20. Bh3? { (-1.13 → -2.42) Mistake. } 20... f5?? { (-2.42 → 0.76) Blunder. } 21. Ne5 Qe8 22. Qd2?! { (0.32 → -0.28) Inaccuracy. } 22... Bf6 23. Ne2 Bxe5 24. dxe5 Qd8 25. Nf4 Rg8 26. g4? { (0.08 → -1.93) Mistake. } 26... Qc7? { (-1.93 → -0.52) Mistake. } 27. Re1 Bd7 28. gxf5 exf5?? { (-0.28 → 9.45) Blunder. } 29. e6 { Black resigns } 1-0

@@ -1,13 +1,16 @@
 [Event "Rated game"]
-[Site "http://lichess.org/analyse/38jtvnjp"]
-[Date "2013-02-28"]
+[Site "http://lichess.org/38jtvnjp"]
+[Date "2013.02.28"]
 [White "LOR_J"]
 [Black "HunOL"]
 [Result "1/2-1/2"]
-[WhiteElo "1216"]
-[BlackElo "1251"]
+[WhiteElo "1516"]
+[BlackElo "1668"]
 [PlyCount "111"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C54"]
+[Opening "Italian Game, Classical Variation, Greco Gambit, Traditional Line"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. cxd4 Bb4+ 7. Nc3 Nxe4 8. Qe2 $2 { Mistake. Best was e1g1. } 8... d5 9. Bb5 O-O 10. O-O Bg4 $6 { Inaccuracy. Best was e4c3. } 11. Bxc6 bxc6 12. Qd3 $6 { Inaccuracy. Best was c3e4. } 12... Qf6 $6 { Inaccuracy. Best was g4f5. } 13. Nxe4 dxe4 14. Qxe4 Bxf3 15. Qxf3 Qxf3 16. gxf3 Rad8 17. Be3 Rfe8 18. Rac1 Rd6 19. a3 Ba5 20. b4 Bb6 21. Rfd1 Red8 22. Rc4 Rg6+ 23. Kf1 Rdd6 24. Bf4 Rdf6 $6 { Inaccuracy. Best was d6d5. } 25. d5 cxd5 $6 { Inaccuracy. Best was h7h6. } 26. Rxd5 h6 27. Rd3 $2 { Mistake. Best was a3a4. } 27... Re6 $6 { Inaccuracy. Best was f6c6. } 28. Bxc7 Rg5 $6 { Inaccuracy. Best was e6c6. } 29. Bg3 $6 { Inaccuracy. Best was a3a4. } 29... Rf5 $2 { Mistake. Best was a7a5. } 30. a4 a5 31. b5 g5 $2 { Mistake. Best was f5f6. } 32. Rc6 $4 { Blunder. Best was g3d6. } 32... Ref6 $4 { Blunder. Best was e6c6. } 33. Kg2 $4 { Blunder. Best was g3d6. } 33... h5 $4 { Blunder. Best was f6c6. } 34. Rc8+ $4 { Blunder. Best was g3d6. } 34... Kg7 35. h4 $2 { Mistake. Best was g3d6. } 35... g4 $2 { Mistake. Best was g5h4. } 36. f4 $2 { Mistake. Best was f3g4. } 36... Rc5 $2 { Mistake. Best was f6e6. } 37. Rxc5 Bxc5 38. f3 $2 { Mistake. Best was d3d5. } 38... Re6 39. fxg4 hxg4 40. Rd2 $2 { Mistake. Best was d3c3. } 40... Re4 41. Ra2 $6 { Inaccuracy. Best was d2c2. } 41... Bb6 42. Bh2 Kg6 43. Kg3 Kf5 44. h5 Re3+ $6 { Inaccuracy. Best was e4f4. } 45. Kg2 Rh3 46. Re2 $2 { Mistake. Best was a2d2. } 46... Rxh5 $4 { Blunder. Best was f7f6. } 47. Re5+ Kg6 48. Kg3 $4 { Blunder. Best was e5h5. } 48... Rxe5 $6 { Inaccuracy. Best was h5h3. } 49. fxe5 f5 $2 { Mistake. Best was g6f5. } 50. exf6 Kxf6 51. Kxg4 Ke6 52. Kf4 $4 { Blunder. Best was g4g5. } 52... Kd5 $4 { Blunder. Best was b6c7. } 53. Kf5 $6 { Inaccuracy. Best was f4f3. } 53... Kc4 $6 { Inaccuracy. Best was b6d8. } 54. Bf4 $2 { Mistake. Best was f5e6. } 54... Kb4 55. Bd2+ Kxa4 56. Bxa5 1/2-1/2
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. cxd4 { Italian Game, Classical Variation, Greco Gambit, Traditional Line } Bb4+ 7. Nc3 Nxe4 8. Qe2? { (-0.36 → -1.37) Mistake. } 8... d5 9. Bb5 O-O 10. O-O Bg4?! { (-1.85 → -0.92) Inaccuracy. } 11. Bxc6 bxc6 12. Qd3?! { (-0.72 → -1.49) Inaccuracy. } 12... Qf6?! { (-1.49 → -0.60) Inaccuracy. } 13. Nxe4 dxe4 14. Qxe4 Bxf3 15. Qxf3 Qxf3 16. gxf3 Rad8 17. Be3 Rfe8 18. Rac1 Rd6 19. a3 Ba5 20. b4 Bb6 21. Rfd1 Red8 22. Rc4 Rg6+ 23. Kf1 Rdd6 24. Bf4 Rdf6?! { (0.36 → 1.05) Inaccuracy. } 25. d5 cxd5?! { (1.05 → 2.02) Inaccuracy. } 26. Rxd5 h6 27. Rd3? { (2.10 → 0.24) Mistake. } 27... Re6?! { (0.24 → 1.09) Inaccuracy. } 28. Bxc7 Rg5?! { (1.13 → 1.85) Inaccuracy. } 29. Bg3?! { (1.85 → 1.29) Inaccuracy. } 29... Rf5? { (1.29 → 2.38) Mistake. } 30. a4 a5 31. b5 g5? { (2.30 → 4.48) Mistake. } 32. Rc6?? { (4.48 → 0.24) Blunder. } 32... Ref6?? { (0.24 → 6.70) Blunder. } 33. Kg2?? { (6.70 → 0.48) Blunder. } 33... h5?? { (0.48 → 7.19) Blunder. } 34. Rc8+?? { (7.19 → 3.63) Blunder. } 34... Kg7 35. h4? { (3.47 → 1.41) Mistake. } 35... g4? { (1.41 → 3.35) Mistake. } 36. f4? { (3.35 → 1.89) Mistake. } 36... Rc5? { (1.89 → 4.00) Mistake. } 37. Rxc5 Bxc5 38. f3? { (4.24 → 2.18) Mistake. } 38... Re6 39. fxg4 hxg4 40. Rd2? { (2.62 → 1.57) Mistake. } 40... Re4 41. Ra2?! { (1.33 → 0.64) Inaccuracy. } 41... Bb6 42. Bh2 Kg6 43. Kg3 Kf5 44. h5 Re3+?! { (0.00 → 0.76) Inaccuracy. } 45. Kg2 Rh3?! { (0.76 → 1.45) Inaccuracy. } 46. Re2? { (1.45 → 0.32) Mistake. } 46... Rxh5?? { (0.32 → 4.56) Blunder. } 47. Re5+ Kg6? { (4.56 → 7.51) Mistake. } 48. Kg3?? { (7.51 → -0.76) Blunder. } 48... Rxe5?! { (-0.76 → 0.00) Inaccuracy. } 49. fxe5 f5? { (0.00 → 1.33) Mistake. } 50. exf6 Kxf6 51. Kxg4 Ke6 52. Kf4?? { (1.33 → -7.43) Blunder. } 52... Kd5?? { (-7.43 → 1.33) Blunder. } 53. Kf5?! { (1.33 → 0.68) Inaccuracy. } 53... Kc4?! { (0.68 → 1.37) Inaccuracy. } 54. Bf4? { (1.37 → 0.00) Mistake. } 54... Kb4 55. Bd2+ Kxa4 56. Bxa5 { Draw } 1/2-1/2

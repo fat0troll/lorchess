@@ -1,6 +1,6 @@
 [Event "Casual game"]
-[Site "http://lichess.org/analyse/i2v25bs9"]
-[Date "2013-03-03"]
+[Site "http://lichess.org/i2v25bs9"]
+[Date "2013.03.03"]
 [White "Michkova"]
 [Black "Genuine"]
 [Result "1-0"]
@@ -8,6 +8,9 @@
 [BlackElo "1356"]
 [PlyCount "69"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "D50"]
+[Opening "Queen's Gambit Declined, Modern Variation"]
 [Annotator "lichess.org"]
 
-1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. Rc1 Nc6 6. e3 h6 7. Bh4 a6 $6 { Inaccuracy. Best was e8g8. } 8. Nf3 O-O 9. c5 Re8 10. Bd3 Ng4 $6 { Inaccuracy. Best was b7b6. } 11. Bg3 Nf6 12. O-O b6 13. cxb6 cxb6 14. h3 Bd6 15. Ne5 Bxe5 16. Bxe5 $6 { Inaccuracy. Best was d4e5. } 16... Nxe5 17. dxe5 Nd7 18. f4 Bb7 19. Bb1 f5 $6 { Inaccuracy. Best was a8c8. } 20. exf6 Qxf6 21. Qg4 $6 { Inaccuracy. Best was d1d3. } 21... Rf8 $6 { Inaccuracy. Best was a8c8. } 22. Ne2 Nc5 23. Nd4 $6 { Inaccuracy. Best was e2g3. } 23... Bc8 $2 { Mistake. Best was a6a5. } 24. Qg3 $6 { Inaccuracy. Best was g4h5. } 24... Ne4 $2 { Mistake. Best was a6a5. } 25. Bxe4 dxe4 26. Rf2 Rf7 27. Rfc2 $6 { Inaccuracy. Best was c1c6. } 27... Bb7 28. Rc7 Bd5 29. b3 Qd8 $2 { Mistake. Best was a8f8. } 30. f5 $2 { Mistake. Best was c7f7. } 30... Qg5 $2 { Mistake. Best was e6f5. } 31. Qxg5 hxg5 32. fxe6 Rff8 $4 { Blunder. Best was f7f6. } 33. Rd7 Rad8 $4 { Blunder. Best was d5e6. } 34. Rcc7 Ba8 $4 { Checkmate is now unavoidable. Best was d8d7. } 35. Rxg7+ 1-0
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 { Queen's Gambit Declined, Modern Variation } Be7 5. Rc1 Nc6 6. e3 h6 7. Bh4 a6?! { (0.00 → 0.72) Inaccuracy. } 8. Nf3 O-O 9. c5 Re8 10. Bd3 Ng4?! { (0.24 → 0.76) Inaccuracy. } 11. Bg3 Nf6 12. O-O b6 13. cxb6 cxb6 14. h3 Bd6 15. Ne5 Bxe5 16. Bxe5?! { (0.72 → 0.04) Inaccuracy. } 16... Nxe5 17. dxe5 Nd7 18. f4 Bb7 19. Bb1 f5?! { (-0.12 → 0.64) Inaccuracy. } 20. exf6 Qxf6 21. Qg4?! { (0.88 → 0.28) Inaccuracy. } 21... Rf8?! { (0.28 → 0.96) Inaccuracy. } 22. Ne2 Nc5 23. Nd4?! { (0.76 → 0.20) Inaccuracy. } 23... Bc8? { (0.20 → 1.21) Mistake. } 24. Qg3?! { (1.21 → 0.32) Inaccuracy. } 24... Ne4? { (0.32 → 1.77) Mistake. } 25. Bxe4 dxe4 26. Rf2 Rf7 27. Rfc2?! { (1.61 → 0.88) Inaccuracy. } 27... Bb7 28. Rc7 Bd5 29. b3 Qd8? { (1.01 → 3.19) Mistake. } 30. f5? { (3.19 → 1.61) Mistake. } 30... Qg5? { (1.61 → 4.12) Mistake. } 31. Qxg5 hxg5 32. fxe6 Rff8?? { (4.28 → 7.63) Blunder. } 33. Rd7 Rad8? { (7.79 → 12.16) Mistake. } 34. Rcc7 Ba8?! { (12.32 → Mate in 3) Checkmate is now unavoidable. } 35. Rxg7+ { Black resigns } 1-0

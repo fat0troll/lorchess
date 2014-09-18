@@ -1,6 +1,6 @@
 [Event "Casual game"]
-[Site "http://lichess.org/analyse/368y6rjm"]
-[Date "2013-02-18"]
+[Site "http://lichess.org/368y6rjm"]
+[Date "2013.02.18"]
 [White "Genuine"]
 [Black "linchess2"]
 [Result "1-0"]
@@ -8,6 +8,9 @@
 [BlackElo "1255"]
 [PlyCount "41"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C55"]
+[Opening "Italian Game, Two Knights Defense, Modern Bishop's Opening"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. Ng5 $6 { Inaccuracy. Best was b1c3. } 5... Bb4+ $4 { Blunder. Best was e8g8. } 6. c3 Rf8 $2 { Mistake. Best was e8g8. } 7. cxb4 Nxb4 8. Qb3 c5 $2 { Mistake. Best was d8e7. } 9. Bxf7+ $6 { Inaccuracy. Best was b1c3. } 9... Ke7 10. a3 $2 { Mistake. Best was f7c4. } 10... h6 $4 { Blunder. Best was b4c6. } 11. axb4 hxg5 12. Bg6 $6 { Inaccuracy. Best was f7c4. } 12... cxb4 $2 { Mistake. Best was d8b6. } 13. Bxg5 $6 { Inaccuracy. Best was b3b4. } 13... Qc7 $2 { Mistake. Best was d7d6. } 14. Qxb4+ d6 15. Nc3 a5 $4 { Blunder. Best was c8e6. } 16. Nd5+ Kd7 17. Nxc7 axb4 18. Nxa8 Ke7 19. Nb6 Kd8 $4 { Blunder. Best was c8g4. } 20. Rc1 $4 { Blunder. Best was b6c8. } 20... Be6 $2 { Mistake. Best was c8g4. } 21. h3 1-0
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 { Italian Game, Two Knights Defense, Modern Bishop's Opening } Bc5 5. Ng5?! { (0.24 → -0.52) Inaccuracy. } 5... Bb4+?? { (-0.52 → 3.47) Blunder. } 6. c3 Rf8? { (3.47 → 4.92) Mistake. } 7. cxb4 Nxb4 8. Qb3 c5? { (4.68 → 6.50) Mistake. } 9. Bxf7+?! { (6.50 → 5.93) Inaccuracy. } 9... Ke7 10. a3? { (5.05 → 3.75) Mistake. } 10... h6?? { (3.75 → 7.31) Blunder. } 11. axb4 hxg5 12. Bg6?! { (7.59 → 6.94) Inaccuracy. } 12... cxb4? { (6.94 → 8.08) Mistake. } 13. Bxg5?! { (8.08 → 7.23) Inaccuracy. } 13... Qc7? { (7.23 → 9.09) Mistake. } 14. Qxb4+ d6 15. Nc3 a5?! { (9.41 → 14.38) Inaccuracy. } 16. Nd5+ Kd7 17. Nxc7 axb4 18. Nxa8 Ke7 19. Nb6 Kd8 20. Rc1 Be6 21. h3 { Black resigns } 1-0

@@ -1,13 +1,16 @@
 [Event "Rated game"]
-[Site "http://lichess.org/analyse/htviryms"]
-[Date "2013-03-11"]
+[Site "http://lichess.org/htviryms"]
+[Date "2013.03.11"]
 [White "fat0troll"]
 [Black "Michkova"]
 [Result "0-1"]
-[WhiteElo "1020"]
-[BlackElo "1263"]
+[WhiteElo "1355"]
+[BlackElo "1631"]
 [PlyCount "56"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C20"]
+[Opening "King Pawn Game, General"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Be2 Nf6 3. d3 Nc6 4. Nf3 Bc5 5. O-O h6 6. Nc3 O-O 7. Qd2 $6 { Inaccuracy. Best was f3e5. } 7... d6 8. b3 Bg4 9. h3 Bh5 10. Bb2 Nd4 11. Nxd4 Bxd4 12. Rab1 Bxe2 13. Qxe2 Nd7 14. Nd5 Bxb2 15. Rxb2 f5 16. f4 $2 { Mistake. Best was f1d1. } 16... fxe4 17. Qxe4 Nc5 $6 { Inaccuracy. Best was c7c6. } 18. Qc4 Kh8 19. Nc3 exf4 20. Ne4 $6 { Inaccuracy. Best was b3b4. } 20... Nxe4 21. dxe4 $6 { Inaccuracy. Best was c4e4. } 21... Qf6 22. Rbb1 c6 23. g3 $2 { Mistake. Best was b1d1. } 23... Qg6 24. Rbd1 $4 { Blunder. Best was f1f3. } 24... Qxg3+ 25. Kh1 Qxh3+ 26. Kg1 Rf6 $4 { Blunder. Best was h3g3. } 27. Rd3 f3 28. Qd4 $4 { Checkmate is now unavoidable. Best was d3f3. } 28... Qg2# 0-1
+1. e4 e5 { King Pawn Game, General } 2. Be2 Nf6 3. d3 Nc6 4. Nf3 Bc5 5. O-O h6 6. Nc3 O-O 7. Qd2?! { (0.52 → -0.16) Inaccuracy. } 7... d6 8. b3 Bg4 9. h3 Bh5 10. Bb2 Nd4 11. Nxd4 Bxd4 12. Rab1 Bxe2 13. Qxe2 Nd7 14. Nd5 Bxb2 15. Rxb2 f5 16. f4? { (0.04 → -1.25) Mistake. } 16... fxe4 17. Qxe4 Nc5?! { (-1.21 → -0.24) Inaccuracy. } 18. Qc4 Kh8 19. Nc3 exf4 20. Ne4?! { (-0.72 → -1.29) Inaccuracy. } 20... Nxe4 21. dxe4?! { (-1.01 → -1.57) Inaccuracy. } 21... Qf6 22. Rbb1 c6 23. g3? { (-1.25 → -2.30) Mistake. } 23... Qg6 24. Rbd1?? { (-2.38 → -13.09) Blunder. } 24... Qxg3+ 25. Kh1 Qxh3+ 26. Kg1 Rf6 27. Rd3 f3 28. Qd4?! { (-16.16 → Mate in 1) Checkmate is now unavoidable. } 28... Qg2# { White is checkmated } 0-1

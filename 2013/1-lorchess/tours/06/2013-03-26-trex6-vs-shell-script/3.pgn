@@ -1,13 +1,16 @@
 [Event "Rated game"]
-[Site "http://lichess.org/analyse/7yhp63lb"]
-[Date "2013-03-26"]
+[Site "http://lichess.org/7yhp63lb"]
+[Date "2013.03.26"]
 [White "txgames"]
 [Black "cppmm"]
 [Result "1-0"]
-[WhiteElo "940"]
-[BlackElo "969"]
+[WhiteElo "1321"]
+[BlackElo "1339"]
 [PlyCount "67"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C22"]
+[Opening "Center Game, Normal Variation"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. d4 $6 { Inaccuracy. Best was g1f3. } 2... exd4 3. Qxd4 Nc6 4. Qd1 d6 $6 { Inaccuracy. Best was g8f6. } 5. Nf3 b5 $2 { Mistake. Best was g8f6. } 6. Bxb5 Bd7 7. Ng5 h6 8. Nxf7 $2 { Mistake. Best was g5f3. } 8... Kxf7 9. Qf3+ $2 { Mistake. Best was d1h5. } 9... Nf6 10. O-O Nd4 $6 { Inaccuracy. Best was c6e5. } 11. Qd3 $2 { Mistake. Best was b5c4. } 11... Nxb5 12. Qb3+ $2 { Mistake. Best was a2a4. } 12... d5 13. exd5 Nd4 14. Qd3 Bc5 15. Be3 $2 { Mistake. Best was c2c3. } 15... Bb5 $2 { Mistake. Best was d7f5. } 16. c4 Ba6 $4 { Blunder. Best was d8d5. } 17. Bxd4 Qd6 $6 { Inaccuracy. Best was d8d5. } 18. Bxc5 Qxc5 19. b3 Rhf8 $6 { Inaccuracy. Best was a8d8. } 20. h3 Kg8 21. Nd2 $6 { Inaccuracy. Best was b1c3. } 21... Qd6 $6 { Inaccuracy. Best was c7c6. } 22. Ne4 $6 { Inaccuracy. Best was f1e1. } 22... Qf4 $6 { Inaccuracy. Best was f6e4. } 23. Nxf6+ Qxf6 24. f4 $6 { Inaccuracy. Best was d3g3. } 24... Bc8 25. g4 g5 $2 { Mistake. Best was h6h5. } 26. fxg5 Qxg5 27. Rxf8+ Kxf8 28. Qf3+ Kg7 $2 { Mistake. Best was f8g8. } 29. d6 $2 { Mistake. Best was a1f1. } 29... Qe5 $4 { Blunder. Best was g5c5. } 30. Rf1 Rb8 $4 { Checkmate is now unavoidable. Best was c8b7. } 31. Qf7+ $6 { Detected checkmate in 4 moves, but player moved for mate in 5. Best was f3f8. } 31... Kh8 32. Qf8+ Kh7 33. Rf7+ Kg6 34. Qg8+ 1-0
+1. e4 e5 2. d4?! { (0.52 → -0.04) Inaccuracy. } 2... exd4 3. Qxd4 Nc6 { Center Game, Normal Variation } 4. Qd1 d6?! { (-0.40 → 0.36) Inaccuracy. } 5. Nf3 b5? { (0.36 → 2.02) Mistake. } 6. Bxb5 Bd7 7. Ng5 h6 8. Nxf7? { (1.61 → 0.16) Mistake. } 8... Kxf7 9. Qf3+? { (0.28 → -1.41) Mistake. } 9... Nf6 10. O-O Nd4?! { (-1.37 → -0.60) Inaccuracy. } 11. Qd3? { (-0.60 → -2.90) Mistake. } 11... Nxb5 12. Qb3+? { (-2.78 → -5.41) Mistake. } 12... d5 13. exd5 Nd4 14. Qd3 Bc5 15. Be3? { (-5.53 → -7.11) Mistake. } 15... Bb5? { (-7.11 → -5.09) Mistake. } 16. c4 Ba6?? { (-5.41 → -1.01) Blunder. } 17. Bxd4 Qd6?! { (-1.05 → -0.36) Inaccuracy. } 18. Bxc5 Qxc5 19. b3 Rhf8?! { (-0.92 → -0.12) Inaccuracy. } 20. h3 Kg8 21. Nd2?! { (-0.16 → -1.01) Inaccuracy. } 21... Qd6?! { (-1.01 → -0.32) Inaccuracy. } 22. Ne4?! { (-0.32 → -0.92) Inaccuracy. } 22... Qf4?! { (-0.92 → 0.00) Inaccuracy. } 23. Nxf6+ Qxf6 24. f4?! { (-0.36 → -0.96) Inaccuracy. } 24... Bc8 25. g4 g5? { (-0.60 → 1.73) Mistake. } 26. fxg5 Qxg5 27. Rxf8+ Kxf8 28. Qf3+ Kg7? { (1.25 → 2.26) Mistake. } 29. d6? { (2.26 → -0.28) Mistake. } 29... Qe5?? { (-0.28 → 3.83) Blunder. } 30. Rf1 Rb8? { (3.63 → Mate in 4) Checkmate is now unavoidable. } 31. Qf7+?! { (Mate in 4 → Mate in 4) Not the best checkmate sequence. } 31... Kh8 32. Qf8+ Kh7 33. Rf7+ Kg6 34. Qg8+ { Black resigns } 1-0

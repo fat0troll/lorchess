@@ -1,13 +1,16 @@
 [Event "Rated game"]
-[Site "http://lichess.org/analyse/ye8i0c3o"]
-[Date "2013-02-23"]
+[Site "http://lichess.org/ye8i0c3o"]
+[Date "2013.02.23"]
 [White "txgames"]
 [Black "zodd"]
 [Result "0-1"]
-[WhiteElo "974"]
-[BlackElo "1327"]
+[WhiteElo "1321"]
+[BlackElo "1817"]
 [PlyCount "53"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B32"]
+[Opening "Sicilian Defense, Old Sicilian, Open"]
 [Annotator "lichess.org"]
 
-1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 d6 5. f4 $6 { Inaccuracy. Best was f1b5. } 5... Nf6 6. Bd3 $4 { Blunder. Best was d4c6. } 6... g6 $4 { Blunder. Best was c6d4. } 7. g4 $4 { Blunder. Best was d4c6. } 7... Bxg4 $2 { Mistake. Best was c6d4. } 8. Qd2 $4 { Blunder. Best was d4c6. } 8... Nxd4 9. Bb5+ $4 { Blunder. Best was d2e3. } 9... Nc6 $4 { Blunder. Best was d4b5. } 10. Nc3 a6 11. Bxc6+ bxc6 12. b3 $2 { Mistake. Best was e4e5. } 12... Bg7 13. Ba3 $2 { Mistake. Best was e4e5. } 13... O-O $6 { Inaccuracy. Best was f6e4. } 14. Rg1 $2 { Mistake. Best was h2h3. } 14... Bc8 $4 { Blunder. Best was f6e4. } 15. O-O-O Qb6 16. Na4 Qc7 17. f5 $4 { Blunder. Best was d2e3. } 17... Nxe4 18. Qe2 Bxf5 19. h3 $6 { Inaccuracy. Best was a3b2. } 19... Nc3 $2 { Mistake. Best was d6d5. } 20. Qe3 $4 { Blunder. Best was a4c3. } 20... Nxd1 $2 { Mistake. Best was c3a4. } 21. Kxd1 Rfe8 22. h4 h5 23. Nb6 $6 { Inaccuracy. Best was a3b2. } 23... Rab8 24. Nc4 d5 25. Nd2 e5 26. Nf1 $6 { Inaccuracy. Best was d1c1. } 26... d4 27. Qe4 0-1
+1. e4 c5 2. Nf3 Nc6 3. d4 { Sicilian Defense, Old Sicilian, Open } cxd4 4. Nxd4 d6 5. f4?! { (0.40 → -0.20) Inaccuracy. } 5... Nf6 6. Bd3?? { (-0.36 → -3.91) Blunder. } 6... g6?? { (-3.91 → -0.20) Blunder. } 7. g4?? { (-0.20 → -4.52) Blunder. } 7... Bxg4? { (-4.52 → -2.10) Mistake. } 8. Qd2?? { (-2.10 → -6.54) Blunder. } 8... Nxd4 9. Bb5+?? { (-6.74 → -11.15) Blunder. } 9... Nc6?? { (-11.15 → -6.22) Blunder. } 10. Nc3 a6 11. Bxc6+ bxc6 12. b3? { (-6.46 → -7.71) Mistake. } 12... Bg7 13. Ba3? { (-7.83 → -9.13) Mistake. } 13... O-O?! { (-9.13 → -8.40) Inaccuracy. } 14. Rg1? { (-8.40 → -9.57) Mistake. } 14... Bc8?? { (-9.57 → -6.26) Blunder. } 15. O-O-O Qb6 16. Na4 Qc7 17. f5?? { (-6.22 → -9.29) Blunder. } 17... Nxe4 18. Qe2 Bxf5 19. h3?! { (-9.41 → -10.10) Inaccuracy. } 19... Nc3? { (-10.10 → -8.36) Mistake. } 20. Qe3? { (-8.36 → -13.29) Mistake. } 20... Nxd1 21. Kxd1 Rfe8 22. h4 h5 23. Nb6 Rab8 24. Nc4 d5 25. Nd2 e5 26. Nf1 d4 27. Qe4 { White resigns } 0-1

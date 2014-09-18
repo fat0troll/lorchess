@@ -1,6 +1,6 @@
 [Event "Casual game"]
-[Site "http://lichess.org/analyse/ippt423i"]
-[Date "2013-03-11"]
+[Site "http://lichess.org/ippt423i"]
+[Date "2013.03.11"]
 [White "LOR_J"]
 [Black "Genuine"]
 [Result "0-1"]
@@ -8,6 +8,9 @@
 [BlackElo "1361"]
 [PlyCount "72"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B50"]
+[Opening "Sicilian Defense, Delayed Alapin"]
 [Annotator "lichess.org"]
 
-1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. Qa4+ Bd7 5. Bb5 a6 6. Bxd7+ Qxd7 7. Qc4 b5 8. Qe2 Nc6 9. d4 Qg4 10. O-O Qxe4 11. Qd1 $6 { Inaccuracy. Best was c1e3. } 11... cxd4 12. Nbd2 $2 { Mistake. Best was c3d4. } 12... Qd5 13. cxd4 Nxd4 14. Nxd4 Qxd4 15. Nb3 $6 { Inaccuracy. Best was a2a4. } 15... Qxd1 16. Rxd1 Rc8 $6 { Inaccuracy. Best was e7e6. } 17. Bd2 e6 18. Bc3 $6 { Inaccuracy. Best was a2a4. } 18... Be7 19. Bxf6 gxf6 20. a4 O-O $6 { Inaccuracy. Best was b5b4. } 21. axb5 axb5 22. Ra7 Rfe8 23. g3 d5 24. Nd4 Bc5 25. Nxb5 $4 { Blunder. Best was a7b7. } 25... Bxa7 26. Nxa7 Rc2 27. b4 Rb2 $2 { Mistake. Best was e8b8. } 28. Rd4 $6 { Inaccuracy. Best was a7c6. } 28... Rb8 29. Nc6 Rb6 30. Na5 Rb6xb4 31. Rxb4 Rxb4 32. Kg2 d4 $2 { Mistake. Best was g8f8. } 33. Nc6 $4 { Blunder. Best was g2f3. } 33... Rc4 $4 { Blunder. Best was d4d3. } 34. Na5 Ra4 $2 { Mistake. Best was c4c2. } 35. Nb3 d3 $6 { Inaccuracy. Best was g8g7. } 36. f4 $4 { Blunder. Best was g2f3. } 36... Ra2+ 0-1
+1. e4 c5 2. Nf3 d6 3. c3 { Sicilian Defense, Delayed Alapin } Nf6 4. Qa4+ Bd7 5. Bb5 a6 6. Bxd7+ Qxd7 7. Qc4 b5 8. Qe2 Nc6 9. d4 Qg4 10. O-O Qxe4 11. Qd1?! { (0.00 → -0.56) Inaccuracy. } 11... cxd4 12. Nbd2? { (-0.40 → -1.49) Mistake. } 12... Qd5 13. cxd4 Nxd4 14. Nxd4 Qxd4 15. Nb3?! { (-1.69 → -2.42) Inaccuracy. } 15... Qxd1 16. Rxd1 Rc8?! { (-2.58 → -1.69) Inaccuracy. } 17. Bd2 e6 18. Bc3?! { (-2.18 → -2.98) Inaccuracy. } 18... Be7 19. Bxf6 gxf6 20. a4 O-O?! { (-2.98 → -2.46) Inaccuracy. } 21. axb5 axb5 22. Ra7 Rfe8 23. g3 d5 24. Nd4 Bc5 25. Nxb5?? { (-2.66 → -6.42) Blunder. } 25... Bxa7 26. Nxa7 Rc2 27. b4 Rb2? { (-7.31 → -5.49) Mistake. } 28. Rd4?! { (-5.49 → -6.30) Inaccuracy. } 28... Rb8 29. Nc6 Rb6 30. Na5 Rb6xb4 31. Rxb4 Rxb4 32. Kg2?! { (-7.39 → -7.91) Inaccuracy. } 32... d4? { (-7.91 → -6.82) Mistake. } 33. Nc6?? { (-6.82 → -11.15) Blunder. } 33... Rc4? { (-11.15 → -7.75) Mistake. } 34. Na5 Ra4? { (-8.08 → -6.94) Mistake. } 35. Nb3 d3?! { (-7.31 → -6.66) Inaccuracy. } 36. f4?? { (-6.66 → -16.72) Blunder. } 36... Ra2+ { White resigns } 0-1

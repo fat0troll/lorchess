@@ -1,13 +1,16 @@
 [Event "Casual game"]
 [Site "http://lichess.org/rnw1b06e"]
-[Date "2013-02-14"]
+[Date "2013.02.14"]
 [White "Michkova"]
 [Black "LLU"]
 [Result "1-0"]
 [WhiteElo "1282"]
 [BlackElo "1127"]
 [PlyCount "71"]
-[Variant "standard"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "D53"]
+[Opening "Queen's Gambit Declined, Lasker Defense"]
 [Annotator "lichess.org"]
 
-1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 Ne4 6. Bf4 $6 { Inaccuracy. Best was g5e7. } 6... O-O 7. Bd3 Nc6 $6 { Inaccuracy. Best was c7c5. } 8. Nxe4 dxe4 9. Bxe4 Bd7 10. Nf3 $6 { Inaccuracy. Best was g1e2. } 10... Nb4 $2 { Mistake. Best was g7g5. } 11. a3 Na6 $4 { Blunder. Best was b4c6. } 12. Bxb7 Rb8 13. Bxa6 Rxb2 14. c5 c6 $2 { Mistake. Best was d7c6. } 15. Qc1 $4 { Blunder. Best was e1g1. } 15... Qa5+ 16. Nd2 Qxd2+ $4 { Blunder. Best was b2d2. } 17. Qxd2 Rxd2 18. Kxd2 Bd8 $6 { Inaccuracy. Best was g7g5. } 19. Ke2 Ba5 $6 { Inaccuracy. Best was d8f6. } 20. h4 $6 { Inaccuracy. Best was a1b1. } 20... Bc8 21. Bd3 $6 { Inaccuracy. Best was a6c8. } 21... f6 $6 { Inaccuracy. Best was f8e8. } 22. f3 e5 $6 { Inaccuracy. Best was f8f7. } 23. dxe5 fxe5 24. Bxe5 Bf5 $2 { Mistake. Best was f8e8. } 25. Bc4+ Kh8 26. g4 $4 { Blunder. Best was a1b1. } 26... Bc2 $2 { Mistake. Best was f8e8. } 27. h5 Rd8 $2 { Mistake. Best was h7h6. } 28. h6 Rd2+ 29. Kf1 Bd3+ 30. Bxd3 Rxd3 31. Kf2 $4 { Blunder. Best was h6g7. } 31... Rd2+ $2 { Mistake. Best was h8g8. } 32. Kg3 Re2 $4 { Blunder. Best was h8g8. } 33. e4 $4 { Blunder. Best was h6g7. } 33... Bd8 $4 { Checkmate is now unavoidable. Best was h8g8. } 34. Rab1 $2 { Lost forced checkmate sequence. Best was h6g7. } 34... Bg5 $4 { Checkmate is now unavoidable. Best was h8g8. } 35. Rb8+ Bd8 36. Rxd8# 1-0
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 Ne4 { Queen's Gambit Declined, Lasker Defense } 6. Bf4?! { (0.56 → -0.16) Inaccuracy. } 6... O-O 7. Bd3 Nc6?! { (0.32 → 1.01) Inaccuracy. } 8. Nxe4 dxe4 9. Bxe4 Bd7 10. Nf3?! { (1.37 → 0.84) Inaccuracy. } 10... Nb4? { (0.84 → 1.97) Mistake. } 11. a3 Na6?? { (1.89 → 5.69) Blunder. } 12. Bxb7 Rb8 13. Bxa6 Rxb2 14. c5 c6? { (6.38 → 7.71) Mistake. } 15. Qc1?? { (7.71 → 3.59) Blunder. } 15... Qa5+ 16. Nd2 Qxd2+?? { (3.47 → 10.02) Blunder. } 17. Qxd2 Rxd2 18. Kxd2 Bd8 19. Ke2 Ba5 20. h4 Bc8 21. Bd3 f6 22. f3 e5 23. dxe5 fxe5 24. Bxe5 Bf5 25. Bc4+ Kh8 26. g4 Bc2 27. h5 Rd8 28. h6 Rd2+ 29. Kf1 Bd3+ 30. Bxd3 Rxd3 31. Kf2 Rd2+ 32. Kg3 Re2 33. e4 Bd8?! { (25.89 → Mate in 9) Checkmate is now unavoidable. } 34. Rab1?! { (Mate in 9 → 31.91) Lost forced checkmate sequence. } 34... Bg5?! { (31.91 → Mate in 2) Checkmate is now unavoidable. } 35. Rb8+ Bd8 36. Rxd8# { Black is checkmated } 1-0

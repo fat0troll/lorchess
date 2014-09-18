@@ -1,13 +1,16 @@
 [Event "Casual game"]
 [Site "http://lichess.org/wgr13800"]
-[Date "2013-02-04"]
+[Date "2013.02.04"]
 [White "Genuine"]
 [Black "cppmm"]
 [Result "1-0"]
 [WhiteElo "1305"]
 [BlackElo "837"]
 [PlyCount "49"]
-[Variant "standard"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C40"]
+[Opening "King Pawn Game, Busch-Gass Gambit"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Bc5 $6 { Inaccuracy. Best was g8f6. } 3. Nc3 $6 { Inaccuracy. Best was f3e5. } 3... Nf6 4. Nxe5 Nxe4 $4 { Blunder. Best was b8c6. } 5. Nxe4 d6 $6 { Inaccuracy. Best was c5e7. } 6. Nf3 $2 { Mistake. Best was e5f7. } 6... O-O 7. d4 Bb6 8. h3 $4 { Blunder. Best was f1e2. } 8... Nc6 $4 { Blunder. Best was f8e8. } 9. Bc4 $4 { Blunder. Best was e4g3. } 9... Bd7 $4 { Blunder. Best was d6d5. } 10. Bb3 $4 { Blunder. Best was e1g1. } 10... a5 $2 { Mistake. Best was d8e7. } 11. O-O a4 12. Bd5 Nb4 13. Bxb7 Ra5 $6 { Inaccuracy. Best was a8a7. } 14. c3 Nc6 15. Bxc6 $6 { Inaccuracy. Best was d1d3. } 15... Bxc6 16. Re1 d5 $6 { Inaccuracy. Best was f8e8. } 17. Ng3 Bb5 18. Bf4 c5 $2 { Mistake. Best was f7f6. } 19. Nf5 Qc8 $4 { Blunder. Best was c5d4. } 20. Ne7+ Kh8 21. Nxc8 Rxc8 22. Re7 $4 { Blunder. Best was d4c5. } 22... cxd4 $2 { Mistake. Best was a4a3. } 23. Nxd4 Rc4 $4 { Blunder. Best was a4a3. } 24. Nxb5 Rxb5 $4 { Checkmate is now unavoidable. Best was h7h6. } 25. Re8# 1-0
+1. e4 e5 2. Nf3 Bc5?! { King Pawn Game, Busch-Gass Gambit (0.40 → 1.29) Inaccuracy. } 3. Nc3?! { (1.29 → 0.60) Inaccuracy. } 3... Nf6 4. Nxe5 Nxe4?? { (0.80 → 4.12) Blunder. } 5. Nxe4 d6?! { (4.28 → 5.21) Inaccuracy. } 6. Nf3? { (5.21 → 4.08) Mistake. } 6... O-O 7. d4 Bb6 8. h3?? { (4.52 → 0.88) Blunder. } 8... Nc6?? { (0.88 → 4.40) Blunder. } 9. Bc4?? { (4.40 → -0.16) Blunder. } 9... Bd7?? { (-0.16 → 4.88) Blunder. } 10. Bb3?? { (4.88 → 1.61) Blunder. } 10... a5? { (1.61 → 4.56) Mistake. } 11. O-O a4 12. Bd5 Nb4 13. Bxb7 Ra5?! { (4.72 → 5.65) Inaccuracy. } 14. c3 Nc6 15. Bxc6?! { (5.85 → 4.92) Inaccuracy. } 15... Bxc6?! { (4.92 → 5.45) Inaccuracy. } 16. Re1 d5?! { (5.25 → 6.06) Inaccuracy. } 17. Ng3 Bb5 18. Bf4 c5? { (6.10 → 7.19) Mistake. } 19. Nf5 Qc8? { (7.23 → 18.70) Mistake. } 20. Ne7+ Kh8 21. Nxc8 Rxc8 22. Re7 cxd4 23. Nxd4 Rc4 24. Nxb5 Rxb5?! { (28.88 → Mate in 1) Checkmate is now unavoidable. } 25. Re8# { Black is checkmated } 1-0

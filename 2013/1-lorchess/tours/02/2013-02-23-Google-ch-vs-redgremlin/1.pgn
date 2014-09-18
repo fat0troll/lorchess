@@ -1,6 +1,6 @@
 [Event "Casual game"]
-[Site "http://lichess.org/analyse/nylny5e2"]
-[Date "2013-02-20"]
+[Site "http://lichess.org/nylny5e2"]
+[Date "2013.02.20"]
 [White "gremlin_the_red"]
 [Black "Google-ch"]
 [Result "1-0"]
@@ -8,6 +8,9 @@
 [BlackElo "1093"]
 [PlyCount "55"]
 [Variant "Standard"]
+[TimeControl "1200+10"]
+[ECO "A41"]
+[Opening "Rat Defense, English Rat"]
 [Annotator "lichess.org"]
 
-1. d4 d6 2. c4 e5 3. d5 f6 4. e4 c5 $2 { Mistake. Best was f6f5. } 5. Nc3 h5 6. g3 $6 { Inaccuracy. Best was g1f3. } 6... Bg4 7. f3 Bd7 8. Bg2 g5 $6 { Inaccuracy. Best was b8a6. } 9. f4 exf4 10. gxf4 gxf4 11. Bxf4 Bg4 $6 { Inaccuracy. Best was d8b6. } 12. Nf3 Nh6 $6 { Inaccuracy. Best was f8h6. } 13. Qd2 $2 { Mistake. Best was h2h3. } 13... f5 $2 { Mistake. Best was h6f7. } 14. O-O-O $6 { Inaccuracy. Best was f3g5. } 14... Na6 $2 { Mistake. Best was h6f7. } 15. Rde1 Nb4 $2 { Mistake. Best was g4f3. } 16. exf5+ Kf7 $6 { Inaccuracy. Best was e8d7. } 17. Ng5+ $6 { Inaccuracy. Best was a2a3. } 17... Kg8 18. Ne6 Qe8 $2 { Mistake. Best was d8a5. } 19. Nxf8 $2 { Mistake. Best was a2a3. } 19... Qxf8 20. Be4 Nxa2+ $2 { Mistake. Best was g4f5. } 21. Nxa2 Re8 $6 { Inaccuracy. Best was h6f5. } 22. h3 Bxf5 23. Rhg1+ Kh7 $4 { Blunder. Best was h6g4. } 24. Bxh6 Qxh6 25. Bxf5+ Qg6 26. Bxg6+ Kg7 27. Bxe8+ Kf8 28. Qf4# 1-0
+1. d4 d6 2. c4 e5 { Rat Defense, English Rat } 3. d5 f6 4. e4 c5? { (0.28 → 1.57) Mistake. } 5. Nc3 h5 6. g3?! { (1.69 → 0.88) Inaccuracy. } 6... Bg4 7. f3 Bd7 8. Bg2 g5?! { (0.80 → 1.41) Inaccuracy. } 9. f4 exf4 10. gxf4 gxf4 11. Bxf4 Bg4?! { (1.53 → 2.18) Inaccuracy. } 12. Nf3 Nh6?! { (1.73 → 2.66) Inaccuracy. } 13. Qd2? { (2.66 → 1.65) Mistake. } 13... f5? { (1.65 → 3.75) Mistake. } 14. O-O-O?! { (3.75 → 3.03) Inaccuracy. } 14... Na6? { (3.03 → 5.33) Mistake. } 15. Rde1?! { (5.33 → 4.44) Inaccuracy. } 15... Nb4? { (4.44 → 6.58) Mistake. } 16. exf5+ Kf7?! { (6.42 → 7.15) Inaccuracy. } 17. Ng5+?! { (7.15 → 6.58) Inaccuracy. } 17... Kg8 18. Ne6 Qe8? { (6.82 → 8.32) Mistake. } 19. Nxf8? { (8.32 → 6.18) Mistake. } 19... Qxf8 20. Be4 Nxa2+? { (6.22 → 8.56) Mistake. } 21. Nxa2 Re8?! { (8.80 → 9.45) Inaccuracy. } 22. h3 Bxf5 23. Rhg1+ Kh7 24. Bxh6 Qxh6 25. Bxf5+ Qg6 26. Bxg6+ Kg7 27. Bxe8+ Kf8 28. Qf4# { Black is checkmated } 1-0

@@ -1,6 +1,6 @@
 [Event "Casual game"]
-[Site "http://lichess.org/analyse/7dbg0n8r"]
-[Date "2013-02-22"]
+[Site "http://lichess.org/7dbg0n8r"]
+[Date "2013.02.22"]
 [White "snoopcatt"]
 [Black "Genuine"]
 [Result "1-0"]
@@ -8,6 +8,9 @@
 [BlackElo "1331"]
 [PlyCount "93"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B51"]
+[Opening "Sicilian Defense, Canal Attack"]
 [Annotator "lichess.org"]
 
-1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. O-O a6 5. Bxd7+ Bxd7 6. d4 cxd4 7. Qxd4 Nf6 8. Bg5 e5 9. Qc4 $6 { Inaccuracy. Best was d4b4. } 9... Bb5 10. Qb3 Bxf1 11. Kxf1 $6 { Inaccuracy. Best was g5f6. } 11... Rb8 $2 { Mistake. Best was f8e7. } 12. Nc3 Be7 13. Qa4+ $6 { Inaccuracy. Best was a1d1. } 13... Qd7 14. Bxf6 $6 { Inaccuracy. Best was a4b3. } 14... Qxa4 15. Nxa4 Bxf6 16. Nb6 Bd8 17. Nc4 Ke7 18. Rd1 Bc7 19. Nh4 $6 { Inaccuracy. Best was c4e3. } 19... g6 20. g3 b5 21. Ne3 Bb6 22. Nd5+ Ke6 23. Nf3 h6 24. Rd3 Rhc8 25. c3 Bd8 26. Nb4 $6 { Inaccuracy. Best was d3d1. } 26... a5 27. Nd5 f5 28. exf5+ $6 { Inaccuracy. Best was f3d2. } 28... gxf5 29. h3 $2 { Mistake. Best was d5e3. } 29... e4 30. Nf4+ Kd7 $4 { Blunder. Best was e6f7. } 31. Ne5+ Kc7 $2 { Mistake. Best was d7e7. } 32. Ne6+ Kb7 33. Rxd6 Bg5 $2 { Mistake. Best was b8a8. } 34. Nf7 $2 { Mistake. Best was e5d7. } 34... Rc6 $2 { Mistake. Best was b5b4. } 35. Ned8+ Bxd8 36. Nxd8+ Rxd8 37. Rxd8 Rg6 $6 { Inaccuracy. Best was c6c5. } 38. Rd5 Kc6 $6 { Inaccuracy. Best was b7b6. } 39. Rxf5 Rd6 $6 { Inaccuracy. Best was a5a4. } 40. Ke2 Re6 $6 { Inaccuracy. Best was a5a4. } 41. Ke3 $6 { Inaccuracy. Best was a2a4. } 41... Kb6 $2 { Mistake. Best was a5a4. } 42. Rf4 Kc5 43. Rxe4 Rxe4+ $4 { Blunder. Best was e6d6. } 44. Kxe4 Kc4 $4 { Blunder. Best was c5d6. } 45. f4 b4 $4 { Blunder. Best was c4c5. } 46. cxb4 axb4 47. f5 1-0
+1. e4 c5 2. Nf3 d6 3. Bb5+ { Sicilian Defense, Canal Attack } Nd7 4. O-O a6 5. Bxd7+ Bxd7 6. d4 cxd4 7. Qxd4 Nf6 8. Bg5 e5 9. Qc4?! { (0.52 → -0.20) Inaccuracy. } 9... Bb5 10. Qb3 Bxf1 11. Kxf1?! { (-0.20 → -1.01) Inaccuracy. } 11... Rb8? { (-1.01 → 0.00) Mistake. } 12. Nc3 Be7 13. Qa4+?! { (-0.44 → -1.33) Inaccuracy. } 13... Qd7 14. Bxf6?! { (-1.05 → -1.61) Inaccuracy. } 14... Qxa4 15. Nxa4 Bxf6 16. Nb6 Bd8 17. Nc4 Ke7 18. Rd1 Bc7 19. Nh4?! { (-1.37 → -1.93) Inaccuracy. } 19... g6 20. g3 b5 21. Ne3 Bb6 22. Nd5+ Ke6 23. Nf3 h6 24. Rd3 Rhc8 25. c3 Bd8 26. Nb4?! { (-2.46 → -3.43) Inaccuracy. } 26... a5 27. Nd5 f5 28. exf5+?! { (-2.98 → -3.71) Inaccuracy. } 28... gxf5 29. h3? { (-3.71 → -5.13) Mistake. } 29... e4 30. Nf4+ Kd7?? { (-5.61 → -0.16) Blunder. } 31. Ne5+ Kc7? { (-0.24 → 1.29) Mistake. } 32. Ne6+ Kb7 33. Rxd6 Bg5? { (1.33 → 2.46) Mistake. } 34. Nf7? { (2.46 → -0.04) Mistake. } 34... Rc6? { (-0.04 → 1.85) Mistake. } 35. Ned8+ Bxd8 36. Nxd8+ Rxd8 37. Rxd8 Rg6?! { (2.18 → 3.15) Inaccuracy. } 38. Rd5 Kc6?! { (3.15 → 3.75) Inaccuracy. } 39. Rxf5 Rd6?! { (3.71 → 4.24) Inaccuracy. } 40. Ke2 Re6?! { (4.20 → 4.88) Inaccuracy. } 41. Ke3?! { (4.88 → 4.08) Inaccuracy. } 41... Kb6? { (4.08 → 5.21) Mistake. } 42. Rf4 Kc5 43. Rxe4 Rxe4+?? { (5.37 → 11.63) Blunder. } 44. Kxe4 Kc4 45. f4 b4 46. cxb4 axb4 47. f5 { Black resigns } 1-0

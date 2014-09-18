@@ -1,13 +1,16 @@
 [Event "Rated game"]
-[Site "http://lichess.org/analyse/ddm0wefv"]
-[Date "2013-02-23"]
+[Site "http://lichess.org/ddm0wefv"]
+[Date "2013.02.23"]
 [White "zodd"]
 [Black "txgames"]
 [Result "1-0"]
-[WhiteElo "1331"]
-[BlackElo "970"]
+[WhiteElo "1821"]
+[BlackElo "1318"]
 [PlyCount "33"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B00"]
+[Opening "King's Pawn Opening, General"]
 [Annotator "lichess.org"]
 
-1. e4 d6 2. Nf3 Nf6 3. Nc3 Nbd7 4. Bc4 e6 5. d4 c6 6. Bb3 d5 $6 { Inaccuracy. Best was f8e7. } 7. e5 Ne4 $6 { Inaccuracy. Best was f6g4. } 8. Nxe4 dxe4 9. Ng5 h6 $6 { Inaccuracy. Best was c6c5. } 10. Nxe4 c5 11. c3 cxd4 12. cxd4 Be7 $6 { Inaccuracy. Best was d8h4. } 13. O-O O-O 14. Be3 b6 15. Qg4 f6 $4 { Blunder. Best was g8h8. } 16. Bxh6 fxe5 $4 { Checkmate is now unavoidable. Best was f8f7. } 17. Qxg7# 1-0
+1. e4 { King's Pawn Opening, General } d6 2. Nf3 Nf6 3. Nc3 Nbd7 4. Bc4 e6 5. d4 c6 6. Bb3 d5?! { (0.60 → 1.49) Inaccuracy. } 7. e5 Ne4?! { (1.37 → 2.26) Inaccuracy. } 8. Nxe4 dxe4 9. Ng5 h6?! { (2.18 → 2.70) Inaccuracy. } 10. Nxe4 c5 11. c3 cxd4 12. cxd4 Be7?! { (2.22 → 2.82) Inaccuracy. } 13. O-O O-O 14. Be3 b6 15. Qg4 f6?? { (2.86 → 9.29) Blunder. } 16. Bxh6 fxe5?! { (9.41 → Mate in 1) Checkmate is now unavoidable. } 17. Qxg7# { Black is checkmated } 1-0

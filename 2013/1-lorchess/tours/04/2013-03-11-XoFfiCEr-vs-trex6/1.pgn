@@ -1,6 +1,6 @@
 [Event "Casual game"]
-[Site "http://lichess.org/analyse/nmcd3s5t"]
-[Date "2013-03-11"]
+[Site "http://lichess.org/nmcd3s5t"]
+[Date "2013.03.11"]
 [White "txgames"]
 [Black "XRat"]
 [Result "1/2-1/2"]
@@ -8,6 +8,9 @@
 [BlackElo "895"]
 [PlyCount "66"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C40"]
+[Opening "King Pawn Game, Damiano Defense"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 f6 $2 { Mistake. Best was b8c6. } 3. d4 Nc6 4. d5 Nd4 $6 { Inaccuracy. Best was c6e7. } 5. Nxd4 exd4 6. Qxd4 c5 7. Qe3 b6 $6 { Inaccuracy. Best was f8d6. } 8. c4 $2 { Mistake. Best was e3g3. } 8... Bd6 9. g3 $6 { Inaccuracy. Best was b1c3. } 9... Be5 10. Qd3 d6 11. Be3 $4 { Blunder. Best was f2f4. } 11... Ne7 $4 { Blunder. Best was e5b2. } 12. f4 $4 { Blunder. Best was b1c3. } 12... Bxb2 13. Na3 Bxa1 14. Bd2 $2 { Mistake. Best was a3c2. } 14... Bd4 $6 { Inaccuracy. Best was f6f5. } 15. Be3 $2 { Mistake. Best was a3b5. } 15... Bxe3 16. Qxe3 Bd7 17. Bd3 O-O 18. f5 $2 { Mistake. Best was e1g1. } 18... Ba4 $2 { Mistake. Best was e7f5. } 19. h4 $2 { Mistake. Best was e1g1. } 19... Qe8 $2 { Mistake. Best was e7f5. } 20. g4 Nc8 21. g5 $2 { Mistake. Best was e3g3. } 21... Qe5 22. Bb1 $6 { Inaccuracy. Best was d3c2. } 22... Qb2 $2 { Mistake. Best was f6g5. } 23. gxf6 Rxf6 24. O-O Qd4 $2 { Mistake. Best was f6h6. } 25. Re1 $6 { Inaccuracy. Best was e3d4. } 25... Qxe3+ 26. Rxe3 Be8 $6 { Inaccuracy. Best was c8e7. } 27. Rh3 $6 { Inaccuracy. Best was b1d3. } 27... a5 28. Nc2 Na7 29. a4 $2 { Mistake. Best was c2e3. } 29... Bxa4 30. Ne3 Re8 31. Ng4 Rff8 32. h5 h6 $6 { Inaccuracy. Best was a4d1. } 33. Rg3 Kh8 1/2-1/2
+1. e4 e5 2. Nf3 f6? { King Pawn Game, Damiano Defense (0.48 → 1.65) Mistake. } 3. d4 Nc6 4. d5 Nd4?! { (1.57 → 2.18) Inaccuracy. } 5. Nxd4 exd4 6. Qxd4 c5 7. Qe3 b6?! { (2.66 → 3.43) Inaccuracy. } 8. c4? { (3.43 → 2.06) Mistake. } 8... Bd6 9. g3?! { (2.30 → 1.45) Inaccuracy. } 9... Be5 10. Qd3 d6 11. Be3?? { (1.93 → -4.36) Blunder. } 11... Ne7?? { (-4.36 → 1.57) Blunder. } 12. f4?? { (1.57 → -4.40) Blunder. } 12... Bxb2 13. Na3 Bxa1 14. Bd2? { (-4.56 → -6.06) Mistake. } 14... Bd4?! { (-6.06 → -5.13) Inaccuracy. } 15. Be3? { (-5.13 → -6.54) Mistake. } 15... Bxe3 16. Qxe3 Bd7 17. Bd3 O-O 18. f5? { (-6.42 → -8.40) Mistake. } 18... Ba4? { (-8.40 → -6.38) Mistake. } 19. h4? { (-6.38 → -8.64) Mistake. } 19... Qe8? { (-8.64 → -6.26) Mistake. } 20. g4 Nc8 21. g5? { (-6.42 → -7.47) Mistake. } 21... Qe5 22. Bb1?! { (-7.59 → -8.48) Inaccuracy. } 22... Qb2? { (-8.48 → -6.98) Mistake. } 23. gxf6 Rxf6 24. O-O?! { (-7.27 → -7.95) Inaccuracy. } 24... Qd4? { (-7.95 → -6.42) Mistake. } 25. Re1?! { (-6.42 → -7.39) Inaccuracy. } 25... Qxe3+ 26. Rxe3 Be8?! { (-7.35 → -6.50) Inaccuracy. } 27. Rh3?! { (-6.50 → -7.11) Inaccuracy. } 27... a5 28. Nc2 Na7 29. a4? { (-6.70 → -8.32) Mistake. } 29... Bxa4 30. Ne3 Re8 31. Ng4 Rff8 32. h5?! { (-7.95 → -8.64) Inaccuracy. } 32... h6?! { (-8.64 → -7.87) Inaccuracy. } 33. Rg3 Kh8 { Draw } 1/2-1/2

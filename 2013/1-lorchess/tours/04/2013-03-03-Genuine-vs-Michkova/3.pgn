@@ -1,6 +1,6 @@
 [Event "Casual game"]
-[Site "http://lichess.org/analyse/zzz00wc1"]
-[Date "2013-03-03"]
+[Site "http://lichess.org/zzz00wc1"]
+[Date "2013.03.03"]
 [White "Genuine"]
 [Black "Michkova"]
 [Result "1-0"]
@@ -8,6 +8,9 @@
 [BlackElo "1238"]
 [PlyCount "57"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C62"]
+[Opening "Spanish Game, Steinitz Defense"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. h3 Bd7 5. Nc3 Nf6 6. d3 Be7 7. Bg5 h6 8. Bh4 O-O 9. O-O a6 10. Bc4 Na5 11. Bxf6 Bxf6 12. Bd5 c6 13. Bb3 Nxb3 14. axb3 Be6 15. Ne2 Be7 16. d4 exd4 17. Nexd4 d5 18. Re1 dxe4 $6 { Inaccuracy. Best was e7c5. } 19. Nxe6 fxe6 20. Rxe4 Qc8 21. Qe2 Bf6 22. c3 Re8 23. Re1 Qd7 24. Rxe6 Rad8 $4 { Blunder. Best was e8e6. } 25. Rxe8+ Rxe8 26. Qxe8+ Qxe8 27. Rxe8+ Kh7 28. Rb8 b5 29. Rb6 1-0
+1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 { Spanish Game, Steinitz Defense } 4. h3 Bd7 5. Nc3 Nf6 6. d3 Be7 7. Bg5 h6 8. Bh4 O-O 9. O-O a6 10. Bc4 Na5 11. Bxf6 Bxf6 12. Bd5 c6 13. Bb3 Nxb3 14. axb3 Be6 15. Ne2 Be7 16. d4 exd4 17. Nexd4 d5 18. Re1 dxe4?! { (-0.08 → 0.72) Inaccuracy. } 19. Nxe6 fxe6 20. Rxe4 Qc8 21. Qe2 Bf6 22. c3 Re8 23. Re1 Qd7 24. Rxe6 Rad8?? { (0.80 → 10.50) Blunder. } 25. Rxe8+ Rxe8 26. Qxe8+ Qxe8 27. Rxe8+ Kh7 28. Rb8 b5 29. Rb6 { Black resigns } 1-0

@@ -1,13 +1,16 @@
 [Event "Rated game"]
-[Site "http://lichess.org/analyse/gnys40ay"]
-[Date "2013-03-04"]
+[Site "http://lichess.org/gnys40ay"]
+[Date "2013.03.04"]
 [White "fat0troll"]
 [Black "snoopcatt"]
 [Result "0-1"]
-[WhiteElo "1009"]
-[BlackElo "1266"]
+[WhiteElo "1339"]
+[BlackElo "1584"]
 [PlyCount "36"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B20"]
+[Opening "Sicilian Defense, General"]
 [Annotator "lichess.org"]
 
-1. e4 c5 2. d3 Nc6 3. Be2 Nf6 4. Nf3 g6 5. O-O Bg7 6. Bd2 O-O 7. Nc3 d5 8. exd5 Nxd5 9. Nxd5 Qxd5 10. c4 Qd6 11. Rc1 $2 { Mistake. Best was d2c3. } 11... Bxb2 12. Rc2 Be5 $2 { Mistake. Best was b2f6. } 13. g3 $2 { Mistake. Best was f3e5. } 13... Bh3 14. Re1 f5 $2 { Mistake. Best was e5f6. } 15. Bf4 $4 { Blunder. Best was d2h6. } 15... Bxf4 16. gxf4 Qxf4 17. Qd2 $4 { Checkmate is now unavoidable. Best was g1h1. } 17... Qg4+ 18. Kh1 Qg2# 0-1
+1. e4 c5 { Sicilian Defense, General } 2. d3 Nc6 3. Be2 Nf6 4. Nf3 g6 5. O-O Bg7 6. Bd2 O-O 7. Nc3 d5 8. exd5 Nxd5 9. Nxd5 Qxd5 10. c4 Qd6 11. Rc1? { (-0.52 → -1.53) Mistake. } 11... Bxb2 12. Rc2 Be5? { (-1.89 → -0.72) Mistake. } 13. g3? { (-0.72 → -2.06) Mistake. } 13... Bh3 14. Re1 f5? { (-2.06 → -0.48) Mistake. } 15. Bf4?? { (-0.48 → -3.67) Blunder. } 15... Bxf4 16. gxf4 Qxf4 17. Qd2? { (-3.63 → Mate in 2) Checkmate is now unavoidable. } 17... Qg4+ 18. Kh1 Qg2# { White is checkmated } 0-1

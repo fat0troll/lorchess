@@ -1,13 +1,16 @@
 [Event "Rated game"]
-[Site "http://lichess.org/analyse/16bzfhra"]
-[Date "2013-04-10"]
+[Site "http://lichess.org/16bzfhra"]
+[Date "2013.04.10"]
 [White "zodd"]
 [Black "snoopcatt"]
 [Result "1-0"]
-[WhiteElo "1377"]
-[BlackElo "1256"]
+[WhiteElo "1861"]
+[BlackElo "1586"]
 [PlyCount "73"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B34"]
+[Opening "Sicilian Defense, Accelerated Dragon, Modern Variation"]
 [Annotator "lichess.org"]
 
-1. e4 c5 2. Nf3 Nc6 3. d4 $6 { Inaccuracy. Best was f1b5. } 3... cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 e6 $2 { Mistake. Best was g8f6. } 7. Bb5 $2 { Mistake. Best was d4b5. } 7... Nge7 8. Qd2 a6 9. Ba4 b5 10. Bb3 a5 $2 { Mistake. Best was e8g8. } 11. a3 $2 { Mistake. Best was d4b5. } 11... a4 12. Ba2 b4 $6 { Inaccuracy. Best was d8a5. } 13. axb4 a3 $6 { Inaccuracy. Best was c6b4. } 14. Bb3 $6 { Inaccuracy. Best was b2a3. } 14... Qb6 $4 { Blunder. Best was c6b4. } 15. Nxc6 $4 { Blunder. Best was d4e6. } 15... Qxc6 16. Bd4 axb2 17. Rxa8 Qxa8 $2 { Mistake. Best was b2b1q. } 18. O-O $4 { Blunder. Best was d4g7. } 18... O-O $6 { Inaccuracy. Best was g7d4. } 19. Bxg7 Kxg7 20. Rb1 Qa1 $4 { Blunder. Best was a8b8. } 21. Ba2 Bb7 $2 { Mistake. Best was e7c6. } 22. f3 $4 { Blunder. Best was d2e1. } 22... Rc8 $4 { Blunder. Best was f8a8. } 23. Qe1 Rxc3 $4 { Blunder. Best was e7c6. } 24. Qxc3+ Kg8 $2 { Mistake. Best was f7f6. } 25. Qxb2 $4 { Blunder. Best was b1a1. } 25... Qxb2 26. Rxb2 d5 27. exd5 exd5 28. c3 Kf8 29. Rd2 h5 $2 { Mistake. Best was f8e8. } 30. c4 dxc4 $2 { Mistake. Best was f8e8. } 31. Bxc4 $2 { Mistake. Best was d2d8. } 31... Nc6 $6 { Inaccuracy. Best was f8e8. } 32. b5 Na5 33. Bd5 $2 { Mistake. Best was c4a2. } 33... Bc8 $4 { Blunder. Best was b7d5. } 34. b6 Ke7 $4 { Blunder. Best was c8b7. } 35. Ra2 Bb7 $4 { Blunder. Best was a5c6. } 36. Rxa5 Bxd5 $4 { Checkmate is now unavoidable. Best was b7c8. } 37. Rxd5 1-0
+1. e4 c5 2. Nf3 Nc6 3. d4?! { (0.72 → 0.00) Inaccuracy. } 3... cxd4 4. Nxd4 g6 5. Nc3 { Sicilian Defense, Accelerated Dragon, Modern Variation } Bg7 6. Be3 e6? { (0.52 → 2.02) Mistake. } 7. Bb5? { (2.02 → 0.68) Mistake. } 7... Nge7 8. Qd2 a6 9. Ba4 b5 10. Bb3 a5? { (0.60 → 2.58) Mistake. } 11. a3? { (2.58 → 0.84) Mistake. } 11... a4 12. Ba2 b4?! { (0.88 → 1.61) Inaccuracy. } 13. axb4 a3?! { (1.61 → 2.38) Inaccuracy. } 14. Bb3?! { (2.38 → 1.69) Inaccuracy. } 14... Qb6?? { (1.69 → 7.47) Blunder. } 15. Nxc6?? { (7.47 → 2.10) Blunder. } 15... Qxc6 16. Bd4 axb2 17. Rxa8 Qxa8? { (1.81 → 4.40) Mistake. } 18. O-O?? { (4.40 → 0.72) Blunder. } 18... O-O?! { (0.72 → 1.53) Inaccuracy. } 19. Bxg7 Kxg7 20. Rb1 Qa1?? { (1.53 → 6.22) Blunder. } 21. Ba2 Bb7? { (6.82 → 8.20) Mistake. } 22. f3?? { (8.20 → 0.00) Blunder. } 22... Rc8?? { (0.00 → 8.08) Blunder. } 23. Qe1 Rxc3? { (8.12 → 12.56) Mistake. } 24. Qxc3+ Kg8 25. Qxb2?? { (13.73 → 5.45) Blunder. } 25... Qxb2 26. Rxb2 d5 27. exd5 exd5 28. c3 Kf8 29. Rd2 h5? { (5.65 → 6.66) Mistake. } 30. c4 dxc4? { (6.74 → 9.29) Mistake. } 31. Bxc4? { (9.29 → 6.94) Mistake. } 31... Nc6?! { (6.94 → 7.67) Inaccuracy. } 32. b5 Na5 33. Bd5? { (8.28 → 6.46) Mistake. } 33... Bc8?? { (6.46 → 9.77) Blunder. } 34. b6 Ke7 35. Ra2 Bb7 36. Rxa5 Bxd5?! { (27.79 → Mate in 9) Checkmate is now unavoidable. } 37. Rxd5 { Black resigns } 1-0

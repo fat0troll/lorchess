@@ -1,13 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/1hi0n6c1"]
-[Date "2013-02-03"]
+[Date "2013.02.03"]
 [White "LOR_J"]
 [Black "gremlin_the_red"]
 [Result "0-1"]
-[WhiteElo "1097"]
-[BlackElo "1516"]
+[WhiteElo "1513"]
+[BlackElo "1994"]
 [PlyCount "80"]
-[Variant "standard"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B30"]
+[Opening "Sicilian Defense, Old Sicilian, General"]
 [Annotator "lichess.org"]
 
-1. e4 c5 2. Nf3 Nc6 3. Bc4 g6 4. O-O Bg7 5. c3 $6 { Inaccuracy. Best was d2d3. } 5... d6 6. d4 cxd4 7. cxd4 Nf6 8. Nc3 O-O 9. h3 $2 { Mistake. Best was d4d5. } 9... a6 $2 { Mistake. Best was f6e4. } 10. Qe2 b5 11. Bb3 Bb7 12. e5 dxe5 $6 { Inaccuracy. Best was f6d7. } 13. dxe5 Ne8 $6 { Inaccuracy. Best was f6d7. } 14. Ng5 $2 { Mistake. Best was f1d1. } 14... Nd4 15. Qe3 Nxb3 16. axb3 e6 17. f4 Nc7 18. Qg3 Nd5 19. Qh4 $6 { Inaccuracy. Best was g3f2. } 19... h6 20. Nf3 Qxh4 21. Nxh4 Rfd8 22. g4 $2 { Mistake. Best was h4f3. } 22... Nxf4 $2 { Mistake. Best was d5c3. } 23. Bxf4 g5 24. Bxg5 hxg5 25. Nf3 Bxf3 26. Rxf3 Bxe5 27. Raf1 Rd7 $6 { Inaccuracy. Best was e5f4. } 28. Ne4 Bf4 $4 { Blunder. Best was e5b2. } 29. h4 $4 { Blunder. Best was e4f6. } 29... Kg7 30. Nxg5 Bxg5 31. hxg5 Rc8 32. Rf1f2 Rc1+ 33. Kg2 Rc6 $6 { Inaccuracy. Best was c1c5. } 34. Kg3 Rc5 35. Kh4 b4 36. Kh5 a5 37. Rf6 Rc1 38. Rh2 $2 { Mistake. Best was h5h4. } 38... Rd8 39. Rh6 Rg1 40. Kh4 $2 { Mistake. Best was h2h4. } 40... Rd4 0-1
+1. e4 c5 2. Nf3 Nc6 { Sicilian Defense, Old Sicilian, General } 3. Bc4 g6 4. O-O Bg7 5. c3?! { (1.05 → 0.36) Inaccuracy. } 5... d6 6. d4 cxd4 7. cxd4 Nf6 8. Nc3 O-O 9. h3? { (0.80 → -0.64) Mistake. } 9... a6? { (-0.64 → 0.76) Mistake. } 10. Qe2 b5 11. Bb3 Bb7 12. e5 dxe5?! { (0.72 → 1.57) Inaccuracy. } 13. dxe5 Ne8?! { (1.61 → 2.22) Inaccuracy. } 14. Ng5? { (2.22 → -0.40) Mistake. } 14... Nd4 15. Qe3 Nxb3 16. axb3 e6 17. f4 Nc7 18. Qg3 Nd5 19. Qh4?! { (-0.80 → -1.61) Inaccuracy. } 19... h6 20. Nf3 Qxh4 21. Nxh4 Rfd8 22. g4? { (-1.85 → -4.40) Mistake. } 22... Nxf4? { (-4.40 → -2.62) Mistake. } 23. Bxf4 g5 24. Bxg5 hxg5 25. Nf3 Bxf3 26. Rxf3 Bxe5 27. Raf1 Rd7?! { (-2.06 → -1.45) Inaccuracy. } 28. Ne4 Bf4?? { (-1.69 → 4.80) Blunder. } 29. h4?? { (4.80 → -2.14) Blunder. } 29... Kg7 30. Nxg5 Bxg5 31. hxg5 Rc8 32. Rf1f2 Rc1+ 33. Kg2 Rc6?! { (-2.26 → -1.37) Inaccuracy. } 34. Kg3 Rc5 35. Kh4 b4 36. Kh5 a5 37. Rf6 Rc1 38. Rh2? { (-1.49 → -3.87) Mistake. } 38... Rd8 39. Rh6?! { (-3.87 → -4.40) Inaccuracy. } 39... Rg1 40. Kh4? { (-5.17 → -7.07) Mistake. } 40... Rd4 { White resigns } 0-1

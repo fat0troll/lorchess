@@ -1,6 +1,6 @@
 [Event "Casual game"]
-[Site "http://lichess.org/analyse/pdu5mabs"]
-[Date "2013-02-21"]
+[Site "http://lichess.org/pdu5mabs"]
+[Date "2013.02.21"]
 [White "UVV"]
 [Black "doomgl"]
 [Result "1-0"]
@@ -8,6 +8,9 @@
 [BlackElo "1200"]
 [PlyCount "63"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C20"]
+[Opening "King Pawn Game, Leonardis Variation"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. d3 $6 { Inaccuracy. Best was g1f3. } 2... Nf6 3. Bg5 h6 4. Bxf6 gxf6 5. Nf3 b6 $6 { Inaccuracy. Best was d7d5. } 6. Nc3 Bb7 7. d4 Rg8 8. dxe5 fxe5 9. Nxe5 Qe7 10. Qh5 $2 { Mistake. Best was e5c4. } 10... Rg5 11. Qxf7+ Qxf7 12. Nxf7 Kxf7 13. Bc4+ $6 { Inaccuracy. Best was e1c1. } 13... Kg7 14. g3 $6 { Inaccuracy. Best was e1g1. } 14... a6 $2 { Mistake. Best was f8b4. } 15. O-O b5 16. Bd3 Nc6 17. h4 Re5 18. Rae1 $6 { Inaccuracy. Best was a2a4. } 18... Nd4 $6 { Inaccuracy. Best was f8b4. } 19. Re3 $6 { Inaccuracy. Best was f2f4. } 19... b4 $6 { Inaccuracy. Best was f8c5. } 20. f4 $2 { Mistake. Best was c3d5. } 20... Re6 $6 { Inaccuracy. Best was e5a5. } 21. f5 Re5 22. f6+ Kf7 23. Bc4+ $2 { Mistake. Best was c3d1. } 23... Ne6 24. Rd3 Bc5+ 25. Kh2 bxc3 26. Rxd7+ Kg6 $4 { Blunder. Best was f7e8. } 27. bxc3 $4 { Blunder. Best was c4e6. } 27... Rxe4 28. Bxe6 $4 { Blunder. Best was c4d3. } 28... Rxh4+ $4 { Blunder. Best was e4e2. } 29. gxh4 Re8 $4 { Checkmate is now unavoidable. Best was h6h5. } 30. Rg7+ Kh5 31. Bf7+ Kxh4 32. Rf4# 1-0
+1. e4 e5 2. d3?! { King Pawn Game, Leonardis Variation (0.44 → -0.24) Inaccuracy. } 2... Nf6 3. Bg5 h6 4. Bxf6 gxf6 5. Nf3 b6?! { (-0.24 → 0.60) Inaccuracy. } 6. Nc3 Bb7 7. d4 Rg8 8. dxe5 fxe5 9. Nxe5?! { (0.84 → 0.12) Inaccuracy. } 9... Qe7 10. Qh5? { (0.48 → -1.33) Mistake. } 10... Rg5 11. Qxf7+ Qxf7 12. Nxf7 Kxf7 13. Bc4+?! { (-1.01 → -1.61) Inaccuracy. } 13... Kg7 14. g3?! { (-1.45 → -2.26) Inaccuracy. } 14... a6? { (-2.26 → -0.92) Mistake. } 15. O-O b5 16. Bd3 Nc6 17. h4 Re5 18. Rae1?! { (-1.97 → -2.74) Inaccuracy. } 18... Nd4?! { (-2.74 → -2.14) Inaccuracy. } 19. Re3?! { (-2.14 → -2.94) Inaccuracy. } 19... b4?! { (-2.94 → -2.38) Inaccuracy. } 20. f4? { (-2.38 → -4.16) Mistake. } 20... Re6?! { (-4.16 → -3.35) Inaccuracy. } 21. f5 Re5 22. f6+ Kf7 23. Bc4+? { (-3.75 → -5.53) Mistake. } 23... Ne6 24. Rd3 Bc5+ 25. Kh2?! { (-5.25 → -5.97) Inaccuracy. } 25... bxc3 26. Rxd7+ Kg6?? { (-6.54 → 1.65) Blunder. } 27. bxc3?? { (1.65 → -4.72) Blunder. } 27... Rxe4 28. Bxe6?? { (-4.48 → -21.17) Blunder. } 28... Rxh4+?? { (-21.17 → 12.76) Blunder. } 29. gxh4 Re8?! { (12.84 → Mate in 3) Checkmate is now unavoidable. } 30. Rg7+ Kh5 31. Bf7+ Kxh4 32. Rf4# { Black is checkmated } 1-0

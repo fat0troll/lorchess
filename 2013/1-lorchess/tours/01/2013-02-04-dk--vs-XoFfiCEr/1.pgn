@@ -1,13 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/k4dkuarp"]
-[Date "2013-02-03"]
+[Date "2013.02.03"]
 [White "dk-"]
 [Black "XRat"]
 [Result "1/2-1/2"]
-[WhiteElo "1067"]
-[BlackElo "864"]
+[WhiteElo "1279"]
+[BlackElo "1138"]
 [PlyCount "80"]
-[Variant "standard"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C20"]
+[Opening "King Pawn Game, Leonardis Variation"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. d3 Nc6 3. Be3 Nd4 $6 { Inaccuracy. Best was g8f6. } 4. f4 $6 { Inaccuracy. Best was g1f3. } 4... f6 $6 { Inaccuracy. Best was f8c5. } 5. fxe5 fxe5 $2 { Mistake. Best was d4c6. } 6. Nf3 $2 { Mistake. Best was d1h5. } 6... Nxf3+ 7. gxf3 $6 { Inaccuracy. Best was d1f3. } 7... d6 $6 { Inaccuracy. Best was f8e7. } 8. d4 Qe7 9. dxe5 Qxe5 10. Qd4 $6 { Inaccuracy. Best was b1c3. } 10... Qxd4 11. Bxd4 c5 12. Bc3 Nf6 13. Bc4 a6 14. e5 $2 { Mistake. Best was c3f6. } 14... Nd7 $2 { Mistake. Best was d6e5. } 15. exd6 b5 16. Bd5 Ra7 17. O-O Bb7 $4 { Blunder. Best was b5b4. } 18. Bxb7 $4 { Blunder. Best was f1e1. } 18... Rxb7 19. Re1+ Kd8 $2 { Mistake. Best was e8f7. } 20. b4 $4 { Blunder. Best was c3a5. } 20... c4 $2 { Mistake. Best was f8d6. } 21. Bd4 $6 { Inaccuracy. Best was b1d2. } 21... Rg8 $2 { Mistake. Best was f8d6. } 22. Nc3 $2 { Mistake. Best was e1e6. } 22... Bxd6 23. a3 Nb6 $6 { Inaccuracy. Best was d7f6. } 24. Ne4 Nd5 $4 { Blunder. Best was b6c8. } 25. Nxd6 Rd7 26. Nf7+ $4 { Blunder. Best was d4e5. } 26... Rxf7 27. Rad1 Rxf3 $4 { Blunder. Best was d8c8. } 28. Bb6+ $2 { Mistake. Best was d4e5. } 28... Kc8 $2 { Mistake. Best was d8d7. } 29. Rxd5 Rf7 30. Rf1 $6 { Inaccuracy. Best was e1e6. } 30... Rxf1+ 31. Kxf1 Rf8+ 32. Ke2 Re8+ 33. Be3 Rd8 $6 { Inaccuracy. Best was c8c7. } 34. Rxd8+ Kxd8 35. Bd4 g6 36. Kf3 Kd7 37. Kg4 Ke6 $2 { Mistake. Best was d7c6. } 38. Kg5 Kd5 $2 { Mistake. Best was e6d7. } 39. Bf6 $2 { Mistake. Best was c2c3. } 39... Ke6 $2 { Mistake. Best was d5d6. } 40. h4 Kf7 1/2-1/2
+1. e4 e5 2. d3 { King Pawn Game, Leonardis Variation } Nc6 3. Be3 Nd4? { (-0.32 → 0.68) Mistake. } 4. f4?! { (0.68 → 0.08) Inaccuracy. } 4... f6?! { (0.08 → 0.92) Inaccuracy. } 5. fxe5 fxe5? { (0.64 → 2.90) Mistake. } 6. Nf3? { (2.90 → 0.52) Mistake. } 6... Nxf3+ 7. gxf3?! { (0.76 → 0.00) Inaccuracy. } 7... d6?! { (0.00 → 0.72) Inaccuracy. } 8. d4 Qe7 9. dxe5 Qxe5 10. Qd4?! { (1.37 → 0.80) Inaccuracy. } 10... Qxd4 11. Bxd4 c5 12. Bc3 Nf6 13. Bc4 a6 14. e5? { (0.96 → -0.16) Mistake. } 14... Nd7? { (-0.16 → 1.01) Mistake. } 15. exd6 b5 16. Bd5 Ra7 17. O-O Bb7?? { (0.44 → 7.39) Blunder. } 18. Bxb7?? { (7.39 → 0.64) Blunder. } 18... Rxb7 19. Re1+ Kd8? { (0.00 → 2.42) Mistake. } 20. b4?? { (2.42 → -0.64) Blunder. } 20... c4? { (-0.64 → 0.88) Mistake. } 21. Bd4?! { (0.88 → 0.16) Inaccuracy. } 21... Rg8? { (0.16 → 1.57) Mistake. } 22. Nc3? { (1.57 → 0.56) Mistake. } 22... Bxd6 23. a3 Nb6?! { (0.48 → 1.05) Inaccuracy. } 24. Ne4 Nd5?? { (1.09 → 5.45) Blunder. } 25. Nxd6 Rd7 26. Nf7+?? { (5.89 → 0.20) Blunder. } 26... Rxf7 27. Rad1 Rxf3?? { (0.20 → 4.44) Blunder. } 28. Bb6+? { (4.44 → 2.06) Mistake. } 28... Kc8? { (2.06 → 3.95) Mistake. } 29. Rxd5 Rf7 30. Rf1?! { (4.48 → 3.75) Inaccuracy. } 30... Rxf1+ 31. Kxf1 Rf8+ 32. Ke2 Re8+ 33. Be3 Rd8?! { (4.08 → 4.64) Inaccuracy. } 34. Rxd8+ Kxd8?! { (4.60 → 5.17) Inaccuracy. } 35. Bd4 g6? { (5.25 → 7.03) Mistake. } 36. Kf3 Kd7? { (7.03 → 10.38) Mistake. } 37. Kg4 Ke6 38. Kg5 Kd5 39. Bf6 Ke6 40. h4 Kf7 { Draw } 1/2-1/2

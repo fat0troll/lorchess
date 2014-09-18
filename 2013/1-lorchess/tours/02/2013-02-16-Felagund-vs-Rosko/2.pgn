@@ -1,13 +1,16 @@
-[Event "Rated game"]
+[Event "Casual game"]
 [Site "http://lichess.org/qwoo9izy"]
-[Date "2013-02-12"]
+[Date "2013.02.12"]
 [White "azimov"]
 [Black "AvImd"]
 [Result "1-0"]
 [WhiteElo "1486"]
 [BlackElo "1360"]
 [PlyCount "71"]
-[Variant "standard"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C39"]
+[Opening "King's Gambit, Kieseritzky Gambit"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. f4 exf4 3. Nf3 g5 4. h4 $6 { Inaccuracy. Best was f1c4. } 4... g4 5. Ne5 Be7 $6 { Inaccuracy. Best was d8e7. } 6. Qxg4 d6 7. Qg7 Bxh4+ 8. Kd1 Qf6 9. Qxf6 $2 { Mistake. Best was g7f7. } 9... Bxf6 10. Nf3 Bg4 11. Nc3 Nc6 12. d3 Nd4 13. Be2 Nxf3 14. gxf3 Be6 15. Bxf4 O-O-O 16. Be3 h5 17. f4 h4 18. f5 Bd7 19. Kd2 d5 $2 { Mistake. Best was g8e7. } 20. Nxd5 Bxb2 21. Rab1 Bf6 $2 { Mistake. Best was b2e5. } 22. Nxf6 Nxf6 23. Bg5 Nxe4+ 24. dxe4 Rde8 25. Rxh4 Rxh4 26. Bxh4 Rxe4 27. Bd3 $4 { Blunder. Best was h4f6. } 27... Rxh4 28. Rg1 Rh2+ 29. Ke3 Bc6 $6 { Inaccuracy. Best was c8d8. } 30. Rg7 Bd5 $6 { Inaccuracy. Best was c6e8. } 31. c4 Bc6 32. Rxf7 Rxa2 $4 { Blunder. Best was h2h3. } 33. f6 Rh2 $4 { Checkmate is now unavoidable. Best was a2a5. } 34. Bf5+ Kd8 35. Rf8+ Be8 36. f7 1-0
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. h4?! { (0.20 → -0.48) Inaccuracy. } 4... g4 5. Ne5 { King's Gambit, Kieseritzky Gambit } Be7?! { (-0.56 → 0.36) Inaccuracy. } 6. Qxg4 d6 7. Qg7 Bxh4+ 8. Kd1 Qf6 9. Qxf6? { (0.64 → -0.44) Mistake. } 9... Bxf6 10. Nf3 Bg4 11. Nc3 Nc6 12. d3 Nd4 13. Be2 Nxf3 14. gxf3 Be6 15. Bxf4 O-O-O 16. Be3 h5 17. f4 h4 18. f5 Bd7 19. Kd2 d5? { (0.12 → 1.89) Mistake. } 20. Nxd5 Bxb2 21. Rab1 Bf6? { (1.73 → 4.00) Mistake. } 22. Nxf6 Nxf6 23. Bg5 Nxe4+ 24. dxe4 Rde8 25. Rxh4 Rxh4 26. Bxh4 Rxe4 27. Bd3?? { (4.12 → -1.49) Blunder. } 27... Rxh4 28. Rg1 Rh2+ 29. Ke3 Bc6?! { (-1.29 → -0.64) Inaccuracy. } 30. Rg7 Bd5?! { (-0.76 → 0.16) Inaccuracy. } 31. c4 Bc6 32. Rxf7 Rxa2?? { (1.13 → 4.72) Blunder. } 33. f6 Rh2? { (4.56 → Mate in 8) Checkmate is now unavoidable. } 34. Bf5+ Kd8 35. Rf8+ Be8 36. f7 { Black resigns } 1-0

@@ -1,13 +1,16 @@
 [Event "Casual game"]
 [Site "http://lichess.org/yojxssov"]
-[Date "2013-02-10"]
+[Date "2013.02.10"]
 [White "zodd"]
 [Black "XRat"]
 [Result "1-0"]
 [WhiteElo "1323"]
 [BlackElo "887"]
 [PlyCount "65"]
-[Variant "standard"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C40"]
+[Opening "King Pawn Game, Damiano Defense"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 f6 $2 { Mistake. Best was b8c6. } 3. Bc4 c6 4. d4 $6 { Inaccuracy. Best was f3e5. } 4... b5 $2 { Mistake. Best was d7d5. } 5. Bb3 d6 6. dxe5 $6 { Inaccuracy. Best was e1g1. } 6... dxe5 7. Qxd8+ $2 { Mistake. Best was d1e2. } 7... Kxd8 8. O-O Nd7 9. Be3 Bc5 10. Bxc5 $6 { Inaccuracy. Best was e3d2. } 10... Nxc5 11. Rd1+ Bd7 $6 { Inaccuracy. Best was d8c7. } 12. Nc3 Nxb3 $6 { Inaccuracy. Best was a7a5. } 13. axb3 Ne7 14. Rd3 $6 { Inaccuracy. Best was b3b4. } 14... Kc7 15. Rad1 Rad8 16. h3 Ng6 17. Na2 $6 { Inaccuracy. Best was d1a1. } 17... a5 18. Nc3 Nf4 19. Rd3d2 b4 20. Na4 Be6 21. Nc5 Rxd2 22. Rxd2 Bc8 23. c3 $6 { Inaccuracy. Best was g1f1. } 23... Rd8 $6 { Inaccuracy. Best was b4c3. } 24. Rxd8 Kxd8 25. Nd2 Ne2+ 26. Kf1 Nc1 $2 { Mistake. Best was b4c3. } 27. Ke1 $2 { Mistake. Best was c3b4. } 27... bxc3 28. bxc3 Na2 29. Na4 $2 { Mistake. Best was d2b1. } 29... Be6 $4 { Blunder. Best was a2c1. } 30. Kd1 Kc7 31. Kc2 Kd6 32. Kb2 Nxc3 $2 { Mistake. Best was a2b4. } 33. Kxc3 1-0
+1. e4 e5 2. Nf3 f6? { King Pawn Game, Damiano Defense (0.40 → 1.69) Mistake. } 3. Bc4 c6 4. d4?! { (1.85 → 1.13) Inaccuracy. } 4... b5? { (1.13 → 2.58) Mistake. } 5. Bb3 d6 6. dxe5?! { (2.66 → 1.73) Inaccuracy. } 6... dxe5 7. Qxd8+? { (2.10 → 1.09) Mistake. } 7... Kxd8 8. O-O Nd7 9. Be3 Bc5 10. Bxc5?! { (0.64 → 0.00) Inaccuracy. } 10... Nxc5 11. Rd1+ Bd7?! { (-0.48 → 0.16) Inaccuracy. } 12. Nc3 Nxb3? { (-0.24 → 0.76) Mistake. } 13. axb3 Ne7 14. Rd3?! { (0.88 → 0.28) Inaccuracy. } 14... Kc7 15. Rad1 Rad8 16. h3 Ng6 17. Na2?! { (0.00 → -0.72) Inaccuracy. } 17... a5 18. Nc3 Nf4 19. Rd3d2 b4 20. Na4 Be6 21. Nc5 Rxd2 22. Rxd2 Bc8 23. c3?! { (-0.12 → -0.92) Inaccuracy. } 23... Rd8?! { (-0.92 → -0.28) Inaccuracy. } 24. Rxd8 Kxd8 25. Nd2 Ne2+ 26. Kf1 Nc1? { (0.04 → 1.85) Mistake. } 27. Ke1? { (1.85 → 0.00) Mistake. } 27... bxc3? { (0.00 → 1.29) Mistake. } 28. bxc3 Na2 29. Na4? { (1.61 → 0.00) Mistake. } 29... Be6?? { (0.00 → 3.35) Blunder. } 30. Kd1 Kc7 31. Kc2 Kd6 32. Kb2 Nxc3? { (3.63 → 4.64) Mistake. } 33. Kxc3 { Black resigns } 1-0

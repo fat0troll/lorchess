@@ -1,6 +1,6 @@
 [Event "Casual game"]
-[Site "http://lichess.org/analyse/ctilvgi5"]
-[Date "2013-02-26"]
+[Site "http://lichess.org/ctilvgi5"]
+[Date "2013.02.26"]
 [White "Genuine"]
 [Black "Michkova"]
 [Result "1-0"]
@@ -8,6 +8,9 @@
 [BlackElo "1238"]
 [PlyCount "113"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C60"]
+[Opening "Spanish Game, General"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. Nc3 Bb4 5. d3 d6 6. h3 Bd7 7. Bg5 a6 8. Bc4 h6 9. Bh4 O-O 10. O-O Bxc3 11. bxc3 Be6 12. Bb3 Na5 13. Bxe6 fxe6 14. Rb1 Qe8 15. Re1 b6 16. d4 exd4 17. cxd4 $6 { Inaccuracy. Best was h4f6. } 17... Qg6 $6 { Inaccuracy. Best was f6h5. } 18. Qd3 Nc6 $2 { Mistake. Best was f6h5. } 19. Qc4 Qe8 $6 { Inaccuracy. Best was c6a5. } 20. d5 Na5 $2 { Mistake. Best was c6e5. } 21. Qxc7 exd5 22. exd5 $6 { Inaccuracy. Best was h4f6. } 22... Nxd5 23. Qxd6 Qf7 $2 { Mistake. Best was e8c6. } 24. Ne5 Qb7 25. Qe6+ Kh7 26. Rbd1 Nf4 27. Qg4 Nd5 $4 { Blunder. Best was a8c8. } 28. Qe4+ Kg8 29. Qxd5+ $4 { Blunder. Best was d1d5. } 29... Qxd5 30. Rxd5 Rac8 $6 { Inaccuracy. Best was f8c8. } 31. Rd2 $6 { Inaccuracy. Best was e5d7. } 31... Rfe8 32. Rde2 g5 33. Bg3 Kg7 $6 { Inaccuracy. Best was a5c4. } 34. Nd3 $6 { Inaccuracy. Best was e5d7. } 34... Rxe2 35. Rxe2 Nc6 $6 { Inaccuracy. Best was c8c4. } 36. c3 $6 { Inaccuracy. Best was e2e6. } 36... Kf6 $6 { Inaccuracy. Best was g7f7. } 37. Nb4 $6 { Inaccuracy. Best was e2b2. } 37... a5 $2 { Mistake. Best was c6b4. } 38. Nd5+ Kf7 39. Nxb6 Rd8 40. Nc4 Rd3 41. Ne5+ Nxe5 42. Bxe5 Rd5 43. Bd4 Kg6 $6 { Inaccuracy. Best was d5f5. } 44. Re5 Rxe5 45. Bxe5 Kf5 46. Bc7 a4 47. f3 Ke6 48. Ba5 $4 { Blunder. Best was g2g4. } 48... Ke5 $4 { Blunder. Best was e6d5. } 49. Kf2 $4 { Blunder. Best was g2g4. } 49... Kf4 $4 { Blunder. Best was e5d5. } 50. c4 $4 { Blunder. Best was a5c7. } 50... Ke5 51. c5 $4 { Blunder. Best was a5c3. } 51... Kd5 52. Bb4 Kc4 $4 { Blunder. Best was d5c6. } 53. a3 $4 { Blunder. Best was c5c6. } 53... Kd5 54. g3 $6 { Inaccuracy. Best was f2e3. } 54... h5 $4 { Blunder. Best was d5c6. } 55. f4 gxf4 $4 { Checkmate is now unavoidable. } 56. gxf4 h4 57. Kf3 1-0
+1. e4 e5 2. Nf3 Nc6 3. Bb5 { Spanish Game, General } Nf6 4. Nc3 Bb4 5. d3 d6 6. h3 Bd7 7. Bg5 a6 8. Bc4 h6 9. Bh4 O-O 10. O-O Bxc3 11. bxc3 Be6 12. Bb3 Na5 13. Bxe6 fxe6 14. Rb1 Qe8 15. Re1 b6 16. d4 exd4 17. cxd4?! { (0.32 → -0.28) Inaccuracy. } 17... Qg6?! { (-0.28 → 0.32) Inaccuracy. } 18. Qd3 Nc6? { (0.00 → 1.33) Mistake. } 19. Qc4 Qe8?! { (1.17 → 1.81) Inaccuracy. } 20. d5 Na5? { (1.65 → 3.03) Mistake. } 21. Qxc7 exd5 22. exd5?! { (3.35 → 2.46) Inaccuracy. } 22... Nxd5 23. Qxd6 Qf7? { (2.70 → 4.24) Mistake. } 24. Ne5 Qb7 25. Qe6+ Kh7 26. Rbd1 Nf4 27. Qg4 Nd5?? { (4.28 → 9.49) Blunder. } 28. Qe4+ Kg8 29. Qxd5+?? { (10.10 → 6.10) Blunder. } 29... Qxd5 30. Rxd5 Rac8?! { (5.97 → 6.62) Inaccuracy. } 31. Rd2?! { (6.62 → 5.89) Inaccuracy. } 31... Rfe8 32. Rde2 g5 33. Bg3 Kg7?! { (5.97 → 6.70) Inaccuracy. } 34. Nd3?! { (6.70 → 6.02) Inaccuracy. } 34... Rxe2 35. Rxe2 Nc6?! { (6.14 → 6.66) Inaccuracy. } 36. c3?! { (6.66 → 5.97) Inaccuracy. } 36... Kf6?! { (5.97 → 6.50) Inaccuracy. } 37. Nb4?! { (6.50 → 5.93) Inaccuracy. } 37... a5? { (5.93 → 7.39) Mistake. } 38. Nd5+ Kf7 39. Nxb6 Rd8 40. Nc4 Rd3 41. Ne5+ Nxe5 42. Bxe5 Rd5 43. Bd4 Kg6?! { (7.95 → 8.80) Inaccuracy. } 44. Re5 Rxe5? { (8.72 → 9.73) Mistake. } 45. Bxe5 Kf5 46. Bc7 a4 47. f3 Ke6 48. Ba5 Ke5 49. Kf2 Kf4 50. c4 Ke5 51. c5 Kd5 52. Bb4 Kc4 53. a3 Kd5 54. g3 h5 55. f4 gxf4?! { (96.07 → Mate in 14) Checkmate is now unavoidable. } 56. gxf4 h4 57. Kf3 { Black resigns } 1-0

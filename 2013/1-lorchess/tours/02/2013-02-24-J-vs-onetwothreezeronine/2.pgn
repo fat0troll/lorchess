@@ -1,13 +1,16 @@
 [Event "Rated game"]
-[Site "http://lichess.org/analyse/ijshj4cm"]
-[Date "2013-02-24"]
+[Site "http://lichess.org/ijshj4cm"]
+[Date "2013.02.24"]
 [White "rogvold"]
 [Black "LOR_J"]
 [Result "0-1"]
-[WhiteElo "1052"]
-[BlackElo "1165"]
+[WhiteElo "1195"]
+[BlackElo "1499"]
 [PlyCount "66"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C26"]
+[Opening "Vienna Game, Falkbeer Variation"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. b3 Bc5 5. Na4 Qe7 $6 { Inaccuracy. Best was f6e4. } 6. Nh4 $4 { Blunder. Best was f1d3. } 6... Nxe4 $2 { Mistake. Best was c5f2. } 7. Bd3 $4 { Blunder. Best was a4c5. } 7... Qxh4 8. O-O $2 { Mistake. Best was d1f3. } 8... Bxf2+ $6 { Inaccuracy. Best was e4f2. } 9. Rxf2 Qxf2+ 10. Kh1 O-O $4 { Blunder. Best was f2d4. } 11. Bxe4 Ne7 $6 { Inaccuracy. Best was d7d5. } 12. c4 $6 { Inaccuracy. Best was d2d3. } 12... f5 13. Bd3 e4 $6 { Inaccuracy. Best was f2d4. } 14. Bc2 c6 $6 { Inaccuracy. Best was e7c6. } 15. c5 $2 { Mistake. Best was c1a3. } 15... b6 $6 { Inaccuracy. Best was b7b5. } 16. b4 bxc5 17. Nxc5 $6 { Inaccuracy. Best was b4c5. } 17... d5 $6 { Inaccuracy. Best was d7d6. } 18. Nb3 f4 19. Nd4 $4 { Blunder. Best was d1g1. } 19... Qxd4 $2 { Mistake. Best was f4f3. } 20. d3 $4 { Blunder. Best was a1b1. } 20... Qxa1 21. Bb3 $4 { Blunder. Best was c1d2. } 21... e3 $2 { Mistake. Best was c8g4. } 22. d4 $4 { Blunder. Best was c1a3. } 22... Ba6 $4 { Blunder. Best was e3e2. } 23. Ba4 $4 { Blunder. Best was c1a3. } 23... Qxa2 24. Qb3 $4 { Checkmate is now unavoidable. Best was a4c6. } 24... Qxb3 $2 { Lost forced checkmate sequence. Best was a2f2. } 25. Bxb3 Nf5 $4 { Blunder. Best was a8b8. } 26. Ba4 $4 { Blunder. Best was b3d1. } 26... Bb5 $4 { Blunder. Best was f5g3. } 27. Bc2 $4 { Blunder. Best was h1g1. } 27... Nxd4 $4 { Blunder. Best was a8e8. } 28. Bb3 $4 { Checkmate is now unavoidable. Best was c2d1. } 28... Be2 $2 { Lost forced checkmate sequence. Best was d4b3. } 29. Ba4 f3 30. Bxc6 $4 { Checkmate is now unavoidable. Best was c1e3. } 30... Nxc6 $2 { Lost forced checkmate sequence. Best was f3f2. } 31. gxf3 Bxf3+ 32. Kg1 Nxb4 $2 { Lost forced checkmate sequence. Best was e3e2. } 33. Bxe3 a5 0-1
+1. e4 e5 2. Nc3 Nf6 { Vienna Game, Falkbeer Variation } 3. Nf3 Nc6 4. b3 Bc5 5. Na4 Qe7?! { (-0.64 → -0.12) Inaccuracy. } 6. Nh4?? { (-0.12 → -4.52) Blunder. } 6... Nxe4? { (-4.52 → -3.11) Mistake. } 7. Bd3?? { (-3.11 → -8.40) Blunder. } 7... Qxh4 8. O-O? { (-8.52 → -10.38) Mistake. } 8... Bxf2+ 9. Rxf2 Qxf2+ 10. Kh1 O-O?? { (-9.69 → -4.64) Blunder. } 11. Bxe4 Ne7?! { (-4.80 → -4.16) Inaccuracy. } 12. c4?! { (-4.16 → -4.92) Inaccuracy. } 12... f5 13. Bd3 e4?! { (-5.09 → -4.48) Inaccuracy. } 14. Bc2 c6?! { (-4.72 → -4.00) Inaccuracy. } 15. c5? { (-4.00 → -5.57) Mistake. } 15... b6?! { (-5.57 → -5.05) Inaccuracy. } 16. b4 bxc5 17. Nxc5?! { (-4.80 → -5.49) Inaccuracy. } 17... d5?! { (-5.49 → -4.76) Inaccuracy. } 18. Nb3 f4 19. Nd4?? { (-5.41 → -15.03) Blunder. } 19... Qxd4 20. d3 Qxa1 21. Bb3 e3 22. d4 Ba6 23. Ba4 Qxa2 24. Qb3?! { (-25.09 → Mate in 6) Checkmate is now unavoidable. } 24... Qxb3?! { (Mate in 6 → -22.42) Lost forced checkmate sequence. } 25. Bxb3 Nf5 26. Ba4 Bb5 27. Bc2 Nxd4 28. Bb3?! { (-29.49 → Mate in 11) Checkmate is now unavoidable. } 28... Be2?! { (Mate in 11 → -31.75) Lost forced checkmate sequence. } 29. Ba4 f3 30. Bxc6?! { (-44.28 → Mate in 7) Checkmate is now unavoidable. } 30... Nxc6?! { (Mate in 7 → -46.14) Lost forced checkmate sequence. } 31. gxf3 Bxf3+ 32. Kg1 Nxb4?! { (Mate in 9 → -26.74) Lost forced checkmate sequence. } 33. Bxe3 a5 { White resigns } 0-1

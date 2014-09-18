@@ -1,6 +1,6 @@
 [Event "Casual game"]
-[Site "http://lichess.org/analyse/fvncyg16"]
-[Date "2013-04-10"]
+[Site "http://lichess.org/fvncyg16"]
+[Date "2013.04.10"]
 [White "Michkova"]
 [Black "Anonymous"]
 [Result "1-0"]
@@ -8,6 +8,9 @@
 [BlackElo "?"]
 [PlyCount "33"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted, General"]
 [Annotator "lichess.org"]
 
-1. d4 d5 2. c4 dxc4 $6 { Inaccuracy. Best was e7e6. } 3. Nc3 Nf6 4. Bg5 $6 { Inaccuracy. Best was e2e3. } 4... e6 $2 { Mistake. Best was c7c6. } 5. Rc1 $6 { Inaccuracy. Best was e2e3. } 5... Be7 $6 { Inaccuracy. Best was c7c6. } 6. e3 Nc6 7. Bxc4 O-O 8. Nf3 b6 9. O-O Bb7 10. Bd3 Nb4 11. Bb1 h6 $6 { Inaccuracy. Best was c7c5. } 12. Bh4 Nbd5 13. a3 $6 { Inaccuracy. Best was c3d5. } 13... c5 14. Qd3 Rc8 $4 { Blunder. Best was d5c3. } 15. Nxd5 Qxd5 $4 { Blunder. Best was b7d5. } 16. Bxf6 Bxf6 $4 { Checkmate is now unavoidable. Best was d5e4. } 17. Qh7# 1-0
+1. d4 d5 2. c4 dxc4?! { Queen's Gambit Accepted, General (0.20 → 0.84) Inaccuracy. } 3. Nc3 Nf6 4. Bg5?! { (0.48 → -0.44) Inaccuracy. } 4... e6? { (-0.44 → 0.60) Mistake. } 5. Rc1?! { (0.60 → -0.24) Inaccuracy. } 5... Be7?! { (-0.24 → 0.36) Inaccuracy. } 6. e3 Nc6 7. Bxc4 O-O 8. Nf3 b6 9. O-O Bb7 10. Bd3 Nb4 11. Bb1 h6?! { (0.44 → 0.96) Inaccuracy. } 12. Bh4 Nbd5 13. a3?! { (0.88 → 0.12) Inaccuracy. } 13... c5 14. Qd3 Rc8?? { (0.08 → 4.88) Blunder. } 15. Nxd5 Qxd5?? { (4.68 → 9.69) Blunder. } 16. Bxf6 Bxf6?! { (9.69 → Mate in 1) Checkmate is now unavoidable. } 17. Qh7# { Black is checkmated } 1-0

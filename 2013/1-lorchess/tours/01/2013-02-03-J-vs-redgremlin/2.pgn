@@ -1,13 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/krntpiab"]
-[Date "2013-02-03"]
+[Date "2013.02.03"]
 [White "gremlin_the_red"]
 [Black "LOR_J"]
 [Result "1-0"]
-[WhiteElo "1519"]
-[BlackElo "1094"]
+[WhiteElo "2001"]
+[BlackElo "1510"]
 [PlyCount "51"]
-[Variant "standard"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "D06"]
+[Opening "Queen's Gambit Declined, Marshall Defense"]
 [Annotator "lichess.org"]
 
-1. d4 d5 2. c4 Nf6 3. Nc3 e6 4. Bg5 h6 5. Bh4 $6 { Inaccuracy. Best was g5f6. } 5... Be7 $6 { Inaccuracy. Best was f8b4. } 6. Nf3 Nc6 7. e3 O-O 8. Bd3 Nb4 9. O-O c5 10. cxd5 Nfxd5 11. Bg3 $6 { Inaccuracy. Best was c3d5. } 11... cxd4 12. exd4 Bf6 $6 { Inaccuracy. Best was b4d3. } 13. Nxd5 Qxd5 14. a3 $6 { Inaccuracy. Best was d3b1. } 14... Nc6 15. Qe2 Nxd4 16. Nxd4 Bxd4 17. Rfd1 Qg5 $2 { Mistake. Best was e6e5. } 18. Qe4 f5 $4 { Blunder. Best was f8d8. } 19. Qxd4 b6 $6 { Inaccuracy. Best was f5f4. } 20. Bh4 $6 { Inaccuracy. Best was a1c1. } 20... Qg6 21. Bc4 Bb7 22. g3 Qe8 $2 { Mistake. Best was a8c8. } 23. Qe5 Rf6 $4 { Blunder. Best was b7d5. } 24. Bxf6 gxf6 $4 { Blunder. Best was b7d5. } 25. Qxe6+ $4 { Blunder. Best was c4e6. } 25... Qxe6 26. Bxe6+ 1-0
+1. d4 d5 2. c4 Nf6 { Queen's Gambit Declined, Marshall Defense } 3. Nc3 e6 4. Bg5 h6 5. Bh4?! { (0.60 → -0.28) Inaccuracy. } 5... Be7?! { (-0.28 → 0.36) Inaccuracy. } 6. Nf3 Nc6 7. e3 O-O 8. Bd3 Nb4 9. O-O c5 10. cxd5 Nfxd5 11. Bg3?! { (0.56 → -0.20) Inaccuracy. } 11... cxd4 12. exd4 Bf6?! { (-0.40 → 0.32) Inaccuracy. } 13. Nxd5 Qxd5 14. a3? { (0.28 → -0.72) Mistake. } 14... Nc6 15. Qe2 Nxd4 16. Nxd4 Bxd4 17. Rfd1 Qg5? { (-0.36 → 1.49) Mistake. } 18. Qe4 f5?? { (1.41 → 4.48) Blunder. } 19. Qxd4 b6?! { (4.36 → 5.13) Inaccuracy. } 20. Bh4?! { (5.13 → 4.52) Inaccuracy. } 20... Qg6 21. Bc4 Bb7 22. g3 Qe8? { (4.28 → 5.29) Mistake. } 23. Qe5 Rf6?? { (5.17 → 16.08) Blunder. } 24. Bxf6 gxf6 25. Qxe6+ Qxe6 26. Bxe6+ { Black resigns } 1-0

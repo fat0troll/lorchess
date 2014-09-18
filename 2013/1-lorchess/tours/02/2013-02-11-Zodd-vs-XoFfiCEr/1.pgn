@@ -1,13 +1,16 @@
 [Event "Casual game"]
 [Site "http://lichess.org/1urv4633"]
-[Date "2013-02-10"]
+[Date "2013.02.10"]
 [White "zodd"]
 [Black "XRat"]
 [Result "1-0"]
 [WhiteElo "1323"]
 [BlackElo "887"]
 [PlyCount "67"]
-[Variant "standard"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C40"]
+[Opening "King Pawn Game, Damiano Defense"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 f6 $2 { Mistake. Best was b8c6. } 3. Nc3 c6 $6 { Inaccuracy. Best was b8c6. } 4. d3 $2 { Mistake. Best was f3e5. } 4... b5 $2 { Mistake. Best was f8b4. } 5. a3 $6 { Inaccuracy. Best was f3e5. } 5... Bb7 6. Be2 $6 { Inaccuracy. Best was d3d4. } 6... Bc5 7. O-O Qb6 $6 { Inaccuracy. Best was g8e7. } 8. Nh4 g6 9. b4 Bd4 10. Bd2 Nh6 11. Rb1 Nf7 12. Bg4 Na6 $6 { Inaccuracy. Best was b6d8. } 13. Ne2 O-O-O $2 { Mistake. Best was b6c7. } 14. Nxd4 $2 { Mistake. Best was c2c3. } 14... Qxd4 15. Be3 Qc3 $4 { Blunder. Best was d4d6. } 16. Ra1 $4 { Blunder. Best was b1b3. } 16... Kb8 17. Nf3 Nc7 $6 { Inaccuracy. Best was h7h5. } 18. Nd2 $2 { Mistake. Best was a1a2. } 18... Ne6 $4 { Blunder. Best was h7h5. } 19. Nb3 $4 { Blunder. Best was a1a2. } 19... Nfg5 $4 { Blunder. Best was e6d4. } 20. Rb1 d5 $4 { Blunder. Best was g5e4. } 21. Bd2 d4 $2 { Mistake. Best was g5e4. } 22. Bxc3 dxc3 23. Bxe6 $6 { Inaccuracy. Best was h2h4. } 23... Nxe6 24. Qe1 Nd4 $6 { Inaccuracy. Best was h8f8. } 25. Nxd4 exd4 26. Ra1 $2 { Mistake. Best was f2f4. } 26... Bc8 27. a4 a6 28. axb5 cxb5 29. f4 $6 { Inaccuracy. Best was f2f3. } 29... f5 $2 { Mistake. Best was h8f8. } 30. exf5 Rhe8 31. Qf2 $6 { Inaccuracy. Best was e1h4. } 31... Bxf5 $2 { Mistake. Best was g6f5. } 32. Rfe1 $6 { Inaccuracy. Best was a1a6. } 32... Kb7 $4 { Blunder. Best was f5c8. } 33. Rxe8 $4 { Blunder. Best was f2f3. } 33... Rxe8 34. Qxd4 1-0
+1. e4 e5 2. Nf3 f6? { King Pawn Game, Damiano Defense (0.40 → 1.69) Mistake. } 3. Nc3 c6?! { (1.65 → 2.38) Inaccuracy. } 4. d3? { (2.38 → 0.92) Mistake. } 4... b5? { (0.92 → 2.30) Mistake. } 5. a3?! { (2.30 → 1.49) Inaccuracy. } 5... Bb7 6. Be2?! { (1.85 → 1.33) Inaccuracy. } 6... Bc5 7. O-O Qb6?! { (1.37 → 1.97) Inaccuracy. } 8. Nh4 g6 9. b4 Bd4 10. Bd2 Nh6 11. Rb1 Nf7 12. Bg4 Na6?! { (1.21 → 2.06) Inaccuracy. } 13. Ne2 O-O-O? { (1.85 → 3.71) Mistake. } 14. Nxd4? { (3.71 → 1.85) Mistake. } 14... Qxd4 15. Be3 Qc3?? { (2.26 → 8.80) Blunder. } 16. Ra1?? { (8.80 → 1.21) Blunder. } 16... Kb8?! { (1.21 → 1.85) Inaccuracy. } 17. Nf3 Nc7?! { (2.54 → 3.47) Inaccuracy. } 18. Nd2? { (3.47 → 1.29) Mistake. } 18... Ne6?? { (1.29 → 8.72) Blunder. } 19. Nb3?? { (8.72 → 1.33) Blunder. } 19... Nfg5?? { (1.33 → 5.21) Blunder. } 20. Rb1 d5?? { (5.21 → 8.36) Blunder. } 21. Bd2 d4? { (8.32 → 11.07) Mistake. } 22. Bxc3 dxc3 23. Bxe6 Nxe6 24. Qe1 Nd4 25. Nxd4 exd4 26. Ra1 Bc8 27. a4 a6 28. axb5 cxb5 29. f4 f5 30. exf5 Rhe8 31. Qf2 Bxf5 32. Rfe1 Kb7 33. Rxe8 Rxe8 34. Qxd4 { Black resigns } 1-0

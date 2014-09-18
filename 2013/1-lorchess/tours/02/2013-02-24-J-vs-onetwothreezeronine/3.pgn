@@ -1,13 +1,16 @@
 [Event "Rated game"]
-[Site "http://lichess.org/analyse/j8nqxju1"]
-[Date "2013-02-24"]
+[Site "http://lichess.org/j8nqxju1"]
+[Date "2013.02.24"]
 [White "LOR_J"]
 [Black "rogvold"]
 [Result "1-0"]
-[WhiteElo "1152"]
-[BlackElo "1089"]
+[WhiteElo "1494"]
+[BlackElo "1247"]
 [PlyCount "13"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C68"]
+[Opening "Spanish Game, Exchange Variation, Lutikov Variation"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 bxc6 $6 { Inaccuracy. Best was d7c6. } 5. Nxe5 $6 { Inaccuracy. Best was e1g1. } 5... c5 $4 { Blunder. Best was d8g5. } 6. Qf3 $4 { Blunder. Best was e5f7. } 6... Ne7 $4 { Checkmate is now unavoidable. Best was d8e7. } 7. Qxf7# 1-0
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 bxc6?! { Spanish Game, Exchange Variation, Lutikov Variation (0.52 → 1.09) Inaccuracy. } 5. Nxe5?! { (1.09 → 0.56) Inaccuracy. } 5... c5?? { (0.56 → 4.44) Blunder. } 6. Qf3?? { (4.44 → 1.09) Blunder. } 6... Ne7? { (1.09 → Mate in 1) Checkmate is now unavoidable. } 7. Qxf7# { Black is checkmated } 1-0

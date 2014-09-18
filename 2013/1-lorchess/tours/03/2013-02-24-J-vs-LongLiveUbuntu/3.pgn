@@ -1,13 +1,16 @@
 [Event "Rated game"]
-[Site "http://lichess.org/analyse/3ty1em5c"]
-[Date "2013-02-23"]
+[Site "http://lichess.org/3ty1em5c"]
+[Date "2013.02.23"]
 [White "LOR_J"]
 [Black "LLU"]
 [Result "1-0"]
-[WhiteElo "1192"]
-[BlackElo "1127"]
+[WhiteElo "1479"]
+[BlackElo "1324"]
 [PlyCount "11"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C57"]
+[Opening "Italian Game, Two Knights Defense, Knight Attack"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 Bd6 $4 { Blunder. Best was d7d5. } 5. Nxf7 O-O $4 { Blunder. Best was d8e7. } 6. Nxd8+ 1-0
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 { Italian Game, Two Knights Defense, Knight Attack } Bd6?? { (0.48 → 5.25) Blunder. } 5. Nxf7 O-O?? { (5.21 → 15.31) Blunder. } 6. Nxd8+ { Black resigns } 1-0

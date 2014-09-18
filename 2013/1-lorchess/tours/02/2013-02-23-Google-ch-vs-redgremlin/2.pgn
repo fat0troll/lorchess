@@ -1,6 +1,6 @@
 [Event "Casual game"]
-[Site "http://lichess.org/analyse/33m2kjnx"]
-[Date "2013-02-20"]
+[Site "http://lichess.org/33m2kjnx"]
+[Date "2013.02.20"]
 [White "Google-ch"]
 [Black "gremlin_the_red"]
 [Result "0-1"]
@@ -8,6 +8,9 @@
 [BlackElo "1556"]
 [PlyCount "90"]
 [Variant "Standard"]
+[TimeControl "1200+10"]
+[ECO "D00"]
+[Opening "Queen Pawn Game, General"]
 [Annotator "lichess.org"]
 
-1. d4 d5 2. e3 c6 3. Nc3 Bf5 4. Bd3 Bxd3 5. cxd3 e6 6. f4 Nf6 7. Nf3 Bb4 8. Qb3 Qe7 9. a3 Ba5 10. Ne5 O-O 11. O-O Na6 12. Na4 b6 $2 { Mistake. Best was f8c8. } 13. Nxc6 Qd7 14. Nxa5 $6 { Inaccuracy. Best was c6e5. } 14... bxa5 15. Nc5 $6 { Inaccuracy. Best was c1d2. } 15... Nxc5 16. dxc5 d4 $6 { Inaccuracy. Best was f8c8. } 17. a4 $2 { Mistake. Best was f4f5. } 17... Rab8 18. Qa2 $6 { Inaccuracy. Best was b3c4. } 18... dxe3 19. Bxe3 Qxd3 20. Bf2 Ng4 $6 { Inaccuracy. Best was f6d5. } 21. Rad1 $6 { Inaccuracy. Best was a2b1. } 21... Qe2 22. h3 $4 { Blunder. Best was d1c1. } 22... Nxf2 23. Rxf2 $4 { Blunder. Best was d1e1. } 23... Qxd1+ 24. Kh2 Qd4 25. b3 $6 { Inaccuracy. Best was f2c2. } 25... Qxc5 $6 { Inaccuracy. Best was b8b3. } 26. Qc2 $6 { Inaccuracy. Best was f2f3. } 26... Qxc2 27. Rxc2 Rxb3 $6 { Inaccuracy. Best was f8c8. } 28. Kg1 $2 { Mistake. Best was c2c5. } 28... Rb4 29. Kf1 $2 { Mistake. Best was f4f5. } 29... Rxf4+ 30. Kg1 Rxa4 31. Rf2 $2 { Mistake. Best was g1f2. } 31... h5 $2 { Mistake. Best was a4a1. } 32. g3 $2 { Mistake. Best was f2c2. } 32... g6 $6 { Inaccuracy. Best was a4a3. } 33. Kg2 $2 { Mistake. Best was f2c2. } 33... Rb8 34. Kf3 $4 { Blunder. Best was h3h4. } 34... Rb3+ 35. Kg2 Raa3 36. Kf1 $4 { Blunder. Best was g2h1. } 36... Rxg3 37. Rh2 $4 { Checkmate is now unavoidable. Best was f2c2. } 37... Rxh3 $2 { Lost forced checkmate sequence. Best was a3a1. } 38. Rxh3 $4 { Blunder. Best was h2e2. } 38... Rxh3 39. Kf2 a4 40. Ke2 Rb3 $6 { Detected checkmate in 6 moves, but player moved for mate in 11. Best was a4a3. } 41. Kd2 a3 42. Ke2 a2 43. Kd2 a1=Q 44. Ke2 Qa2+ 45. Kd1 Rb1# 0-1
+1. d4 d5 { Queen Pawn Game, General } 2. e3 c6 3. Nc3 Bf5 4. Bd3 Bxd3 5. cxd3 e6 6. f4 Nf6 7. Nf3 Bb4 8. Qb3 Qe7 9. a3 Ba5 10. Ne5 O-O 11. O-O Na6 12. Na4 b6? { (0.08 → 1.61) Mistake. } 13. Nxc6 Qd7 14. Nxa5?! { (2.06 → 1.49) Inaccuracy. } 14... bxa5 15. Nc5?! { (1.69 → 1.05) Inaccuracy. } 15... Nxc5 16. dxc5 d4?! { (0.88 → 1.53) Inaccuracy. } 17. a4? { (1.53 → 0.24) Mistake. } 17... Rab8 18. Qa2?! { (0.00 → -0.96) Inaccuracy. } 18... dxe3 19. Bxe3 Qxd3 20. Bf2 Ng4?! { (-1.09 → -0.48) Inaccuracy. } 21. Rad1?! { (-0.48 → -1.09) Inaccuracy. } 21... Qe2 22. h3?? { (-1.09 → -5.81) Blunder. } 22... Nxf2 23. Rxf2?? { (-5.93 → -8.96) Blunder. } 23... Qxd1+ 24. Kh2 Qd4 25. b3?! { (-9.17 → -9.89) Inaccuracy. } 25... Qxc5?! { (-9.89 → -9.33) Inaccuracy. } 26. Qc2?! { (-9.33 → -9.93) Inaccuracy. } 26... Qxc2 27. Rxc2 Rxb3?! { (-10.38 → -9.41) Inaccuracy. } 28. Kg1?! { (-9.41 → -10.82) Inaccuracy. } 28... Rb4 29. Kf1 Rxf4+ 30. Kg1 Rxa4 31. Rf2 h5 32. g3 g6 33. Kg2 Rb8 34. Kf3 Rb3+ 35. Kg2 Raa3 36. Kf1 Rxg3 37. Rh2?! { (-101.87 → Mate in 7) Checkmate is now unavoidable. } 37... Rxh3?! { (Mate in 7 → -102.17) Lost forced checkmate sequence. } 38. Rxh3 Rxh3 39. Kf2 a4 40. Ke2 Rb3 41. Kd2 a3 42. Ke2 a2 43. Kd2 a1=Q 44. Ke2 Qa2+ 45. Kd1 Rb1# { White is checkmated } 0-1

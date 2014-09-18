@@ -1,13 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/snks6dxw"]
-[Date "2013-02-03"]
+[Date "2013.02.03"]
 [White "fat0troll"]
 [Black "txgames"]
 [Result "0-1"]
-[WhiteElo "1097"]
-[BlackElo "997"]
+[WhiteElo "1437"]
+[BlackElo "1367"]
 [PlyCount "92"]
-[Variant "standard"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C20"]
+[Opening "King Pawn Game, Leonardis Variation"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. d3 $6 { Inaccuracy. Best was g1f3. } 2... d5 3. c4 $6 { Inaccuracy. Best was e4d5. } 3... d4 $6 { Inaccuracy. Best was d5e4. } 4. b4 $2 { Mistake. Best was f1e2. } 4... Bxb4+ 5. Bd2 a5 6. Bxb4 axb4 7. a3 c5 $6 { Inaccuracy. Best was g8f6. } 8. Qc1 f6 $2 { Mistake. Best was d8a5. } 9. Nd2 Nh6 $6 { Inaccuracy. Best was d8a5. } 10. Nb3 $2 { Mistake. Best was a3b4. } 10... Qd6 $2 { Mistake. Best was d8b6. } 11. Be2 f5 12. f3 $2 { Mistake. Best was a3b4. } 12... f4 $2 { Mistake. Best was d6b6. } 13. Nh3 O-O $6 { Inaccuracy. Best was c8h3. } 14. O-O $2 { Mistake. Best was a3b4. } 14... g5 $2 { Mistake. Best was c8h3. } 15. Nf2 bxa3 16. Rxa3 Rxa3 17. Qxa3 b6 18. Qa8 $6 { Inaccuracy. Best was f1b1. } 18... Be6 19. Ng4 $2 { Mistake. Best was a8a4. } 19... Nxg4 20. fxg4 Nc6 $6 { Inaccuracy. Best was b6b5. } 21. Qa6 Nb4 22. Qb5 $4 { Blunder. Best was a6a7. } 22... Bd7 23. Qxb4 cxb4 24. Ra1 b5 25. cxb5 $2 { Mistake. Best was c4c5. } 25... Bxb5 26. Kf2 Kg7 $2 { Mistake. Best was f8c8. } 27. g3 $4 { Blunder. Best was a1c1. } 27... Kg6 $4 { Blunder. Best was d6f6. } 28. Ra5 $4 { Blunder. Best was g3f4. } 28... Bc6 $4 { Blunder. Best was f4g3. } 29. gxf4 gxf4 $2 { Mistake. Best was f8f4. } 30. h4 $4 { Blunder. Best was b3d2. } 30... Kg7 $2 { Mistake. Best was f4f3. } 31. h5 $4 { Blunder. Best was e2f3. } 31... h6 $4 { Blunder. Best was f4f3. } 32. Nc5 $2 { Mistake. Best was b3d2. } 32... Re8 $2 { Mistake. Best was d6e7. } 33. Ra6 $4 { Blunder. Best was c5b3. } 33... Qxc5 34. Bd1 $2 { Mistake. Best was g4g5. } 34... Bb5 $4 { Blunder. Best was c5c1. } 35. Rg6+ Kh7 36. g5 $4 { Blunder. Best was g6f6. } 36... hxg5 37. Rxg5 $4 { Blunder. Best was d1a4. } 37... Bxd3 $4 { Blunder. Best was c5c1. } 38. h6 $4 { Checkmate is now unavoidable. Best was g5g2. } 38... Bxe4 $2 { Lost forced checkmate sequence. Best was c5c1. } 39. Bh5 $4 { Checkmate is now unavoidable. Best was g5g7. } 39... Rg8 $6 { Detected checkmate in 8 moves, but player moved for mate in 9. Best was d4d3. } 40. Bg6+ Kxh6 $6 { Detected checkmate in 6 moves, but player moved for mate in 7. Best was g8g6. } 41. Bxe4 d3+ 42. Kf3 Kxg5 $6 { Detected checkmate in 2 moves, but player moved for mate in 5. Best was g8g5. } 43. Bxd3 Qe3+ 44. Kg2 Kf6+ $6 { Detected checkmate in 3 moves, but player moved for mate in 4. Best was g5h4. } 45. Kh2 Qg1+ 46. Kh3 Qg3# 0-1
+1. e4 e5 2. d3?! { King Pawn Game, Leonardis Variation (0.52 → 0.00) Inaccuracy. } 2... d5 3. c4? { (0.08 → -0.92) Mistake. } 3... d4?! { (-0.92 → -0.16) Inaccuracy. } 4. b4? { (-0.16 → -1.97) Mistake. } 4... Bxb4+ 5. Bd2 a5 6. Bxb4 axb4 7. a3 c5?! { (-2.62 → -2.10) Inaccuracy. } 8. Qc1 f6? { (-2.46 → -1.41) Mistake. } 9. Nd2 Nh6?! { (-1.73 → -1.09) Inaccuracy. } 10. Nb3? { (-1.09 → -2.26) Mistake. } 10... Qd6? { (-2.26 → -1.05) Mistake. } 11. Be2 f5 12. f3? { (-0.84 → -2.82) Mistake. } 12... f4? { (-2.82 → -1.25) Mistake. } 13. Nh3 O-O?! { (-1.73 → -1.09) Inaccuracy. } 14. O-O? { (-1.09 → -2.46) Mistake. } 14... g5? { (-2.46 → -0.36) Mistake. } 15. Nf2 bxa3 16. Rxa3 Rxa3 17. Qxa3 b6 18. Qa8?! { (-0.52 → -1.17) Inaccuracy. } 18... Be6 19. Ng4? { (-1.01 → -2.46) Mistake. } 19... Nxg4 20. fxg4 Nc6?! { (-2.54 → -1.61) Inaccuracy. } 21. Qa6 Nb4 22. Qb5?? { (-1.81 → -10.78) Blunder. } 22... Bd7 23. Qxb4 cxb4 24. Ra1 b5 25. cxb5 Bxb5 26. Kf2 Kg7 27. g3 Kg6 28. Ra5 Bc6 29. gxf4 gxf4 30. h4 Kg7 31. h5 h6 32. Nc5 Re8 33. Ra6 Qxc5 34. Bd1 Bb5 35. Rg6+ Kh7 36. g5 hxg5 37. Rxg5 Bxd3 38. h6?! { (-38.94 → Mate in 8) Checkmate is now unavoidable. } 38... Bxe4?! { (Mate in 8 → -103.84) Lost forced checkmate sequence. } 39. Bh5?! { (-103.84 → Mate in 8) Checkmate is now unavoidable. } 39... Rg8 40. Bg6+ Kxh6 41. Bxe4 d3+ 42. Kf3 Kxg5?! { (Mate in 2 → Mate in 4) Not the best checkmate sequence. } 43. Bxd3 Qe3+ 44. Kg2 Kf6+?! { (Mate in 3 → Mate in 3) Not the best checkmate sequence. } 45. Kh2 Qg1+ 46. Kh3 Qg3# { White is checkmated } 0-1

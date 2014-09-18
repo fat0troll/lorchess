@@ -1,13 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/kj5z9pvv"]
-[Date "2013-02-04"]
+[Date "2013.02.04"]
 [White "Michkova"]
 [Black "rogvold"]
 [Result "1-0"]
-[WhiteElo "1200"]
-[BlackElo "1200"]
+[WhiteElo "1500"]
+[BlackElo "1500"]
 [PlyCount "31"]
-[Variant "standard"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "A40"]
+[Opening "Queen Pawn Opening, General"]
 [Annotator "lichess.org"]
 
-1. d4 h5 $6 { Inaccuracy. Best was g8f6. } 2. c4 a5 $6 { Inaccuracy. Best was c7c5. } 3. Nc3 f5 4. e4 Nh6 5. Qxh5+ g6 $2 { Mistake. Best was h6f7. } 6. Qxg6+ Nf7 7. exf5 c6 $4 { Blunder. Best was a8a6. } 8. Nf3 d6 $2 { Mistake. Best was d8c7. } 9. c5 $4 { Blunder. Best was f3g5. } 9... Na6 $4 { Blunder. Best was c8f5. } 10. Bc4 $2 { Mistake. Best was f3g5. } 10... d5 $2 { Mistake. Best was e8d7. } 11. Ne5 Rh7 12. Qxh7 Nxe5 13. dxe5 Nb4 $4 { Blunder. Best was d8c7. } 14. O-O $4 { Blunder. Best was h7g6. } 14... Nc2 $4 { Blunder. Best was e7e6. } 15. e6 Nxa1 $4 { Checkmate is now unavoidable. Best was d8d7. } 16. Qf7# 1-0
+1. d4 { Queen Pawn Opening, General } h5?! { (0.16 → 0.80) Inaccuracy. } 2. c4 a5?! { (0.80 → 1.37) Inaccuracy. } 3. Nc3 f5 4. e4 Nh6 5. Qxh5+ g6? { (2.78 → 4.44) Mistake. } 6. Qxg6+ Nf7 7. exf5 c6?? { (4.28 → 11.51) Blunder. } 8. Nf3 d6 9. c5?! { (14.66 → 9.25) Inaccuracy. } 9... Na6?! { (9.25 → 12.92) Inaccuracy. } 10. Bc4 d5 11. Ne5 Rh7 12. Qxh7 Nxe5 13. dxe5 Nb4 14. O-O Nc2 15. e6 Nxa1?! { (42.50 → Mate in 1) Checkmate is now unavoidable. } 16. Qf7# { Black is checkmated } 1-0

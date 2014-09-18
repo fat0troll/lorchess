@@ -1,13 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/m1k9mn8l"]
-[Date "2013-02-04"]
+[Date "2013.02.04"]
 [White "AvImd"]
 [Black "lanti_oedipe"]
 [Result "1-0"]
-[WhiteElo "1315"]
-[BlackElo "1200"]
+[WhiteElo "1702"]
+[BlackElo "1500"]
 [PlyCount "77"]
-[Variant "standard"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C00"]
+[Opening "French Defense, Queen's Knight"]
 [Annotator "lichess.org"]
 
-1. e4 e6 2. Nc3 d5 3. d4 Nf6 4. e5 Ne4 $6 { Inaccuracy. Best was f6d7. } 5. Nxe4 dxe4 6. f3 $2 { Mistake. Best was c1e3. } 6... Nc6 $2 { Mistake. Best was c7c5. } 7. Be3 Bb4+ $6 { Inaccuracy. Best was c6b4. } 8. c3 Be7 9. fxe4 f6 $6 { Inaccuracy. Best was e7h4. } 10. exf6 Bxf6 11. Bc4 e5 12. d5 $6 { Inaccuracy. Best was g1f3. } 12... Na5 13. Qa4+ c6 14. dxc6 bxc6 15. b4 $2 { Mistake. Best was a1d1. } 15... Nxc4 16. Qxc6+ Bd7 17. Qxc4 Qc8 $6 { Inaccuracy. Best was a8c8. } 18. Qxc8+ $6 { Inaccuracy. Best was e3c5. } 18... Rxc8 19. Ne2 Bc6 20. Ng3 Bb7 $6 { Inaccuracy. Best was a7a6. } 21. Kd2 O-O $6 { Inaccuracy. Best was c8d8. } 22. Bxa7 Rfd8+ 23. Kc2 Rd7 24. Bc5 Be7 $2 { Mistake. Best was f6h4. } 25. Bxe7 Rxe7 26. Rhf1 Rf8 $2 { Mistake. Best was h7h5. } 27. Rxf8+ Kxf8 28. a4 Rf7 29. Ra2 $6 { Inaccuracy. Best was b4b5. } 29... Ke7 $6 { Inaccuracy. Best was h7h5. } 30. a5 Ba6 $6 { Inaccuracy. Best was e7d7. } 31. Kb3 Rf8 32. c4 Bb7 $6 { Inaccuracy. Best was g7g6. } 33. a6 Ba8 34. b5 Rc8 $2 { Mistake. Best was e7d8. } 35. b6 $2 { Mistake. Best was a2d2. } 35... Bc6 $2 { Mistake. Best was g7g6. } 36. Ra5 $6 { Inaccuracy. Best was g3f5. } 36... Kd7 37. Rxe5 Re8 $4 { Blunder. Best was d7d6. } 38. Rxe8 Kxe8 $2 { Mistake. Best was g7g6. } 39. b7 1-0
+1. e4 e6 2. Nc3 { French Defense, Queen's Knight } d5 3. d4 Nf6 4. e5 Ne4?! { (-0.08 → 0.48) Inaccuracy. } 5. Nxe4 dxe4 6. f3? { (0.60 → -0.60) Mistake. } 6... Nc6? { (-0.60 → 0.92) Mistake. } 7. Be3 Bb4+?! { (0.64 → 1.21) Inaccuracy. } 8. c3 Be7 9. fxe4 f6?! { (1.93 → 2.62) Inaccuracy. } 10. exf6 Bxf6 11. Bc4 e5 12. d5?! { (3.07 → 2.54) Inaccuracy. } 12... Na5 13. Qa4+ c6 14. dxc6 bxc6?! { (2.50 → 3.11) Inaccuracy. } 15. b4? { (3.11 → 1.53) Mistake. } 15... Nxc4 16. Qxc6+ Bd7 17. Qxc4 Qc8?! { (1.33 → 1.89) Inaccuracy. } 18. Qxc8+?! { (1.89 → 1.21) Inaccuracy. } 18... Rxc8 19. Ne2 Bc6 20. Ng3 Bb7?! { (1.61 → 2.46) Inaccuracy. } 21. Kd2 O-O?! { (1.97 → 2.54) Inaccuracy. } 22. Bxa7 Rfd8+ 23. Kc2 Rd7 24. Bc5 Be7? { (2.82 → 4.36) Mistake. } 25. Bxe7 Rxe7 26. Rhf1 Rf8? { (3.87 → 5.21) Mistake. } 27. Rxf8+ Kxf8 28. a4 Rf7 29. Ra2?! { (6.06 → 5.13) Inaccuracy. } 29... Ke7?! { (5.13 → 5.85) Inaccuracy. } 30. a5 Ba6?! { (5.81 → 6.74) Inaccuracy. } 31. Kb3 Rf8 32. c4 Bb7?! { (7.55 → 8.12) Inaccuracy. } 33. a6 Ba8 34. b5 Rc8? { (8.20 → 9.49) Mistake. } 35. b6? { (9.49 → 8.24) Mistake. } 35... Bc6? { (8.24 → 9.41) Mistake. } 36. Ra5?! { (9.41 → 8.44) Inaccuracy. } 36... Kd7 37. Rxe5 Re8?! { (9.49 → 32.36) Inaccuracy. } 38. Rxe8 Kxe8 39. b7 { Black resigns } 1-0

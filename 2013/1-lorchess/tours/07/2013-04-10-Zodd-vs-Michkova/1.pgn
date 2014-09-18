@@ -1,6 +1,6 @@
 [Event "Casual game"]
-[Site "http://lichess.org/analyse/fhaes25o"]
-[Date "2013-04-10"]
+[Site "http://lichess.org/fhaes25o"]
+[Date "2013.04.10"]
 [White "Anonymous"]
 [Black "Michkova"]
 [Result "0-1"]
@@ -8,6 +8,9 @@
 [BlackElo "1244"]
 [PlyCount "70"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C62"]
+[Opening "Spanish Game, Steinitz Defense"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. O-O Bd7 5. Nc3 Nf6 6. d3 h6 7. h3 Be7 8. Bc4 O-O 9. Nd5 Na5 10. Nxe7+ Qxe7 11. Bb3 Nxb3 12. axb3 Be6 13. Be3 a6 14. Qd2 Nh7 15. b4 $6 { Inaccuracy. Best was d3d4. } 15... f5 16. Qc3 $6 { Inaccuracy. Best was e4f5. } 16... fxe4 17. dxe4 Bxh3 $2 { Mistake. Best was f8f3. } 18. Nxe5 dxe5 $6 { Inaccuracy. Best was e7e6. } 19. gxh3 $6 { Inaccuracy. Best was e3c5. } 19... Qh4 20. Bc5 $2 { Mistake. Best was c3e5. } 20... Rf6 21. Be7 $4 { Blunder. Best was a1a3. } 21... Rg6+ 22. Kh2 Qxe7 23. Rg1 Rf6 24. Rg2 $6 { Inaccuracy. Best was f2f3. } 24... Raf8 $6 { Inaccuracy. Best was h7g5. } 25. Rf1 $2 { Mistake. Best was c3d2. } 25... Rf3 26. Qd2 Ng5 27. Rg3 $4 { Blunder. Best was g2g5. } 27... Nxe4 $4 { Blunder. Best was f3g3. } 28. Qd5+ Kh8 $2 { Mistake. Best was e7f7. } 29. Qxe4 $6 { Inaccuracy. Best was g3f3. } 29... Rxg3 $2 { Mistake. Best was f3f2. } 30. Kxg3 Rf4 31. Qg6 $2 { Mistake. Best was e4b7. } 31... Qh4+ $6 { Inaccuracy. Best was f4b4. } 32. Kg2 Rf6 33. Qg3 $2 { Mistake. Best was g6g4. } 33... Qe4+ 34. Kh2 Rg6 35. Qe3 $4 { Checkmate is now unavoidable. Best was f2f3. } 35... Qg2# 0-1
+1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 { Spanish Game, Steinitz Defense } 4. O-O Bd7 5. Nc3 Nf6 6. d3 h6 7. h3 Be7 8. Bc4 O-O 9. Nd5 Na5 10. Nxe7+ Qxe7 11. Bb3 Nxb3 12. axb3 Be6 13. Be3 a6 14. Qd2 Nh7 15. b4?! { (0.56 → -0.16) Inaccuracy. } 15... f5 16. Qc3?! { (-0.40 → -1.37) Inaccuracy. } 16... fxe4 17. dxe4 Bxh3? { (-1.25 → -0.20) Mistake. } 18. Nxe5 dxe5?! { (-0.40 → 0.16) Inaccuracy. } 19. gxh3?! { (0.16 → -0.48) Inaccuracy. } 19... Qh4 20. Bc5? { (0.00 → -1.49) Mistake. } 20... Rf6 21. Be7?? { (-1.65 → -5.01) Blunder. } 21... Rg6+ 22. Kh2 Qxe7 23. Rg1 Rf6 24. Rg2?! { (-6.54 → -7.07) Inaccuracy. } 24... Raf8?! { (-7.07 → -6.50) Inaccuracy. } 25. Rf1? { (-6.50 → -7.71) Mistake. } 25... Rf3 26. Qd2 Ng5 27. Rg3?! { (-9.17 → -18.02) Inaccuracy. } 27... Nxe4?? { (-18.02 → -3.51) Blunder. } 28. Qd5+ Kh8? { (-3.35 → -2.26) Mistake. } 29. Qxe4?! { (-2.26 → -2.90) Inaccuracy. } 29... Rxg3? { (-2.90 → -1.77) Mistake. } 30. Kxg3 Rf4 31. Qg6? { (-1.57 → -2.86) Mistake. } 31... Qh4+?! { (-2.86 → -2.10) Inaccuracy. } 32. Kg2 Rf6 33. Qg3? { (-2.10 → -3.87) Mistake. } 33... Qe4+ 34. Kh2 Rg6 35. Qe3? { (-4.24 → Mate in 1) Checkmate is now unavoidable. } 35... Qg2# { White is checkmated } 0-1

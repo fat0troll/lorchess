@@ -1,13 +1,16 @@
 [Event "Casual game"]
 [Site "http://lichess.org/2dqif3wr"]
-[Date "2013-02-10"]
+[Date "2013.02.10"]
 [White "Google-ch"]
 [Black "azimov"]
 [Result "0-1"]
 [WhiteElo "1093"]
 [BlackElo "1475"]
 [PlyCount "34"]
-[Variant "standard"]
+[Variant "Standard"]
+[TimeControl "1200+10"]
+[ECO "A46"]
+[Opening "Indian Game, Knights Variation, General"]
 [Annotator "lichess.org"]
 
-1. d4 Nf6 2. Nf3 d5 3. c3 Bg4 $6 { Inaccuracy. Best was e7e6. } 4. Bg5 Nc6 5. e3 Ne4 6. h3 $2 { Mistake. Best was g5h4. } 6... Bxf3 7. gxf3 Nxg5 8. f4 $2 { Mistake. Best was h3h4. } 8... Ne4 9. Qd3 $6 { Inaccuracy. Best was b1d2. } 9... e5 $2 { Mistake. Best was e7e6. } 10. Na3 $4 { Blunder. Best was f4e5. } 10... Qh4 11. Bg2 $4 { Blunder. Best was h1h2. } 11... Qxf2+ 12. Kd1 Qxg2 13. Re1 $4 { Blunder. Best was h1f1. } 13... Nf2+ 14. Kd2 Nxd3+ 15. Kxd3 $4 { Checkmate is now unavoidable. Best was e1e2. } 15... exd4 $2 { Lost forced checkmate sequence. Best was e5e4. } 16. cxd4 $4 { Blunder. Best was e3d4. } 16... Bb4 17. Nc2 $4 { Checkmate is now unavoidable. Best was a1d1. } 17... Qd2# 0-1
+1. d4 Nf6 2. Nf3 { Indian Game, Knights Variation, General } d5 3. c3 Bg4?! { (-0.20 → 0.36) Inaccuracy. } 4. Bg5 Nc6 5. e3 Ne4 6. h3? { (0.12 → -2.66) Mistake. } 6... Bxf3 7. gxf3 Nxg5 8. f4? { (-2.42 → -3.71) Mistake. } 8... Ne4 9. Qd3?! { (-3.63 → -4.36) Inaccuracy. } 9... e5? { (-4.36 → -3.35) Mistake. } 10. Na3?? { (-3.35 → -7.75) Blunder. } 10... Qh4 11. Bg2? { (-7.51 → -17.25) Mistake. } 11... Qxf2+ 12. Kd1 Qxg2 13. Re1 Nf2+ 14. Kd2 Nxd3+ 15. Kxd3?! { (-27.83 → Mate in 1) Checkmate is now unavoidable. } 15... exd4?! { (Mate in 1 → -23.79) Lost forced checkmate sequence. } 16. cxd4 Bb4 17. Nc2?! { (-32.80 → Mate in 1) Checkmate is now unavoidable. } 17... Qd2# { White is checkmated } 0-1

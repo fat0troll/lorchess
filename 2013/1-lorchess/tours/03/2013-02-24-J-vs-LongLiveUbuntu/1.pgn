@@ -1,6 +1,6 @@
 [Event "Casual game"]
-[Site "http://lichess.org/analyse/47rzjphq"]
-[Date "2013-02-24"]
+[Site "http://lichess.org/47rzjphq"]
+[Date "2013.02.24"]
 [White "LOR_J"]
 [Black "LLU"]
 [Result "1-0"]
@@ -8,6 +8,9 @@
 [BlackElo "1037"]
 [PlyCount "61"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C53"]
+[Opening "Italian Game, Classical Variation, General"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 d6 $2 { Mistake. Best was g8f6. } 5. d4 exd4 6. cxd4 Bxd4 $2 { Mistake. Best was c5b6. } 7. Nxd4 Nxd4 8. Qxd4 Nf6 9. O-O O-O 10. Bg5 Be6 11. Bxf6 $6 { Inaccuracy. Best was b1c3. } 11... c5 $4 { Blunder. Best was d8f6. } 12. Bxd8 cxd4 13. Bxe6 Raxd8 $2 { Mistake. Best was f7e6. } 14. Bd5 d3 15. b4 b6 $6 { Inaccuracy. Best was d8a8. } 16. a4 $6 { Inaccuracy. Best was f1d1. } 16... a5 $6 { Inaccuracy. Best was d8c8. } 17. bxa5 bxa5 18. Ra3 Rc8 19. Rxd3 Rc2 20. f4 Rfc8 $6 { Inaccuracy. Best was c2c5. } 21. Na3 Rc2c5 22. e5 dxe5 23. fxe5 Rd8 $4 { Blunder. Best was c5c1. } 24. Bxf7+ Kf8 25. Rxd8+ Ke7 26. Ra8 $2 { Lost forced checkmate sequence. Best was d8e8. } 26... Rxe5 $4 { Checkmate is now unavoidable. } 27. Re8+ Kd6 28. Rxe5 $2 { Lost forced checkmate sequence. Best was a3c4. } 28... Kxe5 29. Rf3 $4 { Blunder. Best was a3c4. } 29... Ke4 $4 { Blunder. Best was e5d6. } 30. Kf2 $4 { Blunder. Best was a3c4. } 30... Ke5 $4 { Blunder. Best was h7h6. } 31. Ke3 1-0
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 { Italian Game, Classical Variation, General } d6? { (-0.04 → 1.09) Mistake. } 5. d4 exd4 6. cxd4 Bxd4? { (1.05 → 3.91) Mistake. } 7. Nxd4 Nxd4 8. Qxd4 Nf6 9. O-O O-O 10. Bg5 Be6 11. Bxf6?! { (4.36 → 3.75) Inaccuracy. } 11... c5?? { (3.75 → 8.28) Blunder. } 12. Bxd8 cxd4 13. Bxe6 Raxd8? { (8.76 → 9.85) Mistake. } 14. Bd5 d3 15. b4 b6 16. a4 a5 17. bxa5 bxa5 18. Ra3 Rc8 19. Rxd3 Rc2 20. f4 Rfc8 21. Na3 Rc2c5 22. e5 dxe5 23. fxe5 Rd8 24. Bxf7+ Kf8 25. Rxd8+ Ke7 26. Ra8?! { (Mate in 12 → 37.65) Lost forced checkmate sequence. } 26... Rxe5?! { (37.65 → Mate in 8) Checkmate is now unavoidable. } 27. Re8+ Kd6 28. Rxe5?! { (Mate in 6 → 29.89) Lost forced checkmate sequence. } 28... Kxe5 29. Rf3 Ke4 30. Kf2 Ke5 31. Ke3 { Black resigns } 1-0

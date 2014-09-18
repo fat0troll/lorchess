@@ -1,6 +1,6 @@
 [Event "Casual game"]
-[Site "http://lichess.org/analyse/p37u8s1u"]
-[Date "2013-03-24"]
+[Site "http://lichess.org/p37u8s1u"]
+[Date "2013.03.24"]
 [White "XRat"]
 [Black "cppmm"]
 [Result "1/2-1/2"]
@@ -8,6 +8,9 @@
 [BlackElo "935"]
 [PlyCount "50"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B06"]
+[Opening "Modern Defense, King Pawn Fianchetto"]
 [Annotator "lichess.org"]
 
-1. e4 g6 $6 { Inaccuracy. Best was e7e6. } 2. d4 Bg7 3. e5 $6 { Inaccuracy. Best was g1f3. } 3... e6 $6 { Inaccuracy. Best was d7d6. } 4. g3 $6 { Inaccuracy. Best was g1f3. } 4... d5 5. Nf3 c6 $6 { Inaccuracy. Best was g8e7. } 6. Bg5 $6 { Inaccuracy. Best was f1e2. } 6... Qa5+ $6 { Inaccuracy. Best was d8b6. } 7. Qd2 Qb6 8. b3 $6 { Inaccuracy. Best was c2c4. } 8... h6 $6 { Inaccuracy. Best was f7f6. } 9. Be3 h5 10. Nc3 Nh6 11. Na4 Qc7 12. Ng5 b5 13. Nc5 a5 $6 { Inaccuracy. Best was h6f5. } 14. Bh3 Qe7 15. O-O a4 16. b4 $2 { Mistake. Best was g5f3. } 16... O-O $2 { Mistake. Best was b8d7. } 17. a3 $6 { Inaccuracy. Best was g5e4. } 17... Ng4 18. Bxg4 hxg4 19. Ngxe6 $4 { Blunder. Best was c5d3. } 19... fxe6 $6 { Inaccuracy. Best was c8e6. } 20. Bg5 $6 { Inaccuracy. Best was d2e2. } 20... Qe8 $2 { Mistake. Best was e7f7. } 21. Bh6 $2 { Mistake. Best was d2d1. } 21... Kh7 $2 { Mistake. Best was b8d7. } 22. Bf4 $6 { Inaccuracy. Best was h6g7. } 22... Nd7 23. Qe2 Rf5 24. Qxg4 g5 $2 { Mistake. Best was d7c5. } 25. Bxg5 Kg8 1/2-1/2
+1. e4 g6?! { Modern Defense, King Pawn Fianchetto (0.28 → 1.25) Inaccuracy. } 2. d4 Bg7 3. e5?! { (0.88 → 0.04) Inaccuracy. } 3... e6?! { (0.04 → 0.84) Inaccuracy. } 4. g3?! { (0.84 → -0.04) Inaccuracy. } 4... d5 5. Nf3 c6?! { (-0.04 → 0.68) Inaccuracy. } 6. Bg5?! { (0.68 → 0.00) Inaccuracy. } 6... Qa5+?! { (0.00 → 0.92) Inaccuracy. } 7. Qd2 Qb6 8. b3?! { (0.96 → 0.24) Inaccuracy. } 8... h6?! { (0.24 → 0.96) Inaccuracy. } 9. Be3 h5 10. Nc3 Nh6 11. Na4 Qc7 12. Ng5 b5 13. Nc5 a5?! { (0.64 → 1.29) Inaccuracy. } 14. Bh3 Qe7 15. O-O a4 16. b4? { (1.69 → 0.68) Mistake. } 16... O-O? { (0.68 → 1.73) Mistake. } 17. a3?! { (1.73 → 0.80) Inaccuracy. } 17... Ng4 18. Bxg4 hxg4 19. Ngxe6?? { (1.69 → -2.38) Blunder. } 19... fxe6?! { (-2.38 → -1.69) Inaccuracy. } 20. Bg5?! { (-1.69 → -2.58) Inaccuracy. } 20... Qe8? { (-2.58 → -1.57) Mistake. } 21. Bh6? { (-1.57 → -2.70) Mistake. } 21... Kh7? { (-2.70 → -1.53) Mistake. } 22. Bf4?! { (-1.53 → -2.34) Inaccuracy. } 22... Nd7 23. Qe2 Rf5 24. Qxg4 g5? { (-1.85 → -0.84) Mistake. } 25. Bxg5 Kg8 { Draw } 1/2-1/2

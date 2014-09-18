@@ -1,13 +1,16 @@
 [Event "Rated game"]
-[Site "http://lichess.org/analyse/e4kkasuw"]
-[Date "2013-02-24"]
+[Site "http://lichess.org/e4kkasuw"]
+[Date "2013.02.24"]
 [White "UVV"]
 [Black "William_V"]
 [Result "0-1"]
-[WhiteElo "1179"]
-[BlackElo "1435"]
+[WhiteElo "1395"]
+[BlackElo "1692"]
 [PlyCount "46"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C41"]
+[Opening "Philidor Defense, General"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. Nc3 $6 { Inaccuracy. Best was h2h3. } 4... Nc6 5. h3 Bh5 $2 { Mistake. Best was g4f3. } 6. g4 $6 { Inaccuracy. Best was f3e5. } 6... Bg6 7. d4 exd4 8. Nxd4 Nxd4 9. Qxd4 Nf6 10. Bg5 $6 { Inaccuracy. Best was f2f4. } 10... Be7 11. Nd5 $4 { Blunder. Best was e1c1. } 11... Nxd5 12. Bxe7 Nxe7 13. f3 $2 { Mistake. Best was d4g7. } 13... Nc6 14. Qxg7 Rf8 $2 { Mistake. Best was d8h4. } 15. f4 $2 { Mistake. Best was e1c1. } 15... Qh4+ 16. Ke2 $2 { Mistake. Best was e1d1. } 16... O-O-O $2 { Mistake. Best was g6e4. } 17. f5 $2 { Mistake. Best was c4d5. } 17... Rfe8 $2 { Mistake. Best was g6f5. } 18. fxg6 $2 { Mistake. Best was c4d5. } 18... Rxe4+ 19. Kf3 $4 { Blunder. Best was e2d1. } 19... Rxc4 20. gxf7 $4 { Blunder. Best was a1c1. } 20... Ne5+ 21. Ke3 Qg3+ 22. Kd2 Qg2+ 23. Ke3 Re4# 0-1
+1. e4 e5 2. Nf3 d6 { Philidor Defense, General } 3. Bc4 Bg4 4. Nc3?! { (0.80 → 0.28) Inaccuracy. } 4... Nc6 5. h3 Bh5? { (0.24 → 1.49) Mistake. } 6. g4?! { (1.49 → 0.64) Inaccuracy. } 6... Bg6 7. d4 exd4 8. Nxd4 Nxd4 9. Qxd4 Nf6 10. Bg5?! { (1.37 → 0.64) Inaccuracy. } 10... Be7 11. Nd5?? { (0.68 → -2.46) Blunder. } 11... Nxd5 12. Bxe7 Nxe7 13. f3? { (-2.86 → -4.04) Mistake. } 13... Nc6 14. Qxg7 Rf8? { (-3.95 → -2.30) Mistake. } 15. f4? { (-2.30 → -4.76) Mistake. } 15... Qh4+ 16. Ke2? { (-5.77 → -6.98) Mistake. } 16... O-O-O? { (-6.98 → -5.69) Mistake. } 17. f5? { (-5.69 → -7.19) Mistake. } 17... Rfe8? { (-7.19 → -5.09) Mistake. } 18. fxg6? { (-5.09 → -6.90) Mistake. } 18... Rxe4+ 19. Kf3? { (-7.19 → -14.26) Mistake. } 19... Rxc4 20. gxf7 Ne5+ 21. Ke3 Qg3+ 22. Kd2 Qg2+ 23. Ke3 Re4# { White is checkmated } 0-1

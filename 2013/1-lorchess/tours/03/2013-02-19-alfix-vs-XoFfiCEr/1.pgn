@@ -1,6 +1,6 @@
 [Event "Casual game"]
-[Site "http://lichess.org/analyse/fxgxy0rz"]
-[Date "2013-02-20"]
+[Site "http://lichess.org/fxgxy0rz"]
+[Date "2013.02.20"]
 [White "alfix2"]
 [Black "XRat"]
 [Result "1-0"]
@@ -8,6 +8,9 @@
 [BlackElo "887"]
 [PlyCount "37"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C20"]
+[Opening "Portuguese Opening, General"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Bb5 $6 { Inaccuracy. Best was g1f3. } 2... c6 3. Ba4 b5 $6 { Inaccuracy. Best was g8f6. } 4. Bb3 Bb7 $2 { Mistake. Best was g8f6. } 5. Nf3 f6 $2 { Mistake. Best was d7d5. } 6. O-O $6 { Inaccuracy. Best was f3e5. } 6... Ne7 $6 { Inaccuracy. Best was d8e7. } 7. d3 $2 { Mistake. Best was d2d4. } 7... d5 8. exd5 cxd5 9. a4 a6 $6 { Inaccuracy. Best was b5b4. } 10. axb5 axb5 11. Rxa8 Bxa8 12. c4 $6 { Inaccuracy. Best was b1c3. } 12... Bc6 $2 { Mistake. Best was b5c4. } 13. Nc3 $2 { Mistake. Best was c4d5. } 13... Qa5 $4 { Blunder. Best was b5c4. } 14. cxd5 Nxd5 $2 { Mistake. Best was c6b7. } 15. Bxd5 Bxd5 16. Nxd5 Bc5 $2 { Mistake. Best was a5a2. } 17. d4 Bxd4 $2 { Mistake. Best was c5d6. } 18. Nxd4 exd4 $4 { Blunder. Best was e8f7. } 19. Qe2+ 1-0
+1. e4 e5 2. Bb5?! { Portuguese Opening, General (0.36 → -0.16) Inaccuracy. } 2... c6 3. Ba4 b5?! { (-0.36 → 0.20) Inaccuracy. } 4. Bb3 Bb7? { (0.20 → 1.37) Mistake. } 5. Nf3 f6? { (1.29 → 2.62) Mistake. } 6. O-O?! { (2.62 → 1.89) Inaccuracy. } 6... Ne7?! { (1.89 → 2.42) Inaccuracy. } 7. d3? { (2.42 → 1.33) Mistake. } 7... d5 8. exd5 cxd5 9. a4 a6?! { (0.28 → 1.21) Inaccuracy. } 10. axb5 axb5 11. Rxa8 Bxa8 12. c4?! { (0.72 → 0.12) Inaccuracy. } 12... Bc6? { (0.12 → 1.65) Mistake. } 13. Nc3? { (1.65 → 0.16) Mistake. } 13... Qa5?? { (0.16 → 3.75) Blunder. } 14. cxd5 Nxd5? { (4.00 → 5.89) Mistake. } 15. Bxd5 Bxd5 16. Nxd5 Bc5? { (6.62 → 8.24) Mistake. } 17. d4 Bxd4?! { (9.41 → 12.12) Inaccuracy. } 18. Nxd4 exd4 19. Qe2+ { Black resigns } 1-0

@@ -1,13 +1,16 @@
 [Event "Rated game"]
-[Site "http://lichess.org/analyse/b9o5r0gm"]
-[Date "2013-03-04"]
+[Site "http://lichess.org/b9o5r0gm"]
+[Date "2013.03.04"]
 [White "snoopcatt"]
 [Black "fat0troll"]
 [Result "1-0"]
-[WhiteElo "1272"]
-[BlackElo "1003"]
+[WhiteElo "1589"]
+[BlackElo "1332"]
 [PlyCount "25"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B00"]
+[Opening "King's Pawn Opening, General"]
 [Annotator "lichess.org"]
 
-1. e4 d6 2. d4 Bd7 3. Nf3 Nf6 4. e5 dxe5 5. Nxe5 $6 { Inaccuracy. Best was d4e5. } 5... e6 6. Bc4 a6 7. Qf3 $6 { Inaccuracy. Best was e1g1. } 7... c6 $2 { Mistake. Best was b8c6. } 8. O-O b5 $2 { Mistake. Best was d7c8. } 9. Bb3 a5 10. a4 Ra7 $2 { Mistake. Best was b5b4. } 11. Nc3 $6 { Inaccuracy. Best was a4b5. } 11... Bb4 12. Ne4 $6 { Inaccuracy. Best was a4b5. } 12... Nxe4 $4 { Checkmate is now unavoidable. Best was e8g8. } 13. Qxf7# 1-0
+1. e4 { King's Pawn Opening, General } d6 2. d4 Bd7 3. Nf3 Nf6 4. e5 dxe5 5. Nxe5?! { (1.21 → 0.24) Inaccuracy. } 5... e6 6. Bc4 a6 7. Qf3?! { (0.60 → -0.04) Inaccuracy. } 7... c6? { (-0.04 → 2.02) Mistake. } 8. O-O b5? { (1.65 → 2.70) Mistake. } 9. Bb3 a5 10. a4 Ra7? { (2.26 → 3.35) Mistake. } 11. Nc3?! { (3.35 → 2.70) Inaccuracy. } 11... Bb4 12. Ne4?! { (2.98 → 2.34) Inaccuracy. } 12... Nxe4? { (2.34 → Mate in 1) Checkmate is now unavoidable. } 13. Qxf7# { Black is checkmated } 1-0
