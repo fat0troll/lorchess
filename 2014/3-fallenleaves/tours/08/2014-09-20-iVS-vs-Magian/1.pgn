@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/CY0nPjtx"]
+[Date "2014.09.20"]
+[White "iVS"]
+[Black "Magian"]
+[Result "0-1"]
+[WhiteElo "1877"]
+[BlackElo "1919"]
+[PlyCount "65"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D02"]
+[Opening "Queen's Gambit Declined, Baltic Defense"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 Bf5 { Queen's Gambit Declined, Baltic Defense } 3. Nc3 e6 4. Nf3 Bb4 5. Ne5 Nd7 6. Qa4 Bxc3+ 7. bxc3 Nf6 8. Ba3 dxc4 9. e3 Nd5 10. Rc1?! { (0.54 → -0.11) Inaccuracy. The best move was Nxc4. } (10. Nxc4 Rb8 11. Qb3 Qg5 12. Rc1 b5 13. h4 Qg4 14. Ne5 Nxe5 15. dxe5 Qa4 16. Be2 Qxb3 17. axb3 h6) 10... Nb6 11. Qb5?! { (0.10 → -0.58) Inaccuracy. The best move was Qa5. } (11. Qa5 Nxe5 12. Qxe5 f6 13. Qc5 Qd7 14. Bxc4 Nxc4 15. Qxc4 e5 16. O-O O-O-O 17. Rfd1 Be6 18. Qb4 b6) 11... c6 12. Qa5 Nxe5 13. Qxe5 f6 14. Qg3 Kf7 15. Be2 Rc8 16. O-O Qd5 17. Bh5+ g6 18. Bf3 Be4 19. Bxe4 Qxe4 20. Rfe1 Rhe8 21. f3 Qd3 22. Qh4 Kg7 23. e4 g5? { (-0.04 → 2.22) Mistake. The best move was Qd2. } (23... Qd2 24. Bd6 Qh6 25. Qxh6+ Kxh6 26. Rb1 Ra8 27. Kf2 e5 28. Bc5 Red8) 24. Qg3? { (2.22 → 0.00) Mistake. The best move was Qf2. } (24. Qf2 Nd5 25. exd5 cxd5 26. Re3 Qg6 27. Rce1 Rc6 28. Bb4 h6 29. Qg3 b6 30. Bd6 Qf7 31. R3e2 Kh7) 24... Qd2 25. h4 h6 26. hxg5 hxg5 27. e5 f5 28. Rcd1?! { (-0.12 → -0.77) Inaccuracy. The best move was Rb1. } (28. Rb1 Kf7 29. Re2 Qxe2 30. Qxg5 Qxg2+ 31. Qxg2 Rg8 32. Bc5 Rxg2+ 33. Kxg2 Nd5 34. Rxb7+ Rc7 35. Rxc7+ Nxc7) 28... Qf4 29. Qxf4 gxf4 30. Kf2?! { (-0.68 → -1.57) Inaccuracy. The best move was Rb1. } (30. Rb1 Rc7 31. Bd6 Rd7 32. Rb4 Nc8 33. Rxc4 Nxd6 34. exd6 Rxd6 35. Rc5 Kg6 36. Rce5 Kf6 37. Kf2 Rd5) 30... Nd5 31. Rc1 Rh8 32. Re2 Rh2 33. Rb1?! { White resigns (-1.56 → -2.19) Inaccuracy. The best move was Rg1. } (33. Rg1 b5 34. Rc2 Kg6 35. Bc1 Rch8 36. Bd2 Rh1 37. Rcc1 Rxg1 38. Rxg1 Rh7 39. Rc1 Kg5 40. a4 bxa4) 0-1
