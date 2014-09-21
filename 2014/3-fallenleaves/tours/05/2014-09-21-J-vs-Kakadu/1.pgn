@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/Z91HlbGH"]
+[Date "2014.09.21"]
+[White "LOR_J"]
+[Black "kesarev"]
+[Result "0-1"]
+[WhiteElo "1633"]
+[BlackElo "2102"]
+[PlyCount "56"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense, Kennedy Variation, Linksspringer Variation"]
+[Annotator "lichess.org"]
+
+1. e4 Nc6 2. d4 e5 3. d5 { Nimzowitsch Defense, Kennedy Variation, Linksspringer Variation } Nce7 4. Nf3 Ng6 5. c4 Nf6 6. Nc3 Bb4 7. Bd3 Bxc3+ 8. bxc3 c5 9. O-O d6 10. h3 O-O 11. Bg5 h6 12. Be3 Nh5 13. Nh2 Nhf4 14. Bxf4 Nxf4 15. Qf3 Qg5 16. Be2? { (-0.90 → -3.16) Mistake. The best move was Kh1. } (16. Kh1 Nxd3 17. Qxd3 f5 18. exf5 Bxf5 19. Qe2 Rae8 20. Rfe1 Qf6 21. Rf1 Qh4 22. Rae1 Qg5 23. Rd1 b6) 16... Bxh3 17. g3 Nxe2+ 18. Qxe2 Bxf1 19. Kxf1 f5 20. Nf3 Qh5 21. exf5?? { (-3.48 → -7.24) Blunder. The best move was Kg2. } (21. Kg2 Qg4 22. Re1 f4 23. Nh4 Qxe2 24. Rxe2 fxg3 25. Kxg3 Kh7 26. f3 g6 27. Rg2 Rf4 28. a4 h5) 21... Qh1+ 22. Ng1 Rxf5 23. Qg4? { (-7.21 → -12.87) Mistake. The best move was g4. } (23. g4 Rf4 24. Rd1 Raf8 25. Rd3 Rxf2+ 26. Qxf2 Rxf2+ 27. Kxf2 Qh2+ 28. Kf1 Qxa2 29. Rg3 Qxc4+ 30. Ne2 Qxd5) 23... Raf8 24. Ke2 Rxf2+ 25. Kd3 Qg2 26. Re1?! { (-50.04 → Mate in 4) Checkmate is now unavoidable. The best move was Rd1. } (26. Rd1 Rxa2 27. Ke3 Qf2+ 28. Ke4 Qc2+ 29. Rd3 Qg2+ 30. Rf3) 26... e4+?! { (Mate in 4 → Mate in 5) Not the best checkmate sequence. The best move was Rd2+. } (26... Rd2+ 27. Ke3 Qf2+ 28. Ke4 Rd4+ 29. cxd4 Qxd4#) 27. Qxe4 Rd2+ 28. Ke3 Qf2# { White is checkmated } 0-1
