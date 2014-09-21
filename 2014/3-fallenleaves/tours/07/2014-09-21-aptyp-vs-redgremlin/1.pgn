@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/UWdOH1Do"]
+[Date "2014.09.21"]
+[White "aptypr"]
+[Black "gremlin_the_red"]
+[Result "0-1"]
+[WhiteElo "1712"]
+[BlackElo "1876"]
+[PlyCount "60"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A57"]
+[Opening "Benoni Defense, Hromodka System"]
+[Annotator "lichess.org"]
+
+1. d4 Nf6 2. c4 c5 3. d5 d6 { Benoni Defense, Hromodka System } 4. Nc3 g6 5. e4 Bg7 6. h3 O-O 7. Nf3 Na6 8. Bd3 Nc7 9. O-O a6 10. a4 b6 11. Re1 Rb8 12. e5 Nd7 13. exd6 exd6 14. Bg5 f6 15. Bf4 Ne5 16. Nxe5 fxe5 17. Bg3 Bd7 18. Ne4 Qe7 19. b3 b5?! { (0.55 → 1.34) Inaccuracy. The best move was Bf5. } (19... Bf5 20. Qd2 Bf6 21. Re2 Rf7 22. Rae1 b5 23. f4 exf4 24. Bxf4 Bd4+) 20. axb5 axb5 21. Rf1? { (1.29 → 0.26) Mistake. The best move was Ra7. } (21. Ra7 Bf5 22. Nxc5 Ra8 23. Rxa8 Rxa8 24. cxb5 Bxd3 25. Qxd3 dxc5 26. d6 Qd7 27. b6 Ne6 28. Bxe5 Bxe5) 21... bxc4 22. bxc4 Ne8 23. f4? { (0.75 → -1.34) Mistake. The best move was Ra7. } (23. Ra7 Qd8 24. Bc2 Bf5) 23... exf4 24. Bxf4 Bxa1 25. Qxa1 Bf5 26. Qe1? { (-1.28 → -2.32) Mistake. The best move was Bh6. } (26. Bh6 Ng7 27. Bg5 Qc7 28. g4 Bxe4 29. Bxe4 Rxf1+ 30. Qxf1 Qf7 31. Qe2 Ra8 32. Kg2 Ne8 33. Qd2 Ra1) 26... Bxe4 27. Bxe4?! { (-2.36 → -3.25) Inaccuracy. The best move was Qxe4. } (27. Qxe4 Qxe4 28. Bxe4 Rb3 29. Bd2 Rxf1+ 30. Kxf1 Nf6 31. Bf3 Kf7 32. Bf4 Ke7 33. Bd2 Ra3 34. Ke2 Nd7) 27... Nf6? { (-3.25 → -1.27) Mistake. The best move was Ng7. } (27... Ng7 28. Qe3 Rbe8 29. Re1 Qf6 30. g3 Nh5 31. Bg5 Rxe4 32. Bxf6 Rxe3 33. Rxe3 Rxf6 34. Kg2 Ng7 35. Rb3) 28. Bg5?? { (-1.27 → -6.52) Blunder. The best move was Bf3. } (28. Bf3 Qxe1 29. Rxe1 Rb6 30. Ra1 Re8 31. Bg5 Kf7 32. Kh2 Re5 33. Bf4 Re7 34. Ra8 Reb7 35. Kg3 Nd7) 28... Qxe4 29. Bxf6?! { (-6.63 → -7.53) Inaccuracy. The best move was Bh6. } (29. Bh6 Qxe1 30. Rxe1 Rfe8 31. Rc1 Ne4 32. Kh2 g5 33. h4 gxh4 34. Kh3 Rb2 35. Rf1 Rc2 36. Rc1) 29... Qxe1 30. Rxe1 Rxf6 { White resigns } 0-1
