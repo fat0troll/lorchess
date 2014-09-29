@@ -1,0 +1,16 @@
+[Event "Casual game"]
+[Site "http://lichess.org/OC6ARP6Y"]
+[Date "2014.09.29"]
+[White "LOR_J"]
+[Black "raven_cler"]
+[Result "0-1"]
+[WhiteElo "1626"]
+[BlackElo "1570"]
+[PlyCount "66"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B01"]
+[Opening "Scandinavian Defense, Gubinsky-Melts Defense"]
+[Annotator "lichess.org"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 { Scandinavian Defense, Gubinsky-Melts Defense } 4. d3?! { (0.67 → 0.17) Inaccuracy. The best move was Nf3. } (4. Nf3 Nf6 5. d4 a6 6. Bd3 Nc6 7. O-O Bg4 8. Ne4 Nxe4 9. Bxe4 f5 10. Bxc6+ Qxc6 11. d5 Bxf3) 4... Nc6 5. Nf3 Bf5 6. h3 O-O-O 7. a3 e5 8. Be2 Nf6 9. Bg5 Be7 10. b4 e4 11. dxe4 Nxe4?! { (-0.71 → 0.00) Inaccuracy. The best move was Qe6. } (11... Qe6 12. exf5 Rxd1+ 13. Nxd1 Qxf5 14. Ne3 Qd7 15. Rd1 Qe8 16. Bd3 a5 17. b5 Nd8 18. O-O Ne6 19. Bxf6) 12. Nxe4?! { (0.00 → -0.57) Inaccuracy. The best move was Qxd6. } (12. Qxd6 Nxd6 13. Bxe7 Nxe7 14. O-O-O Ng6 15. Nd4 Bd7 16. Kb2 Kb8 17. h4 Ne5 18. g3 Rhe8 19. Rhe1 Ng4) 12... Qg6 13. Qc1 Bxe4 14. Bxe7 Nxe7 15. O-O Bxc2?! { (-0.25 → 0.70) Inaccuracy. The best move was Rhe8. } (15... Rhe8 16. Re1 Nc6 17. c3 Ne5 18. Qf4 Kb8 19. Red1 Rxd1+ 20. Rxd1 Bxf3 21. Bxf3 Nd3) 16. Ne5 Qe6 17. Qf4? { (1.12 → -0.65) Mistake. The best move was Re1. } (17. Re1 Be4 18. Qc5 Nd5 19. Bg4 f5 20. Rxe4 Kb8 21. b5 Qd6 22. Qxd6 cxd6 23. Bxf5) 17... f6 18. Bc4?? { (-0.66 → -4.35) Blunder. The best move was Bg4. } (18. Bg4 Bf5 19. Nf7 Qxf7 20. Bxf5+ Nxf5 21. Qxf5+ Kb8 22. Rfe1 h6 23. Rad1 h5 24. Qc5 Rxd1 25. Rxd1 Re8) 18... Qxe5 19. Qxe5 fxe5 20. Rfe1 Ng6 21. Rac1 Rd2 22. Bf7? { (-4.48 → -5.63) Mistake. The best move was Re2. } (22. Re2 Rxe2 23. Bxe2 Bf5 24. Rc5 b6 25. Rc1 Rd8 26. Ba6+ Kb8 27. Re1 Rd2 28. Bc4 e4 29. g4 Ne5) 22... Rf8 23. Bxg6 hxg6 24. Rxe5?! { (-4.94 → -5.83) Inaccuracy. The best move was f3. } (24. f3 e4 25. Re3 exf3 26. gxf3 Rf7 27. Rf1 Bf5 28. h4 Bd7 29. Rf2 Rd4 30. Rg2 Bc6 31. Kf2 Rxh4) 24... Rfxf2 25. Rce1?! { (-5.94 → Mate in 9) Checkmate is now unavoidable. The best move was Rg5. } (25. Rg5 Be4 26. Re1 Rxg2+ 27. Rxg2 Bxg2 28. Re6 Bxh3 29. Rxg6 Ra2 30. Rg3 Bf5 31. Rxg7 Rxa3 32. Rf7 Bh3) 25... Rxg2+ 26. Kh1 b6? { (Mate in 8 → -7.41) Lost forced checkmate sequence. The best move was Rh2+. } (26... Rh2+ 27. Kg1 Rdg2+ 28. Kf1 Bd3+ 29. R1e2 Bxe2+ 30. Ke1 Bc4 31. Re8+ Kd7 32. Re2 Rxe2+ 33. Kd1 Rh1#) 27. Re8+? { (-7.41 → -52.49) Mistake. The best move was R1e3. } (27. R1e3 Bf5 28. Rf3 Rh2+ 29. Kg1 Bxh3 30. Rg3 Rhg2+ 31. Rxg2 Rxg2+ 32. Kh1 Ra2 33. Re3 Bf5 34. Kg1 Kd7) 27... Kb7 28. Rb8+?! { (-60.13 → Mate in 8) Checkmate is now unavoidable. The best move was Rd8. } (28. Rd8 Rh2+ 29. Kg1 Rdg2+ 30. Kf1 Ba4 31. Re5 Bc6 32. Rdd5 Rb2 33. Kg1 Rhc2 34. Rd1 Rg2+ 35. Kf1 Rh2) 28... Kxb8 29. Re8+ Kb7 30. Rb8+ Kxb8 31. a4 Be4 32. a5 Rh2+?! { (Mate in 1 → Mate in 1) Not the best checkmate sequence. The best move was Rg3#. } (32... Rg3#) 33. Kg1 Rh1# { White is checkmated } 0-1
