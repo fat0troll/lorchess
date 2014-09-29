@@ -17,10 +17,10 @@ argv0=${0##*/}
 
 function usage {
     cat <<EOF
-Store a chess game played on lichess.org
+Store chess games played on lichess.org
 
 Usage:
-  $argv0 -t <num> <url>
+  $argv0 -t <num> [-u] [<url>]
   $argv0 -h
   $argv0 -v
 
@@ -28,10 +28,17 @@ Usage:
   inner variable REPO_DIR to it. If the tournament is not the last one
   (default), store its sub-directory in inner variable TOURNAMENT.
 
-  The first form fills the result of a chess game and stores its PGN
-  file, assuming that the game is available at <url> (lichess.org) and
-  corresponds to tournament tour <num>. The second form shows this
-  help output. The third form shows version information.
+  The first form fills the results of chess games and stores its PGN
+  files, assuming that all the games were played by the same pair of
+  players on tour <num> of the tournament. The PGN files are sorted by
+  their timestamps, unless '-u' is set. Each game should be available
+  at the corresponding <url> (lichess.org).
+
+  The second form shows this help output. The third form shows version
+  information.
+
+Options:
+  -u            Don't sort games by their timestamps
 EOF
 
     exit "${1:-0}"
@@ -57,6 +64,36 @@ function game_setup {
 
     # Configuration file for players
     ply_ini=${REPO_DIR}/${TOURNAMENT}/players.ini
+}
+
+function game_mktemp {
+    # Don't sort just one game
+    [[ $# == 1 ]] && SORT_GAMES=false
+
+    for url in $@; do
+        local pgn_template="pgn"
+        [[ $url =~ ^(http://[^/]*)/([^/]*) ]]
+        # Link to annotated game PGN
+        local game_url=${BASH_REMATCH[1]}/game/export/${BASH_REMATCH[2]::8}.pgn
+
+        # Append the timestamp of game for sorting
+        if $SORT_GAMES; then
+            local game_api=${BASH_REMATCH[1]}/api/game/${BASH_REMATCH[2]::8}
+            local api_response=$(curl -q --fail --location --silent "$game_api")
+            [[ -z $api_response ]] && die "Unreachable game API ${game_api}"
+            local game_time=$(sed -En "s/.*\"timestamp\":([0-9]+).*/\1/p" <<< "$api_response")
+            pgn_template+="-${game_time}"
+        fi
+
+        # Store PGN file in a temporal location
+        local tmp_pgn=$(mktemp -t ${pgn_template}.XXXXXX)
+        TMP_PGN_FILES+=" $tmp_pgn"
+        trap "rm $TMP_INI_FILES $TMP_PGN_FILES" EXIT
+        wget -q -U "$FIREFOX_UA" -O $tmp_pgn "$game_url" \
+            || die "Unreachable game PGN ${game_url}"
+    done
+
+    $SORT_GAMES && TMP_PGN_FILES=$(echo "$TMP_PGN_FILES" | xargs -n1 | sort | xargs)
 }
 
 function game_get_players {
@@ -195,28 +232,31 @@ function game_git_commit {
 }
 
 function die {
-    echo "$@" 1>&2
+    echo "$@" >&2
     exit 1
 }
 
 function checkargs {
-    if [[ $opt == t && $OPTARG =~ ^[0-9]+$ ]]; then
+    if [[ $opt == t ]]; then
+        [[ ! $OPTARG =~ ^[0-9]+$ ]] && die "Incorrect tour number."
         TOUR=$(printf "%02g" $OPTARG)
     fi
 }
 
-while getopts t:hv opt; do
+SORT_GAMES=true
+while getopts t:uhv opt; do
     case $opt in
-        t) checkargs ;;
-        h) usage     ;;
-        v) version   ;;
-        *) usage 1   ;;
+        t) checkargs        ;;
+        u) SORT_GAMES=false ;;
+        h) usage            ;;
+        v) version          ;;
+        *) usage 1          ;;
     esac
 done
 
 shift $(($OPTIND - 1))
 # For now, tour number should be given explicitly
-[[ -z $TOUR || -z $1 ]] && usage 1
+[[ -z $TOUR || $# == 0 ]] && usage 1
 
 game_setup
 tour_info=${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/tour_info
@@ -227,15 +267,9 @@ git pull
 
 # Temporary files
 tmp_ini=$(mktemp -t `basename $ply_ini`.XXXXXX)
-tmp_pgn=$(mktemp -t pgn.XXXXXX)
-trap "rm ${tmp_ini} ${tmp_ini}.prev ${tmp_pgn}" EXIT
-
-# Download PGN file
-[[ $1 =~ ^(http://[^/]*)/([^/]*) ]]
-# Link to annotated PGN
-pgn_url=${BASH_REMATCH[1]}/game/export/${BASH_REMATCH[2]::8}.pgn
-wget -q -U "$FIREFOX_UA" -O $tmp_pgn "$pgn_url" \
-    || die "PGN file at $pgn_url not found."
+TMP_INI_FILES="${tmp_ini} ${tmp_ini}.prev"
+TMP_PGN_FILES=
+game_mktemp $@
 
 game_get_players
 game_add_to_repo
