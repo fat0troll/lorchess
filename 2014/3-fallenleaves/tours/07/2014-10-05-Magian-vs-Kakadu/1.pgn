@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/v24J1FAb"]
+[Date "2014.10.05"]
+[White "Magian"]
+[Black "kesarev"]
+[Result "0-1"]
+[WhiteElo "1929"]
+[BlackElo "2106"]
+[PlyCount "60"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C23"]
+[Opening "Bishop's Opening, General"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Bc4 { Bishop's Opening, General } Nc6 3. Nf3 Nf6 4. d3 Bc5 5. Be3 Bb6 6. c3 O-O 7. O-O d6 8. h3 Na5 9. Nbd2 c6 10. a3 Nxc4 11. Nxc4 Bc7 12. Bg5 Re8 13. Ne3 Re6?! { (-0.19 → 0.67) Inaccuracy. The best move was h6. } (13... h6 14. Bh4 Be6 15. Re1 g5 16. Bg3 a6 17. a4 Nh5 18. Bh2 Nf4 19. d4 Qf6 20. Bg3 Qg6 21. Qc2) 14. Nf5?! { (0.67 → -0.04) Inaccuracy. The best move was Ng4. } (14. Ng4 Qe8 15. Nxf6+ gxf6 16. Be3 Qd8 17. Nh4 Re8 18. Qh5 d5 19. Qh6 Be6 20. Rfd1 Kh8 21. Nf5 Rg8) 14... Qf8 15. Qd2 Bd7 16. N3h4 d5 17. Nxg7? { (-0.20 → -2.34) Mistake. The best move was Qe3. } (17. Qe3 c5 18. Rfd1 Ba4 19. Rd2 Rd8 20. Bxf6 Rxf6 21. exd5 Rxd5 22. Re1 Rd8 23. b4) 17... Qxg7 18. Bh6?? { (-2.25 → -6.81) Blunder. The best move was Nf5. } (18. Nf5 Qg6 19. g4 Bd8 20. Be3 Nxg4 21. hxg4 Qxg4+ 22. Ng3 Rg6) 18... Nxe4 19. dxe4 Qxh6? { (-7.23 → -4.75) Mistake. The best move was Rxh6. } (19... Rxh6 20. Nf5 Bxf5 21. exf5 Rxh3 22. g3 e4 23. Rae1 Qg4 24. Qe2 Qg5 25. Kg2) 20. Qxh6 Rxh6 21. Nf3?! { (-4.77 → -5.63) Inaccuracy. The best move was Nf5. } (21. Nf5 Bxf5 22. exf5 Rh5 23. g4 Rxh3 24. Kg2 Rd3 25. Rfd1 Rxd1 26. Rxd1 Kg7 27. Kf3 Re8 28. Rh1 e4+) 21... dxe4 22. Ng5?! { (-5.64 → -6.24) Inaccuracy. The best move was Nd2. } (22. Nd2 f5 23. Rfe1 Be6 24. g4 Rg6 25. Kh2 e3 26. Rxe3 fxg4 27. Ne4 Bb6 28. Rg3 Rf8 29. hxg4 Bxf2) 22... Bf5? { (-6.24 → -4.65) Mistake. The best move was f5. } (22... f5 23. g3 Rd6 24. Rfd1 Rxd1+ 25. Rxd1 Rd8 26. h4 h6 27. Nh3 f4 28. Kh2 Bxh3 29. Rxd8+ Bxd8 30. Kxh3) 23. g4? { (-4.65 → -6.39) Mistake. The best move was Rfe1. } (23. Rfe1 Rg6 24. h4 e3 25. Rxe3) 23... Rg6 24. gxf5 Rxg5+ 25. Kh2 Rxf5 26. Rg1+?! { (-6.57 → -7.38) Inaccuracy. The best move was Rae1. } (26. Rae1 Rf4 27. Rg1+ Kf8 28. Re2 Rd8 29. c4 f5 30. c5 Kf7 31. Rf1 Kf6 32. Kg2 Rf3 33. Re3 Rxe3) 26... Kh8 27. Rg4? { (-6.96 → -8.41) Mistake. The best move was Rg2. } (27. Rg2 Bb6 28. Re1 Rf4 29. Re2 f5 30. b4 Rf3 31. c4 Rxa3 32. c5 Bd8 33. Rg3 Ra4 34. Rb2 Bh4) 27... Rxf2+ 28. Kg3? { (-8.62 → -11.99) Mistake. The best move was Kh1. } (28. Kh1 f5 29. Rg5 Rg8 30. Rxg8+ Kxg8 31. Rg1+ Kf7 32. Rg2 Rf3 33. Kh2 f4 34. Re2 e3 35. h4 e4) 28... e3 29. Kh4 f5 30. Rg5 Bd8 { White resigns } 0-1
