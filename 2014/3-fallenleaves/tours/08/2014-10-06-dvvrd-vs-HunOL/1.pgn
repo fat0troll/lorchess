@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/7UfuUK5C"]
+[Date "2014.10.06"]
+[White "dvvrd"]
+[Black "HunOL"]
+[Result "1-0"]
+[WhiteElo "1911"]
+[BlackElo "1869"]
+[PlyCount "36"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense, Two Knights Attack"]
+[Annotator "lichess.org"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 { Caro-Kann Defense, Two Knights Attack } e6 4. d3 d4 5. Ne2 e5?! { (-0.05 → 0.54) Inaccuracy. The best move was c5. } (5... c5 6. c3 Nc6 7. Qa4 dxc3 8. Nxc3 Bd7 9. Be2 Nd4 10. Qd1 Be7 11. O-O Nf6 12. Bf4 O-O 13. Nxd4) 6. g3 f6 7. Bg2 Be6 8. O-O Nd7 9. Nh4 c5 10. f4 Be7 11. Nf5 Rc8?? { (0.45 → 4.41) Blunder. The best move was Bf8. } (11... Bf8 12. fxe5 fxe5 13. c3 g6 14. Nh4 Ne7 15. Bg5 Qb6 16. b3 Nc6 17. Rc1) 12. Nxg7+ Kf7 13. Nxe6 Kxe6 14. c3 Bd6? { (4.15 → 5.92) Mistake. The best move was Kd6. } (14... Kd6 15. fxe5+ fxe5 16. cxd4 cxd4 17. Nxd4 Qb6 18. Be3 Kc7 19. Rc1+ Bc5 20. b4 Qxb4) 15. Kh1? { (5.92 → 4.35) Mistake. The best move was fxe5. } (15. fxe5 Bxe5 16. cxd4 cxd4 17. Nf4+ Bxf4 18. Bxf4) 15... Ne7? { (4.35 → 5.88) Mistake. The best move was Kf7. } (15... Kf7 16. Bh3 Rc6 17. fxe5 Bxe5 18. Qb3+ Kg7 19. Qxb7 Qc7 20. Qa8 Ne7 21. Bh6+ Kxh6 22. Qxh8 Qb8 23. Qxb8) 16. cxd4 cxd4? { (6.37 → 7.97) Mistake. The best move was exd4. } (16... exd4 17. e5 Nxe5 18. fxe5 Bxe5 19. Nf4+ Kd7 20. Qg4+ f5 21. Qf3 Rc6 22. Nd5 h6 23. Re1 Re6 24. Nxe7) 17. Qb3+ Nd5 18. Qxd5+ Ke7 { Black resigns } 1-0
