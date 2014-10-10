@@ -1,0 +1,16 @@
+[Event "Casual game"]
+[Site "http://lichess.org/BDR6LDAg"]
+[Date "2014.10.10"]
+[White "sshilovsky"]
+[Black "dvvrd"]
+[Result "0-1"]
+[WhiteElo "1701"]
+[BlackElo "1936"]
+[PlyCount "37"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B02"]
+[Opening "Alekhine Defense, Two Pawn Attack"]
+[Annotator "lichess.org"]
+
+1. e4 Nf6 2. e5 Nd5 3. c4 { Alekhine Defense, Two Pawn Attack } Nb6 4. Nc3 d6 5. exd6 exd6 6. d4 g6 7. Be3?! { (0.94 → 0.32) Inaccuracy. The best move was Nf3. } (7. Nf3 Bg7 8. Bg5 f6 9. Be3 O-O 10. c5 dxc5 11. dxc5 N6d7 12. Be2 Kh8 13. h4 Na6 14. h5) 7... Bg7 8. Bd3 O-O 9. c5? { (0.18 → -1.14) Mistake. The best move was b3. } (9. b3 c5 10. Nge2 Nc6 11. dxc5 dxc5 12. Bxc5 Re8 13. O-O Rxe2 14. Bxe2 Bxc3 15. Qxd8+ Nxd8 16. Rad1 Bf5) 9... dxc5 10. dxc5 Nd5?! { (-1.03 → -0.45) Inaccuracy. The best move was Bxc3+. } (10... Bxc3+ 11. bxc3 Nd5 12. Bd2 Nd7 13. Ne2 Nxc5 14. Bc2) 11. Nxd5 Qxd5 12. Qc2? { (-0.50 → -2.06) Mistake. The best move was Nf3. } (12. Nf3 Bxb2 13. O-O Bf6 14. Bc2 Qxd1 15. Raxd1 Re8 16. Rb1 Nc6 17. Rfd1 b6 18. Ba4 Bb7 19. Rbc1 Red8) 12... Nc6 13. Be4?! { (-2.14 → -3.05) Inaccuracy. The best move was a3. } (13. a3 Nd4 14. Bxd4 Qxg2 15. Be4 Re8 16. O-O-O Rxe4 17. Bxg7 Qxh1 18. Qc3 Be6 19. Nf3 Qg2 20. Nd2 Qg5) 13... Nb4 14. Bxd5? { (-3.58 → -5.50) Mistake. The best move was Qb1. } (14. Qb1 Qc4 15. a3 Re8 16. axb4 Rxe4 17. Nf3 Qxb4+ 18. Kf1 Bf5 19. Qe1 Qxb2 20. Rc1) 14... Nxc2+ 15. Ke2?! { (-5.53 → -6.20) Inaccuracy. The best move was Kd2. } (15. Kd2 Nxa1 16. Kc1 Rd8 17. Be4 Be6 18. b3 c6 19. Ne2 a5 20. Nf4 Nxb3+ 21. axb3 Bxb3 22. Kb1 a4) 15... Nxa1 16. Bc4?! { (-6.33 → -6.88) Inaccuracy. The best move was Be4. } (16. Be4 Re8 17. Bd3 Bf5 18. Bxf5 gxf5 19. Kf3 Nc2 20. Ne2 Rad8 21. Ng3 Rd5 22. Rc1 Nxe3 23. fxe3 Rxe3+) 16... Nc2 17. a3?! { (-6.95 → -7.69) Inaccuracy. The best move was Nf3. } (17. Nf3 Nxe3 18. fxe3 Bxb2 19. Rd1 Kg7 20. h3 Re8 21. Rd3 Bf6 22. g4 c6 23. a4 h5 24. gxh5 Bxh3) 17... Nxe3 18. fxe3 Bxb2 19. Nf3 { White resigns } 0-1
