@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/EN9yNQhu"]
+[Date "2014.10.13"]
+[White "aptypr"]
+[Black "LOR_J"]
+[Result "1-0"]
+[WhiteElo "1711"]
+[BlackElo "1633"]
+[PlyCount "53"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D21"]
+[Opening "Queen's Gambit Accepted, Rosenthal Variation"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 e6 { Queen's Gambit Accepted, Rosenthal Variation } 4. e3 Nf6 5. Bxc4 Bb4+ 6. Nc3 Ne4 7. Qb3 c5 8. dxc5?! { (1.26 → 0.31) Inaccuracy. The best move was O-O. } (8. O-O Bxc3 9. bxc3 O-O 10. Qc2 f5 11. Bd3 b6 12. Bxe4 fxe4 13. Qxe4 Qd5 14. Qxd5 exd5 15. dxc5 bxc5) 8... Bxc3+ 9. bxc3 Nxc5 10. Qb5+ Nbd7 11. O-O a6 12. Qb4 O-O 13. Ba3 b5 14. Bb3 Bb7 15. Qg4 Qf6 16. Nd4 Nxb3 17. axb3 Rfc8 18. Rac1 Ne5 19. Qe2 Qg5?? { (-0.83 → 2.50) Blunder. The best move was Be4. } (19... Be4 20. Rfd1 Nd3 21. Rc2 e5 22. f3 Bg6 23. Rxd3 Bxd3 24. Qxd3 exd4 25. cxd4 Rxc2 26. Qxc2 a5 27. Qe4) 20. f4 Bf3? { (2.57 → 3.99) Mistake. The best move was Qg4. } (20... Qg4 21. fxe5 Qxe2 22. Nxe2 a5 23. Nd4 a4 24. b4 Ba6 25. Bb2 Ra7 26. h3 Rd7 27. e4 h6 28. Ra1) 21. fxg5? { (3.99 → 2.89) Mistake. The best move was Nxf3. } (21. Nxf3 Nxf3+ 22. Qxf3 Qd8 23. Rfd1 Qe8 24. c4 bxc4 25. bxc4 a5 26. c5 Rc6 27. Rb1 Rc7 28. Qe4 Rac8) 21... Bxe2 22. Nxe2 Nd3 23. Rc2 b4?! { (3.14 → 4.11) Inaccuracy. The best move was a5. } (23... a5 24. Rd2 Ne5 25. Bd6 Rd8 26. Rfd1 Ng4 27. Rd3 f6 28. h3 Ne5 29. Bxe5 Rxd3 30. Rxd3 fxe5 31. e4) 24. Bc1? { (4.11 → 3.03) Mistake. The best move was Rd1. } (24. Rd1 bxa3 25. Rxd3 Kf8 26. Ra2 Rc5 27. Rxa3 Rxg5 28. b4 Rh5 29. Rd2 Re5 30. Rda2 Rxe3 31. b5 Rd3) 24... Nxc1?! { (3.03 → 3.80) Inaccuracy. The best move was a5. } (24... a5 25. Rd1 Ne5 26. e4 a4 27. bxa4 f6 28. Bf4 Rxa4 29. gxf6 gxf6 30. Bxe5 fxe5 31. Kf2 Ra3 32. Ke3) 25. Rfxc1 bxc3 26. Rxc3 Rxc3 27. Rxc3 { Black resigns } 1-0
