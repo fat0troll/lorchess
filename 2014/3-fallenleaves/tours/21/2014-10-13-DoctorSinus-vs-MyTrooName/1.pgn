@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/eUT8g50n"]
+[Date "2014.10.13"]
+[White "fat0troll"]
+[Black "sshilovsky"]
+[Result "1-0"]
+[WhiteElo "1381"]
+[BlackElo "1725"]
+[PlyCount "59"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C61"]
+[Opening "Spanish Game, Bird Variation"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nd4 { Spanish Game, Bird Variation } 4. Nxd4 exd4 5. c4 c6 6. Ba4 a6 7. Bc2 Bc5 8. d3 Bb4+ 9. Bd2 Bxd2+ 10. Nxd2 c5 11. a4 a5 12. b3 b6 13. O-O d6 14. f4 Nf6 15. e5 Bg4 16. Nf3 Bxf3 17. Qxf3 dxe5 18. fxe5 Ra7 19. exf6 g6 20. Rae1+ Kd7 21. Qd5+ Kc8 22. Qc6+ Kb8 23. Qd5 Qxd5 24. cxd5 Rd7 25. Re7 Rhd8 26. Rxd7 Rxd7 27. Re1 Rxd5 28. Re7 Rd8 29. Rxf7 h6 30. Re7 { Black resigns } 1-0
