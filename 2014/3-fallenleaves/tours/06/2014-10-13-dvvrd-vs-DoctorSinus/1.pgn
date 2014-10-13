@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/gi5hYUdW"]
+[Date "2014.10.13"]
+[White "dvvrd"]
+[Black "fat0troll"]
+[Result "1-0"]
+[WhiteElo "1951"]
+[BlackElo "1410"]
+[PlyCount "47"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C30"]
+[Opening "King's Gambit, General"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. f4 { King's Gambit, General } d6 3. Nf3 Bg4 4. Bc4 Bxf3 5. Qxf3 exf4 6. O-O Qf6 7. d3 Nd7 8. Bxf4 Ne5 9. Bxe5 Qxf3 10. Rxf3 dxe5 11. Bxf7+ Kd7 12. Nc3 Bc5+ 13. Kh1 Rf8 14. Na4 Bd4 15. Be6+ Kxe6 16. Rxf8 b5 17. Nc3 b4 18. Nd5 Bxb2 19. Rb1 a5 20. Rxb2 c6 21. Nxb4 axb4 22. Rxb4 Ke7 23. Rbb8 c5 24. Rxg8 { Black resigns } 1-0
