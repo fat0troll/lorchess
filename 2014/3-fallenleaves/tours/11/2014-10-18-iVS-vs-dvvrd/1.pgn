@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/Z2mr8L1T"]
+[Date "2014.10.18"]
+[White "iVS"]
+[Black "dvvrd"]
+[Result "0-1"]
+[WhiteElo "1890"]
+[BlackElo "1954"]
+[PlyCount "90"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "E81"]
+[Opening "King's Indian Defense, Sämisch Variation, Bobotsov-Korchnoi-Petrosian Variation"]
+[Annotator "lichess.org"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Nge2 { King's Indian Defense, Sämisch Variation, Bobotsov-Korchnoi-Petrosian Variation } e5 7. d5 Ne8 8. Be3 Bh6 9. Bxh6 Qh4+ 10. Ng3 Qxh6 11. Qc1 Qh4 12. Qd2 a5 13. Be2 f5 14. O-O-O Na6 15. Nf1 Nc5 16. g3 Qf6 17. h4 Bd7 18. Qg5 Kg7 19. Nd2 h6 20. Qxf6+?! { (0.16 → -0.34) Inaccuracy. The best move was Qe3. } (20. Qe3 a4 21. exf5 gxf5 22. g4 fxg4 23. fxg4 Qf4 24. Qxf4 Rxf4 25. Rdf1 Rxf1+ 26. Rxf1 Nf6 27. Rg1 Nh7) 20... Nxf6 21. Rdf1 Rae8 22. Bd1 Nh5 23. Rhg1? { (-0.39 → -1.60) Mistake. The best move was Rfg1. } (23. Rfg1 fxe4 24. Ncxe4 Nxe4 25. fxe4 Nf6 26. g4 g5 27. Rh2 Rh8 28. Be2 Ref8 29. Kc2 b6 30. b3 gxh4) 23... f4 24. gxf4 Rxf4 25. Nb3 Nxb3+ 26. Bxb3 Rxh4 27. Ba4 Bxa4 28. Nxa4 Nf4 29. Nc3?! { (-1.62 → -2.31) Inaccuracy. The best move was Rh1. } (29. Rh1 Rxh1 30. Rxh1 Ne2+ 31. Kd2 Nd4 32. Rh3 Rf8 33. Ke3 h5 34. Nc3 g5 35. Nb5 Nxb5 36. cxb5 Kg6) 29... Rh2 30. Rd1 Rf8?! { (-2.55 → -1.77) Inaccuracy. The best move was Rf2. } (30... Rf2 31. c5 Rxf3 32. cxd6 cxd6 33. Rdf1 Rxf1+ 34. Rxf1 h5 35. Nb5 Rd8 36. Kd2 g5 37. Ke3 h4 38. Kf3) 31. Rd2 Rh3 32. Rf1 g5 33. Ne2? { (-1.77 → -4.13) Mistake. The best move was Nb5. } (33. Nb5 Kf6 34. c5 Ke7 35. Kc2 Kd7 36. Na3 dxc5 37. Nc4 Ng6 38. Nxa5 b6 39. Nc4 b5 40. Na5 Rfxf3) 33... Nxe2+ 34. Rxe2 Rhxf3 35. Rg1 b6 36. Kd2 Kg6 37. Kc2 h5 38. a3? { (-5.03 → -6.05) Mistake. The best move was Rh1. } (38. Rh1 h4 39. Kd2 h3 40. Rhh2 R8f4 41. Re3 Rf2+ 42. Re2 Rxe2+ 43. Kxe2 Rxe4+ 44. Kd3 Rd4+ 45. Ke3) 38... g4 39. b4? { (-5.99 → -8.32) Mistake. The best move was Reg2. } (39. Reg2 Kg5 40. b4 axb4 41. axb4 Re3 42. Rh2 h4 43. Rgh1 h3 44. Rg1 Ra3 45. Kb2 Rfa8 46. Rgh1 Rf3) 39... axb4? { (-8.32 → -6.15) Mistake. The best move was Rxa3. } (39... Rxa3 40. Reg2 axb4 41. Kb1 Rf4 42. Rb2 h4 43. Rxb4 h3 44. Rb2 g3 45. Rh2 g2 46. Rgxg2+ hxg2 47. Rxg2+) 40. axb4 Kg5 41. Reg2 Rf2+ 42. Rxf2 Rxf2+ 43. Kb3? { (-7.60 → -11.42) Mistake. The best move was Kd3. } (43. Kd3 Rf3+ 44. Kc2 h4 45. c5 h3 46. Rh1 Kf4 47. cxd6 cxd6 48. Rh2 Kxe4 49. b5 Kxd5 50. Kd2) 43... Re2? { (-11.42 → -7.18) Mistake. The best move was h4. } (43... h4 44. Ka4 h3 45. Kb5 h2 46. Rh1 g3 47. Kc6 g2 48. Rxh2 g1=Q 49. Rxf2 Qxf2 50. Kxc7 Qd4 51. Kxd6) 44. c5?! { (-7.18 → -7.84) Inaccuracy. The best move was Kc3. } (44. Kc3 Rxe4 45. Kd3 Rd4+ 46. Ke3 Rxc4 47. Rf1 h4 48. Rf7 h3 49. Rg7+ Kf5 50. Kf2 Rxb4 51. Rxc7 Rb2+) 44... bxc5 45. bxc5 Rxe4 { White resigns } 0-1
