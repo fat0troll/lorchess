@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/4s9kXk0K"]
+[Date "2014.10.19"]
+[White "Magian"]
+[Black "aptypr"]
+[Result "1-0"]
+[WhiteElo "1924"]
+[BlackElo "1717"]
+[PlyCount "37"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C00"]
+[Opening "French Defense, Knight Variation"]
+[Annotator "lichess.org"]
+
+1. e4 e6 2. Nf3 { French Defense, Knight Variation } d5 3. exd5 exd5 4. d4 Nf6 5. Bg5 Be7 6. Bd3 Bg4 7. O-O Nc6 8. c3 Qd7 9. Re1 O-O-O 10. Bb5?! { (0.86 → 0.35) Inaccuracy. The best move was h3. } (10. h3 Bh5 11. Nbd2 Rde8 12. b4 h6 13. Qc2 Kb8 14. Bh4 Bd6 15. Bxf6 gxf6 16. Bf5 Qd8 17. g4 Bg6) 10... Qd6? { (0.35 → 1.38) Mistake. The best move was h6. } (10... h6 11. Bf4 Rhe8 12. Nbd2 Bd6 13. Bxd6 Rxe1+ 14. Qxe1 cxd6 15. Bd3 Re8 16. Qb1 Kb8 17. h3 Bxf3 18. Nxf3) 11. Bxc6 bxc6?! { (1.44 → 2.41) Inaccuracy. The best move was Bxf3. } (11... Bxf3 12. Bxb7+ Kxb7 13. Qxf3 Ne4 14. Bxe7 Qxe7 15. Qe2 Qf6 16. f3 Nd6 17. Nd2 Rde8 18. Qf2 Rxe1+ 19. Rxe1) 12. Nbd2 h6 13. Bh4 g5?? { (2.53 → 6.01) Blunder. The best move was c5. } (13... c5 14. Qa4 Be6 15. Qxa7 Qb6 16. Qa8+ Kd7 17. Qa4+ Kc8 18. Ne5 Kb7 19. Nxf7 Ra8 20. Rxe6 Qxe6 21. Qb3+) 14. Bg3 Qd7? { (5.98 → 7.26) Mistake. The best move was Bxf3. } (14... Bxf3 15. Qa4 Bg4 16. Bxd6 Bxd6) 15. Qa4 Kb8? { (7.03 → 9.75) Mistake. The best move was Kb7. } (15... Kb7 16. Ne5 Qe8 17. Nxg4 Nd7 18. Nb3 Nb6 19. Na5+ Ka6 20. Qxc6 Kxa5) 16. Ne5 Qe8 17. Nxc6+ Kc8?! { (10.99 → Mate in 2) Checkmate is now unavoidable. The best move was Qxc6. } (17... Qxc6 18. Qxc6 Rd6 19. Bxd6 Bxd6 20. Nb3 Bd7 21. Qa6 Bc8 22. Qb5+ Ka8 23. Nc5 h5 24. Qc6+ Kb8 25. b4) 18. Qa6+ Kd7 19. Ne5# { Black is checkmated } 1-0
