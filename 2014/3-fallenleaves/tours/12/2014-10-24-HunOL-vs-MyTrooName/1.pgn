@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/yqmw6XuL"]
+[Date "2014.10.24"]
+[White "HunOL"]
+[Black "sshilovsky"]
+[Result "1-0"]
+[WhiteElo "1838"]
+[BlackElo "1740"]
+[PlyCount "43"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D06"]
+[Opening "Queen's Gambit Declined, Austrian Defense"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 c5 { Queen's Gambit Declined, Austrian Defense } 3. e3 f5?! { (0.18 → 1.09) Inaccuracy. The best move was e6. } (3... e6 4. Nf3) 4. Nc3 Nf6 5. dxc5 e5 6. b4?! { (1.10 → 0.60) Inaccuracy. The best move was Nf3. } (6. Nf3 Bxc5 7. cxd5 Bd6 8. Be2 O-O 9. O-O Na6 10. Nd2 Nc7 11. Nc4 b5 12. Nxd6 Qxd6) 6... b6?! { (0.60 → 1.37) Inaccuracy. The best move was a5. } (6... a5 7. Bb2 axb4 8. Nxd5 Be6 9. Nf3 Nxd5 10. cxd5 Qxd5 11. Qxd5 Bxd5 12. Nxe5 Nc6 13. Nc4 Be6 14. a3) 7. cxb6?! { (1.37 → 0.67) Inaccuracy. The best move was Nxd5. } (7. Nxd5 bxc5 8. Nf3 Nbd7 9. Bb2 Bd6 10. bxc5 Qa5+ 11. Bc3 Qxc5 12. Bb4 Qxd5 13. Bxd6 Qa5+ 14. Qd2 Qxd2+) 7... axb6 8. Qb3?! { (0.53 → -0.24) Inaccuracy. The best move was cxd5. } (8. cxd5 Bxb4 9. Bd2 O-O 10. Nf3 Nbd7 11. Nb5 Bxd2+ 12. Qxd2 Bb7 13. d6 Rc8 14. Ng5 Ne4 15. Nxe4 Bxe4) 8... d4 9. Nd5?! { (0.01 → -0.51) Inaccuracy. The best move was exd4. } (9. exd4 exd4 10. Nd5 Nc6 11. Bb2 Nxb4 12. a3 Nfxd5 13. cxd5 Qxd5 14. Qxd5 Nxd5 15. Nf3 Bc5 16. Nxd4 O-O) 9... Be6 10. Nxf6+ gxf6 11. Nf3 Nc6 12. Bd2 b5 13. Be2 e4? { (-0.89 → 0.95) Mistake. The best move was d3. } (13... d3 14. Qxd3 Qxd3 15. Bxd3 Nxb4 16. Bb1 Bxc4 17. Bxf5 Nd3+ 18. Ke2 Nc5+ 19. Ke1 Nb3 20. Be4 Ra3 21. Rb1) 14. Nxd4 Nxd4 15. exd4 Qxd4 16. Bc3 Bxc4? { (1.04 → 3.84) Mistake. The best move was bxc4. } (16... bxc4 17. Qb2 Qb6 18. O-O Bd6 19. Bxf6 O-O 20. b5 f4 21. Kh1 Ra3 22. Bd4 Qd8 23. Qc2 Rd3 24. Bxd3) 17. Bxd4 Bxb3 18. Bxb5+ Kd8? { (3.88 → 6.01) Mistake. The best move was Kf7. } (18... Kf7 19. axb3 Rxa1+ 20. Bxa1 Bxb4+ 21. Ke2 Ra8 22. Ke3 Ra2 23. Rd1 Bd2+ 24. Rxd2 f4+ 25. Ke2 Rxa1 26. g3) 19. Bxf6+ Be7 20. Bxh8 Bxb4+ 21. Ke2 Bc3?? { (6.45 → 11.51) Blunder. The best move was Ke7. } (21... Ke7 22. Bd4 Ba4 23. Bxa4 Rxa4 24. Rhc1 Kd6 25. Rc2 Kd5 26. Rd1 Ke6 27. f3 Bd6 28. fxe4 fxe4 29. h3) 22. Bxc3 { Black resigns } 1-0
