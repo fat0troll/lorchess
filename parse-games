@@ -34,10 +34,6 @@ function parse_tour_info {
             local white=${BASH_REMATCH[2]}
             local black=${BASH_REMATCH[3]}
             local result=${BASH_REMATCH[5]}
-
-            # Change the representation of result
-            [[ $result == 1/2 ]] && result=1/2-1/2
-
             local round=$(echo "($tour - 1)/($ply_count - 1) + 1" | bc)
             parse_to_ini
             ((game_counter += 1))
