@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/Qwy15rub"]
+[Date "2014.10.26"]
+[White "fat0troll"]
+[Black "kesarev"]
+[Result "0-1"]
+[WhiteElo "1409"]
+[BlackElo "2148"]
+[PlyCount "46"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B40"]
+[Opening "Sicilian Defense, French Variation"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. Nf3 e6 { Sicilian Defense, French Variation } 3. Be2 a6 4. O-O b5 5. d3 d5 6. exd5 exd5 7. b3 Be7 8. c4 d4 9. cxb5?! { (0.30 → -0.24) Inaccuracy. The best move was Ne5. } (9. Ne5 Ra7 10. Nd2 f6 11. Nef3 Nc6 12. a4 bxa4 13. Ba3 axb3 14. Re1 b2 15. Bxb2 Nh6 16. Qa4 Bd7) 9... axb5 10. a4 Nf6 11. Bg5 Nd5 12. Bxe7 Qxe7 13. Nbd2? { (-0.21 → -3.00) Mistake. The best move was Nfd2. } (13. Nfd2 O-O 14. Bf3 Bb7 15. Re1 Qd8 16. Na3 Nc3 17. Qc1 Bxf3 18. Nxf3 bxa4 19. Nc4 Nc6) 13... Nc3 14. Qe1?! { (-3.00 → -3.69) Inaccuracy. The best move was Qc2. } (14. Qc2 Nxe2+ 15. Kh1 Nc3 16. axb5 Rxa1 17. Rxa1 O-O 18. Ne4 Nxe4 19. dxe4 Bg4 20. Nd2 Nd7 21. f3 Be6) 14... Nxe2+ 15. Kh1 bxa4?! { (-3.63 → -2.79) Inaccuracy. The best move was Bf5. } (15... Bf5 16. Ne4 Bxe4 17. Qxe2 Bd5 18. Rae1 Qxe2 19. Rxe2+ Kd7 20. axb5 Bxf3 21. gxf3 Ra3 22. Rg1 Rg8 23. Rb1) 16. bxa4? { (-2.79 → -4.06) Mistake. The best move was Ne4. } (16. Ne4 Nf4 17. Nxc5 a3 18. Qc1 Ne6 19. b4 a2 20. Re1 O-O 21. Qc4 Bb7 22. Nxb7 Qxb7 23. Rxa2 Rxa2) 16... Ba6 17. Ne4? { (-4.07 → -5.37) Mistake. The best move was Qb1. } (17. Qb1 Nc3 18. Qc2 O-O 19. Rfe1 Qd6 20. Ne5 Nc6 21. Nxc6 Qxc6 22. Ne4 c4 23. dxc4 Bb7 24. f3 Nxe4) 17... Bxd3 18. a5?? { (-5.20 → -8.92) Blunder. The best move was Nxc5. } (18. Nxc5 Qxc5 19. Rd1 Bc4 20. Nxd4 O-O 21. Nxe2 Re8 22. Rd2 Na6 23. h3 Qb4 24. Rg1 Qb3 25. Kh2 Qxa4) 18... Qxe4 19. Ng5?! { (-9.23 → -9.96) Inaccuracy. The best move was Qd2. } (19. Qd2 O-O 20. Rfd1 Nf4 21. Ne1 Be2 22. Rdc1 Nd7 23. f3 Qe5 24. Rab1 Rfb8 25. Nc2 Qg5 26. Ne1 Qh6) 19... Qg6 20. h4 h6 21. Nf3 O-O 22. Ne5 Qe4 23. Nxd3?! { (-10.77 → Mate in 1) Checkmate is now unavoidable. The best move was f4. } (23. f4 Ba6 24. Rf3 f6 25. Ng4 Qf5 26. Nf2 Nc6 27. Kh2 Bc4 28. Ra4 Bb5 29. Ra1 Rfe8 30. Qb1 Qxb1) 23... Qxh4# { White is checkmated } 0-1
