@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/DGjuzpfl"]
+[Date "2014.10.26"]
+[White "iVS"]
+[Black "fat0troll"]
+[Result "1-0"]
+[WhiteElo "1859"]
+[BlackElo "1408"]
+[PlyCount "49"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A41"]
+[Opening "Rat Defense"]
+[Annotator "lichess.org"]
+
+1. d4 d6 { Rat Defense } 2. c4 b6 3. e4 Bb7 4. Nc3 Nd7 5. Nf3 c5 6. d5 e5? { (0.56 → 1.63) Mistake. The best move was g6. } (6... g6 7. Bd3 Bg7 8. O-O Ngf6 9. h3 O-O 10. Bg5 Nh5 11. Qd2 Ne5 12. Nxe5 Bxe5 13. b3 Nf6 14. Rac1) 7. g3?! { (1.63 → 0.73) Inaccuracy. The best move was dxe6. } (7. dxe6 fxe6 8. Ng5 Qf6 9. Qh5+ g6 10. Qh3 O-O-O 11. Qxe6 Be7 12. Nd5 Qe5 13. h4 Re8 14. Qxe5 Nxe5) 7... Be7 8. Bg2 Ngf6 9. O-O O-O 10. Nh4 g6 11. f4 h5? { (0.28 → 1.65) Mistake. The best move was exf4. } (11... exf4 12. Bxf4 Nh5 13. Nf5 Nxf4 14. Nxe7+ Qxe7 15. gxf4 Qf6 16. Bh3 Rad8 17. Kg2 Qh4 18. Qe1 Qe7 19. Bxd7) 12. f5 Kg7 13. Qd2 Ng8 14. Nf3 h4?! { (1.42 → 2.35) Inaccuracy. The best move was a6. } (14... a6 15. a4 Kh8 16. Bh3 Bf6 17. Rf2 Bg7 18. fxg6 fxg6 19. Ng5 Qe7 20. Ne6 Rxf2 21. Qxf2 Bh6 22. Bxh6) 15. g4 gxf5? { (2.43 → 3.94) Mistake. The best move was g5. } (15... g5 16. Nxg5 Bxg5 17. Qxg5+ Qxg5 18. Bxg5 Ba6 19. b3 Ngf6 20. Bf3 Rh8 21. Bd2 Ne8 22. Kf2 f6 23. Rg1) 16. exf5 a6?! { (4.18 → 5.00) Inaccuracy. The best move was b5. } (16... b5 17. Nxb5 Ba6 18. g5 Bxb5 19. cxb5 Re8 20. f6+ Ndxf6 21. Nxh4 Kf8 22. gxf6 Bxf6 23. Nf5 a6 24. Qe2) 17. g5 f6? { (4.67 → 7.12) Mistake. The best move was b5. } (17... b5 18. Ne4 bxc4 19. Nxh4 Bxg5 20. f6+ Bxf6 21. Nf5+ Kh8 22. Nexd6 Rb8) 18. Ne4?? { (7.12 → 3.01) Blunder. The best move was g6. } (18. g6 Re8 19. Qe1 Nf8 20. Qxh4 Qd7 21. Qh5 b5 22. b3 bxc4 23. bxc4 Rab8 24. Be3 Bc8 25. Nd2 Rb2) 18... fxg5 19. Nfxg5 Bxg5 20. Nxg5 Re8?? { (3.16 → 10.24) Blunder. The best move was Qe7. } (20... Qe7 21. Rf3 Ngf6 22. Ne6+ Kf7 23. Qh6 Rg8 24. Bg5 Ke8 25. Qxh4 Rc8 26. Rg3 Qf7) 21. Ne6+ Rxe6 22. fxe6 Nf8 23. Rf7+ Kg6?! { (14.24 → Mate in 2) Checkmate is now unavoidable. The best move was Kh8. } (23... Kh8 24. e7 Qxe7 25. Rxe7 Nxe7 26. Qh6+ Kg8 27. Qxd6 Nfg6 28. Qxb6 Rb8 29. Qc7 Rf8 30. Qxb7 Nf5) 24. Be4+ Kh5 25. Qe2# { Black is checkmated } 1-0
