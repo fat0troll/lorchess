@@ -180,7 +180,7 @@ function game_add_to_repo {
     [[ $result == 1/2-1/2 ]] && result=1/2
 
     sed -E -i.orig \
-        "s/${date_re}( +${white} +- +${black})/${game_date}\1${sep}${result}/" "$tour_info"
+        "s|${date_re}( +${white} +- +${black})|${game_date}\1${sep}${result}|" "$tour_info"
     rm "${tour_info}.orig"
 }
 
