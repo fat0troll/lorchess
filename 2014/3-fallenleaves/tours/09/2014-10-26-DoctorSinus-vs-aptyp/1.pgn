@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/2EQMue8S"]
+[Date "2014.10.26"]
+[White "fat0troll"]
+[Black "aptypr"]
+[Result "1/2-1/2"]
+[WhiteElo "1403"]
+[BlackElo "1710"]
+[PlyCount "106"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C20"]
+[Opening "King Pawn Game, General"]
+[Annotator "lichess.org"]
+
+1. e4 e5 { King Pawn Game, General } 2. Be2 Nf6 3. d3 Bc5 4. Be3 Bxe3 5. fxe3 d6 6. Nf3 Bd7 7. O-O Nc6 8. Nc3 Qe7 9. d4 O-O-O?! { (-0.07 → 0.46) Inaccuracy. The best move was exd4. } (9... exd4 10. exd4 O-O 11. Qd2 Nxe4 12. Nxe4 Qxe4 13. Rae1 Qd5 14. b3 Rae8 15. Bc4 Qh5 16. Rxe8 Bxe8 17. d5) 10. dxe5?! { (0.46 → -0.31) Inaccuracy. The best move was d5. } (10. d5 Nb8 11. Qe1 h5 12. a3 Rdg8 13. Ng5 g6 14. h3 h4 15. b4 Rg7 16. Nb5) 10... dxe5 11. Bb5 Bf5?! { (-0.51 → 0.10) Inaccuracy. The best move was a6. } (11... a6 12. Ba4 Na5 13. Bxd7+ Rxd7 14. Qe2 Qc5 15. Rad1 Rxd1 16. Rxd1 Nc4) 12. Qe2 Nxe4 13. Nxe4? { (0.55 → -0.49) Mistake. The best move was Bxc6. } (13. Bxc6 bxc6 14. Qa6+ Kb8 15. Qxc6 Rd6 16. Qb5+ Rb6 17. Qxe5 Qxe5 18. Nxe5 Nxc3 19. bxc3 Be6 20. a4 Re8) 13... Bxe4 14. Bxc6?! { (-0.68 → -1.44) Inaccuracy. The best move was Nd2. } (14. Nd2 Bd5 15. a3 a6 16. Ba4 Na7 17. c4 Be6 18. b4 Kb8 19. Ne4 f5 20. Nc5 g6 21. Rad1 e4) 14... Bxc6 15. Rfd1 f6 16. Rxd8+ Rxd8 17. Rd1 Rd6 18. Rxd6 Qxd6 19. Qd2 e4?! { (-1.73 → -1.06) Inaccuracy. The best move was Qe6. } (19... Qe6 20. b3 Qf5 21. Ne1 b6 22. c4 Qg6 23. Qe2 Kb7 24. Nc2 Be4 25. Ne1 h6 26. c5) 20. Qxd6 cxd6 21. Nd4 Bd5 22. b3 g6 23. c4 Bf7 24. Nb5 Kd7 25. Nxa7 f5 26. Nb5 d5 27. cxd5 Bxd5 28. Nc3 Be6 29. Kf2 Kc6 30. Kg3 g5 31. h4 h6 32. hxg5 hxg5 33. Kf2 Kc5 34. Ne2 Kb4 35. Nd4?! { (-0.63 → -1.50) Inaccuracy. The best move was Ke1. } (35. Ke1 Ka3 36. Kd2 Kxa2 37. Kc3 Kb1 38. Nd4 Bd7 39. Ne2 Bc8 40. g3 Bd7 41. b4 Bc8 42. Kb3 Be6+) 35... Bd7 36. Nc2+ Kc3 37. Nd4 Kb2 38. a4 f4? { (-1.50 → -0.36) Mistake. The best move was Kc3. } (38... Kc3 39. g3 b6 40. Ke1 Kd3 41. Kf2 f4 42. gxf4 gxf4 43. Ne2 fxe3+ 44. Ke1 Bc6 45. Nf4+ Kc3 46. Ne6) 39. exf4 gxf4 40. a5? { (-0.18 → -1.92) Mistake. The best move was Ne2. } (40. Ne2 f3 41. gxf3 exf3 42. Nd4 Kc3 43. Nxf3 Kxb3 44. a5 Kb4 45. Ne5 Be8 46. Ke3 Bb5 47. Kd2 Ba6) 40... Kc3 41. Ne2+ Kxb3? { (-2.21 → -0.06) Mistake. The best move was Kd2. } (41... Kd2 42. Nxf4 e3+ 43. Kg3 Bb5 44. b4 e2 45. Nxe2 Bxe2 46. Kf2 Bc4 47. g4 Kc3 48. g5 Kxb4 49. g6) 42. Nxf4 Ka4 43. Ke3 Kxa5 44. Kxe4 b5 45. Nd3 Bc6+ 46. Kd4 Bxg2 47. Kc5 Bf1 48. Nb4 Ka4 49. Na2 Ka3 50. Nb4 Be2 51. Nc2+ Kb3 52. Nd4+ Ka3 53. Nxb5+ Bxb5 { Draw } 1/2-1/2
