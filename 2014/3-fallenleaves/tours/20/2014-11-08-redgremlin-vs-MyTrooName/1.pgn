@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/SXk5yx5g"]
+[Date "2014.11.08"]
+[White "gremlin_the_red"]
+[Black "sshilovsky"]
+[Result "1-0"]
+[WhiteElo "1886"]
+[BlackElo "1778"]
+[PlyCount "57"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D06"]
+[Opening "Queen's Gambit Declined, Marshall Defense"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 Nf6 { Queen's Gambit Declined, Marshall Defense } 3. Nc3 e6 4. Nf3 Bd6 5. Bg5 c5 6. cxd5 cxd4 7. Qxd4 Qb6? { (1.12 → 2.26) Mistake. The best move was exd5. } (7... exd5 8. O-O-O Nc6 9. Qh4 Be6 10. e4 d4 11. Nxd4 Nxd4 12. Rxd4) 8. Bxf6 gxf6 9. Qxf6 Rf8?! { (2.17 → 2.89) Inaccuracy. The best move was Rg8. } (9... Rg8 10. O-O-O Nd7 11. Qh4 Be7 12. Qf4 e5 13. Qd2 Bb4 14. e3 Kf8 15. Qc2 Rg6 16. Kb1 Kg8 17. Bd3) 10. O-O-O Qxf2? { (2.83 → 4.13) Mistake. The best move was a6. } (10... a6 11. e4 Nd7 12. Qg7 e5 13. Rd2 Be7 14. d6 Bxd6 15. Nd5 Qa7 16. Qxh7 b5) 11. dxe6? { (4.13 → 3.09) Mistake. The best move was Kb1. } (11. Kb1 Qb6 12. Qg7 Ba3 13. Ne4 Nd7 14. dxe6 Qxe6 15. Nfg5 Qb6 16. Nxh7 Be7 17. e3 Qg6 18. Qxg6 fxg6) 11... Qe3+? { (3.09 → 4.96) Mistake. The best move was fxe6. } (11... fxe6 12. Qg7 Qc5 13. Qxh7 Bf4+ 14. Kb1 Qf5+ 15. Qxf5 exf5 16. e3 Bc7 17. Nd5 Bd6 18. Bc4 Nc6 19. Nb6) 12. Kb1 Be7 13. exf7+?? { (5.48 → 2.31) Blunder. The best move was Qxe7+. } (13. Qxe7+ Kxe7 14. Nd5+ Kxe6 15. Nxe3 Nc6 16. Nd5 Kf5 17. e4+ Kg6 18. Nc7 Rb8 19. Bb5 Kg7 20. h3 a6) 13... Rxf7 14. Qd4 Bf5+ 15. Ka1 Qe6?? { (1.73 → 6.68) Blunder. The best move was Qxd4. } (15... Qxd4 16. Nxd4 Nc6 17. e4 Nxd4 18. exf5 O-O-O 19. g4 Bf6 20. Bd3 Rfd7 21. Ne4 Be5 22. f6 Ne6 23. Rc1+) 16. e4 Bg4? { (6.77 → 7.86) Mistake. The best move was Nc6. } (16... Nc6 17. exf5 Nxd4 18. fxe6 Nxe6 19. Bc4 Rf6 20. Nd5 Rxf3 21. gxf3 Bh4 22. Nc3 Nf8 23. Nb5 Ke7 24. Nd6) 17. Bb5+?? { (7.86 → 4.53) Blunder. The best move was Bc4. } (17. Bc4 Nc6 18. Bxe6 Nxd4 19. Bxf7+ Kxf7 20. Ne5+ Ke6 21. Nxg4 Rg8 22. h3 h5 23. Rxd4 hxg4 24. hxg4 Rg6) 17... Nc6 18. Ng5?? { (4.52 → 0.00) Blunder. The best move was Nd5. } (18. Nd5 Rc8 19. Qh8+ Rf8 20. Qxh7 Qf7 21. Qh6 Qe6 22. Qg7) 18... Qg6?? { (0.00 → 5.46) Blunder. The best move was Bxg5. } (18... Bxg5 19. Rdf1 Bf6 20. Qc5 Be7 21. Qd4 Bf6) 19. Nxf7 Bxd1?? { (5.53 → 9.61) Blunder. The best move was Kxf7. } (19... Kxf7 20. Rhf1+ Kg8 21. Bc4+ Be6 22. Bxe6+ Qxe6 23. Qd7 Qxd7 24. Rxd7 Re8 25. Rxb7 Bd8 26. Rff7 Be7 27. Rf3) 20. Ne5? { (9.61 → 8.52) Mistake. The best move was Qh8+. } (20. Qh8+ Bf8 21. Rf1 Bg4 22. Rf6 Qg7 23. Nd6+ Kd7 24. Rf7+ Qxf7 25. Nxf7 Be6 26. Ng5 Re8 27. Nxe6 Kxe6) 20... Rd8? { (8.52 → 9.89) Mistake. The best move was Qd6. } (20... Qd6 21. Nxc6 Qxd4 22. Nxd4+ Kf7 23. Rxd1 Bf6 24. Bc4+ Kg6 25. Nd5 Bh8 26. Nf4+ Kf6 27. Bd5 Rb8 28. g3) 21. Qxd8+? { (9.89 → 7.95) Mistake. The best move was Qc4. } (21. Qc4 Be2 22. Nxe2 Qf6 23. Bxc6+ bxc6 24. Nxc6 Rd2 25. Ned4 Rf2 26. Nxe7 Qb6 27. Qc3 Kxe7 28. Nf5+ Ke6) 21... Bxd8 22. Nxg6 Bh5 23. Ne5 Bf6 24. Nxc6 bxc6 25. Bxc6+ Ke7? { (8.91 → 10.18) Mistake. The best move was Kf7. } (25... Kf7 26. Rf1 Kg7 27. Rf5 Bf7 28. Ne2 a6 29. Nf4 Be7 30. g3 Bb4 31. Bd5 Bg6 32. Ne6+ Kh6 33. Rf4) 26. Nd5+ Ke6 27. Bd7+ Kf7 28. Be8+ Kxe8 29. Nxf6+ { Black resigns } 1-0
