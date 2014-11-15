@@ -230,7 +230,7 @@ trap "rm ${tmp_ini} ${tmp_ini}.prev ${tmp_pgn}" EXIT
 # Download PGN file
 [[ $1 =~ ^(http://[^/]*)/([^/]*) ]]
 # Link to annotated PGN
-pgn_url=${BASH_REMATCH[1]}/game/pgn/${BASH_REMATCH[2]::8}.pgn
+pgn_url=${BASH_REMATCH[1]}/game/export/${BASH_REMATCH[2]::8}.pgn
 wget -q "$pgn_url" -O $tmp_pgn || die "PGN file not found."
 
 game_get_players
