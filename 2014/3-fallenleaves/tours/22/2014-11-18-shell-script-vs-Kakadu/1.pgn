@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/TcJxUGSR"]
+[Date "2014.11.18"]
+[White "cppmm"]
+[Black "kesarev"]
+[Result "0-1"]
+[WhiteElo "1274"]
+[BlackElo "2156"]
+[PlyCount "34"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B20"]
+[Opening "Sicilian Defense, Bowlder Attack"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. Bc4 { Sicilian Defense, Bowlder Attack } e6 3. Nf3 a6 4. O-O b5 5. Be2 Bb7 6. c3 Bxe4 7. d4 Nf6 8. dxc5 Bxc5 9. Nbd2 Bb7 10. b4 Bb6?! { (-0.61 → -0.11) Inaccuracy. The best move was Be7. } (10... Be7 11. a4 bxa4 12. Nc4 O-O 13. Rxa4 Qc7 14. Be3 Nd5 15. Qd3 Nc6 16. Bg5 f6 17. Bd2 f5 18. Re1) 11. Nb3?! { (-0.11 → -0.66) Inaccuracy. The best move was a4. } (11. a4 bxa4 12. Nc4 Bc7 13. Nd6+ Bxd6 14. Qxd6 Ne4 15. Qd3 d5 16. Nd2 Nxd2 17. Bxd2 Bc6 18. c4 O-O) 11... O-O 12. Be3?! { (-0.73 → -1.32) Inaccuracy. The best move was a4. } (12. a4 bxa4 13. Nc5 Bxc5 14. bxc5 a5 15. Qd4 Nc6 16. Qxa4) 12... Bxe3 13. fxe3 d6 14. Qc2?! { (-1.08 → -1.75) Inaccuracy. The best move was a4. } (14. a4 bxa4 15. Rxa4 Qb6 16. Nbd4 Nbd7 17. c4 g6 18. Qb3) 14... Qb6 15. Ng5?? { (-1.64 → -6.06) Blunder. The best move was Nfd4. } (15. Nfd4 Nbd7 16. a4 Be4 17. Qd2 e5 18. Nf5 Bxf5 19. Rxf5 bxa4 20. Rxa4 g6 21. Rf1 Qc6 22. Ra5 Ne4) 15... Qxe3+ 16. Kh1 Qxg5 17. Na5?? { (-6.24 → Mate in 1) Checkmate is now unavoidable. The best move was Bf3. } (17. Bf3 Bxf3 18. Rxf3 Nbd7 19. Rh3 d5 20. Nd2 Ne5 21. Nf3 Qg6 22. Qxg6 Nxg6 23. Nd2 Ne5 24. Kg1 Rfc8) 17... Qxg2# { White is checkmated } 0-1
