@@ -10,6 +10,9 @@ TOURNAMENT=
 # Version information
 VERSION="0.3"
 
+# Firefox User Agent
+FIREFOX_UA="Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Firefox/24.0"
+
 argv0=${0##*/}
 
 function usage {
@@ -231,7 +234,8 @@ trap "rm ${tmp_ini} ${tmp_ini}.prev ${tmp_pgn}" EXIT
 [[ $1 =~ ^(http://[^/]*)/([^/]*) ]]
 # Link to annotated PGN
 pgn_url=${BASH_REMATCH[1]}/game/export/${BASH_REMATCH[2]::8}.pgn
-wget -q "$pgn_url" -O $tmp_pgn || die "PGN file not found."
+wget -q -U "$FIREFOX_UA" -O $tmp_pgn "$pgn_url" \
+    || die "PGN file at $pgn_url not found."
 
 game_get_players
 game_add_to_repo
