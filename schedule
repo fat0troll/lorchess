@@ -75,9 +75,7 @@ function setup_repo {
         if [[ -z $TOURNAMENT ]]; then
             local year_dir=$(ls -1 -d ${REPO_DIR}/[0-9][0-9][0-9][0-9]/ | tail -1)
             TOURNAMENT=$(ls -1 -d ${year_dir}[0-9]-*/ | tail -1 \
-                | sed -E "s|${REPO_DIR}/(.*)|\1|")
-            # Remove the trailing slash
-            TOURNAMENT=${TOURNAMENT%/}
+                | sed -E "s|${REPO_DIR}/(.*)/|\1|")
         fi
     fi
 }
