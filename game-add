@@ -20,7 +20,7 @@ function usage {
 Store chess games played on lichess.org
 
 Usage:
-  $argv0 -t <num> [-u] [<url>]
+  $argv0 [options] -t <num> [<url>]
   $argv0 -h
   $argv0 -v
 
@@ -38,6 +38,8 @@ Usage:
   information.
 
 Options:
+  -a            Add current games to existing games
+  -c            Clean up existing games before adding
   -u            Don't sort games by their timestamps
 EOF
 
@@ -49,6 +51,7 @@ function version {
 }
 
 function game_setup {
+    date_re="[0-9?]{2}\.[0-9?]{2}\.[0-9?]{4}"
     : ${REPO_DIR:=`dirname "$0"`}
 
     # If no tournament given, set it to the last one
@@ -113,8 +116,18 @@ function game_get_players {
     done
 
     # Select the names of two players
-    players=( $(echo -en "$ply_names" | sort -u) )
+    local players=( $(echo -en "$ply_names" | sort -u) )
     [[ ${#players[@]} == 2 ]] || die "Players of the games are not the same."
+
+    # Find the white and black players
+    local line=$(grep -E "( ${players[0]} | ${players[1]} )" $tour_info)
+    [[ -n $line && $(wc -l <<< "$line") == 1 ]] \
+        || die "No game between ${players[0]} and ${players[1]} found in ${tour_info}."
+    [[ $line =~ ^${date_re}\ +([^\ ]+)\ +-\ +([^\ ]+)(.*)$ ]]
+    white=${BASH_REMATCH[1]}
+    black=${BASH_REMATCH[2]}
+    local res_old=${BASH_REMATCH[3]}
+    game_validate
 }
 
 function game_assoc_names {
@@ -139,15 +152,15 @@ function game_parse_config {
     cat "$ply_ini" >> $tmp_ini
 
     # Remove tabs or spaces around the `='
-    sed -E -i.prev "s/[[:blank:]]*=[[:blank:]]*/=/" "$tmp_ini"
+    sed -E -i.prev "s/[[:blank:]]*=[[:blank:]]*/=/" $tmp_ini
 
     # Transform section labels into function declaration
-    sed -E -i.prev "1,/^\[.*\]/s/^\[([^]]*)\]/config_section_\1() {/" "$tmp_ini"
-    sed -E -i.prev "s/^\[([^]]*)\]/}\\"$'\n'"config_section_\1() {/" "$tmp_ini"
+    sed -E -i.prev "1,/^\[.*\]/s/^\[([^]]*)\]/config_section_\1() {/" $tmp_ini
+    sed -E -i.prev "s/^\[([^]]*)\]/}\\"$'\n'"config_section_\1() {/" $tmp_ini
     echo -e "\n}" >> $tmp_ini
 
     # Source the file
-    source "$tmp_ini"
+    source $tmp_ini
 }
 
 function game_add_player {
@@ -162,10 +175,64 @@ function game_add_player {
     ply_names+="${ply}\n"
 }
 
+function game_validate {
+    # By default, other games between the players are not allowed
+    if [[ $res_old =~ ^\ *$ ]]; then
+        local index=0
+    else
+        $ADD_GAMES || $CLEANUP_GAMES || die "Results of some games already stored."
+        local index=$(wc -w <<< "$res_old")
+    fi
+
+    # Players' sides should interchange
+    local length=$(echo -en "$ply_names" | wc -l)
+    local ply_ordered=
+    for ((i = index; i < length; i++)); do
+        if (( i % 2 == 1 )); then
+            ply_ordered="${white}\n${black}\n"
+        else
+            ply_ordered="${black}\n${white}\n"
+        fi
+    done
+    if [[ "$ply_names" != "$ply_ordered" ]]; then
+        local answer
+        echo -n "Approve games with wrong players' sides? (Y/n)> "
+        read answer
+        [[ $answer =~ ^(Y|y|Yes|yes)$ ]] || exit 1
+    fi
+}
+
+function game_store_pgns {
+    local pgn_index=0
+    local game_dir=$(ls -1 -d 2>/dev/null \
+        ${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/*-${white}-vs-${black})
+    if $CLEANUP_GAMES && [[ -n $game_dir ]]; then
+        rm -r "$game_dir"
+        game_dir=
+    fi
+
+    if [[ -z $game_dir ]]; then
+        # Get the game date
+        local fst_pgn=$(awk '{ print $1 }' <<< "$TMP_PGN_FILES")
+        local pgn_date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" $fst_pgn)
+        pgn_date=$(tr '.' '-' <<< "$pgn_date")
+
+        game_dir=${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/${pgn_date}-${white}-vs-${black}
+        mkdir "$game_dir"
+    else
+        $ADD_GAMES || die "Directory ${game_dir} already exist."
+        local old_pgns=$(ls -1 -p 2>/dev/null ${game_dir}/[0-9]*.pgn | grep -v "/$")
+        [[ -n $old_pgns ]] && pgn_index=$(wc -l <<< "$old_pgns")
+    fi
+
+    for pgn in $TMP_PGN_FILES; do
+        : $(( pgn_index += 1 ))
+        cp $pgn ${game_dir}/${pgn_index}.pgn
+    done
+}
+
 function game_add_to_repo {
-    local date_re="[0-9?]{2}\.[0-9?]{2}\.[0-9?]{4}"
     local correct=false length_max=0
-    local white=${players[0]} black=${players[1]}
     # Change field separator to read a file line by line
     old_IFS=$IFS IFS=$'\n'
     # Check if the tour number is correct
@@ -227,7 +294,7 @@ function game_add_to_repo {
 function game_git_commit {
     (
         cd $REPO_DIR
-        git add "${pgn_dir}/1.pgn" "$tour_info"
+        git add "${game_dir}/1.pgn" "$tour_info"
         git commit -m "Tour ${TOUR#0}: ${white} vs. ${black}."
         git push
     )
@@ -243,14 +310,18 @@ function checkargs {
     TOUR=$(printf "%02g" $OPTARG)
 }
 
+ADD_GAMES=false
+CLEANUP_GAMES=false
 SORT_GAMES=true
-while getopts t:uhv opt; do
+while getopts act:uhv opt; do
     case $opt in
-        t) checkargs        ;;
-        u) SORT_GAMES=false ;;
-        h) usage            ;;
-        v) version          ;;
-        *) usage 1          ;;
+        a) ADD_GAMES=true     ;;
+        c) CLEANUP_GAMES=true ;;
+        t) checkargs          ;;
+        u) SORT_GAMES=false   ;;
+        h) usage              ;;
+        v) version            ;;
+        *) usage 1            ;;
     esac
 done
 
@@ -259,10 +330,10 @@ shift $(($OPTIND - 1))
 [[ -z $TOUR || $# == 0 ]] && usage 1
 
 game_setup
-(cd $REPO_DIR; git pull)        # update the repository
+(cd $REPO_DIR; git pull)        # synchronize the repository
 game_tmp_pgns $@
 game_get_players
-game_add_to_repo
+game_store_pgns
 game_git_commit
 
 exit 0
