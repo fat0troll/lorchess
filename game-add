@@ -126,7 +126,7 @@ function game_get_players {
     [[ $line =~ ^${date_re}\ +([^\ ]+)\ +-\ +([^\ ]+)(.*)$ ]]
     white=${BASH_REMATCH[1]}
     black=${BASH_REMATCH[2]}
-    local res_old=${BASH_REMATCH[3]}
+    res_old=$(xargs <<< ${BASH_REMATCH[3]})
     game_validate
 }
 
@@ -177,11 +177,11 @@ function game_add_player {
 
 function game_validate {
     # By default, other games between the players are not allowed
-    if [[ $res_old =~ ^\ *$ ]]; then
-        local index=0
-    else
+    if [[ -n $res_old ]]; then
         $ADD_GAMES || $CLEANUP_GAMES || die "Results of some games already stored."
         local index=$(wc -w <<< "$res_old")
+    else
+        local index=0
     fi
 
     # Players' sides should interchange
@@ -204,7 +204,7 @@ function game_validate {
 
 function game_store_pgns {
     local pgn_index=0
-    local game_dir=$(ls -1 -d 2>/dev/null \
+    game_dir=$(ls -1 -d 2>/dev/null \
         ${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/*-${white}-vs-${black})
     if $CLEANUP_GAMES && [[ -n $game_dir ]]; then
         rm -r "$game_dir"
@@ -213,11 +213,12 @@ function game_store_pgns {
 
     if [[ -z $game_dir ]]; then
         # Get the game date
-        local fst_pgn=$(awk '{ print $1 }' <<< "$TMP_PGN_FILES")
-        local pgn_date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" $fst_pgn)
-        pgn_date=$(tr '.' '-' <<< "$pgn_date")
+        date=
+        game_get_date
+        game_date=$(tr '.' '-' <<< "$date")
 
-        game_dir=${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/${pgn_date}-${white}-vs-${black}
+        game_dir=${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/${game_date}-${white}-vs-${black}
+        echo "Creating directory ${game_dir}..."
         mkdir "$game_dir"
     else
         $ADD_GAMES || die "Directory ${game_dir} already exist."
@@ -226,78 +227,59 @@ function game_store_pgns {
     fi
 
     for pgn in $TMP_PGN_FILES; do
-        : $(( pgn_index += 1 ))
+        (( pgn_index += 1 ))
         cp $pgn ${game_dir}/${pgn_index}.pgn
     done
 }
 
-function game_add_to_repo {
-    local correct=false length_max=0
-    # Change field separator to read a file line by line
-    old_IFS=$IFS IFS=$'\n'
-    # Check if the tour number is correct
-    for line in $(cat "$tour_info"); do
-        if [[ $line =~ ^(${date_re}\ +([^\ ]+)\ +-\ +([^\ ]+)) ]]; then
-            local length=${#BASH_REMATCH[1]}
-            local fst_ply=${BASH_REMATCH[2]} snd_ply=${BASH_REMATCH[3]}
+function game_get_date {
+    local fst_pgn others
+    read fst_pgn others <<< "$TMP_PGN_FILES"
+    date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" $fst_pgn)
+}
 
-            if [[ $fst_ply == $white && $snd_ply == $black ]]; then
-                local length_rec=${#BASH_REMATCH[1]}
-                correct=true
-            fi
+function game_update_info {
+    local length_max=0
+    while read line; do
+        [[ $line =~ ^((${date_re})\ +([^\ ]+)\ +-\ +([^\ ]+)) ]]
 
-            if [[ $fst_ply == $black && $snd_ply == $white ]]; then
-                local length_rec=${#BASH_REMATCH[1]}
+        # Get the maximal length of game records, excepting results
+        local length=${#BASH_REMATCH[1]}
+        (( $length > $length_max )) && length_max=$length
 
-                local answer
-                echo -n "Approve game with wrong players' sides? (Y/n)> "
-                read answer
-                [[ $answer =~ ^(Y|y|Yes|yes)$ ]] || exit 1
-                white=$fst_ply black=$snd_ply correct=true
-            fi
-
-            # Determine the maximal length of game records
-            (( $length > $length_max )) && length_max=$length
+        if [[ ${BASH_REMATCH[3]} == $white && ${BASH_REMATCH[4]} == $black ]]; then
+            local length_rec=${#BASH_REMATCH[1]} game_date=${BASH_REMATCH[2]}
         fi
-    done
-    IFS=$old_IFS
+    done < $tour_info
 
-    if ! $correct; then
-        die "Game '${white} vs. ${black}' not found in ${tour_info}."
+    local result=
+    for pgn in $TMP_PGN_FILES; do
+        local res=$(sed -En "s/\[Result \"([^\"]*)\"\]/\1/p" $pgn)
+        [[ $res == 1/2-1/2 ]] && res=1/2 # representation of a draw
+        result+=" $res"
+    done
+
+    if $ADD_GAMES && [[ -n $res_old ]]; then
+        result=" ${res_old}${result}"
+    else
+        date=
+        game_get_date
+        game_date=${date:8:2}.${date:5:2}.${date::4}
     fi
 
-    local pgn_date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" "$tmp_pgn")
-    local pgn_date=$(tr "." "-" <<< "$pgn_date")
-    pgn_dir=${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/${pgn_date}-${white}-vs-${black}
-
-    [[ -d $pgn_dir ]] && die "Directory ${pgn_dir} already exist."
-    echo "Creating directory ${pgn_dir}..."
-    mkdir -p "$pgn_dir"
-
-    echo "Storing PGN file..."
-    cp "$tmp_pgn" "${pgn_dir}/1.pgn"
-
-    echo "Updating tour_info..."
-    local game_date=${pgn_date:8:2}.${pgn_date:5:2}.${pgn_date::4}
-    local result=$(sed -En "s/\[Result \"([^\"]*)\"\]/\1/p" $tmp_pgn)
-    local spaces=$((length_max - length_rec + 1))
+    local spaces=$(( length_max - length_rec ))
     local sep=$(printf "%${spaces}s" " ")
-
-    # Change the representation of draw
-    [[ $result == 1/2-1/2 ]] && result=1/2
-
+    echo "Updating ${tour_info}..."
     sed -E -i.orig \
-        "s|${date_re}( +${white} +- +${black})|${game_date}\1${sep}${result}|" "$tour_info"
-    rm "${tour_info}.orig"
+        "s|^${date_re}( +${white} +- +${black}).*|${game_date}\1${sep}${result}|" \
+        $tour_info
+    rm ${tour_info}.orig
 }
 
 function game_git_commit {
-    (
-        cd $REPO_DIR
-        git add "${game_dir}/1.pgn" "$tour_info"
-        git commit -m "Tour ${TOUR#0}: ${white} vs. ${black}."
-        git push
-    )
+    git --git-dir=${REPO_DIR}/.git add ${game_dir}/[0-9]*.pgn $tour_info
+    git --git-dir=${REPO_DIR}/.git commit -m "Tour ${TOUR#0}: ${white} vs. ${black}."
+    git --git-dir=${REPO_DIR}/.git push
 }
 
 function die {
@@ -330,10 +312,11 @@ shift $(($OPTIND - 1))
 [[ -z $TOUR || $# == 0 ]] && usage 1
 
 game_setup
-(cd $REPO_DIR; git pull)        # synchronize the repository
+git --git-dir=${REPO_DIR}/.git pull # synchronize the repository
 game_tmp_pgns $@
 game_get_players
 game_store_pgns
+game_update_info
 game_git_commit
 
 exit 0
