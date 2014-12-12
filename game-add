@@ -75,29 +75,28 @@ function game_tmp_pgns {
     [[ $# == 1 ]] && SORT_GAMES=false
 
     for url in $@; do
-        local pgn_template="pgn"
+        local timestamp=
         [[ $url =~ ^(http://[^/]*)/([^/]*) ]]
         # Link to annotated game PGN
         local game_url=${BASH_REMATCH[1]}/game/export/${BASH_REMATCH[2]::8}.pgn
 
-        # Append the timestamp of game for sorting
+        # Get the timestamp of game for sorting
         if $SORT_GAMES; then
             local game_api=${BASH_REMATCH[1]}/api/game/${BASH_REMATCH[2]::8}
             local api_response=$(curl -q --fail --location --silent "$game_api")
             [[ -z $api_response ]] && die "Unreachable game API ${game_api}"
-            local game_time=$(sed -En "s/.*\"timestamp\":([0-9]+).*/\1/p" <<< "$api_response")
-            pgn_template+="-${game_time}"
+            timestamp=$(sed -En "s/.*\"timestamp\":([0-9]+).*/\1/p" <<< "$api_response")
         fi
 
         # Store PGN file in a temporal location
-        local tmp_pgn=$(mktemp -t ${pgn_template}.XXXXXX)
+        local tmp_pgn=$(mktemp -t ${timestamp:-1}.pgn-XXXXXX)
         TMP_PGN_FILES+=" $tmp_pgn"
         trap "rm $TMP_PGN_FILES" EXIT
         wget -q -U "$FIREFOX_UA" -O $tmp_pgn "$game_url" \
             || die "Unreachable game PGN ${game_url}"
     done
 
-    $SORT_GAMES && TMP_PGN_FILES=$(xargs -n1 <<< "$TMP_PGN_FILES" | sort | xargs)
+    $SORT_GAMES && TMP_PGN_FILES=$(xargs -n1 <<< "$TMP_PGN_FILES" | sort -n | xargs)
 }
 
 function game_get_info {
