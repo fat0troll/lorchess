@@ -111,8 +111,8 @@ function game_get_info {
     [[ ${#players[@]} == 2 ]] || die "Players of the games are not the same."
 
     # Find the white and black players
-    local line0=$(grep " ${players[0]} " $tour_info)
-    local line1=$(grep " ${players[1]} " $tour_info)
+    local line0=$(grep " ${players[0]}" $tour_info)
+    local line1=$(grep " ${players[1]}" $tour_info)
     [[ -z $line0 || -z $line1 || $line0 != $line1 ]] \
         && die "No game between ${players[0]} and ${players[1]} found in ${tour_info}."
     [[ $line0 =~ ^((${date_re})\ +([^\ ]+)\ +-\ +([^\ ]+))(.*)$ ]]
