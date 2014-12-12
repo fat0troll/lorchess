@@ -222,9 +222,9 @@ function game_validate {
 function game_store_pgns {
     game_dir=$(ls -1 -d 2>/dev/null \
         ${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/*-${white}-vs-${black})
+    local game_dir_old=
     if $CLEANUP_GAMES && [[ -n $game_dir ]]; then
         git --git-dir=${REPO_DIR}/.git rm --ignore-unmatch ${game_dir}/*.pgn
-        local game_dir_old=
         [[ -d $game_dir ]] && game_dir_old=$game_dir
         game_dir=
     fi
@@ -233,17 +233,19 @@ function game_store_pgns {
     if [[ -z $game_dir ]]; then
         local date=${game_date:6:4}-${game_date:3:2}-${game_date::2}
         game_dir=${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/${date}-${white}-vs-${black}
-        echo "Creating directory ${game_dir}..."
-        mkdir "$game_dir"
+
+        if [[ $game_dir != $game_dir_old ]]; then
+            echo "Creating directory ${game_dir}..."
+            mkdir $game_dir
+            if $CLEANUP_GAMES && [[ -n $game_dir_old ]]; then
+                git --git-dir=${REPO_DIR}/.git mv ${game_dir_old}/* ${game_dir}
+                rm -r $game_dir_old
+            fi
+        fi
     else
         $ADD_GAMES || die "Directory ${game_dir} already exist."
         local old_pgns=$(ls -1 -p 2>/dev/null ${game_dir}/*.pgn)
         [[ -n $old_pgns ]] && pgn_index=$(wc -l <<< "$old_pgns")
-    fi
-
-    if $CLEANUP_GAMES && [[ -n $game_dir_old ]]; then
-        git --git-dir=${REPO_DIR}/.git mv ${game_dir_old}/* ${game_dir}
-        rm -r $game_dir_old
     fi
 
     for pgn in $TMP_PGN_FILES; do
