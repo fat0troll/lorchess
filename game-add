@@ -53,6 +53,8 @@ function version {
 function game_setup {
     date_re="[0-9?]{2}\.[0-9?]{2}\.[0-9?]{4}"
     : ${REPO_DIR:=`dirname "$0"`}
+    # Synchronize the repository
+    git --git-dir=${REPO_DIR}/.git pull
 
     # If no tournament given, set it to the last one
     if [[ -z $TOURNAMENT ]]; then
@@ -221,7 +223,9 @@ function game_store_pgns {
     game_dir=$(ls -1 -d 2>/dev/null \
         ${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/*-${white}-vs-${black})
     if $CLEANUP_GAMES && [[ -n $game_dir ]]; then
-        rm -r "$game_dir"
+        git --git-dir=${REPO_DIR}/.git rm --ignore-unmatch ${game_dir}/*.pgn
+        local game_dir_old=
+        [[ -d $game_dir ]] && game_dir_old=$game_dir
         game_dir=
     fi
 
@@ -235,6 +239,11 @@ function game_store_pgns {
         $ADD_GAMES || die "Directory ${game_dir} already exist."
         local old_pgns=$(ls -1 -p 2>/dev/null ${game_dir}/*.pgn)
         [[ -n $old_pgns ]] && pgn_index=$(wc -l <<< "$old_pgns")
+    fi
+
+    if $CLEANUP_GAMES && [[ -n $game_dir_old ]]; then
+        git --git-dir=${REPO_DIR}/.git mv ${game_dir_old}/* ${game_dir}
+        rm -r $game_dir_old
     fi
 
     for pgn in $TMP_PGN_FILES; do
@@ -267,8 +276,11 @@ function game_update_info {
 }
 
 function game_git_commit {
-    git --git-dir=${REPO_DIR}/.git add ${game_dir}/*.pgn $tour_info
-    git --git-dir=${REPO_DIR}/.git commit -m "Tour ${TOUR#0}: ${white} vs. ${black}."
+    git --git-dir=${REPO_DIR}/.git add ${game_dir} $tour_info
+    local title=$(awk '{print toupper(substr($0,1,1)) tolower(substr($0,2))}' \
+                      <<< ${TOURNAMENT##*-})
+    git --git-dir=${REPO_DIR}/.git commit -m \
+        "Tournament ${title}, tour ${TOUR#0}: ${white} vs. ${black}."
     git --git-dir=${REPO_DIR}/.git push
 }
 
@@ -304,7 +316,6 @@ shift $(($OPTIND - 1))
 $ADD_GAMES && $CLEANUP_GAMES && usage 1
 
 game_setup
-git --git-dir=${REPO_DIR}/.git pull # synchronize the repository
 game_tmp_pgns $@
 game_get_info
 game_store_pgns
