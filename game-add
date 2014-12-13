@@ -72,7 +72,6 @@ function game_setup {
 }
 
 function game_tmp_pgns {
-    TMP_PGN_FILES=
     # Don't sort just one game
     [[ $# == 1 ]] && SORT_GAMES=false
 
@@ -92,18 +91,18 @@ function game_tmp_pgns {
 
         # Store PGN file in a temporal location
         local tmp_pgn=$(mktemp -t ${timestamp:-1}.pgn-XXXXXX)
-        TMP_PGN_FILES+=" $tmp_pgn"
-        trap "rm $TMP_PGN_FILES" EXIT
+        TMP_PGN_FILES+=($tmp_pgn)
+        trap "rm ${TMP_PGN_FILES[*]}" EXIT
         wget -q -U "$FIREFOX_UA" -O $tmp_pgn "$game_url" \
             || die "Unreachable game PGN ${game_url}"
     done
 
-    $SORT_GAMES && TMP_PGN_FILES=$(xargs -n1 <<< "$TMP_PGN_FILES" | sort -n | xargs)
+    $SORT_GAMES && TMP_PGN_FILES=( $(sort -n <<< "${TMP_PGN_FILES[*]}") )
 }
 
 function game_get_info {
     # Get the names of players, whose games are in PGN files
-    local ply_names=
+    ply_names=
     game_get_names
 
     # Select the names of two players
@@ -126,8 +125,7 @@ function game_get_info {
     game_validate
 
     if ! $ADD_GAMES || [[ $game_date =~ \? ]]; then
-        local fst_pgn=$(awk '{print $1}' <<< "$TMP_PGN_FILES")
-        local date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" $fst_pgn)
+        local date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" ${TMP_PGN_FILES[0]})
         game_date=${date:8:2}.${date:5:2}.${date::4}
     fi
 }
@@ -142,7 +140,7 @@ function game_get_names {
         NAMES+=( [$lichess]=$name )
     done
 
-    for pgn in $TMP_PGN_FILES; do
+    for pgn in ${TMP_PGN_FILES[@]}; do
         # Extract players on Lichess
         local wt_lichess=$(sed -En "s/\[White \"([^\"]*)\"\]/\1/p" $pgn)
         local bk_lichess=$(sed -En "s/\[Black \"([^\"]*)\"\]/\1/p" $pgn)
@@ -156,7 +154,7 @@ function game_parse_config {
     # Temporary files
     tmp_ini=$(mktemp -t `basename $ply_ini`.XXXXXX)
     TMP_INI_FILES="${tmp_ini} ${tmp_ini}.prev"
-    trap "rm $TMP_INI_FILES $TMP_PGN_FILES" EXIT
+    trap "rm $TMP_INI_FILES ${TMP_PGN_FILES[*]}" EXIT
 
     # Copy player INI file to the temporary location
     # NOTE: an empty line is added to the file beginning in order to
@@ -240,7 +238,7 @@ function game_store_pgns {
         ${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/*-${white}-vs-${black})
     local game_dir_old=
     if $CLEANUP_GAMES && [[ -n $game_dir ]]; then
-        git --git-dir=${REPO_DIR}/.git rm --ignore-unmatch ${game_dir}/*.pgn
+        git --git-dir=${REPO_DIR}/.git rm --ignore-unmatch -q ${game_dir}/*.pgn
         [[ -d $game_dir ]] && game_dir_old=$game_dir
         game_dir=
     fi
@@ -264,7 +262,7 @@ function game_store_pgns {
         [[ -n $old_pgns ]] && pgn_index=$(wc -l <<< "$old_pgns")
     fi
 
-    for pgn in $TMP_PGN_FILES; do
+    for pgn in ${TMP_PGN_FILES[@]}; do
         (( pgn_index += 1 ))
         echo "Storing file ${game_dir}/${pgn_index}.pgn..."
         cp $pgn ${game_dir}/${pgn_index}.pgn
@@ -277,12 +275,7 @@ function game_update_info {
                               | awk '{print length}' | sort -nr | head -1)
 
     local result=
-    for pgn in $TMP_PGN_FILES; do
-        local res=$(sed -En "s/\[Result \"([^\"]*)\"\]/\1/p" $pgn)
-        [[ $res == 1/2-1/2 ]] && res=1/2 # representation of a draw
-        result+=" $res"
-    done
-    $ADD_GAMES && [[ -n $res_old ]] && result=" ${res_old}${result}"
+    game_get_result
 
     local spaces=$(( length_max - rec_length ))
     local sep=$(printf "%${spaces}s" " ")
@@ -291,6 +284,25 @@ function game_update_info {
         "s|^${date_re}( +${white} +- +${black}).*|${game_date}\1${sep}${result}|" \
         $tour_info
     rm ${tour_info}.orig
+}
+
+function game_get_result {
+    while read ply_fst ply_snd; do
+        local res_index=$(wc -w <<< "$result")
+        local pgn=${TMP_PGN_FILES[$res_index]}
+        local res=$(sed -En "s/\[Result \"([^\"]*)\"\]/\1/p" $pgn)
+
+        if [[ $res == 1/2-1/2 ]]; then
+            # Representation of draw
+            res=1/2
+        elif [[ $ply_fst != $white ]]; then
+            res=$(rev <<< $res)
+        fi
+
+        result+=" $res"
+    done <<< "$(echo -e "$ply_names" | xargs -n2)"
+
+    $ADD_GAMES && [[ -n $res_old ]] && result=" ${res_old}${result}"
 }
 
 function game_git_commit {
@@ -334,6 +346,7 @@ shift $(($OPTIND - 1))
 $ADD_GAMES && $CLEANUP_GAMES && usage 1
 
 game_setup
+declare -a TMP_PGN_FILES
 game_tmp_pgns $@
 game_get_info
 game_store_pgns
