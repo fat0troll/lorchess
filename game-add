@@ -197,12 +197,14 @@ function game_validate {
     fi
 
     # Players' sides should interchange
+
     local length=$(echo -en "$ply_names" | wc -l)
     if $ADD_GAMES && [[ -n $res_old ]]; then
         local residue=$(( $(wc -w <<< "$res_old") % 2 ))
     else
         local residue=0
     fi
+
     local ply_ordered=
     for ((i = 0; i < length; i++)); do
         if (( i % 2 == residue )); then
@@ -211,12 +213,26 @@ function game_validate {
             ply_ordered+="${black}\n"
         fi
     done
+
+    # List found games
+    echo "$(tput setaf 2)Found games:$(tput sgr0)"
+    game_display "$ply_names"
+
     if [[ "$ply_names" != "$ply_ordered" ]]; then
+        # List expected games
+        echo "$(tput setaf 2)Expected games:$(tput sgr0)"
+        game_display "$ply_ordered"
+
         local answer
         echo -n "Approve games with wrong players' sides? (Y/n)> "
         read answer
         [[ $answer =~ ^(Y|y|Yes|yes)$ ]] || exit 1
     fi
+}
+
+function game_display {
+    echo -e "$1" | xargs -n2 \
+        | sed "s/ / - /;s/^/$(tput setaf 6)*$(tput sgr0) /"
 }
 
 function game_store_pgns {
