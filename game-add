@@ -97,7 +97,7 @@ function game_tmp_pgns {
             || die "Unreachable game PGN ${game_url}"
     done
 
-    $SORT_GAMES && TMP_PGN_FILES=( $(sort -n <<< "${TMP_PGN_FILES[*]}") )
+    $SORT_GAMES && TMP_PGN_FILES=( $(xargs -n1 <<< ${TMP_PGN_FILES[*]} | sort -n) )
 }
 
 function game_get_info {
@@ -270,15 +270,15 @@ function game_store_pgns {
 }
 
 function game_update_info {
-    # Get the maximal length of game records, excepting results
+    # The maximal length of game records, excepting results
     local length_max=$(grep -Eo "^${date_re} +[^ ]+ +- +[^ ]+" $tour_info \
                               | awk '{print length}' | sort -nr | head -1)
+    local spaces=$(( length_max - rec_length )) sep=
+    (( spaces == 0 )) || sep=$(printf "%${spaces}s" " ")
 
     local result=
     game_get_result
 
-    local spaces=$(( length_max - rec_length )) sep=
-    (( spaces != 0 )) && sep=$(printf "%${spaces}s" " ")
     echo "Updating file ${tour_info}..."
     sed -E -i.orig \
         "s|^${date_re}( +${white} +- +${black}).*|${game_date}\1${sep}${result}|" \
@@ -287,8 +287,8 @@ function game_update_info {
 }
 
 function game_get_result {
+    local res_index=0
     while read ply_fst ply_snd; do
-        local res_index=$(wc -w <<< "$result")
         local pgn=${TMP_PGN_FILES[$res_index]}
         local res=$(sed -En "s/\[Result \"([^\"]*)\"\]/\1/p" $pgn)
 
@@ -300,6 +300,7 @@ function game_get_result {
         fi
 
         result+=" $res"
+        (( res_index += 1 ))
     done <<< "$(echo -e "$ply_names" | xargs -n2)"
 
     $ADD_GAMES && [[ -n $res_old ]] && result=" ${res_old}${result}"
