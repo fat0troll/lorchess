@@ -196,7 +196,7 @@ function game_validate {
 
     # Players' sides should interchange
 
-    local length=$(echo -en "$ply_names" | wc -l)
+    local length=$(( $(echo -en "$ply_names" | wc -l) / 2 ))
     if $ADD_GAMES && [[ -n $res_old ]]; then
         local residue=$(( $(wc -w <<< "$res_old") % 2 ))
     else
@@ -206,9 +206,9 @@ function game_validate {
     local ply_ordered=
     for ((i = 0; i < length; i++)); do
         if (( i % 2 == residue )); then
-            ply_ordered+="${white}\n"
+            ply_ordered+="${white}\n${black}\n"
         else
-            ply_ordered+="${black}\n"
+            ply_ordered+="${black}\n${white}\n"
         fi
     done
 
