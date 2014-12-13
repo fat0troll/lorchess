@@ -277,8 +277,8 @@ function game_update_info {
     local result=
     game_get_result
 
-    local spaces=$(( length_max - rec_length ))
-    local sep=$(printf "%${spaces}s" " ")
+    local spaces=$(( length_max - rec_length )) sep=
+    (( spaces != 0 )) && sep=$(printf "%${spaces}s" " ")
     echo "Updating file ${tour_info}..."
     sed -E -i.orig \
         "s|^${date_re}( +${white} +- +${black}).*|${game_date}\1${sep}${result}|" \
