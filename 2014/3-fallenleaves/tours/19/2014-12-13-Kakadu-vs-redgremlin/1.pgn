@@ -1,0 +1,16 @@
+[Event "Casual game"]
+[Site "http://lichess.org/DHUVxkRS"]
+[Date "2014.12.13"]
+[White "kesarev"]
+[Black "gremlin_the_red"]
+[Result "1/2-1/2"]
+[WhiteElo "2162"]
+[BlackElo "1917"]
+[PlyCount "107"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A57"]
+[Opening "Benoni Defense, Hromodka System"]
+[Annotator "lichess.org"]
+
+1. d4 Nf6 2. c4 c5 3. d5 d6 { Benoni Defense, Hromodka System } 4. Nc3 g6 5. e4 Bg7 6. Bd3 O-O 7. h3 Na6 8. Nf3 Nc7 9. a4 b6 10. O-O a6 11. Qe2 Rb8 12. Ra3 e6 13. Bf4 exd5 14. exd5 Re8 15. Qc2 b5 16. cxb5 axb5?! { (-0.40 → 0.16) Inaccuracy. The best move was Ncxd5. } (16... Ncxd5 17. Nxd5 Nxd5 18. Bg5 Qd7 19. Rd1 Nc7 20. Rb3 axb5 21. axb5 Rb6 22. Bc4 Bb7 23. Bf4 Re4 24. Bg3) 17. Nxb5?! { (0.16 → -0.39) Inaccuracy. The best move was Bxb5. } (17. Bxb5 Bd7 18. Bc4 Bf5 19. Qd2 Ne4 20. Nxe4 Bxe4 21. b3 Bxf3 22. gxf3 Bd4 23. a5 Qd7) 17... Nxb5 18. Bxb5 Nxd5?! { (0.12 → 0.72) Inaccuracy. The best move was Bd7. } (18... Bd7 19. Bc4 Ne4 20. Bc1 Qa5 21. Re1 f5 22. b3 Bf6 23. Bd3 Nc3 24. Rxe8+ Rxe8 25. Bf4 Qc7 26. Qd2) 19. Bxe8 Nxf4 20. Bb5 Qf6 21. Re3 Bf5 22. Qc4 Be6 23. Rxe6 fxe6 24. Kh2 Rf8 25. b4?! { (-0.68 → -1.48) Inaccuracy. The best move was Qc3. } (25. Qc3 Qf5 26. Qe3 Bxb2 27. a5 Bd4 28. Qb3 Ra8 29. a6 Bg7 30. Qa4 Nd5 31. Re1 Nc3 32. Qc4 Nxb5) 25... cxb4 26. Qxb4 Nxg2 27. Ng1 Qg5?! { (-1.19 → -0.65) Inaccuracy. The best move was Nf4. } (27... Nf4 28. Qxd6 Qf5 29. Qa3 Be5 30. Kh1 Nd5 31. Qd3 Qf4 32. Qg3 Qxg3 33. fxg3 Rxf1 34. Bxf1 Bxg3 35. a5) 28. Qg4 Qxg4 29. hxg4 Nf4 30. Ne2 Be5 31. Nxf4 Rxf4 32. Kh3 Rf3+ 33. Kg2 Ra3 34. f4 Bd4 35. f5 gxf5 36. gxf5 exf5 37. Rxf5 Be5 38. Rf3 Ra2+ 39. Rf2 Ra3 40. Rf3 Ra2+ 41. Kh3 Ra1 42. Rf1 Rxf1 43. Bxf1 Kf7 44. Kg4 Kf6 45. a5 Bd4 46. Bg2 Be3 47. Kh5 Ke5 48. Kg4 d5 49. a6 Ba7 50. Kh5 Be3 51. Bxd5 Kxd5 52. a7 Bxa7 53. Kh6 Be3+ 54. Kxh7 { Draw } 1/2-1/2
