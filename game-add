@@ -114,22 +114,18 @@ function game_get_info {
     local line1=$(grep " ${players[1]}" $tour_info)
     [[ -z $line0 || -z $line1 || $line0 != $line1 ]] \
         && die "No game between ${players[0]} and ${players[1]} found in ${tour_info}."
-    [[ $line0 =~ ^((${date_re})\ +([^\ ]+)\ +-\ +([^\ ]+))(.*)$ ]]
-    white=${BASH_REMATCH[3]}
-    black=${BASH_REMATCH[4]}
+    [[ $line0 =~ ^(${date_re}\ +([^\ ]+)\ +-\ +([^\ ]+))(.*)$ ]]
+    white=${BASH_REMATCH[2]}
+    black=${BASH_REMATCH[3]}
 
     # Additional information about the game record
     rec_length=${#BASH_REMATCH[1]}
-    game_date=${BASH_REMATCH[2]}
-    res_old=$(xargs <<< ${BASH_REMATCH[5]})
+    res_old=$(xargs <<< ${BASH_REMATCH[4]})
     game_validate
 
-    if ! $ADD_GAMES || [[ $game_date =~ \? ]]; then
-        # Assign the date of games to the date of the last game
-        local pgn_last=${TMP_PGN_FILES[${#TMP_PGN_FILES[@]} - 1]}
-        local date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" $pgn_last)
-        game_date=${date:8:2}.${date:5:2}.${date::4}
-    fi
+    # Assign the date of games to the date of the last game
+    local pgn_last=${TMP_PGN_FILES[${#TMP_PGN_FILES[@]} - 1]}
+    game_date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" $pgn_last)
 }
 
 function game_get_names {
@@ -192,10 +188,8 @@ function game_add_player {
 
 function game_validate {
     # By default, other games between the players are not allowed
-    if ! $ADD_GAMES && ! $CLEANUP_GAMES; then
-        if ! [[ $game_date =~ \? && -z $res_old ]]; then
-            die "Some games between ${white} and ${black} already recorded."
-        fi
+    if ! $ADD_GAMES && ! $CLEANUP_GAMES && [[ -n $res_old ]]; then
+        die "Results of some games between ${white} and ${black} already recorded."
     fi
 
     # Players' sides should interchange
@@ -235,39 +229,40 @@ function game_validate {
 }
 
 function game_store_pgns {
-    game_dir=$(ls -1 -d 2>/dev/null \
-        ${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/*-${white}-vs-${black})
-    local game_dir_old=
-    if $CLEANUP_GAMES && [[ -n $game_dir ]]; then
-        git --git-dir=${REPO_DIR}/.git rm --ignore-unmatch -q ${game_dir}/*.pgn
-        [[ -d $game_dir ]] && game_dir_old=$game_dir
-        game_dir=
+    local game_dir_old=$(ls -1 -d 2>/dev/null \
+                            ${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/*-${white}-vs-${black})
+    if [[ -n $game_dir_old ]]; then
+        if $CLEANUP_GAMES; then
+            git --git-dir=${REPO_DIR}/.git rm --ignore-unmatch -q ${game_dir_old}/*.pgn
+            [[ -d $game_dir_old ]] || game_dir_old=
+        else
+            $ADD_GAMES || die "Directory ${game_dir_old} already exist."
+        fi
+    fi
+
+    local pgn_dir=${game_date//./-}-${white}-vs-${black}
+    local game_dir=${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/${pgn_dir}
+    if [[ $game_dir != $game_dir_old ]]; then
+        echo "Creating directory ${game_dir}..."
+        mkdir $game_dir
+        if [[ -n $game_dir_old ]]; then
+            git --git-dir=${REPO_DIR}/.git mv ${game_dir_old}/* ${game_dir}
+            rm -r $game_dir_old
+        fi
     fi
 
     local pgn_index=0
-    if [[ -z $game_dir ]]; then
-        local date=${game_date:6:4}-${game_date:3:2}-${game_date::2}
-        game_dir=${REPO_DIR}/${TOURNAMENT}/tours/${TOUR}/${date}-${white}-vs-${black}
-
-        if [[ $game_dir != $game_dir_old ]]; then
-            echo "Creating directory ${game_dir}..."
-            mkdir $game_dir
-            if $CLEANUP_GAMES && [[ -n $game_dir_old ]]; then
-                git --git-dir=${REPO_DIR}/.git mv ${game_dir_old}/* ${game_dir}
-                rm -r $game_dir_old
-            fi
-        fi
-    else
-        $ADD_GAMES || die "Directory ${game_dir} already exist."
-        local old_pgns=$(ls -1 -p 2>/dev/null ${game_dir}/*.pgn)
+    if $ADD_GAMES; then
+        local old_pgns=$(ls -1 2>/dev/null ${game_dir}/*.pgn)
         [[ -n $old_pgns ]] && pgn_index=$(wc -l <<< "$old_pgns")
     fi
-
     for pgn in ${TMP_PGN_FILES[@]}; do
         (( pgn_index += 1 ))
         echo "Storing file ${game_dir}/${pgn_index}.pgn..."
         cp $pgn ${game_dir}/${pgn_index}.pgn
     done
+
+    git --git-dir=${REPO_DIR}/.git add ${game_dir}
 }
 
 function game_update_info {
@@ -281,10 +276,13 @@ function game_update_info {
     game_get_result
 
     echo "Updating file ${tour_info}..."
+    local date=${game_date:8:2}.${game_date:5:2}.${game_date::4}
     sed -E -i.orig \
-        "s|^${date_re}( +${white} +- +${black}).*|${game_date}\1${sep}${result}|" \
+        "s|^${date_re}( +${white} +- +${black}).*|${date}\1${sep}${result}|" \
         $tour_info
     rm ${tour_info}.orig
+
+    git --git-dir=${REPO_DIR}/.git add $tour_info
 }
 
 function game_get_result {
@@ -308,11 +306,19 @@ function game_get_result {
 }
 
 function game_git_commit {
-    git --git-dir=${REPO_DIR}/.git add ${game_dir} $tour_info
     local title=$(awk '{print toupper(substr($0,1,1)) tolower(substr($0,2))}' \
                       <<< ${TOURNAMENT##*-})
-    git --git-dir=${REPO_DIR}/.git commit -m \
-        "Tournament ${title}, tour ${TOUR#0}: ${white} vs. ${black}."
+    local git_message="Tournament ${title}, tour ${TOUR#0}: "
+    if $ADD_GAMES; then
+        git_message+="add"
+    elif $CLEANUP_GAMES; then
+        git_message+="replace"
+    else
+        git_message+="new"
+    fi
+    git_message+=" games ${white} vs. ${black}."
+
+    git --git-dir=${REPO_DIR}/.git commit -m "$git_message"
     git --git-dir=${REPO_DIR}/.git push
 }
 
