@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/98c9g8vz"]
+[Date "2013.02.10"]
+[White "alfix2"]
+[Black "William_V"]
+[Result "0-1"]
+[WhiteElo "1725"]
+[BlackElo "1629"]
+[PlyCount "58"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C20"]
+[Opening "King Pawn Game, Leonardis Variation"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. d3 { King Pawn Game, Leonardis Variation } d5 3. exd5 Qxd5 4. Nc3 Qd8 5. f4 exf4 6. Bxf4 Nf6 7. Qe2+?! { (0.28 → -0.36) Inaccuracy. } 7... Be7 8. O-O-O O-O 9. Re1 Bd6 10. Bg5 Bb4?! { (-0.64 → -0.12) Inaccuracy. } 11. Qf3 Bxc3 12. bxc3 Re8? { (0.00 → 1.17) Mistake. } 13. Rxe8+ Qxe8 14. Be2? { (1.41 → 0.00) Mistake. } 14... Ng4 15. Qf4 Ne5 16. Nh3? { (0.56 → -1.17) Mistake. } 16... Ng6? { (-1.17 → 0.36) Mistake. } 17. Qf3?! { (0.36 → -0.44) Inaccuracy. } 17... Nc6 18. Re1 Be6 19. Qg3 Bxa2?! { (-0.12 → 0.40) Inaccuracy. } 20. c4? { (0.40 → -1.41) Mistake. } 20... a6? { (-1.41 → 0.00) Mistake. } 21. Kb2 Nb4 22. c3 Qa4? { (0.00 → 1.49) Mistake. } 23. cxb4?? { (1.49 → Mate in 3) Checkmate is now unavoidable. } 23... Bb3?? { (Mate in 3 → 3.11) Lost forced checkmate sequence. } 24. Ra1 Qxb4 25. Qe3?? { (3.19 → Mate in 3) Checkmate is now unavoidable. } 25... Bxc4+?? { (Mate in 3 → -1.01) Lost forced checkmate sequence. } 26. Kc2?? { (-1.01 → Mate in 4) Checkmate is now unavoidable. } 26... Bb3+ 27. Kb2 Ba4+ 28. Kc1 Qc3+ 29. Kb1 Qc2# { White is checkmated } 0-1
