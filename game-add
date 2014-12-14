@@ -106,7 +106,7 @@ function game_get_info {
     game_get_names
 
     # Select the names of two players
-    local players=( $(echo -en "$ply_names" | sort -u) )
+    local players=( $(echo -en "$ply_names" | sed "s/ /\\"$'\n'"/" | sort -u) )
     [[ ${#players[@]} == 2 ]] || die "Players of the games are not the same."
 
     # Find the white and black players
@@ -146,7 +146,9 @@ function game_get_names {
         local bk_lichess=$(sed -En "s/\[Black \"([^\"]*)\"\]/\1/p" $pgn)
 
         game_add_player $wt_lichess
+        ply_names+=" "
         game_add_player $bk_lichess
+        ply_names+="\n"
     done
 }
 
@@ -183,7 +185,7 @@ function game_add_player {
         echo -n "Type the name of ${lichess_ply}> "
         read ply
     done
-    ply_names+="${ply}\n"
+    ply_names+=$ply
 }
 
 function game_validate {
@@ -196,7 +198,7 @@ function game_validate {
 
     # Players' sides should interchange
 
-    local length=$(( $(echo -en "$ply_names" | wc -l) / 2 ))
+    local length=$(echo -en "$ply_names" | wc -l)
     if $ADD_GAMES && [[ -n $res_old ]]; then
         local residue=$(( $(wc -w <<< "$res_old") % 2 ))
     else
@@ -206,31 +208,28 @@ function game_validate {
     local ply_ordered=
     for ((i = 0; i < length; i++)); do
         if (( i % 2 == residue )); then
-            ply_ordered+="${white}\n${black}\n"
+            ply_ordered+="${white} ${black}\n"
         else
-            ply_ordered+="${black}\n${white}\n"
+            ply_ordered+="${black} ${white}\n"
         fi
     done
 
     # List found games
     echo "$(tput setaf 2)Found games:$(tput sgr0)"
-    game_display "$ply_names"
+    echo -en "$ply_ordered" \
+        | sed "s/ / - /;s/^/$(tput setaf 6)*$(tput sgr0) /"
 
     if [[ "$ply_names" != "$ply_ordered" ]]; then
         # List expected games
         echo "$(tput setaf 2)Expected games:$(tput sgr0)"
-        game_display "$ply_ordered"
+        echo -en "$ply_ordered" \
+            | sed "s/ / - /;s/^/$(tput setaf 6)*$(tput sgr0) /"
 
         local answer
         echo -n "Approve games with wrong players' sides? (Y/n)> "
         read answer
         [[ $answer =~ ^(Y|y|Yes|yes)$ ]] || exit 1
     fi
-}
-
-function game_display {
-    echo -e "$1" | xargs -n2 \
-        | sed "s/ / - /;s/^/$(tput setaf 6)*$(tput sgr0) /"
 }
 
 function game_store_pgns {
@@ -301,7 +300,7 @@ function game_get_result {
 
         result+=" $res"
         (( res_index += 1 ))
-    done <<< "$(echo -e "$ply_names" | xargs -n2)"
+    done <<< "$(echo -e "$ply_names")"
 
     $ADD_GAMES && [[ -n $res_old ]] && result=" ${res_old}${result}"
 }
