@@ -125,7 +125,9 @@ function game_get_info {
     game_validate
 
     if ! $ADD_GAMES || [[ $game_date =~ \? ]]; then
-        local date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" ${TMP_PGN_FILES[0]})
+        # Assign the date of games to the date of the last game
+        local pgn_last=${TMP_PGN_FILES[${#TMP_PGN_FILES[@]} - 1]}
+        local date=$(sed -En "s/\[Date \"([^\"]*)\"\]/\1/p" $pgn_last)
         game_date=${date:8:2}.${date:5:2}.${date::4}
     fi
 }
