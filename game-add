@@ -180,7 +180,7 @@ function game_add_player {
     local lichess_ply=$1
     local ply=${NAMES[$lichess_ply]}
     while [[ ! " ${NAMES[@]} " =~ \ $ply\  ]]; do
-        echo -n "The list of players:"
+        echo -n "$(tput setaf 2)The list of players:$(tput sgr0)"
         sed "s/ /\\"$'\n'"$(tput setaf 6)*$(tput sgr0) /g" <<< " ${NAMES[@]}"
         echo -n "Type the name of ${lichess_ply}> "
         read ply
@@ -216,7 +216,7 @@ function game_validate {
 
     # List found games
     echo "$(tput setaf 2)Found games:$(tput sgr0)"
-    echo -en "$ply_ordered" \
+    echo -en "$ply_names" \
         | sed "s/ / - /;s/^/$(tput setaf 6)*$(tput sgr0) /"
 
     if [[ "$ply_names" != "$ply_ordered" ]]; then
