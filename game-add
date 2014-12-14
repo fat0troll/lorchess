@@ -106,7 +106,7 @@ function game_get_info {
     game_get_names
 
     # Select the names of two players
-    local players=( $(echo -en "$ply_names" | sed "s/ /\\"$'\n'"/" | sort -u) )
+    local players=( $(echo -en "${ply_names// /\n}" | sort -u) )
     [[ ${#players[@]} == 2 ]] || die "Players of the games are not the same."
 
     # Find the white and black players
@@ -132,7 +132,7 @@ function game_get_names {
     # Make an associative array from Lichess nicks to players' names
     game_parse_config
     local sections=$(grep -o "config_section_player[0-9]*" $tmp_ini)
-    declare -A NAMES=()
+    declare -A NAMES
     for sect in $sections; do
         eval $sect
         NAMES+=( [$lichess]=$name )
