@@ -1,16 +1,16 @@
 [Event "Casual game"]
-[Site "http://lichess.org/bysfm098"]
+[Site "http://lichess.org/368y6rjm"]
 [Date "2013.02.18"]
 [White "Genuine"]
 [Black "linchess2"]
 [Result "1-0"]
 [WhiteElo "1306"]
 [BlackElo "1255"]
-[PlyCount "119"]
+[PlyCount "41"]
 [Variant "Standard"]
 [TimeControl "1200+5"]
-[ECO "C60"]
-[Opening "Spanish Game, Cozio Defense, General"]
+[ECO "C55"]
+[Opening "Italian Game, Two Knights Defense, Modern Bishop's Opening"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 { Spanish Game, Cozio Defense, General } 4. Nc3 a6 5. Ba4 d6 6. h3 Bd7 7. Bb3 Na5 8. Bd5 Bc6? { (0.12 → 1.33) Mistake. } 9. Bxc6+?! { (1.33 → 0.56) Inaccuracy. } 9... Naxc6 10. d3 d5 11. exd5 Nxd5 12. Nxd5 Qxd5 13. O-O O-O-O 14. Re1 Bd6?! { (-0.84 → -0.24) Inaccuracy. } 15. Be3 h6 16. d4 exd4 17. Nxd4 Nxd4 18. Qxd4 Qxd4 19. Bxd4 Bh2+ 20. Kxh2 Rxd4 21. Re7 Rf8 22. Rae1 Kd8 23. Re1e2 Rd1 24. Re7e3 Kd7 25. Kg3 Rb1 26. b3 Ra1 27. a4 b5?! { (0.16 → 1.09) Inaccuracy. } 28. axb5 axb5 29. f4? { (1.29 → 0.12) Mistake. } 29... Ra6 30. Kf3 b4 31. Re4 c5 32. g4 Raa8 33. g5 h5? { (0.04 → 1.37) Mistake. } 34. Kg3? { (1.37 → 0.00) Mistake. } 34... g6? { (0.00 → 1.13) Mistake. } 35. Re5?! { (1.13 → 0.24) Inaccuracy. } 35... Rae8 36. Kf3 Re6? { (0.00 → 1.37) Mistake. } 37. f5? { (1.37 → 0.32) Mistake. } 37... Rxe5 38. Rxe5 Kd6 39. Kf4 f6?? { (0.20 → 5.21) Blunder. } 40. Re6+ Kd7?! { (5.49 → 6.30) Inaccuracy. } 41. Rxf6 Rxf6?? { (6.18 → 21.25) Blunder. } 42. gxf6 gxf5 43. Kxf5 Ke8 44. Kg6 h4 45. Kg7 Kd7 46. f7 Kd6 47. f8=Q+ Kd5 48. Qf7+ Kd4 49. Qc4+ Ke3 50. Qxc5+ Kf3 51. Qxb4 Kg3 52. Qg4+ Kh2 53. Qxh4 Kg1 54. Qd4+ Kh1 55. Qd2 Kg1 56. Kg6 Kh1 57. Kg5 Kg1 58. Kg4 Kh1 59. Kg3 Kg1 60. Qg2# { Black is checkmated } 1-0
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 { Italian Game, Two Knights Defense, Modern Bishop's Opening } Bc5 5. Ng5?! { (0.24 → -0.52) Inaccuracy. } 5... Bb4+?? { (-0.52 → 3.47) Blunder. } 6. c3 Rf8? { (3.47 → 4.92) Mistake. } 7. cxb4 Nxb4 8. Qb3 c5? { (4.68 → 6.50) Mistake. } 9. Bxf7+?! { (6.50 → 5.93) Inaccuracy. } 9... Ke7 10. a3? { (5.05 → 3.75) Mistake. } 10... h6?? { (3.75 → 7.31) Blunder. } 11. axb4 hxg5 12. Bg6?! { (7.59 → 6.94) Inaccuracy. } 12... cxb4? { (6.94 → 8.08) Mistake. } 13. Bxg5?! { (8.08 → 7.23) Inaccuracy. } 13... Qc7? { (7.23 → 9.09) Mistake. } 14. Qxb4+ d6 15. Nc3 a5?! { (9.41 → 14.38) Inaccuracy. } 16. Nd5+ Kd7 17. Nxc7 axb4 18. Nxa8 Ke7 19. Nb6 Kd8 20. Rc1 Be6 21. h3 { Black resigns } 1-0
