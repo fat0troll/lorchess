@@ -1,0 +1,16 @@
+[Event "Casual game"]
+[Site "http://lichess.org/jdcyzko3"]
+[Date "2013.04.21"]
+[White "azimov"]
+[Black "William_V"]
+[Result "1-0"]
+[WhiteElo "1502"]
+[BlackElo "1416"]
+[PlyCount "17"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C50"]
+[Opening "Italian Game, General"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 { Italian Game, General } d6 4. Nc3 Bg4 5. h3 Bh5? { (0.08 → 1.77) Mistake. } 6. O-O? { (1.77 → 0.24) Mistake. } 6... Nd4? { (0.24 → 1.45) Mistake. } 7. Nxe5 Bxd1?? { (1.33 → Mate in 2) Checkmate is now unavoidable. } 8. Bxf7+ Ke7 9. Nd5# { Black is checkmated } 1-0
