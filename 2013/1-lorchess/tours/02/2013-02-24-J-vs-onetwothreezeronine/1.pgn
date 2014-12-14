@@ -1,16 +1,16 @@
 [Event "Rated game"]
-[Site "http://lichess.org/e1k2atyg"]
+[Site "http://lichess.org/j8nqxju1"]
 [Date "2013.02.24"]
 [White "LOR_J"]
 [Black "rogvold"]
 [Result "1-0"]
-[WhiteElo "1503"]
-[BlackElo "1162"]
-[PlyCount "33"]
+[WhiteElo "1494"]
+[BlackElo "1247"]
+[PlyCount "13"]
 [Variant "Standard"]
 [TimeControl "1200+5"]
-[ECO "C34"]
-[Opening "King's Gambit, Accepted, King's Knight Gambit"]
+[ECO "C68"]
+[Opening "Spanish Game, Exchange Variation, Lutikov Variation"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. f4?! { (0.40 → -0.28) Inaccuracy. } 2... exf4 3. Nf3 { King's Gambit, Accepted, King's Knight Gambit } Bb4 4. c3 Ba5?! { (-0.08 → 0.80) Inaccuracy. } 5. d4 g6? { (0.84 → 1.85) Mistake. } 6. Bxf4 d6 7. Be2 Bg4?! { (2.18 → 2.78) Inaccuracy. } 8. O-O Nf6?! { (2.90 → 3.55) Inaccuracy. } 9. e5 Ne4 10. h3?! { (3.63 → 3.07) Inaccuracy. } 10... Bf5 11. Bd3 Ng3?? { (2.98 → 6.90) Blunder. } 12. Bxg3 Bxd3 13. Qxd3 g5? { (7.31 → 11.35) Mistake. } 14. exd6 O-O 15. dxc7 Qe7 16. cxb8=Q Raxb8 17. Qf5 { Black resigns } 1-0
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 bxc6?! { Spanish Game, Exchange Variation, Lutikov Variation (0.52 → 1.09) Inaccuracy. } 5. Nxe5?! { (1.09 → 0.56) Inaccuracy. } 5... c5?? { (0.56 → 4.44) Blunder. } 6. Qf3?? { (4.44 → 1.09) Blunder. } 6... Ne7?? { (1.09 → Mate in 1) Checkmate is now unavoidable. } 7. Qxf7# { Black is checkmated } 1-0
