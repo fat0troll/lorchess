@@ -30,9 +30,11 @@ Usage:
 
   The first form fills the results of chess games and stores their PGN
   files, assuming that all the games were played by the same pair of
-  players on tour <num> of the tournament. The PGN files are sorted by
-  their timestamps, unless '-u' is set. Each game should be available
-  at the corresponding <url> (lichess.org).
+  players on tour <num> of the tournament. Each game should be
+  available at the corresponding <url> (lichess.org). The PGN files
+  are sorted by their timestamps, unless '-u' is set. The date of
+  games is assigned to that of the game closing the tour, i.e., the
+  last one.
 
   The second form shows this help output. The third form shows version
   information.
@@ -48,6 +50,16 @@ EOF
 
 function version {
     exec echo "${argv0}-${VERSION}"
+}
+
+function game_check_args {
+    # For now, tour number should be given explicitly
+    [[ -z $TOUR || $# == 0 ]] && usage 1
+    # Don't add and clean up games simultaneously
+    $ADD_GAMES && $CLEANUP_GAMES && usage 1
+    # Check for duplicate URL
+    local url_uniq=$(xargs -n1 <<< "$@" | sort -u | wc -l)
+    (( $# == $url_uniq )) || die "Game URLs not unique."
 }
 
 function game_setup {
@@ -327,7 +339,7 @@ function die {
     exit 1
 }
 
-function checkargs {
+function game_tour {
     [[ $OPTARG =~ ^[0-9]+$ ]] || die "Incorrect tour number."
     TOUR=$(printf "%02g" $OPTARG)
 }
@@ -339,20 +351,16 @@ while getopts act:uhv opt; do
     case $opt in
         a) ADD_GAMES=true     ;;
         c) CLEANUP_GAMES=true ;;
-        t) checkargs          ;;
+        t) game_tour          ;;
         u) SORT_GAMES=false   ;;
         h) usage              ;;
         v) version            ;;
         *) usage 1            ;;
     esac
 done
-
 shift $(($OPTIND - 1))
-# For now, tour number should be given explicitly
-[[ -z $TOUR || $# == 0 ]] && usage 1
-# Don't add and clean up games simultaneously
-$ADD_GAMES && $CLEANUP_GAMES && usage 1
 
+game_check_args $@
 game_setup
 declare -a TMP_PGN_FILES
 game_tmp_pgns $@
