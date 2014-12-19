@@ -58,7 +58,7 @@ function game_check_args {
     # Don't add and clean up games simultaneously
     $ADD_GAMES && $CLEANUP_GAMES && usage 1
     # Check for duplicate URL
-    local url_uniq=$(xargs -n1 <<< "$@" | sort -u | wc -l)
+    local url_uniq=$(xargs -n1 <<< $@ | sort -u | wc -l)
     (( $# == $url_uniq )) || die "Game URLs not unique."
 }
 
@@ -72,7 +72,7 @@ function game_setup {
     if [[ -z $TOURNAMENT ]]; then
         local year_dir=$(ls -1 -d ${REPO_DIR}/[0-9][0-9][0-9][0-9]/ | tail -1)
         TOURNAMENT=$(ls -1 -d ${year_dir}[0-9]-*/ | tail -1 \
-            | sed -E "s|${REPO_DIR}/(.*)/|\1|")
+                            | sed -E "s|${REPO_DIR}/(.*)/|\1|")
     fi
 
     # Configuration file for players
@@ -109,7 +109,7 @@ function game_tmp_pgns {
             || die "Unreachable game PGN ${game_url}"
     done
 
-    $SORT_GAMES && TMP_PGN_FILES=( $(xargs -n1 <<< ${TMP_PGN_FILES[*]} | sort -n) )
+    $SORT_GAMES && TMP_PGN_FILES=( $(xargs -n1 <<< ${TMP_PGN_FILES[@]} | sort -n) )
 }
 
 function game_get_info {
@@ -189,9 +189,9 @@ function game_parse_config {
 function game_add_player {
     local lichess_ply=$1
     local ply=${NAMES[$lichess_ply]}
-    while [[ ! " ${NAMES[@]} " =~ \ $ply\  ]]; do
+    while [[ ! " ${NAMES[*]} " =~ \ $ply\  ]]; do
         echo -n "$(tput setaf 2)The list of players:$(tput sgr0)"
-        sed "s/ /\\"$'\n'"$(tput setaf 6)*$(tput sgr0) /g" <<< " ${NAMES[@]}"
+        sed "s/ /\\"$'\n'"$(tput setaf 6)*$(tput sgr0) /g" <<< " ${NAMES[*]}"
         echo -n "Type the name of ${lichess_ply}> "
         read ply
     done
