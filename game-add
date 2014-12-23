@@ -57,9 +57,10 @@ function game_check_args {
     [[ -z $TOUR || $# == 0 ]] && usage 1
     # Don't add and clean up games simultaneously
     $ADD_GAMES && $CLEANUP_GAMES && usage 1
-    # Check for duplicate URL
-    local url_uniq=$(xargs -n1 <<< $@ | sort -u | wc -l)
-    (( $# == $url_uniq )) || die "Game URLs not unique."
+    # Check for duplicate game ID
+    local uniq_ids=$(xargs -n1 <<< $@ | sed -E "s|^http://[^/]*/([^/]{8}).*|\1|" \
+                            | sort -u | wc -l)
+    (( $# == $uniq_ids )) || die "Game IDs not unique."
 }
 
 function game_setup {
