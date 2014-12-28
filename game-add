@@ -12,6 +12,9 @@ VERSION="0.4"
 
 # Firefox User Agent
 FIREFOX_UA="Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Firefox/24.0"
+# Regular expressions
+URL_RE="^(http://[^/]*)/(.{8}).*"
+DATE_RE="[0-9?]{2}\.[0-9?]{2}\.[0-9?]{4}"
 
 argv0=${0##*/}
 
@@ -58,13 +61,11 @@ function game_check_args {
     # Don't add and clean up games simultaneously
     $ADD_GAMES && $CLEANUP_GAMES && usage 1
     # Check for duplicate game ID
-    local uniq_ids=$(xargs -n1 <<< $@ | sed -E "s|^http://[^/]*/([^/]{8}).*|\1|" \
-                            | sort -u | wc -l)
+    local uniq_ids=$(xargs -n1 <<< $@ | sed -E "s|${URL_RE}|\2|" | sort -u | wc -l)
     (( $# == $uniq_ids )) || die "Game IDs not unique."
 }
 
 function game_setup {
-    date_re="[0-9?]{2}\.[0-9?]{2}\.[0-9?]{4}"
     : ${REPO_DIR:=`dirname "$0"`}
     # Synchronize the repository
     git --git-dir=${REPO_DIR}/.git pull
@@ -90,13 +91,13 @@ function game_tmp_pgns {
 
     for url in $@; do
         local timestamp=
-        [[ $url =~ ^(http://[^/]*)/([^/]*) ]]
+        [[ $url =~ $URL_RE ]]
         # Link to annotated game PGN
-        local game_url=${BASH_REMATCH[1]}/game/export/${BASH_REMATCH[2]::8}.pgn
+        local game_url=${BASH_REMATCH[1]}/game/export/${BASH_REMATCH[2]}.pgn
 
         # Get the timestamp of game for sorting
         if $SORT_GAMES; then
-            local game_api=${BASH_REMATCH[1]}/api/game/${BASH_REMATCH[2]::8}
+            local game_api=${BASH_REMATCH[1]}/api/game/${BASH_REMATCH[2]}
             local api_response=$(curl -q --fail --location --silent "$game_api")
             [[ -z $api_response ]] && die "Unreachable game API ${game_api}"
             timestamp=$(sed -En "s/.*\"timestamp\":([0-9]+).*/\1/p" <<< "$api_response")
@@ -127,7 +128,7 @@ function game_get_info {
     local line1=$(grep " ${players[1]}" $tour_info)
     [[ -z $line0 || -z $line1 || $line0 != $line1 ]] \
         && die "No game between ${players[0]} and ${players[1]} found in ${tour_info}."
-    [[ $line0 =~ ^(${date_re}\ +([^\ ]+)\ +-\ +([^\ ]+))(.*)$ ]]
+    [[ $line0 =~ ^(${DATE_RE}\ +([^\ ]+)\ +-\ +([^\ ]+))(.*)$ ]]
     white=${BASH_REMATCH[2]}
     black=${BASH_REMATCH[3]}
 
@@ -280,7 +281,7 @@ function game_store_pgns {
 
 function game_update_info {
     # The maximal length of game records, excepting results
-    local length_max=$(grep -Eo "^${date_re} +[^ ]+ +- +[^ ]+" $tour_info \
+    local length_max=$(grep -Eo "^${DATE_RE} +[^ ]+ +- +[^ ]+" $tour_info \
                               | awk '{print length}' | sort -nr | head -1)
     local spaces=$(( length_max - rec_length )) sep=
     (( spaces == 0 )) || sep=$(printf "%${spaces}s" " ")
@@ -291,7 +292,7 @@ function game_update_info {
     echo "Updating file ${tour_info}..."
     local date=${game_date:8:2}.${game_date:5:2}.${game_date::4}
     sed -E -i.orig \
-        "s|^${date_re}( +${white} +- +${black}).*|${date}\1${sep}${result}|" \
+        "s|^${DATE_RE}( +${white} +- +${black}).*|${date}\1${sep}${result}|" \
         $tour_info
     rm ${tour_info}.orig
 
