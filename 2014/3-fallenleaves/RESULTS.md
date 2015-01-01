@@ -20,11 +20,11 @@ https://www.linux.org.ru/forum/talks/10803647
 
 * dvvrd
 * shell-script
-* raven_cler (выбыл)
+* raven_cler (результаты аннулированы)
 * aptyp
 * MyTrooName
 * DoctorSinus
-* J (выбыл)
+* J (результаты аннулированы)
 * HunOL
 * Magian
 * Kakadu
@@ -43,4 +43,5 @@ https://www.linux.org.ru/forum/talks/10803647
 * 8: aptyp - 3.5 очка
 * 9: shell-script - 3 очка
 * 10: DoctorSinus - 1.5 очка
-* raven_cler и J выбыли из турнира
+* 11-12: raven_cler - 0 очков (результаты аннулированы)
+* 11-12: J - 0 очков (результаты аннулированы)
