@@ -8,7 +8,7 @@ REPO_DIR=
 TOURNAMENT=
 
 # Version information
-VERSION="0.4"
+VERSION="0.5"
 
 # Firefox User Agent
 FIREFOX_UA="Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Firefox/24.0"
