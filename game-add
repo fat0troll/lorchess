@@ -307,7 +307,7 @@ function game_get_result {
 
         if [[ $res == 1/2-1/2 ]]; then
             # Representation of draw
-            res=1/2
+            res="½-½"
         elif [[ $ply_fst != $white ]]; then
             res=$(rev <<< $res)
         fi
