@@ -113,7 +113,8 @@ function show_tour_sequence {
 
 function output_tour_info {
     local date_re="([0-9?]{2})\.([0-9?]{2})\.([0-9?]{4})"
-    local res_re="(1|½|0|\+|-)"
+    local score_re="(1|½|0|\+|-)"
+    local res_re="${score_re}-${score_re}"
     local tour_num= date_beg= date_end=
     local white= black= result= game_date=
     # Lines with game info
@@ -177,8 +178,9 @@ function get_tour_dates {
 
 function keep_game_info {
     local keep=1
-    if [[ $line =~ $date_re\ +([^\ ]+)\ +-\ +([^\ ]+)(\ +$res_re-$res_re)? ]]; then
-        white=${BASH_REMATCH[4]} black=${BASH_REMATCH[5]}
+    if [[ $line =~ $date_re\ +([^\ ]+)\ +-\ +([^\ ]+)(\ +$res_re)? ]]; then
+        white=${BASH_REMATCH[4]}
+        black=${BASH_REMATCH[5]}
         result=${BASH_REMATCH[7]}-${BASH_REMATCH[8]}
         game_date=${BASH_REMATCH[3]}-${BASH_REMATCH[2]}-${BASH_REMATCH[1]}
 
@@ -214,14 +216,14 @@ function info_output_term {
             players=$(grep -o "[^ ]*${PLAYER}[^ ]*" <<< "$line")
             for name in $players; do
                 # PLAYER is a part of 'game_url' or 'result'
-                [[ $name =~ ^http:// || $name =~ ^${res_re}-${res_re}$ ]] && continue
+                [[ $name =~ ^http:// || $name =~ ^${res_re}$ ]] && continue
 
                 line=$(sed -E "s/(${name})/$(tput setaf 1)\1$(tput sgr0)/" <<< "$line")
             done
         fi
 
         # Highlight result
-        line=$(sed -E "s~ ${res_re}-${res_re}( |$)~ $(tput setaf 6)\1-\2$(tput sgr0)~" <<< "$line")
+        line=$(sed -E "s~ ${res_re}( |$)~ $(tput setaf 6)\1-\2$(tput sgr0)\3~" <<< "$line")
 
         echo "$line"
     done
