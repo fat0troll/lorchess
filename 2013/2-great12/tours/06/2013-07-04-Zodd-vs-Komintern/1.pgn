@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/qme0645z"]
-[Date "2013-07-04"]
+[Date "2013.07.04"]
 [White "zodd"]
 [Black "komintern"]
 [Result "0-1"]
@@ -8,5 +8,9 @@
 [BlackElo "1166"]
 [PlyCount "101"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B00"]
+[Opening "Owen Defense, General"]
+[Annotator "lichess.org"]
 
-1. e4 b6 2. Nf3 Bb7 3. Nc3 Nf6 4. e5 Nd5 5. Nxd5 Bxd5 6. d4 d6 7. Bb5+ Bc6 8. Bc4 d5 9. Bd3 f6 10. Bf4 e6 11. O-O g5 12. Bg3 Bg7 13. Re1 Nd7 14. exf6 Qxf6 15. c3 O-O 16. Bxc7 g4 17. Be5 Nxe5 18. dxe5 Qf7 19. Ng5 Qxf2+ 20. Kh1 d4 21. Be4 Bxe4 22. Nxe4 Qxb2 23. cxd4 Rad8 24. Nd6 h5 25. Qb3 Qxb3 26. axb3 Rd7 27. Red1 Bh6 28. Nb5 Ra8 29. Nd6 a5 30. d5 Re7 31. dxe6 Rxe6 32. Nc4 Bg7 33. Rd6 Rxd6 34. exd6 Bxa1 35. d7 Bf6 36. Nxb6 Rb8 37. Nd5 Rxb3 38. g3 Kf7 39. Nxf6 Ke7 40. Kg2 Rb6 41. Nxh5 Kxd7 42. Nf4 a4 43. Nd3 a3 44. Nc1 Rc6 45. Nb3 a2 46. h3 Rb6 47. Na1 Rb1 48. Nc2 Rb2 49. hxg4 Rxc2+ 50. Kh3 a1=Q 51. g5 0-1
+1. e4 b6?! { Owen Defense, General (0.20 → 0.96) Inaccuracy. } 2. Nf3 Bb7 3. Nc3 Nf6 4. e5 Nd5 5. Nxd5 Bxd5 6. d4 d6 7. Bb5+ Bc6 8. Bc4 d5 9. Bd3 f6? { (1.49 → 2.70) Mistake. } 10. Bf4?! { (2.70 → 2.14) Inaccuracy. } 10... e6 11. O-O?! { (2.26 → 1.69) Inaccuracy. } 11... g5? { (1.69 → 2.94) Mistake. } 12. Bg3? { (2.94 → 0.84) Mistake. } 12... Bg7? { (0.84 → 2.86) Mistake. } 13. Re1? { (2.86 → 1.29) Mistake. } 13... Nd7?? { (1.29 → 6.30) Blunder. } 14. exf6 Qxf6 15. c3?? { (6.62 → 3.27) Blunder. } 15... O-O? { (3.27 → 4.36) Mistake. } 16. Bxc7? { (4.36 → 2.70) Mistake. } 16... g4 17. Be5 Nxe5?! { (2.18 → 2.98) Inaccuracy. } 18. dxe5? { (2.98 → 1.01) Mistake. } 18... Qf7 19. Ng5? { (0.88 → -0.12) Mistake. } 19... Qxf2+ 20. Kh1 d4?? { (0.00 → 4.76) Blunder. } 21. Be4?? { (4.76 → 1.49) Blunder. } 21... Bxe4 22. Nxe4 Qxb2 23. cxd4 Rad8?! { (1.33 → 2.06) Inaccuracy. } 24. Nd6?? { (2.06 → -1.09) Blunder. } 24... h5? { (-1.09 → 1.49) Mistake. } 25. Qb3? { (1.49 → -0.04) Mistake. } 25... Qxb3 26. axb3 Rd7 27. Red1 Bh6 28. Nb5 Ra8 29. Nd6 a5 30. d5 Re7 31. dxe6 Rxe6 32. Nc4?! { (0.00 → -0.84) Inaccuracy. } 32... Bg7?! { (-0.84 → -0.24) Inaccuracy. } 33. Rd6?? { (-0.24 → -6.78) Blunder. } 33... Rxd6 34. exd6? { (-7.11 → -9.01) Mistake. } 34... Bxa1 35. d7 Bf6? { (-10.78 → -8.56) Mistake. } 36. Nxb6?! { (-8.56 → -9.41) Inaccuracy. } 36... Rb8 37. Nd5 Rxb3? { (-11.23 → -8.48) Mistake. } 38. g3? { (-8.48 → -31.87) Mistake. } 38... Kf7 39. Nxf6 Ke7 40. Kg2 Rb6?? { (-19.19 → 0.52) Blunder. } 41. Nxh5?? { (0.52 → -15.03) Blunder. } 41... Kxd7 42. Nf4 a4 43. Nd3 a3 44. Nc1 Rc6 45. Nb3 a2 46. h3?! { (-95.45 → Mate in 13) Checkmate is now unavoidable. } 46... Rb6?! { (Mate in 13 → -95.56) Lost forced checkmate sequence. } 47. Na1?! { (-95.56 → Mate in 10) Checkmate is now unavoidable. } 47... Rb1 48. Nc2 Rb2 49. hxg4 Rxc2+ 50. Kh3 a1=Q 51. g5 { White resigns } 0-1
