@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/jfj07xf6"]
-[Date "2013-06-01"]
+[Date "2013.06.01"]
 [White "txgames"]
 [Black "Michkova"]
 [Result "0-1"]
-[WhiteElo "905"]
-[BlackElo "1194"]
+[WhiteElo "1340"]
+[BlackElo "1574"]
 [PlyCount "58"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C44"]
+[Opening "Ponziani Opening, General"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. c3 d6 4. d4 exd4 5. Nxd4 Bd7 6. b4 Nf6 7. Bd3 Ne5 8. h3 c5 9. Nf5 Bxf5 10. exf5 Nxd3+ 11. Qxd3 Be7 12. O-O O-O 13. Nd2 Rc8 14. b5 d5 15. c4 dxc4 16. Qxc4 Qd7 17. Ne4 Qxf5 18. Re1 Rfe8 19. Ng5 Nd7 20. Rd1 Ne5 21. Qd5 Bxg5 22. Bxg5 Qxg5 23. Qxb7 Rb8 24. Qa6 Rb6 25. Qxa7 Rxb5 26. Rd5 Nf3+ 27. Kf1 Qxd5 28. gxf3 Qxf3 29. Re1 Qh1# 0-1
+1. e4 e5 2. Nf3 Nc6 3. c3?! { Ponziani Opening, General (0.24 → -0.28) Inaccuracy. } 3... d6 4. d4 exd4 5. Nxd4 Bd7 6. b4?! { (0.20 → -0.36) Inaccuracy. } 6... Nf6 7. Bd3 Ne5 8. h3?! { (-0.40 → -1.09) Inaccuracy. } 8... c5 9. Nf5 Bxf5 10. exf5 Nxd3+ 11. Qxd3 Be7 12. O-O O-O 13. Nd2 Rc8 14. b5?! { (-0.32 → -1.13) Inaccuracy. } 14... d5 15. c4 dxc4 16. Qxc4 Qd7?! { (-1.41 → -0.80) Inaccuracy. } 17. Ne4?! { (-0.80 → -1.73) Inaccuracy. } 17... Qxf5 18. Re1 Rfe8?! { (-2.06 → -1.17) Inaccuracy. } 19. Ng5? { (-1.17 → -2.70) Mistake. } 19... Nd7 20. Rd1 Ne5 21. Qd5?? { (-2.86 → -7.27) Blunder. } 21... Bxg5? { (-7.27 → -5.93) Mistake. } 22. Bxg5 Qxg5 23. Qxb7 Rb8?! { (-6.54 → -5.57) Inaccuracy. } 24. Qa6 Rb6 25. Qxa7?? { (-6.02 → -14.74) Blunder. } 25... Rxb5?? { (-14.74 → -5.33) Blunder. } 26. Rd5?? { (-5.33 → -18.50) Blunder. } 26... Nf3+ 27. Kf1 Qxd5 28. gxf3 Qxf3 29. Re1 Qh1# { White is checkmated } 0-1
