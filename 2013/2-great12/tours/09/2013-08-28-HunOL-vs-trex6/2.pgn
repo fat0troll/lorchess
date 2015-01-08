@@ -1,6 +1,6 @@
-[Event "Rated game"]
+[Event "Casual game"]
 [Site "http://lichess.org/c5mp7oq0"]
-[Date "2013-08-28"]
+[Date "2013.08.28"]
 [White "txgames"]
 [Black "HunOL"]
 [Result "0-1"]
@@ -8,5 +8,9 @@
 [BlackElo "1389"]
 [PlyCount "36"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "?"]
+[Opening "?"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nxc6 Qf6 6. Be3 Bxe3 7. fxe3 dxc6 8. Nc3 Ne7 9. Qe2 Qd6 10. Qh5 O-O 11. e5 Qc5 12. Bd3 Qxe3+ 13. Qe2 Qg5 14. O-O Nd5 15. e6 Bxe6 16. Nxd5 cxd5 17. h3 Bxh3 18. Rf3 Bg4 0-1
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nxc6 Qf6 6. Be3 Bxe3 7. fxe3 dxc6 8. Nc3 Ne7 9. Qe2 Qd6 10. Qh5 O-O 11. e5 Qc5 12. Bd3 Qxe3+ 13. Qe2 Qg5 14. O-O Nd5 15. e6 Bxe6 16. Nxd5 cxd5 17. h3 Bxh3 18. Rf3 Bg4 { White resigns } 0-1
