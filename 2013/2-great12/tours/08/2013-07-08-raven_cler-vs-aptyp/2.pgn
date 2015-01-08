@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/rb17wv9v"]
-[Date "2013-07-08"]
+[Date "2013.07.08"]
 [White "aptypr"]
 [Black "raven_cler"]
 [Result "0-1"]
-[WhiteElo "1131"]
-[BlackElo "828"]
+[WhiteElo "1501"]
+[BlackElo "1120"]
 [PlyCount "90"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B01"]
+[Opening "Scandinavian Defense, Gubinsky-Melts Defense"]
+[Annotator "lichess.org"]
 
-1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. Nf3 Nf6 5. Bc4 Bg4 6. Bxf7+ Kxf7 7. Ng5+ Kg8 8. f3 Bf5 9. a3 Nc6 10. O-O e6 11. d3 Qd4+ 12. Kh1 Bc5 13. Qe1 e5 14. f4 Re8 15. Nf3 Qd6 16. fxe5 Nxe5 17. Nb5 Nxf3 18. Qxe8+ Nxe8 19. Nxd6 Nxd6 20. Rxf3 Bg4 21. Rf4 h5 22. h3 Bf5 23. b4 Bb6 24. c4 g5 25. Rf3 Bd4 26. Ra2 g4 27. Rg3 Rh7 28. c5 Be6 29. Re2 Nf5 30. Rxe6 Nxg3+ 31. Kh2 Kf7 32. Re1 Bc3 33. Rd1 Ne2 34. Rf1+ Ke6 35. Be3 Be5+ 36. g3 Nxg3 37. Rf2 Nf1+ 38. Kh1 Nxe3 39. hxg4 hxg4+ 40. Kg1 Kd5 41. Rf8 Rh2 42. Rd8+ Kc6 43. d4 Rg2+ 44. Kh1 Rd2 45. Re8 Rd1# 0-1
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 { Scandinavian Defense, Gubinsky-Melts Defense } 4. Nf3 Nf6 5. Bc4 Bg4 6. Bxf7+? { (0.60 → -2.26) Mistake. The best move was O-O. } (6. O-O Nc6 7. d4 a6 8. d5 Bxf3 9. Qxf3 Ne5 10. Qe2 Nxc4) 6... Kxf7 7. Ng5+?! { (-2.26 → -2.84) Inaccuracy. The best move was O-O. } (7. O-O Nc6 8. h3 Bh5 9. d3 e5 10. Rfe1 Kg8 11. Bd2 Qb4) 7... Kg8 8. f3 Bf5 9. a3 Nc6 10. O-O e6 11. d3 Qd4+ 12. Kh1 Bc5 13. Qe1 e5 14. f4 Re8 15. Nf3 Qd6? { (-2.36 → -1.23) Mistake. The best move was Qd7. } (15... Qd7 16. fxe5 Nd4 17. Qg3 Nh5 18. Qf2 Nb3 19. d4 Nxa1 20. dxc5) 16. fxe5 Nxe5 17. Nb5 Nxf3 18. Qxe8+ Nxe8 19. Nxd6 Nxd6 20. Rxf3 Bg4 21. Rf4 h5?! { (-0.66 → 0.18) Inaccuracy. The best move was Bd7. } (21... Bd7 22. b4 Bb6 23. Bb2 Be3 24. Rf3 Bg5 25. c4 h5 26. Raf1) 22. h3? { (0.18 → -1.19) Mistake. The best move was b4. } (22. b4 Bb6 23. c4 g5 24. Rxg4 hxg4 25. c5 g3 26. h3 g4) 22... Bf5? { (-1.19 → 0.04) Mistake. The best move was Bd7. } (22... Bd7 23. b4 Bb6 24. Bb2 Be3 25. Rf3 Bg5 26. Re1 Bh4 27. Re2) 23. b4 Bb6 24. c4 g5 25. Rf3? { (-0.04 → -2.72) Mistake. The best move was Rxf5. } (25. Rxf5 Nxf5 26. c5 g4 27. cxb6 cxb6 28. hxg4 hxg4+ 29. Kg1 Kf7) 25... Bd4 26. Ra2 g4 27. Rg3? { (-2.84 → -4.02) Mistake. The best move was Rf4. } (27. Rf4 Be5 28. c5 Bxf4 29. Bxf4 Ne8 30. Kh2 Bxd3 31. Rd2 Bb5) 27... Rh7 28. c5 Be6 29. Re2 Nf5 30. Rxe6?! { (-3.97 → -4.58) Inaccuracy. The best move was Rxg4+. } (30. Rxg4+ hxg4 31. Rxe6 Kf7 32. Re1 gxh3 33. Bf4 hxg2+ 34. Kxg2 c6) 30... Nxg3+ 31. Kh2 Kf7 32. Re1 Bc3 33. Rd1 Ne2 34. Rf1+? { (-5.17 → -6.60) Mistake. The best move was Bd2. } (34. Bd2 Be5+ 35. Kh1 gxh3 36. Re1 Ng3+ 37. Kh2 Ne4+ 38. Kxh3 Nf2+) 34... Ke6 35. Be3 Be5+ 36. g3 Nxg3 37. Rf2? { (-7.31 → -12.60) Mistake. The best move was Re1. } (37. Re1 Nf1+ 38. Kg2 Nxe3+ 39. Rxe3 Rd7 40. b5 Kf5 41. a4 Rd5) 37... Nf1+ 38. Kh1 Nxe3 39. hxg4 hxg4+ 40. Kg1 Kd5 41. Rf8 Rh2 42. Rd8+ Kc6 43. d4 Rg2+ 44. Kh1 Rd2 45. Re8?! { (-92.26 → Mate in 1) Checkmate is now unavoidable. The best move was dxe5. } (45. dxe5 Rxd8 46. Kh2 Nf5 47. e6 Rd2+ 48. Kg1 Ra2 49. Kh1 g3) 45... Rd1# { White is checkmated } 0-1
