@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/a874ud15"]
+[Date "2013.07.10"]
+[White "Michkova"]
+[Black "LOR_J"]
+[Result "1-0"]
+[WhiteElo "1643"]
+[BlackElo "1496"]
+[PlyCount "89"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted, General"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 dxc4 { Queen's Gambit Accepted, General } 3. Nc3 e6?! { (0.12 → 0.64) Inaccuracy. } 4. Bf4?! { (0.64 → -0.04) Inaccuracy. } 4... Nf6 5. Rc1 a6 6. e4 b5 7. e5?! { (-0.60 → -1.33) Inaccuracy. } 7... Nd5 8. Bg3?! { (-0.92 → -1.81) Inaccuracy. } 8... Bb4?! { (-1.81 → -1.05) Inaccuracy. } 9. Nf3 h6?! { (-1.49 → -0.76) Inaccuracy. } 10. Be2 c5 11. a3?! { (-0.68 → -1.45) Inaccuracy. } 11... cxd4 12. Qxd4 Bxc3+ 13. bxc3 Qa5 14. O-O Qxa3 15. Qg4 O-O 16. Bf4? { (-1.13 → -2.34) Mistake. } 16... Nxf4 17. Qxf4 Nc6 18. Qe4 Bb7 19. Rfd1?! { (-2.50 → -3.39) Inaccuracy. } 19... Na5 20. Qc2 Nb3 21. Rb1 Bd5?! { (-3.71 → -2.86) Inaccuracy. } 22. Nd4 Nc5?? { (-3.15 → 2.18) Blunder. } 23. Ra1 Be4 24. Rxa3 Bxc2 25. Nxc2 Rfd8 26. Nd4 f6 27. Bf3?! { (2.14 → 1.57) Inaccuracy. } 27... Rac8?! { (1.57 → 2.14) Inaccuracy. } 28. exf6 gxf6 29. Re1 e5 30. Nf5 Kh7 31. h3 Rc7 32. Ne3 e4 33. Bg4 Kg6 34. Bf5+ Kg5 35. h4+? { (2.30 → 1.05) Mistake. } 35... Kxh4 36. g3+? { (1.05 → 0.00) Mistake. } 36... Kg5 37. Kg2 Rd2?! { (0.00 → 0.64) Inaccuracy. } 38. Rh1 Rc6? { (0.84 → 2.78) Mistake. } 39. Rh4 h5 40. Ra1 Nd3 41. Rah1 Rxf2+ 42. Kg1 Rxf5 43. Rxh5+ Kg6 44. Nxf5? { (4.52 → 3.03) Mistake. } 44... a5 45. Ne7+ { Black resigns } 1-0
