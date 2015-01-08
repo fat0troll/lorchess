@@ -292,7 +292,7 @@ function game_update_info {
     echo "Updating file ${tour_info}..."
     local date=${game_date:8:2}.${game_date:5:2}.${game_date::4}
     sed -E -i.orig \
-        "s|^${DATE_RE}( +${white} +- +${black}).*|${date}\1${sep}${result}|" \
+        "s/^${DATE_RE}( +${white} +- +${black}).*/${date}\1${sep}${result}/" \
         $tour_info
     rm ${tour_info}.orig
 

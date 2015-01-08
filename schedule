@@ -223,7 +223,7 @@ function info_output_term {
         fi
 
         # Highlight result
-        line=$(sed -E "s~ ${res_re}( |$)~ $(tput setaf 6)\1-\2$(tput sgr0)\3~" <<< "$line")
+        line=$(sed -E "s/ ${res_re}( |$)/ $(tput setaf 6)\1-\2$(tput sgr0)\3/" <<< "$line")
 
         echo "$line"
     done
