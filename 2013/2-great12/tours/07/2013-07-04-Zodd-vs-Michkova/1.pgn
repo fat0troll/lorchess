@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/br528j2o"]
+[Date "2013.07.04"]
+[White "zodd"]
+[Black "Michkova"]
+[Result "0-1"]
+[WhiteElo "1871"]
+[BlackElo "1632"]
+[PlyCount "52"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C60"]
+[Opening "Spanish Game, General"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 { Spanish Game, General } Nf6 4. Nc3 d6?! { (0.12 → 0.64) Inaccuracy. } 5. O-O Bd7 6. d3 Be7 7. Bd2 O-O 8. Bc4 Na5 9. Bb3 Nxb3 10. axb3 Bg4 11. h3 Bh5 12. Be3 a6 13. Nb1 c6 14. Nbd2 d5 15. exd5 cxd5 16. g4?! { (-0.44 → -1.21) Inaccuracy. } 16... e4? { (-1.21 → 0.60) Mistake. } 17. Ne5? { (0.60 → -0.44) Mistake. } 17... Bd6?! { (-0.44 → 0.12) Inaccuracy. } 18. d4?! { (0.12 → -0.64) Inaccuracy. } 18... Bg6 19. Nxg6 fxg6 20. g5? { (-0.84 → -2.50) Mistake. } 20... Nh5? { (-2.50 → -1.37) Mistake. } 21. Qg4 Bf4?! { (-1.65 → -0.68) Inaccuracy. } 22. h4?! { (-0.68 → -1.41) Inaccuracy. } 22... Rf5 23. c4 Qc8?! { (-1.65 → -1.09) Inaccuracy. } 24. Kh1?? { (-1.09 → -9.45) Blunder. } 24... Ng3+?? { (-9.45 → -1.97) Blunder. } 25. fxg3 Bxe3 26. Nxe4 Rxf1+ { White resigns } 0-1
