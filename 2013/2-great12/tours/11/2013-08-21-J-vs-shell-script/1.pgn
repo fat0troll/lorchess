@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/adnh60eq"]
-[Date "2013-08-21"]
+[Date "2013.08.21"]
 [White "cppmm"]
 [Black "LOR_J"]
 [Result "0-1"]
@@ -8,5 +8,9 @@
 [BlackElo "1097"]
 [PlyCount "85"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C50"]
+[Opening "Italian Game, Italian Variation"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 h6 6. a3 O-O 7. b4 Bb6 8. Bb5 a6 9. Bxc6 bxc6 10. Nxe5 d5 11. exd5 cxd5 12. Bb2 d4 13. Nc6 Qd5 14. Na5 Bxa5 15. bxa5 c5 16. c4 Qc6 17. Nd2 Ng4 18. h3 Ne5 19. Ne4 Bf5 20. Re1 Rfe8 21. Qh5 Bg6 22. Qh4 Nxd3 23. Re2 Nxb2 24. Rxb2 Bxe4 25. f3 Bd3 26. Rb6 Qa4 27. Re1 Rxe1+ 28. Qxe1 Qxa3 29. Rb7 Bxc4 30. g4 Qe3+ 31. Qf2 Qxf2+ 32. Kxf2 Re8 33. Rc7 Re2+ 34. Kg3 d3 35. Rxc5 Bb5 36. Rc1 Ra2 37. Kh4 Rxa5 38. g5 hxg5+ 39. Kxg5 Kh7 40. f4 Ba4+ 41. f5 d2 42. Rf1 d1=Q 43. Rxd1 0-1
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 { Italian Game, Italian Variation } 4. O-O Nf6 5. d3 h6 6. a3 O-O 7. b4 Bb6 8. Bb5 a6?! { (-0.52 → 0.12) Inaccuracy. } 9. Bxc6 bxc6 10. Nxe5?! { (0.00 → -0.60) Inaccuracy. } 10... d5? { (-0.60 → 0.76) Mistake. } 11. exd5 cxd5 12. Bb2 d4 13. Nc6? { (1.17 → -1.29) Mistake. } 13... Qd5?? { (-1.29 → 10.22) Blunder. } 14. Na5?? { (10.22 → -0.32) Blunder. } 14... Bxa5 15. bxa5 c5 16. c4? { (-0.04 → -1.33) Mistake. } 16... Qc6?! { (-1.33 → -0.52) Inaccuracy. } 17. Nd2 Ng4?! { (-0.56 → -0.04) Inaccuracy. } 18. h3? { (-0.04 → -1.65) Mistake. } 18... Ne5 19. Ne4?! { (-1.65 → -2.18) Inaccuracy. } 19... Bf5? { (-2.18 → -0.16) Mistake. } 20. Re1 Rfe8 21. Qh5?? { (-0.60 → -3.75) Blunder. } 21... Bg6? { (-3.75 → -2.26) Mistake. } 22. Qh4?? { (-2.26 → -7.79) Blunder. } 22... Nxd3 23. Re2? { (-7.91 → -8.92) Mistake. } 23... Nxb2? { (-8.92 → -6.66) Mistake. } 24. Rxb2?! { (-6.66 → -7.39) Inaccuracy. } 24... Bxe4 25. f3 Bd3 26. Rb6?! { (-7.63 → -8.48) Inaccuracy. } 26... Qa4 27. Re1? { (-8.52 → -9.61) Mistake. } 27... Rxe1+ 28. Qxe1 Qxa3?! { (-9.41 → -8.52) Inaccuracy. } 29. Rb7?! { (-8.52 → -9.09) Inaccuracy. } 29... Bxc4 30. g4?! { (-9.17 → -15.87) Inaccuracy. } 30... Qe3+ 31. Qf2 Qxf2+ 32. Kxf2 Re8 33. Rc7 Re2+ 34. Kg3 d3 35. Rxc5 Bb5 36. Rc1 Ra2 37. Kh4 Rxa5 38. g5 hxg5+ 39. Kxg5 Kh7 40. f4 Ba4+ 41. f5 d2 42. Rf1 d1=Q 43. Rxd1 { White resigns } 0-1
