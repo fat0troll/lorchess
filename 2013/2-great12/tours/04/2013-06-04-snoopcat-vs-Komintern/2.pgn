@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/3x1oajov"]
-[Date "2013-06-04"]
+[Date "2013.06.04"]
 [White "komintern"]
 [Black "Anonymous"]
 [Result "1-0"]
@@ -8,5 +8,9 @@
 [BlackElo "?"]
 [PlyCount "59"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B20"]
+[Opening "Sicilian Defense, General"]
+[Annotator "lichess.org"]
 
-1. e4 c5 2. d4 cxd4 3. Qxd4 Nc6 4. Qd1 g6 5. Nc3 Bg7 6. Nf3 e6 7. Bg5 Bf6 8. h4 h6 9. Bxf6 Nxf6 10. e5 Ng4 11. Nd4 Ncxe5 12. f4 Qf6 13. g3 d5 14. Qe2 Nc4 15. O-O-O Nge3 16. Rd3 Nxf1 17. Rxf1 O-O 18. b3 Na3 19. Kb2 Qe7 20. Qe5 a6 21. Rh1 Nb5 22. g4 Qa3+ 23. Kb1 Nxc3+ 24. Rxc3 f6 25. Qe2 e5 26. fxe5 fxe5 27. Qxe5 Bxg4 28. Qxd5+ Kh8 29. Rc7 Rad8 30. Qe5+ 1-0
+1. e4 c5 { Sicilian Defense, General } 2. d4 cxd4 3. Qxd4 Nc6 4. Qd1?! { (0.24 → -0.40) Inaccuracy. } 4... g6?! { (-0.40 → 0.48) Inaccuracy. } 5. Nc3 Bg7 6. Nf3 e6? { (-0.12 → 1.93) Mistake. } 7. Bg5? { (1.93 → 0.56) Mistake. } 7... Bf6?! { (0.56 → 1.17) Inaccuracy. } 8. h4?! { (1.17 → 0.48) Inaccuracy. } 8... h6?! { (0.48 → 1.01) Inaccuracy. } 9. Bxf6 Nxf6 10. e5?! { (0.80 → 0.00) Inaccuracy. } 10... Ng4 11. Nd4? { (0.20 → -0.88) Mistake. } 11... Ncxe5? { (-0.88 → 0.48) Mistake. } 12. f4?! { (0.48 → -0.32) Inaccuracy. } 12... Qf6 13. g3?! { (0.00 → -0.92) Inaccuracy. } 13... d5? { (-0.92 → 1.33) Mistake. } 14. Qe2? { (1.33 → 0.12) Mistake. } 14... Nc4 15. O-O-O?! { (0.28 → -0.28) Inaccuracy. } 15... Nge3 16. Rd3 Nxf1 17. Rxf1 O-O 18. b3 Na3?! { (-0.84 → 0.00) Inaccuracy. } 19. Kb2?! { (0.00 → -0.88) Inaccuracy. } 19... Qe7? { (-0.88 → 2.02) Mistake. } 20. Qe5? { (2.02 → -0.76) Mistake. } 20... a6?? { (-0.76 → 8.68) Blunder. } 21. Rh1?? { (8.68 → -1.09) Blunder. } 21... Nb5 22. g4 Qa3+ 23. Kb1 Nxc3+? { (-0.76 → 0.24) Mistake. } 24. Rxc3 f6 25. Qe2 e5? { (0.72 → 2.54) Mistake. } 26. fxe5 fxe5 27. Qxe5 Bxg4?? { (2.46 → 10.26) Blunder. } 28. Qxd5+ Kh8 29. Rc7?? { (21.65 → 2.90) Blunder. } 29... Rad8?? { (2.90 → Mate in 3) Checkmate is now unavoidable. } 30. Qe5+ { Black resigns } 1-0

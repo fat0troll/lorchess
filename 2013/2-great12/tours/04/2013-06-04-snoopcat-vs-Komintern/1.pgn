@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/4o3gacoh"]
-[Date "2013-06-04"]
+[Date "2013.06.04"]
 [White "Anonymous"]
 [Black "komintern"]
 [Result "1-0"]
@@ -8,5 +8,9 @@
 [BlackElo "1166"]
 [PlyCount "63"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B00"]
+[Opening "Owen Defense, General"]
+[Annotator "lichess.org"]
 
-1. e4 b6 2. d4 Bb7 3. d5 e6 4. Nc3 Nf6 5. Bd3 Qe7 6. Bg5 exd5 7. Bxf6 gxf6 8. Qf3 Bg7 9. Nge2 dxe4 10. Bxe4 c6 11. O-O d5 12. Bd3 Nd7 13. Nd4 Ne5 14. Qh3 Qb4 15. Nf5 Bf8 16. f4 Qxb2 17. fxe5 Qxc3 18. exf6 Bc8 19. Rfe1+ Be6 20. Rxe6+ fxe6 21. Qh5+ Kd7 22. Qf7+ Kd8 23. Rf1 Bc5+ 24. Kh1 Qe5 25. Ne7 Rc8 26. Nxc8 Kxc8 27. Ba6+ Kd8 28. Qb7 Qc7 29. Qa8+ Kd7 30. Qxh8 b5 31. Qxh7+ Kd6 32. f7 1-0
+1. e4 b6?! { Owen Defense, General (0.24 → 1.13) Inaccuracy. } 2. d4 Bb7 3. d5?! { (1.01 → 0.28) Inaccuracy. } 3... e6 4. Nc3 Nf6 5. Bd3 Qe7?! { (-0.24 → 0.68) Inaccuracy. } 6. Bg5? { (0.68 → -0.56) Mistake. } 6... exd5 7. Bxf6 gxf6 8. Qf3? { (-0.28 → -2.02) Mistake. } 8... Bg7? { (-2.02 → 0.28) Mistake. } 9. Nge2 dxe4 10. Bxe4 c6? { (0.32 → 1.37) Mistake. } 11. O-O?! { (1.37 → 0.80) Inaccuracy. } 11... d5 12. Bd3 Nd7?! { (0.92 → 1.57) Inaccuracy. } 13. Nd4? { (1.57 → 0.44) Mistake. } 13... Ne5 14. Qh3?! { (0.40 → -0.12) Inaccuracy. } 14... Qb4 15. Nf5 Bf8 16. f4 Qxb2?! { (-0.40 → 0.32) Inaccuracy. } 17. fxe5 Qxc3 18. exf6 Bc8 19. Rfe1+? { (0.28 → -0.92) Mistake. } 19... Be6?? { (-0.92 → 4.04) Blunder. } 20. Rxe6+?? { (4.04 → 0.72) Blunder. } 20... fxe6 21. Qh5+?? { (1.01 → -4.24) Blunder. } 21... Kd7?? { (-4.24 → 0.00) Blunder. } 22. Qf7+ Kd8 23. Rf1? { (0.00 → -1.33) Mistake. } 23... Bc5+ 24. Kh1 Qe5?? { (-0.96 → 8.28) Blunder. } 25. Ne7?? { (8.28 → 0.00) Blunder. } 25... Rc8?? { (0.00 → 5.01) Blunder. } 26. Nxc8 Kxc8?? { (4.80 → 17.53) Blunder. } 27. Ba6+ Kd8 28. Qb7 Qc7 29. Qa8+ Kd7 30. Qxh8 b5 31. Qxh7+ Kd6 32. f7 { Black resigns } 1-0
