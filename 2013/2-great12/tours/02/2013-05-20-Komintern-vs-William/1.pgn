@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/8zzbiw1t"]
-[Date "2013-05-20"]
+[Date "2013.05.20"]
 [White "komintern"]
 [Black "William_V"]
 [Result "0-1"]
-[WhiteElo "1162"]
-[BlackElo "1321"]
+[WhiteElo "1453"]
+[BlackElo "1688"]
 [PlyCount "54"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C41"]
+[Opening "Philidor Defense, General"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 d6 3. Nc3 Nc6 4. a3 Bg4 5. h3 Bh5 6. Be2 Qf6 7. g4 Bg6 8. Nd5 Qd8 9. d3 Nge7 10. Bg5 f6 11. Bh4 Nxd5 12. exd5 Nd4 13. Nxd4 exd4 14. O-O Qd7 15. f4 f5 16. Bf2 fxg4 17. Bxg4 Bf5 18. Bxd4 O-O-O 19. Bxa7 h5 20. Bxh5 Bxh3 21. Rf3 g6 22. Kh2 Rxh5 23. Kg3 Bg4 24. Qf1 Bxf3 25. Qxf3 Rh3+ 26. Kg2 Rxf3 27. Kxf3 Qh3+ 0-1
+1. e4 e5 2. Nf3 d6 { Philidor Defense, General } 3. Nc3 Nc6 4. a3 Bg4 5. h3 Bh5?! { (0.00 → 0.52) Inaccuracy. } 6. Be2 Qf6?! { (0.28 → 0.92) Inaccuracy. } 7. g4 Bg6 8. Nd5? { (1.17 → 0.04) Mistake. } 8... Qd8 9. d3 Nge7 10. Bg5 f6 11. Bh4?! { (-0.08 → -0.60) Inaccuracy. } 11... Nxd5 12. exd5 Nd4?! { (-0.68 → 0.24) Inaccuracy. } 13. Nxd4 exd4 14. O-O Qd7 15. f4 f5? { (0.48 → 1.89) Mistake. } 16. Bf2?! { (1.89 → 0.92) Inaccuracy. } 16... fxg4? { (0.92 → 3.07) Mistake. } 17. Bxg4 Bf5 18. Bxd4? { (3.23 → 1.41) Mistake. } 18... O-O-O 19. Bxa7? { (1.85 → -0.32) Mistake. } 19... h5? { (-0.32 → 0.76) Mistake. } 20. Bxh5? { (0.76 → -0.72) Mistake. } 20... Bxh3 21. Rf3?? { (-0.92 → -5.13) Blunder. } 21... g6?? { (-5.13 → 0.00) Blunder. } 22. Kh2?? { (0.00 → -10.14) Blunder. } 22... Rxh5 23. Kg3 Bg4 24. Qf1 Bxf3 25. Qxf3 Rh3+ 26. Kg2 Rxf3 27. Kxf3 Qh3+ { White resigns } 0-1

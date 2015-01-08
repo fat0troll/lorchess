@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/nh0uyk60"]
-[Date "2013-05-20"]
+[Date "2013.05.20"]
 [White "William_V"]
 [Black "komintern"]
 [Result "1-0"]
-[WhiteElo "1330"]
-[BlackElo "1136"]
+[WhiteElo "1695"]
+[BlackElo "1420"]
 [PlyCount "33"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B00"]
+[Opening "Owen Defense, General"]
+[Annotator "lichess.org"]
 
-1. e4 b6 2. e5 f6 3. exf6 Nxf6 4. Nf3 Bb7 5. Be2 d6 6. O-O e5 7. d3 e4 8. dxe4 Nxe4 9. Re1 d5 10. c4 c6 11. cxd5 cxd5 12. Nc3 Nxc3 13. bxc3 Qf6 14. Ba6+ Be7 15. Bxb7 Qxc3 16. Bg5 Qc7 17. Rxe7+ 1-0
+1. e4 b6?! { Owen Defense, General (0.40 → 1.37) Inaccuracy. } 2. e5?! { (1.37 → 0.72) Inaccuracy. } 2... f6 3. exf6?! { (0.88 → 0.20) Inaccuracy. } 3... Nxf6 4. Nf3 Bb7 5. Be2 d6?! { (0.04 → 0.80) Inaccuracy. } 6. O-O e5 7. d3?! { (0.88 → 0.28) Inaccuracy. } 7... e4? { (0.28 → 1.81) Mistake. } 8. dxe4 Nxe4 9. Re1?! { (2.62 → 2.06) Inaccuracy. } 9... d5?! { (2.06 → 2.78) Inaccuracy. } 10. c4? { (2.78 → 0.04) Mistake. } 10... c6? { (0.04 → 2.58) Mistake. } 11. cxd5? { (2.58 → 0.52) Mistake. } 11... cxd5?? { (0.52 → 4.76) Blunder. } 12. Nc3? { (4.76 → 2.62) Mistake. } 12... Nxc3?? { (2.62 → 6.94) Blunder. } 13. bxc3 Qf6? { (7.39 → 16.00) Mistake. } 14. Ba6+ Be7 15. Bxb7 Qxc3 16. Bg5 Qc7 17. Rxe7+ { Black resigns } 1-0
