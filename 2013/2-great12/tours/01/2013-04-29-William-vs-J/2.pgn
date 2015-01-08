@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/dhjmmi6z"]
+[Date "2013.04.29"]
+[White "LOR_J"]
+[Black "William_V"]
+[Result "1-0"]
+[WhiteElo "1525"]
+[BlackElo "1726"]
+[PlyCount "79"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C55"]
+[Opening "Italian Game, Two Knights Defense"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 { Italian Game, Two Knights Defense } 4. Nc3 Bc5 5. O-O d6 6. d3 Bg4 7. Be3 Qd7 8. h3 Bh5?! { (0.08 → 0.72) Inaccuracy. } 9. a3?! { (0.72 → -0.12) Inaccuracy. } 9... O-O-O?! { (-0.12 → 0.64) Inaccuracy. } 10. b4?! { (0.64 → 0.08) Inaccuracy. } 10... Bd4 11. Bxd4? { (0.00 → -2.06) Mistake. } 11... Nxd4 12. Nd5?? { (-1.77 → -6.22) Blunder. } 12... Nxf3+? { (-6.22 → -4.92) Mistake. } 13. gxf3?? { (-4.92 → -11.59) Blunder. } 13... Ne8?? { (-11.59 → -1.13) Blunder. } 14. Kh2 f5?! { (-1.25 → -0.68) Inaccuracy. } 15. Rg1?! { (-0.68 → -1.45) Inaccuracy. } 15... fxe4 16. dxe4 c6 17. Ne3 Nc7 18. a4 Ne6? { (-1.61 → -0.04) Mistake. } 19. Bxe6 Qxe6 20. c4?! { (-0.24 → -1.05) Inaccuracy. } 20... Qf6 21. Ng4 Qe6? { (-1.21 → 0.00) Mistake. } 22. b5?! { (0.00 → -0.84) Inaccuracy. } 22... c5 23. Qb3 Be8 24. a5 h5?! { (-0.84 → 0.00) Inaccuracy. } 25. Ne3 Bd7? { (0.00 → 1.17) Mistake. } 26. Rg3? { (1.17 → -0.56) Mistake. } 26... h4 27. Rg4 Qf6 28. Nd5 Qxf3?? { (-0.12 → 13.73) Blunder. } 29. Qxf3 Bxg4?! { (14.10 → Mate in 7) Checkmate is now unavoidable. } 30. Qxg4+ Kb8 31. Qxg7 Rhf8 32. Rf1?! { (Mate in 3 → Mate in 6) Not the best checkmate sequence. } 32... Rg8 33. Qf6?! { (Mate in 6 → 19.23) Lost forced checkmate sequence. } 33... Rdf8?! { (19.23 → Mate in 4) Checkmate is now unavoidable. } 34. Qxd6+ Ka8 35. Qxe5?! { (Mate in 3 → 38.46) Lost forced checkmate sequence. } 35... a6?! { (38.46 → Mate in 8) Checkmate is now unavoidable. } 36. b6?? { (Mate in 8 → 0.00) Lost forced checkmate sequence. } 36... Rc8?? { (0.00 → Mate in 7) Checkmate is now unavoidable. } 37. Nc7+ Kb8 38. Nxa6+ Ka8 39. Qb8+ Rxb8 40. Nc7# { Black is checkmated } 1-0

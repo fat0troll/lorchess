@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/izl3s735"]
+[Date "2013.04.29"]
+[White "William_V"]
+[Black "LOR_J"]
+[Result "1-0"]
+[WhiteElo "1716"]
+[BlackElo "1531"]
+[PlyCount "31"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C50"]
+[Opening "Italian Game, Italian Variation"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 { Italian Game, Italian Variation } 4. O-O Nf6 5. c3 O-O? { (-0.08 → 0.92) Mistake. } 6. d4 exd4 7. cxd4?! { (1.05 → 0.48) Inaccuracy. } 7... Bb4? { (0.48 → 2.02) Mistake. } 8. Bg5? { (2.02 → 0.88) Mistake. } 8... h6 9. Bh4 g5 10. Nxg5 hxg5 11. Bxg5 Be7 12. Bd3? { (0.44 → -1.29) Mistake. } 12... d6?! { (-1.29 → -0.76) Inaccuracy. } 13. Qf3? { (-0.76 → -2.30) Mistake. } 13... Nxd4 14. Qg3? { (-2.58 → -5.13) Mistake. } 14... Nh7?? { (-5.13 → Mate in 4) Checkmate is now unavoidable. } 15. Bf6+ Ng5 16. Qxg5+ { Black resigns } 1-0
