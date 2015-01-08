@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/xigdm86n"]
-[Date "2013-07-15"]
+[Date "2013.07.15"]
 [White "debasher"]
 [Black "zodd"]
 [Result "0-1"]
-[WhiteElo "1209"]
-[BlackElo "1355"]
+[WhiteElo "1584"]
+[BlackElo "1796"]
 [PlyCount "128"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "D00"]
+[Opening "Queen Pawn Game, General"]
+[Annotator "lichess.org"]
 
-1. d4 d5 2. c3 Nc6 3. e3 Nf6 4. Bd3 Bg4 5. Nf3 g6 6. h3 Bd7 7. O-O Bg7 8. c4 dxc4 9. Bxc4 O-O 10. Nc3 Na5 11. Bd3 e6 12. Rb1 Rc8 13. b3 c5 14. Ba3 b6 15. dxc5 bxc5 16. Ne4 Nxe4 17. Bxe4 Bb5 18. Re1 Re8 19. Qxd8 Rexd8 20. Red1 Rxd1+ 21. Rxd1 c4 22. Bb4 cxb3 23. Bxa5 bxa2 24. Nd4 Bc4 25. Bc3 Rb8 26. Ra1 f5 27. Bc2 a6 28. Rc1 Bf8 29. Ba1 Ba3 30. Rd1 Bb2 31. g4 Bxa1 32. Rxa1 Bd5 33. gxf5 gxf5 34. f3 Rb2 35. Bd3 a5 36. Kf1 Bc4 37. Bxc4 Rb1+ 38. Ke2 Rxa1 39. Nxe6 Kh8 40. Nd4 Rb1 41. Bxa2 Rb2+ 42. Kd3 Rxa2 43. Nxf5 Rb2 44. Kc3 Rb8 45. Nd4 a4 46. Nc2 Rb3+ 47. Kc4 Kg7 48. f4 Rb2 49. Kc3 Rb3+ 50. Kc4 Rb8 51. Na3 Kf6 52. e4 Rb3 53. Nc2 Rxh3 54. Kb4 a3 55. Nxa3 Rxa3 56. Kxa3 h5 57. e5+ Ke6 58. Kb2 h4 59. Kc2 h3 60. Kd2 h2 61. Ke2 h1=Q 62. f5+ Kxf5 63. e6 Kxe6 64. Ke3 Qh4 0-1
+1. d4 d5 { Queen Pawn Game, General } 2. c3?! { (0.32 → -0.20) Inaccuracy. } 2... Nc6 3. e3 Nf6 4. Bd3?! { (-0.04 → -0.56) Inaccuracy. } 4... Bg4 5. Nf3 g6?! { (-0.44 → 0.20) Inaccuracy. } 6. h3 Bd7?! { (-0.04 → 0.80) Inaccuracy. } 7. O-O Bg7 8. c4 dxc4 9. Bxc4 O-O 10. Nc3 Na5 11. Bd3 e6 12. Rb1 Rc8 13. b3? { (1.45 → 0.40) Mistake. } 13... c5 14. Ba3?! { (0.72 → 0.20) Inaccuracy. } 14... b6? { (0.20 → 1.29) Mistake. } 15. dxc5 bxc5 16. Ne4? { (1.05 → -0.16) Mistake. } 16... Nxe4 17. Bxe4 Bb5 18. Re1 Re8 19. Qxd8 Rexd8 20. Red1 Rxd1+ 21. Rxd1 c4 22. Bb4? { (-0.08 → -1.17) Mistake. } 22... cxb3 23. Bxa5 bxa2 24. Nd4 Bc4 25. Bc3?! { (-0.96 → -1.77) Inaccuracy. } 25... Rb8? { (-1.77 → -0.12) Mistake. } 26. Ra1? { (-0.12 → -1.49) Mistake. } 26... f5 27. Bc2 a6? { (-1.53 → -0.08) Mistake. } 28. Rc1? { (-0.08 → -2.14) Mistake. } 28... Bf8? { (-2.14 → -0.16) Mistake. } 29. Ba1 Ba3 30. Rd1 Bb2 31. g4 Bxa1 32. Rxa1 Bd5? { (-0.92 → 0.76) Mistake. } 33. gxf5 gxf5 34. f3? { (0.92 → -1.01) Mistake. } 34... Rb2 35. Bd3? { (-1.05 → -3.27) Mistake. } 35... a5? { (-3.27 → -0.92) Mistake. } 36. Kf1 Bc4 37. Bxc4 Rb1+ 38. Ke2 Rxa1 39. Nxe6? { (-5.05 → -6.26) Mistake. } 39... Kh8? { (-6.26 → -5.01) Mistake. } 40. Nd4? { (-5.01 → -6.58) Mistake. } 40... Rb1?? { (-6.58 → -2.90) Blunder. } 41. Bxa2 Rb2+ 42. Kd3 Rxa2 43. Nxf5? { (-3.35 → -4.64) Mistake. } 43... Rb2? { (-4.64 → -2.66) Mistake. } 44. Kc3 Rb8 45. Nd4 a4 46. Nc2 Rb3+ 47. Kc4 Kg7 48. f4 Rb2 49. Kc3 Rb3+?? { (-4.04 → 0.00) Blunder. } 50. Kc4?? { (0.00 → -4.48) Blunder. } 50... Rb8?! { (-4.48 → -3.59) Inaccuracy. } 51. Na3? { (-3.59 → -4.64) Mistake. } 51... Kf6 52. e4? { (-4.64 → -6.30) Mistake. } 52... Rb3 53. Nc2 Rxh3 54. Kb4?? { (-6.70 → -10.14) Blunder. } 54... a3?! { (-10.14 → -9.25) Inaccuracy. } 55. Nxa3?! { (-9.25 → -89.29) Inaccuracy. } 55... Rxa3 56. Kxa3 h5 57. e5+ Ke6 58. Kb2 h4 59. Kc2 h3 60. Kd2 h2 61. Ke2 h1=Q 62. f5+ Kxf5 63. e6 Kxe6 64. Ke3 Qh4 { White resigns } 0-1

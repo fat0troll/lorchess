@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/t6th43e7"]
-[Date "2013-07-15"]
+[Date "2013.07.15"]
 [White "zodd"]
 [Black "debasher"]
 [Result "1/2-1/2"]
-[WhiteElo "1362"]
-[BlackElo "1187"]
+[WhiteElo "1807"]
+[BlackElo "1514"]
 [PlyCount "124"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C41"]
+[Opening "Philidor Defense, General"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 d6 3. Nc3 Nf6 4. Bc4 Be6 5. Bb5+ Nbd7 6. O-O a6 7. Ba4 Be7 8. Ng5 Bg4 9. Qe1 h6 10. f3 Bxf3 11. Nxf3 O-O 12. d3 c6 13. Qg3 Kh8 14. Bb3 Nh5 15. Qg4 Ndf6 16. Qh3 Qc8 17. Nh4 Qxh3 18. gxh3 Nxe4 19. Nf5 Nxc3 20. bxc3 Rae8 21. Ba3 c5 22. d4 f6 23. dxc5 dxc5 24. Ba4 b5 25. Bb3 c4 26. Bxe7 cxb3 27. Bxf8 b2 28. Rab1 Rxf8 29. Rxb2 Nf4 30. h4 Ne2+ 31. Kh1 Nxc3 32. Ne7 Kh7 33. h5 Rd8 34. Nf5 Ne2 35. c4 Nf4 36. cxb5 axb5 37. Rxb5 Nxh5 38. a4 Nf4 39. a5 Ra8 40. Ra1 Ne6 41. a6 Nc7 42. Rb6 Ra7 43. Rb7 Rxa6 44. Rxa6 Nxa6 45. Rxg7+ Kh8 46. Rg6 Nc5 47. Rxh6+ Kg8 48. Rxf6 e4 49. Ne3 Nd3 50. Re6 Kf7 51. Rxe4 Nf2+ 52. Kg2 Nxe4 53. Kf3 Ng5+ 54. Kg4 Kg6 55. h4 Nf7 56. h5+ Kh7 57. Nf5 Nh6+ 58. Kg5 Nxf5 59. Kxf5 Kh6 60. Kg4 Kh7 61. Kg5 Kg7 62. h6+ Kh7 1/2-1/2
+1. e4 e5 2. Nf3 d6 { Philidor Defense, General } 3. Nc3 Nf6 4. Bc4 Be6 5. Bb5+ Nbd7 6. O-O a6 7. Ba4 Be7 8. Ng5 Bg4 9. Qe1 h6 10. f3 Bxf3?? { (-0.72 → 3.67) Blunder. } 11. Nxf3 O-O 12. d3 c6 13. Qg3 Kh8 14. Bb3 Nh5 15. Qg4 Ndf6 16. Qh3 Qc8 17. Nh4 Qxh3 18. gxh3 Nxe4?! { (3.63 → 4.32) Inaccuracy. } 19. Nf5? { (4.32 → 3.23) Mistake. } 19... Nxc3 20. bxc3 Rae8 21. Ba3 c5 22. d4 f6? { (3.35 → 4.64) Mistake. } 23. dxc5 dxc5 24. Ba4? { (4.60 → 3.23) Mistake. } 24... b5 25. Bb3 c4 26. Bxe7 cxb3? { (2.94 → 5.01) Mistake. } 27. Bxf8 b2 28. Rab1? { (5.13 → 4.00) Mistake. } 28... Rxf8 29. Rxb2 Nf4 30. h4?! { (4.40 → 3.51) Inaccuracy. } 30... Ne2+ 31. Kh1 Nxc3 32. Ne7? { (4.08 → 2.94) Mistake. } 32... Kh7?! { (2.94 → 3.51) Inaccuracy. } 33. h5 Rd8?! { (3.07 → 3.75) Inaccuracy. } 34. Nf5 Ne2? { (3.31 → 5.01) Mistake. } 35. c4 Nf4 36. cxb5 axb5 37. Rxb5 Nxh5 38. a4 Nf4? { (5.45 → 6.74) Mistake. } 39. a5? { (6.74 → 5.25) Mistake. } 39... Ra8? { (5.25 → 7.07) Mistake. } 40. Ra1?! { (7.07 → 6.34) Inaccuracy. } 40... Ne6?! { (6.34 → 6.94) Inaccuracy. } 41. a6 Nc7 42. Rb6?! { (7.91 → 7.27) Inaccuracy. } 42... Ra7?! { (7.27 → 7.91) Inaccuracy. } 43. Rb7 Rxa6 44. Rxa6 Nxa6 45. Rxg7+ Kh8 46. Rg6 Nc5?! { (8.48 → 9.25) Inaccuracy. } 47. Rxh6+ Kg8 48. Rxf6 e4 49. Ne3?! { (9.77 → 8.96) Inaccuracy. } 49... Nd3?! { (8.96 → 9.89) Inaccuracy. } 50. Re6? { (9.89 → 8.76) Mistake. } 50... Kf7 51. Rxe4?? { (9.21 → 0.84) Blunder. } 51... Nf2+ 52. Kg2 Nxe4 53. Kf3 Ng5+?! { (0.60 → 1.25) Inaccuracy. } 54. Kg4 Kg6 55. h4? { (1.17 → 0.00) Mistake. } 55... Nf7 56. h5+ Kh7 57. Nf5 Nh6+ 58. Kg5 Nxf5 59. Kxf5 Kh6 60. Kg4 Kh7 61. Kg5 Kg7 62. h6+ Kh7 { Draw } 1/2-1/2
