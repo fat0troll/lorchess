@@ -1,6 +1,6 @@
 [Event "Rated game"]
 [Site "http://lichess.org/3ctvf3g8"]
-[Date "2013-06-22"]
+[Date "2013.06.22"]
 [White "Anonymous"]
 [Black "HunOL"]
 [Result "0-1"]
@@ -8,5 +8,9 @@
 [BlackElo "1298"]
 [PlyCount "42"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "A00"]
+[Opening "Hungarian Opening, General"]
+[Annotator "lichess.org"]
 
-1. g3 e5 2. Bg2 Nf6 3. Nh3 Bc5 4. e3 O-O 5. O-O d5 6. c3 e4 7. d4 exd3 8. Qxd3 Ne4 9. Bxe4 dxe4 10. Qxe4 Bxh3 11. Qxb7 Bxf1 12. Qxa8 Qd1 13. h3 Bxh3+ 14. Kh2 Qxc1 15. b4 Bd6 16. Kxh3 Qb2 17. Qe4 Qxa1 18. g4 Qxa2 19. g5 Qxf2 20. g6 Qh2+ 21. Kg4 f5+ 0-1
+1. g3?! { Hungarian Opening, General (0.30 → -0.60) Inaccuracy. } 1... e5 2. Bg2 Nf6 3. Nh3 Bc5 4. e3 O-O?! { (-1.17 → -0.40) Inaccuracy. } 5. O-O d5 6. c3 e4 7. d4 exd3 8. Qxd3 Ne4? { (-0.76 → 0.56) Mistake. } 9. Bxe4? { (0.56 → -1.93) Mistake. } 9... dxe4 10. Qxe4?? { (-1.73 → -5.01) Blunder. } 10... Bxh3 11. Qxb7 Bxf1 12. Qxa8?? { (-5.25 → -15.71) Blunder. } 12... Qd1 13. h3 Bxh3+ 14. Kh2 Qxc1 15. b4 Bd6 16. Kxh3 Qb2 17. Qe4 Qxa1 18. g4 Qxa2 19. g5?! { (-14.26 → Mate in 8) Checkmate is now unavoidable. } 19... Qxf2?! { (Mate in 8 → -34.58) Lost forced checkmate sequence. } 20. g6?! { (-34.58 → Mate in 1) Checkmate is now unavoidable. } 20... Qh2+?! { (Mate in 1 → Mate in 3) Not the best checkmate sequence. } 21. Kg4 f5+ { White resigns } 0-1
