@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/zfoip7lf"]
+[Date "2013.06.05"]
+[White "snoopcatt"]
+[Black "Michkova"]
+[Result "0-1"]
+[WhiteElo "1583"]
+[BlackElo "1602"]
+[PlyCount "48"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "D00"]
+[Opening "Queen Pawn Game, Sarratt Attack"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. Bf4 { Queen Pawn Game, Sarratt Attack } Nf6 3. e3 e6 4. Nf3 Bd6 5. Ne5 O-O 6. Bd3 Nbd7?! { (-0.12 → 0.64) Inaccuracy. } 7. Bg5? { (0.64 → -2.06) Mistake. } 7... Nxe5 8. dxe5 Bxe5 9. Nc3 h6 10. h4?! { (-1.81 → -2.50) Inaccuracy. } 10... c5 11. f4 Bxc3+ 12. bxc3 c4 13. Be2? { (-3.11 → -5.53) Mistake. } 13... Re8?? { (-5.53 → -2.02) Blunder. } 14. Qd4?? { (-2.02 → -5.85) Blunder. } 14... hxg5 15. hxg5 Ne4 16. O-O-O? { (-5.41 → -6.98) Mistake. } 16... Qa5 17. Bxc4? { (-7.07 → -14.82) Mistake. } 17... Qa3+ 18. Kb1 Nxc3+ 19. Ka1 dxc4 20. Qxc4 b5 21. Qb3 Qxb3 22. axb3 Nxd1 23. g6 Nxe3 24. gxf7+ Kxf7 { White resigns } 0-1
