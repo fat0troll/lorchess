@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/7epmhc3w"]
-[Date "2013-08-28"]
+[Date "2013.08.28"]
 [White "William_V"]
 [Black "txgames"]
 [Result "1-0"]
-[WhiteElo "1384"]
-[BlackElo "955"]
+[WhiteElo "1670"]
+[BlackElo "1346"]
 [PlyCount "40"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B28"]
+[Opening "Sicilian Defense, O'Kelly Variation, Normal System"]
+[Annotator "lichess.org"]
 
-1. e4 c5 2. Nf3 a6 3. d4 e6 4. d5 Be7 5. dxe6 dxe6 6. Qe2 b5 7. e5 h6 8. Qe4 Ra7 9. b3 Bb7 10. Qg4 f5 11. exf6 Bxf6 12. Bd3 Bxa1 13. O-O Bxf3 14. Qxf3 Nf6 15. Bg6+ Ke7 16. c3 Rf8 17. Be3 Nd5 18. Bxc5+ Kd7 19. Bxf8 Bxc3 20. Qf7+ Kc6 1-0
+1. e4 c5 2. Nf3 a6 3. d4 { Sicilian Defense, O'Kelly Variation, Normal System } e6 4. d5 Be7?! { (0.76 → 1.45) Inaccuracy. } 5. dxe6? { (1.45 → 0.16) Mistake. } 5... dxe6 6. Qe2? { (0.60 → -0.48) Mistake. } 6... b5?! { (-0.48 → 0.20) Inaccuracy. } 7. e5 h6?! { (0.20 → 1.17) Inaccuracy. } 8. Qe4 Ra7 9. b3? { (1.17 → -0.52) Mistake. } 9... Bb7 10. Qg4?! { (-0.04 → -0.56) Inaccuracy. } 10... f5?? { (-0.56 → 4.76) Blunder. } 11. exf6?? { (4.76 → 0.80) Blunder. } 11... Bxf6 12. Bd3?? { (0.88 → -3.51) Blunder. } 12... Bxa1?! { (-3.51 → -2.78) Inaccuracy. } 13. O-O? { (-2.78 → -4.12) Mistake. } 13... Bxf3 14. Qxf3 Nf6 15. Bg6+ Ke7 16. c3 Rf8 17. Be3 Nd5?? { (-3.51 → 3.03) Blunder. } 18. Bxc5+ Kd7 19. Bxf8 Bxc3?? { (2.82 → 8.28) Blunder. } 20. Qf7+ Kc6 { Black resigns } 1-0
