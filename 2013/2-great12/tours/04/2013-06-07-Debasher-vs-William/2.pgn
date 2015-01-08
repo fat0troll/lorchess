@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/ge23s5zn"]
-[Date "2013-06-07"]
+[Date "2013.06.07"]
 [White "William_V"]
 [Black "Anonymous"]
 [Result "1-0"]
@@ -8,5 +8,9 @@
 [BlackElo "?"]
 [PlyCount "41"]
 [Variant "Standard"]
+[TimeControl "1200+0"]
+[ECO "C41"]
+[Opening "Philidor Defense, General"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 d6 3. Bc4 Nf6 4. c3 Be7 5. h3 Nxe4 6. d4 exd4 7. Qxd4 Nf6 8. Ng5 h6 9. Nxf7 O-O 10. Nxd8+ Kh8 11. Nf7+ Kg8 12. Nxh6+ Kh7 13. Nf5 Nc6 14. Qh4+ Kg6 15. Nxe7+ Nxe7 16. O-O b6 17. f4 Bb7 18. f5+ Nxf5 19. Qg5+ Kh7 20. Qxf5+ Kh8 21. Bg5 1-0
+1. e4 e5 2. Nf3 d6 { Philidor Defense, General } 3. Bc4 Nf6 4. c3? { (0.44 → -0.60) Mistake. } 4... Be7 5. h3? { (-0.16 → -1.25) Mistake. } 5... Nxe4 6. d4 exd4 7. Qxd4 Nf6 8. Ng5?! { (-1.45 → -2.14) Inaccuracy. } 8... h6?? { (-2.14 → 5.17) Blunder. } 9. Nxf7 O-O?? { (5.33 → 14.94) Blunder. } 10. Nxd8+ Kh8 11. Nf7+ Kg8 12. Nxh6+ Kh7 13. Nf5 Nc6?! { (15.91 → Mate in 3) Checkmate is now unavoidable. } 14. Qh4+ Kg6 15. Nxe7+?! { (Mate in 2 → 16.84) Lost forced checkmate sequence. } 15... Nxe7 16. O-O b6 17. f4 Bb7 18. f5+ Nxf5?! { (28.20 → Mate in 9) Checkmate is now unavoidable. } 19. Qg5+?! { (Mate in 9 → 20.16) Lost forced checkmate sequence. } 19... Kh7 20. Qxf5+ Kh8 21. Bg5 { Black resigns } 1-0
