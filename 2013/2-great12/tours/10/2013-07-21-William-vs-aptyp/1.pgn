@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/khdnzwqs"]
-[Date "2013-07-21"]
+[Date "2013.07.21"]
 [White "William_V"]
 [Black "aptypr"]
 [Result "0-1"]
-[WhiteElo "1360"]
-[BlackElo "1236"]
+[WhiteElo "1701"]
+[BlackElo "1555"]
 [PlyCount "56"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C24"]
+[Opening "Bishop's Opening, Berlin Defense"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Bc4 Nf6 3. d3 c6 4. Bg5 d5 5. exd5 cxd5 6. Bb3 Bb4+ 7. Nd2 Be6 8. Nf3 h6 9. Bh4 Nc6 10. Qe2 e4 11. dxe4 dxe4 12. Ng1 Nd4 13. Ba4+ b5 14. Bxb5+ Kf8 15. Bxf6 Qxf6 16. Qxe4 Bxd2+ 17. Kd1 Rd8 18. Bd3 Bf5 19. Qf3 Nxf3 20. Nxf3 Qxb2 21. Ke2 Bxd3+ 22. Kxd2 Qxc2+ 23. Ke3 Qe2+ 24. Kf4 g5+ 25. Kg3 Qe4 26. Rhe1 Qf4+ 27. Kh3 Bf5+ 28. g4 Qxg4# 0-1
+1. e4 e5 2. Bc4 Nf6 { Bishop's Opening, Berlin Defense } 3. d3 c6 4. Bg5 d5 5. exd5 cxd5 6. Bb3 Bb4+ 7. Nd2 Be6 8. Nf3 h6 9. Bh4 Nc6 10. Qe2?! { (-0.20 → -0.96) Inaccuracy. } 10... e4 11. dxe4 dxe4 12. Ng1? { (-0.44 → -2.86) Mistake. } 12... Nd4 13. Ba4+?! { (-2.66 → -3.59) Inaccuracy. } 13... b5 14. Bxb5+ Kf8 15. Bxf6? { (-3.47 → -4.64) Mistake. } 15... Qxf6 16. Qxe4? { (-4.76 → -5.81) Mistake. } 16... Bxd2+ 17. Kd1?? { (-6.26 → -12.16) Blunder. } 17... Rd8 18. Bd3 Bf5 19. Qf3 Nxf3 20. Nxf3 Qxb2 21. Ke2?! { (-26.94 → Mate in 7) Checkmate is now unavoidable. } 21... Bxd3+ 22. Kxd2 Qxc2+ 23. Ke3 Qe2+?! { (Mate in 4 → Mate in 4) Not the best checkmate sequence. } 24. Kf4 g5+?! { (Mate in 4 → Mate in 4) Not the best checkmate sequence. } 25. Kg3 Qe4 26. Rhe1 Qf4+ 27. Kh3 Bf5+ 28. g4 Qxg4# { White is checkmated } 0-1

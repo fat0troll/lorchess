@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/6uwtszr7"]
-[Date "2013-07-21"]
+[Date "2013.07.21"]
 [White "aptypr"]
 [Black "William_V"]
 [Result "1-0"]
-[WhiteElo "1257"]
-[BlackElo "1339"]
+[WhiteElo "1571"]
+[BlackElo "1681"]
 [PlyCount "23"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C50"]
+[Opening "Italian Game, General"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. O-O Qf6 5. Nc3 Nb4 6. a3 Na6 7. d4 c6 8. Bg5 Qg6 9. dxe5 f6 10. Bh4 fxe5 11. Nxe5 Qh6 12. Bf7# 1-0
+1. e4 e5 2. Nf3 Nc6 3. Bc4 { Italian Game, General } d6 4. O-O Qf6? { (0.38 → 1.45) Mistake. The best move was Be7. } (4... Be7 5. d4 exd4 6. Nxd4 Nf6 7. Nxc6 bxc6 8. Nc3 O-O 9. f3) 5. Nc3 Nb4? { (1.17 → 2.18) Mistake. The best move was Bg4. } (5... Bg4 6. Nd5 Qd8 7. Ne3 Bd7 8. c3 Na5 9. Bb3 Nxb3 10. Qxb3) 6. a3 Na6? { (2.04 → 3.63) Mistake. The best move was Nc6. } (6... Nc6 7. d4 Bg4 8. Nd5 Qd8 9. c3 Be7 10. Nxe7 Qxe7 11. d5) 7. d4 c6 8. Bg5 Qg6 9. dxe5 f6? { (3.27 → 4.90) Mistake. The best move was Bg4. } (9... Bg4 10. Nd5 Qxg5 11. Nxg5 Bxd1 12. Bxa6 bxa6 13. Nc7+ Kd7 14. Rfxd1) 10. Bh4 fxe5?? { (5.03 → 10.24) Blunder. The best move was Bg4. } (10... Bg4 11. exd6 O-O-O 12. Bg3 Nc5 13. Be2 Kb8 14. Qd4 Ne6 15. Qd3) 11. Nxe5 Qh6? { (9.87 → Mate in 1) Checkmate is now unavoidable. The best move was Bg4. } (11... Bg4 12. Nxg6 Bxd1 13. Nxh8 Bh5 14. Bxg8 Be7 15. Bg3 Kd7 16. Bf7) 12. Bf7# { Black is checkmated } 1-0
