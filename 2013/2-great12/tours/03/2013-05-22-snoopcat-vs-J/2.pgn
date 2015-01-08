@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/cd0rmhrp"]
-[Date "2013-05-22"]
+[Date "2013.05.22"]
 [White "LOR_J"]
 [Black "snoopcatt"]
 [Result "0-1"]
-[WhiteElo "1137"]
-[BlackElo "1240"]
+[WhiteElo "1605"]
+[BlackElo "1583"]
 [PlyCount "26"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B30"]
+[Opening "Sicilian Defense, Old Sicilian, General"]
+[Annotator "lichess.org"]
 
-1. e4 c5 2. Nf3 Nc6 3. Bc4 e6 4. c3 d5 5. e5 dxc4 6. d4 f6 7. O-O fxe5 8. Nxe5 Nxe5 9. dxe5 Qc7 10. f4 Ne7 11. Qa4+ Bd7 12. Qxc4 a6 13. b4 Bb5 0-1
+1. e4 c5 2. Nf3 Nc6 { Sicilian Defense, Old Sicilian, General } 3. Bc4 e6 4. c3 d5 5. e5 dxc4 6. d4 f6 7. O-O fxe5 8. Nxe5 Nxe5 9. dxe5 Qc7 10. f4 Ne7 11. Qa4+ Bd7 12. Qxc4 a6 13. b4 Bb5 { White resigns } 0-1
