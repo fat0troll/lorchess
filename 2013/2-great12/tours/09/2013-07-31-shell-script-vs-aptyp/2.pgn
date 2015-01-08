@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/i22v5vvs"]
-[Date "2013-07-31"]
+[Date "2013.07.31"]
 [White "aptypr"]
 [Black "cppmm"]
 [Result "1-0"]
-[WhiteElo "1231"]
-[BlackElo "972"]
+[WhiteElo "1568"]
+[BlackElo "1340"]
 [PlyCount "77"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C34"]
+[Opening "King's Gambit, Accepted, King's Knight Gambit"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. f4 exf4 3. Nf3 c6 4. d4 d5 5. exd5 Qe7+ 6. Be2 cxd5 7. Nc3 Qe6 8. Bxf4 Bd6 9. Bxd6 Qxd6 10. Nb5 Qb6 11. O-O a6 12. Nc3 Nf6 13. Na4 Qb4 14. Nc5 Ng4 15. Qd3 b6 16. Nb3 Qd6 17. h3 h5 18. hxg4 hxg4 19. Ne5 Qh6 20. Kf2 Qh4+ 21. g3 Qh2+ 22. Ke1 O-O 23. Nxg4 Qh3 24. Nf2 Qe6 25. Rh1 g6 26. Kd2 Nc6 27. Rh6 Re8 28. Rah1 Kf8 29. Rh8+ Ke7 30. Bg4 Qf6 31. Re1+ Be6 32. Rxe8+ Rxe8 33. Bxe6 Qxf2+ 34. Re2 Qf1 35. Bh3+ Kd8 36. Rxe8+ Kxe8 37. Bxf1 Nb4 38. Qe3+ Kf8 39. a3 1-0
+1. e4 e5 2. f4?! { (0.32 → -0.56) Inaccuracy. } 2... exf4 3. Nf3 { King's Gambit, Accepted, King's Knight Gambit } c6? { (-0.64 → 0.36) Mistake. } 4. d4 d5 5. exd5 Qe7+?! { (0.40 → 1.25) Inaccuracy. } 6. Be2 cxd5 7. Nc3 Qe6? { (1.73 → 2.86) Mistake. } 8. Bxf4?! { (2.86 → 2.22) Inaccuracy. } 8... Bd6?! { (2.22 → 3.07) Inaccuracy. } 9. Bxd6? { (3.07 → 1.61) Mistake. } 9... Qxd6 10. Nb5?! { (1.21 → 0.68) Inaccuracy. } 10... Qb6?! { (0.68 → 1.61) Inaccuracy. } 11. O-O?! { (1.61 → 0.76) Inaccuracy. } 11... a6 12. Nc3 Nf6 13. Na4 Qb4?! { (0.56 → 1.37) Inaccuracy. } 14. Nc5?! { (1.37 → 0.44) Inaccuracy. } 14... Ng4? { (0.44 → 2.90) Mistake. } 15. Qd3? { (2.90 → 1.17) Mistake. } 15... b6? { (1.17 → 3.27) Mistake. } 16. Nb3? { (3.27 → 1.85) Mistake. } 16... Qd6 17. h3 h5?? { (0.96 → 4.72) Blunder. } 18. hxg4 hxg4 19. Ne5 Qh6 20. Kf2 Qh4+?! { (4.52 → 5.33) Inaccuracy. } 21. g3?! { (5.33 → 4.48) Inaccuracy. } 21... Qh2+ 22. Ke1 O-O 23. Nxg4?! { (4.68 → 3.83) Inaccuracy. } 23... Qh3? { (3.83 → 4.84) Mistake. } 24. Nf2 Qe6 25. Rh1 g6 26. Kd2 Nc6 27. Rh6 Re8 28. Rah1 Kf8 29. Rh8+ Ke7 30. Bg4?! { (6.90 → 6.02) Inaccuracy. } 30... Qf6 31. Re1+ Be6 32. Rxe8+ Rxe8 33. Bxe6 Qxf2+? { (5.17 → 7.03) Mistake. } 34. Re2 Qf1? { (7.23 → 15.03) Mistake. } 35. Bh3+ Kd8 36. Rxe8+ Kxe8 37. Bxf1 Nb4 38. Qe3+ Kf8 39. a3 { Black resigns } 1-0

@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/fqmtbtlu"]
-[Date "2013-07-31"]
+[Date "2013.07.31"]
 [White "cppmm"]
 [Black "aptypr"]
 [Result "1-0"]
-[WhiteElo "945"]
-[BlackElo "1258"]
+[WhiteElo "1313"]
+[BlackElo "1586"]
 [PlyCount "53"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "A00"]
+[Opening "Hungarian Opening, General"]
+[Annotator "lichess.org"]
 
-1. g3 e5 2. Bg2 Nf6 3. Nh3 Bc5 4. e3 d5 5. d4 Bb6 6. dxe5 Ng4 7. Bxd5 O-O 8. Qf3 Nxe5 9. Qf4 Qd6 10. Ng5 c6 11. Be4 g6 12. b3 Na6 13. Bb2 f6 14. Nxh7 Kxh7 15. Qh4+ Kg7 16. Ba3 Ba5+ 17. Ke2 Bg4+ 18. f3 Bb4 19. Rd1 Qc5 20. fxg4 Bxa3 21. g5 fxg5 22. Qxg5 Rf6 23. Nd2 Rh8 24. Nf3 Nxf3 25. Rd7+ Kf8 26. Qxf6+ Ke8 27. Qd8# 1-0
+1. g3?! { Hungarian Opening, General (0.30 → -0.44) Inaccuracy. } 1... e5 2. Bg2 Nf6 3. Nh3 Bc5 4. e3 d5 5. d4 Bb6? { (-0.36 → 0.80) Mistake. } 6. dxe5 Ng4 7. Bxd5 O-O 8. Qf3? { (0.12 → -1.73) Mistake. } 8... Nxe5 9. Qf4?? { (-1.69 → -9.45) Blunder. } 9... Qd6?? { (-9.45 → -1.73) Blunder. } 10. Ng5?? { (-1.73 → -6.10) Blunder. } 10... c6?? { (-6.10 → -0.40) Blunder. } 11. Be4 g6? { (-0.52 → 0.68) Mistake. } 12. b3? { (0.68 → -1.69) Mistake. } 12... Na6? { (-1.69 → -0.32) Mistake. } 13. Bb2?! { (-0.32 → -1.01) Inaccuracy. } 13... f6? { (-1.01 → 0.20) Mistake. } 14. Nxh7? { (0.20 → -2.70) Mistake. } 14... Kxh7 15. Qh4+? { (-3.11 → -4.24) Mistake. } 15... Kg7 16. Ba3? { (-4.56 → -7.23) Mistake. } 16... Ba5+ 17. Ke2 Bg4+?? { (-6.78 → -1.69) Blunder. } 18. f3? { (-1.69 → -4.24) Mistake. } 18... Bb4 19. Rd1?? { (-4.44 → -8.08) Blunder. } 19... Qc5 20. fxg4 Bxa3 21. g5 fxg5 22. Qxg5 Rf6? { (-8.40 → -5.65) Mistake. } 23. Nd2?? { (-5.65 → -9.61) Blunder. } 23... Rh8 24. Nf3?! { (-9.37 → -10.42) Inaccuracy. } 24... Nxf3?? { (-10.42 → -3.83) Blunder. } 25. Rd7+ Kf8?? { (-3.79 → Mate in 2) Checkmate is now unavoidable. } 26. Qxf6+ Ke8 27. Qd8# { Black is checkmated } 1-0
