@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/hlk7wcrw"]
-[Date "2013-07-15"]
+[Date "2013.07.15"]
 [White "zodd"]
 [Black "raven_cler"]
 [Result "1-0"]
-[WhiteElo "1358"]
-[BlackElo "860"]
+[WhiteElo "1804"]
+[BlackElo "1207"]
 [PlyCount "51"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B01"]
+[Opening "Scandinavian Defense, Mieses-Kotroc Variation"]
+[Annotator "lichess.org"]
 
-1. e4 d5 2. exd5 Qxd5 3. Nf3 e5 4. Nc3 Qd6 5. Bc4 Nc6 6. O-O Nf6 7. h3 Be6 8. Bb5 e4 9. Ng5 O-O-O 10. Ngxe4 Nxe4 11. Nxe4 Qe5 12. Bxc6 bxc6 13. d3 Bd6 14. Nxd6+ cxd6 15. Be3 a6 16. Qf3 d5 17. b4 Qb2 18. Bc5 Qxc2 19. a4 Rhe8 20. d4 g6 21. Rfb1 h5 22. b5 axb5 23. axb5 Bd7 24. b6 Qd2 25. Qg3 f5 26. b7# 1-0
+1. e4 d5 2. exd5 Qxd5 { Scandinavian Defense, Mieses-Kotroc Variation } 3. Nf3 e5 4. Nc3 Qd6 5. Bc4 Nc6 6. O-O Nf6 7. h3 Be6 8. Bb5 e4 9. Ng5 O-O-O 10. Ngxe4 Nxe4 11. Nxe4 Qe5 12. Bxc6 bxc6 13. d3 Bd6 14. Nxd6+ cxd6 15. Be3 a6 16. Qf3 d5 17. b4 Qb2 18. Bc5 Qxc2 19. a4 Rhe8 20. d4 g6 21. Rfb1 h5 22. b5 axb5 23. axb5 Bd7 24. b6 Qd2 25. Qg3 f5 26. b7# { Black is checkmated } 1-0

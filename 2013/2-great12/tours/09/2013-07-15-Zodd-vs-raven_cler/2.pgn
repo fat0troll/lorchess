@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/4whxxcrm"]
-[Date "2013-07-15"]
+[Date "2013.07.15"]
 [White "raven_cler"]
 [Black "zodd"]
 [Result "0-1"]
-[WhiteElo "858"]
-[BlackElo "1360"]
+[WhiteElo "1205"]
+[BlackElo "1805"]
 [PlyCount "36"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B20"]
+[Opening "Sicilian Defense, Bowlder Attack"]
+[Annotator "lichess.org"]
 
-1. e4 c5 2. Bc4 Nc6 3. Nc3 d6 4. d3 Nf6 5. Nf3 g6 6. Ng5 Ne5 7. Bf4 Nxc4 8. e5 Nxb2 9. Qf3 dxe5 10. Bxe5 Bg7 11. O-O c4 12. Nb5 O-O 13. Bc7 Qd7 14. Qf4 cxd3 15. Rab1 Qxb5 16. cxd3 Nxd3 17. Qb4 Qxb4 18. Rxb4 Nxb4 0-1
+1. e4 c5 2. Bc4 { Sicilian Defense, Bowlder Attack } Nc6 3. Nc3 d6 4. d3 Nf6 5. Nf3 g6 6. Ng5 Ne5 7. Bf4 Nxc4 8. e5 Nxb2 9. Qf3 dxe5 10. Bxe5 Bg7 11. O-O c4 12. Nb5 O-O 13. Bc7 Qd7 14. Qf4 cxd3 15. Rab1 Qxb5 16. cxd3 Nxd3 17. Qb4 Qxb4 18. Rxb4 Nxb4 { White resigns } 0-1
