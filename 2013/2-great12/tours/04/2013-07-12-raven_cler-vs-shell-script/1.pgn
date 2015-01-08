@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/7qwy8xqv"]
-[Date "2013-07-12"]
+[Date "2013.07.12"]
 [White "raven_cler"]
 [Black "cppmm"]
 [Result "1-0"]
@@ -8,5 +8,9 @@
 [BlackElo "945"]
 [PlyCount "42"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B00"]
+[Opening "Owen Defense, General"]
+[Annotator "lichess.org"]
 
-1. e4 b6 2. Nc3 Bb7 3. Nf3 g6 4. Bc4 Bg7 5. O-O Nh6 6. d4 e6 7. Bg5 Bf6 8. Bxh6 c5 9. Nb5 Bxe4 10. Nd6+ Ke7 11. Nxe4 d5 12. Nxf6 Kxf6 13. Bg5+ Kg7 14. Bxd8 Rxd8 15. dxc5 bxc5 16. g3 Nc6 17. Bb5 Ne7 18. Qe2 Rab8 19. Qe5+ Kf8 20. a4 f6 21. Qxf6+ Kg8 1-0
+1. e4 b6?! { Owen Defense, General (0.28 → 0.92) Inaccuracy. } 2. Nc3 Bb7 3. Nf3 g6? { (1.01 → 2.02) Mistake. } 4. Bc4 Bg7 5. O-O Nh6?! { (1.25 → 1.93) Inaccuracy. } 6. d4 e6 7. Bg5 Bf6?? { (1.77 → 6.74) Blunder. } 8. Bxh6 c5?! { (6.86 → 7.71) Inaccuracy. } 9. Nb5 Bxe4? { (8.16 → 14.34) Mistake. } 10. Nd6+ Ke7 11. Nxe4 d5 12. Nxf6 Kxf6 13. Bg5+ Kg7 14. Bxd8 Rxd8 15. dxc5 bxc5 16. g3 Nc6 17. Bb5 Ne7 18. Qe2 Rab8 19. Qe5+ Kf8 20. a4 f6?! { (18.86 → Mate in 9) Checkmate is now unavoidable. } 21. Qxf6+ Kg8 { Black resigns } 1-0

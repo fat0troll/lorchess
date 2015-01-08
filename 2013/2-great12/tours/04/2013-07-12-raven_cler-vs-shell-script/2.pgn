@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/9cxtbxte"]
-[Date "2013-07-12"]
+[Date "2013.07.12"]
 [White "cppmm"]
 [Black "raven_cler"]
 [Result "1-0"]
@@ -8,5 +8,9 @@
 [BlackElo "859"]
 [PlyCount "85"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B01"]
+[Opening "Scandinavian Defense, General"]
+[Annotator "lichess.org"]
 
-1. e4 d5 2. d3 Nc6 3. Be2 Nf6 4. Nf3 dxe4 5. dxe4 Qxd1+ 6. Bxd1 Nxe4 7. O-O Bg4 8. Nc3 Nxc3 9. bxc3 e5 10. h3 Bf5 11. c4 O-O-O 12. Rb1 Bc5 13. Re1 Bb4 14. Re3 Rxd1+ 15. Kh2 Bxc2 16. Ra1 e4 17. Bb2 Bd6+ 18. g3 Be5 19. Nxe5 Nxe5 20. Bxe5 Rd2 21. Kg2 f6 22. Bc3 g5 23. Bxd2 Rg8 24. Rc1 Bd3 25. c5 f5 26. c6 f4 27. cxb7+ Kxb7 28. gxf4 gxf4+ 29. Rg3 fxg3 30. fxg3 Re8 31. Rb1+ Kc8 32. Be3 Rf8 33. g4 Bxb1 34. a4 Bc2 35. a5 Bd1 36. a6 Rf3 37. Bxa7 e3 38. Bc5 Rf2+ 39. Kg3 Bf3 40. a7 e2 41. Bxf2 Bxg4 42. a8=Q+ Kd7 43. hxg4 1-0
+1. e4 d5?! { Scandinavian Defense, General (0.28 → 0.80) Inaccuracy. } 2. d3? { (0.80 → -0.36) Mistake. } 2... Nc6?! { (-0.36 → 0.16) Inaccuracy. } 3. Be2?! { (0.16 → -0.52) Inaccuracy. } 3... Nf6 4. Nf3? { (-0.12 → -1.25) Mistake. } 4... dxe4 5. dxe4 Qxd1+ 6. Bxd1 Nxe4 7. O-O Bg4 8. Nc3?! { (-1.01 → -1.65) Inaccuracy. } 8... Nxc3 9. bxc3 e5 10. h3 Bf5 11. c4?! { (-1.93 → -2.54) Inaccuracy. } 11... O-O-O 12. Rb1?! { (-2.54 → -3.27) Inaccuracy. } 12... Bc5?! { (-3.27 → -2.38) Inaccuracy. } 13. Re1?! { (-2.38 → -3.35) Inaccuracy. } 13... Bb4 14. Re3?? { (-3.39 → -9.41) Blunder. } 14... Rxd1+ 15. Kh2 Bxc2? { (-9.53 → -8.16) Mistake. } 16. Ra1? { (-8.16 → -12.04) Mistake. } 16... e4 17. Bb2 Bd6+ 18. g3 Be5?? { (-11.83 → -2.62) Blunder. } 19. Nxe5 Nxe5 20. Bxe5 Rd2 21. Kg2 f6 22. Bc3 g5?? { (-2.50 → 3.55) Blunder. } 23. Bxd2 Rg8?! { (3.59 → 4.12) Inaccuracy. } 24. Rc1 Bd3 25. c5?! { (4.20 → 3.43) Inaccuracy. } 25... f5 26. c6 f4?! { (3.23 → 3.95) Inaccuracy. } 27. cxb7+ Kxb7 28. gxf4?? { (4.08 → -0.80) Blunder. } 28... gxf4+ 29. Rg3 fxg3 30. fxg3 Re8 31. Rb1+?? { (-0.88 → -8.40) Blunder. } 31... Kc8?? { (-8.40 → -1.05) Blunder. } 32. Be3?? { (-1.05 → -7.43) Blunder. } 32... Rf8?? { (-7.43 → -0.80) Blunder. } 33. g4?? { (-0.80 → -8.72) Blunder. } 33... Bxb1 34. a4 Bc2 35. a5 Bd1?! { (-9.41 → -8.56) Inaccuracy. } 36. a6? { (-8.56 → -9.73) Mistake. } 36... Rf3 37. Bxa7 e3? { (-11.59 → -8.20) Mistake. } 38. Bc5 Rf2+? { (-8.56 → -6.38) Mistake. } 39. Kg3?? { (-6.38 → -12.56) Blunder. } 39... Bf3?? { (-12.56 → -4.76) Blunder. } 40. a7?? { (-4.76 → -11.39) Blunder. } 40... e2?? { (-11.39 → 0.56) Blunder. } 41. Bxf2?! { (0.56 → 0.00) Inaccuracy. } 41... Bxg4?? { (0.00 → 90.39) Blunder. } 42. a8=Q+ Kd7 43. hxg4 { Black resigns } 1-0
