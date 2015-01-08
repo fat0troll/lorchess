@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/fbpyt412"]
+[Date "2013.05.19"]
+[White "William_V"]
+[Black "Michkova"]
+[Result "0-1"]
+[WhiteElo "1711"]
+[BlackElo "1573"]
+[PlyCount "92"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C44"]
+[Opening "Ponziani Opening, Jaenisch Counterattack"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. c3?! { (0.60 → 0.04) Inaccuracy. } 3... Nf6 { Ponziani Opening, Jaenisch Counterattack } 4. d3 Bc5?! { (-0.52 → 0.16) Inaccuracy. } 5. Be2 h6?! { (-0.12 → 0.84) Inaccuracy. } 6. Nh4? { (0.84 → -1.37) Mistake. } 6... Nxe4 7. dxe4 Qxh4 8. O-O d6 9. a4 a6 10. b4 Ba7 11. Nd2 O-O 12. Nf3?! { (-1.49 → -2.46) Inaccuracy. } 12... Qxe4 13. Bd3 Qg4 14. Bc2 f5 15. Bb3+ Kh8 16. Qd5 Ne7 17. Qc4 Qxc4 18. Bxc4 e4 19. Nh4? { (-2.90 → -4.48) Mistake. } 19... g5 20. Kh1? { (-4.40 → -6.74) Mistake. } 20... f4?! { (-6.74 → -5.89) Inaccuracy. } 21. g3?! { (-5.89 → -6.58) Inaccuracy. } 21... gxh4 22. Bxf4 Rf6?! { (-7.03 → -6.06) Inaccuracy. } 23. Bb3 Bg4 24. c4?? { (-6.78 → -11.59) Blunder. } 24... Bf3+ 25. Kg1 Bd4? { (-12.12 → -7.79) Mistake. } 26. Rac1? { (-7.79 → -14.10) Mistake. } 26... hxg3 27. hxg3 Nf5?? { (-14.66 → -5.73) Blunder. } 28. Bd1?! { (-5.73 → -6.38) Inaccuracy. } 28... Rg8 29. Bxf3?? { (-6.94 → -10.34) Blunder. } 29... exf3?? { (-10.34 → -6.06) Blunder. } 30. Kh2?! { (-6.06 → -6.98) Inaccuracy. } 30... Re6 31. c5? { (-7.39 → -8.96) Mistake. } 31... Re2 32. cxd6?! { (-9.33 → -9.93) Inaccuracy. } 32... Bxf2?! { (-9.93 → -9.37) Inaccuracy. } 33. Kh3? { (-9.37 → Mate in 7) Checkmate is now unavoidable. } 33... cxd6? { (Mate in 7 → -7.67) Lost forced checkmate sequence. } 34. g4 Ne3? { (-7.91 → -5.57) Mistake. } 35. Bxe3?? { (-5.57 → -9.85) Blunder. } 35... Bxe3 36. Rc7 f2?! { (-21.45 → -9.37) Inaccuracy. } 37. Kg2?! { (-9.37 → -12.40) Inaccuracy. } 37... Re1? { (-12.40 → -8.80) Mistake. } 38. Rxf2 Bxf2 39. Kxf2 Rd1? { (-9.05 → -7.51) Mistake. } 40. Rxb7?! { (-7.51 → -8.36) Inaccuracy. } 40... Rxg4 41. Rb6 Rc4 42. Rxa6?! { (-8.48 → -9.05) Inaccuracy. } 42... Rxb4 43. Ra7 Rd3 44. Ke2 Ra3 45. Rd7?! { (-85.53 → Mate in 2) Checkmate is now unavoidable. } 45... Rb2+ 46. Kd1 Ra1# { White is checkmated } 0-1

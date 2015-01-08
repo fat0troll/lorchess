@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/v0icvfqo"]
+[Date "2013.05.19"]
+[White "Michkova"]
+[Black "William_V"]
+[Result "0-1"]
+[WhiteElo "1584"]
+[BlackElo "1699"]
+[PlyCount "96"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "D50"]
+[Opening "Queen's Gambit Declined, Modern Variation"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 { Queen's Gambit Declined, Modern Variation } Be7 5. Rc1 O-O 6. e3 Ne4 7. Bxe7 Qxe7 8. Nf3 Nc6 9. cxd5 Nxc3 10. Rxc3 exd5 11. Bd3 Bg4 12. h3 Bh5 13. Qc2? { (0.44 → -1.13) Mistake. } 13... Bxf3 14. Bxh7+ Kh8 15. gxf3 g6?! { (-0.96 → -0.40) Inaccuracy. } 16. Bxg6 fxg6 17. Qxg6 Qg7 18. Qh5+ Qh7 19. Qxd5? { (-0.12 → -2.30) Mistake. } 19... Rf5? { (-2.30 → 0.40) Mistake. } 20. Qe6?! { (0.40 → -0.12) Inaccuracy. } 20... Rxf3?? { (-0.12 → 3.63) Blunder. } 21. Rg1?? { (3.63 → -7.43) Blunder. } 21... Qb1+ 22. Ke2 Qxg1 23. Kxf3 Rf8+ 24. Ke4 Qg2+ 25. Kd3 Rxf2?? { (-7.59 → -2.02) Blunder. } 26. d5?? { (-2.02 → Mate in 3) Checkmate is now unavoidable. } 26... Rd2+?! { (Mate in 3 → -33.73) Lost forced checkmate sequence. } 27. Kc4?! { (-33.73 → Mate in 11) Checkmate is now unavoidable. } 27... Na5+?? { (Mate in 11 → -1.97) Lost forced checkmate sequence. } 28. Kb4?? { (-1.97 → -7.75) Blunder. } 28... b6?? { (-7.75 → 0.92) Blunder. } 29. Qe8+ Qg8 30. Qh5+ Qh7 31. Qf3? { (0.72 → -2.02) Mistake. } 31... Rxb2+? { (-2.02 → 0.00) Mistake. } 32. Ka3 Rd2 33. e4?? { (0.00 → -23.23) Blunder. } 33... Qe7+ 34. Ka4 Rxa2+ 35. Kb5 Qe8+ 36. Ka6 Qc8+ 37. Kb5 a6+?? { (Mate in 10 → -2.46) Lost forced checkmate sequence. } 38. Kb4?! { (-2.46 → -3.39) Inaccuracy. } 38... c5+ 39. dxc6 Nxc6+ 40. Kb3?? { (-3.87 → Mate in 8) Checkmate is now unavoidable. } 40... Qe6+ 41. Rc4 Nd4+ 42. Kc3 Nxf3 43. h4 b5?! { (Mate in 4 → Mate in 5) Not the best checkmate sequence. } 44. Rc7 Qe5+ 45. Kd3 Qxc7?! { (Mate in 1 → Mate in 3) Not the best checkmate sequence. } 46. Ke3 Ra3+ 47. Ke2 Qc2+ 48. Kf1 Ra1# { White is checkmated } 0-1
