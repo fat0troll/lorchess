@@ -1,6 +1,6 @@
 [Event "Rated game"]
 [Site "http://lichess.org/aygcag3k"]
-[Date "2013-06-05"]
+[Date "2013.06.05"]
 [White "Anonymous"]
 [Black "zodd"]
 [Result "0-1"]
@@ -8,5 +8,9 @@
 [BlackElo "1394"]
 [PlyCount "88"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B30"]
+[Opening "Sicilian Defense, Old Sicilian, General"]
+[Annotator "lichess.org"]
 
-1. e4 c5 2. Nf3 Nc6 3. Bc4 Nf6 4. e5 Ng4 5. Ng5 Ngxe5 6. Bd5 e6 7. Bxc6 Qxg5 8. d4 Qf5 9. dxe5 bxc6 10. Qe2 Be7 11. O-O O-O 12. Nc3 a5 13. Ne4 Ba6 14. Ng3 Qg6 15. c4 a4 16. Rd1 Rfd8 17. Bd2 Bc8 18. Bc3 d6 19. Rd2 d5 20. cxd5 cxd5 21. Rad1 d4 22. Qf3 Ba6 23. Ba5 Rdc8 24. Ne4 Bc4 25. Nd6 Bxd6 26. exd6 Bd5 27. Qh3 Rxa5 28. f4 Rd8 29. f5 Qxf5 30. Qxf5 exf5 31. Re1 Be4 32. b4 axb3 33. axb3 Rb5 34. Ra2 Rxb3 35. Rea1 Rbb8 36. Ra6 h6 37. Ra1a5 c4 38. Ra7 Rxd6 39. Rc5 c3 40. Rac7 c2 41. Rc8+ Rxc8 42. Rxc8+ Kh7 43. Kf2 d3 44. Ke3 d2 0-1
+1. e4 c5 2. Nf3 Nc6 { Sicilian Defense, Old Sicilian, General } 3. Bc4 Nf6 4. e5 Ng4 5. Ng5? { (0.36 → -1.85) Mistake. } 5... Ngxe5 6. Bd5 e6 7. Bxc6 Qxg5 8. d4? { (-1.93 → -3.03) Mistake. } 8... Qf5 9. dxe5 bxc6? { (-2.94 → -1.77) Mistake. } 10. Qe2 Be7 11. O-O O-O 12. Nc3 a5 13. Ne4? { (-1.57 → -4.44) Mistake. } 13... Ba6 14. Ng3? { (-4.24 → -5.85) Mistake. } 14... Qg6?? { (-5.85 → -0.96) Blunder. } 15. c4 a4 16. Rd1 Rfd8 17. Bd2? { (-0.48 → -1.81) Mistake. } 17... Bc8? { (-1.81 → -0.40) Mistake. } 18. Bc3 d6?! { (-0.60 → 0.08) Inaccuracy. } 19. Rd2? { (0.08 → -2.74) Mistake. } 19... d5 20. cxd5 cxd5 21. Rad1? { (-2.90 → -4.28) Mistake. } 21... d4 22. Qf3?! { (-4.00 → -4.52) Inaccuracy. } 22... Ba6? { (-4.52 → -3.51) Mistake. } 23. Ba5?! { (-3.51 → -4.08) Inaccuracy. } 23... Rdc8 24. Ne4? { (-4.04 → -6.30) Mistake. } 24... Bc4 25. Nd6?! { (-6.30 → -7.27) Inaccuracy. } 25... Bxd6 26. exd6 Bd5 27. Qh3 Rxa5 28. f4 Rd8? { (-8.04 → -6.86) Mistake. } 29. f5? { (-6.86 → -9.21) Mistake. } 29... Qxf5? { (-9.21 → -8.16) Mistake. } 30. Qxf5? { (-8.16 → -9.53) Mistake. } 30... exf5 31. Re1 Be4 32. b4 axb3 33. axb3 Rb5 34. Ra2 Rxb3 35. Rea1 Rbb8 36. Ra6 h6 37. Ra1a5 c4 38. Ra7 Rxd6 39. Rc5 c3 40. Rac7 c2 41. Rc8+?! { (-14.14 → Mate in 10) Checkmate is now unavoidable. } 41... Rxc8 42. Rxc8+ Kh7 43. Kf2 d3 44. Ke3 d2 { White resigns } 0-1
