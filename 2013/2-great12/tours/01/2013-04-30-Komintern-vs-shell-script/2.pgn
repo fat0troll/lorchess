@@ -1,0 +1,16 @@
+[Event "Casual game"]
+[Site "http://lichess.org/z477r9f3"]
+[Date "2013.04.30"]
+[White "komintern"]
+[Black "cppmm"]
+[Result "1-0"]
+[WhiteElo "1200"]
+[BlackElo "937"]
+[PlyCount "79"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C42"]
+[Opening "Russian Game, Damiano Variation"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nxe4 { Russian Game, Damiano Variation } 4. Qe2 Bc5? { (0.96 → 3.67) Mistake. } 5. Qxe4 O-O?! { (3.55 → 4.16) Inaccuracy. } 6. Bd3 g6 7. Nc3?! { (3.91 → 3.35) Inaccuracy. } 7... c6 8. Qc4? { (3.59 → 1.37) Mistake. } 8... Na6? { (1.37 → 3.07) Mistake. } 9. Ne4? { (3.07 → 0.56) Mistake. } 9... d5 10. Qc3 dxe4 11. Bxa6 Bd4 12. Qb3? { (0.48 → -1.73) Mistake. } 12... Be6? { (-1.73 → 0.00) Mistake. } 13. Qxb7 Bxe5 14. Qxc6 Qa5?! { (0.08 → 0.68) Inaccuracy. } 15. Qxe4?? { (0.68 → -3.35) Blunder. } 15... f5?? { (-3.35 → 1.57) Blunder. } 16. Qe2 Bf6?? { (1.17 → 7.35) Blunder. } 17. Qxe6+ Kg7 18. Qd7+? { (7.59 → 6.10) Mistake. } 18... Rf7 19. Qd3?! { (6.34 → 5.49) Inaccuracy. } 19... Re7+ 20. Kd1 Rae8 21. h3? { (6.10 → 4.68) Mistake. } 21... Re2?? { (4.68 → 7.71) Blunder. } 22. Rf1? { (7.71 → 5.49) Mistake. } 22... Qe5?? { (5.49 → 14.58) Blunder. } 23. Qd7+? { (14.58 → 7.83) Mistake. } 23... Re7 24. c3?? { (7.95 → -5.17) Blunder. } 24... Rxd7?? { (-5.17 → -0.04) Blunder. } 25. Bxe2 Qd6 26. d4? { (0.48 → -0.72) Mistake. } 26... Re7? { (-0.72 → 0.88) Mistake. } 27. g4?? { (0.88 → -2.98) Blunder. } 27... Bxd4 28. cxd4 Qxd4+ 29. Ke1 Qb4+ 30. Bd2 Qe4 31. Be3 Qc2?? { (-4.52 → 2.22) Blunder. } 32. gxf5 Qxf5?! { (2.22 → 2.86) Inaccuracy. } 33. Bg4? { (2.86 → 0.00) Mistake. } 33... Qa5+ 34. Ke2 Rc7?? { (-0.44 → 3.43) Blunder. } 35. Kd3?? { (3.43 → -0.72) Blunder. } 35... Qd5+? { (-0.72 → 1.81) Mistake. } 36. Ke2? { (1.81 → -0.24) Mistake. } 36... Rc2+ 37. Ke1 Qa5+ 38. Kd1 Rxb2?? { (0.16 → 5.89) Blunder. } 39. Bd4+ Kh6?? { (5.69 → 9.57) Blunder. } 40. Bxb2 { Black resigns } 1-0
