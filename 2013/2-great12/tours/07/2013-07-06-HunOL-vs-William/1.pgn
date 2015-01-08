@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/tspxds6f"]
-[Date "2013-07-06"]
+[Date "2013.07.06"]
 [White "HunOL"]
 [Black "William_V"]
 [Result "1-0"]
-[WhiteElo "1328"]
-[BlackElo "1396"]
+[WhiteElo "1756"]
+[BlackElo "1728"]
 [PlyCount "45"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "D50"]
+[Opening "Queen's Gambit Declined, Modern Variation"]
+[Annotator "lichess.org"]
 
-1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 Nc6 6. Nf3 Ne4 7. Bf4 O-O 8. c5 Ng5 9. Bd3 Re8 10. h4 Nxf3+ 11. Qxf3 Bf6 12. Qh5 g6 13. Qf3 e5 14. dxe5 Nxe5 15. Bxe5 Bxe5 16. h5 Bxc3+ 17. bxc3 Qg5 18. hxg6 fxg6 19. Rxh7 Kxh7 20. Qf7+ Kh6 21. Qxe8 Qxg2 22. O-O-O Bg4 23. Qxg6# 1-0
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 { Queen's Gambit Declined, Modern Variation } Be7 5. e3 Nc6 6. Nf3 Ne4 7. Bf4?! { (0.72 → -0.04) Inaccuracy. } 7... O-O?! { (-0.04 → 0.56) Inaccuracy. } 8. c5?! { (0.56 → -0.24) Inaccuracy. } 8... Ng5?! { (-0.24 → 0.44) Inaccuracy. } 9. Bd3 Re8?! { (0.20 → 1.09) Inaccuracy. } 10. h4?! { (1.09 → 0.24) Inaccuracy. } 10... Nxf3+ 11. Qxf3 Bf6 12. Qh5?! { (0.44 → -0.40) Inaccuracy. } 12... g6 13. Qf3 e5 14. dxe5?! { (-0.40 → -1.13) Inaccuracy. } 14... Nxe5?! { (-1.13 → -0.36) Inaccuracy. } 15. Bxe5? { (-0.36 → -1.37) Mistake. } 15... Bxe5?! { (-1.37 → -0.80) Inaccuracy. } 16. h5?! { (-0.80 → -1.37) Inaccuracy. } 16... Bxc3+? { (-1.37 → 0.12) Mistake. } 17. bxc3 Qg5 18. hxg6 fxg6 19. Rxh7 Kxh7? { (0.24 → 2.74) Mistake. } 20. Qf7+ Kh6 21. Qxe8 Qxg2?? { (2.02 → 6.34) Blunder. } 22. O-O-O?! { (6.34 → 5.49) Inaccuracy. } 22... Bg4 23. Qxg6# { Black is checkmated } 1-0
