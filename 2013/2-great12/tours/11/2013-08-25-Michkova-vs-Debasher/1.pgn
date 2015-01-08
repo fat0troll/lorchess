@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/hiq2xibj"]
-[Date "2013-08-25"]
+[Date "2013.08.25"]
 [White "Michkova"]
 [Black "Anonymous"]
 [Result "1-0"]
@@ -8,5 +8,9 @@
 [BlackElo "?"]
 [PlyCount "51"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted, General"]
+[Annotator "lichess.org"]
 
-1. d4 d5 2. c4 dxc4 3. Nc3 e6 4. e4 Bb4 5. Bxc4 Nc6 6. Nf3 Nf6 7. e5 Nd5 8. Bd2 O-O 9. O-O a6 10. a3 Be7 11. Ne4 f5 12. exf6 Nxf6 13. Neg5 Qd6 14. Re1 Nd5 15. Qc2 Bxg5 16. Nxg5 g6 17. Qe4 Rf6 18. Qh4 h5 19. Ne4 Qf8 20. Nxf6+ Qxf6 21. Qg3 Nxd4 22. Bxd5 exd5 23. Bc3 Bf5 24. Qxc7 Qc6 25. Qe5 Nf3+ 26. gxf3 1-0
+1. d4 d5 2. c4 dxc4 { Queen's Gambit Accepted, General } 3. Nc3 e6 4. e4 Bb4 5. Bxc4 Nc6 6. Nf3 Nf6 7. e5 Nd5 8. Bd2 O-O 9. O-O a6 10. a3 Be7 11. Ne4?! { (1.01 → 0.28) Inaccuracy. } 11... f5 12. exf6 Nxf6 13. Neg5 Qd6?! { (1.01 → 1.77) Inaccuracy. } 14. Re1 Nd5 15. Qc2 Bxg5 16. Nxg5 g6 17. Qe4 Rf6?? { (1.65 → 5.33) Blunder. } 18. Qh4?! { (5.33 → 4.76) Inaccuracy. } 18... h5?! { (4.76 → 5.61) Inaccuracy. } 19. Ne4 Qf8? { (6.02 → 7.87) Mistake. } 20. Nxf6+?? { (7.87 → 4.24) Blunder. } 20... Qxf6 21. Qg3 Nxd4?? { (4.20 → 7.31) Blunder. } 22. Bxd5 exd5?! { (8.24 → 9.01) Inaccuracy. } 23. Bc3?? { (9.01 → 4.48) Blunder. } 23... Bf5 24. Qxc7 Qc6?? { (4.60 → 13.61) Blunder. } 25. Qe5 Nf3+ 26. gxf3 { Black resigns } 1-0
