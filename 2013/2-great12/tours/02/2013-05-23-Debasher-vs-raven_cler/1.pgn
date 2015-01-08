@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/twbhlj7z"]
-[Date "2013-05-23"]
+[Date "2013.05.23"]
 [White "raven_cler"]
 [Black "debasher"]
 [Result "0-1"]
@@ -8,5 +8,9 @@
 [BlackElo "1200"]
 [PlyCount "60"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C32"]
+[Opening "King's Gambit, Falkbeer Countergambit, Modern Transfer"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. f4 d5 3. exd5 exf4 4. Nf3 Qxd5 5. Nc3 Qd8 6. d3 c6 7. Bxf4 Nf6 8. Bxb8 Rxb8 9. d4 Bd6 10. Bc4 Be6 11. O-O Bxc4 12. Re1+ Be7 13. h3 O-O 14. Ne5 Bd6 15. Nxc4 Qc7 16. Nxd6 Qxd6 17. Ne4 Qc7 18. Nxf6+ gxf6 19. c3 c5 20. a3 Rbd8 21. Qa4 Qb6 22. Rad1 Qxb2 23. dxc5 Qxc3 24. Re7 Qxc5+ 25. Kh2 Qxe7 26. Rxd8 Rxd8 27. Qg4+ Kh8 28. a4 Qe5+ 29. g3 Rd2+ 30. Kg1 Qe1# 0-1
+1. e4 e5 2. f4 d5 3. exd5 exf4 { King's Gambit, Falkbeer Countergambit, Modern Transfer } 4. Nf3 Qxd5 5. Nc3 Qd8?! { (0.04 → 0.84) Inaccuracy. } 6. d3? { (0.84 → -0.32) Mistake. } 6... c6?! { (-0.32 → 0.52) Inaccuracy. } 7. Bxf4 Nf6 8. Bxb8? { (0.44 → -0.76) Mistake. } 8... Rxb8 9. d4 Bd6 10. Bc4 Be6? { (-0.88 → 0.44) Mistake. } 11. O-O?? { (0.44 → -4.64) Blunder. } 11... Bxc4 12. Re1+ Be7 13. h3 O-O 14. Ne5 Bd6?? { (-5.29 → -0.36) Blunder. } 15. Nxc4 Qc7 16. Nxd6 Qxd6 17. Ne4 Qc7? { (-0.32 → 1.65) Mistake. } 18. Nxf6+ gxf6 19. c3 c5?! { (1.37 → 2.14) Inaccuracy. } 20. a3?! { (2.14 → 1.33) Inaccuracy. } 20... Rbd8 21. Qa4?! { (1.21 → 0.36) Inaccuracy. } 21... Qb6 22. Rad1 Qxb2 23. dxc5 Qxc3 24. Re7?? { (0.00 → -9.65) Blunder. } 24... Qxc5+ 25. Kh2 Qxe7?! { (-9.93 → -9.05) Inaccuracy. } 26. Rxd8?! { (-9.05 → -11.19) Inaccuracy. } 26... Rxd8 27. Qg4+ Kh8 28. a4 Qe5+ 29. g3?! { (-22.30 → Mate in 3) Checkmate is now unavoidable. } 29... Rd2+ 30. Kg1 Qe1# { White is checkmated } 0-1
