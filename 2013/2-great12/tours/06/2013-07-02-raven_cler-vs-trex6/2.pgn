@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/5mn5uir9"]
-[Date "2013-07-02"]
+[Date "2013.07.02"]
 [White "txgames"]
 [Black "raven_cler"]
 [Result "0-1"]
@@ -8,5 +8,9 @@
 [BlackElo "941"]
 [PlyCount "32"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B01"]
+[Opening "Scandinavian Defense, Gubinsky-Melts Defense"]
+[Annotator "lichess.org"]
 
-1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. Be2 Nf6 5. h3 Bf5 6. d3 Nc6 7. a3 O-O-O 8. Be3 Nd4 9. Bxd4 Qxd4 10. Nb5 Qb6 11. c4 a6 12. Nc3 Qxb2 13. Nf3 Qxc3+ 14. Qd2 Qxa1+ 15. Bd1 Bxd3 16. Ne5 Qxe5+ 0-1
+1. e4 d5?! { (0.16 → 0.72) Inaccuracy. } 2. exd5 Qxd5 3. Nc3 Qd6 { Scandinavian Defense, Gubinsky-Melts Defense } 4. Be2 Nf6 5. h3 Bf5 6. d3 Nc6 7. a3 O-O-O 8. Be3 Nd4 9. Bxd4 Qxd4 10. Nb5?? { (0.00 → -3.31) Blunder. } 10... Qb6 11. c4? { (-3.07 → -4.16) Mistake. } 11... a6? { (-4.16 → -2.90) Mistake. } 12. Nc3 Qxb2 13. Nf3?? { (-3.03 → -8.20) Blunder. } 13... Qxc3+ 14. Qd2? { (-8.36 → -14.34) Mistake. } 14... Qxa1+ 15. Bd1 Bxd3 16. Ne5 Qxe5+ { White resigns } 0-1

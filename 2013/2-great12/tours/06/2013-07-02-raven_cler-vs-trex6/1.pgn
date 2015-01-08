@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/sq91cjvl"]
-[Date "2013-07-02"]
+[Date "2013.07.02"]
 [White "raven_cler"]
 [Black "txgames"]
 [Result "0-1"]
@@ -8,5 +8,9 @@
 [BlackElo "905"]
 [PlyCount "68"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B28"]
+[Opening "Sicilian Defense, O'Kelly Variation, Yerevan System"]
+[Annotator "lichess.org"]
 
-1. e4 c5 2. Nf3 a6 3. Nc3 e6 4. Bc4 b5 5. Be2 c4 6. d4 d5 7. O-O h6 8. h3 Nf6 9. e5 Nfd7 10. g3 Nc6 11. a4 b4 12. Na2 a5 13. b3 c3 14. Bb5 Ba6 15. Bxa6 Rxa6 16. Qe2 Qb6 17. Nh4 Be7 18. Nf3 Nxd4 19. Qd3 Nxf3+ 20. Qxf3 Nxe5 21. Qe3 f6 22. Qe2 O-O 23. Be3 Qb7 24. Bd4 Ng6 25. Rad1 e5 26. Be3 d4 27. Bxh6 gxh6 28. Qg4 Kg7 29. h4 f5 30. Qh5 Nxh4 31. gxh4 Bxh4 32. Qxh4 Kh7 33. Nc1 Rg6+ 34. Kh2 Qg2# 0-1
+1. e4 c5 2. Nf3 a6 3. Nc3 { Sicilian Defense, O'Kelly Variation, Yerevan System } e6 4. Bc4 b5 5. Be2 c4?! { (0.56 → 1.37) Inaccuracy. } 6. d4 d5 7. O-O h6?! { (0.92 → 1.57) Inaccuracy. } 8. h3?! { (1.57 → 0.84) Inaccuracy. } 8... Nf6 9. e5 Nfd7 10. g3 Nc6 11. a4 b4 12. Na2 a5 13. b3 c3 14. Bb5 Ba6?? { (-0.12 → 3.39) Blunder. } 15. Bxa6?? { (3.39 → -0.12) Blunder. } 15... Rxa6 16. Qe2 Qb6 17. Nh4? { (-0.16 → -3.03) Mistake. } 17... Be7? { (-3.03 → -0.56) Mistake. } 18. Nf3 Nxd4? { (-0.60 → 2.22) Mistake. } 19. Qd3?? { (2.22 → -2.98) Blunder. } 19... Nxf3+ 20. Qxf3 Nxe5 21. Qe3?! { (-2.78 → -3.75) Inaccuracy. } 21... f6 22. Qe2 O-O 23. Be3 Qb7 24. Bd4 Ng6?! { (-3.35 → -2.62) Inaccuracy. } 25. Rad1? { (-2.62 → -3.75) Mistake. } 25... e5 26. Be3 d4 27. Bxh6? { (-3.67 → -5.93) Mistake. } 27... gxh6 28. Qg4? { (-6.06 → -7.75) Mistake. } 28... Kg7? { (-7.75 → -6.14) Mistake. } 29. h4? { (-6.14 → -7.87) Mistake. } 29... f5 30. Qh5? { (-7.59 → -11.19) Mistake. } 30... Nxh4 31. gxh4 Bxh4?? { (-13.09 → -6.54) Blunder. } 32. Qxh4?? { (-6.54 → -10.62) Blunder. } 32... Kh7?? { (-10.62 → -1.17) Blunder. } 33. Nc1?? { (-1.17 → -13.73) Blunder. } 33... Rg6+ 34. Kh2 Qg2# { White is checkmated } 0-1
