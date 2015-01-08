@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/az8tu9pz"]
+[Date "2013.05.22"]
+[White "Michkova"]
+[Black "cppmm"]
+[Result "1-0"]
+[WhiteElo "1595"]
+[BlackElo "1313"]
+[PlyCount "35"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "A40"]
+[Opening "Modern Defense, Queen Pawn Fianchetto"]
+[Annotator "lichess.org"]
+
+1. d4 g6? { Modern Defense, Queen Pawn Fianchetto (0.20 → 1.33) Mistake. } 2. c4?! { (1.33 → 0.60) Inaccuracy. } 2... Bg7 3. Nc3 c6 4. e4 e5?! { (0.88 → 1.77) Inaccuracy. } 5. d5? { (1.77 → 0.68) Mistake. } 5... d6 6. Be2 Nh6?! { (0.72 → 1.29) Inaccuracy. } 7. h3?! { (1.29 → 0.68) Inaccuracy. } 7... O-O 8. Nf3 Na6 9. O-O Nc5? { (0.72 → 2.42) Mistake. } 10. b4 Nd7? { (2.58 → 3.59) Mistake. } 11. Bg5?! { (3.59 → 2.66) Inaccuracy. } 11... f6 12. Be3? { (2.50 → 1.37) Mistake. } 12... a6? { (1.37 → 3.63) Mistake. } 13. Qd2? { (3.63 → 1.41) Mistake. } 13... cxd5? { (1.41 → 3.35) Mistake. } 14. Bxh6 Bxh6 15. Qxh6 dxc4?? { (3.47 → 7.55) Blunder. } 16. Bxc4+ Kh8 17. Nh4 Qc7? { (7.95 → Mate in 1) Checkmate is now unavoidable. } 18. Nxg6# { Black is checkmated } 1-0

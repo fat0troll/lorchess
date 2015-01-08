@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/9xkka9un"]
+[Date "2013.05.22"]
+[White "cppmm"]
+[Black "Michkova"]
+[Result "1-0"]
+[WhiteElo "1307"]
+[BlackElo "1600"]
+[PlyCount "73"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C44"]
+[Opening "King Pawn Game, Dresden Opening"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. c4?! { King Pawn Game, Dresden Opening (0.56 → -0.28) Inaccuracy. } 3... Nf6 4. d3 Bb4+ 5. Nc3 d6 6. a3 Bxc3+ 7. bxc3 Bg4 8. h3 Bh5 9. Rb1 b6 10. g4 Bg6 11. h4 h5 12. Bh3? { (0.20 → -2.26) Mistake. } 12... hxg4 13. Bg2? { (-2.34 → -3.91) Mistake. } 13... gxf3 14. Bxf3 Nh5?! { (-3.87 → -3.31) Inaccuracy. } 15. Bg4?! { (-3.31 → -4.20) Inaccuracy. } 15... Qf6?? { (-4.20 → 4.28) Blunder. } 16. f3?? { (4.28 → -4.28) Blunder. } 16... Nf4?? { (-4.28 → -1.21) Blunder. } 17. Qa4 O-O?! { (-0.96 → -0.36) Inaccuracy. } 18. Qxc6 Nxd3+ 19. Kd1?? { (-0.48 → -5.09) Blunder. } 19... Nf2+ 20. Kc2 Nxh1?! { (-5.05 → -4.28) Inaccuracy. } 21. Bg5 Qxg5?? { (-4.28 → 3.67) Blunder. } 22. hxg5 Nf2? { (3.67 → 4.96) Mistake. } 23. Bf5? { (4.96 → 2.26) Mistake. } 23... Bxf5 24. exf5 Rac8?! { (2.34 → 3.11) Inaccuracy. } 25. g6 fxg6?! { (3.51 → 4.12) Inaccuracy. } 26. fxg6 Rf6 27. Qd7?? { (5.13 → 1.49) Blunder. } 27... Rff8?? { (1.49 → Mate in 5) Checkmate is now unavoidable. } 28. Qe6+ Kh8 29. Rf1?! { (Mate in 3 → Mate in 6) Not the best checkmate sequence. } 29... Rfe8 30. Qf5 Rf8 31. Qh5+ Kg8 32. Rxf2?! { (Mate in 1 → 16.08) Lost forced checkmate sequence. } 32... Rfd8?! { (16.08 → Mate in 3) Checkmate is now unavoidable. } 33. Qh7+?! { (Mate in 3 → Mate in 3) Not the best checkmate sequence. } 33... Kf8 34. f4?! { (Mate in 3 → Mate in 4) Not the best checkmate sequence. } 34... e4 35. Qh8+ Ke7 36. Qxg7+ Ke8 37. Qf7# { Black is checkmated } 1-0
