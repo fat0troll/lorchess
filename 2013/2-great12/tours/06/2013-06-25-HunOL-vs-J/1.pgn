@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/tq8h9ayo"]
-[Date "2013-06-25"]
+[Date "2013.06.25"]
 [White "HunOL"]
 [Black "LOR_J"]
 [Result "1-0"]
-[WhiteElo "1305"]
-[BlackElo "1205"]
+[WhiteElo "1733"]
+[BlackElo "1546"]
 [PlyCount "51"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted, General"]
+[Annotator "lichess.org"]
 
-1. d4 d5 2. c4 dxc4 3. Nc3 e6 4. e3 Nf6 5. Bxc4 Bb4 6. Bd2 Bxc3 7. Bxc3 Ne4 8. Nf3 O-O 9. O-O Nc6 10. Qb3 a6 11. Bd3 Nd6 12. Qc2 g6 13. a3 b5 14. Rac1 Bb7 15. Ne5 Qg5 16. g3 Nxe5 17. dxe5 Nf5 18. Bd2 Qg4 19. e4 Qf3 20. Rfe1 Nh6 21. Bxh6 Rfd8 22. Re3 Qh5 23. Qxc7 Bxe4 24. Bxe4 Qxh6 25. Bxa8 Rxa8 26. Rd1 1-0
+1. d4 d5 2. c4 dxc4 { Queen's Gambit Accepted, General } 3. Nc3 e6 4. e3 Nf6 5. Bxc4 Bb4 6. Bd2 Bxc3 7. Bxc3 Ne4 8. Nf3 O-O 9. O-O Nc6 10. Qb3 a6 11. Bd3 Nd6?! { (0.92 → 1.49) Inaccuracy. } 12. Qc2 g6 13. a3 b5 14. Rac1 Bb7 15. Ne5 Qg5 16. g3?! { (1.93 → 1.13) Inaccuracy. } 16... Nxe5 17. dxe5 Nf5? { (1.17 → 2.22) Mistake. } 18. Bd2? { (2.22 → -0.36) Mistake. } 18... Qg4 19. e4 Qf3 20. Rfe1 Nh6?? { (-0.84 → 5.93) Blunder. } 21. Bxh6 Rfd8?! { (6.02 → 6.98) Inaccuracy. } 22. Re3? { (6.98 → 4.08) Mistake. } 22... Qh5 23. Qxc7?? { (4.20 → 0.00) Blunder. } 23... Bxe4?? { (0.00 → 9.93) Blunder. } 24. Bxe4 Qxh6 25. Bxa8 Rxa8 26. Rd1 { Black resigns } 1-0
