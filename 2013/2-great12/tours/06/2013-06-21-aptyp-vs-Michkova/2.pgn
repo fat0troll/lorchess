@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/fkpvdn4w"]
+[Date "2013.06.21"]
+[White "Michkova"]
+[Black "aptypr"]
+[Result "1-0"]
+[WhiteElo "1624"]
+[BlackElo "1436"]
+[PlyCount "25"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "D10"]
+[Opening "Slav Defense, General"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 c6 { Slav Defense, General } 3. Nc3 Nf6 4. Bg5?! { (0.52 → 0.00) Inaccuracy. } 4... dxc4 5. Bxf6 exf6 6. e3 Bb4? { (-0.72 → 0.60) Mistake. } 7. Bxc4 O-O 8. Nf3 Qa5 9. Qd3 b5? { (-0.12 → 0.88) Mistake. } 10. Bb3 Nd7 11. O-O c5?! { (0.64 → 1.45) Inaccuracy. } 12. Bc2 c4 13. Qxh7# { Black is checkmated } 1-0
