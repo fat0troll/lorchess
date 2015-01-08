@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/pbg3rult"]
+[Date "2013.05.12"]
+[White "zodd"]
+[Black "txgames"]
+[Result "1-0"]
+[WhiteElo "1870"]
+[BlackElo "1388"]
+[PlyCount "85"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B28"]
+[Opening "Sicilian Defense, O'Kelly Variation, Normal System"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. Nf3 a6?! { (0.52 → 1.05) Inaccuracy. } 3. d4 { Sicilian Defense, O'Kelly Variation, Normal System } e6 4. Be3?! { (1.17 → 0.44) Inaccuracy. } 4... d5?! { (0.44 → 1.33) Inaccuracy. } 5. exd5 Qxd5?! { (1.25 → 2.06) Inaccuracy. } 6. Nc3 Qc6 7. Ne5?! { (2.34 → 1.41) Inaccuracy. } 7... Qc7 8. Nf3? { (1.49 → 0.00) Mistake. } 8... Nf6 9. g3 Ng4?! { (-0.20 → 0.60) Inaccuracy. } 10. dxc5? { (0.60 → -0.76) Mistake. } 10... Bxc5? { (-0.76 → 0.60) Mistake. } 11. Bxc5 Qxc5 12. Qe2 O-O 13. Bg2 Re8?! { (-0.16 → 0.68) Inaccuracy. } 14. O-O?! { (0.68 → 0.16) Inaccuracy. } 14... h6?! { (0.16 → 0.88) Inaccuracy. } 15. Nd2 Ne5 16. Nde4 Qd4?? { (0.84 → 5.49) Blunder. } 17. Rfd1 Qb4 18. Rab1?? { (5.93 → 1.09) Blunder. } 18... Bd7? { (1.09 → 2.70) Mistake. } 19. Nd6 Rd8?? { (3.07 → 6.18) Blunder. } 20. Qxe5 Nc6 21. Qh5 Be8 22. Nxe8 Rxe8 23. Bxc6 bxc6 24. a3 Qc4? { (5.41 → 6.90) Mistake. } 25. Qf3? { (6.90 → 5.45) Mistake. } 25... f5? { (5.45 → 6.54) Mistake. } 26. Rd6 c5?! { (6.54 → 7.47) Inaccuracy. } 27. Re1 Rab8?! { (7.15 → 7.71) Inaccuracy. } 28. b3 Qg4 29. Qxg4 fxg4 30. Rdxe6?! { (7.91 → 7.39) Inaccuracy. } 30... Rxe6 31. Rxe6 h5?! { (7.91 → 8.52) Inaccuracy. } 32. Rxa6 Kh7? { (8.56 → 9.57) Mistake. } 33. a4? { (9.57 → 8.52) Mistake. } 33... g6? { (8.52 → 10.50) Mistake. } 34. a5 Kh6 35. Rb6 Ra8 36. a6 Kg5 37. Nb5 h4 38. a7 hxg3 39. hxg3 Rd8 40. Rb8 Rd1+ 41. Kg2 Ra1 42. a8=Q Rxa8 43. Rxa8 { Black resigns } 1-0

@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/yj4xdbl9"]
+[Date "2013.05.12"]
+[White "txgames"]
+[Black "zodd"]
+[Result "0-1"]
+[WhiteElo "1386"]
+[BlackElo "1873"]
+[PlyCount "84"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B20"]
+[Opening "Sicilian Defense, Staunton-Cochrane Variation"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. c4 { Sicilian Defense, Staunton-Cochrane Variation } Nc6 3. d3 d6 4. f4 g6 5. Nf3 Bg7 6. g4? { (0.04 → -1.73) Mistake. } 6... Nf6? { (-1.73 → -0.24) Mistake. } 7. h3 Nd7 8. f5? { (-0.20 → -1.37) Mistake. } 8... Nde5 9. Nxe5 Bxe5 10. Nc3 e6 11. fxg6? { (-1.33 → -2.86) Mistake. } 11... hxg6? { (-2.86 → -1.37) Mistake. } 12. h4? { (-1.37 → -3.87) Mistake. } 12... Rxh4 13. Rxh4?? { (-3.47 → -7.03) Blunder. } 13... Qxh4+ 14. Kd2?! { (-6.78 → -7.35) Inaccuracy. } 14... Qf2+?? { (-7.35 → -3.07) Blunder. } 15. Be2?! { (-3.07 → -3.75) Inaccuracy. } 15... Nd4?! { (-3.75 → -3.23) Inaccuracy. } 16. Qh1?! { (-3.23 → -4.20) Inaccuracy. } 16... Bf4+ 17. Kd1 Nxe2? { (-3.95 → -2.42) Mistake. } 18. Nxe2 Be5 19. Nc3? { (-1.97 → -3.15) Mistake. } 19... Bd7?! { (-3.15 → -2.38) Inaccuracy. } 20. b3?? { (-2.38 → -14.26) Blunder. } 20... O-O-O?? { (-14.26 → -4.88) Blunder. } 21. Bd2 Rh8 22. Qe1? { (-4.88 → -5.97) Mistake. } 22... Qf3+? { (-5.97 → -4.36) Mistake. } 23. Kc2 Qxg4? { (-4.80 → -3.79) Mistake. } 24. Qf1 f6 25. Qf2? { (-3.91 → -4.92) Mistake. } 25... g5? { (-4.92 → -3.91) Mistake. } 26. Rg1 Qh4 27. Be3?? { (-3.83 → -6.86) Blunder. } 27... Qxf2+ 28. Bxf2?! { (-6.98 → -7.55) Inaccuracy. } 28... Rh2 29. Rf1 g4 30. Kd1? { (-8.16 → -10.86) Mistake. } 30... g3? { (-10.86 → -7.43) Mistake. } 31. Be3? { (-7.43 → -11.67) Mistake. } 31... g2?! { (-11.67 → -9.01) Inaccuracy. } 32. Rg1 Rh1?? { (-9.13 → -5.09) Blunder. } 33. Ne2? { (-5.09 → -6.26) Mistake. } 33... f5 34. Kd2 Rxg1? { (-6.34 → -4.72) Mistake. } 35. Nxg1 f4 36. Bf2 Be8 37. Nh3? { (-4.68 → -6.94) Mistake. } 37... f3?! { (-6.94 → -6.10) Inaccuracy. } 38. Ke3?! { (-6.10 → -6.94) Inaccuracy. } 38... Bh5 39. Ng5? { (-7.19 → -26.14) Mistake. } 39... Bd4+ 40. Kf4 Bxf2 41. Nxe6?! { (-31.79 → Mate in 3) Checkmate is now unavoidable. } 41... g1=Q 42. Ng5 Qg4# { White is checkmated } 0-1
