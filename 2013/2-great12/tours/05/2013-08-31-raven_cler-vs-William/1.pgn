@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/xc31r5f4"]
-[Date "2013-08-31"]
+[Date "2013.08.31"]
 [White "raven_cler"]
 [Black "William_V"]
 [Result "1-0"]
@@ -8,5 +8,9 @@
 [BlackElo "1354"]
 [PlyCount "89"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C41"]
+[Opening "Philidor Defense, Exchange Variation"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Bb5+ c6 5. Be2 c5 6. O-O Nf6 7. Qd3 Be7 8. c3 dxc3 9. Nxc3 O-O 10. Bg5 Nc6 11. Rfd1 Re8 12. Rab1 a6 13. Qd2 b5 14. Qf4 Nh5 15. Qh4 Bxg5 16. Qxg5 Qxg5 17. Nxg5 Nf4 18. Rxd6 Nd4 19. Re1 b4 20. Bc4 bxc3 21. Bxf7+ Kf8 22. Bxe8 Kxe8 23. bxc3 Nc2 24. Red1 Bg4 25. f3 Bh5 26. Kf2 c4 27. Ne6 Nxe6 28. Rxe6+ Kf7 29. Rc6 Ra7 30. Rxc4 Na3 31. Rc5 g6 32. g4 Bxg4 33. fxg4 Rb7 34. Ke3 Rb2 35. Rd7+ Ke6 36. Rdc7 Nb5 37. Rc7c6+ Kd7 38. Rxa6 Nd6 39. e5 Nb7 40. e6+ Kd8 41. Ra8+ Ke7 42. Rc6 Rxh2 43. Kf3 Nd8 44. Ra7+ Ke8 45. Rd6 1-0
+1. e4 e5 2. Nf3 d6 3. d4 exd4 { Philidor Defense, Exchange Variation } 4. Bb5+ c6 5. Be2 c5 6. O-O Nf6 7. Qd3 Be7 8. c3 dxc3 9. Nxc3 O-O 10. Bg5 Nc6 11. Rfd1 Re8 12. Rab1 a6 13. Qd2 b5 14. Qf4?! { (-0.44 → -1.01) Inaccuracy. } 14... Nh5 15. Qh4 Bxg5 16. Qxg5 Qxg5 17. Nxg5 Nf4 18. Rxd6 Nd4 19. Re1? { (-0.40 → -2.34) Mistake. } 19... b4? { (-2.34 → -0.60) Mistake. } 20. Bc4 bxc3 21. Bxf7+ Kf8 22. Bxe8? { (-0.44 → -1.73) Mistake. } 22... Kxe8? { (-1.73 → -0.24) Mistake. } 23. bxc3 Nc2? { (-0.20 → 1.37) Mistake. } 24. Red1? { (1.37 → 0.16) Mistake. } 24... Bg4? { (0.16 → 1.77) Mistake. } 25. f3 Bh5? { (1.49 → 2.70) Mistake. } 26. Kf2 c4? { (2.54 → 3.67) Mistake. } 27. Ne6? { (3.67 → 2.54) Mistake. } 27... Nxe6? { (2.54 → 3.87) Mistake. } 28. Rxe6+ Kf7 29. Rc6? { (4.28 → 2.82) Mistake. } 29... Ra7? { (2.82 → 4.00) Mistake. } 30. Rxc4?! { (4.00 → 3.47) Inaccuracy. } 30... Na3 31. Rc5 g6?? { (3.47 → 6.58) Blunder. } 32. g4 Bxg4 33. fxg4 Rb7 34. Ke3 Rb2? { (6.98 → 9.61) Mistake. } 35. Rd7+ Ke6 36. Rdc7? { (11.51 → 8.80) Mistake. } 36... Nb5? { (8.80 → 12.24) Mistake. } 37. Rc7c6+ Kd7 38. Rxa6 Nd6 39. e5 Nb7 40. e6+ Kd8 41. Ra8+ Ke7 42. Rc6 Rxh2 43. Kf3? { (16.36 → 7.91) Mistake. } 43... Nd8? { (7.91 → 9.01) Mistake. } 44. Ra7+ Ke8 45. Rd6 { Black resigns } 1-0

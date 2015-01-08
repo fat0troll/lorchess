@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/8wn1irpo"]
-[Date "2013-08-31"]
+[Date "2013.08.31"]
 [White "William_V"]
 [Black "raven_cler"]
 [Result "0-1"]
@@ -8,5 +8,9 @@
 [BlackElo "906"]
 [PlyCount "70"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B01"]
+[Opening "Scandinavian Defense, Gubinsky-Melts Defense"]
+[Annotator "lichess.org"]
 
-1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. d4 Bf5 5. Bc4 Qg6 6. Qf3 Nc6 7. Nge2 O-O-O 8. O-O e5 9. Bd5 Nge7 10. Ng3 Nxd4 11. Bxb7+ Kb8 12. Qe3 Nxc2 13. Qc5 Nxa1 14. Qb5 Bd3 15. Qb4 Nc6 16. Qa4 Kxb7 17. Re1 Rd4 18. Qd1 Nc2 19. Be3 Nxe1 20. Bxd4 exd4 21. Nd5 Bc4 22. Nf4 Qg5 23. Nh3 Qe5 24. b3 Bd5 25. f3 Kb8 26. Nf2 Bb4 27. Ne2 d3 28. Nc1 d2 29. Ncd3 Nxd3 30. Nxd3 Qe3+ 31. Nf2 Nd4 32. h3 Ne2+ 33. Kh2 Bd6+ 34. g3 Bxf3 35. a4 Qxf2# 0-1
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 { Scandinavian Defense, Gubinsky-Melts Defense } 4. d4 Bf5 5. Bc4 Qg6?! { (0.92 → 1.61) Inaccuracy. } 6. Qf3? { (1.61 → 0.48) Mistake. } 6... Nc6 7. Nge2 O-O-O 8. O-O e5 9. Bd5?! { (0.20 → -0.60) Inaccuracy. } 9... Nge7 10. Ng3?? { (-0.72 → -4.72) Blunder. } 10... Nxd4 11. Bxb7+ Kb8 12. Qe3 Nxc2? { (-5.01 → -2.90) Mistake. } 13. Qc5? { (-2.90 → -4.92) Mistake. } 13... Nxa1 14. Qb5?? { (-4.92 → -9.45) Blunder. } 14... Bd3 15. Qb4 Nc6 16. Qa4 Kxb7 17. Re1 Rd4 18. Qd1 Nc2 19. Be3 Nxe1 20. Bxd4 exd4 21. Nd5 Bc4 22. Nf4 Qg5 23. Nh3 Qe5 24. b3 Bd5 25. f3 Kb8 26. Nf2 Bb4 27. Ne2 d3 28. Nc1 d2 29. Ncd3 Nxd3 30. Nxd3 Qe3+ 31. Nf2 Nd4?! { (Mate in 2 → Mate in 6) Not the best checkmate sequence. } 32. h3 Ne2+?! { (Mate in 5 → Mate in 5) Not the best checkmate sequence. } 33. Kh2 Bd6+ 34. g3 Bxf3?! { (Mate in 2 → Mate in 3) Not the best checkmate sequence. } 35. a4 Qxf2# { White is checkmated } 0-1
