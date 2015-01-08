@@ -1,6 +1,6 @@
-[Event "Rated game"]
+[Event "Casual game"]
 [Site "http://lichess.org/ftlvzmte"]
-[Date "2013-08-15"]
+[Date "2013.08.15"]
 [White "Michkova"]
 [Black "HunOL"]
 [Result "1-0"]
@@ -8,5 +8,9 @@
 [BlackElo "1394"]
 [PlyCount "57"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "?"]
+[Opening "?"]
+[Annotator "lichess.org"]
 
-1. d4 d5 2. c4 e5 3. Nc3 Bb4 4. Bd2 Nf6 5. dxe5 Bxc3 6. Bxc3 Ne4 7. cxd5 c6 8. d6 Bf5 9. Nf3 Nd7 10. e3 O-O 11. Bc4 Re8 12. O-O Nxc3 13. bxc3 Nxe5 14. Nxe5 Rxe5 15. Qb3 Qd7 16. Rad1 b5 17. Be2 Be6 18. c4 Rg5 19. f4 Rg6 20. e4 Bg4 21. Rf2 Bxe2 22. Rxe2 Qg4 23. Red2 Qxf4 24. cxb5 Qxe4 25. d7 Rd8 26. b6 axb6 27. Qxb6 Qe7 28. Re2 Qf8 29. Qxd8 1-0
+1. d4 d5 2. c4 e5 3. Nc3 Bb4 4. Bd2 Nf6 5. dxe5 Bxc3 6. Bxc3 Ne4 7. cxd5 c6 8. d6 Bf5 9. Nf3 Nd7 10. e3 O-O 11. Bc4 Re8 12. O-O Nxc3 13. bxc3 Nxe5 14. Nxe5 Rxe5 15. Qb3 Qd7 16. Rad1 b5 17. Be2 Be6 18. c4 Rg5 19. f4 Rg6 20. e4 Bg4 21. Rf2 Bxe2 22. Rxe2 Qg4 23. Red2 Qxf4 24. cxb5 Qxe4 25. d7 Rd8 26. b6 axb6 27. Qxb6 Qe7 28. Re2 Qf8 29. Qxd8 { Black resigns } 1-0

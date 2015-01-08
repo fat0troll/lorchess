@@ -1,6 +1,6 @@
-[Event "Rated game"]
+[Event "Casual game"]
 [Site "http://lichess.org/yi0xgqrb"]
-[Date "2013-08-15"]
+[Date "2013.08.15"]
 [White "HunOL"]
 [Black "Michkova"]
 [Result "0-1"]
@@ -8,5 +8,9 @@
 [BlackElo "1346"]
 [PlyCount "198"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "?"]
+[Opening "?"]
+[Annotator "lichess.org"]
 
-1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. Nf3 O-O 6. e3 Nbd7 7. Bd3 dxc4 8. Bxc4 Nd5 9. Bxd5 Bxg5 10. Be4 f5 11. Bd3 Nb6 12. O-O Nd5 13. Rc1 c6 14. Ne5 Nxe3 15. Qh5 Nxf1 16. Rxf1 Qxd4 17. Qxg5 Qxe5 18. Bc4 b5 19. Bb3 b4 20. Na4 Ba6 21. Rd1 h6 22. Qe7 Rae8 23. Qxb4 Kh8 24. Nc5 Bc8 25. g3 f4 26. Nd3 Qf6 27. Nxf4 e5 28. Rd6 Be6 29. Bxe6 exf4 30. Bd7 Re1+ 31. Kg2 f3+ 32. Kh3 Qf7 33. g4 Re7 34. Bxc6 h5 35. Bd5 Qf4 36. Qxf4 Rxf4 37. gxh5 Re5 38. Rd8+ Kh7 39. Kg3 Rf6 40. Bxf3 Rg5+ 41. Kh4 Rb5 42. Be4+ g6 43. Rd7+ Kh6 44. Bxg6 Rb4+ 45. Kg3 Kg5 46. Be8 Rff4 47. h6 Kxh6 48. Rxa7 Rg4+ 49. Kf3 Rbf4+ 50. Ke2 Re4+ 51. Kd3 Rxe8 52. Ra6+ Kg5 53. Ra5+ Kh4 54. a3 Rf4 55. b4 Rxf2 56. Kc4 Rf4+ 57. Kb3 Rf3+ 58. Ka4 Rf4 59. Rc5 Ra8+ 60. Ra5 Rd8 61. Ra7 Kh3 62. Ka5 Kxh2 63. b5 Rf5 64. a4 Kg3 65. Ka6 Rb8 66. Rg7+ Kf4 67. Ka7 Re8 68. Rb7 Ke4 69. a5 Kd4 70. Rc7 Rxb5 71. a6 Re6 72. Rb7 Ra5 73. Rd7+ Kc4 74. Rc7+ Kb4 75. Rb7+ Ka4 76. Rb6 Re7+ 77. Kb8 Rd7 78. Rb7 Rd8+ 79. Kc7 Ra8 80. Rb1 Ra7+ 81. Kc6 Ra5xa6+ 82. Kc5 Rc7+ 83. Kd5 Ra5+ 84. Kd6 Rc3 85. Ra1+ Ra3 86. Rb1 Rb5 87. Rc1 Ka5 88. Rc8 Rh3 89. Ra8+ Kb4 90. Ra1 Rh6+ 91. Kc7 Rc5+ 92. Kd7 Kb5 93. Rb1+ Ka6 94. Ra1+ Ra5 95. Rb1 Rb5 96. Ra1+ Kb7 97. Rg1 Kb8 98. Rg8+ Ka7 99. Rg1 Rb7+ 0-1
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. Nf3 O-O 6. e3 Nbd7 7. Bd3 dxc4 8. Bxc4 Nd5 9. Bxd5 Bxg5 10. Be4 f5 11. Bd3 Nb6 12. O-O Nd5 13. Rc1 c6 14. Ne5 Nxe3 15. Qh5 Nxf1 16. Rxf1 Qxd4 17. Qxg5 Qxe5 18. Bc4 b5 19. Bb3 b4 20. Na4 Ba6 21. Rd1 h6 22. Qe7 Rae8 23. Qxb4 Kh8 24. Nc5 Bc8 25. g3 f4 26. Nd3 Qf6 27. Nxf4 e5 28. Rd6 Be6 29. Bxe6 exf4 30. Bd7 Re1+ 31. Kg2 f3+ 32. Kh3 Qf7 33. g4 Re7 34. Bxc6 h5 35. Bd5 Qf4 36. Qxf4 Rxf4 37. gxh5 Re5 38. Rd8+ Kh7 39. Kg3 Rf6 40. Bxf3 Rg5+ 41. Kh4 Rb5 42. Be4+ g6 43. Rd7+ Kh6 44. Bxg6 Rb4+ 45. Kg3 Kg5 46. Be8 Rff4 47. h6 Kxh6 48. Rxa7 Rg4+ 49. Kf3 Rbf4+ 50. Ke2 Re4+ 51. Kd3 Rxe8 52. Ra6+ Kg5 53. Ra5+ Kh4 54. a3 Rf4 55. b4 Rxf2 56. Kc4 Rf4+ 57. Kb3 Rf3+ 58. Ka4 Rf4 59. Rc5 Ra8+ 60. Ra5 Rd8 61. Ra7 Kh3 62. Ka5 Kxh2 63. b5 Rf5 64. a4 Kg3 65. Ka6 Rb8 66. Rg7+ Kf4 67. Ka7 Re8 68. Rb7 Ke4 69. a5 Kd4 70. Rc7 Rxb5 71. a6 Re6 72. Rb7 Ra5 73. Rd7+ Kc4 74. Rc7+ Kb4 75. Rb7+ Ka4 76. Rb6 Re7+ 77. Kb8 Rd7 78. Rb7 Rd8+ 79. Kc7 Ra8 80. Rb1 Ra7+ 81. Kc6 Ra5xa6+ 82. Kc5 Rc7+ 83. Kd5 Ra5+ 84. Kd6 Rc3 85. Ra1+ Ra3 86. Rb1 Rb5 87. Rc1 Ka5 88. Rc8 Rh3 89. Ra8+ Kb4 90. Ra1 Rh6+ 91. Kc7 Rc5+ 92. Kd7 Kb5 93. Rb1+ Ka6 94. Ra1+ Ra5 95. Rb1 Rb5 96. Ra1+ Kb7 97. Rg1 Kb8 98. Rg8+ Ka7 99. Rg1 Rb7+ { White resigns } 0-1
