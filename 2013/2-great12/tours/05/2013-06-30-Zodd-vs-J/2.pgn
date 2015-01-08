@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/c15gsrqt"]
-[Date "2013-06-30"]
+[Date "2013.06.30"]
 [White "zodd"]
 [Black "LOR_J"]
 [Result "1-0"]
-[WhiteElo "1394"]
-[BlackElo "1162"]
+[WhiteElo "1865"]
+[BlackElo "1529"]
 [PlyCount "62"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C70"]
+[Opening "Spanish Game, Morphy Defense, Caro Variation"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 b5 5. Bb3 Nf6 6. d3 h6 7. O-O Bc5 8. Nc3 d6 9. h3 O-O 10. Bd2 Be6 11. Kh1 b4 12. Na4 a5 13. Nxc5 dxc5 14. Ba4 Nd4 15. a3 Qd6 16. c3 Nc6 17. Qc2 Rab8 18. cxb4 Nd4 19. Nxd4 cxd4 20. bxa5 c5 21. b4 cxb4 22. Bxb4 Rxb4 23. axb4 Qxb4 24. Bc6 Rc8 25. Rfc1 Qd6 26. Qa4 Nh5 27. a6 Nf4 28. Qb5 Rb8 29. Bb7 Bd7 30. Qc4 Be6 31. Qc2 f5 1-0
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 b5 { Spanish Game, Morphy Defense, Caro Variation } 5. Bb3 Nf6 6. d3 h6 7. O-O Bc5 8. Nc3 d6 9. h3 O-O 10. Bd2 Be6 11. Kh1 b4 12. Na4 a5? { (-0.24 → 1.65) Mistake. } 13. Nxc5 dxc5 14. Ba4 Nd4 15. a3? { (1.93 → 0.32) Mistake. } 15... Qd6 16. c3? { (0.76 → -0.56) Mistake. } 16... Nc6? { (-0.56 → 1.81) Mistake. } 17. Qc2? { (1.81 → 0.56) Mistake. } 17... Rab8? { (0.56 → 2.06) Mistake. } 18. cxb4 Nd4?! { (1.89 → 2.46) Inaccuracy. } 19. Nxd4 cxd4 20. bxa5 c5 21. b4? { (2.42 → 1.25) Mistake. } 21... cxb4? { (1.25 → 3.47) Mistake. } 22. Bxb4 Rxb4? { (3.75 → 5.49) Mistake. } 23. axb4 Qxb4?! { (5.69 → 6.58) Inaccuracy. } 24. Bc6?! { (6.58 → 5.93) Inaccuracy. } 24... Rc8? { (5.93 → 8.16) Mistake. } 25. Rfc1?? { (8.16 → 5.05) Blunder. } 25... Qd6?? { (5.05 → 8.96) Blunder. } 26. Qa4? { (8.96 → 6.10) Mistake. } 26... Nh5? { (6.10 → 7.27) Mistake. } 27. a6 Nf4 28. Qb5? { (7.35 → 4.44) Mistake. } 28... Rb8?? { (4.44 → 8.96) Blunder. } 29. Bb7? { (8.96 → 7.31) Mistake. } 29... Bd7 30. Qc4?? { (7.03 → -5.57) Blunder. } 30... Be6?? { (-5.57 → 9.85) Blunder. } 31. Qc2 f5 { Black resigns } 1-0

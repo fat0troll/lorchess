@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/cdmksf4c"]
-[Date "2013-06-30"]
+[Date "2013.06.30"]
 [White "LOR_J"]
 [Black "zodd"]
 [Result "0-1"]
-[WhiteElo "1169"]
-[BlackElo "1387"]
+[WhiteElo "1533"]
+[BlackElo "1858"]
 [PlyCount "68"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B30"]
+[Opening "Sicilian Defense, Old Sicilian, General"]
+[Annotator "lichess.org"]
 
-1. e4 c5 2. Nf3 Nc6 3. Bc4 d6 4. O-O Nf6 5. d3 g6 6. Nc3 Bg7 7. Nd5 O-O 8. Bg5 Nxd5 9. Bxd5 Bxb2 10. Rb1 Bg7 11. Nd2 Nb4 12. Qe1 Nxc2 13. Qd1 Nb4 14. a3 Nxd5 15. exd5 a6 16. f4 b5 17. Ne4 Bf5 18. Rb3 Qd7 19. Qe2 a5 20. Nc3 b4 21. axb4 cxb4 22. Nd1 Rab8 23. Qxe7 a4 24. Qxd7 Bxd7 25. Rb1 Rfe8 26. Nf2 b3 27. Ne4 Rb6 28. Bf6 a3 29. Bxg7 Kxg7 30. Nc3 Reb8 31. Kf2 Bf5 32. Ke3 a2 33. Ra1 Rc8 34. Kd4 Rb4+ 0-1
+1. e4 c5 2. Nf3 Nc6 { Sicilian Defense, Old Sicilian, General } 3. Bc4?! { (0.68 → 0.00) Inaccuracy. } 3... d6?! { (0.00 → 0.76) Inaccuracy. } 4. O-O Nf6 5. d3 g6?! { (0.16 → 0.68) Inaccuracy. } 6. Nc3 Bg7 7. Nd5 O-O 8. Bg5 Nxd5 9. Bxd5 Bxb2 10. Rb1 Bg7 11. Nd2 Nb4 12. Qe1? { (-0.84 → -2.14) Mistake. } 12... Nxc2 13. Qd1 Nb4 14. a3?! { (-2.02 → -2.90) Inaccuracy. } 14... Nxd5 15. exd5 a6 16. f4?! { (-2.50 → -3.31) Inaccuracy. } 16... b5 17. Ne4 Bf5?! { (-3.55 → -2.78) Inaccuracy. } 18. Rb3? { (-2.78 → -4.32) Mistake. } 18... Qd7?! { (-4.32 → -3.55) Inaccuracy. } 19. Qe2 a5 20. Nc3?? { (-3.59 → -7.75) Blunder. } 20... b4? { (-7.75 → -4.88) Mistake. } 21. axb4? { (-4.88 → -7.15) Mistake. } 21... cxb4? { (-7.15 → -5.05) Mistake. } 22. Nd1?! { (-5.05 → -5.57) Inaccuracy. } 22... Rab8?! { (-5.57 → -4.64) Inaccuracy. } 23. Qxe7?? { (-4.64 → -7.91) Blunder. } 23... a4 24. Qxd7 Bxd7 25. Rb1 Rfe8?! { (-9.01 → -8.08) Inaccuracy. } 26. Nf2 b3? { (-8.44 → -7.39) Mistake. } 27. Ne4?! { (-7.39 → -7.95) Inaccuracy. } 27... Rb6? { (-7.95 → -5.49) Mistake. } 28. Bf6? { (-5.49 → -7.55) Mistake. } 28... a3? { (-7.55 → -6.46) Mistake. } 29. Bxg7 Kxg7 30. Nc3?? { (-6.62 → -9.77) Blunder. } 30... Reb8? { (-9.77 → -8.08) Mistake. } 31. Kf2? { (-8.08 → -9.09) Mistake. } 31... Bf5? { (-9.09 → -6.62) Mistake. } 32. Ke3?! { (-6.62 → -7.23) Inaccuracy. } 32... a2? { (-7.23 → -5.17) Mistake. } 33. Ra1? { (-5.17 → -7.51) Mistake. } 33... Rc8? { (-7.51 → -5.77) Mistake. } 34. Kd4 Rb4+ { White resigns } 0-1
