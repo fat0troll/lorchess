@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/onncufkn"]
-[Date "2013-07-06"]
+[Date "2013.07.06"]
 [White "Anonymous"]
 [Black "LOR_J"]
 [Result "1-0"]
@@ -8,5 +8,9 @@
 [BlackElo "1109"]
 [PlyCount "75"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "A20"]
+[Opening "English Opening, King's English Variation, General"]
+[Annotator "lichess.org"]
 
-1. c4 e5 2. e4 Nf6 3. Nc3 Bc5 4. Nf3 Nc6 5. d3 O-O 6. Be3 b6 7. d4 exd4 8. Bxd4 Nxd4 9. Nxd4 Bb4 10. Bd3 c5 11. Nb5 Bb7 12. O-O Nxe4 13. Nxe4 a6 14. Nbd6 Bc6 15. b3 f5 16. Ng3 g6 17. Qe2 Bc3 18. Rac1 Bd4 19. Qd2 Qf6 20. Ndxf5 gxf5 21. Nxf5 d5 22. Qf4 dxc4 23. bxc4 b5 24. Qg4+ Kh8 25. Qh5 Be8 26. Qh3 bxc4 27. Be4 Ra7 28. Nxd4 Bg6 29. Bxg6 Qxg6 30. Nf3 Qd3 31. Qh5 Rf5 32. Qh4 c3 33. Rfd1 Qe2 34. Rd8+ Kg7 35. Qg4+ Kh6 36. Qxf5 Rg7 37. Rd6+ Rg6 38. Qg5+ 1-0
+1. c4 e5 { English Opening, King's English Variation, General } 2. e4 Nf6 3. Nc3 Bc5 4. Nf3 Nc6 5. d3 O-O 6. Be3 b6 7. d4 exd4 8. Bxd4 Nxd4 9. Nxd4 Bb4 10. Bd3 c5 11. Nb5 Bb7 12. O-O Nxe4 13. Nxe4 a6 14. Nbd6 Bc6 15. b3 f5 16. Ng3 g6 17. Qe2 Bc3 18. Rac1 Bd4 19. Qd2 Qf6 20. Ndxf5 gxf5 21. Nxf5 d5 22. Qf4 dxc4 23. bxc4 b5 24. Qg4+ Kh8 25. Qh5 Be8 26. Qh3 bxc4 27. Be4 Ra7 28. Nxd4 Bg6 29. Bxg6 Qxg6 30. Nf3 Qd3 31. Qh5 Rf5 32. Qh4 c3 33. Rfd1 Qe2 34. Rd8+ Kg7 35. Qg4+ Kh6 36. Qxf5 Rg7 37. Rd6+ Rg6 38. Qg5+ { Black resigns } 1-0

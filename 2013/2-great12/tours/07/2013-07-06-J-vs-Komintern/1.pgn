@@ -1,6 +1,6 @@
 [Event "Rated game"]
 [Site "http://lichess.org/o7tnsn37"]
-[Date "2013-07-06"]
+[Date "2013.07.06"]
 [White "LOR_J"]
 [Black "Anonymous"]
 [Result "0-1"]
@@ -8,5 +8,9 @@
 [BlackElo "?"]
 [PlyCount "62"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B00"]
+[Opening "Owen Defense, General"]
+[Annotator "lichess.org"]
 
-1. e4 b6 2. d4 Bb7 3. d5 e6 4. c4 Nf6 5. Bd3 c6 6. e5 Ng8 7. d6 f6 8. f4 fxe5 9. fxe5 Qh4+ 10. g3 Qd4 11. Nf3 Qc5 12. Qe2 Ba6 13. Be3 Qb4+ 14. Nc3 c5 15. a3 Qb3 16. O-O Nc6 17. Ng5 g6 18. Nge4 Nxe5 19. Nb5 Bxb5 20. cxb5 Qxd3 21. Qxd3 Nxd3 22. Ra2 Bg7 23. Nc3 Be5 24. Rd1 c4 25. Ne4 Nxb2 26. Rd2 c3 27. Rc2 Rc8 28. a4 Nf6 29. Nxf6+ Bxf6 30. a5 Nc4 31. Bf2 Nxa5 0-1
+1. e4 b6 { Owen Defense, General } 2. d4 Bb7 3. d5 e6 4. c4 Nf6 5. Bd3 c6 6. e5 Ng8 7. d6 f6 8. f4 fxe5 9. fxe5 Qh4+ 10. g3 Qd4 11. Nf3 Qc5 12. Qe2 Ba6 13. Be3 Qb4+ 14. Nc3 c5 15. a3 Qb3 16. O-O Nc6 17. Ng5 g6 18. Nge4 Nxe5 19. Nb5 Bxb5 20. cxb5 Qxd3 21. Qxd3 Nxd3 22. Ra2 Bg7 23. Nc3 Be5 24. Rd1 c4 25. Ne4 Nxb2 26. Rd2 c3 27. Rc2 Rc8 28. a4 Nf6 29. Nxf6+ Bxf6 30. a5 Nc4 31. Bf2 Nxa5 { White resigns } 0-1
