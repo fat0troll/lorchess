@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/fgpf3c4j"]
-[Date "2013-08-31"]
+[Date "2013.08.31"]
 [White "William_V"]
 [Black "Anonymous"]
 [Result "1-0"]
@@ -8,5 +8,9 @@
 [BlackElo "?"]
 [PlyCount "105"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "B20"]
+[Opening "Sicilian Defense, General"]
+[Annotator "lichess.org"]
 
-1. e4 c5 2. e5 Nc6 3. Nf3 g6 4. b3 Bg7 5. Bb2 d6 6. Bb5 Bg4 7. d4 cxd4 8. Bxd4 a6 9. Bxc6+ bxc6 10. exd6 Bxf3 11. gxf3 e5 12. Bc5 Qd7 13. Na3 Nf6 14. Nc4 Nd5 15. Qe2 Qe6 16. O-O-O O-O 17. Ne3 Nc3 18. Qd3 Nxd1 19. Rxd1 Rfd8 20. h4 h5 21. Nc4 Rd7 22. Nb6 Rxd6 23. Qxd6 Re8 24. Qd3 Qf6 25. Nd7 Qf4+ 26. Rd2 Qxh4 27. Qxa6 Bh6 28. Qxc6 Qh1+ 29. Kb2 Bxd2 30. Ka3 Bg5 31. Nf6+ Bxf6 32. Qxe8+ Kh7 33. Qxf7+ Bg7 34. Bf8 Qc1+ 35. Ka4 Qh6 36. Bd6 Qg5 37. c4 h4 38. Be7 Qh5 39. Bf6 Qh6 40. Bxe5 h3 41. c5 h2 42. Bxh2 Qxh2 43. c6 Qh4+ 44. f4 Qxf2 45. c7 Qc5 46. b4 Qc6+ 47. b5 Qa8+ 48. Kb4 Kh8 49. a4 Qe4+ 50. Qc4 Bf8+ 51. Kb3 Qb7 52. c8=Q Qxc8 53. Qxc8 1-0
+1. e4 c5 { Sicilian Defense, General } 2. e5?! { (0.36 → -0.36) Inaccuracy. } 2... Nc6 3. Nf3 g6?! { (-0.52 → 0.08) Inaccuracy. } 4. b3 Bg7 5. Bb2 d6 6. Bb5 Bg4 7. d4? { (0.36 → -1.13) Mistake. } 7... cxd4 8. Bxd4? { (-1.25 → -4.24) Mistake. } 8... a6?? { (-4.24 → -0.32) Blunder. } 9. Bxc6+ bxc6 10. exd6 Bxf3 11. gxf3 e5? { (-0.32 → 1.41) Mistake. } 12. Bc5?! { (1.41 → 0.88) Inaccuracy. } 12... Qd7 13. Na3 Nf6 14. Nc4 Nd5 15. Qe2?! { (1.41 → 0.44) Inaccuracy. } 15... Qe6? { (0.44 → 1.45) Mistake. } 16. O-O-O O-O 17. Ne3?! { (1.29 → 0.32) Inaccuracy. } 17... Nc3 18. Qd3?! { (0.00 → -0.72) Inaccuracy. } 18... Nxd1? { (-0.72 → 0.32) Mistake. } 19. Rxd1 Rfd8 20. h4 h5 21. Nc4 Rd7? { (0.60 → 2.94) Mistake. } 22. Nb6 Rxd6? { (2.98 → 5.49) Mistake. } 23. Qxd6 Re8 24. Qd3? { (5.97 → 4.28) Mistake. } 24... Qf6? { (4.28 → 5.53) Mistake. } 25. Nd7? { (5.53 → 4.32) Mistake. } 25... Qf4+?! { (4.32 → 5.01) Inaccuracy. } 26. Rd2? { (5.01 → 3.23) Mistake. } 26... Qxh4 27. Qxa6?! { (3.55 → 2.94) Inaccuracy. } 27... Bh6? { (2.94 → 4.76) Mistake. } 28. Qxc6? { (4.76 → 2.54) Mistake. } 28... Qh1+?? { (2.54 → 6.02) Blunder. } 29. Kb2 Bxd2 30. Ka3?? { (5.77 → -1.05) Blunder. } 30... Bg5?? { (-1.05 → 3.55) Blunder. } 31. Nf6+ Bxf6 32. Qxe8+ Kh7 33. Qxf7+ Bg7 34. Bf8?! { (3.79 → 3.27) Inaccuracy. } 34... Qc1+ 35. Ka4? { (3.51 → 2.34) Mistake. } 35... Qh6?! { (2.34 → 3.31) Inaccuracy. } 36. Bd6?! { (3.31 → 2.58) Inaccuracy. } 36... Qg5 37. c4 h4 38. Be7?! { (2.70 → 2.14) Inaccuracy. } 38... Qh5? { (2.14 → 4.16) Mistake. } 39. Bf6 Qh6 40. Bxe5 h3 41. c5 h2 42. Bxh2 Qxh2 43. c6 Qh4+? { (3.91 → 5.45) Mistake. } 44. f4? { (5.45 → 3.43) Mistake. } 44... Qxf2?! { (3.43 → 4.28) Inaccuracy. } 45. c7 Qc5? { (4.36 → 5.89) Mistake. } 46. b4 Qc6+? { (5.81 → 6.98) Mistake. } 47. b5 Qa8+ 48. Kb4? { (6.86 → 4.56) Mistake. } 48... Kh8?? { (4.56 → 9.85) Blunder. } 49. a4?? { (9.85 → 0.00) Blunder. } 49... Qe4+?? { (0.00 → 12.40) Blunder. } 50. Qc4?? { (12.40 → 0.00) Blunder. } 50... Bf8+ 51. Kb3 Qb7?? { (0.00 → 102.13) Blunder. } 52. c8=Q Qxc8 53. Qxc8 { Black resigns } 1-0

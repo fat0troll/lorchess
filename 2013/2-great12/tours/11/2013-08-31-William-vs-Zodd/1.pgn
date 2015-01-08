@@ -1,6 +1,6 @@
 [Event "Rated game"]
 [Site "http://lichess.org/hqj6w2h0"]
-[Date "2013-08-31"]
+[Date "2013.08.31"]
 [White "Anonymous"]
 [Black "William_V"]
 [Result "1-0"]
@@ -8,5 +8,9 @@
 [BlackElo "1354"]
 [PlyCount "53"]
 [Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C41"]
+[Opening "Philidor Defense, General"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 d6 3. Bc4 Nc6 4. d3 Bg4 5. h3 Bh5 6. O-O Nd4 7. Nbd2 Qf6 8. c3 Nxf3+ 9. Nxf3 Ne7 10. Bg5 Qg6 11. Bh4 Qh6 12. Bg3 O-O-O 13. d4 exd4 14. cxd4 Ng6 15. Bxf7 Nf4 16. Bxh5 Nxh5 17. Bh2 Qg6 18. Re1 Be7 19. Qa4 Rhf8 20. e5 Rxf3 21. Kf1 Qd3+ 22. Re2 Rff8 23. Rd1 Qf5 24. Qxa7 Bh4 25. f3 Bg3 26. e6 Bxh2 27. Qa8# 1-0
+1. e4 e5 2. Nf3 d6 { Philidor Defense, General } 3. Bc4 Nc6 4. d3 Bg4 5. h3 Bh5 6. O-O Nd4 7. Nbd2 Qf6? { (0.44 → 1.77) Mistake. } 8. c3? { (1.77 → 0.76) Mistake. } 8... Nxf3+ 9. Nxf3 Ne7? { (0.84 → 3.23) Mistake. } 10. Bg5?! { (3.23 → 2.38) Inaccuracy. } 10... Qg6 11. Bh4? { (2.22 → 1.01) Mistake. } 11... Qh6? { (1.01 → 2.66) Mistake. } 12. Bg3? { (2.66 → 0.44) Mistake. } 12... O-O-O 13. d4?! { (0.44 → -0.40) Inaccuracy. } 13... exd4? { (-0.40 → 0.84) Mistake. } 14. cxd4 Ng6? { (0.88 → 2.22) Mistake. } 15. Bxf7 Nf4?? { (2.38 → 5.73) Blunder. } 16. Bxh5?? { (5.73 → 2.02) Blunder. } 16... Nxh5 17. Bh2 Qg6 18. Re1 Be7 19. Qa4 Rhf8 20. e5? { (2.42 → 0.00) Mistake. } 20... Rxf3 21. Kf1?? { (0.00 → -3.87) Blunder. } 21... Qd3+? { (-3.87 → -1.37) Mistake. } 22. Re2?? { (-1.37 → -5.17) Blunder. } 22... Rff8? { (-5.17 → -2.82) Mistake. } 23. Rd1? { (-2.82 → -5.53) Mistake. } 23... Qf5?? { (-5.53 → 0.44) Blunder. } 24. Qxa7 Bh4?? { (0.44 → 4.04) Blunder. } 25. f3?? { (4.04 → 0.64) Blunder. } 25... Bg3? { (0.64 → 1.97) Mistake. } 26. e6 Bxh2 27. Qa8# { Black is checkmated } 1-0
