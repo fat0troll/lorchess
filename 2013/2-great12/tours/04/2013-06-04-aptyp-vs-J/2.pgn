@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/gqsxq8ib"]
+[Date "2013.06.04"]
+[White "LOR_J"]
+[Black "aptypr"]
+[Result "1-0"]
+[WhiteElo "1540"]
+[BlackElo "1374"]
+[PlyCount "75"]
+[Variant "Standard"]
+[TimeControl "1200+5"]
+[ECO "C34"]
+[Opening "King's Gambit, Accepted, Schallop Defense"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. f4?! { (0.36 → -0.44) Inaccuracy. } 2... exf4 3. Nf3 Nf6 { King's Gambit, Accepted, Schallop Defense } 4. e5 Nd5 5. Bc4?! { (0.16 → -0.44) Inaccuracy. } 5... Nb6 6. Bb3 Nc6?! { (-0.48 → 0.12) Inaccuracy. } 7. d4 d6 8. Bxf4 Be6? { (0.24 → 1.57) Mistake. } 9. d5 Nxd5? { (1.57 → 2.58) Mistake. } 10. Bxd5 dxe5 11. Bxc6+ bxc6 12. Qxd8+ Rxd8 13. Bxe5 Bd6?! { (2.70 → 3.27) Inaccuracy. } 14. Bxd6 cxd6 15. O-O O-O 16. Nd4 Bd5? { (3.07 → 4.56) Mistake. } 17. b3?! { (4.56 → 3.63) Inaccuracy. } 17... c5 18. Nb5?! { (3.79 → 3.23) Inaccuracy. } 18... a5? { (3.23 → 4.32) Mistake. } 19. Nb1c3 Bb7 20. Rad1 Ba6? { (4.32 → 5.37) Mistake. } 21. Rf2 d5 22. Nc7 d4 23. Rfd2? { (5.45 → 3.59) Mistake. } 23... Bb7 24. Nc3b5 Bc6 25. c3 Bxb5 26. Nxb5 Rb8 27. Na3?! { (4.32 → 3.59) Inaccuracy. } 27... dxc3 28. Rc2 Rfc8?! { (3.83 → 4.52) Inaccuracy. } 29. Rxc3 Rd8? { (4.52 → 5.93) Mistake. } 30. Rdc1? { (5.93 → 4.12) Mistake. } 30... g6? { (4.12 → 5.29) Mistake. } 31. Rxc5 Ra8?! { (5.37 → 5.97) Inaccuracy. } 32. h3?! { (5.97 → 5.33) Inaccuracy. } 32... Rd3 33. Rc8+ Rxc8 34. Rxc8+ Kg7 35. Nc4 Kf6 36. Nxa5 Ke7?! { (6.02 → 6.58) Inaccuracy. } 37. Ra8 Rd8?? { (6.10 → 20.52) Blunder. } 38. Nc6+ { Black resigns } 1-0
