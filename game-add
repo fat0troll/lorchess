@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright 2014 Vladimir Ivanov <ivvl82@gmail.com>
+# Copyright 2014, 2015 Vladimir Ivanov <ivvl82@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 REPO_DIR=
@@ -271,7 +271,7 @@ function game_store_pgns {
         [[ -n $old_pgns ]] && pgn_index=$(wc -l <<< "$old_pgns")
     fi
     for pgn in ${TMP_PGN_FILES[@]}; do
-        (( pgn_index += 1 ))
+        (( pgn_index++ ))
         echo "Storing file ${game_dir}/${pgn_index}.pgn..."
         cp $pgn ${game_dir}/${pgn_index}.pgn
     done
@@ -313,7 +313,7 @@ function game_get_result {
         fi
 
         result+=" $res"
-        (( res_index += 1 ))
+        (( res_index++ ))
     done <<< "$(echo -e "$ply_names")"
 
     $ADD_GAMES && [[ -n $res_old ]] && result=" ${res_old}${result}"

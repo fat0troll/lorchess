@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright 2014 Vladimir Ivanov <ivvl82@gmail.com>
+# Copyright 2014, 2015 Vladimir Ivanov <ivvl82@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 REPO_DIR=
@@ -32,7 +32,7 @@ function parse_tour_info {
             local result=${BASH_REMATCH[5]}-${BASH_REMATCH[6]}
             local round=$(echo "($tour - 1)/($ply_count - 1) + 1" | bc)
             parse_to_ini
-            ((game_counter += 1))
+            (( game_counter++ ))
         fi
     done <<< "$tour_info"
 }
