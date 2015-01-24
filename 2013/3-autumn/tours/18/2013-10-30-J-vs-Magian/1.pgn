@@ -8,6 +8,9 @@
 [BlackElo "1588"]
 [PlyCount "36"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C50"]
+[Opening "Italian Game, Italian Variation"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O d6 5. h3 Nf6 6. Nc3 h6 7. Nd5?! { (0.14 → -0.82) Inaccuracy. The best move was d3. } (7. d3 a6 8. Nd5 O-O 9. Be3 Nxd5 10. Bxc5 Nf6 11. Be3 Na5) 7... Nxe4 8. d3 Nxf2?! { (-0.96 → -0.14) Inaccuracy. The best move was Nf6. } (8... Nf6 9. c3 O-O 10. d4 exd4 11. cxd4 Bb6 12. Rfe1 Nxd5 13. Bxd5) 9. Rxf2 Bxf2+ 10. Kh1?? { (-0.22 → -4.72) Blunder. The best move was Kxf2. } (10. Kxf2 Na5 11. Bb3 Nxb3 12. axb3 Be6 13. Nc3 O-O 14. Kg1 f5) 10... Be6 11. Qe2 Bc5 12. Be3 Bxe3 13. Qxe3 O-O 14. b4? { (-4.94 → -6.02) Mistake. The best move was Qd2. } (14. Qd2 a5 15. a4 Nb4 16. Nxb4 Bxc4 17. dxc4 axb4 18. Ng1 c5) 14... a6?! { (-6.02 → -5.23) Inaccuracy. The best move was b5. } (14... b5 15. Bb3 a5 16. Qe4 Qd7 17. a3 Rfe8 18. Rc1 f5 19. Qe1) 15. a4 Bxd5 16. Bxd5 Nxb4 17. c3?? { (-5.67 → -11.07) Blunder. The best move was Bb3. } (17. Bb3 Nc6 18. Qe4 Kh8 19. Bd5 f5 20. Qc4 Na5 21. Qc3 c6) 17... Nxd5 18. Rf1 Nxe3 0-1
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 { Italian Game, Italian Variation } 4. O-O d6 5. h3 Nf6 6. Nc3 h6 7. Nd5?! { (0.14 → -0.82) Inaccuracy. The best move was d3. } (7. d3 a6 8. Nd5 O-O 9. Be3 Nxd5 10. Bxc5 Nf6 11. Be3 Na5) 7... Nxe4 8. d3 Nxf2?! { (-0.96 → -0.14) Inaccuracy. The best move was Nf6. } (8... Nf6 9. c3 O-O 10. d4 exd4 11. cxd4 Bb6 12. Rfe1 Nxd5 13. Bxd5) 9. Rxf2 Bxf2+ 10. Kh1?? { (-0.22 → -4.72) Blunder. The best move was Kxf2. } (10. Kxf2 Na5 11. Bb3 Nxb3 12. axb3 Be6 13. Nc3 O-O 14. Kg1 f5) 10... Be6 11. Qe2 Bc5 12. Be3 Bxe3 13. Qxe3 O-O 14. b4? { (-4.94 → -6.02) Mistake. The best move was Qd2. } (14. Qd2 a5 15. a4 Nb4 16. Nxb4 Bxc4 17. dxc4 axb4 18. Ng1 c5) 14... a6?! { (-6.02 → -5.23) Inaccuracy. The best move was b5. } (14... b5 15. Bb3 a5 16. Qe4 Qd7 17. a3 Rfe8 18. Rc1 f5 19. Qe1) 15. a4 Bxd5 16. Bxd5 Nxb4 17. c3?? { (-5.67 → -11.07) Blunder. The best move was Bb3. } (17. Bb3 Nc6 18. Qe4 Kh8 19. Bd5 f5 20. Qc4 Na5 21. Qc3 c6) 17... Nxd5 18. Rf1 Nxe3 { White resigns } 0-1
