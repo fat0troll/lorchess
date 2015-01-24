@@ -4,9 +4,13 @@
 [White "sshilovsky"]
 [Black "Magian"]
 [Result "1-0"]
-[WhiteElo "1230"]
-[BlackElo "1452"]
+[WhiteElo "1626"]
+[BlackElo "1881"]
 [PlyCount "57"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C20"]
+[Opening "Bishop's Opening, Boi Variation"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Bc4 Bc5 3. Nf3 d6 4. d3 Bg4 5. Bxf7+ Kf8 6. Bxg8 Kxg8 7. h3 Bh5 8. g4 Bg6 9. Nc3 c6 10. Bg5 Qe8 11. d4 exd4 12. Nxd4 Bxe4 13. Nxe4 Qxe4+ 14. Qe2 Qxh1+ 15. Kd2 Nd7 16. Qe6+ Kf8 17. Be7+ Ke8 18. Bxd6+ Kd8 19. Rxh1 Re8 20. Qc4 Bxd6 21. Ne6+ Kc8 22. Re1 Ne5 23. Qb3 b5 24. f4 Nc4+ 25. Kd1 g6 26. f5 Bg3 27. Qxg3 Nxb2+ 28. Kc1 Nc4 29. Qc7# 1-0
+1. e4 e5 2. Bc4 Bc5 { Bishop's Opening, Boi Variation } 3. Nf3 d6?! { (0.18 → 0.88) Inaccuracy. The best move was Nc6. } (3... Nc6 4. d3 Nf6 5. Nc3 O-O 6. O-O h6) 4. d3?! { (0.88 → 0.20) Inaccuracy. The best move was c3. } (4. c3 Qe7 5. d4 exd4 6. cxd4 Bb4+ 7. Kf1 d5 8. Bxd5 Nf6) 4... Bg4 5. Bxf7+? { (0.32 → -2.12) Mistake. The best move was c3. } (5. c3 Nf6 6. d4 exd4 7. cxd4 Bb4+ 8. Nc3 O-O 9. h3 Bxf3) 5... Kf8?? { (-2.12 → 2.42) Blunder. The best move was Kxf7. } (5... Kxf7 6. Nxe5+ dxe5 7. Qxg4 Nf6 8. Qd1 Rhf8 9. O-O Nc6 10. Nd2) 6. Bxg8? { (2.42 → 1.31) Mistake. The best move was Bb3. } (6. Bb3 Nf6 7. O-O Nc6 8. c3 a5 9. Nbd2 h6 10. Nc4 a4) 6... Kxg8 7. h3 Bh5 8. g4 Bg6 9. Nc3 c6 10. Bg5 Qe8 11. d4?! { (1.67 → 0.68) Inaccuracy. The best move was Nh4. } (11. Nh4 Nd7 12. Nf5 h6 13. Be3 Bxe3 14. fxe3 Qe6 15. Rhf1 Kh7) 11... exd4 12. Nxd4 Bxe4 13. Nxe4? { (1.19 → -0.38) Mistake. The best move was O-O. } (13. O-O h6 14. Rfe1 d5 15. Bh4 Nd7 16. Nxe4 dxe4 17. c3 Kh7) 13... Qxe4+ 14. Qe2 Qxh1+?? { (-0.32 → 8.66) Blunder. The best move was Qxe2+. } (14... Qxe2+ 15. Nxe2 Nd7 16. Be3 h5 17. g5 Kf7 18. Bxc5 Nxc5 19. f3) 15. Kd2 Nd7? { (8.64 → Mate in 5) Checkmate is now unavoidable. The best move was h6. } (15... h6 16. Qe6+ Kh7 17. Qf5+ Kg8 18. Rxh1 Bxd4 19. Be7 Be5 20. Qc8+) 16. Qe6+ Kf8 17. Be7+ Ke8 18. Bxd6+? { (Mate in 3 → 7.39) Lost forced checkmate sequence. The best move was Bf6+. } (18. Bf6+ Kf8 19. Qe7+ Kg8 20. Qxg7#) 18... Kd8 19. Rxh1 Re8 20. Qc4?? { (8.70 → 4.96) Blunder. The best move was Re1. } (20. Re1 Rxe6 21. Nxe6+ Kc8 22. Nxc5 Nxc5 23. Bxc5 b6 24. Bd4 Kd7) 20... Bxd6 21. Ne6+ Kc8 22. Re1? { (5.55 → 4.16) Mistake. The best move was Nxg7. } (22. Nxg7 Nb6 23. Qb3 Re7 24. Nf5 Rd7 25. Nxd6+ Rxd6+ 26. Kc1 Kc7) 22... Ne5 23. Qb3 b5 24. f4?! { (4.76 → 4.00) Inaccuracy. The best move was Nxg7. } (24. Nxg7 Nc4+ 25. Kd1 Rxe1+ 26. Kxe1 Kb7 27. Qd3 Rd8 28. Qxh7 Rd7) 24... Nc4+ 25. Kd1 g6?! { (4.00 → 4.68) Inaccuracy. The best move was Re7. } (25... Re7 26. a4 a6 27. Qc3 Kb7 28. Qd4 Bb4 29. Re2 Rae8 30. f5) 26. f5 Bg3?? { (4.56 → 15.03) Blunder. The best move was gxf5. } (26... gxf5 27. gxf5 Re7 28. f6 Rd7 29. Kc1 Kb7 30. Qf3 Rf7 31. Ng5) 27. Qxg3 Nxb2+ 28. Kc1 Nc4?! { (30.10 → Mate in 1) Checkmate is now unavoidable. The best move was Rxe6. } (28... Rxe6 29. Rxe6 Kb7 30. Kxb2 Rc8 31. f6 a5 32. f7 h5 33. Re8) 29. Qc7# { Black is checkmated } 1-0
