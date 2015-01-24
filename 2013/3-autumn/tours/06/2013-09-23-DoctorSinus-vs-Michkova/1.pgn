@@ -4,9 +4,13 @@
 [White "fat0troll"]
 [Black "Michkova"]
 [Result "0-1"]
-[WhiteElo "981"]
-[BlackElo "1355"]
+[WhiteElo "1333"]
+[BlackElo "1678"]
 [PlyCount "48"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C20"]
+[Opening "King Pawn Game, General"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Be2 Nf6 3. Nf3 Nc6 4. Nc3 Bc5 5. O-O O-O 6. d3 d6 7. Be3 Nd4 8. Nxd4 exd4 9. Bg5 dxc3 10. bxc3 h6 11. Bxf6 Qxf6 12. c4 Bd4 13. Rb1 Qg5 14. g3 Bh3 15. Re1 Bc3 16. f4 Qc5+ 17. d4 Bxd4+ 18. Kh1 Bf2 19. Qd5 Qe3 20. Bh5 Bxe1 21. Qxb7 Rab8 22. e5 Rxb7 23. Rxb7 Qe4+ 24. Kg1 Qg2# 0-1
+1. e4 e5 { King Pawn Game, General } 2. Be2 Nf6 3. Nf3 Nc6 4. Nc3 Bc5 5. O-O O-O 6. d3 d6 7. Be3 Nd4 8. Nxd4?? { (-0.06 → -3.31) Blunder. } 8... exd4 9. Bg5 dxc3 10. bxc3 h6 11. Bxf6 Qxf6 12. c4?! { (-3.83 → -4.50) Inaccuracy. } 12... Bd4 13. Rb1 Qg5 14. g3?! { (-4.20 → -4.94) Inaccuracy. } 14... Bh3 15. Re1 Bc3?! { (-5.47 → -4.66) Inaccuracy. } 16. f4? { (-4.66 → -6.34) Mistake. } 16... Qc5+ 17. d4 Bxd4+ 18. Kh1 Bf2 19. Qd5? { (-6.52 → -7.95) Mistake. } 19... Qe3?! { (-7.95 → -7.01) Inaccuracy. } 20. Bh5? { (-7.01 → -13.09) Mistake. } 20... Bxe1 21. Qxb7?! { (-13.07 → Mate in 3) Checkmate is now unavoidable. } 21... Rab8?! { (Mate in 3 → Mate in 5) Not the best checkmate sequence. } 22. e5 Rxb7 23. Rxb7 Qe4+ 24. Kg1 Qg2# { White is checkmated } 0-1
