@@ -4,10 +4,13 @@
 [White "Nedis"]
 [Black "aptypr"]
 [Result "1-0"]
-[WhiteElo "1349"]
-[BlackElo "1240"]
+[WhiteElo "1716"]
+[BlackElo "1677"]
 [PlyCount "59"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C84"]
+[Opening "Spanish Game, Closed Variations"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Rfe1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Bd2?! { (0.18 → -0.32) Inaccuracy. The best move was d5. } (12. d5 Bd7 13. b3 c4 14. Bb2 Rfc8 15. Nbd2 Nb7 16. b4 a5) 12... cxd4 13. cxd4 Nc4 14. Bc3 a5 15. b3 b4 16. bxc4 bxc3 17. Nxc3 Qxc4 18. Nd5 Nxd5 19. exd5 Qxd5?? { (0.50 → 5.23) Blunder. The best move was f6. } (19... f6 20. dxe5 fxe5 21. Nxe5 Qf4 22. Nf3 Bd8 23. Qd4 Qxd4 24. Nxd4) 20. Be4 Qxe4? { (5.19 → 7.55) Mistake. The best move was Qc4. } (20... Qc4 21. Bxa8 Bxh3 22. Be4 Be6 23. dxe5 d5 24. Bd3 Qg4 25. Qb1) 21. Rxe4 Bf6 22. dxe5 dxe5 23. Nxe5 Rfe8? { (8.16 → 10.50) Mistake. The best move was Rfd8. } (23... Rfd8 24. Qe2 Bf5 25. Re3 Be6 26. Rae1 h6 27. Nc6 Rd6 28. Qb5) 24. Qb3? { (10.50 → 8.06) Mistake. The best move was Nxf7. } (24. Nxf7 Rxe4 25. Qd5 Re6 26. Ng5 Raa6 27. Rc1 Bxg5 28. Rxc8+ Kf7) 24... Bf5? { (8.06 → 11.35) Mistake. The best move was Be6. } (24... Be6 25. Qg3 Bd5 26. Re2 Bc4 27. Ree1 Be6 28. a4 Rab8 29. Nc6) 25. Qxf7+ Kh8 26. Qd5 Bxe4?! { (11.93 → Mate in 4) Checkmate is now unavoidable. The best move was Bxe5. } (26... Bxe5 27. Rxe5 Red8 28. Qf3 Bc2 29. Rae1 Bg6 30. Rd1 Rxd1+ 31. Qxd1) 27. Nf7+ Kg8 28. Nh6+ Kh8 29. Qg8+ Rexg8 30. Nf7# 1-0
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 { Spanish Game, Closed Variations } 6. Rfe1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Bd2?! { (0.18 → -0.32) Inaccuracy. The best move was d5. } (12. d5 Bd7 13. b3 c4 14. Bb2 Rfc8 15. Nbd2 Nb7 16. b4 a5) 12... cxd4 13. cxd4 Nc4 14. Bc3 a5 15. b3 b4 16. bxc4 bxc3 17. Nxc3 Qxc4 18. Nd5 Nxd5 19. exd5 Qxd5?? { (0.50 → 5.23) Blunder. The best move was f6. } (19... f6 20. dxe5 fxe5 21. Nxe5 Qf4 22. Nf3 Bd8 23. Qd4 Qxd4 24. Nxd4) 20. Be4 Qxe4? { (5.19 → 7.55) Mistake. The best move was Qc4. } (20... Qc4 21. Bxa8 Bxh3 22. Be4 Be6 23. dxe5 d5 24. Bd3 Qg4 25. Qb1) 21. Rxe4 Bf6 22. dxe5 dxe5 23. Nxe5 Rfe8? { (8.16 → 10.50) Mistake. The best move was Rfd8. } (23... Rfd8 24. Qe2 Bf5 25. Re3 Be6 26. Rae1 h6 27. Nc6 Rd6 28. Qb5) 24. Qb3? { (10.50 → 8.06) Mistake. The best move was Nxf7. } (24. Nxf7 Rxe4 25. Qd5 Re6 26. Ng5 Raa6 27. Rc1 Bxg5 28. Rxc8+ Kf7) 24... Bf5? { (8.06 → 11.35) Mistake. The best move was Be6. } (24... Be6 25. Qg3 Bd5 26. Re2 Bc4 27. Ree1 Be6 28. a4 Rab8 29. Nc6) 25. Qxf7+ Kh8 26. Qd5 Bxe4?! { (11.93 → Mate in 4) Checkmate is now unavoidable. The best move was Bxe5. } (26... Bxe5 27. Rxe5 Red8 28. Qf3 Bc2 29. Rae1 Bg6 30. Rd1 Rxd1+ 31. Qxd1) 27. Nf7+ Kg8 28. Nh6+ Kh8 29. Qg8+ Rexg8 30. Nf7# { Black is checkmated } 1-0
