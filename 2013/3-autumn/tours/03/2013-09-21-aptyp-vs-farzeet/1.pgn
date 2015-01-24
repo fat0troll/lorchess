@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/s6grpyj9"]
-[Date "2013-09-21"]
+[Date "2013.09.21"]
 [White "aptypr"]
 [Black "farzeet"]
 [Result "1-0"]
-[WhiteElo "1258"]
-[BlackElo "1041"]
+[WhiteElo "1632"]
+[BlackElo "1306"]
 [PlyCount "65"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C40"]
+[Opening "King's Knight Opening, General"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Bd6 3. d4 Qe7 4. dxe5 Bxe5 5. Nxe5 Qxe5 6. Nc3 d6 7. Bc4 Ne7 8. Be3 O-O 9. Qf3 h6 10. O-O-O Be6 11. Bd4 Qg5+ 12. Be3 Qa5 13. Bb3 Bxb3 14. cxb3 Nbc6 15. h4 Rad8 16. g4 b5 17. h5 g5 18. hxg6 fxg6 19. Qh3 Kg7 20. Bxh6+ Kf7 21. Bxf8 Rxf8 22. Qh7+ Ke6 23. Rhf1 b4 24. Nd5 Qxa2 25. Kc2 Rf3 26. Rd3 Nd4+ 27. Rxd4 Qxb3+ 28. Kc1 Nc6 29. Nxc7+ Ke5 30. Qg7+ Kf4 31. Qf6+ Kxg4 32. Qxg6+ Kf4 33. Qf5# 1-0
+1. e4 e5 2. Nf3 { King's Knight Opening, General } Bd6?! { (0.22 → 0.88) Inaccuracy. } 3. d4 Qe7?! { (0.88 → 1.69) Inaccuracy. } 4. dxe5 Bxe5 5. Nxe5 Qxe5 6. Nc3 d6 7. Bc4 Ne7?! { (0.68 → 1.47) Inaccuracy. } 8. Be3 O-O 9. Qf3? { (1.47 → 0.44) Mistake. } 9... h6?! { (0.44 → 1.01) Inaccuracy. } 10. O-O-O Be6 11. Bd4?! { (0.82 → 0.00) Inaccuracy. } 11... Qg5+ 12. Be3 Qa5? { (0.00 → 1.25) Mistake. } 13. Bb3? { (1.25 → 0.16) Mistake. } 13... Bxb3 14. cxb3 Nbc6 15. h4 Rad8 16. g4 b5?! { (0.34 → 0.92) Inaccuracy. } 17. h5?! { (0.92 → 0.02) Inaccuracy. } 17... g5?? { (0.02 → 3.97) Blunder. } 18. hxg6 fxg6? { (3.95 → 5.01) Mistake. } 19. Qh3?! { (5.01 → 4.34) Inaccuracy. } 19... Kg7?! { (4.34 → 5.29) Inaccuracy. } 20. Bxh6+ Kf7 21. Bxf8?? { (13.35 → 5.29) Blunder. } 21... Rxf8 22. Qh7+?! { (5.67 → 4.90) Inaccuracy. } 22... Ke6 23. Rhf1?! { (5.27 → 4.34) Inaccuracy. } 23... b4?! { (4.34 → 5.33) Inaccuracy. } 24. Nd5?! { (5.33 → 4.76) Inaccuracy. } 24... Qxa2 25. Kc2?! { (4.76 → 3.89) Inaccuracy. } 25... Rf3 26. Rd3? { (2.76 → 0.00) Mistake. } 26... Nd4+?? { (0.00 → 11.47) Blunder. } 27. Rxd4 Qxb3+ 28. Kc1 Nc6 29. Nxc7+ Ke5 30. Qg7+ Kf4?! { (20.48 → Mate in 6) Checkmate is now unavoidable. } 31. Qf6+ Kxg4 32. Qxg6+?! { (Mate in 5 → Mate in 6) Not the best checkmate sequence. } 32... Kf4 33. Qf5# { Black is checkmated } 1-0
