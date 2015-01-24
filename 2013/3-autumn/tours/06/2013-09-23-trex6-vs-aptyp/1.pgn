@@ -4,9 +4,13 @@
 [White "txgames"]
 [Black "aptypr"]
 [Result "0-1"]
-[WhiteElo "1135"]
-[BlackElo "1283"]
+[WhiteElo "1460"]
+[BlackElo "1641"]
 [PlyCount "88"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C45"]
+[Opening "Scotch Game, Classical Variation, Intermezzo Variation"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nxc6 Qf6 6. Be3 Bxe3 7. fxe3 Qxc6 8. Bd3 d6 9. O-O Nf6 10. Qe2 Bg4 11. Bb5 Bxe2 12. Bxc6+ bxc6 13. Rf2 Bb5 14. Nc3 O-O 15. a4 Bc4 16. b3 Be6 17. Ne2 Nxe4 18. Rf4 d5 19. Raf1 Nc5 20. Nc3 Na6 21. e4 dxe4 22. Nxe4 Nb4 23. Rf1f2 Bxb3 24. cxb3 Nd3 25. Rxf7 Nxf2 26. Rxf8+ Rxf8 27. Nxf2 a5 28. Nd3 Rf5 29. b4 axb4 30. Nxb4 Ra5 31. Nxc6 Rxa4 32. Nd8 Rc4 33. Nb7 Re4 34. Na5 c5 35. Kf2 c4 36. Kf3 Rd4 37. Ke3 Rh4 38. Kd2 Kf7 39. Kc3 Rxh2 40. Nxc4 Rxg2 41. Ne5+ Ke6 42. Nc6 h5 43. Nd4+ Kf6 44. Nf3 Rg3 0-1
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nxc6 Qf6 { Scotch Game, Classical Variation, Intermezzo Variation } 6. Be3?! { (0.16 → -0.38) Inaccuracy. } 6... Bxe3 7. fxe3 Qxc6? { (-0.38 → 0.70) Mistake. } 8. Bd3? { (0.70 → -0.42) Mistake. } 8... d6?! { (-0.42 → 0.14) Inaccuracy. } 9. O-O?! { (0.14 → -0.42) Inaccuracy. } 9... Nf6?! { (-0.42 → 0.10) Inaccuracy. } 10. Qe2? { (0.10 → -0.94) Mistake. } 10... Bg4 11. Bb5?? { (-0.74 → -6.10) Blunder. } 11... Bxe2 12. Bxc6+ bxc6 13. Rf2 Bb5?! { (-6.12 → -5.41) Inaccuracy. } 14. Nc3 O-O 15. a4 Bc4 16. b3 Be6 17. Ne2? { (-5.63 → -6.66) Mistake. } 17... Nxe4 18. Rf4 d5 19. Raf1? { (-6.66 → -7.79) Mistake. } 19... Nc5? { (-7.79 → -6.20) Mistake. } 20. Nc3 Na6 21. e4 dxe4?! { (-6.28 → -5.47) Inaccuracy. } 22. Nxe4 Nb4?! { (-5.47 → -4.60) Inaccuracy. } 23. Rf1f2?! { (-4.60 → -5.45) Inaccuracy. } 23... Bxb3?! { (-5.45 → -4.46) Inaccuracy. } 24. cxb3 Nd3 25. Rxf7?? { (-4.56 → -8.38) Blunder. } 25... Nxf2?? { (-8.38 → -4.48) Blunder. } 26. Rxf8+? { (-4.48 → -6.90) Mistake. } 26... Rxf8 27. Nxf2 a5? { (-6.90 → -4.30) Mistake. } 28. Nd3 Rf5?! { (-4.46 → -3.75) Inaccuracy. } 29. b4?? { (-3.75 → -8.76) Blunder. } 29... axb4?? { (-8.76 → -5.53) Blunder. } 30. Nxb4 Ra5 31. Nxc6 Rxa4?! { (-5.45 → -4.84) Inaccuracy. } 32. Nd8? { (-4.84 → -7.27) Mistake. } 32... Rc4? { (-7.27 → -5.39) Mistake. } 33. Nb7 Re4?! { (-5.87 → -4.94) Inaccuracy. } 34. Na5? { (-4.94 → -6.40) Mistake. } 34... c5 35. Kf2 c4? { (-6.40 → -5.31) Mistake. } 36. Kf3 Rd4 37. Ke3 Rh4 38. Kd2? { (-5.35 → -7.09) Mistake. } 38... Kf7? { (-7.09 → -5.85) Mistake. } 39. Kc3? { (-5.85 → -7.47) Mistake. } 39... Rxh2 40. Nxc4? { (-7.47 → -10.16) Mistake. } 40... Rxg2? { (-10.16 → -7.31) Mistake. } 41. Ne5+? { (-7.31 → -88.84) Mistake. } 41... Ke6 42. Nc6 h5 43. Nd4+ Kf6 44. Nf3 Rg3 { White resigns } 0-1
