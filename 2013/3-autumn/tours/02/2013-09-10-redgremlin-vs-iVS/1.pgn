@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/d4yo486h"]
-[Date "2013-09-10"]
+[Date "2013.09.10"]
 [White "gremlin_the_red"]
 [Black "iVS"]
 [Result "1/2-1/2"]
-[WhiteElo "1231"]
-[BlackElo "1419"]
+[WhiteElo "1761"]
+[BlackElo "1853"]
 [PlyCount "115"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "E20"]
+[Opening "Nimzo-Indian Defense, Kmoch Variation"]
+[Annotator "lichess.org"]
 
-1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 d5 5. e3 b6 6. a3 Bxc3+ 7. bxc3 Ba6 8. cxd5 Bxf1 9. Kxf1 exd5 10. Ne2 O-O 11. g4 Nfd7 12. Ng3 Nc6 13. h4 Na5 14. Qd3 Nc4 15. Nf5 Re8 16. Kf2 Qf6 17. h5 h6 18. Bd2 Rad8 19. Rag1 c5 20. Bc1 Nf8 21. f4 Re4 22. Ng3 Re6 23. g5 hxg5 24. h6 g6 25. Ne2 Nh7 26. e4 Na5 27. e5 Qe7 28. fxg5 cxd4 29. cxd4 Nc4 30. Nf4 Nxe5 31. dxe5 Rxe5 32. Nxg6 Qc5+ 33. Be3 Rxe3 34. Qxe3 Qc2+ 35. Kf3 Qxg6 36. Qe5 d4 37. Rh2 d3 38. Rd2 Qh5+ 39. Rg4 Qh3+ 40. Rg3 Qf1+ 41. Kg4 f6 42. Qe6+ Kf8 43. g6 Rd4+ 44. Kh5 Qh1+ 45. Rh2 Qxh2+ 46. Qh3 Rd5+ 47. Kh4 Rd4+ 48. Rg4 Qf2+ 49. Qg3 Rxg4+ 50. Kxg4 f5+ 51. Kh3 Qf1+ 52. Kh2 Qe2+ 53. Kg1 Qd1+ 54. Kg2 Qe2+ 55. Kg1 Qd1+ 56. Kg2 Qe2+ 57. Kg1 Qd1+ 58. Kg2 1/2-1/2
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3?! { Nimzo-Indian Defense, Kmoch Variation (0.28 → -0.48) Inaccuracy. } 4... d5 5. e3 b6?? { (-0.44 → 3.47) Blunder. } 6. a3?? { (3.47 → -0.16) Blunder. } 6... Bxc3+ 7. bxc3 Ba6 8. cxd5 Bxf1 9. Kxf1 exd5 10. Ne2 O-O 11. g4 Nfd7?! { (-0.76 → 0.20) Inaccuracy. } 12. Ng3?! { (0.20 → -0.40) Inaccuracy. } 12... Nc6 13. h4 Na5 14. Qd3 Nc4 15. Nf5 Re8 16. Kf2 Qf6 17. h5?! { (-0.20 → -0.84) Inaccuracy. } 17... h6? { (-0.84 → 0.16) Mistake. } 18. Bd2? { (0.16 → -1.01) Mistake. } 18... Rad8 19. Rag1 c5 20. Bc1 Nf8? { (-0.44 → 1.21) Mistake. } 21. f4? { (1.21 → -1.45) Mistake. } 21... Re4? { (-1.45 → -0.40) Mistake. } 22. Ng3 Re6?! { (0.00 → 0.56) Inaccuracy. } 23. g5?? { (0.56 → -2.58) Blunder. } 23... hxg5?! { (-2.58 → -1.81) Inaccuracy. } 24. h6 g6 25. Ne2? { (-1.37 → -2.70) Mistake. } 25... Nh7 26. e4? { (-2.22 → -4.28) Mistake. } 26... Na5?? { (-4.28 → 0.84) Blunder. } 27. e5 Qe7 28. fxg5 cxd4?! { (0.68 → 1.21) Inaccuracy. } 29. cxd4 Nc4 30. Nf4 Nxe5 31. dxe5 Rxe5 32. Nxg6? { (1.65 → -0.48) Mistake. } 32... Qc5+?? { (-0.48 → 4.96) Blunder. } 33. Be3?? { (4.96 → 1.61) Blunder. } 33... Rxe3 34. Qxe3 Qc2+ 35. Kf3 Qxg6 36. Qe5 d4 37. Rh2 d3 38. Rd2 Qh5+? { (1.89 → 3.59) Mistake. } 39. Rg4? { (3.59 → 2.14) Mistake. } 39... Qh3+?? { (2.14 → 18.58) Blunder. } 40. Rg3? { (18.58 → 7.31) Mistake. } 40... Qf1+?! { (7.31 → 8.20) Inaccuracy. } 41. Kg4?? { (8.20 → 4.12) Blunder. } 41... f6 42. Qe6+? { (4.40 → 3.23) Mistake. } 42... Kf8 43. g6?? { (3.63 → 0.00) Blunder. } 43... Rd4+?? { (0.00 → 8.36) Blunder. } 44. Kh5 Qh1+ 45. Rh2?? { (8.48 → -15.67) Blunder. } 45... Qxh2+ 46. Qh3?! { (-18.78 → Mate in 7) Checkmate is now unavoidable. } 46... Rd5+?! { (Mate in 7 → -10.98) Lost forced checkmate sequence. } 47. Kh4 Rd4+?? { (-10.34 → 0.00) Blunder. } 48. Rg4?? { (0.00 → Mate in 11) Checkmate is now unavoidable. } 48... Qf2+?! { (Mate in 11 → -31.43) Lost forced checkmate sequence. } 49. Qg3 Rxg4+ 50. Kxg4 f5+ 51. Kh3 Qf1+?? { (-18.66 → -3.31) Blunder. } 52. Kh2 Qe2+ 53. Kg1? { (-3.07 → -4.52) Mistake. } 53... Qd1+? { (-4.52 → -2.46) Mistake. } 54. Kg2 Qe2+? { (-2.46 → 0.00) Mistake. } 55. Kg1?? { (0.00 → -4.68) Blunder. } 55... Qd1+?? { (-4.68 → 0.00) Blunder. } 56. Kg2? { (0.00 → -2.46) Mistake. } 56... Qe2+? { (-2.46 → 0.00) Mistake. } 57. Kg1?? { (0.00 → -4.36) Blunder. } 57... Qd1+ 58. Kg2 { Draw } 1/2-1/2
