@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/dk2b5rkw"]
-[Date "2013-09-21"]
+[Date "2013.09.21"]
 [White "kesarev"]
 [Black "sshilovsky"]
 [Result "1-0"]
@@ -8,5 +8,9 @@
 [BlackElo "1160"]
 [PlyCount "63"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C30"]
+[Opening "King's Gambit, Declined, Classical Variation"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. f4 Bc5 3. Nf3 exf4 4. d4 Be7 5. Bxf4 Nc6 6. Nbd2 d6 7. Bd3 Bg4 8. c3 Bh4+ 9. g3 Bxf3 10. Nxf3 Bf6 11. Qb3 Na5 12. Qa4+ Nc6 13. d5 Ne7 14. dxc6 Nxc6 15. O-O-O h6 16. e5 Bg5 17. exd6 Bxf4+ 18. Qxf4 cxd6 19. Rhe1+ Kd7 20. Qxf7+ Kc8 21. Bb5 Rf8 22. Qe6+ Kc7 23. Nd4 Nxd4 24. Rxd4 Qg5+ 25. Kb1 Rad8 26. Qe7+ Qxe7 27. Rxe7+ Kb6 28. a4 d5 29. Rxg7 a6 30. Bd3 Kc5 31. Rg6 Rh8 32. b4# 1-0
+1. e4 e5 2. f4? { (0.42 → -0.58) Mistake. } 2... Bc5?! { King's Gambit, Declined, Classical Variation (-0.58 → 0.18) Inaccuracy. } 3. Nf3 exf4?! { (0.32 → 0.98) Inaccuracy. } 4. d4 Be7 5. Bxf4 Nc6?! { (1.09 → 1.83) Inaccuracy. } 6. Nbd2? { (1.83 → 0.82) Mistake. } 6... d6 7. Bd3 Bg4 8. c3 Bh4+?! { (1.35 → 2.00) Inaccuracy. } 9. g3 Bxf3?! { (1.95 → 2.62) Inaccuracy. } 10. Nxf3 Bf6 11. Qb3 Na5? { (2.40 → 4.44) Mistake. } 12. Qa4+ Nc6 13. d5 Ne7 14. dxc6 Nxc6 15. O-O-O h6?! { (4.92 → 5.77) Inaccuracy. } 16. e5 Bg5 17. exd6 Bxf4+ 18. Qxf4?! { (6.46 → 5.71) Inaccuracy. } 18... cxd6? { (5.71 → 7.29) Mistake. } 19. Rhe1+ Kd7? { (7.35 → 8.52) Mistake. } 20. Qxf7+ Kc8 21. Bb5?! { (8.40 → 7.55) Inaccuracy. } 21... Rf8? { (7.55 → 8.56) Mistake. } 22. Qe6+? { (8.56 → 6.20) Mistake. } 22... Kc7 23. Nd4 Nxd4? { (5.77 → 6.98) Mistake. } 24. Rxd4 Qg5+ 25. Kb1 Rad8 26. Qe7+ Qxe7 27. Rxe7+ Kb6 28. a4 d5 29. Rxg7 a6?! { (6.94 → 7.69) Inaccuracy. } 30. Bd3 Kc5? { (7.69 → 8.70) Mistake. } 31. Rg6?! { (8.70 → 7.79) Inaccuracy. } 31... Rh8 32. b4# { Black is checkmated } 1-0
