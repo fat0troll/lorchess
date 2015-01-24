@@ -4,9 +4,13 @@
 [White "LLU"]
 [Black "Nedis"]
 [Result "0-1"]
-[WhiteElo "1014"]
-[BlackElo "1265"]
+[WhiteElo "1185"]
+[BlackElo "1643"]
 [PlyCount "23"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C42"]
+[Opening "Russian Game, Three Knights Game"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nf6 3. Nc3 Bb4 4. a3 Bxc3 5. bxc3 O-O 6. Bd3 d5 7. exd5 e4 8. Bc4 exf3 9. Qxf3 Re8+ 10. Be2 Bg4 11. Qf4 Rxe2+ 12. Kf1 0-1
+1. e4 e5 2. Nf3 Nf6 3. Nc3 { Russian Game, Three Knights Game } Bb4 4. a3 Bxc3 5. bxc3 O-O 6. Bd3?! { (0.00 → -0.62) Inaccuracy. } 6... d5 7. exd5? { (-0.82 → -2.98) Mistake. } 7... e4 8. Bc4? { (-3.05 → -4.66) Mistake. } 8... exf3 9. Qxf3 Re8+ 10. Be2?? { (-4.72 → -11.75) Blunder. } 10... Bg4 11. Qf4 Rxe2+ 12. Kf1 { White resigns } 0-1
