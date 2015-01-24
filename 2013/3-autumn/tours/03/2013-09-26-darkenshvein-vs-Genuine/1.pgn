@@ -8,5 +8,9 @@
 [BlackElo "1351"]
 [PlyCount "78"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A00"]
+[Opening "Van Geet Opening, General"]
+[Annotator "lichess.org"]
 
-1. Nc3 Nf6 2. Nf3 Nc6 3. Nb5 a6 4. Na3 e5 5. g3 d5 6. d3 h6 7. Nd2 Bc5 8. e3 Bg4 9. Be2 Bxe2 10. Qxe2 Qd7 11. O-O Qh3 12. d4 Bxa3 13. bxa3 e4 14. a4 O-O 15. Rb1 Rab8 16. Nb3 Rfe8 17. Nc5 Nd8 18. c3 a5 19. Rb5 b6 20. Nb3 c6 21. f3 cxb5 22. fxe4 bxa4 23. Nd2 Nxe4 24. Nxe4 Rxe4 25. Rf4 Rxf4 26. exf4 Qe6 27. Qb5 Qe1+ 28. Qf1 Qxf1+ 29. Kxf1 Rc8 30. Bb2 Ne6 31. f5 Ng5 32. h4 Ne4 33. g4 Nxc3 34. Bxc3 Rxc3 35. g5 hxg5 36. hxg5 Rc4 37. Ke2 b5 38. f6 gxf6 39. gxf6 Rxd4 0-1
+1. Nc3 { Van Geet Opening, General } Nf6 2. Nf3 Nc6 3. Nb5?! { (0.22 → -0.60) Inaccuracy. } 3... a6 4. Na3?! { (-0.52 → -1.35) Inaccuracy. } 4... e5 5. g3?! { (-1.19 → -2.14) Inaccuracy. } 5... d5?! { (-2.14 → -1.53) Inaccuracy. } 6. d3 h6?! { (-1.79 → -0.94) Inaccuracy. } 7. Nd2 Bc5 8. e3?! { (-1.09 → -1.87) Inaccuracy. } 8... Bg4 9. Be2 Bxe2 10. Qxe2 Qd7 11. O-O Qh3 12. d4 Bxa3 13. bxa3 e4 14. a4?! { (-1.07 → -1.59) Inaccuracy. } 14... O-O 15. Rb1 Rab8 16. Nb3 Rfe8 17. Nc5?? { (-1.73 → -9.71) Blunder. } 17... Nd8?? { (-9.71 → -0.92) Blunder. } 18. c3 a5 19. Rb5?! { (-1.27 → -1.95) Inaccuracy. } 19... b6 20. Nb3?? { (-1.73 → -6.76) Blunder. } 20... c6 21. f3?! { (-7.11 → -7.97) Inaccuracy. } 21... cxb5?! { (-7.97 → -7.35) Inaccuracy. } 22. fxe4 bxa4 23. Nd2 Nxe4 24. Nxe4 Rxe4 25. Rf4?! { (-7.89 → -8.88) Inaccuracy. } 25... Rxf4 26. exf4 Qe6?! { (-9.31 → -8.80) Inaccuracy. } 27. Qb5? { (-8.80 → -12.58) Mistake. } 27... Qe1+ 28. Qf1 Qxf1+ 29. Kxf1 Rc8 30. Bb2 Ne6 31. f5 Ng5 32. h4 Ne4 33. g4 Nxc3 34. Bxc3 Rxc3 35. g5 hxg5 36. hxg5 Rc4 37. Ke2 b5 38. f6 gxf6 39. gxf6 Rxd4 { White resigns } 0-1
