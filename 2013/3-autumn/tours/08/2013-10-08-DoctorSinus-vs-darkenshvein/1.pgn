@@ -8,6 +8,9 @@
 [BlackElo "?"]
 [PlyCount "23"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B02"]
+[Opening "Alekhine Defense, Maroczy Variation"]
 [Annotator "lichess.org"]
 
-1. e4 Nf6 $6 { Inaccuracy. Best was e7e6. } 2. d3 $6 { Inaccuracy. Best was e4e5. } 2... d5 3. Bg5 $6 { Inaccuracy. Best was e4d5. } 3... dxe4 4. Bxf6 $6 { Inaccuracy. Best was b1c3. } 4... gxf6 5. Nc3 exd3 6. Qxd3 Qxd3 7. Bxd3 Bg7 $6 { Inaccuracy. Best was c7c6. } 8. O-O-O Bd7 9. Bb5 Bxb5 10. Nxb5 c6 $4 { Checkmate is now unavoidable. Best was b8a6. } 11. Nc7+ Kf8 12. Rd8# 1-0
+1. e4 Nf6 2. d3?! { Alekhine Defense, Maroczy Variation (0.54 → -0.06) Inaccuracy. The best move was e5. } (2. e5 Nd5 3. Nf3 d6 4. d4 Bf5 5. Nh4 Bc8 6. c4 Nb6) 2... d5 3. Bg5?! { (0.14 → -0.62) Inaccuracy. The best move was e5. } (3. e5 Nfd7 4. f4 e6 5. Nf3 Be7 6. Be2 O-O 7. O-O f6) 3... dxe4 4. Bxf6?! { (-0.36 → -1.13) Inaccuracy. The best move was Nc3. } (4. Nc3 Bg4 5. Be2 Bxe2 6. Ngxe2 exd3 7. cxd3 Nc6 8. Qb3 Rab8) 4... gxf6 5. Nc3 exd3 6. Qxd3 Qxd3 7. Bxd3 Bg7?! { (-0.94 → -0.30) Inaccuracy. The best move was Be6. } (7... Be6 8. Nge2 Nc6 9. O-O Bh6 10. Be4 O-O-O 11. Rad1 Bd7 12. Rfe1) 8. O-O-O Bd7 9. Bb5 Bxb5 10. Nxb5 c6?? { (-0.86 → Mate in 2) Checkmate is now unavoidable. The best move was Na6. } (10... Na6 11. Nf3 c6 12. Nbd4 e6 13. c3 O-O-O 14. Kc2 Rhg8 15. Nb3) 11. Nc7+ Kf8 12. Rd8# { Black is checkmated } 1-0
