@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/05o36cwx"]
-[Date "2013-09-12"]
+[Date "2013.09.12"]
 [White "Genuine"]
 [Black "HunOL"]
 [Result "1-0"]
@@ -8,5 +8,9 @@
 [BlackElo "1385"]
 [PlyCount "85"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C62"]
+[Opening "Spanish Game, Steinitz Defense"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. h3 Bd7 5. Nc3 Nf6 6. d3 Be7 7. Be3 O-O 8. O-O a6 9. Bc4 Be6 10. Nd2 Na5 11. Bb3 Qd7 12. f4 Nxb3 13. Nxb3 g6 14. fxe5 dxe5 15. Nc5 Qc8 16. Rf3 Nh5 17. Nxe6 Qxe6 18. Nd5 Bd6 19. Qf1 Ng7 20. Qf2 c6 21. Rf6 Qe8 22. Rxd6 cxd5 23. Rxd5 f6 24. Bc5 Rf7 25. Rd6 Nh5 26. Rf1 Nf4 27. Be3 Ne6 28. Rb6 Qe7 29. Qg3 Qc7 30. c3 Nf4 31. Rb4 Nxd3 32. Bb6 Qd6 33. Rd1 Rd7 34. Qe3 Kg7 35. Rb3 Rc8 36. c4 Rxc4 37. Rbxd3 Rxe4 38. Qxe4 Qxb6+ 39. Kh2 Rxd3 40. Rxd3 Qxb2 41. Rd7+ Kg8 42. Qd5+ Kh8 43. Qf7 1-0
+1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 { Spanish Game, Steinitz Defense } 4. h3 Bd7 5. Nc3 Nf6 6. d3 Be7 7. Be3 O-O 8. O-O a6 9. Bc4 Be6 10. Nd2 Na5 11. Bb3 Qd7 12. f4 Nxb3 13. Nxb3 g6?! { (0.00 → 0.88) Inaccuracy. The best move was b6. } (13... b6 14. Qf3 Qd8 15. fxe5 dxe5 16. Nd2 Qd6 17. Qg3 Nh5 18. Qf3) 14. fxe5 dxe5 15. Nc5 Qc8 16. Rf3 Nh5 17. Nxe6 Qxe6 18. Nd5 Bd6?! { (0.30 → 0.92) Inaccuracy. The best move was Bd8. } (18... Bd8 19. Qd2 c6 20. Nb6 Rab8 21. Na4 f5 22. Nc5 Qe7 23. exf5) 19. Qf1? { (0.92 → -0.52) Mistake. The best move was g4. } (19. g4 Nf4 20. Nxf4 exf4 21. Bxf4 Bxf4 22. Rxf4 Qb6+ 23. Kg2 Qxb2) 19... Ng7? { (-0.52 → 2.36) Mistake. The best move was f5. } (19... f5 20. Rd1 f4 21. Bf2 Nf6 22. Nc3 Rad8 23. d4 c6 24. Qe1) 20. Qf2? { (2.36 → -0.22) Mistake. The best move was Nf6+. } (20. Nf6+ Kh8 21. Qf2 Ne8 22. Bh6 Nxf6 23. Rxf6 Qe7 24. Kh2 Bc5) 20... c6?? { (-0.22 → 2.88) Blunder. The best move was f5. } (20... f5 21. Bc5 c6 22. Nc3 f4 23. Bxd6 Qxd6 24. Qb6 Qe7 25. a4) 21. Rf6?! { (2.88 → 2.16) Inaccuracy. The best move was Nf6+. } (21. Nf6+ Kh8 22. Qh4 Nh5 23. Nxh5 gxh5 24. Bg5 f5 25. Rxf5 Kg7) 21... Qe8 22. Rxd6 cxd5 23. Rxd5 f6 24. Bc5 Rf7 25. Rd6 Nh5 26. Rf1 Nf4 27. Be3 Ne6 28. Rb6 Qe7 29. Qg3 Qc7?? { (1.61 → 7.89) Blunder. The best move was Rd8. } (29... Rd8 30. Qg4 Rd6 31. Rxd6 Qxd6 32. h4 b5 33. h5 g5 34. h6) 30. c3?? { (7.89 → 0.62) Blunder. The best move was Rxe6. } (30. Rxe6 Raf8 31. Bh6 Qc8 32. Rb6 Qc5+ 33. Qf2 Rc8 34. Qxc5 Rxc5) 30... Nf4 31. Rb4?? { (0.92 → -9.49) Blunder. The best move was Rxf4. } (31. Rxf4 exf4 32. Qxf4 Qxf4 33. Bxf4 Rc8 34. Kf2 Rc6 35. Rb4 Rd7) 31... Nxd3?? { (-9.49 → -0.08) Blunder. The best move was Ne2+. } (31... Ne2+ 32. Kf2 Nxg3 33. Kxg3 Rd8 34. Rc4 Qa5 35. d4 Qxa2 36. Rb4) 32. Bb6 Qd6 33. Rd1 Rd7 34. Qe3? { (1.51 → 0.00) Mistake. The best move was Rb3. } (34. Rb3 f5 35. exf5 Rc8 36. Be3 Rc6 37. Rb4 Qf8 38. Rh4 Nf4) 34... Kg7?? { (0.00 → 3.51) Blunder. The best move was Rc8. } (34... Rc8 35. a4 f5 36. exf5 gxf5 37. Qg3+ Kf8 38. Rxd3 Qxd3 39. Qxe5) 35. Rb3 Rc8 36. c4 Rxc4?? { (3.97 → 11.17) Blunder. The best move was Qe6. } (36... Qe6 37. Rbxd3 Rxd3 38. Rxd3 Rxc4 39. Bd8 Qc6 40. Rd5 Kg8 41. Be7) 37. Rbxd3 Rxe4 38. Qxe4?? { (12.54 → 5.67) Blunder. The best move was Rd3xd6. } (38. Rd3xd6 Rxd6 39. Rxd6 Rxe3 40. Rd7+ Kg8 41. Bxe3 b5 42. Kf2 g5) 38... Qxb6+ 39. Kh2 Rxd3 40. Rxd3?! { (6.28 → 5.73) Inaccuracy. The best move was Qxd3. } (40. Qxd3 Qb4 41. Qd6 Qf4+ 42. Kg1 a5 43. Qe7+ Kh6 44. Qxb7 Qe3+) 40... Qxb2?? { (5.73 → Mate in 5) Checkmate is now unavoidable. The best move was Qc7. } (40... Qc7 41. Rc3 Qe7 42. Rb3 b5 43. Ra3 f5 44. Qd5 Qf6 45. Qb7+) 41. Rd7+ Kg8 42. Qd5+?! { (Mate in 2 → Mate in 3) Not the best checkmate sequence. The best move was Qc4+. } (42. Qc4+ Kh8 43. Qc8#) 42... Kh8 43. Qf7 { Black resigns } 1-0
