@@ -4,9 +4,13 @@
 [White "Nedis"]
 [Black "raven_cler"]
 [Result "1-0"]
-[WhiteElo "1295"]
-[BlackElo "993"]
+[WhiteElo "1664"]
+[BlackElo "1392"]
 [PlyCount "77"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D00"]
+[Opening "Queen Pawn Game, General"]
+[Annotator "lichess.org"]
 
-1. d4 d5 2. e3 Nf6 3. Nf3 Nc6 4. Bd3 Bg4 5. Bb5 e6 6. O-O Bd6 7. c4 Bxf3 8. Qxf3 O-O 9. c5 Be7 10. Nc3 Qd7 11. a3 e5 12. Rd1 e4 13. Qe2 a6 14. Ba4 Qe6 15. Bd2 b6 16. b4 h6 17. Rf1 Ng4 18. Bxc6 Qxc6 19. Qxg4 f5 20. Qf4 Rad8 21. Rab1 Rd7 22. Qg3 a5 23. Rfc1 g5 24. cxb6 axb4 25. bxc7 bxc3 26. Rxc3 Qa6 27. Qe5 Rc8 28. Qxf5 Rcxc7 29. Rxc7 Rxc7 30. Rb8+ Rc8 31. Rxc8+ Kg7 32. Qe5+ Bf6 33. Rc7+ Kg6 34. Qe8+ Kf5 35. Qd7+ Kg6 36. g4 Be7 37. Qe8+ Kf6 38. Qxe7+ Kg6 39. Qf7# 1-0
+1. d4 d5 { Queen Pawn Game, General } 2. e3 Nf6 3. Nf3 Nc6 4. Bd3 Bg4 5. Bb5 e6 6. O-O Bd6 7. c4 Bxf3 8. Qxf3 O-O 9. c5 Be7 10. Nc3 Qd7 11. a3 e5 12. Rd1 e4 13. Qe2 a6 14. Ba4 Qe6 15. Bd2 b6 16. b4 h6 17. Rf1 Ng4?? { (0.94 → 4.80) Blunder. } 18. Bxc6 Qxc6 19. Qxg4 f5 20. Qf4 Rad8 21. Rab1 Rd7 22. Qg3 a5 23. Rfc1 g5?! { (5.45 → 6.12) Inaccuracy. } 24. cxb6 axb4?! { (5.87 → 6.64) Inaccuracy. } 25. bxc7 bxc3? { (7.93 → 9.07) Mistake. } 26. Rxc3 Qa6 27. Qe5 Rc8 28. Qxf5 Rcxc7 29. Rxc7 Rxc7 30. Rb8+ Rc8 31. Rxc8+ Kg7 32. Qe5+ Bf6?! { (15.77 → Mate in 7) Checkmate is now unavoidable. } 33. Rc7+ Kg6 34. Qe8+ Kf5 35. Qd7+ Kg6 36. g4 Be7 37. Qe8+ Kf6 38. Qxe7+ Kg6 39. Qf7# { Black is checkmated } 1-0
