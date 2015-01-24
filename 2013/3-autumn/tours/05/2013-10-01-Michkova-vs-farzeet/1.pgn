@@ -8,5 +8,9 @@
 [BlackElo "?"]
 [PlyCount "49"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A40"]
+[Opening "Horwitz Defense, General"]
+[Annotator "lichess.org"]
 
-1. d4 e6 2. c4 Bd6 3. Nc3 Nc6 4. Nf3 b6 5. e4 Qf6 6. e5 Qf4 7. Bxf4 Bb4 8. a3 Bxc3+ 9. bxc3 d6 10. d5 Na5 11. exd6 cxd6 12. Bxd6 Nf6 13. c5 exd5 14. Bb5+ Bd7 15. Bxd7+ Kxd7 16. O-O Nc4 17. Qa4+ Ke6 18. Rfe1+ Ne4 19. Ng5+ Kf5 20. Nxe4 Rab8 21. Ng3+ Kg5 22. Qd1 Rb7 23. Qxd5+ Kg6 24. Qf5+ Kh6 25. Qh5# 1-0
+1. d4 e6 { Horwitz Defense, General } 2. c4 Bd6?! { (0.22 → 0.74) Inaccuracy. } 3. Nc3 Nc6 4. Nf3 b6 5. e4 Qf6? { (0.96 → 3.29) Mistake. } 6. e5 Qf4?? { (4.30 → 15.15) Blunder. } 7. Bxf4 Bb4 8. a3 Bxc3+ 9. bxc3 d6 10. d5 Na5 11. exd6 cxd6 12. Bxd6 Nf6 13. c5 exd5 14. Bb5+ Bd7 15. Bxd7+ Kxd7 16. O-O Nc4 17. Qa4+ Ke6?! { (24.98 → Mate in 1) Checkmate is now unavoidable. } 18. Rfe1+?! { (Mate in 1 → 23.03) Lost forced checkmate sequence. } 18... Ne4?! { (23.03 → Mate in 7) Checkmate is now unavoidable. } 19. Ng5+?! { (Mate in 7 → 23.31) Lost forced checkmate sequence. } 19... Kf5 20. Nxe4 Rab8?! { (24.60 → Mate in 3) Checkmate is now unavoidable. } 21. Ng3+?! { (Mate in 3 → Mate in 5) Not the best checkmate sequence. } 21... Kg5 22. Qd1 Rb7 23. Qxd5+?! { (Mate in 2 → Mate in 3) Not the best checkmate sequence. } 23... Kg6 24. Qf5+ Kh6 25. Qh5# { Black is checkmated } 1-0
