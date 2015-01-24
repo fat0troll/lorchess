@@ -8,5 +8,9 @@
 [BlackElo "1543"]
 [PlyCount "28"]
 [Variant "Standard"]
+[TimeControl "900+8"]
+[ECO "C25"]
+[Opening "Vienna Game, Anderssen Defense"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nc3 Bc5 3. Nf3 d6 4. Bc4 Bg4 5. O-O Nf6 6. Qe2 O-O 7. d3 Nc6 8. h3 Bh5 9. g4 Nxg4 10. hxg4 Bxg4 11. Bg5 Qd7 12. Nb5 a6 13. Nxc7 Nd4 14. Qe3 Nxf3+ 0-1
+1. e4 e5 2. Nc3 Bc5 { Vienna Game, Anderssen Defense } 3. Nf3 d6 4. Bc4 Bg4 5. O-O Nf6 6. Qe2 O-O 7. d3 Nc6 8. h3 Bh5 9. g4 Nxg4 10. hxg4 Bxg4 11. Bg5 Qd7 12. Nb5 a6 13. Nxc7 Nd4 14. Qe3 Nxf3+ { White resigns } 0-1
