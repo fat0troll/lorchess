@@ -1,6 +1,6 @@
-[Event "Rated game"]
+[Event "Casual game"]
 [Site "http://lichess.org/7k9aeq9v"]
-[Date "2013-09-15"]
+[Date "2013.09.15"]
 [White "LLU"]
 [Black "Michkova"]
 [Result "0-1"]
@@ -8,5 +8,9 @@
 [BlackElo "1377"]
 [PlyCount "48"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "?"]
+[Opening "?"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. d3 Bb4 5. a3 Ba5 6. b4 Bb6 7. b5 Nd4 8. a4 d6 9. Nxd4 Bxd4 10. Bb2 Ng4 11. Be2 Nxf2 12. Qc1 Nxh1 13. Nd5 Bxb2 14. Qxb2 c6 15. bxc6 bxc6 16. Ne3 Qh4+ 17. Kd2 Qxh2 18. Ng4 Bxg4 19. Bxg4 Qf4+ 20. Kd1 Nf2+ 21. Ke1 Nxg4 22. Qb7 Qf2+ 23. Kd1 Ne3+ 24. Kc1 Qxc2# 0-1
+1. e4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. d3 Bb4 5. a3 Ba5 6. b4 Bb6 7. b5 Nd4 8. a4 d6 9. Nxd4 Bxd4 10. Bb2 Ng4 11. Be2 Nxf2 12. Qc1 Nxh1 13. Nd5 Bxb2 14. Qxb2 c6 15. bxc6 bxc6 16. Ne3 Qh4+ 17. Kd2 Qxh2 18. Ng4 Bxg4 19. Bxg4 Qf4+ 20. Kd1 Nf2+ 21. Ke1 Nxg4 22. Qb7 Qf2+ 23. Kd1 Ne3+ 24. Kc1 Qxc2# { White is checkmated } 0-1
