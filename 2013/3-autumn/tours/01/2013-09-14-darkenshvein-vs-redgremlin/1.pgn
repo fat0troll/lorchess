@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/4oj5b5ag"]
-[Date "2013-09-14"]
+[Date "2013.09.14"]
 [White "darkshvein"]
 [Black "gremlin_the_red"]
 [Result "0-1"]
@@ -8,5 +8,9 @@
 [BlackElo "1239"]
 [PlyCount "70"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A00"]
+[Opening "Van Geet Opening, General"]
+[Annotator "lichess.org"]
 
-1. Nc3 c5 2. Nf3 Nc6 3. Nb5 a6 4. Nc3 g6 5. g3 d6 6. Bg2 Bg7 7. O-O e6 8. e3 Nge7 9. d4 O-O 10. dxc5 dxc5 11. Bd2 Qc7 12. Bh3 Rb8 13. a4 Rd8 14. Qe2 Nb4 15. Bc1 Ned5 16. e4 Nxc3 17. bxc3 Bxc3 18. Rb1 Bg7 19. Bd2 Nc6 20. Be1 Nd4 21. Nxd4 cxd4 22. Qd3 e5 23. Rb4 Bxh3 24. Rc4 Qxc4 25. Qxc4 Bxf1 26. Kxf1 Rdc8 27. Qd3 b5 28. axb5 axb5 29. f4 b4 30. fxe5 Bxe5 31. Kg2 Rc5 32. Bd2 Rbc8 33. Bf4 Rxc2+ 34. Kf3 Rc2c3 35. Qe3 Rxe3+ 0-1
+1. Nc3 { Van Geet Opening, General } c5 2. Nf3 Nc6 3. Nb5?! { (0.24 → -0.72) Inaccuracy. } 3... a6 4. Nc3 g6?! { (-0.56 → 0.20) Inaccuracy. } 5. g3?! { (0.20 → -0.40) Inaccuracy. } 5... d6 6. Bg2 Bg7 7. O-O e6 8. e3 Nge7 9. d4 O-O?! { (-0.24 → 0.32) Inaccuracy. } 10. dxc5 dxc5 11. Bd2?! { (0.44 → -0.24) Inaccuracy. } 11... Qc7 12. Bh3 Rb8 13. a4 Rd8 14. Qe2 Nb4 15. Bc1 Ned5 16. e4 Nxc3 17. bxc3 Bxc3 18. Rb1 Bg7?! { (-1.25 → -0.64) Inaccuracy. } 19. Bd2? { (-0.64 → -2.34) Mistake. } 19... Nc6? { (-2.34 → -1.21) Mistake. } 20. Be1? { (-1.21 → -2.26) Mistake. } 20... Nd4 21. Nxd4 cxd4 22. Qd3 e5?! { (-2.94 → -2.26) Inaccuracy. } 23. Rb4?? { (-2.26 → -9.21) Blunder. } 23... Bxh3 24. Rc4 Qxc4?? { (-9.29 → -2.82) Blunder. } 25. Qxc4 Bxf1 26. Kxf1 Rdc8 27. Qd3?! { (-2.26 → -2.90) Inaccuracy. } 27... b5 28. axb5 axb5 29. f4 b4?! { (-2.42 → -1.65) Inaccuracy. } 30. fxe5 Bxe5 31. Kg2?! { (-1.93 → -2.90) Inaccuracy. } 31... Rc5 32. Bd2 Rbc8 33. Bf4?? { (-3.27 → -8.76) Blunder. } 33... Rxc2+ 34. Kf3?! { (-9.13 → -27.55) Inaccuracy. } 34... Rc2c3 35. Qe3 Rxe3+ { White resigns } 0-1
