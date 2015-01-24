@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/3a1fj8y1"]
-[Date "2013-09-15"]
+[Date "2013.09.15"]
 [White "Nedis"]
 [Black "gremlin_the_red"]
 [Result "0-1"]
-[WhiteElo "1308"]
-[BlackElo "1239"]
+[WhiteElo "1658"]
+[BlackElo "1766"]
 [PlyCount "56"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B22"]
+[Opening "Sicilian Defense, Alapin Variation, Barmen Defense"]
+[Annotator "lichess.org"]
 
-1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 Nf6 5. Be3 cxd4 6. cxd4 Nc6 7. Nc3 Qd8 8. d5 Nb8 9. Nf3 g6 10. Bc4 Bg7 11. O-O O-O 12. Rc1 Bg4 13. h3 Bxf3 14. Qxf3 Nbd7 15. d6 exd6 16. Qxb7 Rb8 17. Qxa7 Rxb2 18. Rfd1 Ne5 19. Bb3 Nh5 20. Qa3 Rxb3 21. axb3 Qh4 22. g3 Nxg3 23. Qa4 Qxh3 24. fxg3 Qxg3+ 25. Kf1 Qxe3 26. Re1 Qf3+ 27. Kg1 Ng4 28. Ne2 Qf2+ 0-1
+1. e4 c5 2. c3?! { (0.52 → -0.16) Inaccuracy. } 2... d5 3. exd5 Qxd5 { Sicilian Defense, Alapin Variation, Barmen Defense } 4. d4 Nf6 5. Be3 cxd4 6. cxd4 Nc6?! { (0.16 → 0.80) Inaccuracy. } 7. Nc3 Qd8 8. d5 Nb8?! { (1.09 → 1.65) Inaccuracy. } 9. Nf3 g6 10. Bc4 Bg7 11. O-O O-O 12. Rc1 Bg4 13. h3 Bxf3 14. Qxf3 Nbd7 15. d6 exd6 16. Qxb7 Rb8 17. Qxa7 Rxb2 18. Rfd1 Ne5?! { (2.06 → 2.94) Inaccuracy. } 19. Bb3 Nh5? { (3.23 → 4.44) Mistake. } 20. Qa3 Rxb3 21. axb3 Qh4 22. g3?? { (4.92 → -32.40) Blunder. } 22... Nxg3?? { (-32.40 → -1.13) Blunder. } 23. Qa4?? { (-1.13 → -4.84) Blunder. } 23... Qxh3 24. fxg3 Qxg3+ 25. Kf1 Qxe3? { (-5.73 → -3.43) Mistake. } 26. Re1?? { (-3.43 → -12.48) Blunder. } 26... Qf3+ 27. Kg1 Ng4? { (-12.72 → -8.80) Mistake. } 28. Ne2 Qf2+ { White resigns } 0-1
