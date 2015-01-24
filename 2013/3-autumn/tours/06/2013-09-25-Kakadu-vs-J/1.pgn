@@ -8,5 +8,9 @@
 [BlackElo "1131"]
 [PlyCount "47"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C30"]
+[Opening "King's Gambit, General"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. f4 d6 3. Nf3 Bg4 4. Bc4 exf4 5. O-O Nf6 6. Nc3 a6 7. a3 b5 8. Ba2 c5 9. d3 Be7 10. Bxf4 Nc6 11. Qd2 O-O 12. h3 Bh5 13. Rae1 Qa5 14. Nd1 Bxf3 15. Qxa5 Nxa5 16. Rxf3 h6 17. Ne3 Nh5 18. Bh2 Bf6 19. Bxd6 Rfd8 20. Bxc5 Bxb2 21. Bxf7+ Kh8 22. Bxh5 Nb7 23. Be7 Rd7 24. Nd5 1-0
+1. e4 e5 2. f4?! { King's Gambit, General (0.24 → -0.32) Inaccuracy. } 2... d6?! { (-0.32 → 0.30) Inaccuracy. } 3. Nf3 Bg4 4. Bc4 exf4 5. O-O?! { (0.40 → -0.10) Inaccuracy. } 5... Nf6 6. Nc3 a6 7. a3 b5?! { (-0.02 → 0.54) Inaccuracy. } 8. Ba2 c5?! { (0.14 → 0.96) Inaccuracy. } 9. d3?! { (0.96 → 0.20) Inaccuracy. } 9... Be7?! { (0.20 → 1.11) Inaccuracy. } 10. Bxf4?! { (1.11 → 0.56) Inaccuracy. } 10... Nc6 11. Qd2 O-O 12. h3 Bh5?! { (0.36 → 1.15) Inaccuracy. } 13. Rae1?! { (1.15 → 0.50) Inaccuracy. } 13... Qa5? { (0.50 → 2.50) Mistake. } 14. Nd1? { (2.50 → 0.66) Mistake. } 14... Bxf3 15. Qxa5 Nxa5 16. Rxf3 h6? { (0.98 → 2.36) Mistake. } 17. Ne3 Nh5? { (2.32 → 4.24) Mistake. } 18. Bh2? { (4.24 → 2.94) Mistake. } 18... Bf6? { (2.94 → 4.78) Mistake. } 19. Bxd6? { (4.78 → 3.61) Mistake. } 19... Rfd8?! { (3.61 → 4.50) Inaccuracy. } 20. Bxc5 Bxb2? { (4.60 → 7.51) Mistake. } 21. Bxf7+ Kh8 22. Bxh5 Nb7 23. Be7 Rd7 24. Nd5 { Black resigns } 1-0
