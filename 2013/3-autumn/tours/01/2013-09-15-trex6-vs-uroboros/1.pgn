@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/viaytkkz"]
-[Date "2013-09-15"]
+[Date "2013.09.15"]
 [White "txgames"]
 [Black "Uroboros"]
 [Result "0-1"]
-[WhiteElo "1069"]
-[BlackElo "1466"]
+[WhiteElo "1423"]
+[BlackElo "1974"]
 [PlyCount "49"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C45"]
+[Opening "Scotch Game, Classical Variation, Intermezzo Variation"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nxc6 Qf6 6. f3 bxc6 7. c3 Ne7 8. Bd2 O-O 9. b4 Bb6 10. a4 a5 11. b5 d5 12. Na3 dxe4 13. f4 e3 14. Bxe3 Bxe3 15. Qd3 Qxf4 16. Kd1 Bg4+ 17. Kc2 Bf5 18. Kb2 Bxd3 19. Bxd3 Rad8 20. Rhf1 Rxd3 21. Rxf4 Bxf4 22. c4 Rfd8 23. Rb1 Rd2+ 24. Nc2 Be5+ 25. Ka2 0-1
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nxc6 Qf6 { Scotch Game, Classical Variation, Intermezzo Variation } 6. f3 bxc6 7. c3?! { (-0.04 → -0.68) Inaccuracy. } 7... Ne7 8. Bd2?! { (-0.36 → -1.33) Inaccuracy. } 8... O-O 9. b4 Bb6 10. a4 a5 11. b5 d5 12. Na3? { (-2.02 → -4.44) Mistake. } 12... dxe4 13. f4?? { (-4.52 → -7.95) Blunder. } 13... e3 14. Bxe3? { (-8.12 → -11.15) Mistake. } 14... Bxe3 15. Qd3 Qxf4 16. Kd1 Bg4+ 17. Kc2 Bf5 18. Kb2 Bxd3 19. Bxd3 Rad8 20. Rhf1 Rxd3 21. Rxf4 Bxf4 22. c4 Rfd8 23. Rb1?! { (-16.16 → Mate in 8) Checkmate is now unavoidable. } 23... Rd2+ 24. Nc2 Be5+ 25. Ka2 { White resigns } 0-1
