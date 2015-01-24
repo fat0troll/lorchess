@@ -8,6 +8,9 @@
 [BlackElo "?"]
 [PlyCount "59"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B02"]
+[Opening "Alekhine Defense, Brooklyn Variation"]
 [Annotator "lichess.org"]
 
-1. e4 Nf6 2. e5 Ng8 3. d4 Nc6 4. c3?! { Inaccuracy. Best was g1f3. } 4... Nb8?! { Inaccuracy. Best was d7d6. } 5. Nf3 f6 6. exf6 exf6?! { Inaccuracy. Best was g8f6. } 7. Bd3 Qe7+ 8. Be3 Nc6 9. O-O b6? { Mistake. Best was d7d5. } 10. Rfe1 Bb7?? { Blunder. Best was e7f7. } 11. Bf4 O-O-O 12. Rxe7 Bxe7?! { Inaccuracy. Best was g8e7. } 13. Nbd2 g5 14. Bg3 g4? { Mistake. Best was h7h5. } 15. Nh4 h5?! { Inaccuracy. Best was g8h6. } 16. Ng6 Rh6 17. Nxe7+? { Mistake. Best was g3f4. } 17... Ncxe7 18. Be4 f5 19. Bxb7+ Kxb7 20. Nc4 h4 21. Bf4 Ng6?? { Blunder. Best was h6h5. } 22. Bxh6 Nxh6 23. Qd3?! { Inaccuracy. Best was c4e5. } 23... Rf8? { Mistake. Best was h4h3. } 24. Re1? { Mistake. Best was c4a5. } 24... Nf4?? { Blunder. Best was h6g8. } 25. Qe3 b5?? { Blunder. Best was f4g2. } 26. Qxf4?? { Blunder. Best was c4a5. } 26... bxc4 27. Qxh6 Rc8?! { Inaccuracy. Best was f8b8. } 28. Qxh4 Rf8?? { Blunder. Best was d7d6. } 29. Qe7 Rc8 30. Qxd7 1-0
+1. e4 Nf6 2. e5 Ng8 { Alekhine Defense, Brooklyn Variation } 3. d4 Nc6 4. c3?! { (1.27 → 0.66) Inaccuracy. } 4... Nb8?! { (0.66 → 1.65) Inaccuracy. } 5. Nf3 f6 6. exf6 exf6?! { (1.55 → 2.16) Inaccuracy. } 7. Bd3 Qe7+ 8. Be3 Nc6 9. O-O b6? { (1.89 → 4.28) Mistake. } 10. Rfe1?! { (4.28 → 3.75) Inaccuracy. } 10... Bb7?? { (3.75 → 7.65) Blunder. } 11. Bf4 O-O-O 12. Rxe7 Bxe7?! { (7.47 → 8.28) Inaccuracy. } 13. Nbd2 g5 14. Bg3 g4? { (8.46 → 9.81) Mistake. } 15. Nh4 h5 16. Ng6 Rh6 17. Nxe7+? { (10.34 → 8.18) Mistake. } 17... Ncxe7 18. Be4 f5 19. Bxb7+ Kxb7 20. Nc4 h4 21. Bf4 Ng6? { (7.13 → 11.47) Mistake. } 22. Bxh6 Nxh6 23. Qd3 Rf8 24. Re1 Nf4 25. Qe3 b5 26. Qxf4 bxc4 27. Qxh6 Rc8 28. Qxh4 Rf8 29. Qe7 Rc8 30. Qxd7 { Black resigns } 1-0
