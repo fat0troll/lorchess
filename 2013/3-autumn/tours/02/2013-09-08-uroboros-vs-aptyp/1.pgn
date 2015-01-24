@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/unlc8o6r"]
-[Date "2013-09-08"]
+[Date "2013.09.08"]
 [White "Uroboros"]
 [Black "aptypr"]
 [Result "1-0"]
-[WhiteElo "1459"]
-[BlackElo "1251"]
+[WhiteElo "1968"]
+[BlackElo "1657"]
 [PlyCount "103"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D10"]
+[Opening "Slav Defense, General"]
+[Annotator "lichess.org"]
 
-1. d4 d5 2. c4 c6 3. e3 Nf6 4. Nc3 e6 5. Nf3 Nbd7 6. Be2 dxc4 7. Bxc4 b5 8. Bd3 b4 9. Ne4 Nxe4 10. Bxe4 Bb7 11. Qc2 Nf6 12. Bxc6+ Bxc6 13. Qxc6+ Nd7 14. Ne5 Rc8 15. Qxd7+ Qxd7 16. Nxd7 Kxd7 17. Kd2 Bd6 18. b3 Rc6 19. Bb2 Rhc8 20. Rhc1 h5 21. h3 f6 22. Kd3 e5 23. Rc4 e4+ 24. Kxe4 Rxc4 25. bxc4 Rxc4 26. Rc1 Rxc1 27. Bxc1 Kc6 28. Kd3 Kb5 29. e4 a5 30. f4 a4 31. e5 fxe5 32. fxe5 Be7 33. d5 Kc5 34. d6 Bxd6 35. exd6 Kxd6 36. Kc4 b3 37. axb3 axb3 38. Bb2 Ke6 39. Bxg7 Kf5 40. Kxb3 Kf4 41. h4 Kg3 42. Bf6 Kxg2 43. Kc4 Kg3 44. Kd5 Kg4 45. Ke6 Kf4 46. Bg5+ Kg4 47. Kf6 Kh3 48. Kg6 Kg4 49. Kh6 Kf5 50. Kxh5 Ke6 51. Kg6 Kd7 52. h5 1-0
+1. d4 d5 2. c4 c6 { Slav Defense, General } 3. e3 Nf6 4. Nc3 e6 5. Nf3 Nbd7 6. Be2 dxc4 7. Bxc4 b5 8. Bd3 b4 9. Ne4 Nxe4 10. Bxe4 Bb7 11. Qc2 Nf6? { (0.38 → 1.83) Mistake. The best move was Be7. } (11... Be7 12. Bd2 Qb6 13. O-O c5 14. Rfc1 Bxe4 15. Qxe4 O-O 16. dxc5) 12. Bxc6+ Bxc6 13. Qxc6+ Nd7 14. Ne5? { (2.24 → 0.96) Mistake. The best move was Bd2. } (14. Bd2 Rac8 15. Qa6 Rc7 16. O-O Be7 17. Qa4 O-O 18. Bxb4 Nb6) 14... Rc8 15. Qxd7+ Qxd7 16. Nxd7 Kxd7 17. Kd2 Bd6 18. b3 Rc6 19. Bb2 Rhc8 20. Rhc1 h5 21. h3 f6 22. Kd3 e5 23. Rc4 e4+?! { (1.53 → 2.10) Inaccuracy. The best move was exd4. } (23... exd4 24. Rxc6 Rxc6 25. Bxd4 a5 26. g4 hxg4 27. hxg4 Bc5 28. Rc1) 24. Kxe4 Rxc4 25. bxc4 Rxc4 26. Rc1 Rxc1 27. Bxc1 Kc6 28. Kd3 Kb5 29. e4 a5 30. f4 a4 31. e5 fxe5 32. fxe5 Be7 33. d5 Kc5 34. d6? { (3.51 → 2.48) Mistake. The best move was Ke4. } (34. Ke4 Bh4 35. Bb2 a3 36. Bd4+ Kb5 37. e6 g6 38. Be5 b3) 34... Bxd6? { (2.48 → 5.17) Mistake. The best move was Bh4. } (34... Bh4 35. Ke4 Kc6 36. Bf4 g5 37. Be3 a3 38. Bd4 b3 39. axb3) 35. exd6 Kxd6 36. Kc4 b3 37. axb3?? { (10.78 → 6.32) Blunder. The best move was a3. } (37. a3 Ke5 38. Kb5 Kd5 39. Bb2 g6 40. Kb4 Kd6 41. Kxa4 Kd7) 37... axb3 38. Bb2 Ke6? { (6.14 → 7.75) Mistake. The best move was g6. } (38... g6 39. Kxb3 Ke6 40. Kc3 Kf5 41. Bc1 g5 42. Kd4 g4 43. h4) 39. Bxg7 Kf5 40. Kxb3 Kf4 41. h4 Kg3 42. Bf6 Kxg2?! { (93.41 → Mate in 29) Checkmate is now unavoidable. The best move was Kf4. } (42... Kf4 43. Bd8 Kf5 44. Kc3 Ke4 45. Kc4 Ke5 46. Bg5 Ke6 47. Bd2) 43. Kc4 Kg3 44. Kd5 Kg4 45. Ke6 Kf4 46. Bg5+ Kg4 47. Kf6 Kh3 48. Kg6 Kg4 49. Kh6 Kf5 50. Kxh5 Ke6 51. Kg6 Kd7 52. h5 { Black resigns } 1-0
