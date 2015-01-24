@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/7jir4ghi"]
-[Date "2013-09-11"]
+[Date "2013.09.11"]
 [White "Magian"]
 [Black "darkshvein"]
 [Result "1-0"]
-[WhiteElo "1396"]
-[BlackElo "1200"]
+[WhiteElo "1822"]
+[BlackElo "1500"]
 [PlyCount "23"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C23"]
+[Opening "Bishop's Opening, General"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Bc4 f6 3. Nc3 Nc6 4. d3 Bb4 5. Ne2 Nd4 6. O-O Ne7 7. Nxd4 Bxc3 8. bxc3 exd4 9. cxd4 b6 10. f4 g5 11. Qh5+ Kf8 12. Qf7# 1-0
+1. e4 e5 2. Bc4 { Bishop's Opening, General } f6? { (0.12 → 1.29) Mistake. } 3. Nc3 Nc6 4. d3 Bb4?! { (0.80 → 1.33) Inaccuracy. } 5. Ne2 Nd4?! { (1.33 → 2.06) Inaccuracy. } 6. O-O Ne7?! { (1.81 → 2.78) Inaccuracy. } 7. Nxd4 Bxc3?! { (2.58 → 3.55) Inaccuracy. } 8. bxc3 exd4 9. cxd4?! { (4.04 → 3.23) Inaccuracy. } 9... b6?? { (3.23 → 6.42) Blunder. } 10. f4?? { (6.42 → 3.11) Blunder. } 10... g5?? { (3.11 → 10.58) Blunder. } 11. Qh5+ Kf8 12. Qf7# { Black is checkmated } 1-0
