@@ -8,6 +8,9 @@
 [BlackElo "1310"]
 [PlyCount "32"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A00"]
+[Opening "Van Geet Opening, Reversed Nimzowitsch"]
 [Annotator "lichess.org"]
 
-1. Nc3 e5 2. e4 Nf6 3. f3?! { Inaccuracy. Best was g1f3. } 3... Nc6 4. Nge2 d5 5. exd5 Nxd5 6. g3?! { Inaccuracy. Best was c3d5. } 6... Be7 7. Bg2 O-O 8. O-O Bc5+ 9. Kh1 Bf5 10. f4 Nxc3 11. fxe5?? { Blunder. Best was e2c3. } 11... Nxd1 12. Rfxd1? { Mistake. Best was f1f5. } 12... Bxc2 13. Rdf1? { Mistake. Best was d1e1. } 13... Bd3 14. Rfe1 Nb4? { Mistake. Best was c6e5. } 15. Bxb7?? { Blunder. Best was e2f4. } 15... Nc2 16. Bxa8 Qxa8# 0-1
+1. Nc3 e5 { Van Geet Opening, Reversed Nimzowitsch } 2. e4 Nf6 3. f3?! { (0.22 → -0.76) Inaccuracy. } 3... Nc6 4. Nge2 d5 5. exd5 Nxd5 6. g3?! { (-1.11 → -1.67) Inaccuracy. } 6... Be7 7. Bg2 O-O 8. O-O Bc5+ 9. Kh1 Bf5 10. f4 Nxc3 11. fxe5?? { (-0.76 → -15.55) Blunder. } 11... Nxd1 12. Rfxd1 Bxc2 13. Rdf1 Bd3 14. Rfe1 Nb4 15. Bxb7 Nc2 16. Bxa8 Qxa8# { White is checkmated } 0-1
