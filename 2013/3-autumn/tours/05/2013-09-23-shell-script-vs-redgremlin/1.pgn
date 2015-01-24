@@ -4,9 +4,13 @@
 [White "cppmm"]
 [Black "gremlin_the_red"]
 [Result "0-1"]
-[WhiteElo "957"]
-[BlackElo "1258"]
+[WhiteElo "1317"]
+[BlackElo "1780"]
 [PlyCount "48"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B20"]
+[Opening "Sicilian Defense, General"]
+[Annotator "lichess.org"]
 
-1. e4 c5 2. d3 Nc6 3. Be3 d6 4. Nf3 g6 5. Be2 Bg7 6. O-O Bxb2 7. Nbd2 Bxa1 8. Qxa1 Nf6 9. c3 O-O 10. d4 cxd4 11. cxd4 Ng4 12. d5 Nxe3 13. fxe3 Nb4 14. Ng5 e5 15. Nc4 Qxg5 16. Nxd6 Bh3 17. Rf2 Nc2 18. Qc1 Nxe3 19. Bf3 Rac8 20. Qd2 Rc2 21. Qe1 Nxg2 22. Bxg2 Rc1 23. Nxf7 Rxe1+ 24. Rf1 Qxg2# 0-1
+1. e4 c5 { Sicilian Defense, General } 2. d3 Nc6 3. Be3 d6 4. Nf3 g6 5. Be2 Bg7 6. O-O? { (0.24 → -1.55) Mistake. } 6... Bxb2 7. Nbd2 Bxa1 8. Qxa1 Nf6 9. c3?! { (-1.15 → -2.04) Inaccuracy. } 9... O-O 10. d4 cxd4 11. cxd4 Ng4 12. d5? { (-1.67 → -2.70) Mistake. } 12... Nxe3 13. fxe3 Nb4 14. Ng5 e5 15. Nc4? { (-3.11 → -5.19) Mistake. } 15... Qxg5 16. Nxd6? { (-5.19 → -7.33) Mistake. } 16... Bh3? { (-7.33 → -5.83) Mistake. } 17. Rf2 Nc2 18. Qc1 Nxe3 19. Bf3?! { (-6.74 → -7.61) Inaccuracy. } 19... Rac8? { (-7.61 → -6.10) Mistake. } 20. Qd2?? { (-6.10 → -10.50) Blunder. } 20... Rc2 21. Qe1 Nxg2 22. Bxg2 Rc1 23. Nxf7?! { (-16.76 → Mate in 2) Checkmate is now unavoidable. } 23... Rxe1+ 24. Rf1 Qxg2# { White is checkmated } 0-1
