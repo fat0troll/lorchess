@@ -4,10 +4,13 @@
 [White "HunOL"]
 [Black "cppmm"]
 [Result "1-0"]
-[WhiteElo "1347"]
-[BlackElo "948"]
+[WhiteElo "1801"]
+[BlackElo "1316"]
 [PlyCount "37"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted, General"]
 [Annotator "lichess.org"]
 
-1. d4 d5 2. c4 dxc4 3. Nc3 e6 4. e4 Bb4 5. Bxc4 Nf6 6. f3 c6?! { (0.54 → 1.17) Inaccuracy. The best move was c5. } (6... c5 7. Nge2 cxd4 8. Nxd4 O-O 9. Be3 Nbd7 10. O-O Ne5 11. Be2) 7. Bg5 b5 8. Bb3 O-O?! { (0.70 → 1.27) Inaccuracy. The best move was Be7. } (8... Be7 9. Nh3 O-O 10. Be3 Ba6 11. Nf4 Qb6 12. Qd2 b4 13. Nce2) 9. e5 Qa5? { (1.35 → 4.14) Mistake. The best move was h6. } (9... h6 10. Bh4 g5 11. Bf2 Nd5 12. Nge2 Nd7 13. O-O Nd7b6 14. a3) 10. exf6 Bxc3+?! { (4.30 → 5.21) Inaccuracy. The best move was gxf6. } (10... gxf6 11. Bd2 Qb6 12. Nge2 Nd7 13. O-O c5 14. Ne4 Bb7 15. Bxb4) 11. bxc3 Qxc3+ 12. Kf2 Qb2+? { (5.37 → 7.09) Mistake. The best move was gxf6. } (12... gxf6 13. Ne2 Qa5 14. Bxf6 Nd7 15. Qc1 Nxf6 16. Qg5+ Kh8 17. Qxf6+) 13. Ne2 gxf6 14. Rab1 Qa3? { (8.42 → 10.84) Mistake. The best move was Qxb1. } (14... Qxb1 15. Qxb1 fxg5 16. Qc1 g4 17. Qg5+ Kh8 18. Qf6+ Kg8 19. Bc2) 15. Bxf6 Nd7 16. Qd2 Nxf6 17. Qg5+ Kh8 18. Qxf6+ Kg8 19. Nf4? { (17.77 → 8.90) Mistake. The best move was Ng3. } (19. Ng3 Rfe8 20. Nf5 Qf8 21. Nh6+ Qxh6 22. Qxh6 a5 23. Rhe1 Ra7) 1-0
+1. d4 d5 2. c4 dxc4 { Queen's Gambit Accepted, General } 3. Nc3 e6 4. e4 Bb4 5. Bxc4 Nf6 6. f3 c6?! { (0.54 → 1.17) Inaccuracy. The best move was c5. } (6... c5 7. Nge2 cxd4 8. Nxd4 O-O 9. Be3 Nbd7 10. O-O Ne5 11. Be2) 7. Bg5 b5 8. Bb3 O-O?! { (0.70 → 1.27) Inaccuracy. The best move was Be7. } (8... Be7 9. Nh3 O-O 10. Be3 Ba6 11. Nf4 Qb6 12. Qd2 b4 13. Nce2) 9. e5 Qa5? { (1.35 → 4.14) Mistake. The best move was h6. } (9... h6 10. Bh4 g5 11. Bf2 Nd5 12. Nge2 Nd7 13. O-O Nd7b6 14. a3) 10. exf6 Bxc3+?! { (4.30 → 5.21) Inaccuracy. The best move was gxf6. } (10... gxf6 11. Bd2 Qb6 12. Nge2 Nd7 13. O-O c5 14. Ne4 Bb7 15. Bxb4) 11. bxc3 Qxc3+ 12. Kf2 Qb2+? { (5.37 → 7.09) Mistake. The best move was gxf6. } (12... gxf6 13. Ne2 Qa5 14. Bxf6 Nd7 15. Qc1 Nxf6 16. Qg5+ Kh8 17. Qxf6+) 13. Ne2 gxf6 14. Rab1 Qa3? { (8.42 → 10.84) Mistake. The best move was Qxb1. } (14... Qxb1 15. Qxb1 fxg5 16. Qc1 g4 17. Qg5+ Kh8 18. Qf6+ Kg8 19. Bc2) 15. Bxf6 Nd7 16. Qd2 Nxf6 17. Qg5+ Kh8 18. Qxf6+ Kg8 19. Nf4? { Black resigns (17.77 → 8.90) Mistake. The best move was Ng3. } (19. Ng3 Rfe8 20. Nf5 Qf8 21. Nh6+ Qxh6 22. Qxh6 a5 23. Rhe1 Ra7) 1-0
