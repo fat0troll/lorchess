@@ -8,6 +8,9 @@
 [BlackElo "1275"]
 [PlyCount "72"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B30"]
+[Opening "Sicilian Defense, Old Sicilian, General"]
 [Annotator "lichess.org"]
 
-1. e4 c5 2. Nf3 Nc6 3. Nc3 d6 4. d4 cxd4 5. Nxd4 g6?! { Inaccuracy. Best was e7e5. } 6. Bb5 Bd7 7. Nxc6 bxc6 8. Be2 Bg7 9. Qd2 Nf6 10. O-O O-O 11. Qg5 Qc7 12. Be3 h6 13. Qg3 Rab8 14. Rab1 Qa5 15. Rbd1? { Mistake. Best was e3d2. } 15... Rxb2 16. Bd4?? { Blunder. Best was e3d2. } 16... Rxc2?? { Blunder. Best was e7e5. } 17. a4?? { Blunder. Best was g3d3. } 17... c5 18. Bxf6 Bxf6 19. Bb5? { Mistake. Best was c3d5. } 19... Rxc3 20. Rd3?! { Inaccuracy. Best was g3c3. } 20... Rxd3 21. Qxd3 Bxb5 22. axb5 Rb8 23. Rb1 a6 24. bxa6 Rxb1+ 25. Qxb1 Qxa6 26. h3?! { Inaccuracy. Best was b1c1. } 26... Qa1?? { Blunder. Best was a6e2. } 27. Qf1?? { Blunder. Best was b1a1. } 27... Qxf1+? { Mistake. Best was a1a2. } 28. Kxf1 c4 29. Ke1 e6 30. Kd1? { Mistake. Best was h3h4. } 30... d5 31. exd5 exd5 32. f4 d4 33. g4?? { Blunder. Best was d1d2. } 33... d3 34. g5?? { Blunder. Best was d1d2. } 34... hxg5 35. fxg5 Bxg5 36. Ke1 c3 0-1
+1. e4 c5 2. Nf3 Nc6 { Sicilian Defense, Old Sicilian, General } 3. Nc3 d6 4. d4 cxd4 5. Nxd4 g6?! { (0.22 → 0.88) Inaccuracy. } 6. Bb5 Bd7 7. Nxc6 bxc6 8. Be2 Bg7 9. Qd2 Nf6 10. O-O O-O 11. Qg5 Qc7 12. Be3 h6?! { (-0.24 → 0.26) Inaccuracy. } 13. Qg3 Rab8 14. Rab1 Qa5 15. Rbd1? { (0.20 → -2.00) Mistake. } 15... Rxb2 16. Bd4?? { (-2.00 → -5.53) Blunder. } 16... Rxc2?? { (-5.53 → -1.19) Blunder. } 17. a4?? { (-1.19 → -6.30) Blunder. } 17... c5 18. Bxf6?! { (-6.12 → -6.70) Inaccuracy. } 18... Bxf6 19. Bb5? { (-6.44 → -9.23) Mistake. } 19... Rxc3 20. Rd3?! { (-8.92 → -9.47) Inaccuracy. } 20... Rxd3 21. Qxd3 Bxb5 22. axb5 Rb8 23. Rb1 a6 24. bxa6 Rxb1+ 25. Qxb1 Qxa6 26. h3 Qa1? { (-12.00 → -8.60) Mistake. } 27. Qf1? { (-8.60 → -12.32) Mistake. } 27... Qxf1+ 28. Kxf1 c4 29. Ke1 e6 30. Kd1 d5 31. exd5 exd5 32. f4 d4 33. g4 d3 34. g5 hxg5 35. fxg5 Bxg5 36. Ke1 c3 { White resigns } 0-1
