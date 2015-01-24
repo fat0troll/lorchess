@@ -1,4 +1,4 @@
-[Event "Rated game"]
+[Event "Casual game"]
 [Site "http://lichess.org/4v2lpzfz"]
 [Date "2013.09.29"]
 [White "Anonymous"]
@@ -8,5 +8,9 @@
 [BlackElo "1400"]
 [PlyCount "50"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "?"]
+[Opening "?"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Bc4 Nf6 3. d3 Be7 4. Nf3 d6 5. b3 O-O 6. Ba3 Nc6 7. Nc3 Bg4 8. h3 Bh5 9. Qd2 Bxf3 10. gxf3 Nd4 11. Qe3 Nxc2+ 12. Kd2 Nxe3 13. Kxe3 Nh5 14. Bd5 c6 15. Bxf7+ Rxf7 16. Rad1 Bg5+ 17. Ke2 Nf4+ 18. Ke3 Nd5+ 19. Ke2 Nxc3+ 20. Ke1 Nxd1 21. Kxd1 Rxf3 22. h4 Rxd3+ 23. Kc2 Rd2+ 24. Kc3 Qb6 25. hxg5 Qd4# 0-1
+1. e4 e5 2. Bc4 Nf6 3. d3 Be7 4. Nf3 d6 5. b3 O-O 6. Ba3 Nc6 7. Nc3 Bg4 8. h3 Bh5 9. Qd2 Bxf3 10. gxf3 Nd4 11. Qe3 Nxc2+ 12. Kd2 Nxe3 13. Kxe3 Nh5 14. Bd5 c6 15. Bxf7+ Rxf7 16. Rad1 Bg5+ 17. Ke2 Nf4+ 18. Ke3 Nd5+ 19. Ke2 Nxc3+ 20. Ke1 Nxd1 21. Kxd1 Rxf3 22. h4 Rxd3+ 23. Kc2 Rd2+ 24. Kc3 Qb6 25. hxg5 Qd4# { White is checkmated } 0-1
