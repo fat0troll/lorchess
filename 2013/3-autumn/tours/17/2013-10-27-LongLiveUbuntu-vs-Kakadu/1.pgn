@@ -8,5 +8,9 @@
 [BlackElo "1691"]
 [PlyCount "10"]
 [Variant "Standard"]
+[TimeControl "900+8"]
+[ECO "C44"]
+[Opening "Ponziani Opening, General"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. c3 d5 4. d4 dxe4 5. Nfd2 exd4 0-1
+1. e4 e5 2. Nf3 Nc6 3. c3 { Ponziani Opening, General } d5 4. d4 dxe4 5. Nfd2 exd4 { White resigns } 0-1
