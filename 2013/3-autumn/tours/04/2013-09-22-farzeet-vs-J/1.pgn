@@ -1,6 +1,6 @@
 [Event "Casual game"]
 [Site "http://lichess.org/nt89nd5t"]
-[Date "2013-09-22"]
+[Date "2013.09.22"]
 [White "farzeet"]
 [Black "LOR_J"]
 [Result "0-1"]
@@ -8,5 +8,9 @@
 [BlackElo "1087"]
 [PlyCount "92"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C24"]
+[Opening "Bishop's Opening, Berlin Defense"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Bc4 Nf6 3. d3 h6 4. Nf3 Bc5 5. O-O d6 6. Nc3 Nc6 7. Be3 Bg4 8. Bxc5 dxc5 9. h3 Bh5 10. Qe2 Nd4 11. Qe3 Bxf3 12. gxf3 Nxc2 13. Qxc5 Nxa1 14. Rxa1 Qe7 15. Qb5+ c6 16. Qb3 b5 17. Bxf7+ Qxf7 18. Qxf7+ Kxf7 19. h4 Rhf8 20. Rd1 Nh5 21. d4 exd4 22. Rxd4 Kg8 23. Rd6 Rac8 24. Kg2 Rf6 25. Rd7 a5 26. e5 Re6 27. Ra7 a4 28. a3 Rxe5 29. Rd7 Nf4+ 30. Kg3 Nd5 31. f4 Rf5 32. Kg4 Rxf4+ 33. Kg3 Rf5 34. Ne4 Nf6 35. Nd6 Rf8 36. Rc7 Nh5+ 37. Kg4 g6 38. Ne4 Rf4+ 39. Kh3 Rxe4 40. f3 Rxf3+ 41. Kg2 Rg3+ 42. Kf2 Rc4 43. Rxc6 Rxc6 44. Kf1 Rc2 45. b4 Rxa3 46. Ke1 Ra1# 0-1
+1. e4 e5 2. Bc4 Nf6 { Bishop's Opening, Berlin Defense } 3. d3 h6 4. Nf3 Bc5? { (0.46 → 1.71) Mistake. } 5. O-O? { (1.71 → 0.24) Mistake. } 5... d6 6. Nc3 Nc6 7. Be3 Bg4?! { (0.00 → 0.76) Inaccuracy. } 8. Bxc5 dxc5 9. h3 Bh5?! { (0.34 → 1.13) Inaccuracy. } 10. Qe2? { (1.13 → -1.39) Mistake. } 10... Nd4?! { (-1.39 → -0.78) Inaccuracy. } 11. Qe3?! { (-0.78 → -1.33) Inaccuracy. } 11... Bxf3 12. gxf3?! { (-1.09 → -2.04) Inaccuracy. } 12... Nxc2?! { (-2.04 → -1.47) Inaccuracy. } 13. Qxc5?! { (-1.47 → -2.38) Inaccuracy. } 13... Nxa1? { (-2.38 → -1.15) Mistake. } 14. Rxa1? { (-1.15 → -2.20) Mistake. } 14... Qe7 15. Qb5+? { (-1.87 → -3.27) Mistake. } 15... c6 16. Qb3?! { (-2.96 → -3.79) Inaccuracy. } 16... b5 17. Bxf7+? { (-4.44 → -6.26) Mistake. } 17... Qxf7 18. Qxf7+?! { (-6.44 → -7.07) Inaccuracy. } 18... Kxf7 19. h4?! { (-7.15 → -7.77) Inaccuracy. } 19... Rhf8?! { (-7.77 → -7.19) Inaccuracy. } 20. Rd1 Nh5 21. d4?! { (-7.09 → -7.85) Inaccuracy. } 21... exd4? { (-7.85 → -6.32) Mistake. } 22. Rxd4?! { (-6.32 → -7.21) Inaccuracy. } 22... Kg8?! { (-7.21 → -6.62) Inaccuracy. } 23. Rd6 Rac8 24. Kg2 Rf6 25. Rd7 a5?! { (-6.86 → -6.14) Inaccuracy. } 26. e5? { (-6.14 → -7.45) Mistake. } 26... Re6 27. Ra7 a4?! { (-7.59 → -7.05) Inaccuracy. } 28. a3? { (-7.05 → -8.54) Mistake. } 28... Rxe5 29. Rd7?! { (-8.32 → -8.90) Inaccuracy. } 29... Nf4+ 30. Kg3 Nd5?! { (-9.39 → -8.60) Inaccuracy. } 31. f4 Rf5 32. Kg4? { (-8.94 → -10.00) Mistake. } 32... Rxf4+ 33. Kg3 Rf5? { (-10.00 → -8.86) Mistake. } 34. Ne4? { (-8.86 → -11.13) Mistake. } 34... Nf6? { (-11.13 → -8.66) Mistake. } 35. Nd6? { (-8.66 → -10.44) Mistake. } 35... Rf8? { (-10.44 → -7.45) Mistake. } 36. Rc7? { (-7.45 → -13.23) Mistake. } 36... Nh5+ 37. Kg4 g6?? { (-10.72 → -6.02) Blunder. } 38. Ne4?? { (-6.02 → -15.15) Blunder. } 38... Rf4+ 39. Kh3 Rxe4 40. f3?! { (-26.42 → Mate in 6) Checkmate is now unavoidable. } 40... Rxf3+?! { (Mate in 6 → -91.96) Lost forced checkmate sequence. } 41. Kg2?! { (-91.96 → Mate in 7) Checkmate is now unavoidable. } 41... Rg3+?! { (Mate in 7 → -17.17) Lost forced checkmate sequence. } 42. Kf2 Rc4 43. Rxc6?! { (-15.65 → Mate in 4) Checkmate is now unavoidable. } 43... Rxc6 44. Kf1 Rc2 45. b4 Rxa3 46. Ke1 Ra1# { White is checkmated } 0-1
