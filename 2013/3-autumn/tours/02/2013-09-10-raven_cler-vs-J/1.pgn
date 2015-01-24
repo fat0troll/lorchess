@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/li4btmjd"]
-[Date "2013-09-10"]
+[Date "2013.09.10"]
 [White "raven_cler"]
 [Black "LOR_J"]
 [Result "0-1"]
-[WhiteElo "948"]
-[BlackElo "1111"]
+[WhiteElo "1342"]
+[BlackElo "1573"]
 [PlyCount "42"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C45"]
+[Opening "Scotch Game, General"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nxd4 5. Qxd4 d6 6. Bb5+ Bd7 7. Bxd7+ Qxd7 8. O-O O-O-O 9. Qxa7 Qc6 10. Nc3 Nf6 11. Bg5 Be7 12. Bxf6 Bxf6 13. Nd5 b6 14. Nxf6 gxf6 15. Rae1 Kd7 16. f3 Ra8 17. Qxa8 Rxa8 18. Re3 Qxc2 19. Rf2 Qb1+ 20. Rf1 Qxb2 21. h3 Rxa2 0-1
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 { Scotch Game, General } Nxd4 5. Qxd4 d6 6. Bb5+ Bd7?! { (0.40 → 0.92) Inaccuracy. } 7. Bxd7+ Qxd7 8. O-O O-O-O? { (0.88 → 2.46) Mistake. } 9. Qxa7 Qc6 10. Nc3 Nf6 11. Bg5 Be7 12. Bxf6?! { (2.06 → 1.45) Inaccuracy. } 12... Bxf6 13. Nd5 b6 14. Nxf6 gxf6 15. Rae1 Kd7 16. f3?? { (1.53 → -7.23) Blunder. } 16... Ra8 17. Qxa8 Rxa8 18. Re3? { (-7.19 → -10.50) Mistake. } 18... Qxc2 19. Rf2 Qb1+ 20. Rf1 Qxb2 21. h3 Rxa2 { White resigns } 0-1
