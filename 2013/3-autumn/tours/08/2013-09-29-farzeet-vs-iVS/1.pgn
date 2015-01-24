@@ -8,5 +8,9 @@
 [BlackElo "1404"]
 [PlyCount "86"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B20"]
+[Opening "Sicilian Defense, Bowlder Attack"]
+[Annotator "lichess.org"]
 
-1. e4 c5 2. Bc4 d6 3. d3 Nf6 4. Nf3 Nc6 5. Bf4 Bg4 6. e5 Bxf3 7. Qxf3 dxe5 8. Bxe5 Nxe5 9. Qxb7 Nxc4 10. dxc4 g6 11. O-O Bg7 12. Qb5+ Qd7 13. Qxc5 O-O 14. Nc3 Rfc8 15. Qe5 Ng4 16. Qe4 Bxc3 17. bxc3 Nf6 18. Qd3 Rd8 19. c5 Qxd3 20. cxd3 Rxd3 21. c6 Rc8 22. Rad1 Rxc3 23. Rd7 Nxd7 24. cxd7 Rd8 25. Rd1 Rc7 26. Kf1 Rcxd7 27. Rxd7 Rxd7 28. a4 e5 29. f3 f5 30. g3 e4 31. fxe4 fxe4 32. Ke2 Rd3 33. a5 Kf7 34. a6 Ke6 35. g4 Ke5 36. g5 Kf4 37. h4 Ra3 38. Kf2 Ra2+ 39. Ke1 Ke3 40. Kd1 Kd3 41. Kc1 Rc2+ 42. Kd1 e3 43. Ke1 Rc1# 0-1
+1. e4 c5 2. Bc4?! { Sicilian Defense, Bowlder Attack (0.58 → 0.08) Inaccuracy. } 2... d6 3. d3 Nf6 4. Nf3 Nc6 5. Bf4 Bg4 6. e5? { (0.16 → -1.21) Mistake. } 6... Bxf3 7. Qxf3 dxe5 8. Bxe5? { (-0.68 → -3.67) Mistake. } 8... Nxe5?! { (-3.67 → -3.01) Inaccuracy. } 9. Qxb7 Nxc4 10. dxc4 g6 11. O-O Bg7 12. Qb5+? { (-3.37 → -4.84) Mistake. } 12... Qd7? { (-4.84 → -3.45) Mistake. } 13. Qxc5 O-O 14. Nc3 Rfc8 15. Qe5 Ng4? { (-4.48 → -3.15) Mistake. } 16. Qe4?! { (-3.15 → -4.12) Inaccuracy. } 16... Bxc3 17. bxc3 Nf6 18. Qd3 Rd8?! { (-4.58 → -3.67) Inaccuracy. } 19. c5? { (-3.67 → -4.86) Mistake. } 19... Qxd3 20. cxd3 Rxd3 21. c6 Rc8 22. Rad1?! { (-5.63 → -6.40) Inaccuracy. } 22... Rxc3 23. Rd7?? { (-6.50 → -9.69) Blunder. } 23... Nxd7 24. cxd7 Rd8 25. Rd1 Rc7 26. Kf1 Rcxd7 27. Rxd7 Rxd7 28. a4 e5 29. f3 f5 30. g3 e4 31. fxe4 fxe4 32. Ke2 Rd3 33. a5 Kf7 34. a6 Ke6 35. g4 Ke5 36. g5?! { (-88.09 → Mate in 10) Checkmate is now unavoidable. } 36... Kf4?! { (Mate in 10 → -99.36) Lost forced checkmate sequence. } 37. h4?! { (-99.36 → Mate in 5) Checkmate is now unavoidable. } 37... Ra3?! { (Mate in 5 → -99.57) Lost forced checkmate sequence. } 38. Kf2?! { (-99.57 → Mate in 6) Checkmate is now unavoidable. } 38... Ra2+ 39. Ke1 Ke3?! { (Mate in 5 → Mate in 6) Not the best checkmate sequence. } 40. Kd1 Kd3 41. Kc1 Rc2+?! { (Mate in 4 → Mate in 4) Not the best checkmate sequence. } 42. Kd1 e3 43. Ke1 Rc1# { White is checkmated } 0-1
