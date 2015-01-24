@@ -4,10 +4,13 @@
 [White "HunOL"]
 [Black "txgames"]
 [Result "1-0"]
-[WhiteElo "1246"]
-[BlackElo "992"]
+[WhiteElo "1728"]
+[BlackElo "1397"]
 [PlyCount "65"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A40"]
+[Opening "Horwitz Defense, General"]
 [Annotator "lichess.org"]
 
-1. d4 e6 2. c4 c5 3. e3 cxd4 4. exd4 a6 5. Nf3 d5 6. c5 b6 7. b4 Nc6 8. a3?! { Inaccuracy. Best was b1c3. } 8... Nf6?! { Inaccuracy. Best was b6c5. } 9. Bg5?! { Inaccuracy. Best was b1c3. } 9... h6 10. Bh4?! { Inaccuracy. Best was g5e3. } 10... Be7 11. Bd3 a5? { Mistake. Best was b6c5. } 12. b5 Na7 13. c6 Nxb5? { Mistake. Best was g7g5. } 14. Bxb5 Ba6?? { Blunder. Best was e8g8. } 15. c7+ Bxb5 16. cxd8=Q+ Raxd8 17. Nc3 Bc4 18. Ne2? { Mistake. Best was f3e5. } 18... b5 19. O-O b4?! { Inaccuracy. Best was g7g5. } 20. Qa4+?! { Inaccuracy. Best was a3b4. } 20... Nd7? { Mistake. Best was e8f8. } 21. Rfe1 Bxh4 22. Nxh4 b3 23. Nc3?! { Inaccuracy. Best was a1b1. } 23... O-O 24. Nf3 f6? { Mistake. Best was d7f6. } 25. Rxe6 Rfe8?? { Blunder. Best was f8f7. } 26. Rxe8+ Rxe8 27. Qxd7 Rf8 28. Nxd5 b2?? { Blunder. Best was c4d3. } 29. Rb1 Rb8? { Mistake. Best was g8h8. } 30. Ne7+ Kh7 31. Qf5+ g6 32. Qxg6+ Kh8 33. Qxh6# 1-0
+1. d4 e6 { Horwitz Defense, General } 2. c4 c5 3. e3 cxd4 4. exd4 a6 5. Nf3 d5 6. c5 b6 7. b4 Nc6 8. a3?! { (0.66 → 0.04) Inaccuracy. } 8... Nf6?! { (0.04 → 0.58) Inaccuracy. } 9. Bg5?! { (0.58 → -0.08) Inaccuracy. } 9... h6 10. Bh4?! { (-0.04 → -0.72) Inaccuracy. } 10... Be7 11. Bd3 a5? { (-0.50 → 1.45) Mistake. } 12. b5 Na7 13. c6 Nxb5? { (2.12 → 4.78) Mistake. } 14. Bxb5 Ba6?? { (4.66 → 11.03) Blunder. } 15. c7+ Bxb5 16. cxd8=Q+ Raxd8 17. Nc3 Bc4 18. Ne2 b5 19. O-O b4 20. Qa4+ Nd7 21. Rfe1 Bxh4 22. Nxh4 b3 23. Nc3 O-O 24. Nf3 f6 25. Rxe6 Rfe8 26. Rxe8+ Rxe8 27. Qxd7 Rf8 28. Nxd5 b2 29. Rb1 Rb8 30. Ne7+ Kh7 31. Qf5+ g6 32. Qxg6+ Kh8 33. Qxh6# { Black is checkmated } 1-0
