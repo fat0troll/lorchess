@@ -1,4 +1,4 @@
-[Event "Rated game"]
+[Event "Casual game"]
 [Site "http://lichess.org/v4ff1kl6"]
 [Date "2013.09.20"]
 [White "HunOL"]
@@ -8,5 +8,9 @@
 [BlackElo "1027"]
 [PlyCount "69"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "?"]
+[Opening "?"]
+[Annotator "lichess.org"]
 
-1. d4 d6 2. e4 e5 3. dxe5 dxe5 4. Qxd8+ Kxd8 5. Bc4 Bb4+ 6. c3 Bc5 7. Bxf7 Nf6 8. Bg5 Rf8 9. Bb3 h6 10. Bh4 g5 11. Bg3 Ng4 12. f3 Ne3 13. Bf2 Nxg2+ 14. Kf1 Ne3+ 15. Bxe3 Bxe3 16. Ke2 Bf4 17. Na3 Bd7 18. Rd1 Nc6 19. Be6 Ke7 20. Rxd7+ Kxe6 21. Rxc7 Kd6 22. Rxb7 Na5 23. Rb5 Nc6 24. Rd5+ Kc7 25. Nc4 Rab8 26. b4 Ne7 27. Rc5+ Kd7 28. Nxe5+ Bxe5 29. Rxe5 Nc6 30. Rd5+ Ke6 31. Ke3 g4 32. fxg4 Rfc8 33. Ne2 Nxb4 34. cxb4 Rc2 35. Nd4+ 1-0
+1. d4 d6 2. e4 e5 3. dxe5 dxe5 4. Qxd8+ Kxd8 5. Bc4 Bb4+ 6. c3 Bc5 7. Bxf7 Nf6 8. Bg5 Rf8 9. Bb3 h6 10. Bh4 g5 11. Bg3 Ng4 12. f3 Ne3 13. Bf2 Nxg2+ 14. Kf1 Ne3+ 15. Bxe3 Bxe3 16. Ke2 Bf4 17. Na3 Bd7 18. Rd1 Nc6 19. Be6 Ke7 20. Rxd7+ Kxe6 21. Rxc7 Kd6 22. Rxb7 Na5 23. Rb5 Nc6 24. Rd5+ Kc7 25. Nc4 Rab8 26. b4 Ne7 27. Rc5+ Kd7 28. Nxe5+ Bxe5 29. Rxe5 Nc6 30. Rd5+ Ke6 31. Ke3 g4 32. fxg4 Rfc8 33. Ne2 Nxb4 34. cxb4 Rc2 35. Nd4+ { Black resigns } 1-0
