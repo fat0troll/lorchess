@@ -4,9 +4,13 @@
 [White "sshilovsky"]
 [Black "cppmm"]
 [Result "1-0"]
-[WhiteElo "1145"]
-[BlackElo "923"]
+[WhiteElo "1571"]
+[BlackElo "1280"]
 [PlyCount "47"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B06"]
+[Opening "Modern Defense, Three Pawns Attack"]
+[Annotator "lichess.org"]
 
-1. e4 g6 2. d4 Bg7 3. f4 Nh6 4. g4 d6 5. g5 Ng4 6. Bh3 f5 7. Nc3 e5 8. dxe5 Ne3 9. Bxe3 fxe4 10. Bxc8 Qxc8 11. exd6 cxd6 12. Nxe4 Bxb2 13. Nxd6+ Kd8 14. Nxc8+ Kxc8 15. Rb1 Bc3+ 16. Kf2 Nc6 17. Nf3 Kc7 18. Nd4 Rad8 19. Ne6+ Kc8 20. Nxd8 Rxd8 21. Qg4+ Kc7 22. Rhd1 Rf8 23. Qd7+ Kb8 24. Qxb7# 1-0
+1. e4 g6?! { (0.18 → 0.86) Inaccuracy. The best move was e6. } (1... e6 2. Nc3 d5 3. d4 Bb4 4. e5 c5 5. a3) 2. d4 Bg7 3. f4?! { Modern Defense, Three Pawns Attack (0.86 → 0.28) Inaccuracy. The best move was Nf3. } (3. Nf3 d6 4. Nc3 Nf6 5. Bd3 Nc6 6. O-O O-O 7. d5 Ne5) 3... Nh6 4. g4 d6 5. g5 Ng4? { (0.78 → 2.94) Mistake. The best move was Ng8. } (5... Ng8 6. Be3 h6 7. Nc3 hxg5 8. fxg5 Nc6 9. h3 Bd7 10. Nf3) 6. Bh3? { (2.94 → 1.27) Mistake. The best move was h3. } (6. h3 c5 7. hxg4 cxd4 8. Qf3 Nc6 9. Nd2 h6 10. gxh6 Rxh6) 6... f5?! { (1.27 → 2.02) Inaccuracy. The best move was h5. } (6... h5 7. Bf1 c5 8. h3 Qa5+ 9. Bd2 Qb6 10. hxg4 Bxg4 11. Qc1) 7. Nc3? { (2.02 → 0.28) Mistake. The best move was exf5. } (7. exf5 gxf5 8. Bg2 c5 9. h3 Qa5+ 10. Bd2 Qb6 11. hxg4 cxd4) 7... e5?! { (0.28 → 0.94) Inaccuracy. The best move was Na6. } (7... Na6 8. exf5 gxf5 9. Bg2 c5 10. dxc5 Qa5 11. cxd6 Bxc3+ 12. bxc3) 8. dxe5 Ne3?? { (1.05 → 6.18) Blunder. The best move was dxe5. } (8... dxe5 9. Qxd8+ Kxd8 10. exf5 Bxf5 11. Bg2 exf4 12. Bxb7 Bxc3+ 13. bxc3) 9. Bxe3 fxe4 10. Bxc8 Qxc8 11. exd6? { (6.56 → 5.47) Mistake. The best move was Qd5. } (11. Qd5 Nc6 12. O-O-O dxe5 13. Nge2 exf4 14. Nxf4 Bxc3 15. bxc3 Qf5) 11... cxd6?! { (5.47 → 6.44) Inaccuracy. The best move was Bxc3+. } (11... Bxc3+ 12. bxc3 Nc6 13. Rab1 Qe6 14. dxc7 b6 15. Ne2 O-O 16. Nd4) 12. Nxe4 Bxb2?? { (5.95 → 19.36) Blunder. The best move was Qc6. } (12... Qc6 13. Nxd6+ Ke7 14. f5 Bxb2 15. f6+ Kf8 16. Rab1 Bc3+ 17. Kf1) 13. Nxd6+ Kd8 14. Nxc8+ Kxc8 15. Rb1 Bc3+ 16. Kf2 Nc6 17. Nf3 Kc7?! { (20.72 → Mate in 7) Checkmate is now unavoidable. The best move was Rhd8. } (17... Rhd8 18. Qf1 Ba5 19. Qh3+ Kb8 20. Qxh7 Bb6 21. Qxg6 Kc7 22. Rhd1) 18. Nd4?! { (Mate in 7 → 16.92) Lost forced checkmate sequence. The best move was Rxb7+. } (18. Rxb7+ Kxb7 19. Qd7+ Ka6 20. Qxc6+ Ka5 21. Qxc3+ Ka4 22. Qc4+ Ka5) 18... Rad8 19. Ne6+ Kc8 20. Nxd8 Rxd8 21. Qg4+ Kc7 22. Rhd1 Rf8?! { (24.84 → Mate in 2) Checkmate is now unavoidable. The best move was Bd4. } (22... Bd4 23. Qe6 Bxe3+ 24. Kxe3 Rxd1 25. Rxd1 a6 26. Rd7+ Kb6 27. Rxh7) 23. Qd7+ Kb8 24. Qxb7# { Black is checkmated } 1-0
