@@ -4,10 +4,13 @@
 [White "sshilovsky"]
 [Black "Nokman"]
 [Result "0-1"]
-[WhiteElo "1190"]
-[BlackElo "1209"]
+[WhiteElo "1642"]
+[BlackElo "1565"]
 [PlyCount "24"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C02"]
+[Opening "French Defense, Advance Variation"]
 [Annotator "lichess.org"]
 
-1. e4 e6 2. d4 d5 3. e5 c5 4. Be3 Nc6 5. Bb5?! { (-0.38 → -0.88) Inaccuracy. The best move was c3. } (5. c3 Nge7 6. Nf3 Nf5 7. Bd3 Qb6 8. Bc1 cxd4 9. Bxf5 exf5) 5... cxd4 6. Bxd4 Nge7 7. Bc5 Bd7 8. Bxc6 Nxc6 9. f4?? { (-1.13 → -7.77) Blunder. The best move was Bxf8. } (9. Bxf8 Rhxf8 10. Nf3 f6 11. c4 fxe5 12. cxd5 exd5 13. Qxd5 Bh3) 9... Bxc5 10. Nc3 Qb6 11. Nh3? { (-8.04 → -11.51) Mistake. The best move was Nge2. } (11. Nge2 Be3 12. a4 g5 13. Rhf1 gxf4 14. Nxf4 Qxb2 15. Nfxd5 exd5) 11... Qxb2 12. Na4 Qb4+ 0-1
+1. e4 e6 2. d4 d5 3. e5 { French Defense, Advance Variation } c5 4. Be3 Nc6 5. Bb5?! { (-0.38 → -0.88) Inaccuracy. The best move was c3. } (5. c3 Nge7 6. Nf3 Nf5 7. Bd3 Qb6 8. Bc1 cxd4 9. Bxf5 exf5) 5... cxd4 6. Bxd4 Nge7 7. Bc5 Bd7 8. Bxc6 Nxc6 9. f4?? { (-1.13 → -7.77) Blunder. The best move was Bxf8. } (9. Bxf8 Rhxf8 10. Nf3 f6 11. c4 fxe5 12. cxd5 exd5 13. Qxd5 Bh3) 9... Bxc5 10. Nc3 Qb6 11. Nh3? { (-8.04 → -11.51) Mistake. The best move was Nge2. } (11. Nge2 Be3 12. a4 g5 13. Rhf1 gxf4 14. Nxf4 Qxb2 15. Nfxd5 exd5) 11... Qxb2 12. Na4 Qb4+ { White resigns } 0-1
