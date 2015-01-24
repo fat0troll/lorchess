@@ -8,5 +8,9 @@
 [BlackElo "?"]
 [PlyCount "54"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B20"]
+[Opening "Sicilian Defense, Bowlder Attack"]
+[Annotator "lichess.org"]
 
-1. e4 c5 2. Bc4 Nc6 3. Nf3 e6 4. d3 Nf6 5. Nc3 d5 6. exd5 exd5 7. Bb5 Be7 8. Ne5 O-O 9. Nxc6 bxc6 10. Bxc6 Rb8 11. Bg5 Qd6 12. Bxf6 Bxf6 13. Nxd5 Bxb2 14. Rb1 Be6 15. Qf3 Bxd5 16. Bxd5 Bc3+ 17. Ke2 Rfe8+ 18. Be4 g6 19. Rxb8 Rxb8 20. Rd1 Rb2 21. Rc1 c4 22. Bd5 cxd3+ 23. Qxd3 Qe5+ 24. Kf1 Bd4 25. Re1 Qxd5 26. c3 Rxf2+ 27. Kg1 Qxg2# 0-1
+1. e4 c5 2. Bc4 { Sicilian Defense, Bowlder Attack } Nc6 3. Nf3 e6 4. d3?! { (0.34 → -0.36) Inaccuracy. } 4... Nf6?! { (-0.36 → 0.16) Inaccuracy. } 5. Nc3 d5 6. exd5 exd5 7. Bb5 Be7 8. Ne5 O-O?! { (-0.86 → 0.00) Inaccuracy. } 9. Nxc6 bxc6 10. Bxc6 Rb8 11. Bg5? { (0.00 → -1.67) Mistake. } 11... Qd6 12. Bxf6? { (-1.39 → -3.79) Mistake. } 12... Bxf6 13. Nxd5?! { (-3.85 → -4.58) Inaccuracy. } 13... Bxb2 14. Rb1 Be6?? { (-4.40 → -1.31) Blunder. } 15. Qf3? { (-1.31 → -3.65) Mistake. } 15... Bxd5?? { (-3.65 → -0.56) Blunder. } 16. Bxd5 Bc3+ 17. Ke2 Rfe8+ 18. Be4 g6 19. Rxb8 Rxb8?! { (-0.56 → 0.00) Inaccuracy. } 20. Rd1?! { (0.00 → -0.60) Inaccuracy. } 20... Rb2 21. Rc1 c4?! { (-0.54 → 0.32) Inaccuracy. } 22. Bd5 cxd3+ 23. Qxd3 Qe5+ 24. Kf1 Bd4?! { (0.12 → 0.90) Inaccuracy. } 25. Re1? { (0.90 → -0.52) Mistake. } 25... Qxd5 26. c3?? { (-0.52 → Mate in 2) Checkmate is now unavoidable. } 26... Rxf2+ 27. Kg1 Qxg2# { White is checkmated } 0-1
