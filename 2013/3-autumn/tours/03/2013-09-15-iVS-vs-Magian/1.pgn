@@ -1,12 +1,16 @@
 [Event "Rated game"]
 [Site "http://lichess.org/7dadecl3"]
-[Date "2013-09-15"]
+[Date "2013.09.15"]
 [White "iVS"]
 [Black "Magian"]
 [Result "0-1"]
-[WhiteElo "1453"]
-[BlackElo "1388"]
+[WhiteElo "1881"]
+[BlackElo "1832"]
 [PlyCount "102"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "E77"]
+[Opening "King's Indian Defense, Six Pawns Attack"]
+[Annotator "lichess.org"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Bd3 Nbd7 6. Nge2 c5 7. d5 Ne5 8. O-O O-O 9. f4 Nxd3 10. Qxd3 Qc7 11. Nb5 Qb6 12. a4 a6 13. a5 Qd8 14. Nbc3 Bg4 15. Ng3 e6 16. Re1 exd5 17. Nxd5 Re8 18. Bd2 Nxd5 19. cxd5 Bxb2 20. Rab1 Bd4+ 21. Kh1 Rb8 22. Rb6 Qf6 23. Reb1 c4 24. Qxc4 Bxb6 25. Rxb6 Rec8 26. Qb3 Qa1+ 27. Qb1 Qxb1+ 28. Rxb1 Rc2 29. Bb4 Rd8 30. h3 Be2 31. Re1 Bb5 32. Nf1 Rb2 33. Bc3 Rb3 34. Bf6 Re8 35. Nh2 Ra3 36. e5 Rxa5 37. Nf3 Bc4 38. Rd1 Rxd5 39. Rxd5 Bxd5 40. exd6 Bc6 41. Be7 Rc8 42. Ne5 Ba4 43. Kg1 Rc1+ 44. Kf2 Rd1 45. Ke2 Rd5 46. Ke3 f5 47. Nc4 Bb5 48. Nb6 Rd3+ 49. Kf2 Kf7 50. h4 a5 51. g3 a4 0-1
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 { King's Indian Defense, Six Pawns Attack } 5. Bd3 Nbd7 6. Nge2 c5 7. d5 Ne5?! { (0.12 → 0.72) Inaccuracy. } 8. O-O?! { (0.72 → 0.20) Inaccuracy. } 8... O-O 9. f4 Nxd3 10. Qxd3 Qc7 11. Nb5 Qb6 12. a4 a6 13. a5 Qd8 14. Nbc3 Bg4 15. Ng3 e6?! { (0.20 → 1.13) Inaccuracy. } 16. Re1? { (1.13 → -0.08) Mistake. } 16... exd5 17. Nxd5?! { (0.00 → -0.56) Inaccuracy. } 17... Re8?! { (-0.56 → 0.12) Inaccuracy. } 18. Bd2? { (0.12 → -0.88) Mistake. } 18... Nxd5 19. cxd5 Bxb2 20. Rab1 Bd4+ 21. Kh1 Rb8 22. Rb6?! { (-0.52 → -1.29) Inaccuracy. } 22... Qf6? { (-1.29 → 0.60) Mistake. } 23. Reb1? { (0.60 → -0.84) Mistake. } 23... c4 24. Qxc4 Bxb6 25. Rxb6? { (-0.88 → -2.18) Mistake. } 25... Rec8?! { (-2.18 → -1.29) Inaccuracy. } 26. Qb3?! { (-1.29 → -1.89) Inaccuracy. } 26... Qa1+ 27. Qb1 Qxb1+ 28. Rxb1 Rc2 29. Bb4 Rd8 30. h3 Be2 31. Re1 Bb5 32. Nf1? { (-2.66 → -4.20) Mistake. } 32... Rb2? { (-4.20 → -2.70) Mistake. } 33. Bc3 Rb3 34. Bf6 Re8 35. Nh2?! { (-2.34 → -3.19) Inaccuracy. } 35... Ra3? { (-3.19 → -1.81) Mistake. } 36. e5?! { (-1.81 → -2.62) Inaccuracy. } 36... Rxa5 37. Nf3? { (-2.46 → -3.63) Mistake. } 37... Bc4? { (-3.63 → -2.38) Mistake. } 38. Rd1 Rxd5 39. Rxd5 Bxd5 40. exd6 Bc6 41. Be7? { (-3.59 → -4.84) Mistake. } 41... Rc8? { (-4.84 → -2.50) Mistake. } 42. Ne5 Ba4 43. Kg1 Rc1+ 44. Kf2 Rd1 45. Ke2 Rd5 46. Ke3 f5?! { (-3.43 → -2.86) Inaccuracy. } 47. Nc4? { (-2.86 → -4.12) Mistake. } 47... Bb5 48. Nb6?! { (-4.56 → -5.09) Inaccuracy. } 48... Rd3+ 49. Kf2 Kf7 50. h4? { (-6.18 → -7.43) Mistake. } 50... a5 51. g3 a4 { White resigns } 0-1
