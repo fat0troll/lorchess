@@ -4,9 +4,13 @@
 [White "Uroboros"]
 [Black "darkshvein"]
 [Result "1-0"]
-[WhiteElo "1479"]
-[BlackElo "1176"]
+[WhiteElo "1989"]
+[BlackElo "1432"]
 [PlyCount "41"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A50"]
+[Opening "Mexican Defense, General"]
+[Annotator "lichess.org"]
 
-1. d4 Nf6 2. c4 Nc6 3. Nc3 b6 4. Nf3 Bb7 5. d5 Nb8 6. e4 c6 7. e5 Ng8 8. Be2 cxd5 9. cxd5 Ba6 10. O-O Bxe2 11. Qxe2 Qc7 12. Bf4 d6 13. Nb5 Qd7 14. exd6 a6 15. dxe7 Bxe7 16. Nd6+ Kf8 17. Rfe1 Bxd6 18. Bxd6+ Ne7 19. Bxe7+ Qxe7 20. Qxe7+ Kg8 21. Qe8# 1-0
+1. d4 Nf6 2. c4 Nc6 { Mexican Defense, General } 3. Nc3 b6?! { (0.34 → 0.94) Inaccuracy. } 4. Nf3 Bb7?! { (0.76 → 1.49) Inaccuracy. } 5. d5 Nb8 6. e4 c6? { (1.41 → 2.78) Mistake. } 7. e5 Ng8 8. Be2 cxd5 9. cxd5 Ba6? { (2.30 → 3.57) Mistake. } 10. O-O Bxe2?! { (3.09 → 3.71) Inaccuracy. } 11. Qxe2 Qc7? { (3.61 → 4.70) Mistake. } 12. Bf4?! { (4.70 → 4.08) Inaccuracy. } 12... d6?? { (4.08 → 11.73) Blunder. } 13. Nb5 Qd7 14. exd6 a6 15. dxe7?? { (15.81 → 5.61) Blunder. } 15... Bxe7?? { (5.61 → 12.46) Blunder. } 16. Nd6+ Kf8 17. Rfe1? { (9.89 → 7.13) Mistake. } 17... Bxd6? { (7.13 → 16.34) Mistake. } 18. Bxd6+ Ne7 19. Bxe7+ Qxe7?! { (11.71 → Mate in 2) Checkmate is now unavoidable. } 20. Qxe7+ Kg8 21. Qe8# { Black is checkmated } 1-0
