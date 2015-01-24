@@ -4,10 +4,13 @@
 [White "gremlin_the_red"]
 [Black "Uroboros"]
 [Result "1-0"]
-[WhiteElo "1275"]
-[BlackElo "1544"]
+[WhiteElo "1787"]
+[BlackElo "2014"]
 [PlyCount "47"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D91"]
+[Opening "Grünfeld Defense, Three Knights Variation, Petrosian System"]
 [Annotator "lichess.org"]
 
-1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Bg5 Ne4 6. Bh4 Nxc3 7. bxc3 c5 8. e3 Nc6 9. Bd3 O-O 10. O-O cxd4 11. cxd4 Qa5?! { Inaccuracy. Best was d5c4. } 12. Qe2?! { Inaccuracy. Best was a1b1. } 12... Bg4?! { Inaccuracy. Best was d5c4. } 13. h3?! { Inaccuracy. Best was a1b1. } 13... Bxf3 14. Qxf3 e6 15. cxd5?! { Inaccuracy. Best was a1b1. } 15... exd5? { Mistake. Best was c6b4. } 16. a3 Rac8 17. Rfc1 b6 18. Qe2 Nb8? { Mistake. Best was f8e8. } 19. Be7 Rfe8?? { Blunder. Best was a7a6. } 20. Bb4 Qa4? { Mistake. Best was g7d4. } 21. Bb5 Qb3 22. Bxe8 Rxe8 23. Qb5 Rxe3 24. Rc8+ 1-0
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Bg5 { Grünfeld Defense, Three Knights Variation, Petrosian System } Ne4 6. Bh4 Nxc3 7. bxc3 c5 8. e3 Nc6 9. Bd3 O-O 10. O-O cxd4 11. cxd4 Qa5 12. Qe2?! { (1.17 → 0.56) Inaccuracy. The best move was Qb1. } (12. Qb1 Be6 13. Ng5 Bc8 14. cxd5 Nb4 15. Nf3 Nxd3 16. Qxd3 Qxd5) 12... Bg4 13. h3 Bxf3 14. Qxf3 e6 15. cxd5?! { (1.23 → 0.58) Inaccuracy. The best move was Rab1. } (15. Rab1 dxc4 16. Bxc4 Qa4 17. Be2 Na5 18. Be7 Rfc8 19. Bb4 Nc6) 15... exd5?! { (0.58 → 1.45) Inaccuracy. The best move was Nb4. } (15... Nb4 16. Bc4 Rac8 17. Bb3 Nxd5 18. Bxd5 exd5 19. Rfb1 Rc7 20. Bg3) 16. a3 Rac8 17. Rfc1 b6 18. Qe2 Nb8? { (1.61 → 3.31) Mistake. The best move was Rfe8. } (18... Rfe8 19. Qf1 Re6 20. Ba6 Rf8 21. Bg3 Ne7 22. Bf4 Nc6 23. Qb5) 19. Be7 Rfe8?? { (3.55 → 7.11) Blunder. The best move was a6. } (19... a6 20. Bxf8 Rxf8 21. a4 f5 22. Rab1 Re8 23. Qf3 Kh8 24. Qf4) 20. Bb4 Qa4? { (7.13 → 10.30) Mistake. The best move was Bxd4. } (20... Bxd4 21. Bxa5 Bxa1 22. Rxa1 bxa5 23. Qd2 Nd7 24. Bb5 Re7 25. Qxd5) 21. Bb5 Qb3 22. Bxe8 Rxe8 23. Qb5 Rxe3 24. Rc8+ { Black resigns } 1-0
