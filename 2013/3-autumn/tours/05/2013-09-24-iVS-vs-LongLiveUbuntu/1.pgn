@@ -4,9 +4,13 @@
 [White "iVS"]
 [Black "LLU"]
 [Result "1-0"]
-[WhiteElo "1462"]
-[BlackElo "1019"]
+[WhiteElo "1873"]
+[BlackElo "1188"]
 [PlyCount "57"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A41"]
+[Opening "Rat Defense, English Rat"]
+[Annotator "lichess.org"]
 
-1. d4 d6 2. c4 e5 3. d5 Nf6 4. Bg5 Be7 5. Nc3 O-O 6. e4 Bg4 7. f3 Bh5 8. Qd2 Bg6 9. O-O-O Na6 10. g4 Nxe4 11. Nxe4 Bxe4 12. Bxe7 Qxe7 13. fxe4 Nc5 14. Bg2 c6 15. Ne2 cxd5 16. cxd5 Nxe4 17. Bxe4 Rac8+ 18. Kb1 Rc4 19. Ng3 Rfc8 20. Nf5 Rc1+ 21. Rxc1 Rxc1+ 22. Rxc1 Qf8 23. Nxd6 Qxd6 24. Rc8+ Qf8 25. Qc3 h6 26. Rxf8+ Kxf8 27. Qc8+ Ke7 28. Qc7+ Kf8 29. Qd8# 1-0
+1. d4 d6?! { (0.18 → 0.68) Inaccuracy. } 2. c4 e5 { Rat Defense, English Rat } 3. d5 Nf6 4. Bg5?! { (0.02 → -0.50) Inaccuracy. } 4... Be7 5. Nc3?! { (-0.38 → -1.11) Inaccuracy. } 5... O-O?! { (-1.11 → -0.38) Inaccuracy. } 6. e4? { (-0.38 → -1.47) Mistake. } 6... Bg4? { (-1.47 → -0.34) Mistake. } 7. f3 Bh5 8. Qd2? { (0.06 → -1.27) Mistake. } 8... Bg6? { (-1.27 → 0.08) Mistake. } 9. O-O-O? { (0.08 → -1.27) Mistake. } 9... Na6? { (-1.27 → -0.26) Mistake. } 10. g4?! { (-0.26 → -1.25) Inaccuracy. } 10... Nxe4?? { (-1.25 → 2.00) Blunder. } 11. Nxe4 Bxe4 12. Bxe7 Qxe7 13. fxe4 Nc5 14. Bg2?! { (2.54 → 2.04) Inaccuracy. } 14... c6? { (2.04 → 3.09) Mistake. } 15. Ne2 cxd5 16. cxd5 Nxe4?? { (2.78 → 6.30) Blunder. } 17. Bxe4 Rac8+ 18. Kb1 Rc4? { (6.66 → 8.70) Mistake. } 19. Ng3? { (8.70 → 6.76) Mistake. } 19... Rfc8 20. Nf5 Rc1+?? { (6.60 → 26.36) Blunder. } 21. Rxc1 Rxc1+ 22. Rxc1 Qf8 23. Nxd6 Qxd6?! { (37.27 → Mate in 7) Checkmate is now unavoidable. } 24. Rc8+ Qf8 25. Qc3 h6 26. Rxf8+?! { (Mate in 4 → Mate in 4) Not the best checkmate sequence. } 26... Kxf8 27. Qc8+ Ke7 28. Qc7+ Kf8 29. Qd8# { Black is checkmated } 1-0
