@@ -4,10 +4,13 @@
 [White "Nedis"]
 [Black "gremlin_the_red"]
 [Result "1/2-1/2"]
-[WhiteElo "1329"]
-[BlackElo "1361"]
+[WhiteElo "1737"]
+[BlackElo "1853"]
 [PlyCount "73"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "E46"]
+[Opening "Nimzo-Indian Defense, Normal Variation"]
 [Annotator "lichess.org"]
 
-1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Be2 b6 6. Nf3 Bb7 7. Bd2 d6 8. O-O Bxc3 9. Bxc3 Nbd7 10. Rac1 c5 11. dxc5 dxc5 12. Qd3 Qc7 13. Rfd1 Rad8 14. h4 Ne4 15. Rc2? { (-0.12 → -1.21) Mistake. The best move was Ng5. } (15. Ng5 Nxg5 16. hxg5 Nf6 17. Qc2 Ne4 18. f4 Qc8 19. Rxd8 Rxd8) 15... Ndf6 16. Be5 Rxd3 17. Bxc7 Rxd1+ 18. Bxd1 Rc8 19. Be5 Rd8 20. Be2 Ng4 21. Bc7 Rd7? { (-1.53 → -0.44) Mistake. The best move was Rc8. } (21... Rc8 22. Ng5 Ngxf2 23. Bh2 Nxg5 24. hxg5 Ne4 25. Bf3 Rd8 26. Kf1) 22. Ne5 Nxe5?! { (-0.40 → 0.32) Inaccuracy. The best move was Rxc7. } (22... Rxc7 23. Bxg4 Kf8 24. f3 Nd6 25. Kf2 Ke7 26. Rc1 Rc8 27. b3) 23. Bxe5 f6 24. Bb8 a6? { (0.40 → 1.53) Mistake. The best move was Kf7. } (24... Kf7 25. Bxa7 Ng3 26. fxg3 Be4 27. Rc3 Rxa7 28. a3 Rd7 29. Kf2) 25. f3 Nd2? { (1.49 → 2.56) Mistake. The best move was Kf7. } (25... Kf7 26. fxe4 Bxe4 27. Rc1 Rd2 28. Bf3 Bxf3 29. gxf3 Rxb2 30. a4) 26. Kf2 e5 27. Ke1 Ne4 28. fxe4 Bxe4 29. Rc3?? { (3.53 → 0.30) Blunder. The best move was Rd2. } (29. Rd2 Rb7 30. Bd6 Kf7 31. Bg4 Ra7 32. Bh3 a5 33. Kf2 h6) 29... Rb7 30. Bd6 Rd7 31. Bd3 Bxg2? { (0.00 → 1.91) Mistake. The best move was Bc6. } (31... Bc6 32. Bb8 Rb7 33. Bd6 Rd7) 32. Kf2? { (1.91 → 0.00) Mistake. The best move was Bb8. } (32. Bb8 g6 33. Be2 Kf7 34. Rd3 Ke8 35. Rxd7 Kxd7 36. Bg4+ Kc6) 32... Ba8 33. Bb8 Rb7 34. Bd6 Rd7 35. Bb8 Rb7 36. Bd6 Rd7 37. Bb8 1/2-1/2
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O { Nimzo-Indian Defense, Normal Variation } 5. Be2 b6 6. Nf3 Bb7 7. Bd2 d6 8. O-O Bxc3 9. Bxc3 Nbd7 10. Rac1 c5 11. dxc5 dxc5 12. Qd3 Qc7 13. Rfd1 Rad8 14. h4 Ne4 15. Rc2? { (-0.12 → -1.21) Mistake. The best move was Ng5. } (15. Ng5 Nxg5 16. hxg5 Nf6 17. Qc2 Ne4 18. f4 Qc8 19. Rxd8 Rxd8) 15... Ndf6 16. Be5 Rxd3 17. Bxc7 Rxd1+ 18. Bxd1 Rc8 19. Be5 Rd8 20. Be2 Ng4 21. Bc7 Rd7? { (-1.53 → -0.44) Mistake. The best move was Rc8. } (21... Rc8 22. Ng5 Ngxf2 23. Bh2 Nxg5 24. hxg5 Ne4 25. Bf3 Rd8 26. Kf1) 22. Ne5 Nxe5?! { (-0.40 → 0.32) Inaccuracy. The best move was Rxc7. } (22... Rxc7 23. Bxg4 Kf8 24. f3 Nd6 25. Kf2 Ke7 26. Rc1 Rc8 27. b3) 23. Bxe5 f6 24. Bb8 a6? { (0.40 → 1.53) Mistake. The best move was Kf7. } (24... Kf7 25. Bxa7 Ng3 26. fxg3 Be4 27. Rc3 Rxa7 28. a3 Rd7 29. Kf2) 25. f3 Nd2? { (1.49 → 2.56) Mistake. The best move was Kf7. } (25... Kf7 26. fxe4 Bxe4 27. Rc1 Rd2 28. Bf3 Bxf3 29. gxf3 Rxb2 30. a4) 26. Kf2 e5 27. Ke1 Ne4 28. fxe4 Bxe4 29. Rc3?? { (3.53 → 0.30) Blunder. The best move was Rd2. } (29. Rd2 Rb7 30. Bd6 Kf7 31. Bg4 Ra7 32. Bh3 a5 33. Kf2 h6) 29... Rb7 30. Bd6 Rd7 31. Bd3 Bxg2? { (0.00 → 1.91) Mistake. The best move was Bc6. } (31... Bc6 32. Bb8 Rb7 33. Bd6 Rd7) 32. Kf2? { (1.91 → 0.00) Mistake. The best move was Bb8. } (32. Bb8 g6 33. Be2 Kf7 34. Rd3 Ke8 35. Rxd7 Kxd7 36. Bg4+ Kc6) 32... Ba8 33. Bb8 Rb7 34. Bd6 Rd7 35. Bb8 Rb7 36. Bd6 Rd7 37. Bb8 { Draw } 1/2-1/2
