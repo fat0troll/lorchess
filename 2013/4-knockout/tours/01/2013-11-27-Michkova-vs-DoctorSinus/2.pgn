@@ -4,9 +4,13 @@
 [White "fat0troll"]
 [Black "Michkova"]
 [Result "0-1"]
-[WhiteElo "967"]
-[BlackElo "1349"]
+[WhiteElo "1325"]
+[BlackElo "1699"]
 [PlyCount "42"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A00"]
+[Opening "Hungarian Opening, General"]
+[Annotator "lichess.org"]
 
-1. g3 e5 2. Bg2 d5 3. Bh3 Bxh3 4. Nxh3 Nf6 5. O-O Nc6 6. f4 e4 7. d4 h6 8. c3 Bd6 9. e3 Qd7 10. a3 Qxh3 11. b4 Ng4 12. Qe2 Ne7 13. Nd2 Nf5 14. Nb3 b6 15. Bd2 h5 16. a4 h4 17. Qg2 hxg3 18. Qxh3 Rxh3 19. hxg3 Rxg3+ 20. Kh1 O-O-O 21. a5 Rh8# 0-1
+1. g3 { Hungarian Opening, General } e5 2. Bg2 d5 3. Bh3 Bxh3 4. Nxh3 Nf6 5. O-O Nc6 6. f4 e4 7. d4 h6 8. c3 Bd6 9. e3 Qd7 10. a3 Qxh3 11. b4 Ng4 12. Qe2 Ne7 13. Nd2 Nf5 14. Nb3 b6 15. Bd2 h5 16. a4 h4 17. Qg2 hxg3 18. Qxh3 Rxh3 19. hxg3 Rxg3+ 20. Kh1 O-O-O 21. a5 Rh8# { White is checkmated } 0-1
