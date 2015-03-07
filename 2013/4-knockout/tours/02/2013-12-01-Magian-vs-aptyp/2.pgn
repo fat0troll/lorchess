@@ -4,10 +4,13 @@
 [White "Magian"]
 [Black "aptypr"]
 [Result "1-0"]
-[WhiteElo "1452"]
-[BlackElo "1255"]
+[WhiteElo "1946"]
+[BlackElo "1712"]
 [PlyCount "19"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D10"]
+[Opening "Slav Defense, General"]
 [Annotator "lichess.org"]
 
-1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Bg5 dxc4 5. e3 b5 6. Bxf6 exf6 7. a4 Bb4? { (-0.50 → 1.13) Mistake. The best move was b4. } (7... b4 8. Nce2 Bd6 9. Nf3 Be6 10. Ng3 O-O 11. Rac1 c3 12. bxc3) 8. axb5 Bxc3+?! { (0.84 → 1.83) Inaccuracy. The best move was Be6. } (8... Be6 9. Qa4 a5 10. Nf3 Qb6 11. bxc6 Nxc6 12. Nd2 O-O 13. Bxc4) 9. bxc3 cxb5? { (1.69 → 4.46) Mistake. The best move was Qd5. } (9... Qd5 10. bxc6 Nxc6 11. Nf3 Bg4 12. Be2 Rab8 13. Qa4 O-O 14. O-O) 10. Qf3 1-0
+1. d4 d5 2. c4 c6 { Slav Defense, General } 3. Nc3 Nf6 4. Bg5 dxc4 5. e3 b5 6. Bxf6 exf6 7. a4 Bb4? { (-0.50 → 1.13) Mistake. The best move was b4. } (7... b4 8. Nce2 Bd6 9. Nf3 Be6 10. Ng3 O-O 11. Rac1 c3 12. bxc3) 8. axb5 Bxc3+?! { (0.84 → 1.83) Inaccuracy. The best move was Be6. } (8... Be6 9. Qa4 a5 10. Nf3 Qb6 11. bxc6 Nxc6 12. Nd2 O-O 13. Bxc4) 9. bxc3 cxb5? { (1.69 → 4.46) Mistake. The best move was Qd5. } (9... Qd5 10. bxc6 Nxc6 11. Nf3 Bg4 12. Be2 Rab8 13. Qa4 O-O 14. O-O) 10. Qf3 { Black resigns } 1-0
