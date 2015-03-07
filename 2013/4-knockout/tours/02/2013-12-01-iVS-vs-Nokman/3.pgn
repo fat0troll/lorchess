@@ -4,9 +4,13 @@
 [White "iVS"]
 [Black "Nokman"]
 [Result "1-0"]
-[WhiteElo "1457"]
-[BlackElo "1254"]
+[WhiteElo "1947"]
+[BlackElo "1620"]
 [PlyCount "63"]
 [Variant "Standard"]
+[TimeControl "300+10"]
+[ECO "D30"]
+[Opening "Queen's Gambit Declined, Traditional Variation"]
+[Annotator "lichess.org"]
 
-1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Bg5 Be7 5. e3 dxc4 6. Bxc4 O-O 7. Nc3 Nc6 8. O-O Na5 9. Be2 Nd5 10. Bxe7 Nxe7 11. b4 Nac6 12. Qb3 a5 13. b5 Nb4 14. e4 c6 15. a3 cxb5 16. axb4 Bd7 17. Bxb5 Bxb5 18. Nxb5 Nc6 19. bxa5 Rxa5 20. Rxa5 Nxa5 21. Qc3 Nc6 22. Rd1 e5 23. d5 Ne7 24. Nxe5 f6 25. Nf3 f5 26. e5 Qb6 27. Nc7 Rc8 28. d6 Nc6 29. Qc4+ Kh8 30. Qe6 Na7 31. d7 Qxc7 32. Qe8+ 1-0
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Bg5 { Queen's Gambit Declined, Traditional Variation } Be7 5. e3 dxc4 6. Bxc4 O-O 7. Nc3 Nc6 8. O-O Na5 9. Be2 Nd5 10. Bxe7 Nxe7 11. b4 Nac6 12. Qb3 a5 13. b5 Nb4 14. e4 c6 15. a3 cxb5 16. axb4 Bd7 17. Bxb5 Bxb5 18. Nxb5 Nc6 19. bxa5 Rxa5 20. Rxa5 Nxa5 21. Qc3 Nc6 22. Rd1 e5 23. d5 Ne7 24. Nxe5 f6 25. Nf3 f5 26. e5 Qb6 27. Nc7 Rc8 28. d6 Nc6 29. Qc4+ Kh8 30. Qe6 Na7 31. d7 Qxc7 32. Qe8+ { Black resigns } 1-0
