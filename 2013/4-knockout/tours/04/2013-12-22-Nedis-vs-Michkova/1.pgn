@@ -1,0 +1,16 @@
+[Event "Rated game"]
+[Site "http://lichess.org/y76xsogu"]
+[Date "2013.12.18"]
+[White "Nedis"]
+[Black "Michkova"]
+[Result "1-0"]
+[WhiteElo "1769"]
+[BlackElo "1712"]
+[PlyCount "81"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A22"]
+[Opening "English Opening, King's English Variation, Two Knights' Variation, Fianchetto Line"]
+[Annotator "lichess.org"]
+
+1. c4 e5 2. Nc3 Nf6 3. g3 { English Opening, King's English Variation, Two Knights' Variation, Fianchetto Line } Nc6 4. Bg2 Bc5 5. Nf3 d6 6. e3 O-O 7. d4 exd4 8. exd4 Bb6 9. O-O h6 10. d5 Ne7 11. Be3 Ba5?! { (-0.16 → 0.34) Inaccuracy. The best move was Bxe3. } (11... Bxe3 12. fxe3 Ng6 13. Qb3 Rfe8 14. Rae1 Ng4 15. e4 Ng6e5 16. Nb5) 12. Bd4 Ng6?! { (0.16 → 0.82) Inaccuracy. The best move was Nf5. } (12... Nf5 13. Qa4 Nxd4 14. Qxa5 b6 15. Qa4 Bd7 16. Qd1 Nxf3+ 17. Bxf3) 13. Rfe1 c5?! { (0.62 → 1.23) Inaccuracy. The best move was Bd7. } (13... Bd7 14. a3 Bb6 15. Qd2 Rfe8 16. b3 Rxe1+ 17. Rxe1 Bg4 18. h3) 14. dxc6 bxc6 15. Nd2 c5?? { (1.07 → 6.70) Blunder. The best move was Ne5. } (15... Ne5 16. Qc2 Ba6 17. Bxe5 dxe5 18. Rxe5 Bb6 19. Re2 Rfe8 20. Rae1) 16. Bxf6 Qxf6 17. Bxa8 Bf5 18. Be4 Bxe4? { (6.80 → 8.86) Mistake. The best move was Be6. } (18... Be6 19. Bxg6 Qxg6 20. Rac1 Rb8 21. Nb3 Bxc3 22. Rxc3 Rb6 23. Qf3) 19. Ndxe4 Qd8?! { (8.46 → 9.11) Inaccuracy. The best move was Qd4. } (19... Qd4 20. Qa4 Bxc3 21. bxc3 Qe5 22. Qd7 f5 23. f4 Qe7 24. Qxe7) 20. Qxd6 Qxd6 21. Nxd6 Bxc3?! { (9.31 → 9.83) Inaccuracy. The best move was Rb8. } (21... Rb8 22. Rab1 Bc7 23. Ndb5 Bb6 24. Kg2 f6 25. f4 a6 26. Nd6) 22. bxc3 Rd8 23. Rad1 a5 24. Rd5 a4 25. Nb7 Rxd5 26. cxd5 Nf8 27. Re8 f6 28. Nd8 g5 29. d6 Kg7 30. Ne6+ Nxe6 31. Rxe6 Kf7 32. Re7+ Kf8 33. Re1 f5 34. d7 f4 35. d8=Q+ Kf7 36. g4 h5 37. gxh5?! { (Mate in 2 → Mate in 3) Not the best checkmate sequence. The best move was Re7+. } (37. Re7+ Kg6 38. Qb6#) 37... g4 38. Qd6 g3 39. Qxf4+?! { (Mate in 2 → Mate in 3) Not the best checkmate sequence. The best move was Qg6+. } (39. Qg6+ Kf8 40. Re8#) 39... Kg7 40. Qxg3+?! { (Mate in 2 → Mate in 2) Not the best checkmate sequence. The best move was Re7+. } (40. Re7+ Kg8 41. Qb8#) 40... Kh6 41. Qg6# { Black is checkmated } 1-0
