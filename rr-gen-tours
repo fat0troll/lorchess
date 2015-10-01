@@ -1,0 +1,227 @@
+#!/usr/bin/env bash
+# Copyright 2015 Vladimir Ivanov <ivvl82@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+REPO_DIR=
+
+# Specify the tournament here
+TOURNAMENT=
+
+# Version information
+VERSION="0.1"
+
+argv0=${0##*/}
+
+function usage {
+    cat <<EOF
+Automatic generation of tours.
+EOF
+
+    exit "${1:-0}"
+}
+
+function version {
+    exec echo "${argv0}-${VERSION}"
+}
+
+function rr_setup {
+    : ${REPO_DIR:=`dirname "$0"`}
+    # If no tournament given, set it to the last one
+    if [[ -z $TOURNAMENT ]]; then
+        local year_dir=$(ls -1 -d ${REPO_DIR}/[0-9][0-9][0-9][0-9]/ | tail -1)
+        TOURNAMENT=$(ls -1 -d ${year_dir}[0-9]-*/ | tail -1 \
+                            | sed -E "s|${REPO_DIR}/(.*)/|\1|")
+    fi
+
+    # Configuration file for players
+    ply_ini=${REPO_DIR}/${TOURNAMENT}/players.ini
+    [[ -f $ply_ini ]] || die "File ${ply_ini} not found."
+    local dir_for_tours=${REPO_DIR}/${TOURNAMENT}/tours
+    [[ -d $dir_for_tours ]] && die "Directory ${dir_for_tours} already exist."
+}
+
+function rr_get_names {
+    declare -a TMP_NAMES
+    name_re="^ *name *="
+    TMP_NAMES=( $(grep "$name_re" "$ply_ini" | sed "s/${name_re}//") )
+
+    if $RAND_ORDER; then
+        # Get the set of random positions
+        local max_range=$(( ${#TMP_NAMES[@]} - 1 ))
+        local rand_array=( $(seq 0 1 $max_range) )
+        for (( range=$max_range; range>1; --range )); do
+            # Peek a random position from 0 to `range'
+            local rand_value=$RANDOM
+            local norm_rand_value=$(bc -l <<< "($rand_value / 32768) * $range")
+            local rand_idx=$(printf "%.0f" $norm_rand_value)
+
+            # Place the value at the position to the end of range
+            local tmp=${rand_array[range]}
+            rand_array[range]=${rand_array[rand_idx]}
+            rand_array[rand_idx]=$tmp
+        done
+
+        # Randomize the order of players
+        for (( idx=0; idx<${#rand_array[@]}; ++idx )); do
+            local rand_idx=${rand_array[idx]}
+            NAMES[idx]=${TMP_NAMES[rand_idx]}
+        done
+
+        echo "$(tput setaf 2)New randomized list of players:$(tput sgr0)"
+        for (( idx=0; idx<${#NAMES[@]}; ++idx )); do
+            echo "$(tput setaf 2)$(( idx+1 )).$(tput sgr0) ${NAMES[idx]}"
+        done
+        rr_update_ini
+    else
+        NAMES=( ${TMP_NAMES[@]} )
+    fi
+}
+
+function rr_update_ini {
+    local answer
+    echo -n "Update 'players.ini'? (Y/n)> "
+    read answer
+    [[ $answer =~ ^(Y|y|Yes|yes)$ ]] || return
+
+    # Extract INI blocks from config
+    declare -a ini_array
+    local ini_block=
+    while read line; do
+        if [[ $line =~ ^\[player[0-9]+\]$ ]]; then
+            # Close the previous INI block
+            if [[ -n $ini_block ]]; then
+                ini_array+=( "$ini_block" )
+                ini_block=
+            fi
+        fi
+
+        [[ $line =~ ^\ *$ ]] || ini_block+="${line}\n"
+    done <"$ply_ini"
+    [[ -n $ini_block ]] && ini_array+=( "$ini_block" )
+
+    echo "Updating ${ply_ini}..."
+    mv "$ply_ini" "${ply_ini}.orig"
+    for (( idx=0; idx<${#rand_array[@]}; ++idx )); do
+        local rand_idx=${rand_array[idx]}
+        echo -en "${ini_array[rand_idx]}" \
+            | sed "s/^\[player$(( rand_idx+1 ))\]$/[player$(( idx+1 ))]/" >> "$ply_ini"
+        (( idx < ${#rand_array[@]} - 1 )) && echo >> "$ply_ini"
+    done
+}
+
+function rr_gen_table1 {
+    local ply_num= idx= next_idx=
+    # Number of table cells
+    local cell_total=$(bc <<< "$PLY_MAX * ($PLY_MAX + 1)")
+
+    # First pass: fill the table with 'PLY_MAX'
+    for (( round=0; round < PLY_MAX; ++round )); do
+        idx=$(bc <<< "($PLY_MAX + 1) * $round + ($round + 1) % 2")
+        TABLE1[idx]=$PLY_MAX
+    done
+
+    # Second pass: fill the table with players in ascending order
+    ply_num=0
+    for (( pair=0; pair < cell_total/2; ++pair )); do
+        idx=$(( 2 * pair ))
+        next_idx=$(( 2 * pair + 1 ))
+        if [[ -z ${TABLE1[idx]} ]]; then
+            TABLE1[idx]=$ply_num
+        else
+            TABLE1[next_idx]=$ply_num
+        fi
+
+        ply_num=$(( (ply_num + 1) % PLY_MAX ))
+    done
+
+    # Second pass: fill the table with players in descending order
+    ply_num=$(( PLY_MAX - 1 ))
+    for (( idx=0; idx < cell_total; ++idx )); do
+        if [[ -z ${TABLE1[idx]} ]]; then
+            TABLE1[idx]=$ply_num
+            ply_num=$(( PLY_MAX - 1 - (PLY_MAX - ply_num) % PLY_MAX ))
+        fi
+    done
+}
+
+function rr_gen_table2 {
+    # Number of table cells
+    local cell_total=$(bc <<< "$PLY_MAX * ($PLY_MAX + 1)")
+    # Alter white and black players in the second half of tournament
+    for (( pair=0; pair < cell_total/2; ++pair )); do
+        local idx=$(( 2 * pair ))
+        local next_idx=$(( 2 * pair + 1 ))
+        TABLE2+=( ${TABLE1[next_idx]} ${TABLE1[idx]} )
+    done
+}
+
+function rr_gen_tours {
+    declare -a tour_table
+    local tour_num=0 ply_num=0
+    for ply in ${TABLE1[@]} ${TABLE2[@]}; do
+        tour_table+=($ply)
+        (( ply_num++ ))
+
+        if (( ply_num > PLY_MAX )); then
+            rr_gen_tour_info
+            # Start new tour
+            (( tour_num++ ))
+            ply_num=0
+            tour_table=()
+        fi
+    done
+}
+
+function rr_gen_tour_info {
+    # Change tour numbers: '1' -> '01', '2' -> '02', and so on
+    local tour=$(printf "%02g" $(( tour_num + 1 )))
+    mkdir -p "${REPO_DIR}/${TOURNAMENT}/tours/${tour}"
+    local tour_info=${REPO_DIR}/${TOURNAMENT}/tours/${tour}/tour_info
+    echo "Generating ${tour_info}..."
+
+    # Create header
+    (
+        echo "Тур №$(( tour_num + 1 ))"
+        echo "=========="
+        echo
+        echo "Время проведения: ??.??.???? - ??.??.????"
+        echo
+    ) >> "$tour_info"
+
+    # Create pairs
+    for (( pair=0; pair < (PLY_MAX+1)/2; ++pair )); do
+        local idx=$(( 2 * pair ))
+        local next_idx=$(( 2 * pair + 1 ))
+        local white_ply=${tour_table[idx]}
+        local black_ply=${tour_table[next_idx]}
+        echo "${NAMES[white_ply]} - ${NAMES[black_ply]}"
+    done | column -t | sed "s/ - /-/; s/^/??.??.???? /" >> "$tour_info"
+}
+
+function die {
+    echo "$@" >&2
+    exit 1
+}
+
+RAND_ORDER=false
+while getopts rhv opt; do
+    case $opt in
+        r) RAND_ORDER=true ;;
+        h) usage ;;
+        v) version ;;
+        *) usage 1 ;;
+    esac
+done
+shift $(( $OPTIND - 1 ))
+
+rr_setup
+declare -a NAMES
+rr_get_names
+# The number of players should be even
+PLY_MAX=$(( ${#NAMES[@]} + ${#NAMES[@]} % 2 - 1 ))
+declare -a TABLE1 TABLE2
+rr_gen_table1                   # first half of tournament
+rr_gen_table2                   # second half of tournament
+rr_gen_tours
+
+exit 0
