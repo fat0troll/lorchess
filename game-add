@@ -120,7 +120,7 @@ function game_get_info {
     game_get_names
 
     # Select the names of two players
-    local players=( $(echo -en "${ply_names// /\n}" | sort -u) )
+    local players=( $(echo -en "${ply_names// /$'\n'}" | sort -u) )
     [[ ${#players[@]} == 2 ]] || die "Players of the games are not the same."
 
     # Find the white and black players
