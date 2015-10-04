@@ -1,0 +1,17 @@
+[Event "Rated game"]
+[Site "http://lichess.org/bq0d1ejx"]
+[Date "2013.12.08"]
+[White "sshilovsky"]
+[Black "n_lor"]
+[Result "1-0"]
+[WhiteElo "1639"]
+[BlackElo "1453"]
+[PlyCount "20"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C23"]
+[Opening "Bishop's Opening, General"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Bc4 { Bishop's Opening, General } Nc6 3. Nf3 Nf6 4. Ng5 d5 5. exd5 Nxd5 6. Qf3 Be6 7. Nc3 Nxc3 8. Bxe6 Ke7 9. Qxf7+ Kd6 10. dxc3 Qxg5 { Black resigns } 1-0
