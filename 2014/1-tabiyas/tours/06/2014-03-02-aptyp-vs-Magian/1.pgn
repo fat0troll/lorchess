@@ -8,6 +8,10 @@
 [BlackElo "1826"]
 [PlyCount "44"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D35"]
+[Opening "Queen's Gambit Declined, Exchange Variation, Positional Variation"]
+[Termination "Normal"]
 [Annotator "lichess.org"]
 
-1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 Nbd7 6. Nxd5?? { (0.40 → -2.72) Blunder. The best move was Nf3. } (6. Nf3 h6 7. Bh4 Bb4 8. e3 g5 9. Bg3 Ne4 10. Qc2 O-O) 6... Nxd5 7. Bxd8 Bb4+ 8. Qd2 Bxd2+ 9. Kxd2 Kxd8 10. e4 Nd5f6 11. f3 Nb6 12. Bd3 c6 13. Ne2 Be6 14. Nf4 Bc4 15. Bc2 Kc7 16. b3 Ba6 17. a4 Rad8 18. Ke3? { (-2.38 → -3.69) Mistake. The best move was Kc3. } (18. Kc3 g5 19. Nd3 Bxd3 20. Bxd3 a5 21. h4 h6 22. g4 Rhe8) 18... Rhe8 19. e5? { (-3.53 → -5.29) Mistake. The best move was Nd3. } (19. Nd3 Nfd5+ 20. Kd2 Bxd3 21. Bxd3 Nf4 22. a5 Nd7 23. Bc4 Ne5) 19... Nfd5+ 20. Nxd5+ Nxd5+ 21. Kf2 Nb4 22. Bxh7?! { (-5.83 → -6.76) Inaccuracy. The best move was Be4. } (22. Be4 Rxd4 23. Bxh7 Rxe5 24. Rad1 Rxd1 25. Rxd1 Re2+ 26. Kg3 Nd5) 22... g6 0-1
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 { Queen's Gambit Declined, Exchange Variation, Positional Variation } Nbd7 6. Nxd5?? { (0.40 → -2.72) Blunder. The best move was Nf3. } (6. Nf3 h6 7. Bh4 Bb4 8. e3 g5 9. Bg3 Ne4 10. Qc2 O-O) 6... Nxd5 7. Bxd8 Bb4+ 8. Qd2 Bxd2+ 9. Kxd2 Kxd8 10. e4 Nd5f6 11. f3 Nb6 12. Bd3 c6 13. Ne2 Be6 14. Nf4 Bc4 15. Bc2 Kc7 16. b3 Ba6 17. a4 Rad8 18. Ke3? { (-2.38 → -3.69) Mistake. The best move was Kc3. } (18. Kc3 g5 19. Nd3 Bxd3 20. Bxd3 a5 21. h4 h6 22. g4 Rhe8) 18... Rhe8 19. e5? { (-3.53 → -5.29) Mistake. The best move was Nd3. } (19. Nd3 Nfd5+ 20. Kd2 Bxd3 21. Bxd3 Nf4 22. a5 Nd7 23. Bc4 Ne5) 19... Nfd5+ 20. Nxd5+ Nxd5+ 21. Kf2 Nb4 22. Bxh7?! { (-5.83 → -6.76) Inaccuracy. The best move was Be4. } (22. Be4 Rxd4 23. Bxh7 Rxe5 24. Rad1 Rxd1 25. Rxd1 Re2+ 26. Kg3 Nd5) 22... g6 { White resigns } 0-1
