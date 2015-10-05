@@ -8,6 +8,10 @@
 [BlackElo "1633"]
 [PlyCount "20"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "E81"]
+[Opening "King's Indian Defence, Sämisch Variation, Normal Defence"]
+[Termination "Normal"]
 [Annotator "lichess.org"]
 
-1. d4 Nf6 2. c4 g6?! { (0.16 → 0.86) Inaccuracy. The best move was e6. } (2... e6 3. e3 Be7 4. Nf3 d5 5. Be2 O-O 6. O-O dxc4 7. Nc3) 3. Nc3 Bg7 4. e4 d6 5. f3?! { (0.68 → 0.04) Inaccuracy. The best move was Nf3. } (5. Nf3 O-O 6. Be2 Nbd7 7. O-O e5 8. Be3 exd4 9. Nxd4 Ne5) 5... O-O 6. Be3 c5 7. Nge2 Nc6 8. d5 Ne5 9. Qd2? { (0.22 → -2.64) Mistake. The best move was Ng3. } (9. Ng3 h5 10. h4 Qa5 11. Be2 Bd7 12. a3 a6 13. O-O b5) 9... Nxc4 10. Qc2?? { (-2.40 → -7.29) Blunder. The best move was Qc1. } (10. Qc1 Nxe3 11. Qxe3 Bd7 12. Rad1 Qa5 13. Qd2 Qa6 14. Nf4) 10... Nxe3 0-1
+1. d4 Nf6 2. c4 g6?! { (0.16 → 0.86) Inaccuracy. The best move was e6. } (2... e6 3. e3 Be7 4. Nf3 d5 5. Be2 O-O 6. O-O dxc4 7. Nc3) 3. Nc3 Bg7 4. e4 d6 5. f3?! { (0.68 → 0.04) Inaccuracy. The best move was Nf3. } (5. Nf3 O-O 6. Be2 Nbd7 7. O-O e5 8. Be3 exd4 9. Nxd4 Ne5) 5... O-O { King's Indian Defence, Sämisch Variation, Normal Defence } 6. Be3 c5 7. Nge2 Nc6 8. d5 Ne5 9. Qd2? { (0.22 → -2.64) Mistake. The best move was Ng3. } (9. Ng3 h5 10. h4 Qa5 11. Be2 Bd7 12. a3 a6 13. O-O b5) 9... Nxc4 10. Qc2?? { (-2.40 → -7.29) Blunder. The best move was Qc1. } (10. Qc1 Nxe3 11. Qxe3 Bd7 12. Rad1 Qa5 13. Qd2 Qa6 14. Nf4) 10... Nxe3 { White resigns } 0-1
