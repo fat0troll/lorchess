@@ -1,0 +1,17 @@
+[Event "Casual game"]
+[Site "http://lichess.org/Fn8vjCRl"]
+[Date "2014.03.12"]
+[White "iVS"]
+[Black "fat0troll"]
+[Result "1-0"]
+[WhiteElo "1751"]
+[BlackElo "1259"]
+[PlyCount "43"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A57"]
+[Opening "Benko Gambit, Accepted, Dlugy Variation"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. f3 { Benko Gambit, Accepted, Dlugy Variation } axb5 6. e4 e5? { (0.22 → 1.47) Mistake. The best move was Qa5+. } (6... Qa5+ 7. Bd2 b4 8. Bf4 Ba6 9. e5 Bxf1 10. Kxf1 Ng8 11. Ne2) 7. Bxb5 Ba6 8. Bxa6 Nxa6 9. Nc3? { (1.35 → 0.30) Mistake. The best move was Na3. } (9. Na3 Nxe4 10. fxe4 Qh4+ 11. Kf1 Qxe4 12. Qe2 Qxd5 13. Nc4 e4) 9... d6? { (0.30 → 1.39) Mistake. The best move was c4. } (9... c4 10. Nh3 Bc5 11. Qe2 Qc8 12. Nf2 Nb4 13. O-O O-O 14. a4) 10. Nge2 Nb4 11. a3? { (1.75 → 0.66) Mistake. The best move was O-O. } (11. O-O Be7 12. Ng3 O-O 13. a3 Na6 14. Nf5 g6 15. Nxe7+ Qxe7) 11... Na6? { (0.66 → 1.81) Mistake. The best move was c4. } (11... c4 12. Be3 Nd3+ 13. Kf1 Rab8 14. Rab1 Rxb2 15. Rxb2 Nxb2 16. Qc2) 12. O-O g6?! { (1.87 → 2.44) Inaccuracy. The best move was Be7. } (12... Be7 13. Ng3 O-O 14. Nf5 Nh5 15. Bd2 g6 16. Ne3 f5 17. Nc4) 13. f4 h5?? { (2.26 → 6.42) Blunder. The best move was Nd7. } (13... Nd7 14. fxe5 Nxe5 15. Qa4+ Qd7 16. Nb5 h5 17. Bf4 Be7 18. Bxe5) 14. fxe5 dxe5 15. Bg5 Be7 16. Qa4+?? { (6.60 → 3.03) Blunder. The best move was d6. } (16. d6 Qxd6 17. Qxd6 Bxd6 18. Bxf6 O-O 19. Rad1 Bb8 20. Nd5 Rfe8) 16... Qd7?? { (3.03 → 8.82) Blunder. The best move was Nd7. } (16... Nd7 17. Bxe7 Qxe7 18. d6 Qxd6 19. Rad1 Qe6 20. Nb5 O-O 21. Rd6) 17. Bxf6 Bxf6 18. Rxf6 Qxa4 19. Nxa4 Nc7?! { (9.13 → 10.00) Inaccuracy. The best move was c4. } (19... c4 20. Raf1 O-O 21. Nb6 Ra7 22. Nxc4 Nc5 23. Nc3 Nd7 24. Rc6) 20. Nxc5 O-O 21. Nd7?! { (10.10 → 9.41) Inaccuracy. The best move was Raf1. } (21. Raf1 Rfb8 22. Nd3 Ne8 23. Rf6xf7 Nd6 24. Rf7f6 Nxe4 25. Rxg6+ Kh7) 21... Ne8?! { (9.41 → 11.47) Inaccuracy. The best move was Rfd8. } (21... Rfd8 22. Nxe5 Rde8 23. Nxf7 Nxd5 24. exd5 Rxe2 25. Raf1 Rxb2 26. Ne5) 22. Rc6 { Black resigns } 1-0
