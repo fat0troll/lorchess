@@ -4,10 +4,14 @@
 [White "fat0troll"]
 [Black "Adem"]
 [Result "0-1"]
-[WhiteElo "1259"]
-[BlackElo "1606"]
+[WhiteElo "1313"]
+[BlackElo "1777"]
 [PlyCount "42"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "A57"]
+[Opening "Benko Gambit, Accepted, Dlugy Variation"]
+[Termination "Normal"]
 [Annotator "lichess.org"]
 
-1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. f3 axb5 6. Bg5?! { (0.34 → -0.58) Inaccuracy. The best move was e4. } (6. e4 Qa5+ 7. Nc3 b4 8. Nb5 d6 9. a4 Nbd7 10. Nh3 Rhg8) 6... Qa5+ 7. Qd2 Nxd5 8. Qxa5?! { (-1.23 → -1.85) Inaccuracy. The best move was e4. } (8. e4 Qxd2+ 9. Bxd2 Nc7 10. Nc3 Ba6 11. Nh3 Nc6 12. Kf2 b4) 8... Rxa5 9. Nc3?! { (-1.83 → -2.58) Inaccuracy. The best move was Bd2. } (9. Bd2 Nb4 10. Bxb4 cxb4 11. Nd2 g6 12. Nb3 Raa8 13. O-O-O Rxa2) 9... Nxc3 10. bxc3 e6 11. e4 d5 12. exd5 exd5 13. Bf4? { (-2.18 → -3.27) Mistake. The best move was Rad1. } (13. Rad1 Be6 14. Ne2 Nc6 15. Nf4 h6 16. Nxe6 fxe6 17. Bf4 b4) 13... Nc6 14. Ne2 Be7?! { (-3.38 → -2.82) Inaccuracy. The best move was b4. } (14... b4 15. cxb4 Nxb4 16. Kd2 c4 17. Be5 f6 18. Bc3 Ra3 19. Nd4) 15. O-O-O?! { (-2.82 → -3.81) Inaccuracy. The best move was Bd2. } (15. Bd2 c4 16. Nf4 b4 17. cxb4 Bxb4 18. Bxb4 Nxb4 19. Rab1 Nc2+) 15... Be6 16. h4 Rxa2 17. g3?! { (-4.38 → -5.31) Inaccuracy. The best move was Kb1. } (17. Kb1 Ra3 18. Kb2 Ra4 19. Rda1 Rxa1 20. Kxa1 b4 21. Kb2 O-O) 17... O-O 18. Rd2?? { (-5.71 → -9.31) Blunder. The best move was Bg5. } (18. Bg5 Bxg5+ 19. hxg5 Rfa8 20. Nf4 b4 21. Bb5 Ra2a1+ 22. Kd2 bxc3+) 18... Ra1+ 19. Kb2 Rfa8 20. Bg2?! { (-9.81 → Mate in 2) Checkmate is now unavoidable. The best move was Nc1. } (20. Nc1 b4 21. Kc2 bxc3 22. Re2 Nd4+ 23. Kxc3 Ra8a3+ 24. Kd2 c4) 20... Ra8a2+ 21. Kb3 c4# 0-1
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. f3 { Benko Gambit, Accepted, Dlugy Variation } axb5 6. Bg5?! { (0.34 → -0.58) Inaccuracy. The best move was e4. } (6. e4 Qa5+ 7. Nc3 b4 8. Nb5 d6 9. a4 Nbd7 10. Nh3 Rhg8) 6... Qa5+ 7. Qd2 Nxd5 8. Qxa5?! { (-1.23 → -1.85) Inaccuracy. The best move was e4. } (8. e4 Qxd2+ 9. Bxd2 Nc7 10. Nc3 Ba6 11. Nh3 Nc6 12. Kf2 b4) 8... Rxa5 9. Nc3?! { (-1.83 → -2.58) Inaccuracy. The best move was Bd2. } (9. Bd2 Nb4 10. Bxb4 cxb4 11. Nd2 g6 12. Nb3 Raa8 13. O-O-O Rxa2) 9... Nxc3 10. bxc3 e6 11. e4 d5 12. exd5 exd5 13. Bf4? { (-2.18 → -3.27) Mistake. The best move was Rad1. } (13. Rad1 Be6 14. Ne2 Nc6 15. Nf4 h6 16. Nxe6 fxe6 17. Bf4 b4) 13... Nc6 14. Ne2 Be7?! { (-3.38 → -2.82) Inaccuracy. The best move was b4. } (14... b4 15. cxb4 Nxb4 16. Kd2 c4 17. Be5 f6 18. Bc3 Ra3 19. Nd4) 15. O-O-O?! { (-2.82 → -3.81) Inaccuracy. The best move was Bd2. } (15. Bd2 c4 16. Nf4 b4 17. cxb4 Bxb4 18. Bxb4 Nxb4 19. Rab1 Nc2+) 15... Be6 16. h4 Rxa2 17. g3?! { (-4.38 → -5.31) Inaccuracy. The best move was Kb1. } (17. Kb1 Ra3 18. Kb2 Ra4 19. Rda1 Rxa1 20. Kxa1 b4 21. Kb2 O-O) 17... O-O 18. Rd2?? { (-5.71 → -9.31) Blunder. The best move was Bg5. } (18. Bg5 Bxg5+ 19. hxg5 Rfa8 20. Nf4 b4 21. Bb5 Ra2a1+ 22. Kd2 bxc3+) 18... Ra1+ 19. Kb2 Rfa8 20. Bg2? { (-9.81 → Mate in 2) Checkmate is now unavoidable. The best move was Nc1. } (20. Nc1 b4 21. Kc2 bxc3 22. Re2 Nd4+ 23. Kxc3 Ra8a3+ 24. Kd2 c4) 20... Ra8a2+ 21. Kb3 c4# { White is checkmated } 0-1
