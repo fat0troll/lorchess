@@ -1,0 +1,17 @@
+[Event "Casual game"]
+[Site "http://lichess.org/mIgvPO6R"]
+[Date "2014.03.04"]
+[White "fat0troll"]
+[Black "HunOL"]
+[Result "1-0"]
+[WhiteElo "1259"]
+[BlackElo "1759"]
+[PlyCount "33"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D35"]
+[Opening "Queen's Gambit Declined, Exchange Variation, Positional Variation"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 { Queen's Gambit Declined, Exchange Variation, Positional Variation } Be7 6. Nf3 O-O 7. e3 Bg4 8. Be2 Nbd7 9. O-O Rfe8 10. Bxf6 Nxf6 11. h3 Bh5 12. Ne5 Bxe2 13. Qxe2 Bd6 14. f4 c6 15. g4 Kh8?? { (-0.30 → 10.24) Blunder. The best move was Nd7. } (15... Nd7 16. e4 dxe4 17. Rad1 Bc7 18. g5 e3 19. Qxe3 f6 20. gxf6) 16. g5?? { (10.24 → 1.47) Blunder. The best move was Nxf7+. } (16. Nxf7+ Kg8 17. Nxd8 Raxd8 18. g5 Ne4 19. Nxe4 Rxe4 20. f5 Rf8) 16... Ng8?? { (1.47 → Mate in 1) Checkmate is now unavoidable. The best move was Bxe5. } (16... Bxe5 17. fxe5 Ng8 18. Rxf7 Qxg5+ 19. Kh2 Re7 20. Raf1 Qg6 21. Rf7f2) 17. Nxf7# { Black is checkmated } 1-0
