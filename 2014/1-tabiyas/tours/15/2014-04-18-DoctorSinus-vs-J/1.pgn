@@ -7,8 +7,13 @@
 [WhiteElo "1256"]
 [BlackElo "1420"]
 [PlyCount "79"]
-[Variant "From position"]
+[Variant "From Position"]
+[TimeControl "900+10"]
+[ECO "?"]
+[Opening "?"]
+[Termination "Normal"]
 [FEN "r1bq1rk1/2p1bppp/p1n2n2/1p1pp3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 0 1"]
 [SetUp "1"]
+[Annotator "lichess.org"]
 
-1. exd5 Nxd5 2. Bxd5 Qxd5 3. Na3 Bg4 4. h3 Bxf3 5. Qxf3 Qxf3 6. gxf3 Bxa3 7. bxa3 f5 8. d3 Rad8 9. Red1 e4 10. fxe4 fxe4 11. Bg5 Rxd3 12. Rxd3 exd3 13. Rd1 Rf5 14. Be3 Rd5 15. f4 Na5 16. Kf2 Nc4 17. Bc1 d2 18. Bxd2 Rxd2+ 19. Rxd2 Nxd2 20. Ke3 Nc4+ 21. Kd4 Kf7 22. Kd5 Ke7 23. Kc6 Nxa3 24. Kxc7 a5 25. Kb6 b4 26. cxb4 axb4 27. Ka5 Nc4+ 28. Kxb4 Ne3 29. a4 Kd7 30. a5 Kc7 31. Kb5 Kb7 32. a6+ Ka7 33. Kc6 Ng2 34. f5 Nf4 35. Kd6 Nxh3 36. Ke7 Ng5 37. f6 gxf6 38. Kxf6 Kxa6 39. Kxg5 h6+ 40. Kxh6 1/2-1/2
+1. exd5 Nxd5 2. Bxd5 Qxd5 3. Na3 Bg4 4. h3 Bxf3 5. Qxf3 Qxf3 6. gxf3 Bxa3 7. bxa3 f5 8. d3 Rad8 9. Red1 e4 10. fxe4 fxe4 11. Bg5 Rxd3 12. Rxd3 exd3 13. Rd1 Rf5 14. Be3 Rd5 15. f4 Na5 16. Kf2 Nc4 17. Bc1 d2 18. Bxd2 Rxd2+ 19. Rxd2 Nxd2 20. Ke3 Nc4+ 21. Kd4 Kf7 22. Kd5 Ke7 23. Kc6 Nxa3 24. Kxc7 a5 25. Kb6 b4 26. cxb4 axb4 27. Ka5 Nc4+ 28. Kxb4 Ne3 29. a4 Kd7 30. a5 Kc7 31. Kb5 Kb7 32. a6+ Ka7 33. Kc6 Ng2 34. f5 Nf4 35. Kd6 Nxh3 36. Ke7 Ng5 37. f6 gxf6 38. Kxf6 Kxa6 39. Kxg5 h6+ 40. Kxh6 { Draw } 1/2-1/2
