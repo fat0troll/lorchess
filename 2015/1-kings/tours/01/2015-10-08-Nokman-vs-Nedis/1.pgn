@@ -1,0 +1,17 @@
+[Event "Rated game"]
+[Site "http://lichess.org/5s6dvtY2"]
+[Date "2015.10.08"]
+[White "Nokman"]
+[Black "n3d15"]
+[Result "0-1"]
+[WhiteElo "1629"]
+[BlackElo "1500"]
+[PlyCount "74"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C27"]
+[Opening "Vienna Game, General"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nc3 { Vienna Game, General } Nc6 3. Nf3 Nf6 4. Bc4 Bb4 5. d3 Bxc3+ 6. bxc3 d5?! { (0.09 → 0.66) Inaccuracy. The best move was O-O. } (6... O-O 7. O-O d6 8. Bd2 Na5 9. Bb3 b6 10. c4 Bd7 11. Bc3 c5 12. Rb1 Rb8 13. Nd2 Re8 14. f4 Bg4 15. Qe1 Nxb3) 7. exd5 Nxd5 8. Bxd5?! { (0.50 → -0.01) Inaccuracy. The best move was O-O. } (8. O-O O-O 9. Qe1 Nb6 10. Bb3 Qf6 11. Ng5 Bf5 12. f3 Qg6 13. Ne4 h6 14. Be3 Rfd8 15. Qg3 Qxg3 16. Nxg3 Bg6) 8... Qxd5 9. O-O Bg4 10. h3?! { (0.05 → -0.57) Inaccuracy. The best move was c4. } (10. c4 Bxf3 11. cxd5 Bxd1 12. dxc6 Bxc2 13. cxb7 Rb8 14. Re1 Rxb7 15. Rxe5+ Kd7 16. Rc5 Rb1 17. Rxb1 Bxb1 18. Bf4 Rc8 19. h3 Ke6) 10... Bxf3 11. Qxf3 Qxf3 12. gxf3 O-O 13. Ba3 Rfe8 14. Kg2 f5 15. Rfe1 Re6 16. Rab1 b6 17. Re3 Rae8 18. Rbe1 f4 19. Re4 g5 20. d4 Nd8? { (0.00 → 1.74) Mistake. The best move was Rd8. } (20... Rd8 21. Bb2 Kf7 22. h4 h6 23. Kh3 Ree8 24. Kg4 Rg8 25. Kh5 a5 26. dxe5 Ke6 27. Rc4 Kd5 28. Rce4 Ke6) 21. Rxe5? { (1.74 → -0.25) Mistake. The best move was d5. } (21. d5 Rf6 22. Rxe5 Rxe5 23. Rxe5 Nb7 24. Rxg5+ Kf7 25. Bc1 Na5 26. Rh5 Kg6 27. Rh4 c6 28. Rg4+ Kf7 29. dxc6 Rxc6 30. Bd2 Nc4) 21... Rxe5 22. Rxe5?! { (-0.18 → -0.75) Inaccuracy. The best move was dxe5. } (22. dxe5 Kf7 23. h4 h6 24. c4 Ke6 25. hxg5 hxg5 26. Rh1 Nf7 27. Bb2 Kf5 28. e6 Kxe6 29. Re1+ Kd7 30. Rxe8 Kxe8 31. Kh3 Kd7) 22... Rxe5 23. dxe5 c5 24. c4 Nc6 25. Bb2 Kf7 26. a3? { (-0.62 → -1.90) Mistake. The best move was h4. } (26. h4 gxh4 27. Kh3 Ke6 28. Kxh4 Kf5 29. e6 Kxe6 30. Kg5 Nb4 31. a3 Nxc2 32. Kxf4 Nd4 33. a4 h5 34. Ba1 Kf6 35. Bb2 Kf7) 26... Ke6?! { (-1.90 → -0.96) Inaccuracy. The best move was Na5. } (26... Na5 27. h4 Nxc4 28. Bc1 h6 29. a4 Nxe5 30. hxg5 hxg5 31. Bb2 Nc4 32. Bc1 Ke6 33. Kh3 Kf5 34. Kg2 Kf6 35. Kh3 Kg6 36. Kg2) 27. Kf1? { (-0.96 → -2.50) Mistake. The best move was Bc3. } (27. Bc3 Nxe5 28. Bxe5 Kxe5 29. c3 Kf5 30. Kf1 Kg6 31. Ke1 Kh5 32. Kf1 Kh6 33. Ke2 Kg7 34. Kd3 Kf7 35. Ke2 Ke6 36. Ke1 Kf6) 27... Nxe5? { (-2.50 → -1.09) Mistake. The best move was Na5. } (27... Na5 28. a4 Nxc4 29. Bc3 Na3 30. Ke2 Nxc2 31. Kd3 Nb4+ 32. Kc4 Nc6 33. Kb5 Nxe5 34. Ka6 Nc6 35. Kb7 Kd5 36. Bf6 c4 37. Bxg5) 28. Bxe5 Kxe5 29. Ke2?? { (-0.96 → -11.62) Blunder. The best move was c3. } (29. c3 Kd6 30. Ke2 Kc6 31. Kd2 Kd7 32. Kd3 Ke7 33. Ke2 Kf6 34. Kf1 Kf5 35. Ke1 Kg6 36. Ke2 Kf7 37. Kd3 Kf6 38. Ke4 Ke6) 29... Kd4 30. Kd2 Kxc4 31. c3 a5 32. Kc2 b5 33. Kb2 b4 34. cxb4 cxb4 35. axb4 axb4 36. Kc2 Kd4 37. Kd2 b3 { White resigns } 0-1
