@@ -1,0 +1,17 @@
+[Event "Rated game"]
+[Site "http://lichess.org/9aG2VjKb"]
+[Date "2015.10.18"]
+[White "sshilovsky"]
+[Black "LOR_J"]
+[Result "0-1"]
+[WhiteElo "1719"]
+[BlackElo "1502"]
+[PlyCount "49"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C50"]
+[Opening "Italian Game, Giuoco Pianissimo, Normal"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nf6 { Italian Game, Giuoco Pianissimo, Normal } 5. Ng5 O-O 6. Nxf7? { (-0.24 → -1.27) Mistake. The best move was O-O. } (6. O-O Na5 7. Bd5 d6 8. a3 Nc6 9. Bxc6 bxc6 10. Nf3 Rb8 11. b4 Bb6 12. Nc3 Bd4 13. Nxd4 exd4 14. Na4) 6... Rxf7 7. Bxf7+ Kxf7 8. Bg5 h6 9. Bxf6 Qxf6 10. O-O Kg8 11. Nc3 d6 12. Na4 Bb6 13. Nxb6 axb6 14. Qd2 Be6 15. b3 Nd4 16. f4 exf4 17. Rxf4?? { (-1.63 → -6.58) Blunder. The best move was c3. } (17. c3 Nb5 18. d4 g5 19. a4 Na7 20. a5 Nc8 21. axb6 Rxa1 22. Rxa1 Nxb6 23. Qc2 Qe7 24. c4 Bf7 25. Ra7 Bg6 26. Rxb7 Bxe4) 17... Qe5?? { (-6.58 → -2.08) Blunder. The best move was Qxf4. } (17... Qxf4 18. Qxf4 Ne2+ 19. Kf2 Nxf4 20. g3 Nh5 21. Ke2 Nf6 22. Kd2 Kf7 23. a4 b5 24. a5 c5 25. Ke2 b4 26. Kd2 Ng4 27. h3) 18. Qf2?? { (-2.08 → -5.13) Blunder. The best move was Rff1. } (18. Rff1 Qc5 19. Rf2 Bxb3 20. cxb3 Nxb3 21. d4 Qc6 22. Rf8+ Kxf8 23. Rf1+ Kg8 24. axb3 Qxe4 25. Re1 Qd5 26. Qb2 c5 27. dxc5 bxc5) 18... Ne2+ 19. Qxe2 Qxa1+ 20. Qf1 Qxf1+? { (-5.07 → -3.95) Mistake. The best move was Qb2. } (20... Qb2 21. Rf2 Rxa2 22. c3 Qxb3 23. Rxa2 Qxa2 24. h3 Qc2 25. c4 Qb2 26. Qf2 Qc3 27. Qf1 Qd4+ 28. Kh1 g5 29. Qe2 Kg7 30. g4) 21. Rxf1 Rxa2 22. Rc1 Kf7 23. Kf2? { (-4.30 → -6.34) Mistake. The best move was Rf1+. } (23. Rf1+ Ke7 24. Rf2 b5 25. g3 b4 26. Kf1 b5 27. Kg2 c5 28. Kf3 c4 29. bxc4 bxc4 30. dxc4 Ra3+ 31. Ke2 b3 32. cxb3 Rxb3) 23... Bxb3 24. Ke3 Rxc2 25. Rf1+ { White resigns } 0-1
