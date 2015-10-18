@@ -1,0 +1,17 @@
+[Event "Rated game"]
+[Site "http://lichess.org/PoZW0YTt"]
+[Date "2015.10.18"]
+[White "LOR_J"]
+[Black "sshilovsky"]
+[Result "0-1"]
+[WhiteElo "1507"]
+[BlackElo "1713"]
+[PlyCount "51"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C55"]
+[Opening "Italian Game, Two Knights Defence"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 { Italian Game, Two Knights Defence } 4. Nc3 Bb4 5. d3 Nd4 6. O-O d6 7. Bg5 Be6 8. Nd5 Bxd5 9. Bxd5 c6 10. Bxf7+ Kxf7 11. c3 Nxf3+ 12. Qxf3 Ba5 13. Qf5 Qd7 14. Qxd7+ Nxd7 15. f4 exf4 16. Rxf4+ Kg6 17. Be7 Ne5 18. Rd1 Bc7 19. d4 Rae8 20. Bh4 Nc4 21. b3 Ne3 22. Rd3 d5 23. Rxe3 Bxf4 24. Rf3 Rxe4 25. g3 Bg5 26. Bxg5 { White resigns } 0-1
