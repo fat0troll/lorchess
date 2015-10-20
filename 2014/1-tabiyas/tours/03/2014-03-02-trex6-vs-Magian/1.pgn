@@ -1,0 +1,17 @@
+[Event "Casual game"]
+[Site "http://lichess.org/wNWHmgKy"]
+[Date "2014.03.02"]
+[White "txgames"]
+[Black "Magian"]
+[Result "0-1"]
+[WhiteElo "1293"]
+[BlackElo "1799"]
+[PlyCount "74"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C18"]
+[Opening "French Defence, Winawer Variation, Advance Variation"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 { French Defence, Winawer Variation, Advance Variation } 7. Bb5+ Bd7 8. Bxd7+?! { (0.02 → -0.68) Inaccuracy. The best move was Be2. } (8. Be2 Nbc6 9. Nf3 c4 10. Bd2 O-O 11. O-O b6 12. a4 h6 13. Rfe1 Rac8 14. Qc1 Nf5 15. Qa3 Qe7 16. Qxe7 Ncxe7) 8... Nxd7 9. Nf3 c4?! { (-0.64 → -0.14) Inaccuracy. The best move was Nb6. } (9... Nb6 10. a4 O-O 11. Bg5 Qc7 12. Bxe7 Qxe7 13. O-O Rac8 14. Nd2 cxd4 15. cxd4 Qc7 16. a5 Nc4 17. Nxc4 Qxc4 18. Rab1) 10. O-O O-O 11. h3 Nf5 12. g4 Nh4 13. Nxh4 Qxh4 14. Qf3? { (-0.38 → -1.45) Mistake. The best move was Kg2. } (14. Kg2 Nb6 15. Qe1 Na4 16. Bf4 Qe7 17. Qe3 Qd7 18. Rab1 Rac8 19. f3 Rfe8 20. Rfe1 h6 21. Bg3) 14... f6 15. Qg3 Qxg3+ 16. fxg3 fxe5 17. Rxf8+ Rxf8 18. dxe5 Nxe5 19. Bf4 Ng6 20. Re1?! { (-2.10 → -2.80) Inaccuracy. The best move was Bd2. } (20. Bd2 Ne7 21. Kg2 Nc6 22. Be3 b6 23. Re1 e5 24. Rd1 Rd8 25. Bg5 Rd6 26. Rf1 h6 27. Be3 Rd8 28. Bc1 d4 29. cxd4 exd4) 20... Nxf4 21. gxf4 Rxf4 22. Rxe6 Rf3 23. Re8+? { (-2.66 → -3.73) Mistake. The best move was Re5. } (23. Re5 b6 24. Rxd5 Rxh3 25. Rd8+ Kf7 26. Rd7+ Kg6 27. Rxa7 Rg3+ 28. Kf2 Rxc3 29. Rb7 Rxc2+ 30. Ke3 Rb2 31. a4 h6 32. Rc7 Rb4) 23... Kf7 24. Rd8?! { (-3.73 → -4.46) Inaccuracy. The best move was Re5. } (24. Re5 Rxc3 25. Rxd5 Ke6 26. Rh5 Rxc2 27. Rxh7 Ra2 28. Rxg7 c3 29. Rg6+ Ke5 30. h4 c2) 24... Rxc3?! { (-4.46 → -3.77) Inaccuracy. The best move was Ke6. } (24... Ke6 25. Re8+ Kd6 26. Rd8+ Kc6 27. Rc8+ Kb6 28. Rd8 Rxh3 29. Rxd5 Rxc3 30. Kf1 Rxc2 31. Ke1 Kc6 32. Rh5 Rg2 33. Rxh7 Rxg4 34. Kd2) 25. Rxd5 Ke6 26. Rh5 h6 27. g5 Rxc2 28. gxh6 gxh6 29. Rxh6+?! { (-3.59 → -4.12) Inaccuracy. The best move was Kf1. } (29. Kf1 Kd7 30. h4 Ra2 31. Rc5 Rxa3 32. Rxc4 b5 33. Rg4 Ra2 34. Ke1 a5 35. Rg6 b4 36. Rxh6 b3 37. Rb6 a4 38. h5 Rh2) 29... Kd5 30. Rh5+ Ke4 31. Rh4+ Kf3? { (-4.70 → -3.25) Mistake. The best move was Kd3. } (31... Kd3 32. Rh7 Ra2 33. Rd7+ Ke4 34. Kf1 b5 35. Re7+ Kd3 36. Rd7+ Kc3 37. Rb7 a6 38. h4 Kb2 39. Ke2 Kxa3+ 40. Ke3 Rh2 41. Ra7) 32. Rg4? { (-3.25 → -4.92) Mistake. The best move was Rh7. } (32. Rh7 c3 33. Rc7 b5 34. h4 a5 35. h5 b4 36. h6 b3 37. h7 b2 38. Rf7+ Kg3 39. Rg7+ Kf4 40. Rf7+ Ke4 41. h8=Q b1=Q+) 32... c3 33. Rg7?? { (-5.67 → -13.38) Blunder. The best move was Rc4. } (33. Rc4 b5 34. Rc5 Ke3 35. Rc7 Kd4 36. Kf1 Ra2 37. h4 Kd3 38. Rd7+ Kc4 39. Rxa7 Ra1+ 40. Ke2 c2 41. Rc7+ Kb3 42. h5 c1=Q) 33... Rb2 34. h4 c2 35. Rc7?! { (-85.53 → Mate in 9) Checkmate is now unavoidable. The best move was Rf7+. } (35. Rf7+ Kg3 36. Rg7+ Kxh4 37. Rc7 Rb1+ 38. Kf2 c1=Q 39. Rxc1 Rxc1 40. Ke2 Ra1 41. Kd3 Kg5 42. Kc3 Rxa3+ 43. Kb4 Ra1 44. Kc3 Kf4) 35... Rb1+ 36. Kh2 c1=Q 37. Rxc1 Rxc1 { White resigns } 0-1
