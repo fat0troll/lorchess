@@ -1,0 +1,17 @@
+[Event "Casual game"]
+[Site "http://lichess.org/vnSxmdQQ"]
+[Date "2014.03.02"]
+[White "fat0troll"]
+[Black "txgames"]
+[Result "0-1"]
+[WhiteElo "1259"]
+[BlackElo "1293"]
+[PlyCount "34"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C51"]
+[Opening "Italian Game, Evans Gambit, Accepted"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 { Italian Game, Evans Gambit, Accepted } 5. O-O a6? { (-0.80 → 0.32) Mistake. The best move was Nf6. } (5... Nf6 6. d3 O-O 7. a3 Ba5 8. Bd2 d6 9. Bxa5 Nxa5 10. Ba2 Bg4 11. Nbd2 Nc6 12. Rab1 Rab8 13. Bc4 Kh8) 6. Ba3? { (0.32 → -1.03) Mistake. The best move was c3. } (6. c3 Bd6 7. d4 Nf6 8. Ng5 O-O 9. f4 exd4 10. e5 Bc5 11. exf6 dxc3+ 12. Kh1 Qxf6 13. Qh5) 6... Bxa3 7. Nxa3 Nf6 8. Ng5?! { (-0.98 → -1.62) Inaccuracy. The best move was Bd5. } (8. Bd5 O-O 9. Bxc6 dxc6 10. d3 b5 11. Nb1 Bg4 12. Nbd2 c5 13. h3 Bxf3 14. Nxf3 Qd6 15. Rab1 Rfd8 16. Rfe1 c4 17. dxc4) 8... Rhf8?! { (-1.62 → -0.82) Inaccuracy. The best move was O-O. } (8... O-O 9. d3 b5 10. Bb3 d6 11. c4 h6 12. Nf3 Bg4 13. cxb5 Bxf3 14. gxf3 Nd4 15. bxa6 Rxa6 16. Nc2) 9. Qh5?? { (-0.82 → -15.91) Blunder. The best move was d3. } (9. d3 Qe7 10. Nb1 d6 11. Nd2 Bg4 12. Ngf3 O-O-O 13. a4 Bxf3 14. Nxf3 Nd7 15. c3 Nc5 16. Bd5 f5 17. exf5 Rxf5 18. Bxc6 bxc6) 9... Nxh5 10. Nxh7 Rfh8 11. Ng5 Qxg5 12. g3 Qxd2 13. Rad1 Qb4 14. Nb1 Qxc4 15. Rd3 Qxc2 16. Rfd1 d6 17. Na3 Qxa2 { White resigns } 0-1
