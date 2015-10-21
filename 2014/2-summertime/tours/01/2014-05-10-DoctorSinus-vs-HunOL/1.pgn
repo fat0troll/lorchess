@@ -4,10 +4,14 @@
 [White "fat0troll"]
 [Black "HunOL"]
 [Result "1-0"]
-[WhiteElo "1255"]
-[BlackElo "1707"]
+[WhiteElo "1315"]
+[BlackElo "1855"]
 [PlyCount "25"]
 [Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B13"]
+[Opening "Caro-Kann Defence, Exchange Variation"]
+[Termination "Normal"]
 [Annotator "lichess.org"]
 
-1. e4 c6 2. d4 d5 3. exd5 { Caro-Kann Defense, Exchange Variation } cxd5 4. Bb5+ Bd7 5. Bxd7+ Qxd7 6. Nc3 e6 7. Nf3 Bb4 8. Bd2 Nc6 9. O-O Nf6 10. Ne5 Qc7 11. Nb5 Qc8 12. Bxb4 Nxb4 13. Nd6+ 1-0
+1. e4 c6 2. d4 d5 3. exd5 { Caro-Kann Defence, Exchange Variation } cxd5 4. Bb5+ Bd7 5. Bxd7+ Qxd7 6. Nc3 e6 7. Nf3 Bb4 8. Bd2 Nc6 9. O-O Nf6 10. Ne5 Qc7?! { (-0.03 → 0.48) Inaccuracy. The best move was Qc8. } (10... Qc8 11. Nxc6 Qxc6 12. Ne4 Nxe4 13. Bxb4 a5 14. Ba3 Nd6 15. Bxd6 Qxd6 16. Rfe1 O-O 17. c3 g6 18. Qf3 b5 19. a3 b4 20. axb4) 11. Nb5 Qc8?? { (0.58 → 5.77) Blunder. The best move was Qb6. } (11... Qb6 12. Nxc6 Qxc6 13. Bxb4 Qxb5 14. c3 a5 15. Ba3 h5 16. Rfe1 h4 17. Qf3 b6 18. Rac1 Rac8 19. Re5 h3 20. gxh3 Rc7 21. Rg5) 12. Bxb4 Nxb4? { (5.66 → 7.58) Mistake. The best move was Ne4. } (12... Ne4 13. Bd6 Nxe5 14. dxe5 Qc4 15. Nc7+ Kd7 16. Nxa8 Nxd6 17. exd6 Rxa8 18. Qf3 Rf8 19. Rfe1 Qb4 20. Rac1 g5 21. c4 dxc4 22. a3) 13. Nd6+ { Black resigns } 1-0
