@@ -4,15 +4,14 @@
 [White "fat0troll"]
 [Black "gremlin_the_red"]
 [Result "0-1"]
-[WhiteElo "1309"]
-[BlackElo "1734"]
+[WhiteElo "1392"]
+[BlackElo "1856"]
 [PlyCount "92"]
 [Variant "Standard"]
 [TimeControl "900+10"]
 [ECO "B30"]
-[Opening "Sicilian Defense, Old Sicilian, General"]
-[WhiteClock ":17:29"]
-[BlackClock ":18:10"]
+[Opening "Sicilian Defence, Old Sicilian, General"]
+[Termination "Normal"]
 [Annotator "lichess.org"]
 
-1. e4 c5 2. Nf3 Nc6 { Sicilian Defense, Old Sicilian, General } 3. Nc3 Nf6 4. d4 cxd4 5. Nxd4 e5 6. Nxc6 bxc6 7. Bg5 Bb4 8. Bc4 Bxc3+ 9. bxc3 Qa5 10. Bxf6 Qxc3+ 11. Ke2 Qxc4+ 12. Qd3 Qxd3+ 13. cxd3 gxf6 14. Rhc1 Ba6 15. Rab1 Ke7 16. a4 Rab8 17. Ke3 Rhg8 18. g3 Kd6 19. d4 exd4+ 20. Kxd4 Kc7 21. f4 Rxb1 22. Rxb1 Rb8 23. Rxb8 Kxb8 24. Kc5 Kc7 25. h4 d6+ 26. Kd4 Be2 27. e5 fxe5+ 28. fxe5 c5+ 29. Kd5 Bf3+ 30. Kc4 dxe5 31. Kxc5 f5 32. Kc4 Kc6 33. Kd3 Kd5 34. Ke3 h5 35. Kxf3 Kd4 36. Ke2 Ke4 37. Kf2 Kd3 38. Kf3 e4+ 39. Kf2 Kd2 40. a5 e3+ 41. Kf1 e2+ 42. Kf2 e1=Q+ 43. Kf3 Qe3+ 44. Kg2 Ke1 45. Kh3 Qg1 46. a6 Qh1# { White is checkmated } 0-1
+1. e4 c5 2. Nf3 Nc6 { Sicilian Defence, Old Sicilian, General } 3. Nc3 Nf6 4. d4 cxd4 5. Nxd4 e5 6. Nxc6 bxc6 7. Bg5 Bb4 8. Bc4 Bxc3+ 9. bxc3 Qa5 10. Bxf6?? { (0.32 → -4.28) Blunder. The best move was Qf3. } (10. Qf3 d5 11. Bxf6 Bg4 12. Qg3 gxf6) 10... Qxc3+ 11. Ke2 Qxc4+ 12. Qd3 Qxd3+ 13. cxd3 gxf6 14. Rhc1 Ba6 15. Rab1 Ke7 16. a4 Rab8 17. Ke3 Rhg8 18. g3 Kd6 19. d4 exd4+ 20. Kxd4 Kc7 21. f4? { (-4.53 → -5.72) Mistake. The best move was f3. } (21. f3 Rxb1 22. Rxb1 Rb8 23. Rxb8 Kxb8 24. f4 d6 25. f5 c5+ 26. Kd5) 21... Rxb1 22. Rxb1 Rb8 23. Rxb8 Kxb8 24. Kc5 Kc7 25. h4? { (-5.77 → -7.24) Mistake. The best move was e5. } (25. e5 fxe5 26. fxe5 Be2 27. a5 Bf3 28. h4 h6 29. Kd4 d5 30. exd6+ Kxd6 31. Kd3 c5) 25... d6+ 26. Kd4 Be2? { (-7.93 → -6.79) Mistake. The best move was c5+. } (26... c5+ 27. Kc3 Kb6 28. g4 Ka5 29. Kd2 Kxa4 30. g5 fxg5 31. hxg5 Kb4 32. e5 dxe5 33. fxe5) 27. e5?! { (-6.79 → -7.60) Inaccuracy. The best move was Ke3. } (27. Ke3 Bg4 28. a5 c5 29. Kd3 Kc6 30. a6 Kb5 31. Kc3 Bf3 32. Kd3 Kxa6 33. h5) 27... fxe5+ 28. fxe5 c5+ 29. Kd5?! { (-7.50 → -8.08) Inaccuracy. The best move was Ke4. } (29. Ke4 a5 30. Kd5 Bf3+ 31. Kc4 Bc6 32. g4 dxe5 33. Kxc5 Bxa4 34. Kd5 Bd1 35. Kxe5 a4 36. Kd4 a3 37. Kc3 Kd6 38. Kb4 a2) 29... Bf3+ 30. Kc4 dxe5 31. Kxc5 f5 32. Kc4?! { (-9.27 → -13.50) Inaccuracy. The best move was a5. } (32. a5 h6 33. Kc4 Kc6 34. Kd3 Kb5 35. Ke3 Bd5 36. a6 Kxa6) 32... Kc6 33. Kd3 Kd5 34. Ke3 h5 35. Kxf3 Kd4 36. Ke2 Ke4 37. Kf2 Kd3 38. Kf3 e4+ 39. Kf2 Kd2 40. a5 e3+ 41. Kf1?! { (-103.87 → Mate in 6) Checkmate is now unavoidable. The best move was Kf3. } (41. Kf3 e2 42. Kf4 e1=Q 43. Kg5 Qxg3+ 44. Kxh5 Qg4+ 45. Kh6 Qxh4+ 46. Kg6 Qg4+ 47. Kf6 f4 48. a6 f3 49. Ke5 Qg6 50. Kd4 Qxa6) 41... e2+ 42. Kf2 e1=Q+ 43. Kf3 Qe3+?! { (Mate in 1 → Mate in 4) Not the best checkmate sequence. The best move was Qf1#. } (43... Qf1#) 44. Kg2 Ke1 45. Kh3 Qg1 46. a6 Qh1# { White is checkmated } 0-1
