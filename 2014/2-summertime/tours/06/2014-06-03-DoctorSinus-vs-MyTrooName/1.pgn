@@ -4,15 +4,14 @@
 [White "fat0troll"]
 [Black "sshilovsky"]
 [Result "0-1"]
-[WhiteElo "1309"]
-[BlackElo "1535"]
+[WhiteElo "1383"]
+[BlackElo "1656"]
 [PlyCount "34"]
 [Variant "Standard"]
 [TimeControl "900+10"]
 [ECO "C60"]
 [Opening "Spanish Game, General"]
-[WhiteClock ":15:46"]
-[BlackClock ":15:57"]
+[Termination "Normal"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bb5 { Spanish Game, General } Nf6 4. Nc3 Bc5 5. O-O a6 6. Bxc6 dxc6 7. Nxe5 O-O 8. Nc4 Ng4 9. Na4 Nxf2 10. Rxf2 Bxf2+ 11. Kxf2 Qh4+ 12. g3 Qxh2+ 13. Ke3 Qxg3+ 14. Kd4 b5 15. Ne5 Rfd8+ 16. Kc5 Qxe5+ 17. Kxc6 Qd6# { White is checkmated } 0-1
+1. e4 e5 2. Nf3 Nc6 3. Bb5 { Spanish Game, General } Nf6 4. Nc3 Bc5 5. O-O a6?! { (0.02 → 0.94) Inaccuracy. The best move was O-O. } (5... O-O 6. Bxc6 bxc6 7. Nxe5 Bd4 8. Ng4 Nxg4 9. Qxg4 d6 10. Qg3 Rab8 11. d3 Be5 12. f4 Bd4+ 13. Be3 Bxe3+ 14. Qxe3 Rxb2 15. Rac1) 6. Bxc6 dxc6 7. Nxe5 O-O 8. Nc4?! { (0.97 → 0.14) Inaccuracy. The best move was d3. } (8. d3 Rfe8 9. Nf3 Bg4 10. h3 Bxf3 11. Qxf3 Qe7 12. Be3 Bd6 13. Bd4 Bc5 14. Bxc5 Qxc5) 8... Ng4 9. Na4?? { (0.21 → -4.69) Blunder. The best move was h3. } (9. h3 b5 10. Ne3 Nxe3 11. fxe3 Qg5 12. Rf3 Bd6 13. d4 f6 14. e5 fxe5 15. Rxf8+ Bxf8 16. Qf3 Qg6 17. dxe5 b4) 9... Nxf2?? { (-4.69 → -1.46) Blunder. The best move was Qh4. } (9... Qh4 10. Qxg4 Bxg4 11. Nxc5 Be2 12. Ne3 Bxf1 13. Nxf1 b6 14. Nd3 Qxe4 15. b3 f6 16. Bb2 Rfe8 17. f3 Qe6 18. a4 c5 19. a5) 10. Rxf2?! { (-1.46 → -2.12) Inaccuracy. The best move was Qf3. } (10. Qf3 Bg4 11. Qb3 Qd4 12. Ne3 Be6 13. Nxc5 Bxb3 14. Nxb3 Nh3+ 15. gxh3 Qxe4 16. d3 Qh4 17. Bd2 Qxh3 18. Rae1 Rae8 19. Nc5 Qh5) 10... Bxf2+ 11. Kxf2 Qh4+?! { (-2.00 → -1.01) Inaccuracy. The best move was Qd4+. } (11... Qd4+ 12. Ne3 Qxa4 13. c4 Qb4 14. b3 Qd6 15. Kg1 Qd4 16. Rb1 Qxe4 17. Bb2 Be6 18. Ba3 Rfd8) 12. g3?? { (-1.01 → -4.36) Blunder. The best move was Kg1. } (12. Kg1 b5 13. Nc5 bxc4 14. d4 cxd3 15. cxd3 Bg4 16. Qf1 f5 17. e5 f4 18. Bxf4 g5) 12... Qxh2+ 13. Ke3 Qxg3+? { (-4.20 → -3.17) Mistake. The best move was b5. } (13... b5 14. Qe2 Qxg3+ 15. Qf3 Qe1+ 16. Kd4 Be6 17. Nc5 Bxc4 18. Kc3 Rfd8 19. Qe3 Qf1 20. b3) 14. Kd4?? { (-3.17 → Mate in 9) Checkmate is now unavoidable. The best move was Qf3. } (14. Qf3 Qe1+ 15. Kd3 b5 16. Kc3 bxc4 17. b3 Rfd8 18. Qe3 Qh4 19. Kb2 Rab8 20. Nc5 Qe7 21. d4 cxd3 22. Nxd3 Rde8 23. Qf4 Qxe4) 14... b5?? { (Mate in 9 → -4.55) Lost forced checkmate sequence. The best move was Rfd8+. } (14... Rfd8+ 15. Kc5 b6+ 16. Naxb6 cxb6+ 17. Nxb6 Qd6+ 18. Kc4 Qd4+ 19. Kb3 Qxb6+ 20. Ka3 Qa5+ 21. Kb3 Rab8+ 22. Kc4 Be6#) 15. Ne5?? { (-4.55 → Mate in 6) Checkmate is now unavoidable. The best move was d3. } (15. d3 bxc4 16. Nc5 cxd3 17. Nxd3 Qg6 18. Kc3 Qxe4 19. b3 Bf5 20. Bd2 Rfd8 21. Kb2 Qg2 22. Rc1 Rab8 23. Kb1 Bxd3 24. cxd3 Rxd3) 15... Rfd8+ 16. Kc5 Qxe5+ 17. Kxc6 Qd6# { White is checkmated } 0-1
