@@ -4,15 +4,14 @@
 [White "gremlin_the_red"]
 [Black "fat0troll"]
 [Result "1-0"]
-[WhiteElo "1755"]
-[BlackElo "1327"]
+[WhiteElo "1872"]
+[BlackElo "1405"]
 [PlyCount "51"]
 [Variant "Standard"]
 [TimeControl "900+10"]
 [ECO "A41"]
-[Opening "Rat Defense"]
-[WhiteClock ":16:43"]
-[BlackClock ":12:7"]
+[Opening "Rat Defence"]
+[Termination "Normal"]
 [Annotator "lichess.org"]
 
-1. d4 d6 { Rat Defense } 2. c4 Nf6 3. Nc3 Nc6 4. e4 Bd7 5. f3 e5 6. d5 Ne7 7. Be3 c5 8. Bd3 b6 9. Nge2 g6 10. Qd2 Bg7 11. O-O-O O-O 12. g4 h5 13. gxh5 Nxh5 14. Rdg1 f5 15. exf5 Bxf5 16. Ne4 Bxe4 17. Bxe4 Nf5 18. Rxg6 Rf6 19. Bxf5 Rxf5 20. Rhg1 Qh4 21. Bh6 Qxh2 22. Bxg7 Nf4 23. Bxe5+ Kf7 24. Bxf4 Re8 25. Rg7+ Kf6 26. R1g6# { Black is checkmated } 1-0
+1. d4 d6 { Rat Defence } 2. c4 Nf6 3. Nc3 Nc6 4. e4 Bd7 5. f3 e5 6. d5 Ne7 7. Be3 c5 8. Bd3 b6 9. Nge2 g6 10. Qd2 Bg7 11. O-O-O O-O 12. g4 h5 13. gxh5 Nxh5 14. Rdg1 f5?! { (0.74 → 1.43) Inaccuracy. The best move was a6. } (14... a6 15. b3 Rb8 16. a4 f5 17. h4 f4 18. Bf2 Nf6 19. Kb2 b5 20. axb5 axb5 21. Nxb5 Qb6) 15. exf5 Bxf5 16. Ne4?! { (1.08 → 0.58) Inaccuracy. The best move was Bg5. } (16. Bg5 Nf6 17. Ne4 Qd7 18. N2c3 Nh5 19. Kb1 a6 20. h4 b5 21. cxb5 axb5 22. Nxb5 Nf4 23. h5 Nxd3 24. Qxd3 c4) 16... Bxe4?! { (0.58 → 1.39) Inaccuracy. The best move was a6. } (16... a6 17. a4 Qd7 18. b3 Nf6 19. Bg5 Rf7 20. Nxf6+ Bxf6 21. Bxf6 Rxf6) 17. Bxe4 Nf5? { (1.41 → 3.46) Mistake. The best move was b5. } (17... b5 18. Bxg6 Nxg6 19. Rxg6 Rxf3 20. Rhg1 Qh4 21. R1g4 Qxh2 22. Bh6 Rf7 23. cxb5 Qh3 24. Kc2 Qf3 25. Nc3 Qf1) 18. Rxg6 Rf6? { (3.10 → 5.04) Mistake. The best move was Nxe3. } (18... Nxe3 19. Qxe3 Rf6 20. Rg5 Nf4 21. Rhg1 Rf7 22. Nxf4 exf4 23. Qd2 Qf6 24. Bf5 Re7 25. Be6+ Kh8) 19. Bxf5?! { (5.04 → 4.05) Inaccuracy. The best move was Bg5. } (19. Bg5 Rxg6 20. Bxd8 Bh6 21. f4 Rxd8) 19... Rxf5 20. Rhg1 Qh4? { (4.46 → 5.73) Mistake. The best move was Rf7. } (20... Rf7 21. Nc3 Qf8 22. Bh6 Rd7 23. R1g4 Qxf3 24. Qg5 Qf2) 21. Bh6? { (5.73 → 4.31) Mistake. The best move was R1g4. } (21. R1g4 Qh3 22. Ng3 Raf8 23. Nxh5 Rxh5 24. Rxg7+ Kh8 25. R7g6 Qxh2 26. Rxd6 Qxd2+ 27. Bxd2 Rxf3 28. Rd8+ Kh7 29. Rd7+ Kh8 30. Rxa7 Rh2) 21... Qxh2? { (4.31 → 6.91) Mistake. The best move was Rf7. } (21... Rf7 22. b3 Kh7 23. R1g4 Qxh2 24. Bxg7 Nxg7 25. Qg5 Nf5 26. Rg8 Qh1+) 22. Bxg7 Nf4?? { (6.74 → 19.31) Blunder. The best move was Nxg7. } (22... Nxg7 23. Rxg7+ Kh8 24. R7g6 Rh5 25. Rxd6 Rg8 26. Rxg8+ Kxg8 27. Qd3 e4 28. Qxe4 Qxd6 29. Qe8+ Kg7 30. Qxh5 Qe7 31. Qg4+ Kf8 32. Qf4+) 23. Bxe5+ Kf7 24. Bxf4 Re8?! { (18.73 → Mate in 6) Checkmate is now unavoidable. The best move was Qh8. } (24... Qh8 25. Rh6 Qxh6 26. Bxh6 Rg8 27. Rxg8 Kxg8 28. Qd3 Rf6 29. Bg5 Rf7 30. Qg6+ Rg7 31. Qxd6 a6) 25. Rg7+ Kf6 26. R1g6# { Black is checkmated } 1-0
