@@ -4,15 +4,14 @@
 [White "HunOL"]
 [Black "Magian"]
 [Result "0-1"]
-[WhiteElo "1737"]
-[BlackElo "1720"]
+[WhiteElo "1861"]
+[BlackElo "1890"]
 [PlyCount "32"]
 [Variant "Standard"]
 [TimeControl "900+10"]
 [ECO "D31"]
 [Opening "Queen's Gambit Declined, Queen's Knight Variation"]
-[WhiteClock ":11:53"]
-[BlackClock ":14:49"]
+[Termination "Normal"]
 [Annotator "lichess.org"]
 
-1. d4 d5 2. c4 e6 3. Nc3 { Queen's Gambit Declined, Queen's Knight Variation } Bb4 4. Bd2 Nf6 5. e3 c5 6. a3 cxd4 7. axb4 dxc3 8. bxc3 O-O 9. cxd5 Qxd5 10. c4 Qd6 11. c5 Qd5 12. Nf3 Rd8 13. Be2 Ne4 14. Nd4? { (0.70 → -0.61) Mistake. The best move was Ra3. } (14. Ra3 Bd7 15. Rd3 Qf5 16. O-O a5 17. Rd4 Nxd2 18. Qxd2 axb4 19. Rxb4 Ra7 20. Rfb1 Nc6 21. Bd3 Qxc5) 14... Nc6 15. Qb3?? { (-0.34 → -7.45) Blunder. The best move was O-O. } (15. O-O Nxd4 16. exd4 e5 17. Be1 exd4 18. Bd3 Bf5 19. Qc2 g6 20. f3 Nc3 21. Bxf5 Qxf5 22. Qxf5 gxf5) 15... Nxd4 16. Qxd5 Nc2+ { White resigns }
+1. d4 d5 2. c4 e6 3. Nc3 { Queen's Gambit Declined, Queen's Knight Variation } Bb4 4. Bd2 Nf6 5. e3 c5 6. a3 cxd4 7. axb4 dxc3 8. bxc3 O-O 9. cxd5 Qxd5 10. c4 Qd6 11. c5 Qd5 12. Nf3 Rd8 13. Be2 Ne4 14. Nd4? { (0.70 → -0.61) Mistake. The best move was Ra3. } (14. Ra3 Bd7 15. Rd3 Qf5 16. O-O a5 17. Rd4 Nxd2 18. Qxd2 axb4 19. Rxb4 Ra7 20. Rfb1 Nc6 21. Bd3 Qxc5 22. Rb5 Qe7 23. Rxb7 Ra3) 14... Nc6 15. Qb3?? { (-0.34 → -7.45) Blunder. The best move was O-O. } (15. O-O Nxd4 16. exd4 e5 17. Be1 exd4 18. Bd3 Bf5 19. Qc2 g6 20. f3 Nc3 21. Bxf5 Qxf5 22. Qxf5 gxf5 23. Bh4 Re8) 15... Nxd4 16. Qxd5 Nc2+ { White resigns } 0-1
