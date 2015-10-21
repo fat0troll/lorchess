@@ -4,15 +4,14 @@
 [White "sshilovsky"]
 [Black "Magian"]
 [Result "0-1"]
-[WhiteElo "1528"]
-[BlackElo "1706"]
+[WhiteElo "1633"]
+[BlackElo "1873"]
 [PlyCount "40"]
 [Variant "Standard"]
 [TimeControl "900+10"]
 [ECO "C50"]
 [Opening "Italian Game, General"]
-[WhiteClock ":15:56"]
-[BlackClock ":16:8"]
+[Termination "Normal"]
 [Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bc4 { Italian Game, General } d6 4. d3 Be6 5. Bb5 a6 6. Bxc6+ bxc6 7. Nc3 Rb8 8. b3 Nf6 9. Ng5 h6?! { (-0.17 → 0.41) Inaccuracy. The best move was Bg4. } (9... Bg4 10. f3 Bd7 11. f4 exf4 12. Bxf4 d5 13. a3 Bc5 14. Nf3 dxe4 15. dxe4 O-O) 10. Nxe6 fxe6 11. Be3 d5 12. d4? { (0.31 → -1.32) Mistake. The best move was Na4. } (12. Na4 Bd6 13. O-O Qe7 14. c3 O-O 15. f3 Nd7 16. Rc1 a5 17. c4 d4 18. Bd2 Bb4 19. Qc2 Qf7) 12... Bb4 13. Qd2? { (-1.38 → -4.21) Mistake. The best move was Bd2. } (13. Bd2 exd4 14. Ne2 Bxd2+ 15. Qxd2 e5 16. exd5 cxd5 17. O-O O-O 18. f3 Qd6 19. Rae1 c5 20. c3 Qc6) 13... Nxe4 14. Nxe4 Bxd2+ 15. Nxd2 exd4 16. Bxd4 Qg5 17. O-O?? { (-4.22 → -7.29) Blunder. The best move was O-O-O. } (17. O-O-O O-O 18. Kb2 e5 19. Bc5 Rfe8 20. Rhg1 Rb5 21. Be3 Qg6 22. c3 Reb8 23. Nf3 Qf5 24. h4 Ra5) 17... Qxd2 18. Bxg7 Rg8 19. Rad1? { (-7.42 → -10.96) Mistake. The best move was Be5. } (19. Be5 Qxc2 20. Bxc7 Rb4 21. Rfc1 Qb2 22. Bd6 Re4 23. Rab1 Qxa2 24. Ra1 Qb2 25. Rcb1 Qd2 26. g3 Kd7) 19... Qg5 20. Bd4?! { (-10.97 → Mate in 1) Checkmate is now unavoidable. The best move was g3. } (20. g3 Qxg7 21. c3 Kd7 22. Rd3 Rbf8 23. Re3 e5) 20... Qxg2# { White is chec
+1. e4 e5 2. Nf3 Nc6 3. Bc4 { Italian Game, General } d6 4. d3 Be6 5. Bb5 a6 6. Bxc6+ bxc6 7. Nc3 Rb8 8. b3 Nf6 9. Ng5 h6?! { (-0.17 → 0.41) Inaccuracy. The best move was Bg4. } (9... Bg4 10. f3 Bd7 11. f4 exf4 12. Bxf4 d5 13. a3 Bc5 14. Nf3 dxe4 15. dxe4 O-O) 10. Nxe6 fxe6 11. Be3 d5 12. d4? { (0.31 → -1.32) Mistake. The best move was Na4. } (12. Na4 Bd6 13. O-O Qe7 14. c3 O-O 15. f3 Nd7 16. Rc1 a5 17. c4 d4 18. Bd2 Bb4 19. Qc2 Qf7 20. Bxb4 axb4) 12... Bb4 13. Qd2? { (-1.38 → -4.21) Mistake. The best move was Bd2. } (13. Bd2 exd4 14. Ne2 Bxd2+ 15. Qxd2 e5 16. exd5 cxd5 17. O-O O-O 18. f3 Qd6 19. Rae1 c5 20. c3 Qc6 21. Ng3 Nd7 22. c4 dxc4) 13... Nxe4 14. Nxe4 Bxd2+ 15. Nxd2 exd4 16. Bxd4 Qg5 17. O-O?? { (-4.22 → -7.29) Blunder. The best move was O-O-O. } (17. O-O-O O-O 18. Kb2 e5 19. Bc5 Rfe8 20. Rhg1 Rb5 21. Be3 Qg6 22. c3 Reb8 23. Nf3 Qf5 24. h4 Ra5 25. Rge1 Rxa2+ 26. Kxa2 Qc2+) 17... Qxd2 18. Bxg7 Rg8 19. Rad1? { (-7.42 → -10.96) Mistake. The best move was Be5. } (19. Be5 Qxc2 20. Bxc7 Rb4 21. Rfc1 Qb2 22. Bd6 Re4 23. Rab1 Qxa2 24. Ra1 Qb2 25. Rcb1 Qd2 26. g3 Kd7 27. Bc5 Qd3 28. b4 Re2) 19... Qg5 20. Bd4?! { (-10.97 → Mate in 1) Checkmate is now unavoidable. The best move was g3. } (20. g3 Qxg7 21. c3 Kd7 22. Rd3 Rbf8 23. Re3 e5) 20... Qxg2# { White is checkmated } 0-1
