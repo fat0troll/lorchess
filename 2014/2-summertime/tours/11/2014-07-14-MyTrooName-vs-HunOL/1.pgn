@@ -4,15 +4,14 @@
 [White "sshilovsky"]
 [Black "HunOL"]
 [Result "0-1"]
-[WhiteElo "1565"]
-[BlackElo "1772"]
+[WhiteElo "1598"]
+[BlackElo "1913"]
 [PlyCount "64"]
 [Variant "Standard"]
 [TimeControl "900+10"]
 [ECO "B12"]
-[Opening "Caro-Kann Defense, Advance Variation, Van der Wiel Attack"]
-[WhiteClock ":13:45"]
-[BlackClock ":8:52"]
+[Opening "Caro-Kann Defence, Advance Variation, Van der Wiel Attack"]
+[Termination "Normal"]
 [Annotator "lichess.org"]
 
-1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nc3 { Caro-Kann Defense, Advance Variation, Van der Wiel Attack } e6 5. Bf4 Nd7 6. Bd3 Bxd3 7. Qxd3 c5 8. dxc5 Bxc5 9. Nf3 Ne7 10. Nd4 Qb6 11. Na4 Qb4+ 12. c3 Qxa4 13. Nb5 Bxf2+ 14. Kf1 Qxf4 15. Nc7+ Kd8 16. Nxa8 Be3+ 17. Ke2 Qf2+ 18. Kd1 Nxe5 19. Qe2 Qxe2+ 20. Kxe2 Nf5 21. Rhf1 Kd7 22. Rxf5 exf5 23. Kxe3 Rxa8 24. Kd4 Kd6 25. Rf1 g6 26. h3 Rc8 27. g4 Rc4+ 28. Ke3 fxg4 29. hxg4 Nxg4+ 30. Kd2 Ke6 31. b3 Re4 32. Rh1 h5 { White resigns } 0-1
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nc3 { Caro-Kann Defence, Advance Variation, Van der Wiel Attack } e6 5. Bf4 Nd7 6. Bd3 Bxd3 7. Qxd3 c5 8. dxc5 Bxc5 9. Nf3 Ne7 10. Nd4?! { (-0.63 → -1.51) Inaccuracy. The best move was O-O. } (10. O-O O-O 11. Rad1 Rc8 12. Ne2 Bb6 13. Bg5 a6 14. Nf4 h6 15. Bh4) 10... Qb6?! { (-1.51 → -0.97) Inaccuracy. The best move was Ng6. } (10... Ng6 11. Bg3 Ngxe5 12. Bxe5 Nxe5 13. Qb5+ Nd7 14. O-O-O O-O 15. Kb1 a6 16. Qxb7 Qf6 17. Nc6 Ne5 18. Nxe5 Qxe5 19. f4 Qxf4 20. Rdf1) 11. Na4? { (-0.97 → -3.92) Mistake. The best move was O-O-O. } (11. O-O-O Ng6 12. Qe3 O-O 13. Kb1 Bxd4 14. Rxd4 Nh4 15. g4) 11... Qb4+ 12. c3 Qxa4 13. Nb5?? { (-3.90 → -7.43) Blunder. The best move was O-O. } (13. O-O Ng6 14. Qd2 O-O 15. Rfe1 Rac8 16. b3 Qa3 17. Bg3 Bb6 18. Rad1 a6 19. Re3 Ne7 20. h3 Nc6 21. f3 Qe7 22. Qd3 Nxd4) 13... Bxf2+? { (-7.43 → -5.86) Mistake. The best move was Qxf4. } (13... Qxf4 14. Nc7+ Kd8 15. Nxa8 Qxf2+ 16. Kd1 Qxg2 17. Re1 Qxb2 18. Rb1) 14. Kf1?? { (-5.86 → -9.35) Blunder. The best move was Kxf2. } (14. Kxf2 Qxf4+ 15. Qf3 Qd2+ 16. Qe2 Qxe2+ 17. Kxe2 O-O 18. Kd2 Nxe5 19. Rae1 Nc4+ 20. Kc1 Rfc8 21. Nd4 Nc6 22. Nf3 a5 23. Kc2 Nd6) 14... Qxf4 15. Nc7+?! { (-9.15 → -9.82) Inaccuracy. The best move was Qf3. } (15. Qf3 Qxf3 16. gxf3 Bb6 17. Nd6+ Kf8 18. a4 Ng6 19. a5 Bc7 20. Kg2 Ke7 21. Rhf1 Ndxe5 22. Nb5 Rhc8 23. a6 bxa6 24. Nxc7 Rxc7) 15... Kd8 16. Nxa8 Be3+ 17. Ke2 Qf2+? { (-9.48 → -7.93) Mistake. The best move was Nf5. } (17... Nf5 18. Rhf1 Qg4+ 19. Ke1 Qxg2 20. Rxf5 exf5 21. Qxe3 Qh1+ 22. Kd2 Qxa1 23. Kc2 Qxa2 24. Qg5+ Kc8 25. Qxf5 Qa4+ 26. Kd2 Qb5 27. Kc1) 18. Kd1 Nxe5 19. Qe2 Qxe2+ 20. Kxe2 Nf5? { (-8.01 → -6.79) Mistake. The best move was Bc5. } (20... Bc5 21. c4 dxc4 22. Rhd1+ Nd5 23. b3 Ke7 24. Rxd5 exd5 25. Nc7 Kd6 26. Nb5+ Kc6 27. Nc3 d4 28. Ne4 c3 29. Rf1 Kd5 30. Nxc5) 21. Rhf1 Kd7? { (-7.40 → -6.01) Mistake. The best move was Bc5. } (21... Bc5 22. b4 Bd6 23. Rg1 Kd7 24. g4 Nh4) 22. Rxf5 exf5 23. Kxe3 Rxa8 24. Kd4 Kd6 25. Rf1 g6 26. h3 Rc8 27. g4? { (-6.25 → -8.67) Mistake. The best move was b3. } (27. b3 Nc6+ 28. Kd3 h5 29. Rf4 d4 30. Rf1 dxc3 31. Kxc3 Ne5+ 32. Kd2 f6 33. Rf4 Kd5 34. Rf1 a6 35. Rf4 b5 36. Rf1 Ke4) 27... Rc4+ 28. Ke3 fxg4 29. hxg4 Nxg4+ 30. Kd2 Ke6 31. b3 Re4 32. Rh1 h5 { White resigns } 0-1
