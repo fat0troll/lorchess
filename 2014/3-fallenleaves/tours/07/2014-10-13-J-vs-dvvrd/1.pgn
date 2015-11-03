@@ -10,7 +10,8 @@
 [Variant "Standard"]
 [TimeControl "900+10"]
 [ECO "B06"]
-[Opening "Modern Defense, King Pawn Fianchetto"]
+[Opening "Modern Defence, King Pawn Fianchetto"]
+[Termination "Normal"]
 [Annotator "lichess.org"]
 
-1. e4 g6 { Modern Defense, King Pawn Fianchetto } 2. d4 Bg7 3. Nf3 d6 4. Bc4 Nf6 5. Nc3 O-O 6. O-O Bg4 7. h3 Bxf3 8. Qxf3 Nc6 9. Qe3 Nd7 10. f4?? { (0.22 → -7.15) Blunder. The best move was Rd1. } (10. Rd1 e5 11. dxe5 Ndxe5 12. Bb3 Na5 13. Qg3 Re8 14. Bg5 Qd7 15. Ba4) 10... Bxd4 { White resigns } 0-1
+1. e4 g6 { Modern Defence, King Pawn Fianchetto } 2. d4 Bg7 3. Nf3 d6 4. Bc4 Nf6 5. Nc3 O-O 6. O-O Bg4 7. h3 Bxf3 8. Qxf3 Nc6 9. Qe3 Nd7 10. f4?? { (0.22 → -7.15) Blunder. The best move was Rd1. } (10. Rd1 e5 11. dxe5 Ndxe5 12. Bb3 Na5 13. Qg3 Re8 14. Bg5 Qd7 15. Ba4) 10... Bxd4 { White resigns } 0-1
