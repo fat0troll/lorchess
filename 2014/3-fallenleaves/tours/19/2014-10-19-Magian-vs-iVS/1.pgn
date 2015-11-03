@@ -10,7 +10,8 @@
 [Variant "Standard"]
 [TimeControl "900+10"]
 [ECO "D10"]
-[Opening "Slav Defense, General"]
+[Opening "Slav Defence, General"]
+[Termination "Normal"]
 [Annotator "lichess.org"]
 
-1. d4 d5 2. c4 c6 { Slav Defense, General } 3. Nc3 Nf6 4. Bg5 e6 5. e3 Nbd7 6. Nf3 Qa5 7. Rc1 Ne4 8. Bd3? { (0.16 → -1.92) Mistake. The best move was Bf4. } (8. Bf4 Bb4 9. a3 Bxc3+ 10. bxc3 b6 11. Qc2 Ba6 12. Bd3 g5 13. Be5 f6 14. Bxe4 dxe4 15. Qxe4 Bxc4) 8... Nxg5 9. Nxg5 dxc4 10. Nxf7 cxd3? { (-1.79 → 0.52) Mistake. The best move was Kxf7. } (10... Kxf7 11. Bxc4 Nf6 12. O-O Bd6 13. a3 Rd8 14. Qf3 Kg8 15. e4) 11. Nxh8 Qg5 12. O-O Bd6? { (1.33 → 3.82) Mistake. The best move was d2. } (12... d2 13. Qxd2 g6 14. Ne4 Qe7 15. b4 Bg7 16. b5 Nf6 17. Nxf6+ Bxf6 18. bxc6 bxc6 19. Qc2 Bb7 20. Nxg6) 13. Ne4 Qe7? { (3.89 → 5.29) Mistake. The best move was Bxh2+. } (13... Bxh2+ 14. Kxh2 Qh4+ 15. Kg1 Qxe4 16. Qh5+ Kd8 17. Qg5+ Kc7 18. Nf7 Qd5 19. Qxg7 Qxa2 20. Rfd1 a5 21. Rxd3) 14. Nxd6+ Qxd6 15. Qh5+ { Black resigns } 1-0
+1. d4 d5 2. c4 c6 { Slav Defence, General } 3. Nc3 Nf6 4. Bg5 e6 5. e3 Nbd7 6. Nf3 Qa5 7. Rc1 Ne4 8. Bd3? { (0.16 → -1.92) Mistake. The best move was Bf4. } (8. Bf4 Bb4 9. a3 Bxc3+ 10. bxc3 b6 11. Qc2 Ba6 12. Bd3 g5 13. Be5 f6 14. Bxe4 dxe4 15. Qxe4 Bxc4 16. Bd6 Qd5 17. Qxd5 exd5) 8... Nxg5 9. Nxg5 dxc4 10. Nxf7 cxd3? { (-1.79 → 0.52) Mistake. The best move was Kxf7. } (10... Kxf7 11. Bxc4 Nf6 12. O-O Bd6 13. a3 Rd8 14. Qf3 Kg8 15. e4) 11. Nxh8 Qg5 12. O-O Bd6? { (1.33 → 3.82) Mistake. The best move was d2. } (12... d2 13. Qxd2 g6 14. Ne4 Qe7 15. b4 Bg7 16. b5 Nf6 17. Nxf6+ Bxf6 18. bxc6 bxc6 19. Qc2 Bb7 20. Nxg6 hxg6 21. Qxg6+ Kd7 22. Rc2) 13. Ne4 Qe7? { (3.89 → 5.29) Mistake. The best move was Bxh2+. } (13... Bxh2+ 14. Kxh2 Qh4+ 15. Kg1 Qxe4 16. Qh5+ Kd8 17. Qg5+ Kc7 18. Nf7 Qd5 19. Qxg7 Qxa2 20. Rfd1 a5 21. Rxd3 Qd5 22. Qxh7 Qf5 23. Qh2+) 14. Nxd6+ Qxd6 15. Qh5+ { Black resigns } 1-0
