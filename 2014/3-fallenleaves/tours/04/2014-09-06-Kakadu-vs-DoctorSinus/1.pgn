@@ -10,7 +10,8 @@
 [Variant "Standard"]
 [TimeControl "900+10"]
 [ECO "B10"]
-[Opening "Caro-Kann Defense, General"]
+[Opening "Caro-Kann Defence, General"]
+[Termination "Normal"]
 [Annotator "lichess.org"]
 
-1. e4 c6 { Caro-Kann Defense, General } 2. Nc3 Nf6 3. d4 d5 4. e5 Ne4 5. Nce2 Bg4 6. f3 Qa5+ 7. c3 f5 8. fxe4 Bxe2 9. Nxe2 fxe4 10. Nf4 g5 11. Qh5+ Kd7 12. e6+ Kd6 13. Qxg5 h6 14. Qe5# { Black is checkmated } 1-0
+1. e4 c6 { Caro-Kann Defence, General } 2. Nc3 Nf6 3. d4 d5 4. e5 Ne4 5. Nce2?! { (0.98 → 0.43) Inaccuracy. The best move was Nxe4. } (5. Nxe4 dxe4 6. Ne2 Bf5 7. Ng3 e6 8. Bc4 Bg6 9. O-O Be7 10. Re1 O-O 11. Bf4 Nd7 12. Nxe4 Nb6 13. Bb3 Nd5 14. Bxd5 cxd5) 5... Bg4? { (0.43 → 2.50) Mistake. The best move was f6. } (5... f6 6. f3 Ng5 7. c3 Nf7 8. f4 c5 9. Nf3 Nc6 10. dxc5 fxe5 11. fxe5 e6 12. b4 Be7 13. Ned4 O-O 14. Nxc6 bxc6 15. Bd3) 6. f3 Qa5+ 7. c3 f5? { (3.09 → 4.96) Mistake. The best move was Nxc3. } (7... Nxc3 8. bxc3 Bf5 9. g4 Bc8 10. Nh3 f6 11. Bg2 fxe5 12. dxe5 Nd7 13. Bf4 e6 14. Ng5 Nc5 15. O-O Be7) 8. fxe4? { (4.96 → 3.12) Mistake. The best move was fxg4. } (8. fxg4 fxg4 9. Ng3 h5 10. Bd3 Nd7 11. N1e2 O-O-O 12. Nxe4 dxe4 13. Bxe4 Nxe5 14. O-O Qb5 15. Rf5 e6 16. Rg5) 8... Bxe2? { (3.12 → 5.31) Mistake. The best move was fxe4. } (8... fxe4 9. Nh3 g6 10. Nf2 Bf5 11. g4 Bd7 12. Qb3 Qb6 13. h4 Na6 14. h5 gxh5 15. Rxh5 Nc7 16. Nf4 O-O-O 17. Qxb6 axb6 18. Be3) 9. Nxe2 fxe4 10. Nf4 g5?? { (5.59 → 9.89) Blunder. The best move was Nd7. } (10... Nd7 11. Qh5+ g6 12. Nxg6 hxg6 13. Qxh8 c5 14. dxc5 O-O-O 15. b4 Qa4 16. Bg5 d4 17. Qh3 Bg7 18. Qe6 Bxe5 19. Qxg6 dxc3 20. Qxe4) 11. Qh5+ Kd7 12. e6+?? { (10.02 → 6.71) Blunder. The best move was Qh3+. } (12. Qh3+ Ke8 13. Ne6 h5 14. Bxg5 Qb6 15. Be2 Bh6 16. Bxh5+ Kd7 17. Bf7 Qxb2 18. O-O b6 19. Bxh6 Kc8 20. Rfb1 Qc2 21. Qh4 Na6) 12... Kd6?? { (6.71 → 12.48) Blunder. The best move was Kc8. } (12... Kc8 13. Ng6 Rg8 14. Qxh7 Rg7 15. Qh6 Qd8 16. Be2 Rg8 17. Qxg5 b6 18. Qf5 Kb7 19. Qf7 Rxg6 20. Qxg6 Na6 21. O-O Nc7 22. a4) 13. Qxg5 h6?! { (12.25 → Mate in 1) Checkmate is now unavoidable. The best move was Kc7. } (13... Kc7 14. Qe5+ Kc8 15. Qxh8 Qd8 16. Qxh7) 14. Qe5# { Black is checkmated } 1-0
