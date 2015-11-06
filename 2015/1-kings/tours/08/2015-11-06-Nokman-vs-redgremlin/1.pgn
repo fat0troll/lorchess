@@ -1,0 +1,17 @@
+[Event "Rated game"]
+[Site "http://lichess.org/fAm6N1dk"]
+[Date "2015.11.06"]
+[White "Nokman"]
+[Black "gremlin_the_red"]
+[Result "0-1"]
+[WhiteElo "1632"]
+[BlackElo "1927"]
+[PlyCount "48"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B25"]
+[Opening "Sicilian Defence, Closed Variation, Traditional"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. Nc3 Nc6 { Sicilian Defence, Closed Variation, Traditional } 3. Bb5 d6 4. Bxc6+ bxc6 5. Nf3 Bg4 6. h3 Bh5 7. d3 e6 8. Be3 Nf6 9. g4 Bg6 10. h4 h5 11. g5 Ng4 12. Qe2 Be7 13. O-O-O O-O 14. Nh2?! { (-0.22 → -0.72) Inaccuracy. The best move was Nd2. } (14. Nd2 f6 15. Rdg1 Nxe3 16. gxf6 Bxf6 17. Qxe3 Bd4 18. Qg3 Rf6 19. Nf3 Rb8 20. Nxd4 cxd4 21. Ne2 e5) 14... Nxe3 15. Qxe3?! { (-0.60 → -1.13) Inaccuracy. The best move was fxe3. } (15. fxe3 Rb8 16. Nf3 Qa5 17. Qe1 Qb4 18. b3 f5 19. gxf6 Rxf6 20. Ng5 d5 21. Kb1 Bd6 22. Ne2 e5 23. Rg1 Qa3 24. Qg3 Bc7) 15... Rb8 16. Rde1?! { (-0.76 → -1.49) Inaccuracy. The best move was Nf3. } (16. Nf3 d5 17. Qe1 c4 18. Ne5 Bxg5+ 19. Kb1 Qb6 20. Na4 Qb5 21. hxg5 Qxa4 22. Qc3 cxd3 23. cxd3 dxe4 24. Nxc6) 16... d5 17. Nd1 d4? { (-1.83 → -0.82) Mistake. The best move was Qa5. } (17... Qa5 18. Kb1 c4 19. Nf3 dxe4 20. dxe4 Rfd8 21. Ka1 Bc5 22. Qc1 Ba3 23. Re3 Rxd1 24. Rxd1 Bxb2+ 25. Qxb2 Rxb2 26. Kxb2 Bxe4 27. a3) 18. Qe2 Qa5 19. Kb1?! { (-1.93 → -2.75) Inaccuracy. The best move was a3. } (19. a3 Bd6 20. Nf3 Bf4+ 21. Kb1 Qxa3 22. Nd2 e5 23. Nb3 Qb4 24. Reg1 Rfd8 25. Qe1 c4 26. Qxb4 Rxb4 27. Nc5 c3) 19... Rb6 20. f4?! { (-2.83 → -3.37) Inaccuracy. The best move was Nf3. } (20. Nf3 Rfb8 21. Ne5 Ra6 22. Nc4 Qxa2+ 23. Kc1 Bd8 24. Qf3 Bc7 25. Kd2 Qb1 26. Nde3 dxe3+ 27. Qxe3 Qa2 28. Qxc5 Rb5 29. Qd4 Ba5+) 20... Rfb8 21. b3?? { (-5.51 → -10.81) Blunder. The best move was Qf2. } (21. Qf2 Rxb2+ 22. Nxb2 Qc3 23. Kc1 Rxb2 24. f5 Rxa2 25. Kd1 Qa1+ 26. Ke2 Rxc2+ 27. Kf3 Rxf2+ 28. Kxf2 Qc3 29. fxg6 fxg6 30. Nf3 Qxd3) 21... Ra6 22. a4?! { (-11.21 → Mate in 7) Checkmate is now unavoidable. The best move was Kc1. } (22. Kc1 Qxa2 23. Qf2 c4 24. dxc4 Rxb3 25. Qxd4 Ba3+ 26. Kd2 Bb4+ 27. Nc3 Bxc3+ 28. Qxc3 Rxc3 29. Kxc3 Ra3+ 30. Kd4 Ra4 31. Nf3 Qxc4+) 22... Qxa4 23. Kc1 Qa3+?! { (Mate in 6 → -18.69) Lost forced checkmate sequence. The best move was Qb4. } (23... Qb4 24. c3 Ra1+ 25. Kd2 Qxb3 26. cxd4 cxd4 27. Qf3 Qa2+ 28. Nb2 Rxb2#) 24. Kd2?! { (-18.69 → Mate in 6) Checkmate is now unavoidable. The best move was Nb2. } (24. Nb2 c4 25. Qf1 Bb4 26. Kd1 Qxb2 27. Ke2 Bxe4 28. Rc1 Bxd3+ 29. Kf2 Bxf1 30. Rhxf1 cxb3 31. g6 Qc3 32. gxf7+ Kxf7 33. Nf3 b2) 24... Qb4+ { White resigns } 0-1
