@@ -1,0 +1,17 @@
+[Event "Rated game"]
+[Site "http://lichess.org/AAgTFJgo"]
+[Date "2015.11.09"]
+[White "LOR_J"]
+[Black "aptypr"]
+[Result "0-1"]
+[WhiteElo "1552"]
+[BlackElo "1743"]
+[PlyCount "68"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C50"]
+[Opening "Italian Game, Italian Variation"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 { Italian Game, Italian Variation } 4. O-O Nf6 5. d3 d6 6. h3 Na5 7. Bb3 Nxb3 8. axb3 O-O 9. Nc3 a6 10. Bg5 c6 11. Nd2 h6 12. Be3 Bb4 13. Ra4 Ba5 14. b4 Bc7 15. Nb3 Be6 16. Ra3 d5 17. exd5 Nxd5 18. Nxd5 cxd5 19. c3 f5 20. f4 e4 21. Nd4 Bd7 22. c4?! { (0.09 → -0.41) Inaccuracy. The best move was Qb3. } (22. Qb3 Bc8 23. b5 Re8 24. Rd1 Kh7 25. Raa1 g5 26. Ne2 Qd6 27. g3 Be6 28. bxa6 Rxa6 29. Nd4 Bd7 30. dxe4 Rxe4 31. Rxa6) 22... dxc4 23. dxc4 Qf6 24. c5 Rfd8 25. Qb3+ Kh8 26. Rfa1? { (0.05 → -1.40) Mistake. The best move was b5. } (26. b5 axb5 27. Rxa8 Rxa8 28. Qd5 Bc6 29. Qxf5 Qxf5 30. Nxf5 Kh7 31. Kf2 Ra2 32. Bd4 g6 33. Ne7 Bxf4 34. Nxc6 bxc6 35. Re1 Kg8) 26... Bxf4 27. Nxf5? { (-1.41 → -4.13) Mistake. The best move was Bxf4. } (27. Bxf4 Qxd4+ 28. Be3 Qe5 29. Qc3 Qe6 30. Qb3 Qg6 31. Bf4 Bb5 32. Rd1 Rxd1+ 33. Qxd1 Qf6 34. Qd2 Rd8 35. Qc3 Qg6 36. Ra1 Rd3) 27... Qxf5 28. Rf1? { (-4.19 → -6.23) Mistake. The best move was Bxf4. } (28. Bxf4 Qxf4 29. Rf1 Qg5 30. Qg3 Qd5 31. Rf2 Bc6 32. Qe3 Qc4 33. Qe1 Kg8 34. Re3 Rd4 35. Qc3 Qxb4 36. Qxb4 Rxb4) 28... Bxe3+? { (-6.23 → -4.38) Mistake. The best move was Bh2+. } (28... Bh2+ 29. Kxh2 Qxf1 30. Qc2 Bc6 31. Qf2 Qxf2 32. Bxf2 Rd2 33. Be3 Rxb2 34. h4 Rxb4 35. h5 Rb2 36. Kg3 Rf8 37. Bd4 Rd2 38. Be3) 29. Qxe3 Qe5 30. Ra2?! { (-4.46 → -5.30) Inaccuracy. The best move was Qc3. } (30. Qc3 Qe6 31. Qc1 Bb5 32. Re1 Rd4 33. Rg3 Qc4 34. Qxc4 Rxc4 35. Rg6 Rxb4 36. Rb6 Rc8 37. b3 Rxc5 38. Rxb7 a5 39. Re7 Rxb3) 30... Bb5 31. Rf4?? { (-5.65 → -10.67) Blunder. The best move was Re1. } (31. Re1 Rd4 32. Ra3 Rxb4 33. Qc3 Qxc3 34. Rxc3 Rd8 35. Rc2 Rd5 36. Rc3 Rd2 37. b3 Rd3 38. Rxd3 Bxd3 39. Kf2 Rxb3 40. Ke3 Rb2) 31... Bd3?? { (-10.67 → -4.80) Blunder. The best move was Rd1+. } (31... Rd1+ 32. Kh2 g5 33. Qxe4 Qxf4+ 34. Qxf4 gxf4 35. b3 Kg7 36. Rc2 Rd3 37. Rf2 Rd4 38. g3 fxg3+ 39. Kxg3 Rxb4 40. Rf3 Rc8 41. Rc3) 32. b3 Qd4?? { (-4.79 → 0.94) Blunder. The best move was Rf8. } (32... Rf8 33. Raf2 Rxf4 34. Rxf4 Qd5 35. Qe1 Rd8 36. Qc3 Kh7 37. Rg4 g5 38. h4 Be2 39. Rg3 Qf7 40. hxg5 hxg5) 33. Qxd4?? { (0.94 → -5.39) Blunder. The best move was Rf8+. } (33. Rf8+ Kh7 34. Qxd4 Rxd4 35. Rxa8 Rxb4 36. Rb8 Rxb3 37. c6 Rb1+ 38. Kh2 bxc6 39. Rxb1 Bxb1 40. Rxa6 c5 41. Rc6 e3 42. Rxc5 e2) 33... Rxd4 34. Raf2?! { (-5.24 → -5.88) Inaccuracy. The best move was Ra4. } (34. Ra4 Bb5 35. Ra1 Rxb4 36. Rc1 Bc6 37. Rc3 Re8 38. Rf2 Bd5 39. Re2 Rf8 40. Ree3 Kh7 41. Re1 Rc8 42. Kf2 Kg6 43. Rb1 Kf6) 34... Kg8 { White resigns } 0-1
