@@ -1,0 +1,17 @@
+[Event "Rated game"]
+[Site "http://lichess.org/KGhCArsH"]
+[Date "2015.11.24"]
+[White "Genuine"]
+[Black "Dead_Eye"]
+[Result "1-0"]
+[WhiteElo "1892"]
+[BlackElo "1324"]
+[PlyCount "45"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "C50"]
+[Opening "Four Knights Game, Italian Variation"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Nc3 Nf6 { Four Knights Game, Italian Variation } 5. d3 O-O 6. O-O b6 7. Bg5 h6 8. Bh4 Bb7 9. a3 d6?! { (0.27 → 1.10) Inaccuracy. The best move was Be7. } (9... Be7 10. Bxf6 Bxf6 11. Nd5 Na5 12. Ba2 Bxd5 13. Bxd5 c6 14. Ba2 d5 15. d4 dxe4 16. Nxe5 Qd6 17. Ng4 Qxd4 18. c3 Qxd1 19. Rfxd1) 10. Ne2?! { (1.10 → 0.31) Inaccuracy. The best move was Bxf6. } (10. Bxf6 Qxf6 11. b4 b5 12. Bxb5 Bb6 13. Nd5 Qd8 14. a4 Nd4 15. Nxd4 Bxd4 16. c3 Bxd5 17. cxd4 Bb7 18. dxe5 dxe5 19. Bc4 c6) 10... Qd7? { (0.31 → 2.36) Mistake. The best move was a6. } (10... a6 11. b4 b5 12. bxc5 bxc4 13. cxd6 Qxd6 14. Bxf6 Qxf6 15. Nc3 Na5 16. Nd5 Bxd5 17. exd5 cxd3 18. Qxd3 Rab8 19. Rab1) 11. Bxf6 gxf6 12. b4 Bd4 13. c3 Bxf2+? { (2.49 → 4.27) Mistake. The best move was b5. } (13... b5 14. Bxb5 Bb6 15. Ng3 Qg4 16. Nf5 Kh7 17. h3 Qh5 18. Kh2 Rg8 19. N5h4 f5 20. Nxf5 Qg6 21. g4 Qf6 22. Bxc6 Bxc6 23. g5) 14. Rxf2 Ne7 15. Ng3 b5?? { (4.22 → 7.44) Blunder. The best move was Qg4. } (15... Qg4 16. Nd2 f5 17. Nxf5 Qxd1+ 18. Rxd1 Nxf5 19. Rxf5 Kg7 20. Rdf1 f6 21. R5f3 Rad8 22. a4 c6 23. b5 h5 24. Rg3+ Kh6 25. Be6) 16. Bb3?? { (7.44 → 4.32) Blunder. The best move was Nh5. } (16. Nh5 Kh8 17. Nxf6 Qd8 18. Qd2 Kg7 19. Bb3 Ng6 20. Ng5 Nf4 21. Nh5+ Nxh5 22. Rxf7+ Rxf7 23. Ne6+ Kg6 24. Nxd8 Rxd8 25. Bxf7+ Kxf7) 16... d5? { (4.32 → 7.22) Mistake. The best move was Qg4. } (16... Qg4 17. Qd2 Qg6 18. a4 bxa4 19. Rxa4 a6 20. Qe2 Bc8 21. d4 Be6 22. d5 Bg4 23. Qc4 f5 24. Nh4 Qg5 25. Nhxf5 Nxf5 26. exf5) 17. exd5? { (7.22 → 5.05) Mistake. The best move was Nh5. } (17. Nh5 Qd6 18. Nh4 f5 19. exf5 f6 20. d4 Rf7 21. dxe5 fxe5 22. f6 Kh8 23. Qe2 Rg8 24. fxe7 Rxf2 25. Qxf2 Qxe7 26. Nf6 Rg7) 17... Bxd5 18. Bxd5 Nxd5 19. Qe1?? { (7.23 → 3.75) Blunder. The best move was Nh4. } (19. Nh4 Ne3 20. Qe2 Qg4 21. Qxe3 Qxh4 22. Ne4 Kg7 23. Raf1 Rad8 24. g3 Qh5 25. Nxf6 Qg5 26. Qe4 Qg6 27. Qxe5 c6 28. Nd7+ Kh7) 19... Rac8?! { (3.75 → 4.70) Inaccuracy. The best move was a5. } (19... a5 20. bxa5 Nf4 21. Ne4 Qe6 22. Nd4 exd4 23. Rxf4 f5 24. Qg3+ Qg6 25. Rxf5 Qxg3 26. hxg3 dxc3 27. Nxc3) 20. Rc2? { (4.70 → 3.66) Mistake. The best move was Nh4. } (20. Nh4 Nf4 21. Qe4 Qg4 22. Nhf5 Kh8 23. d4 Rfe8 24. Nxh6 Qg6 25. Nhf5 Rcd8 26. a4 a6 27. axb5 axb5 28. Ra6 Nd5 29. dxe5 Rxe5) 20... c5?! { (3.66 → 4.26) Inaccuracy. The best move was Rfd8. } (20... Rfd8 21. Nh4 Kh8 22. Ngf5 Nf4 23. d4 Re8 24. Qe4 Qd5 25. Qxd5 Nxd5 26. Nxh6 Ne3 27. Re2 exd4 28. cxd4) 21. Nh5? { (4.26 → 2.87) Mistake. The best move was Ne4. } (21. Ne4 c4 22. d4 Rfe8 23. Qg3+ Kf8 24. Qh4 Qf5 25. dxe5 Qg6 26. Rd2 f5 27. Rxd5 fxe4 28. Nd4 Kg8 29. Rxb5 e3) 21... Qf5 22. Qg3+?! { (2.95 → 2.45) Inaccuracy. The best move was Qe4. } (22. Qe4 Qxh5 23. Qxd5 Rfd8 24. Qb7 Qf5 25. Ne1 c4 26. dxc4 Rxc4 27. Qxa7 Rdc8 28. Qb6 Rxc3 29. Rf2 Qg5 30. Qxf6 Qxf6 31. Rxf6 Rc1) 22... Kh7?? { (2.45 → Mate in 1) Checkmate is now unavoidable. The best move was Qg6. } (22... Qg6 23. bxc5 Kh7 24. Qh3 Rxc5 25. Nd2 f5 26. Re1 f6 27. c4 bxc4 28. Rxc4 Rxc4 29. dxc4 Ne7 30. Nf4 Qg4 31. Qxg4 fxg4 32. Ne6) 23. Qg7# { Black is checkmated } 1-0
