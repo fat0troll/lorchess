@@ -1,0 +1,17 @@
+[Event "Rated game"]
+[Site "http://lichess.org/em4AC5nA"]
+[Date "2015.11.24"]
+[White "Nokman"]
+[Black "Genuine"]
+[Result "0-1"]
+[WhiteElo "1675"]
+[BlackElo "1895"]
+[PlyCount "98"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "B50"]
+[Opening "Sicilian Defence, Modern Variations"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 c5 2. Nf3 d6 { Sicilian Defence, Modern Variations } 3. Nc3 Nf6 4. Be2 g6 5. O-O Bg7 6. d3 O-O 7. h3 a6 8. Nh2 b5 9. a3 Nc6 10. f4 e6 11. Bf3 Bb7 12. Bd2 Rb8 13. Rb1 Ba8 14. Na2 d5 15. e5 Nd7 16. c3 d4 17. cxd4 Nxd4 18. Bxa8 Rxa8 19. Nf3 Nf5 20. Kh2 Nb6 21. Qe2 Qc7 22. Ba5 Qb7 23. Bxb6 Qxb6 24. Nc3 Rfd8 25. Rfd1 Bh6 26. g3 a5 27. Ne4 Bg7 28. Rbc1 Rac8 29. Qf2 Bf8?! { (0.32 → 0.87) Inaccuracy. The best move was Nd4. } (29... Nd4 30. Nxd4 cxd4 31. Nd6 Rxc1 32. Rxc1 b4 33. Nc4 Qc5 34. axb4 axb4 35. Ra1 Bf8 36. g4 Be7 37. f5 gxf5 38. gxf5 Bg5 39. f6) 30. b3?! { (0.87 → 0.03) Inaccuracy. The best move was g4. } (30. g4 Nd4 31. Nxd4 cxd4 32. Nf6+ Kg7 33. f5 Qb8 34. Qf4 Be7 35. Ne4 Kh8 36. f6 Bf8 37. Rxc8 Rxc8 38. Nd6 Bxd6 39. exd6) 30... Kg7 31. g4 Nd4 32. Nxd4 Rxd4 33. Kg3? { (0.48 → -1.02) Mistake. The best move was Qxd4. } (33. Qxd4 cxd4 34. Rxc8 Qa6 35. Rc7 Bxa3 36. Ng5 h6 37. Nxf7 Qb6 38. Nd6+ Kg8 39. Rc8+ Kg7 40. Ne4 Qb7 41. Rc2 a4 42. Rb1 Qf7) 33... Rcd8 34. Qe2 Be7 35. g5 b4?! { (-1.63 → -0.81) Inaccuracy. The best move was c4. } (35... c4 36. bxc4 bxc4 37. Rc3 a4 38. Nf2 cxd3 39. Nxd3 Qa5 40. Qd2 h6 41. gxh6+ Kh7 42. Kh2 Qd5 43. Qe2 Rxf4 44. Nxf4 Qxd1 45. Qxd1) 36. a4 h6 37. h4 Qa6?! { (-0.69 → -0.18) Inaccuracy. The best move was Qc6. } (37... Qc6 38. gxh6+ Kxh6 39. Ng5 Kg7 40. Nf3 R4d5 41. Rd2 Qd7 42. Rcd1 Rh8 43. Rh1 Qc6 44. Qe4 Rh5 45. Rc1 Qc7 46. Rh1 Qd8 47. Rdd1) 38. Nf2 Rh8 39. Ne4 Rhd8 40. Nf2 hxg5 41. hxg5 Rh8 42. Ne4 Rd5 43. Qf3 Rh5 44. Nf6 Bxf6 45. exf6+?! { (0.00 → -0.80) Inaccuracy. The best move was gxf6+. } (45. gxf6+ Kg8 46. Rd2 Rh6 47. Qe3 Qa8 48. Rdc2 Qd8 49. Rd2 Qa8) 45... Kf8?! { (-0.80 → 0.00) Inaccuracy. The best move was Kg8. } (45... Kg8 46. Kf2 Rh2+ 47. Kg1 Rb2 48. Qh1 Qd6 49. Qh6 Qf8 50. Qxf8+ Kxf8 51. d4 Rxb3 52. Rxc5 Ke8 53. Rxd5 exd5 54. Re1+ Kd8 55. Re7) 46. Qf2?? { (0.00 → -3.38) Blunder. The best move was d4. } (46. d4 Qd6 47. Rxc5 Kg8 48. Rxd5 exd5 49. Kg2 Qe6 50. Rh1 Rxh1 51. Kxh1 Qe1+ 52. Kg2 Kh7 53. Qh3+ Kg8 54. Qd3 Kh8 55. Kf3 Qh1+) 46... Rxd3+ 47. Kg2?? { (-3.91 → Mate in 4) Checkmate is now unavoidable. The best move was Kg4. } (47. Kg4 Kg8 48. Rh1 Rxb3 49. Qc2 Rc3 50. Qe4 Rxh1 51. Rxh1 Qc8 52. Kh4 c4 53. Qe2 Rd3 54. Rd1 Qc7 55. Kg4 Qd7 56. Rxd3 Qxd3) 47... Qc6+ 48. Kf1 Rh1+ 49. Ke2 Qe4+ { White resigns } 0-1
