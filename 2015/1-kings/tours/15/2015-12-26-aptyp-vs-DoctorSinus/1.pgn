@@ -1,0 +1,17 @@
+[Event "Rated game"]
+[Site "http://lichess.org/lVsHHETW"]
+[Date "2015.12.26"]
+[White "aptypr"]
+[Black "fat0troll"]
+[Result "1-0"]
+[WhiteElo "1770"]
+[BlackElo "1359"]
+[PlyCount "31"]
+[Variant "Standard"]
+[TimeControl "900+10"]
+[ECO "D06"]
+[Opening "Queen's Gambit Declined, Marshall Defence"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. d4 d5 2. c4 Nf6 { Queen's Gambit Declined, Marshall Defence } 3. cxd5 Nxd5 4. Nf3 f6 5. e4 Nb4 6. Qa4+ N8c6 7. d5 b5 8. Qb3 Nxd5 9. exd5 Ne5 10. Nxe5 fxe5 11. Bxb5+ Bd7 12. O-O Bxb5 13. Qxb5+ Qd7 14. Nc3 Qxb5 15. Nxb5 h6 16. Nxc7+ { Black resigns } 1-0
