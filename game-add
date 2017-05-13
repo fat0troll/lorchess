@@ -13,7 +13,7 @@ VERSION="0.5"
 # Firefox User Agent
 FIREFOX_UA="Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Firefox/24.0"
 # Regular expressions
-URL_RE="^(http://[^/]*)/(.{8}).*"
+URL_RE="^(https?://[^/]*)/(.{8}).*"
 DATE_RE="[0-9?]{2}\.[0-9?]{2}\.[0-9?]{4}"
 
 argv0=${0##*/}
