@@ -12,6 +12,9 @@ VERSION="0.1"
 
 argv0=${0##*/}
 
+# Fix the notation of decimal point
+export LANG=en_US.UTF-8
+
 function usage {
     cat <<EOF
 Automatic generation of tours.
