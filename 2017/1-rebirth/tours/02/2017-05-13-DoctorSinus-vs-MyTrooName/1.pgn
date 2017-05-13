@@ -1,0 +1,18 @@
+[Event "Rated game"]
+[Site "https://lichess.org/yt1ruYBZ"]
+[Date "2017.05.13"]
+[Round "-"]
+[White "fat0troll"]
+[Black "sshilovsky"]
+[Result "0-1"]
+[WhiteElo "1311"]
+[BlackElo "1529"]
+[PlyCount "22"]
+[Variant "Standard"]
+[TimeControl "180+2"]
+[ECO "C46"]
+[Opening "Three Knights Opening"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 { [%clk 0:03:00] } e5 { [%clk 0:03:00] } 2. Nf3 { [%clk 0:02:59] } Nc6 { [%clk 0:03:01] } 3. Nc3 { [%clk 0:02:59] } { C46 Three Knights Opening } Bc5 { [%clk 0:03:00] } 4. Bd3?! { (0.47 → -0.16) Inaccuracy. Best move was Nxe5. } { [%clk 0:02:53] } (4. Nxe5 Nxe5 5. d4 Bd6 6. dxe5 Bxe5 7. Qd3 Nf6 8. Nd1 c6 9. f4 Bc7 10. e5 Nd5) 4... d6 { [%clk 0:02:59] } 5. O-O { [%clk 0:02:53] } Bg4 { [%clk 0:03:00] } 6. Nd5 { [%clk 0:02:41] } Nd4 { [%clk 0:02:54] } 7. Ne3? { (0.00 → -1.87) Mistake. Best move was Be2. } { [%clk 0:02:33] } (7. Be2 Nxe2+ 8. Qxe2 Nf6 9. d4 Bxd4 10. Qb5+ Bd7 11. Qxb7 Nxd5 12. Qxd5 Be6 13. Qc6+ Bd7) 7... Nxf3+ { [%clk 0:02:49] } 8. gxf3 { [%clk 0:02:32] } Bh3 { [%clk 0:02:49] } 9. Re1? { (-1.87 → -4.61) Mistake. Best move was b4. } { [%clk 0:02:30] } (9. b4 Bb6) 9... Bxe3 { [%clk 0:02:41] } 10. fxe3?? { (-4.41 → Mate in 2) Checkmate is now unavoidable. Best move was Bf1. } { [%clk 0:02:27] } (10. Bf1 Qg5+ 11. Kh1 Bxf1 12. Rxf1 Bf4 13. d4 Bxc1 14. Rxc1 Ne7 15. Qd3 O-O 16. Rg1 Qf6) 10... Qg5+ { [%clk 0:02:41] } 11. Kf2 { [%clk 0:02:24] } Qg2# { [%clk 0:02:40] } { Black wins by checkmate. } 0-1
