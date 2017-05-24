@@ -1,0 +1,18 @@
+[Event "Casual game"]
+[Site "https://lichess.org/Ge2ySn5w"]
+[Date "2017.05.13"]
+[Round "-"]
+[White "LOR_J"]
+[Black "gremlin_the_red"]
+[Result "0-1"]
+[WhiteElo "1467"]
+[BlackElo "1791"]
+[PlyCount "40"]
+[Variant "Standard"]
+[TimeControl "180+2"]
+[ECO "B30"]
+[Opening "Sicilian Defense: Old Sicilian"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 { [%clk 0:03:00] } c5 { [%clk 0:03:00] } 2. Nf3 { [%clk 0:03:00] } Nc6 { [%clk 0:03:01] } { B30 Sicilian Defense: Old Sicilian } 3. Bc4 { [%clk 0:03:02] } e6 { [%clk 0:03:01] } 4. d4 { [%clk 0:03:02] } cxd4 { [%clk 0:03:01] } 5. Nxd4 { [%clk 0:03:03] } Nxd4 { [%clk 0:03:02] } 6. Qxd4 { [%clk 0:03:05] } Nf6 { [%clk 0:02:58] } 7. O-O { [%clk 0:03:04] } d6 { [%clk 0:02:58] } 8. Bg5 { [%clk 0:03:03] } Be7 { [%clk 0:02:58] } 9. Nc3 { [%clk 0:03:01] } Bd7 { [%clk 0:02:51] } 10. f4 { [%clk 0:02:59] } O-O { [%clk 0:02:51] } 11. e5 { [%clk 0:02:54] } dxe5 { [%clk 0:02:51] } 12. Qxe5 { [%clk 0:02:54] } Ng4 { [%clk 0:02:28] } 13. Bxe7 { [%clk 0:02:47] } Qxe7 { [%clk 0:02:25] } 14. Qe4 { [%clk 0:02:47] } Bc6 { [%clk 0:02:25] } 15. Bd5 { [%clk 0:02:39] } Qc5+ { [%clk 0:02:23] } 16. Kh1 { [%clk 0:02:38] } exd5 { [%clk 0:02:24] } 17. Qe2 { [%clk 0:02:35] } Ne3 { [%clk 0:02:14] } 18. Rf3 { [%clk 0:02:34] } d4 { [%clk 0:02:15] } 19. Nd1 { [%clk 0:02:25] } Bxf3 { [%clk 0:02:13] } 20. Qd3 { [%clk 0:02:22] } Bxg2+ { [%clk 0:02:13] } { White resigns. } 0-1
