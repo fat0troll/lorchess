@@ -1,0 +1,18 @@
+[Event "Rated game"]
+[Site "https://lichess.org/oOpQ4845"]
+[Date "2017.05.15"]
+[Round "-"]
+[White "LongLiveUbuntu"]
+[Black "doas"]
+[Result "0-1"]
+[WhiteElo "1215"]
+[BlackElo "1411"]
+[PlyCount "40"]
+[Variant "Standard"]
+[TimeControl "180+2"]
+[ECO "C46"]
+[Opening "Four Knights Game"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 { [%clk 0:03:00] } e5 { [%clk 0:03:00] } 2. Nf3 { [%clk 0:02:42] } Nc6 { [%clk 0:03:00] } 3. Nc3 { [%clk 0:02:26] } Nf6 { [%clk 0:03:00] } { C46 Four Knights Game } 4. Bd3 { [%clk 0:02:11] } d5?! { (-0.18 → 0.53) Inaccuracy. Best move was Bc5. } { [%clk 0:02:58] } (4... Bc5 5. O-O O-O 6. Bc4 d6 7. h3 Bd7 8. d3 Na5 9. Bb3 a6 10. Re1 h6 11. Be3) 5. exd5 { [%clk 0:02:03] } Nxd5 { [%clk 0:02:59] } 6. Nxd5?! { (0.50 → -0.10) Inaccuracy. Best move was O-O. } { [%clk 0:02:00] } (6. O-O Nxc3 7. dxc3 f6 8. Qe2 Be6 9. Rd1 Qc8 10. Be3 Bd6 11. c4 O-O 12. c5 Be7) 6... Qxd5 { [%clk 0:02:59] } 7. c4?? { (0.05 → -6.55) Blunder. Best move was Qe2. } { [%clk 0:01:28] } (7. Qe2 f5 8. Bb5 e4 9. d4 Be7 10. Ne5 Bd7 11. Bxc6 Bxc6 12. Qh5+ g6 13. Nxg6 Qf7) 7... Qxd3 { [%clk 0:02:57] } 8. Qe2 { [%clk 0:00:52] } Qxe2+ { [%clk 0:02:54] } 9. Kxe2 { [%clk 0:00:51] } Bg4 { [%clk 0:02:55] } 10. d3?! { (-6.06 → -6.70) Inaccuracy. Best move was h3. } { [%clk 0:00:37] } (10. h3 Nd4+ 11. Kf1 Bxf3 12. gxf3 O-O-O 13. d3 Nxf3 14. Be3 Rxd3 15. Ke2 e4 16. Rhd1 Rxd1) 10... Nd4+ { [%clk 0:02:50] } 11. Ke3?! { (-6.62 → -7.51) Inaccuracy. Best move was Kf1. } { [%clk 0:01:31] } (11. Kf1 Nxf3 12. h3 Bh5 13. gxf3 Bxf3 14. Rg1 O-O-O 15. Bd2 Rxd3 16. Bc3 f6 17. Re1 g6) 11... Bc5? { (-7.51 → -6.05) Mistake. Best move was Nc2+. } { [%clk 0:02:47] } (11... Nc2+ 12. Kd2 Nxa1 13. Kc3 Bxf3 14. gxf3 a5 15. b3 O-O-O 16. f4 exf4 17. Bxf4 g5 18. Bxg5) 12. Nxe5 { [%clk 0:01:14] } Nc2+ { [%clk 0:02:40] } 13. Kd2 { [%clk 0:00:54] } Nxa1 { [%clk 0:02:40] } 14. Nxg4 { [%clk 0:00:51] } O-O-O { [%clk 0:02:40] } 15. b3 { [%clk 0:00:43] } Bb4+ { [%clk 0:02:39] } 16. Kd1?! { (-6.28 → -6.97) Inaccuracy. Best move was Ke2. } { [%clk 0:01:14] } (16. Ke2 Rhe8+ 17. Ne3 Nc2 18. h3 Rd6 19. a3 Nxa3 20. Bxa3 Bxa3 21. Ra1 Bc5 22. Ra5 Bd4) 16... Rxd3+ { [%clk 0:02:37] } 17. Ke2 { [%clk 0:01:07] } Rhd8 { [%clk 0:02:37] } 18. Rd1?? { (-6.53 → -13.27) Blunder. Best move was Ne3. } { [%clk 0:00:57] } (18. Ne3 R3d6 19. Nd5 Re6+ 20. Be3 Nc2 21. Nxb4 Nxb4 22. Ra1 b6 23. g3 Nc2 24. Rd1 Rxd1) 18... Rxd1 { [%clk 0:02:38] } 19. Bb2 { [%clk 0:00:39] } R8d2+ { [%clk 0:02:38] } 20. Ke3 { [%clk 0:00:34] } Rxb2 { [%clk 0:02:37] } { White resigns. } 0-1
