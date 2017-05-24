@@ -1,0 +1,18 @@
+[Event "Rated game"]
+[Site "https://lichess.org/pMztkQ7K"]
+[Date "2017.05.14"]
+[Round "-"]
+[White "aptypr"]
+[Black "doas"]
+[Result "1-0"]
+[WhiteElo "1691"]
+[BlackElo "1445"]
+[PlyCount "125"]
+[Variant "Standard"]
+[TimeControl "180+2"]
+[ECO "D06"]
+[Opening "Queen's Gambit Refused: Chigorin Defense, Modern Gambit"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. d4 { [%clk 0:03:00] } d5 { [%clk 0:03:00] } 2. c4 { [%clk 0:03:00] } Nf6 { [%clk 0:02:59] } 3. Nc3 { [%clk 0:02:59] } Nc6 { [%clk 0:02:59] } 4. Nf3 { [%clk 0:02:44] } dxc4 { [%clk 0:02:57] } { D06 Queen's Gambit Refused: Chigorin Defense, Modern Gambit } 5. e3 { [%clk 0:02:29] } Bg4 { [%clk 0:02:57] } 6. Bxc4 { [%clk 0:02:25] } e6 { [%clk 0:02:54] } 7. O-O { [%clk 0:02:25] } Bb4 { [%clk 0:02:48] } 8. h3 { [%clk 0:02:04] } Bf5 { [%clk 0:02:47] } 9. Bd2 { [%clk 0:02:02] } Ne4 { [%clk 0:02:46] } 10. Nxe4 { [%clk 0:01:56] } Bxd2 { [%clk 0:02:46] } 11. Nexd2 { [%clk 0:01:53] } O-O { [%clk 0:02:42] } 12. Qa4 { [%clk 0:01:43] } Qd7 { [%clk 0:02:36] } 13. Rac1 { [%clk 0:01:37] } Rfe8 { [%clk 0:02:30] } 14. Bb5 { [%clk 0:01:28] } Bg6 { [%clk 0:02:16] } 15. Bxc6 { [%clk 0:01:23] } bxc6 { [%clk 0:02:16] } 16. Qxc6 { [%clk 0:01:22] } Qxc6 { [%clk 0:02:15] } 17. Rxc6 { [%clk 0:01:24] } Rec8 { [%clk 0:02:12] } 18. Rfc1 { [%clk 0:01:24] } Kf8 { [%clk 0:02:09] } 19. Rxc7 { [%clk 0:01:25] } Rxc7 { [%clk 0:02:10] } 20. Rxc7 { [%clk 0:01:27] } Ke8 { [%clk 0:02:09] } 21. Kf1 { [%clk 0:01:28] } Bd3+ { [%clk 0:02:07] } 22. Ke1 { [%clk 0:01:27] } Bg6 { [%clk 0:02:00] } 23. Ne5 { [%clk 0:01:25] } Rb8 { [%clk 0:01:50] } 24. b3 { [%clk 0:01:20] } f6 { [%clk 0:01:44] } 25. Nc6 { [%clk 0:01:10] } Ra8 { [%clk 0:01:35] } 26. Rxa7 { [%clk 0:01:08] } Rxa7 { [%clk 0:01:35] } 27. Nxa7 { [%clk 0:01:09] } Ke7 { [%clk 0:01:36] } 28. b4 { [%clk 0:01:05] } Kd7 { [%clk 0:01:35] } 29. b5 { [%clk 0:01:04] } Kc7 { [%clk 0:01:35] } 30. a4 { [%clk 0:00:50] } Kb6 { [%clk 0:01:35] } 31. Nc4+ { [%clk 0:00:48] } Kxa7 { [%clk 0:01:35] } 32. Kd2 { [%clk 0:00:45] } Kb7 { [%clk 0:01:30] } 33. Kc3 { [%clk 0:00:45] } f5 { [%clk 0:01:29] } 34. g3 { [%clk 0:00:46] } Bh5 { [%clk 0:01:29] } 35. Nd6+ { [%clk 0:00:41] } Kc7 { [%clk 0:01:29] } 36. Nc4 { [%clk 0:00:37] } Kb7 { [%clk 0:01:27] } 37. Kb4 { [%clk 0:00:35] } Be2 { [%clk 0:01:26] } 38. a5 { [%clk 0:00:30] } g6 { [%clk 0:01:21] } 39. a6+ { [%clk 0:00:25] } Ka7 { [%clk 0:01:22] } 40. Kc5 { [%clk 0:00:26] } h5 { [%clk 0:01:19] } 41. Nd6 { [%clk 0:00:25] } Bf1 { [%clk 0:01:16] } 42. h4 { [%clk 0:00:25] } Bg2 { [%clk 0:01:15] } 43. Nf7 { [%clk 0:00:21] } Kb8 { [%clk 0:01:10] } 44. Nh8 { [%clk 0:00:21] } Be4 { [%clk 0:01:08] } 45. Nxg6 { [%clk 0:00:21] } f4 { [%clk 0:01:09] } 46. Nxf4 { [%clk 0:00:21] } Bf5 { [%clk 0:01:09] } 47. Nxh5 { [%clk 0:00:22] } Bg6 { [%clk 0:01:09] } 48. Ng7 { [%clk 0:00:22] } Ka7 { [%clk 0:01:08] } 49. g4 { [%clk 0:00:23] } Be4 { [%clk 0:01:04] } 50. Nxe6 { [%clk 0:00:22] } Kb8 { [%clk 0:01:02] } 51. h5 { [%clk 0:00:23] } Ka7 { [%clk 0:01:01] } 52. g5 { [%clk 0:00:23] } Kb8 { [%clk 0:01:01] } 53. h6 { [%clk 0:00:25] } Ka7 { [%clk 0:01:03] } 54. Nf4 { [%clk 0:00:25] } Bh7 { [%clk 0:01:01] } 55. g6 { [%clk 0:00:26] } Bxg6 { [%clk 0:00:59] } 56. Nxg6 { [%clk 0:00:26] } Kb8 { [%clk 0:00:59] } 57. h7 { [%clk 0:00:27] } Ka7 { [%clk 0:01:01] } 58. h8=N { [%clk 0:00:22] } Kb8 { [%clk 0:01:00] } 59. Kb6 { [%clk 0:00:23] } Kc8 { [%clk 0:01:01] } 60. a7 { [%clk 0:00:24] } Kd7 { [%clk 0:00:57] } 61. a8=Q { [%clk 0:00:22] } Ke6 { [%clk 0:00:58] } 62. Qe4+ { [%clk 0:00:21] } Kf6 { [%clk 0:00:58] } 63. Qe5# { [%clk 0:00:19] } { White wins by checkmate. } 1-0
