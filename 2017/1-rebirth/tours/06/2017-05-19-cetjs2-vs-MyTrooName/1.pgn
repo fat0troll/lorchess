@@ -1,0 +1,18 @@
+[Event "Rated game"]
+[Site "https://lichess.org/sJeKSL5U"]
+[Date "2017.05.19"]
+[Round "-"]
+[White "doas"]
+[Black "sshilovsky"]
+[Result "0-1"]
+[WhiteElo "1397"]
+[BlackElo "1554"]
+[PlyCount "38"]
+[Variant "Standard"]
+[TimeControl "180+2"]
+[ECO "C47"]
+[Opening "Four Knights Game: Scotch Variation Accepted"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 { [%clk 0:03:00] } e5 { [%clk 0:03:00] } 2. Nf3 { [%clk 0:03:01] } Nc6 { [%clk 0:03:00] } 3. Nc3 { [%clk 0:03:01] } Nf6 { [%clk 0:02:47] } 4. d4 { [%clk 0:03:02] } exd4 { [%clk 0:02:47] } { C47 Four Knights Game: Scotch Variation Accepted } 5. Nxd4 { [%clk 0:03:02] } Bb4 { [%clk 0:02:31] } 6. Nxc6 { [%clk 0:03:02] } bxc6 { [%clk 0:02:31] } 7. Bd2 { [%clk 0:03:01] } O-O { [%clk 0:02:21] } 8. Bd3 { [%clk 0:03:02] } d5 { [%clk 0:02:17] } 9. exd5 { [%clk 0:03:00] } cxd5 { [%clk 0:02:09] } 10. O-O { [%clk 0:03:01] } Re8 { [%clk 0:01:51] } 11. Re1 { [%clk 0:02:59] } Rxe1+ { [%clk 0:01:33] } 12. Qxe1 { [%clk 0:02:59] } Be6 { [%clk 0:01:15] } 13. a3 { [%clk 0:02:49] } Ba5 { [%clk 0:01:08] } 14. b4 { [%clk 0:02:46] } Bb6 { [%clk 0:01:07] } 15. Na4 { [%clk 0:02:43] } Qd6 { [%clk 0:01:03] } 16. Be3 { [%clk 0:02:37] } Ng4 { [%clk 0:00:56] } 17. Bxb6 { [%clk 0:02:35] } Qxh2+ { [%clk 0:00:54] } 18. Kf1 { [%clk 0:02:36] } axb6 { [%clk 0:00:43] } 19. Be2 { [%clk 0:02:31] } Qh1# { [%clk 0:00:33] } { Black wins by checkmate. } 0-1
