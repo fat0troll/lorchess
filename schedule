@@ -143,7 +143,6 @@ function output_tour_info {
 function get_tour_num {
     if [[ -z $tour_num ]]; then
         [[ $line =~ "Тур №"([0-9]+) ]] && tour_num=${BASH_REMATCH[1]}
-        continue
     fi
 }
 
@@ -172,7 +171,6 @@ function get_tour_dates {
             # Use short dates
             date_beg=${date_beg::5} date_end=${date_end::5}
         fi
-        continue
     fi
 }
 
