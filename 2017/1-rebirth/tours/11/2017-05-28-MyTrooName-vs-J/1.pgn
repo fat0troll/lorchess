@@ -1,0 +1,18 @@
+[Event "Rated game"]
+[Site "https://lichess.org/u83chqxq"]
+[Date "2017.05.28"]
+[Round "-"]
+[White "sshilovsky"]
+[Black "LOR_J"]
+[Result "0-1"]
+[WhiteElo "1553"]
+[BlackElo "1470"]
+[PlyCount "72"]
+[Variant "Standard"]
+[TimeControl "180+2"]
+[ECO "C50"]
+[Opening "Italian Game: Giuoco Pianissimo"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 { [%clk 0:03:00] } e5 { [%clk 0:03:00] } 2. Nf3 { [%clk 0:03:01] } Nc6 { [%clk 0:03:01] } 3. Bc4 { [%clk 0:03:02] } Bc5 { [%clk 0:03:03] } 4. d3 { [%clk 0:02:59] } { C50 Italian Game: Giuoco Pianissimo } h6 { [%clk 0:03:03] } 5. O-O { [%clk 0:03:00] } Nf6 { [%clk 0:03:03] } 6. Nc3 { [%clk 0:03:02] } O-O { [%clk 0:03:01] } 7. Be3 { [%clk 0:03:02] } Bb6 { [%clk 0:03:01] } 8. Nd5 { [%clk 0:03:00] } Nxd5 { [%clk 0:02:58] } 9. Bxd5 { [%clk 0:03:00] } Ne7 { [%clk 0:02:55] } 10. Nxe5 { [%clk 0:02:49] } Nxd5 { [%clk 0:02:53] } 11. exd5 { [%clk 0:02:51] } d6 { [%clk 0:02:54] } 12. Ng4 { [%clk 0:02:47] } Bxg4 { [%clk 0:02:50] } 13. Qxg4 { [%clk 0:02:46] } f5 { [%clk 0:02:51] } 14. Qg3 { [%clk 0:02:44] } Qf6 { [%clk 0:02:52] } 15. f4 { [%clk 0:02:28] } Bxe3+ { [%clk 0:02:47] } 16. Qxe3 { [%clk 0:02:27] } Qxb2 { [%clk 0:02:47] } 17. Rab1 { [%clk 0:02:25] } Qxa2 { [%clk 0:02:46] } 18. Qe6+ { [%clk 0:02:23] } Kh8 { [%clk 0:02:45] } 19. Rxb7 { [%clk 0:02:21] } Qxc2 { [%clk 0:02:40] } 20. Qe7 { [%clk 0:02:14] } Rfc8 { [%clk 0:02:36] } 21. Re1 { [%clk 0:02:09] } Qxd3 { [%clk 0:02:32] } 22. Qe6 { [%clk 0:02:06] } a5 { [%clk 0:02:27] } 23. Ra7 { [%clk 0:01:55] } a4 { [%clk 0:02:27] } 24. Rb7 { [%clk 0:01:41] } a3 { [%clk 0:02:22] } 25. Rbb1 { [%clk 0:01:41] } a2 { [%clk 0:02:22] } 26. Ra1 { [%clk 0:01:42] } Qc3 { [%clk 0:02:19] } 27. Rec1 { [%clk 0:01:37] } Qd4+ { [%clk 0:02:15] } 28. Kh1 { [%clk 0:01:34] } Qxf4 { [%clk 0:02:07] } 29. Rf1 { [%clk 0:01:17] } Qxf1+ { [%clk 0:01:57] } 30. Rxf1 { [%clk 0:01:17] } a1=Q { [%clk 0:01:58] } 31. Qe2 { [%clk 0:01:15] } Qa6 { [%clk 0:01:53] } 32. Qe1 { [%clk 0:01:11] } Qc4 { [%clk 0:01:45] } 33. Rxf5 { [%clk 0:01:09] } Ra5 { [%clk 0:01:42] } 34. h3 { [%clk 0:01:07] } Rxd5 { [%clk 0:01:42] } 35. Qe6 { [%clk 0:00:58] } Rd1+ { [%clk 0:01:41] } 36. Kh2 { [%clk 0:00:53] } Qxe6 { [%clk 0:01:42] } { White resigns. } 0-1
