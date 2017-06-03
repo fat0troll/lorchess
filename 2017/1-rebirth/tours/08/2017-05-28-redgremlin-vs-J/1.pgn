@@ -1,0 +1,18 @@
+[Event "Casual game"]
+[Site "https://lichess.org/2ihcXx2m"]
+[Date "2017.05.28"]
+[Round "-"]
+[White "gremlin_the_red"]
+[Black "LOR_J"]
+[Result "1-0"]
+[WhiteElo "1914"]
+[BlackElo "1470"]
+[PlyCount "45"]
+[Variant "Standard"]
+[TimeControl "180+2"]
+[ECO "D44"]
+[Opening "Queen's Gambit Declined: Vienna Variation, Quiet Variation"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. d4 { [%clk 0:03:00] } d5 { [%clk 0:03:00] } 2. c4 { [%clk 0:03:00] } dxc4 { [%clk 0:03:01] } 3. Nf3 { [%clk 0:03:00] } e6 { [%clk 0:03:02] } 4. Nc3 { [%clk 0:03:01] } Nf6 { [%clk 0:03:04] } 5. e3 { [%clk 0:03:01] } { D44 Queen's Gambit Declined: Vienna Variation, Quiet Variation } Bb4 { [%clk 0:03:00] } 6. Bxc4 { [%clk 0:03:01] } Nc6 { [%clk 0:02:59] } 7. O-O { [%clk 0:03:02] } Bd7 { [%clk 0:03:01] } 8. Qe2 { [%clk 0:03:03] } a6 { [%clk 0:03:02] } 9. Rd1 { [%clk 0:03:03] } O-O { [%clk 0:03:01] } 10. a3 { [%clk 0:03:04] } Ba5 { [%clk 0:03:02] } 11. b4 { [%clk 0:03:02] } Bb6 { [%clk 0:03:02] } 12. Bb2 { [%clk 0:03:03] } Ne7 { [%clk 0:03:02] } 13. e4 { [%clk 0:03:02] } h6 { [%clk 0:03:00] } 14. Rac1 { [%clk 0:02:57] } Nh7 { [%clk 0:03:00] } 15. e5 { [%clk 0:02:55] } Ng6 { [%clk 0:03:00] } 16. g3 { [%clk 0:02:48] } f5 { [%clk 0:02:48] } 17. exf6 { [%clk 0:02:47] } Rxf6 { [%clk 0:02:49] } 18. d5 { [%clk 0:02:46] } exd5 { [%clk 0:02:48] } 19. Nxd5 { [%clk 0:02:46] } Rf8 { [%clk 0:02:38] } 20. Nxb6+ { [%clk 0:02:46] } Kh8 { [%clk 0:02:38] } 21. Nxd7 { [%clk 0:02:46] } Qc8 { [%clk 0:02:14] } 22. Nxf8 { [%clk 0:02:46] } Qxf8 { [%clk 0:02:15] } 23. Rd7 { [%clk 0:02:43] } { Black resigns. } 1-0
