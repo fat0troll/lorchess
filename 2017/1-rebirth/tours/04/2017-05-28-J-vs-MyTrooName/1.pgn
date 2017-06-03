@@ -1,0 +1,18 @@
+[Event "Casual game"]
+[Site "https://lichess.org/XVKzByAS"]
+[Date "2017.05.28"]
+[Round "-"]
+[White "LOR_J"]
+[Black "sshilovsky"]
+[Result "0-1"]
+[WhiteElo "1470"]
+[BlackElo "1553"]
+[PlyCount "50"]
+[Variant "Standard"]
+[TimeControl "180+2"]
+[ECO "C58"]
+[Opening "Italian Game: Two Knights Defense, Polerio Defense, Bishop Check Line"]
+[Termination "Time forfeit"]
+[Annotator "lichess.org"]
+
+1. e4 { [%clk 0:03:00] } e5 { [%clk 0:03:00] } 2. Nf3 { [%clk 0:03:01] } Nc6 { [%clk 0:03:00] } 3. Bc4 { [%clk 0:03:02] } Nf6 { [%clk 0:03:01] } 4. Ng5 { [%clk 0:03:01] } d5 { [%clk 0:03:01] } 5. exd5 { [%clk 0:03:01] } Na5 { [%clk 0:03:01] } 6. Bb5+ { [%clk 0:02:56] } { C58 Italian Game: Two Knights Defense, Polerio Defense, Bishop Check Line } c6 { [%clk 0:03:02] } 7. dxc6 { [%clk 0:02:57] } bxc6 { [%clk 0:03:04] } 8. Ba4 { [%clk 0:02:57] } h6 { [%clk 0:03:01] } 9. Nf3 { [%clk 0:02:58] } Bc5 { [%clk 0:02:47] } 10. O-O { [%clk 0:02:47] } Bg4 { [%clk 0:02:43] } 11. h3 { [%clk 0:02:46] } Bh5 { [%clk 0:02:37] } 12. g4 { [%clk 0:02:47] } Bg6 { [%clk 0:02:36] } 13. c3 { [%clk 0:02:44] } Qd5 { [%clk 0:02:26] } 14. b4 { [%clk 0:02:41] } Be4 { [%clk 0:02:12] } 15. Ne1 { [%clk 0:02:32] } h5 { [%clk 0:01:11] } 16. bxc5 { [%clk 0:02:14] } hxg4 { [%clk 0:01:09] } 17. f3 { [%clk 0:02:12] } Qxc5+ { [%clk 0:00:49] } 18. d4 { [%clk 0:02:11] } exd4 { [%clk 0:00:48] } 19. cxd4 { [%clk 0:02:12] } Qh5 { [%clk 0:00:42] } 20. Bf4 { [%clk 0:00:45] } Qxh3 { [%clk 0:00:20] } 21. fxe4 { [%clk 0:00:19] } Qh1+ { [%clk 0:00:19] } 22. Kf2 { [%clk 0:00:20] } Nxe4+ { [%clk 0:00:20] } 23. Ke2 { [%clk 0:00:19] } Qg2+ { [%clk 0:00:17] } 24. Kd3 { [%clk 0:00:11] } Rh3+ { [%clk 0:00:14] } 25. Rf3 { [%clk 0:00:03] } Nf2+ { [%clk 0:00:11] } { Black wins on time. } 0-1
