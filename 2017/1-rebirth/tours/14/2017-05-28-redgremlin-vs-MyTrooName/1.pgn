@@ -1,0 +1,18 @@
+[Event "Casual game"]
+[Site "https://lichess.org/tRPkm1VI"]
+[Date "2017.05.28"]
+[Round "-"]
+[White "gremlin_the_red"]
+[Black "sshilovsky"]
+[Result "1-0"]
+[WhiteElo "1914"]
+[BlackElo "1553"]
+[PlyCount "37"]
+[Variant "Standard"]
+[TimeControl "180+2"]
+[ECO "D10"]
+[Opening "Slav Defense #2"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. d4 { [%clk 0:03:00] } d5 { [%clk 0:03:00] } 2. c4 { [%clk 0:03:01] } c6 { [%clk 0:03:01] } 3. Nc3 { [%clk 0:03:01] } { D10 Slav Defense #2 } Nf6 { [%clk 0:03:02] } 4. Bg5 { [%clk 0:03:01] } h6 { [%clk 0:02:59] } 5. Bh4 { [%clk 0:03:02] } g5 { [%clk 0:03:00] } 6. Bg3 { [%clk 0:03:03] } Bg7 { [%clk 0:03:01] } 7. e3 { [%clk 0:03:02] } Ne4 { [%clk 0:03:01] } 8. Nf3 { [%clk 0:03:02] } f5 { [%clk 0:03:00] } 9. Be5 { [%clk 0:03:02] } Bxe5 { [%clk 0:02:53] } 10. Nxe5 { [%clk 0:03:02] } Be6 { [%clk 0:02:54] } 11. Qh5+ { [%clk 0:03:02] } Kf8 { [%clk 0:02:53] } 12. Ng6+ { [%clk 0:03:01] } Kg8 { [%clk 0:02:53] } 13. Nxh8 { [%clk 0:03:01] } Kxh8 { [%clk 0:02:55] } 14. Qxh6+ { [%clk 0:03:02] } Kg8 { [%clk 0:02:56] } 15. Qxe6+ { [%clk 0:03:03] } Kf8 { [%clk 0:02:56] } 16. Qxf5+ { [%clk 0:03:04] } Nf6 { [%clk 0:02:55] } 17. h4 { [%clk 0:03:05] } gxh4 { [%clk 0:02:47] } 18. Rxh4 { [%clk 0:03:05] } Kf7 { [%clk 0:02:49] } 19. Rh7+ { [%clk 0:03:05] } { Black resigns. } 1-0
